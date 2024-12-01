@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Al Jazeera Arabic Live</title>
+    <link>https://onlineradiobox.com/qa/aljazeeraarabic/</link>
+    <description>Live stream of Al Jazeera Arabic</description>
+    <item>
+      <title>Live Broadcast</title>
+      <link>https://stream.radiomast.io/al-jazeera-arabic</link>
+      <guid>https://stream.radiomast.io/al-jazeera-arabic</guid>
+      <enclosure url="https://stream.radiomast.io/al-jazeera-arabic" type="audio/mpeg" />
+      <description>24/7 live broadcast of Al Jazeera Arabic.</description>
+    </item>
+  </channel>
+</rss>
