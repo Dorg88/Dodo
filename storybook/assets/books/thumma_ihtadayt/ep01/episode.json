@@ -1,0 +1,884 @@
+{
+ "schemaVersion": 1,
+ "bookId": "thumma_ihtadayt",
+ "id": "ep01",
+ "number": 1,
+ "title": "ليلة لا تنسى",
+ "bookTitle": "ثم اهتديت",
+ "bookSubtitle": "رحلة البحث عن الحقيقة",
+ "author": "محمد التيجاني السماوي",
+ "genre": "سيرة ذاتية · رحلة فكرية",
+ "location": "قفصة، تونس",
+ "note": "معالجة درامية لحلقة الطفولة كما يرويها الكتاب؛ بعض الحوار كُتب للعرض الدرامي وليس نقلاً حرفياً عن المؤلف.",
+ "durationMs": 148810,
+ "audio": {
+  "voice": "assets/books/thumma_ihtadayt/ep01/audio/voice.m4a",
+  "music": "assets/books/thumma_ihtadayt/ep01/audio/music.m4a",
+  "sfx": "assets/books/thumma_ihtadayt/ep01/audio/sfx.m4a"
+ },
+ "speakers": {
+  "SPEAKER_01": {
+   "name": "الراوي",
+   "description": "صوت سردي عميق ودافئ"
+  },
+  "SPEAKER_02": {
+   "name": "التيجاني الصغير",
+   "description": "طفل في العاشرة"
+  },
+  "SPEAKER_03": {
+   "name": "الأب",
+   "description": "صوت دافئ مطمئن"
+  },
+  "SPEAKER_04": {
+   "name": "المعلم",
+   "description": "شيخ وقور هادئ"
+  },
+  "SPEAKER_05": {
+   "name": "المصلي الأول",
+   "description": "إعجاب صادق"
+  },
+  "SPEAKER_06": {
+   "name": "المصلي الثاني",
+   "description": "فرح ومباركة"
+  },
+  "SPEAKER_07": {
+   "name": "التيجاني الكبير",
+   "description": "صوت ناضج متأمل"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "title": "قفصة في ليلة رمضانية",
+   "layout": "plate",
+   "image": "assets/books/thumma_ihtadayt/ep01/images/01_gafsa_moonlit_city.jpg",
+   "startMs": 0,
+   "endMs": 12610,
+   "music": [
+    "حنين افتتاحي"
+   ],
+   "sfx": [
+    "خطوات على حجر قديم",
+    "ليل رمضاني هادئ"
+   ]
+  },
+  {
+   "number": 2,
+   "title": "في الطريق إلى المسجد",
+   "layout": "plate",
+   "image": "assets/books/thumma_ihtadayt/ep01/images/02_father_son_walking.jpg",
+   "startMs": 12610,
+   "endMs": 22700,
+   "music": [
+    "ترقب",
+    "حنين افتتاحي"
+   ],
+   "sfx": [
+    "ليل رمضاني هادئ"
+   ]
+  },
+  {
+   "number": 3,
+   "title": "سؤال الطفل",
+   "layout": "plate",
+   "image": "assets/books/thumma_ihtadayt/ep01/images/03_child_looks_up.jpg",
+   "startMs": 22700,
+   "endMs": 29640,
+   "music": [
+    "ترقب",
+    "حنين افتتاحي"
+   ],
+   "sfx": [
+    "خطوات تقترب من المسجد",
+    "ليل رمضاني هادئ"
+   ]
+  },
+  {
+   "number": 4,
+   "title": "طمأنينة الأب",
+   "layout": "plate",
+   "image": "assets/books/thumma_ihtadayt/ep01/images/04_father_reassures.jpg",
+   "startMs": 29640,
+   "endMs": 37630,
+   "music": [
+    "ترقب"
+   ],
+   "sfx": [
+    "ليل رمضاني هادئ"
+   ]
+  },
+  {
+   "number": 5,
+   "title": "على باب المسجد",
+   "layout": "plate",
+   "image": "assets/books/thumma_ihtadayt/ep01/images/05_mosque_doors.jpg",
+   "startMs": 37630,
+   "endMs": 47690,
+   "music": [
+    "ترقب"
+   ],
+   "sfx": [
+    "ليل رمضاني هادئ"
+   ]
+  },
+  {
+   "number": 6,
+   "title": "دعوة المعلم",
+   "layout": "plate",
+   "image": "assets/books/thumma_ihtadayt/ep01/images/06_teacher_invites.jpg",
+   "startMs": 47690,
+   "endMs": 54970,
+   "music": [
+    "ترقب",
+    "سكينة المسجد"
+   ],
+   "sfx": [
+    "باب المسجد يفتح",
+    "سكون المسجد",
+    "ليل رمضاني هادئ",
+    "همسات المصلين"
+   ]
+  },
+  {
+   "number": 7,
+   "title": "أمام المصلين",
+   "layout": "plate",
+   "image": "assets/books/thumma_ihtadayt/ep01/images/07_child_leads_congregation.jpg",
+   "startMs": 54970,
+   "endMs": 65160,
+   "music": [],
+   "sfx": [
+    "حركة المصلين في الصفوف",
+    "سكون المسجد",
+    "همسات المصلين"
+   ]
+  },
+  {
+   "number": 8,
+   "title": "تكبيرة الإحرام",
+   "layout": "plate",
+   "image": "assets/books/thumma_ihtadayt/ep01/images/08_takbir.jpg",
+   "startMs": 65160,
+   "endMs": 67580,
+   "music": [],
+   "sfx": []
+  },
+  {
+   "number": 9,
+   "title": "ومضت الصلاة",
+   "layout": "plate",
+   "image": "assets/books/thumma_ihtadayt/ep01/images/10_prayer_wide.jpg",
+   "startMs": 67580,
+   "endMs": 79740,
+   "music": [],
+   "sfx": [
+    "سكون المسجد"
+   ]
+  },
+  {
+   "number": 10,
+   "title": "تهاني المصلين",
+   "layout": "plate",
+   "image": "assets/books/thumma_ihtadayt/ep01/images/09_congratulations.jpg",
+   "startMs": 79740,
+   "endMs": 96700,
+   "music": [
+    "دفء الفرح"
+   ],
+   "sfx": [
+    "أصوات المصلين بعد الصلاة",
+    "سكون المسجد"
+   ]
+  },
+  {
+   "number": 11,
+   "title": "رحلة أخرى",
+   "layout": "plate",
+   "image": "assets/books/thumma_ihtadayt/ep01/images/02_father_son_walking.jpg",
+   "startMs": 96700,
+   "endMs": 104540,
+   "music": [
+    "تأمل وغموض",
+    "دفء الفرح"
+   ],
+   "sfx": []
+  },
+  {
+   "number": 12,
+   "title": "ذكريات التيجاني الكبير",
+   "layout": "plate",
+   "image": "assets/books/thumma_ihtadayt/ep01/images/01_gafsa_moonlit_city.jpg",
+   "startMs": 104540,
+   "endMs": 120540,
+   "music": [
+    "تأمل وغموض",
+    "دفء الفرح"
+   ],
+   "sfx": []
+  },
+  {
+   "number": 13,
+   "title": "بداية البحث عن الحقيقة",
+   "layout": "plate",
+   "image": "assets/books/thumma_ihtadayt/ep01/images/07_child_leads_congregation.jpg",
+   "startMs": 120540,
+   "endMs": 135670,
+   "music": [
+    "تأمل وتشويق",
+    "خاتمة سينمائية"
+   ],
+   "sfx": []
+  },
+  {
+   "number": 14,
+   "title": "ثم اهتديت",
+   "layout": "closing",
+   "image": "assets/books/thumma_ihtadayt/ep01/images/01_gafsa_moonlit_city.jpg",
+   "startMs": 135670,
+   "endMs": 148810,
+   "music": [
+    "تأمل وتشويق",
+    "خاتمة سينمائية"
+   ],
+   "sfx": []
+  }
+ ],
+ "segments": [
+  {
+   "id": "n1a",
+   "scene": 1,
+   "speakerId": "SPEAKER_01",
+   "speakerName": "الراوي",
+   "direction": "بصوت عميق، هادئ، مليء بالحنين",
+   "text": "في مدينة قفصة التونسية... وفي إحدى ليالي شهر رمضان المبارك... كان طفل في العاشرة من عمره يسير إلى جانب والده.",
+   "trailingText": null,
+   "startMs": 3600,
+   "endMs": 12360,
+   "audioSource": "narrator.wav",
+   "sourceStartMs": 0,
+   "sourceEndMs": 8760,
+   "lines": [
+    {
+     "text": "في مدينة قفصة التونسية...",
+     "startMs": 3600,
+     "endMs": 5600
+    },
+    {
+     "text": "وفي إحدى ليالي شهر رمضان المبارك...",
+     "startMs": 5600,
+     "endMs": 7980
+    },
+    {
+     "text": "كان طفل في العاشرة من عمره يسير إلى جانب والده.",
+     "startMs": 7980,
+     "endMs": 12360
+    }
+   ],
+   "music": [
+    "حنين افتتاحي"
+   ],
+   "sfx": [
+    "خطوات على حجر قديم",
+    "ليل رمضاني هادئ"
+   ]
+  },
+  {
+   "id": "n1b",
+   "scene": 2,
+   "speakerId": "SPEAKER_01",
+   "speakerName": "الراوي",
+   "direction": "بصوت عميق، هادئ، مليء بالحنين",
+   "text": "لم يكن يعلم أن تلك الليلة ستبقى محفورة في ذاكرته لسنوات طويلة. كان اسمه... محمد التيجاني السماوي.",
+   "trailingText": null,
+   "startMs": 12860,
+   "endMs": 22300,
+   "audioSource": "narrator.wav",
+   "sourceStartMs": 8760,
+   "sourceEndMs": 18200,
+   "lines": [
+    {
+     "text": "لم يكن يعلم أن تلك الليلة ستبقى محفورة في ذاكرته لسنوات طويلة.",
+     "startMs": 12860,
+     "endMs": 18340
+    },
+    {
+     "text": "كان اسمه... محمد التيجاني السماوي.",
+     "startMs": 18340,
+     "endMs": 22300
+    }
+   ],
+   "music": [
+    "ترقب",
+    "حنين افتتاحي"
+   ],
+   "sfx": [
+    "ليل رمضاني هادئ"
+   ]
+  },
+  {
+   "id": "child1",
+   "scene": 3,
+   "speakerId": "SPEAKER_02",
+   "speakerName": "التيجاني الصغير",
+   "direction": "بصوت طفل متردد",
+   "text": "أبي... هل سأقف أمام كل هؤلاء الناس؟",
+   "trailingText": null,
+   "startMs": 24700,
+   "endMs": 29290,
+   "audioSource": "tijani_child.wav",
+   "sourceStartMs": 0,
+   "sourceEndMs": 4590,
+   "lines": [
+    {
+     "text": "أبي... هل سأقف أمام كل هؤلاء الناس؟",
+     "startMs": 24700,
+     "endMs": 29290
+    }
+   ],
+   "music": [
+    "ترقب"
+   ],
+   "sfx": [
+    "خطوات تقترب من المسجد",
+    "ليل رمضاني هادئ"
+   ]
+  },
+  {
+   "id": "father",
+   "scene": 4,
+   "speakerId": "SPEAKER_03",
+   "speakerName": "الأب",
+   "direction": "بصوت دافئ، مطمئن",
+   "text": "لا تخف يا بني. لقد حفظت القرآن، وتعلمت كيف تصلي. توكل على الله.",
+   "trailingText": null,
+   "startMs": 29990,
+   "endMs": 37230,
+   "audioSource": "father.wav",
+   "sourceStartMs": 0,
+   "sourceEndMs": 7240,
+   "lines": [
+    {
+     "text": "لا تخف يا بني.",
+     "startMs": 29990,
+     "endMs": 31700
+    },
+    {
+     "text": "لقد حفظت القرآن، وتعلمت كيف تصلي.",
+     "startMs": 31700,
+     "endMs": 35390
+    },
+    {
+     "text": "توكل على الله.",
+     "startMs": 35390,
+     "endMs": 37230
+    }
+   ],
+   "music": [
+    "ترقب"
+   ],
+   "sfx": [
+    "ليل رمضاني هادئ"
+   ]
+  },
+  {
+   "id": "n2",
+   "scene": 5,
+   "speakerId": "SPEAKER_01",
+   "speakerName": "الراوي",
+   "direction": "بصوت هادئ",
+   "text": "كان الطفل قد حفظ نصف القرآن الكريم. وكان معلمه قد أعده بعناية للمشاركة في إمامة المصلين في صلاة التراويح.",
+   "trailingText": null,
+   "startMs": 38830,
+   "endMs": 47290,
+   "audioSource": "narrator.wav",
+   "sourceStartMs": 18200,
+   "sourceEndMs": 26660,
+   "lines": [
+    {
+     "text": "كان الطفل قد حفظ نصف القرآن الكريم.",
+     "startMs": 38830,
+     "endMs": 41660
+    },
+    {
+     "text": "وكان معلمه قد أعده بعناية للمشاركة في إمامة المصلين في صلاة التراويح.",
+     "startMs": 41660,
+     "endMs": 47290
+    }
+   ],
+   "music": [
+    "ترقب"
+   ],
+   "sfx": [
+    "ليل رمضاني هادئ"
+   ]
+  },
+  {
+   "id": "teacher",
+   "scene": 6,
+   "speakerId": "SPEAKER_04",
+   "speakerName": "المعلم",
+   "direction": "بصوت رجل كبير، وقور",
+   "text": "تقدم يا بني... واستعن بالله.",
+   "trailingText": null,
+   "startMs": 50690,
+   "endMs": 54570,
+   "audioSource": "teacher.wav",
+   "sourceStartMs": 0,
+   "sourceEndMs": 3880,
+   "lines": [
+    {
+     "text": "تقدم يا بني...",
+     "startMs": 50690,
+     "endMs": 52760
+    },
+    {
+     "text": "واستعن بالله.",
+     "startMs": 52760,
+     "endMs": 54570
+    }
+   ],
+   "music": [
+    "سكينة المسجد"
+   ],
+   "sfx": [
+    "سكون المسجد",
+    "همسات المصلين"
+   ]
+  },
+  {
+   "id": "n3",
+   "scene": 7,
+   "speakerId": "SPEAKER_01",
+   "speakerName": "الراوي",
+   "direction": "بهمس يحمل الترقب",
+   "text": "تقدم الطفل بخطوات صغيرة... ووقف خلفه المصلون. ساد الصمت. ثم رفع يديه...",
+   "trailingText": null,
+   "startMs": 56170,
+   "endMs": 64910,
+   "audioSource": "narrator.wav",
+   "sourceStartMs": 26660,
+   "sourceEndMs": 35400,
+   "lines": [
+    {
+     "text": "تقدم الطفل بخطوات صغيرة...",
+     "startMs": 56170,
+     "endMs": 58650
+    },
+    {
+     "text": "ووقف خلفه المصلون.",
+     "startMs": 58650,
+     "endMs": 61080
+    },
+    {
+     "text": "ساد الصمت.",
+     "startMs": 61080,
+     "endMs": 62900
+    },
+    {
+     "text": "ثم رفع يديه...",
+     "startMs": 62900,
+     "endMs": 64910
+    }
+   ],
+   "music": [],
+   "sfx": [
+    "حركة المصلين في الصفوف",
+    "سكون المسجد"
+   ]
+  },
+  {
+   "id": "child2",
+   "scene": 8,
+   "speakerId": "SPEAKER_02",
+   "speakerName": "التيجاني الصغير",
+   "direction": "بصوت خاشع وثابت",
+   "text": "الله أكبر.",
+   "trailingText": null,
+   "startMs": 65410,
+   "endMs": 67180,
+   "audioSource": "tijani_child.wav",
+   "sourceStartMs": 4590,
+   "sourceEndMs": 6360,
+   "lines": [
+    {
+     "text": "الله أكبر.",
+     "startMs": 65410,
+     "endMs": 67180
+    }
+   ],
+   "music": [],
+   "sfx": []
+  },
+  {
+   "id": "n4",
+   "scene": 9,
+   "speakerId": "SPEAKER_01",
+   "speakerName": "الراوي",
+   "direction": "بصوت متأثر",
+   "text": "ومضت الصلاة... وأتم الطفل مهمته بنجاح. لم يكن يعرف أن تلك اللحظات ستمنحه مكانة خاصة في قلوب الناس.",
+   "trailingText": null,
+   "startMs": 69780,
+   "endMs": 79340,
+   "audioSource": "narrator.wav",
+   "sourceStartMs": 35400,
+   "sourceEndMs": 44960,
+   "lines": [
+    {
+     "text": "ومضت الصلاة...",
+     "startMs": 69780,
+     "endMs": 71610
+    },
+    {
+     "text": "وأتم الطفل مهمته بنجاح.",
+     "startMs": 71610,
+     "endMs": 74350
+    },
+    {
+     "text": "لم يكن يعرف أن تلك اللحظات ستمنحه مكانة خاصة في قلوب الناس.",
+     "startMs": 74350,
+     "endMs": 79340
+    }
+   ],
+   "music": [],
+   "sfx": [
+    "سكون المسجد"
+   ]
+  },
+  {
+   "id": "w1",
+   "scene": 10,
+   "speakerId": "SPEAKER_05",
+   "speakerName": "المصلي الأول",
+   "direction": "بإعجاب صادق",
+   "text": "ما شاء الله... بارك الله في هذا الغلام.",
+   "trailingText": null,
+   "startMs": 81340,
+   "endMs": 85460,
+   "audioSource": "worshipper_1.wav",
+   "sourceStartMs": 0,
+   "sourceEndMs": 4120,
+   "lines": [
+    {
+     "text": "ما شاء الله...",
+     "startMs": 81340,
+     "endMs": 82930
+    },
+    {
+     "text": "بارك الله في هذا الغلام.",
+     "startMs": 82930,
+     "endMs": 85460
+    }
+   ],
+   "music": [],
+   "sfx": [
+    "أصوات المصلين بعد الصلاة",
+    "سكون المسجد"
+   ]
+  },
+  {
+   "id": "w2",
+   "scene": 10,
+   "speakerId": "SPEAKER_06",
+   "speakerName": "المصلي الثاني",
+   "direction": "بصوت فرح",
+   "text": "هنيئا لوالده... وهنيئا لمعلمه.",
+   "trailingText": null,
+   "startMs": 85810,
+   "endMs": 89530,
+   "audioSource": "worshipper_2.wav",
+   "sourceStartMs": 0,
+   "sourceEndMs": 3720,
+   "lines": [
+    {
+     "text": "هنيئا لوالده...",
+     "startMs": 85810,
+     "endMs": 87440
+    },
+    {
+     "text": "وهنيئا لمعلمه.",
+     "startMs": 87440,
+     "endMs": 89530
+    }
+   ],
+   "music": [],
+   "sfx": [
+    "أصوات المصلين بعد الصلاة",
+    "سكون المسجد"
+   ]
+  },
+  {
+   "id": "n5a",
+   "scene": 10,
+   "speakerId": "SPEAKER_01",
+   "speakerName": "الراوي",
+   "direction": "بصوت دافئ",
+   "text": "انتشر خبر الطفل الصغير... وتجاوز صيته حدود المسجد والحي.",
+   "trailingText": null,
+   "startMs": 91330,
+   "endMs": 96500,
+   "audioSource": "narrator.wav",
+   "sourceStartMs": 44960,
+   "sourceEndMs": 50130,
+   "lines": [
+    {
+     "text": "انتشر خبر الطفل الصغير...",
+     "startMs": 91330,
+     "endMs": 93450
+    },
+    {
+     "text": "وتجاوز صيته حدود المسجد والحي.",
+     "startMs": 93450,
+     "endMs": 96500
+    }
+   ],
+   "music": [
+    "دفء الفرح"
+   ],
+   "sfx": [
+    "أصوات المصلين بعد الصلاة",
+    "سكون المسجد"
+   ]
+  },
+  {
+   "id": "n5b",
+   "scene": 11,
+   "speakerId": "SPEAKER_01",
+   "speakerName": "الراوي",
+   "direction": "بصوت دافئ",
+   "text": "لكن الحياة كانت تخبئ له رحلة أخرى... رحلة لم تكن تشبه شيئا مما عرفه في طفولته.",
+   "trailingText": null,
+   "startMs": 96900,
+   "endMs": 104140,
+   "audioSource": "narrator.wav",
+   "sourceStartMs": 50130,
+   "sourceEndMs": 57370,
+   "lines": [
+    {
+     "text": "لكن الحياة كانت تخبئ له رحلة أخرى...",
+     "startMs": 96900,
+     "endMs": 100370
+    },
+    {
+     "text": "رحلة لم تكن تشبه شيئا مما عرفه في طفولته.",
+     "startMs": 100370,
+     "endMs": 104140
+    }
+   ],
+   "music": [
+    "تأمل وغموض",
+    "دفء الفرح"
+   ],
+   "sfx": []
+  },
+  {
+   "id": "adult",
+   "scene": 12,
+   "speakerId": "SPEAKER_07",
+   "speakerName": "التيجاني الكبير",
+   "direction": "بصوت ناضج، متأمل",
+   "text": "كم تغيرت الأيام... وكم تغيرت معها أفكاري وأسئلتي... ولكن البحث عن الحقيقة... كان ينتظرني في طريق لم أكن أتوقعه.",
+   "trailingText": null,
+   "startMs": 106740,
+   "endMs": 120140,
+   "audioSource": "tijani_adult.wav",
+   "sourceStartMs": 0,
+   "sourceEndMs": 13400,
+   "lines": [
+    {
+     "text": "كم تغيرت الأيام...",
+     "startMs": 106740,
+     "endMs": 108920
+    },
+    {
+     "text": "وكم تغيرت معها أفكاري وأسئلتي...",
+     "startMs": 108920,
+     "endMs": 112800
+    },
+    {
+     "text": "ولكن البحث عن الحقيقة...",
+     "startMs": 112800,
+     "endMs": 115490
+    },
+    {
+     "text": "كان ينتظرني في طريق لم أكن أتوقعه.",
+     "startMs": 115490,
+     "endMs": 120140
+    }
+   ],
+   "music": [
+    "تأمل وغموض"
+   ],
+   "sfx": []
+  },
+  {
+   "id": "n6",
+   "scene": 13,
+   "speakerId": "SPEAKER_01",
+   "speakerName": "الراوي",
+   "direction": "بنبرة عميقة ومشوقة",
+   "text": "من طفل يقف أمام المصلين... إلى رجل يبدأ رحلة البحث عن الحقيقة. رحلة ستقوده إلى لقاءات وأسئلة ومواقف... تغير نظرته إلى التاريخ والمذاهب والإيمان.",
+   "trailingText": null,
+   "startMs": 122140,
+   "endMs": 135270,
+   "audioSource": "narrator.wav",
+   "sourceStartMs": 57370,
+   "sourceEndMs": 70500,
+   "lines": [
+    {
+     "text": "من طفل يقف أمام المصلين...",
+     "startMs": 122140,
+     "endMs": 124600
+    },
+    {
+     "text": "إلى رجل يبدأ رحلة البحث عن الحقيقة.",
+     "startMs": 124600,
+     "endMs": 127630
+    },
+    {
+     "text": "رحلة ستقوده إلى لقاءات وأسئلة ومواقف...",
+     "startMs": 127630,
+     "endMs": 131600
+    },
+    {
+     "text": "تغير نظرته إلى التاريخ والمذاهب والإيمان.",
+     "startMs": 131600,
+     "endMs": 135270
+    }
+   ],
+   "music": [
+    "تأمل وتشويق"
+   ],
+   "sfx": []
+  },
+  {
+   "id": "n7",
+   "scene": 14,
+   "speakerId": "SPEAKER_01",
+   "speakerName": "الراوي",
+   "direction": "بصوت ختامي مؤثر",
+   "text": "ثم اهتديت... رحلة البحث عن الحقيقة.",
+   "trailingText": "نهاية الحلقة الأولى.",
+   "startMs": 137670,
+   "endMs": 141810,
+   "audioSource": "narrator.wav",
+   "sourceStartMs": 70500,
+   "sourceEndMs": 74640,
+   "lines": [
+    {
+     "text": "ثم اهتديت...",
+     "startMs": 137670,
+     "endMs": 139580
+    },
+    {
+     "text": "رحلة البحث عن الحقيقة.",
+     "startMs": 139580,
+     "endMs": 141810
+    }
+   ],
+   "music": [
+    "خاتمة سينمائية"
+   ],
+   "sfx": []
+  }
+ ],
+ "musicCues": [
+  {
+   "cue": "nostalgic",
+   "label": "حنين افتتاحي",
+   "startMs": 0,
+   "endMs": 23500
+  },
+  {
+   "cue": "suspense",
+   "label": "ترقب",
+   "startMs": 21700,
+   "endMs": 48690
+  },
+  {
+   "cue": "reverent",
+   "label": "سكينة المسجد",
+   "startMs": 47890,
+   "endMs": 54970
+  },
+  {
+   "cue": "warm",
+   "label": "دفء الفرح",
+   "startMs": 89630,
+   "endMs": 105540
+  },
+  {
+   "cue": "reflective",
+   "label": "تأمل وغموض",
+   "startMs": 103740,
+   "endMs": 120840
+  },
+  {
+   "cue": "reflective",
+   "label": "تأمل وتشويق",
+   "startMs": 121840,
+   "endMs": 136270
+  },
+  {
+   "cue": "ending",
+   "label": "خاتمة سينمائية",
+   "startMs": 135070,
+   "endMs": 148810
+  }
+ ],
+ "sfxCues": [
+  {
+   "fx": "night",
+   "label": "ليل رمضاني هادئ",
+   "startMs": 0,
+   "endMs": 48890
+  },
+  {
+   "fx": "footsteps",
+   "label": "خطوات على حجر قديم",
+   "startMs": 400,
+   "endMs": 4800
+  },
+  {
+   "fx": "footsteps",
+   "label": "خطوات تقترب من المسجد",
+   "startMs": 22500,
+   "endMs": 25300
+  },
+  {
+   "fx": "door",
+   "label": "باب المسجد يفتح",
+   "startMs": 47590,
+   "endMs": 50190
+  },
+  {
+   "fx": "roomtone",
+   "label": "سكون المسجد",
+   "startMs": 48090,
+   "endMs": 64810
+  },
+  {
+   "fx": "murmur",
+   "label": "همسات المصلين",
+   "startMs": 48490,
+   "endMs": 55370
+  },
+  {
+   "fx": "rustle",
+   "label": "حركة المصلين في الصفوف",
+   "startMs": 58470,
+   "endMs": 61470
+  },
+  {
+   "fx": "roomtone",
+   "label": "سكون المسجد",
+   "startMs": 70380,
+   "endMs": 97000
+  },
+  {
+   "fx": "crowd",
+   "label": "أصوات المصلين بعد الصلاة",
+   "startMs": 79540,
+   "endMs": 92130
+  }
+ ]
+}

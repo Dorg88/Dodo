@@ -1,0 +1,57 @@
+name: Build storybook APK
+
+on:
+  push:
+    paths:
+      - "storybook/**"
+      - ".github/workflows/build-apk.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: storybook
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: "3.47.8"
+          cache: true
+
+      - run: flutter pub get
+      - run: flutter analyze
+      - run: flutter test
+      - run: flutter build apk --release
+
+      - name: Name the APK
+        run: cp build/app/outputs/flutter-apk/app-release.apk build/thumma-ihtadayt-ep01.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: thumma-ihtadayt-apk
+          path: storybook/build/thumma-ihtadayt-ep01.apk
+          if-no-files-found: error
+
+      - name: Publish to the rolling "apk-latest" pre-release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: apk-latest
+          name: ثم اهتديت — أحدث نسخة APK
+          prerelease: true
+          target_commitish: ${{ github.sha }}
+          body: |
+            Automatic build from ${{ github.ref_name }} @ ${{ github.sha }}.
+            Install thumma-ihtadayt-ep01.apk on Android (allow installs from unknown sources).
+          files: storybook/build/thumma-ihtadayt-ep01.apk
