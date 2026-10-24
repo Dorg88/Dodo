@@ -1,5 +1,7 @@
 // Renders storybook pages to PNG with the real Amiri font and artwork, for
 // visual review. Run with: flutter test screenshots --update-goldens
+// This is test tooling run by `flutter test`, so test-only APIs are fine here.
+// ignore_for_file: invalid_use_of_visible_for_testing_member
 @Tags(['screenshots'])
 library;
 
