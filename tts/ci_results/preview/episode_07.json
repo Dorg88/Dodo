@@ -1,0 +1,122 @@
+{
+ "schema": "thumma_ihtadayt.tts_episode.v1",
+ "episode": "07",
+ "title": "لقاء في عرض البحر — مقطع تجريبي",
+ "source_status": "pending_book_verification",
+ "generated_with": {
+  "backend": "gemini",
+  "model": "gemini-3.8-flash-tts"
+ },
+ "duration_ms": 43250,
+ "full_audio": "assets/audio/episode_07/episode_07_full.mp3",
+ "scenes": [
+  {
+   "scene_id": "ep07_s01",
+   "title": "على سطح الباخرة",
+   "image": null,
+   "start_ms": 600,
+   "end_ms": 42050
+  }
+ ],
+ "lines": [
+  {
+   "index": 1,
+   "speaker_id": "PROFESSOR_MUNIM",
+   "speaker_name": "الأستاذ منعم العراقي",
+   "voice_choice": "Ludo",
+   "api_voice": "en-us-ludo",
+   "text": "السلام عليكم يا أخي. أراك تتأمل البحر منذ مدة... هل تأذن لي أن أجلس قليلاً؟",
+   "emotion": "بلطف وهدوء",
+   "content_type": "fictional",
+   "quote_source": null,
+   "audio_file": "assets/audio/episode_07/ep07_l001_professor_munim.mp3",
+   "start_ms": 600,
+   "end_ms": 8460,
+   "image_scene_id": "ep07_s01",
+   "scene_title": "على سطح الباخرة"
+  },
+  {
+   "index": 2,
+   "speaker_id": "AL_TIJANI",
+   "speaker_name": "محمد التيجاني",
+   "voice_choice": "Enzo",
+   "api_voice": "en-us-enzo",
+   "text": "وعليكم السلام ورحمة الله. تفضل يا أستاذ، المكان يتسع لنا.",
+   "emotion": "بابتسامة خفيفة",
+   "content_type": "fictional",
+   "quote_source": null,
+   "audio_file": "assets/audio/episode_07/ep07_l002_al_tijani.mp3",
+   "start_ms": 9110,
+   "end_ms": 20190,
+   "image_scene_id": "ep07_s01",
+   "scene_title": "على سطح الباخرة"
+  },
+  {
+   "index": 3,
+   "speaker_id": "PROFESSOR_MUNIM",
+   "speaker_name": "الأستاذ منعم العراقي",
+   "voice_choice": "Ludo",
+   "api_voice": "en-us-ludo",
+   "text": "لهجتك قريبة إلى قلبي... أظنك من المغرب العربي؟",
+   "emotion": "بلطف",
+   "content_type": "fictional",
+   "quote_source": null,
+   "audio_file": "assets/audio/episode_07/ep07_l003_professor_munim.mp3",
+   "start_ms": 20840,
+   "end_ms": 25140,
+   "image_scene_id": "ep07_s01",
+   "scene_title": "على سطح الباخرة"
+  },
+  {
+   "index": 4,
+   "speaker_id": "AL_TIJANI",
+   "speaker_name": "محمد التيجاني",
+   "voice_choice": "Enzo",
+   "api_voice": "en-us-enzo",
+   "text": "من تونس، يا أستاذ. وأنت، من أي البلاد؟",
+   "emotion": "بحماس",
+   "content_type": "fictional",
+   "quote_source": null,
+   "audio_file": "assets/audio/episode_07/ep07_l004_al_tijani.mp3",
+   "start_ms": 25790,
+   "end_ms": 29010,
+   "image_scene_id": "ep07_s01",
+   "scene_title": "على سطح الباخرة"
+  },
+  {
+   "index": 5,
+   "speaker_id": "PROFESSOR_MUNIM",
+   "speaker_name": "الأستاذ منعم العراقي",
+   "voice_choice": "Ludo",
+   "api_voice": "en-us-ludo",
+   "text": "من العراق، من بغداد. يسعدني أن نتعارف؛ فالسفر الطويل يقصر بالحديث الطيب.",
+   "emotion": "بهدوء وثقة",
+   "content_type": "fictional",
+   "quote_source": null,
+   "audio_file": "assets/audio/episode_07/ep07_l005_professor_munim.mp3",
+   "start_ms": 29660,
+   "end_ms": 36520,
+   "image_scene_id": "ep07_s01",
+   "scene_title": "على سطح الباخرة"
+  },
+  {
+   "index": 6,
+   "speaker_id": "AL_TIJANI",
+   "speaker_name": "محمد التيجاني",
+   "voice_choice": "Enzo",
+   "api_voice": "en-us-enzo",
+   "text": "وأنا أسعد بلقائك... فالبحر واسع، والأسئلة في صدري أوسع.",
+   "emotion": "بفضول",
+   "content_type": "fictional",
+   "quote_source": null,
+   "audio_file": "assets/audio/episode_07/ep07_l006_al_tijani.mp3",
+   "start_ms": 37170,
+   "end_ms": 42050,
+   "image_scene_id": "ep07_s01",
+   "scene_title": "على سطح الباخرة"
+  }
+ ],
+ "missing_images": [
+  "ep07_s01"
+ ]
+}
