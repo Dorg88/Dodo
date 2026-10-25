@@ -6,49 +6,55 @@
       "name_ar": "الراوي",
       "user_choice": "Riko",
       "api_voice": null,
-      "status": "unverified",
+      "status": "synthesis_failed",
       "voice_brief": "Deep, expressive, cinematic Arabic narrator; controlled, clear diction in Modern Standard Arabic.",
-      "accent_instruction": "Modern Standard Arabic (fusha), neutral and clear."
+      "accent_instruction": "Modern Standard Arabic (fusha), neutral and clear.",
+      "verification_note": "synthesis failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
     },
     "AL_TIJANI": {
       "name_ar": "محمد التيجاني",
       "user_choice": "Enzo",
       "api_voice": null,
-      "status": "unverified",
+      "status": "synthesis_failed",
       "voice_brief": "Young-adult Muhammad al-Tijani: expressive, intelligent, increasingly reflective.",
-      "accent_instruction": "Arabic with a light, natural Tunisian accent."
+      "accent_instruction": "Arabic with a light, natural Tunisian accent.",
+      "verification_note": "synthesis failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
     },
     "MOTHER": {
       "name_ar": "الأم",
       "user_choice": "Lumi",
       "api_voice": null,
-      "status": "unverified",
+      "status": "synthesis_failed",
       "voice_brief": "Mother: warm and loving.",
-      "accent_instruction": "Natural Tunisian Arabic accent."
+      "accent_instruction": "Natural Tunisian Arabic accent.",
+      "verification_note": "synthesis failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
     },
     "FATHER": {
       "name_ar": "الأب",
       "user_choice": "Bodi",
       "api_voice": null,
-      "status": "unverified",
+      "status": "synthesis_failed",
       "voice_brief": "Father: mature and affectionate.",
-      "accent_instruction": "Natural Tunisian Arabic accent."
+      "accent_instruction": "Natural Tunisian Arabic accent.",
+      "verification_note": "synthesis failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
     },
     "WIFE": {
       "name_ar": "الزوجة",
       "user_choice": "Sola",
       "api_voice": null,
-      "status": "unverified",
+      "status": "synthesis_failed",
       "voice_brief": "Wife: calm and natural.",
-      "accent_instruction": "Natural Arabic; a light Tunisian colour is acceptable."
+      "accent_instruction": "Natural Arabic; a light Tunisian colour is acceptable.",
+      "verification_note": "synthesis failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
     },
     "PROFESSOR_MUNIM": {
       "name_ar": "الأستاذ منعم العراقي",
       "user_choice": "Ludo",
       "api_voice": null,
-      "status": "unverified",
+      "status": "synthesis_failed",
       "voice_brief": "Professor Munim: mature, gentle, intellectual and patient; medium-low tone. Never shouts, never confrontational.",
-      "accent_instruction": "Educated Arabic with an understated Baghdadi Iraqi accent."
+      "accent_instruction": "Educated Arabic with an understated Baghdadi Iraqi accent.",
+      "verification_note": "synthesis failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
     }
   },
   "secondary_cast": {
@@ -56,42 +62,47 @@
     "SHIP_PASSENGER": {
       "name_ar": "مسافر على الباخرة",
       "proposed_voice": "Iapetus",
-      "api_voice": null,
-      "status": "unverified",
+      "api_voice": "iapetus",
+      "status": "verified",
       "voice_brief": "Adult male fellow traveller, friendly.",
-      "accent_instruction": "Modern Standard Arabic."
+      "accent_instruction": "Modern Standard Arabic.",
+      "verification_note": "Iapetus (prebuilt, accent=General American, lang=en-US); test 4.0s"
     },
     "IRAQI_HOST": {
       "name_ar": "مضيف عراقي",
       "proposed_voice": "Achird",
-      "api_voice": null,
-      "status": "unverified",
+      "api_voice": "achird",
+      "status": "verified",
       "voice_brief": "Hospitable Iraqi man.",
-      "accent_instruction": "Light Iraqi accent."
+      "accent_instruction": "Light Iraqi accent.",
+      "verification_note": "Achird (prebuilt, accent=General American, lang=en-US); test 3.8s"
     },
     "SCHOLAR": {
       "name_ar": "عالم من النجف",
       "proposed_voice": "Algenib",
-      "api_voice": null,
-      "status": "unverified",
+      "api_voice": "algenib",
+      "status": "verified",
       "voice_brief": "Elderly, dignified scholar. Use only for anonymous scholars or verified quotations.",
-      "accent_instruction": "Formal Arabic with an Iraqi colour."
+      "accent_instruction": "Formal Arabic with an Iraqi colour.",
+      "verification_note": "Algenib (prebuilt, accent=General American, lang=en-US); test 3.8s"
     },
     "TUNISIAN_FRIEND": {
       "name_ar": "صديق تونسي",
       "proposed_voice": "Orus",
-      "api_voice": null,
-      "status": "unverified",
+      "api_voice": "orus",
+      "status": "verified",
       "voice_brief": "Al-Tijani's friend or colleague in Tunisia.",
-      "accent_instruction": "Natural Tunisian Arabic accent."
+      "accent_instruction": "Natural Tunisian Arabic accent.",
+      "verification_note": "Orus (prebuilt, accent=General American, lang=en-US); test 4.0s"
     },
     "WOMAN_SECONDARY": {
       "name_ar": "امرأة",
       "proposed_voice": "Aoede",
-      "api_voice": null,
-      "status": "unverified",
+      "api_voice": "aoede",
+      "status": "verified",
       "voice_brief": "Adult woman, secondary role.",
-      "accent_instruction": "Natural Arabic."
+      "accent_instruction": "Natural Arabic.",
+      "verification_note": "Aoede (prebuilt, accent=General American, lang=en-US); test 3.8s"
     }
   },
   "historical_figures_policy": "Named historical figures (for example Sayyid Muhammad Baqir al-Sadr or Sayyid al-Khoei) are presented through the narrator. A historical figure may speak only a direct quotation that appears in the book, tagged {type=quote source=\"...\"}; the parser rejects any other line for them.",
