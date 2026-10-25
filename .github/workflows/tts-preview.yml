@@ -56,6 +56,12 @@ jobs:
         continue-on-error: true
         run: python3 -m tts.pipeline verify-voices 2>&1 | tee /tmp/verify.log
 
+      - name: Diagnose voices that failed
+        continue-on-error: true
+        run: |
+          python3 -m tts.pipeline diagnose-voice --names Enzo 2>&1 | tee /tmp/diagnose.log
+          python3 -m tts.pipeline list-voices > /tmp/list.log 2>&1
+
       - name: Generate preview
         id: preview
         continue-on-error: true
@@ -70,8 +76,8 @@ jobs:
         run: |
           R=tts/ci_results
           rm -rf $R && mkdir -p $R
-          cp /tmp/verify.log /tmp/preview.log /tmp/estimate.log $R/ 2>/dev/null || true
-          cp tts/output/voice_verification.md tts/output/cost_estimate.md $R/ 2>/dev/null || true
+          cp /tmp/verify.log /tmp/preview.log /tmp/estimate.log /tmp/diagnose.log /tmp/list.log $R/ 2>/dev/null || true
+          cp tts/output/voice_verification.md tts/output/cost_estimate.md tts/output/voice_diagnosis.md tts/output/voice_catalog.md $R/ 2>/dev/null || true
           if [ -d tts/output/preview ]; then
             mkdir -p $R/preview
             cp tts/output/preview/*.mp3 tts/output/preview/*.json tts/output/preview/*.md $R/preview/

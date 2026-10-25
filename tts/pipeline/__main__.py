@@ -10,6 +10,7 @@
 
 import argparse
 import glob
+import json
 import os
 import sys
 
@@ -83,6 +84,59 @@ def cmd_verify(args, paths, cfg, reg):
         fh.write("\n".join(report) + "\n")
     print("\n".join(report))
     print(f"\nwritten {path}; voice_registry.json updated")
+
+
+def cmd_diagnose(args, paths, cfg, reg):
+    """Find which model / language / id form a catalog voice accepts (a few 1-sentence test calls)."""
+    be = gemini(paths, cfg)
+    be.max_retries = 1
+    out = ["# Voice diagnosis", ""]
+    names = args.names.split(",")
+    for name in names:
+        matches = [v for v in be.search_voices(name) if name.lower() in
+                   {(v.display_name or "").lower(), (v.id or "").lower()}]
+        if not matches:
+            out += [f"## {name}: not found", ""]
+            continue
+        v = matches[0]
+        info = v.model_dump(exclude_none=True, exclude={"sample_audio"}) if hasattr(v, "model_dump") else dict(v)
+        out += [f"## {name}", "", "```", json.dumps(info, ensure_ascii=False, default=str, indent=1), "```", ""]
+        models = list(dict.fromkeys([m for m in [info.get("model"), cfg["model"], *cfg["fallback_models_to_probe"]] if m]))
+        ids = list(dict.fromkeys([v.id, f"voices/{v.id}"]))
+        out += ["| model | language_code | voice id | result |", "|---|---|---|---|"]
+        for model in models:
+            for lang in ("ar", None):
+                for vid in ids:
+                    try:
+                        res = be.synthesize("Say calmly: مرحباً، هذا اختبار قصير للصوت.", vid, lang, model)
+                        r = f"ok ({len(res.pcm)/res.sample_rate:.1f}s)"
+                    except Exception as e:  # noqa: BLE001 - reported
+                        r = "fail: " + str(getattr(e, "message", e))[:120].replace("|", "/")
+                    out.append(f"| {model} | {lang} | `{vid}` | {r} |")
+                    print(out[-1], flush=True)
+        out.append("")
+    path = os.path.join(paths.output, "voice_diagnosis.md")
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write("\n".join(out) + "\n")
+    print("\n".join(out))
+
+
+def cmd_list_voices(args, paths, cfg, reg):
+    be = gemini(paths, cfg)
+    rows, seen = [], set()
+    for q in args.search.split(","):
+        for v in be.search_voices(q):
+            if v.id in seen:
+                continue
+            seen.add(v.id)
+            rows.append(f"| `{v.id}` | {v.display_name} | {v.type} | {v.language_code} | {v.accent} | {v.gender} | "
+                        f"{v.pitch} | {(v.persona or '')[:40]} | {(v.description or '')[:80]} |")
+    out = [f"# Catalog voices matching: {args.search}", "",
+           "| id | name | type | lang | accent | gender | pitch | persona | description |",
+           "|---|---|---|---|---|---|---|---|---|"] + rows
+    with open(os.path.join(paths.output, "voice_catalog.md"), "w", encoding="utf-8") as fh:
+        fh.write("\n".join(out) + "\n")
+    print(f"{len(rows)} voices")
 
 
 def cmd_estimate(args, paths, cfg, reg):
@@ -173,13 +227,18 @@ def main(argv=None):
     d.add_argument("--episode", default="07")
     d.add_argument("--script")
     sub.add_parser("status")
+    dg = sub.add_parser("diagnose-voice")
+    dg.add_argument("--names", default="Enzo")
+    lv = sub.add_parser("list-voices")
+    lv.add_argument("--search", default="Arabic,Tunisian,Iraqi,Riko,Enzo,Lumi,Bodi,Sola,Ludo")
     args = ap.parse_args(argv)
 
     paths = Paths(ROOT)
     cfg = load_config(paths)
     reg = Registry(os.path.join(paths.config, "voice_registry.json"))
     {"verify-voices": cmd_verify, "estimate": cmd_estimate, "preview": cmd_preview, "run": cmd_run,
-     "dry-run": cmd_dry_run, "status": cmd_status}[args.cmd](args, paths, cfg, reg)
+     "dry-run": cmd_dry_run, "status": cmd_status,
+     "diagnose-voice": cmd_diagnose, "list-voices": cmd_list_voices}[args.cmd](args, paths, cfg, reg)
 
 
 if __name__ == "__main__":
