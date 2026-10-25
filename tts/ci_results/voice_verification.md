@@ -20,7 +20,7 @@
 | PROFESSOR_MUNIM | Ludo | Ludo | `en-us-ludo` | failed | **failed** |
 | WIFE | Sola | Sola | `en-us-sola` | failed | **failed** |
 | IRAQI_HOST | Achird | Achird | `achird` | ok | verified |
-| SCHOLAR | Algenib | Algenib | `algenib` | ok | verified |
-| SHIP_PASSENGER | Iapetus | Iapetus | `iapetus` | ok | verified |
-| TUNISIAN_FRIEND | Orus | Orus | `orus` | ok | verified |
-| WOMAN_SECONDARY | Aoede | Aoede | `aoede` | ok | verified |
+| SCHOLAR | Algenib | Algenib | `algenib` | failed | **failed** |
+| SHIP_PASSENGER | Iapetus | Iapetus | `iapetus` | failed | **failed** |
+| TUNISIAN_FRIEND | Orus | Orus | `orus` | failed | **failed** |
+| WOMAN_SECONDARY | Aoede | Aoede | `aoede` | failed | **failed** |

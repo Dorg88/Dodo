@@ -1,11 +1,11 @@
 Traceback (most recent call last):
   File "<frozen runpy>", line 198, in _run_module_as_main
   File "<frozen runpy>", line 88, in _run_code
-  File "/home/runner/work/Dodo/Dodo/tts/pipeline/__main__.py", line 186, in <module>
+  File "/home/runner/work/Dodo/Dodo/tts/pipeline/__main__.py", line 245, in <module>
     main()
-  File "/home/runner/work/Dodo/Dodo/tts/pipeline/__main__.py", line 181, in main
+  File "/home/runner/work/Dodo/Dodo/tts/pipeline/__main__.py", line 239, in main
     {"verify-voices": cmd_verify, "estimate": cmd_estimate, "preview": cmd_preview, "run": cmd_run,
-  File "/home/runner/work/Dodo/Dodo/tts/pipeline/__main__.py", line 121, in cmd_preview
+  File "/home/runner/work/Dodo/Dodo/tts/pipeline/__main__.py", line 175, in cmd_preview
     data, reviews = producer(paths, cfg, reg, be).produce(ep, out)
                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/Dodo/Dodo/tts/pipeline/produce.py", line 113, in produce

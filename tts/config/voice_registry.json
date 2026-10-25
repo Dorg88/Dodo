@@ -54,7 +54,7 @@
       "status": "synthesis_failed",
       "voice_brief": "Professor Munim: mature, gentle, intellectual and patient; medium-low tone. Never shouts, never confrontational.",
       "accent_instruction": "Educated Arabic with an understated Baghdadi Iraqi accent.",
-      "verification_note": "synthesis failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+      "verification_note": "synthesis failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on"
     }
   },
   "secondary_cast": {
@@ -62,11 +62,11 @@
     "SHIP_PASSENGER": {
       "name_ar": "مسافر على الباخرة",
       "proposed_voice": "Iapetus",
-      "api_voice": "iapetus",
-      "status": "verified",
+      "api_voice": null,
+      "status": "synthesis_failed",
       "voice_brief": "Adult male fellow traveller, friendly.",
       "accent_instruction": "Modern Standard Arabic.",
-      "verification_note": "Iapetus (prebuilt, accent=General American, lang=en-US); test 4.0s"
+      "verification_note": "synthesis failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on"
     },
     "IRAQI_HOST": {
       "name_ar": "مضيف عراقي",
@@ -75,34 +75,34 @@
       "status": "verified",
       "voice_brief": "Hospitable Iraqi man.",
       "accent_instruction": "Light Iraqi accent.",
-      "verification_note": "Achird (prebuilt, accent=General American, lang=en-US); test 3.8s"
+      "verification_note": "Achird (prebuilt, accent=General American, lang=en-US); test 3.4s"
     },
     "SCHOLAR": {
       "name_ar": "عالم من النجف",
       "proposed_voice": "Algenib",
-      "api_voice": "algenib",
-      "status": "verified",
+      "api_voice": null,
+      "status": "synthesis_failed",
       "voice_brief": "Elderly, dignified scholar. Use only for anonymous scholars or verified quotations.",
       "accent_instruction": "Formal Arabic with an Iraqi colour.",
-      "verification_note": "Algenib (prebuilt, accent=General American, lang=en-US); test 3.8s"
+      "verification_note": "synthesis failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on"
     },
     "TUNISIAN_FRIEND": {
       "name_ar": "صديق تونسي",
       "proposed_voice": "Orus",
-      "api_voice": "orus",
-      "status": "verified",
+      "api_voice": null,
+      "status": "synthesis_failed",
       "voice_brief": "Al-Tijani's friend or colleague in Tunisia.",
       "accent_instruction": "Natural Tunisian Arabic accent.",
-      "verification_note": "Orus (prebuilt, accent=General American, lang=en-US); test 4.0s"
+      "verification_note": "synthesis failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on"
     },
     "WOMAN_SECONDARY": {
       "name_ar": "امرأة",
       "proposed_voice": "Aoede",
-      "api_voice": "aoede",
-      "status": "verified",
+      "api_voice": null,
+      "status": "synthesis_failed",
       "voice_brief": "Adult woman, secondary role.",
       "accent_instruction": "Natural Arabic.",
-      "verification_note": "Aoede (prebuilt, accent=General American, lang=en-US); test 3.8s"
+      "verification_note": "synthesis failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on"
     }
   },
   "historical_figures_policy": "Named historical figures (for example Sayyid Muhammad Baqir al-Sadr or Sayyid al-Khoei) are presented through the narrator. A historical figure may speak only a direct quotation that appears in the book, tagged {type=quote source=\"...\"}; the parser rejects any other line for them.",

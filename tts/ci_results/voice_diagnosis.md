@@ -1,0 +1,39 @@
+# Voice diagnosis
+
+## Enzo
+
+```
+{
+ "type": "prebuilt",
+ "accent": "West Coast",
+ "context": "Content & Media",
+ "description": "62-year-old Storyteller from the West Coast. Speaks with a West Coast accent. Voice is crisp and eager.",
+ "display_name": "Enzo",
+ "gender": "male",
+ "id": "en-us-enzo",
+ "language_code": "en-US",
+ "persona": "Storyteller & Narrator",
+ "pitch": "low",
+ "region_code": "US"
+}
+```
+
+| model | language_code | voice id | result |
+|---|---|---|---|
+| gemini-3.1-flash-tts-preview | ar | `en-us-enzo` | fail: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to |
+| gemini-3.1-flash-tts-preview | ar | `voices/en-us-enzo` | fail: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to |
+| gemini-3.1-flash-tts-preview | None | `en-us-enzo` | fail: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to |
+| gemini-3.1-flash-tts-preview | None | `voices/en-us-enzo` | fail: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to |
+| gemini-3.8-flash-tts | ar | `en-us-enzo` | ok (5.6s) |
+| gemini-3.8-flash-tts | ar | `voices/en-us-enzo` | fail: Request contains an invalid argument. |
+| gemini-3.8-flash-tts | None | `en-us-enzo` | ok (5.8s) |
+| gemini-3.8-flash-tts | None | `voices/en-us-enzo` | fail: Request contains an invalid argument. |
+| gemini-3.8-flash-lite-tts | ar | `en-us-enzo` | ok (5.3s) |
+| gemini-3.8-flash-lite-tts | ar | `voices/en-us-enzo` | fail: Request contains an invalid argument. |
+| gemini-3.8-flash-lite-tts | None | `en-us-enzo` | ok (5.0s) |
+| gemini-3.8-flash-lite-tts | None | `voices/en-us-enzo` | fail: Request contains an invalid argument. |
+| gemini-2.5-flash-preview-tts | ar | `en-us-enzo` | ok (3.5s) |
+| gemini-2.5-flash-preview-tts | ar | `voices/en-us-enzo` | ok (3.4s) |
+| gemini-2.5-flash-preview-tts | None | `en-us-enzo` | ok (3.3s) |
+| gemini-2.5-flash-preview-tts | None | `voices/en-us-enzo` | ok (3.8s) |
+
