@@ -53,6 +53,7 @@ jobs:
 
       - name: Verify voices
         id: verify
+        if: ${{ hashFiles('tts/requests/verify.request') != '' }}
         continue-on-error: true
         run: python3 -m tts.pipeline verify-voices 2>&1 | tee /tmp/verify.log
 
@@ -66,7 +67,7 @@ jobs:
         continue-on-error: true
         run: |
           cp tts/config/voice_registry.json /tmp/registry.json
-          python3 -m tts.pipeline preview --out preview_arabic_voices \
+          python3 -m tts.pipeline preview --out preview_arabic_voices --script tts/scripts/episode_07_compare.txt \
             --voice-override AL_TIJANI=ar-001-training-2,PROFESSOR_MUNIM=ar-001-tutor-2 2>&1 | tee /tmp/preview_alt.log
           cp /tmp/registry.json tts/config/voice_registry.json
 

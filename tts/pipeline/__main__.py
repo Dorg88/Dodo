@@ -173,7 +173,7 @@ def producer(paths, cfg, reg, backend):
 
 def cmd_preview(args, paths, cfg, reg):
     be = FakeBackend() if args.fake else gemini(paths, cfg)
-    ep = load_episode(paths, reg, os.path.join(paths.scripts, "episode_07_preview.txt"))
+    ep = load_episode(paths, reg, args.script or os.path.join(paths.scripts, "episode_07_preview.txt"))
     name = args.out or ("preview" + ("_fake" if args.fake else ""))
     for pair in filter(None, (args.voice_override or "").split(",")):
         # Comparison only: changes this run in memory, never voice_registry.json.
@@ -230,6 +230,7 @@ def main(argv=None):
     pv = sub.add_parser("preview")
     pv.add_argument("--fake", action="store_true", help="offline test of the preview path, no API")
     pv.add_argument("--out", help="output folder name under tts/output")
+    pv.add_argument("--script", help="script file (default: tts/scripts/episode_07_preview.txt)")
     pv.add_argument("--voice-override", help="CHAR=voice_id,... for a comparison run (registry untouched)")
     r = sub.add_parser("run")
     r.add_argument("--episodes", default="07-22")

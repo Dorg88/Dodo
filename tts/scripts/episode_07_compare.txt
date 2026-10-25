@@ -1,0 +1,10 @@
+# Accent comparison: the first two preview lines, voiced by native Arabic catalog voices
+# (ar-001-training-2 for al-Tijani, ar-001-tutor-2 for Munim). Fictional test lines.
+@episode 07
+@title مقارنة الأصوات العربية
+@source_status pending_book_verification
+
+=== SCENE ep07_s01 | على سطح الباخرة
+@image none
+PROFESSOR_MUNIM [بلطف وهدوء]: السلام عليكم يا أخي. أراك تتأمل البحر منذ مدة... هل تأذن لي أن أجلس قليلاً؟
+AL_TIJANI [بابتسامة خفيفة]: وعليكم السلام ورحمة الله. تفضل يا أستاذ، المكان يتسع لنا.
