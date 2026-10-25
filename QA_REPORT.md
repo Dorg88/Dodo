@@ -28,5 +28,5 @@ items to check; FAIL/BLOCKED = cannot be verified yet.
 | Offline operation | PASS by design | All media is bundled or imported locally; no network code in the app |
 | Background playback / media controls | NOT VERIFIED ON DEVICE | audio_service is configured (foreground service, notification, headset/lock screen), but it has not been run on a phone |
 | Import of a second book | PASS | A ZIP built by `hikaya_pack.py` (Episode 01 re-aligned automatically in clips mode with per-scene score) imported by the app's importer with every file present (`test/external_book_test.dart`) |
-| Launch intro | WAITING | Composition and render pipeline tested with placeholder shapes. Needs the three original logo files. |
+| Launch intro | PASS | Rendered from the three original logos (frames reviewed: backgrounds removed cleanly, inner details kept); tap to skip; setting to disable. The shrine logo source is low resolution (591×338) and looks slightly soft at full size. |
 | Automatic alignment accuracy | PASS on Episode 01 | 16/16 lines with no clipped words compared with the hand-verified cuts; 15/16 auto-verified; doubled take detected |

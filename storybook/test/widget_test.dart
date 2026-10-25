@@ -37,7 +37,8 @@ void main() {
     final (store, user) = await services(tester);
     await tester.pumpWidget(HikayaApp(store: store, user: user));
     await tester.pump();
-    expect(find.text('حكايا'), findsWidgets);
+    expect(find.byType(HikayaLogo), findsOneWidget);
+    expect(find.bySemanticsLabel('حكايا'), findsWidgets);
     expect(find.text('مكتبتي'), findsOneWidget);
     expect(find.text('ثم اهتديت'), findsWidgets);
     expect(Directionality.of(tester.element(find.text('مكتبتي'))), TextDirection.rtl);

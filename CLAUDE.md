@@ -39,8 +39,9 @@ Work on branch `ccr-98ead9b4-z932hl`. Progress log: `PROGRESS.md`. QA status: `Q
    scripts to the align format, write recordings.json per batch, run `hikaya_align.py`, review flags
    (`review.html`), map illustrations to scenes from IMG.zip (by episode/scene numbers — never invent).
 4. `hikaya_score.py` per episode, then `hikaya_pack.py check` / `build`; import the ZIP in the app.
-5. Logos: put originals in `tools/hikaya/intro/logos_original/` (section, shrine, hikaya) and run
-   `python3 tools/hikaya/intro/render_intro.py`; also use the HIKAYA emblem for the launcher icon.
+5. DONE (cloud session): logos are in `tools/hikaya/intro/logos_original/`, the intro is rendered into
+   `storybook/assets/brand/intro.mp4`, and the launcher icon uses the HIKAYA emblem. Re-run
+   `render_intro.py` only if a higher-resolution shrine logo arrives (the current one is 591×338).
 6. Update `QA_REPORT.md` per episode (PASS / WARNING / FAIL) and `PROGRESS.md`; commit and push.
 
 ## Commands

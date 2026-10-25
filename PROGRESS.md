@@ -15,5 +15,7 @@
 - [x] APK built in CI and verified (release `apk-latest`)
 - [ ] **Blocked:** process `~/Downloads/Audio.zip` and `~/Downloads/IMG.zip` (on the producer's Mac)
 - [ ] **Blocked:** Episodes 02–22 timelines, images, scores and QA
-- [ ] **Waiting:** the three original logo files → render intro, launcher icon from the HIKAYA emblem
+- [x] Launch intro rendered with the three original logos (HyperFrames, 7.6 s, 1.3 MB); launcher icon and
+      light-mode home header use the official HIKAYA logo; credit «فكرةً وتصميماً: ضرغام الگيار»
+- [ ] Optional: a higher-resolution shrine logo (current file is 591×338)
 - [ ] On-device check of background playback and lock-screen controls

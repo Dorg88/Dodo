@@ -40,12 +40,22 @@ class HikayaLogo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final c = Hk.of(context);
-    return Column(
+    final wordmark = Column(
       mainAxisSize: MainAxisSize.min,
       children: [
         Text('حكايا', style: TextStyle(fontFamily: AppTheme.display, fontSize: size, color: c.walnut, height: 1.3)),
         Ornament(width: size * 1.4),
       ],
+    );
+    // The official HIKAYA logo has dark lettering, so it is used on light
+    // paper; the gold calligraphic wordmark stands in on the dark theme.
+    if (Theme.of(context).brightness == Brightness.dark) return wordmark;
+    return Image.asset(
+      'assets/brand/logo_hikaya.png',
+      height: size * 3,
+      filterQuality: FilterQuality.medium,
+      semanticLabel: 'حكايا',
+      errorBuilder: (_, _, _) => wordmark,
     );
   }
 }
