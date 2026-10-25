@@ -11,7 +11,7 @@
   "location": "قفصة، تونس",
   "note": "معالجة درامية لحلقة الطفولة كما يرويها الكتاب؛ بعض الحوار كُتب للعرض الدرامي وليس نقلاً حرفياً عن المؤلف.",
   "outputDir": "storybook/assets/books/thumma_ihtadayt/ep01",
-  "assetPrefix": "assets/books/thumma_ihtadayt/ep01",
+  "assetPrefix": "ep01",
   "sourceAudioDir": "production/ep01/source_audio",
   "leadIn": 3.6,
   "tail": 7.0,

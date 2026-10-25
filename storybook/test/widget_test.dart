@@ -1,92 +1,156 @@
+import 'dart:convert';
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:hikaya/main.dart';
+import 'package:hikaya/models/book.dart';
+import 'package:hikaya/models/episode.dart';
+import 'package:hikaya/screens/player_screen.dart';
+import 'package:hikaya/services/library_store.dart';
+import 'package:hikaya/services/playback.dart';
+import 'package:hikaya/services/user_data.dart';
+import 'package:hikaya/theme/app_theme.dart';
+import 'package:hikaya/widgets/hk_widgets.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:thumma_ihtadayt/main.dart';
-import 'package:thumma_ihtadayt/models/episode.dart';
-import 'package:thumma_ihtadayt/services/library_repository.dart';
-import 'package:thumma_ihtadayt/services/settings_service.dart';
-import 'package:thumma_ihtadayt/theme/app_theme.dart';
-import 'package:thumma_ihtadayt/widgets/storybook_widgets.dart';
 
-void tallPhone(WidgetTester tester) {
-  tester.view.physicalSize = const Size(1080, 4000);
+import 'test_support.dart';
+
+void phone(WidgetTester tester, {Size size = const Size(1080, 2400)}) {
+  tester.view.physicalSize = size;
   tester.view.devicePixelRatio = 2.5;
   addTearDown(tester.view.reset);
 }
 
-void main() {
-  testWidgets('home page shows the book and its actions, right to left', (tester) async {
-    tallPhone(tester);
-    SharedPreferences.setMockInitialValues({});
-    final settings = await SettingsService.load();
-    final repo = LibraryRepository();
-    final library = await tester.runAsync(repo.loadLibrary);
-    await tester.pumpWidget(StorybookApp(settings: settings, repository: repo, library: library!));
-    await tester.pump();
+Future<(LibraryStore, UserData)> services(WidgetTester tester, [Map<String, Object> prefs = const {}]) async {
+  SharedPreferences.setMockInitialValues(prefs);
+  final user = await UserData.load();
+  final store = LibraryStore();
+  await tester.runAsync(store.load);
+  return (store, user);
+}
 
-    expect(find.text('ثم اهتديت'), findsOneWidget);
-    expect(find.text('رحلة البحث عن الحقيقة'), findsOneWidget);
-    expect(find.text('ابدأ الاستماع'), findsOneWidget);
-    expect(find.text('الحلقات'), findsOneWidget);
-    expect(find.text('متابعة الاستماع'), findsOneWidget);
-    expect(Directionality.of(tester.element(find.text('الحلقات'))), TextDirection.rtl);
+void main() {
+  testWidgets('home shows the HIKAYA identity and the bundled book, right to left', (tester) async {
+    phone(tester);
+    final (store, user) = await services(tester);
+    await tester.pumpWidget(HikayaApp(store: store, user: user));
+    await tester.pump();
+    expect(find.text('حكايا'), findsWidgets);
+    expect(find.text('مكتبتي'), findsOneWidget);
+    expect(find.text('ثم اهتديت'), findsWidgets);
+    expect(Directionality.of(tester.element(find.text('مكتبتي'))), TextDirection.rtl);
   });
 
-  testWidgets('continue button offers the saved position', (tester) async {
-    tallPhone(tester);
-    SharedPreferences.setMockInitialValues({
-      'lastEpisode': 'thumma_ihtadayt/ep01',
+  testWidgets('continue listening offers the saved position', (tester) async {
+    phone(tester);
+    final (store, user) = await services(tester, {
+      'recent': ['thumma_ihtadayt/ep01'],
       'progress:thumma_ihtadayt/ep01': 65000,
     });
-    final settings = await SettingsService.load();
-    final repo = LibraryRepository();
-    final library = await tester.runAsync(repo.loadLibrary);
-    await tester.pumpWidget(StorybookApp(settings: settings, repository: repo, library: library!));
+    await tester.pumpWidget(HikayaApp(store: store, user: user));
     await tester.pump();
-    expect(find.text('متابعة الاستماع · ${formatTime(const Duration(seconds: 65))}'), findsOneWidget);
+    expect(find.text('متابعة الاستماع'), findsOneWidget);
+    expect(find.textContaining(formatTime(const Duration(seconds: 65))), findsOneWidget);
   });
 
-  testWidgets('episode library lists available and upcoming episodes', (tester) async {
-    tallPhone(tester);
-    SharedPreferences.setMockInitialValues({});
-    final settings = await SettingsService.load();
-    final repo = LibraryRepository();
-    final library = await tester.runAsync(repo.loadLibrary);
-    await tester.pumpWidget(StorybookApp(settings: settings, repository: repo, library: library!));
-    await tester.tap(find.text('الحلقات'));
+  testWidgets('library offers import; book page lists episodes; favourites work', (tester) async {
+    phone(tester);
+    final (store, user) = await services(tester);
+    await tester.pumpWidget(HikayaApp(store: store, user: user));
+    await tester.tap(find.text('المكتبة').last);
+    await tester.pumpAndSettle();
+    expect(find.text('استيراد كتاب'), findsOneWidget);
+    await tester.tap(find.text('ثم اهتديت').last);
     await tester.pumpAndSettle();
     expect(find.text('ليلة لا تنسى'), findsOneWidget);
-    expect(find.text('قريبًا'), findsOneWidget);
+    expect(find.textContaining('من ٢٢ متاحة'), findsOneWidget);
+    await tester.tap(find.byIcon(Icons.favorite_border));
+    await tester.pump();
+    expect(user.isFavorite('thumma_ihtadayt'), isTrue);
   });
 
-  testWidgets('story text marks the line being spoken', (tester) async {
-    const seg = Segment(
-      id: 's',
-      scene: 1,
-      speakerId: 'SPEAKER_01',
-      speakerName: 'الراوي',
-      direction: '',
-      text: 'أ ب',
-      trailingText: null,
-      start: Duration.zero,
-      end: Duration(seconds: 4),
-      audioSource: '',
-      sourceStart: Duration.zero,
-      sourceEnd: Duration(seconds: 4),
-      lines: [
-        Line(text: 'السطر الأول', start: Duration.zero, end: Duration(seconds: 2)),
-        Line(text: 'السطر الثاني', start: Duration(seconds: 2), end: Duration(seconds: 4)),
-      ],
-    );
-    await tester.pumpWidget(const MaterialApp(
-      home: Directionality(
-        textDirection: TextDirection.rtl,
-        child: StoryText(segment: seg, position: Duration(seconds: 3), scale: 1),
-      ),
-    ));
-    final rich = tester.widget<Text>(find.byType(Text)).textSpan! as TextSpan;
-    final spans = rich.children!.whereType<TextSpan>().where((s) => s.text!.trim().isNotEmpty).toList();
-    expect(spans[0].style!.color, AppColors.inkSoft);
-    expect(spans[1].style!.color, AppColors.ink);
+  testWidgets('dark mode switches the palette', (tester) async {
+    phone(tester);
+    final (store, user) = await services(tester);
+    await user.setThemeMode(ThemeMode.dark);
+    await tester.pumpWidget(HikayaApp(store: store, user: user));
+    await tester.pump();
+    expect(Hk.of(tester.element(find.text('مكتبتي'))).paper, Hk.dark.paper);
+  });
+
+  Future<EpisodeController> controllerFor(UserData user) async {
+    const root = 'assets/books/thumma_ihtadayt';
+    final book = Book.fromJson(jsonDecode(File('$root/book.json').readAsStringSync()) as Map<String, dynamic>,
+        const BookLocation.bundled(root));
+    final ep = Episode.fromJson(jsonDecode(File('$root/ep01/episode.json').readAsStringSync()) as Map<String, dynamic>);
+    final c =
+        EpisodeController(book: book, entry: book.episodes.first, episode: ep, user: user, engineFactory: FakeEngine.new);
+    await c.init(startAt: Duration.zero);
+    return c;
+  }
+
+  Widget host(Widget child) => MaterialApp(
+        theme: AppTheme.light(),
+        home: Directionality(textDirection: TextDirection.rtl, child: Scaffold(body: child)),
+      );
+
+  testWidgets('portrait player: illustration in the top half, text and controls below', (tester) async {
+    phone(tester);
+    final (_, user) = await services(tester);
+    final c = await controllerFor(user);
+    final father = c.episode.segments.firstWhere((s) => s.id == 'father');
+    await c.seek(father.start + const Duration(seconds: 2));
+    await tester.pumpWidget(host(PlayerView(controller: c, user: user)));
+    await tester.pump(const Duration(seconds: 1));
+
+    final screenH = tester.view.physicalSize.height / tester.view.devicePixelRatio;
+    final art = tester.getRect(find.byType(ArtworkFrame).first);
+    expect(art.width, greaterThan(380), reason: 'artwork uses the available width');
+    expect(art.bottom, lessThanOrEqualTo(screenH * 0.5 + 1), reason: 'artwork stays in the top half');
+    expect(find.text('الأب'), findsOneWidget);
+    expect(find.textContaining('لا تخف يا بني'), findsOneWidget);
+
+    final scene = c.sceneIndex;
+    await tester.tap(find.byTooltip('المشهد التالي'));
+    await tester.pump();
+    expect(c.sceneIndex, scene + 1);
+    await tester.tap(find.byTooltip('تشغيل'));
+    await tester.pump();
+    expect(c.playing, isTrue);
+    await tester.tap(find.byTooltip('إضافة علامة'));
+    await tester.pump();
+    expect(user.bookmarks, hasLength(1));
+    await tester.tap(find.byTooltip('سرعة التشغيل'));
+    await tester.pump();
+    expect(user.speed, 1.25);
+    await c.pause();
+    c.dispose();
+  });
+
+  testWidgets('landscape player shows illustration and text side by side', (tester) async {
+    phone(tester, size: const Size(2400, 1080));
+    final (_, user) = await services(tester);
+    final c = await controllerFor(user);
+    await tester.pumpWidget(host(PlayerView(controller: c, user: user)));
+    await tester.pump(const Duration(seconds: 1));
+    final screenW = tester.view.physicalSize.width / tester.view.devicePixelRatio;
+    final art = tester.getRect(find.byType(ArtworkFrame).first);
+    final text = tester.getRect(find.textContaining('في مدينة قفصة'));
+    expect(art.width, lessThanOrEqualTo(screenW / 2));
+    expect((art.center.dx - screenW / 2).sign != (text.center.dx - screenW / 2).sign, isTrue);
+    c.dispose();
+  });
+
+  testWidgets('hiding the story text keeps the controls', (tester) async {
+    phone(tester);
+    final (_, user) = await services(tester);
+    await user.setShowText(false);
+    final c = await controllerFor(user);
+    await tester.pumpWidget(host(PlayerView(controller: c, user: user)));
+    await tester.pump(const Duration(seconds: 1));
+    expect(find.text('إظهار نص القصة'), findsOneWidget);
+    expect(find.byTooltip('تشغيل'), findsOneWidget);
+    c.dispose();
   });
 }

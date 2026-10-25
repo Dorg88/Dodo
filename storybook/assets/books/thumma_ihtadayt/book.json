@@ -1,0 +1,22 @@
+{
+ "schema": "hikaya.book.v1",
+ "id": "thumma_ihtadayt",
+ "title": "ثم اهتديت",
+ "subtitle": "رحلة البحث عن الحقيقة",
+ "author": "محمد التيجاني السماوي",
+ "language": "ar",
+ "version": 1,
+ "description": "سيرة محمد التيجاني السماوي ورحلته في البحث عن الحقيقة، في حلقات مصوّرة ومسموعة. تضم هذه النسخة المرفقة بالتطبيق الحلقة الأولى، وتُضاف بقية الحلقات باستيراد النسخة الكاملة.",
+ "cover": "ep01/images/01_gafsa_moonlit_city.jpg",
+ "plannedEpisodes": 22,
+ "episodes": [
+  {
+   "id": "ep01",
+   "number": 1,
+   "title": "ليلة لا تنسى",
+   "summary": "طفل في العاشرة يؤمّ المصلين في صلاة التراويح لأول مرة، في ليلة ستبقى محفورة في ذاكرته.",
+   "manifest": "ep01/episode.json",
+   "durationMs": 148810
+  }
+ ]
+}

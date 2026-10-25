@@ -1,4 +1,4 @@
-name: Build storybook APK
+name: Build HIKAYA APK
 
 on:
   push:
@@ -33,25 +33,35 @@ jobs:
       - run: flutter pub get
       - run: flutter analyze
       - run: flutter test
+      - run: flutter build apk --debug
       - run: flutter build apk --release
 
-      - name: Name the APK
-        run: cp build/app/outputs/flutter-apk/app-release.apk build/thumma-ihtadayt-ep01.apk
+      - name: Name and verify the APKs
+        run: |
+          cp build/app/outputs/flutter-apk/app-release.apk build/hikaya.apk
+          cp build/app/outputs/flutter-apk/app-debug.apk build/hikaya-debug.apk
+          ls -la build/*.apk
+          unzip -l build/hikaya.apk | grep -E "libapp.so|book.json|episode.json|AndroidManifest.xml"
 
       - uses: actions/upload-artifact@v4
         with:
-          name: thumma-ihtadayt-apk
-          path: storybook/build/thumma-ihtadayt-ep01.apk
+          name: hikaya-apk
+          path: |
+            storybook/build/hikaya.apk
+            storybook/build/hikaya-debug.apk
           if-no-files-found: error
 
       - name: Publish to the rolling "apk-latest" pre-release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: apk-latest
-          name: ثم اهتديت — أحدث نسخة APK
+          name: حكايا — أحدث نسخة APK
           prerelease: true
           target_commitish: ${{ github.sha }}
           body: |
             Automatic build from ${{ github.ref_name }} @ ${{ github.sha }}.
-            Install thumma-ihtadayt-ep01.apk on Android (allow installs from unknown sources).
-          files: storybook/build/thumma-ihtadayt-ep01.apk
+            Install hikaya.apk on Android (allow installs from unknown sources).
+            hikaya-debug.apk is the debug build for testing.
+          files: |
+            storybook/build/hikaya.apk
+            storybook/build/hikaya-debug.apk

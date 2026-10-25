@@ -1,5 +1,4 @@
 {
- "schemaVersion": 1,
  "bookId": "thumma_ihtadayt",
  "id": "ep01",
  "number": 1,
@@ -12,9 +11,10 @@
  "note": "معالجة درامية لحلقة الطفولة كما يرويها الكتاب؛ بعض الحوار كُتب للعرض الدرامي وليس نقلاً حرفياً عن المؤلف.",
  "durationMs": 148810,
  "audio": {
-  "voice": "assets/books/thumma_ihtadayt/ep01/audio/voice.m4a",
-  "music": "assets/books/thumma_ihtadayt/ep01/audio/music.m4a",
-  "sfx": "assets/books/thumma_ihtadayt/ep01/audio/sfx.m4a"
+  "mode": "track",
+  "voice": "ep01/audio/voice.m4a",
+  "music": "ep01/audio/music.m4a",
+  "sfx": "ep01/audio/sfx.m4a"
  },
  "speakers": {
   "SPEAKER_01": {
@@ -51,7 +51,7 @@
    "number": 1,
    "title": "قفصة في ليلة رمضانية",
    "layout": "plate",
-   "image": "assets/books/thumma_ihtadayt/ep01/images/01_gafsa_moonlit_city.jpg",
+   "image": "ep01/images/01_gafsa_moonlit_city.jpg",
    "startMs": 0,
    "endMs": 12610,
    "music": [
@@ -66,7 +66,7 @@
    "number": 2,
    "title": "في الطريق إلى المسجد",
    "layout": "plate",
-   "image": "assets/books/thumma_ihtadayt/ep01/images/02_father_son_walking.jpg",
+   "image": "ep01/images/02_father_son_walking.jpg",
    "startMs": 12610,
    "endMs": 22700,
    "music": [
@@ -81,7 +81,7 @@
    "number": 3,
    "title": "سؤال الطفل",
    "layout": "plate",
-   "image": "assets/books/thumma_ihtadayt/ep01/images/03_child_looks_up.jpg",
+   "image": "ep01/images/03_child_looks_up.jpg",
    "startMs": 22700,
    "endMs": 29640,
    "music": [
@@ -97,7 +97,7 @@
    "number": 4,
    "title": "طمأنينة الأب",
    "layout": "plate",
-   "image": "assets/books/thumma_ihtadayt/ep01/images/04_father_reassures.jpg",
+   "image": "ep01/images/04_father_reassures.jpg",
    "startMs": 29640,
    "endMs": 37630,
    "music": [
@@ -111,7 +111,7 @@
    "number": 5,
    "title": "على باب المسجد",
    "layout": "plate",
-   "image": "assets/books/thumma_ihtadayt/ep01/images/05_mosque_doors.jpg",
+   "image": "ep01/images/05_mosque_doors.jpg",
    "startMs": 37630,
    "endMs": 47690,
    "music": [
@@ -125,7 +125,7 @@
    "number": 6,
    "title": "دعوة المعلم",
    "layout": "plate",
-   "image": "assets/books/thumma_ihtadayt/ep01/images/06_teacher_invites.jpg",
+   "image": "ep01/images/06_teacher_invites.jpg",
    "startMs": 47690,
    "endMs": 54970,
    "music": [
@@ -143,7 +143,7 @@
    "number": 7,
    "title": "أمام المصلين",
    "layout": "plate",
-   "image": "assets/books/thumma_ihtadayt/ep01/images/07_child_leads_congregation.jpg",
+   "image": "ep01/images/07_child_leads_congregation.jpg",
    "startMs": 54970,
    "endMs": 65160,
    "music": [],
@@ -157,7 +157,7 @@
    "number": 8,
    "title": "تكبيرة الإحرام",
    "layout": "plate",
-   "image": "assets/books/thumma_ihtadayt/ep01/images/08_takbir.jpg",
+   "image": "ep01/images/08_takbir.jpg",
    "startMs": 65160,
    "endMs": 67580,
    "music": [],
@@ -167,7 +167,7 @@
    "number": 9,
    "title": "ومضت الصلاة",
    "layout": "plate",
-   "image": "assets/books/thumma_ihtadayt/ep01/images/10_prayer_wide.jpg",
+   "image": "ep01/images/10_prayer_wide.jpg",
    "startMs": 67580,
    "endMs": 79740,
    "music": [],
@@ -179,7 +179,7 @@
    "number": 10,
    "title": "تهاني المصلين",
    "layout": "plate",
-   "image": "assets/books/thumma_ihtadayt/ep01/images/09_congratulations.jpg",
+   "image": "ep01/images/09_congratulations.jpg",
    "startMs": 79740,
    "endMs": 96700,
    "music": [
@@ -194,7 +194,7 @@
    "number": 11,
    "title": "رحلة أخرى",
    "layout": "plate",
-   "image": "assets/books/thumma_ihtadayt/ep01/images/02_father_son_walking.jpg",
+   "image": "ep01/images/02_father_son_walking.jpg",
    "startMs": 96700,
    "endMs": 104540,
    "music": [
@@ -207,7 +207,7 @@
    "number": 12,
    "title": "ذكريات التيجاني الكبير",
    "layout": "plate",
-   "image": "assets/books/thumma_ihtadayt/ep01/images/01_gafsa_moonlit_city.jpg",
+   "image": "ep01/images/01_gafsa_moonlit_city.jpg",
    "startMs": 104540,
    "endMs": 120540,
    "music": [
@@ -220,7 +220,7 @@
    "number": 13,
    "title": "بداية البحث عن الحقيقة",
    "layout": "plate",
-   "image": "assets/books/thumma_ihtadayt/ep01/images/07_child_leads_congregation.jpg",
+   "image": "ep01/images/07_child_leads_congregation.jpg",
    "startMs": 120540,
    "endMs": 135670,
    "music": [
@@ -233,7 +233,7 @@
    "number": 14,
    "title": "ثم اهتديت",
    "layout": "closing",
-   "image": "assets/books/thumma_ihtadayt/ep01/images/01_gafsa_moonlit_city.jpg",
+   "image": "ep01/images/01_gafsa_moonlit_city.jpg",
    "startMs": 135670,
    "endMs": 148810,
    "music": [
@@ -280,7 +280,8 @@
    "sfx": [
     "خطوات على حجر قديم",
     "ليل رمضاني هادئ"
-   ]
+   ],
+   "timing": "verified"
   },
   {
    "id": "n1b",
@@ -313,7 +314,8 @@
    ],
    "sfx": [
     "ليل رمضاني هادئ"
-   ]
+   ],
+   "timing": "verified"
   },
   {
    "id": "child1",
@@ -341,7 +343,8 @@
    "sfx": [
     "خطوات تقترب من المسجد",
     "ليل رمضاني هادئ"
-   ]
+   ],
+   "timing": "verified"
   },
   {
    "id": "father",
@@ -378,7 +381,8 @@
    ],
    "sfx": [
     "ليل رمضاني هادئ"
-   ]
+   ],
+   "timing": "verified"
   },
   {
    "id": "n2",
@@ -410,7 +414,8 @@
    ],
    "sfx": [
     "ليل رمضاني هادئ"
-   ]
+   ],
+   "timing": "verified"
   },
   {
    "id": "teacher",
@@ -443,7 +448,8 @@
    "sfx": [
     "سكون المسجد",
     "همسات المصلين"
-   ]
+   ],
+   "timing": "verified"
   },
   {
    "id": "n3",
@@ -484,7 +490,8 @@
    "sfx": [
     "حركة المصلين في الصفوف",
     "سكون المسجد"
-   ]
+   ],
+   "timing": "verified"
   },
   {
    "id": "child2",
@@ -507,7 +514,8 @@
     }
    ],
    "music": [],
-   "sfx": []
+   "sfx": [],
+   "timing": "verified"
   },
   {
    "id": "n4",
@@ -542,7 +550,8 @@
    "music": [],
    "sfx": [
     "سكون المسجد"
-   ]
+   ],
+   "timing": "verified"
   },
   {
    "id": "w1",
@@ -573,7 +582,8 @@
    "sfx": [
     "أصوات المصلين بعد الصلاة",
     "سكون المسجد"
-   ]
+   ],
+   "timing": "verified"
   },
   {
    "id": "w2",
@@ -604,7 +614,8 @@
    "sfx": [
     "أصوات المصلين بعد الصلاة",
     "سكون المسجد"
-   ]
+   ],
+   "timing": "verified"
   },
   {
    "id": "n5a",
@@ -637,7 +648,8 @@
    "sfx": [
     "أصوات المصلين بعد الصلاة",
     "سكون المسجد"
-   ]
+   ],
+   "timing": "verified"
   },
   {
    "id": "n5b",
@@ -668,7 +680,8 @@
     "تأمل وغموض",
     "دفء الفرح"
    ],
-   "sfx": []
+   "sfx": [],
+   "timing": "verified"
   },
   {
    "id": "adult",
@@ -708,7 +721,8 @@
    "music": [
     "تأمل وغموض"
    ],
-   "sfx": []
+   "sfx": [],
+   "timing": "verified"
   },
   {
    "id": "n6",
@@ -748,7 +762,8 @@
    "music": [
     "تأمل وتشويق"
    ],
-   "sfx": []
+   "sfx": [],
+   "timing": "verified"
   },
   {
    "id": "n7",
@@ -778,7 +793,8 @@
    "music": [
     "خاتمة سينمائية"
    ],
-   "sfx": []
+   "sfx": [],
+   "timing": "verified"
   }
  ],
  "musicCues": [
@@ -880,5 +896,6 @@
    "startMs": 79540,
    "endMs": 92130
   }
- ]
+ ],
+ "schema": "hikaya.episode.v1"
 }

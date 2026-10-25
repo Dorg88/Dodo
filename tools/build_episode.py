@@ -226,18 +226,19 @@ def main(src_path):
             "trailingText": seg.get("trailingText"),
             "startMs": ms(a), "endMs": ms(b), "audioSource": seg["source"],
             "sourceStartMs": ms(seg["in"]), "sourceEndMs": ms(seg["out"]),
+            "timing": "verified",
             "lines": [{"text": l["text"], "startMs": ms(a + l["in"] - seg["in"]), "endMs": ms(a + l["out"] - seg["in"])}
                       for l in seg["lines"]],
             "music": cues_in(music_cues, a, b, "cue"), "sfx": cues_in(sfx_cues, a, b, "fx"),
         })
 
     episode = {
-        "schemaVersion": 1,
+        "schema": "hikaya.episode.v1",
         "bookId": src["bookId"], "id": src["id"], "number": src["number"], "title": src["title"],
         "bookTitle": src["bookTitle"], "bookSubtitle": src["bookSubtitle"], "author": src["author"],
         "genre": src["genre"], "location": src["location"], "note": src["note"],
         "durationMs": ms(total),
-        "audio": {k: f'{src["assetPrefix"]}/audio/{k}.m4a' for k in ("voice", "music", "sfx")},
+        "audio": {"mode": "track", **{k: f'{src["assetPrefix"]}/audio/{k}.m4a' for k in ("voice", "music", "sfx")}},
         "speakers": src["speakers"],
         "scenes": scenes_out,
         "segments": segments_out,

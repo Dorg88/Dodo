@@ -1,100 +1,192 @@
 import 'package:flutter/material.dart';
 
-/// Light parchment palette modelled on the classic audio-storybook look:
-/// warm paper, hairline rules, sage headings and deep ink text.
-class AppColors {
-  static const paper = Color(0xFFF4F0E7);
-  static const plate = Color(0xFFECE6DA);
-  static const plateBorder = Color(0xFFCFC6B4);
-  static const rule = Color(0xFFDAD2C2);
-  static const ink = Color(0xFF2B2722);
-  static const inkSoft = Color(0xFF5E574D);
-  static const muted = Color(0xFF8C8577);
-  static const sage = Color(0xFF66785F);
-  static const sageLight = Color(0xFFA9B5A1);
-  static const navy = Color(0xFF26324A);
-  static const amber = Color(0xFFB88A3E);
+/// HIKAYA palette: ivory paper, parchment, antique gold and walnut brown.
+/// Each colour has a light and a dark (lamplit library) variant.
+@immutable
+class Hk extends ThemeExtension<Hk> {
+  final Color paper;
+  final Color parchment;
+  final Color frame;
+  final Color rule;
+  final Color ink;
+  final Color inkSoft;
+  final Color muted;
+  final Color gold;
+  final Color walnut;
+  final Color highlight;
+  final String texture;
+
+  const Hk({
+    required this.paper,
+    required this.parchment,
+    required this.frame,
+    required this.rule,
+    required this.ink,
+    required this.inkSoft,
+    required this.muted,
+    required this.gold,
+    required this.walnut,
+    required this.highlight,
+    required this.texture,
+  });
+
+  static const light = Hk(
+    paper: Color(0xFFF6EFE0),
+    parchment: Color(0xFFEFE4CC),
+    frame: Color(0xFFD3C09A),
+    rule: Color(0xFFDCCDAE),
+    ink: Color(0xFF2E2419),
+    inkSoft: Color(0xFF5C4C3A),
+    muted: Color(0xFF8E7D66),
+    gold: Color(0xFFA9844C),
+    walnut: Color(0xFF5B3A24),
+    highlight: Color(0x33B08D57),
+    texture: 'assets/ui/paper_light.png',
+  );
+
+  static const dark = Hk(
+    paper: Color(0xFF1E1712),
+    parchment: Color(0xFF2A2018),
+    frame: Color(0xFF5A4630),
+    rule: Color(0xFF3E3022),
+    ink: Color(0xFFEFE5D1),
+    inkSoft: Color(0xFFC9BBA2),
+    muted: Color(0xFF9A8B74),
+    gold: Color(0xFFCDA769),
+    walnut: Color(0xFFD9B98C),
+    highlight: Color(0x33CDA769),
+    texture: 'assets/ui/paper_dark.png',
+  );
+
+  static Hk of(BuildContext context) => Theme.of(context).extension<Hk>()!;
+
+  @override
+  Hk copyWith() => this;
+
+  @override
+  Hk lerp(ThemeExtension<Hk>? other, double t) => t < 0.5 ? this : (other as Hk? ?? this);
 }
 
 class AppTheme {
-  static const fontFamily = 'Amiri';
+  static const body = 'Amiri';
+  static const display = 'ArefRuqaa';
 
-  static ThemeData light() {
-    final base = ThemeData(
-      useMaterial3: true,
-      fontFamily: fontFamily,
-      scaffoldBackgroundColor: AppColors.paper,
-      colorScheme: ColorScheme.fromSeed(
-        seedColor: AppColors.sage,
-        brightness: Brightness.light,
-        surface: AppColors.paper,
-        primary: AppColors.sage,
-        onSurface: AppColors.ink,
-      ),
+  static ThemeData light() => _build(Hk.light, Brightness.light);
+  static ThemeData dark() => _build(Hk.dark, Brightness.dark);
+
+  static ThemeData _build(Hk c, Brightness b) {
+    final scheme = ColorScheme.fromSeed(
+      seedColor: c.gold,
+      brightness: b,
+      surface: c.paper,
+      primary: c.walnut,
+      secondary: c.gold,
+      onSurface: c.ink,
     );
+    final base = ThemeData(useMaterial3: true, fontFamily: body, colorScheme: scheme, brightness: b);
     return base.copyWith(
-      textTheme: base.textTheme.apply(bodyColor: AppColors.ink, displayColor: AppColors.ink),
-      appBarTheme: const AppBarTheme(
-        backgroundColor: AppColors.paper,
-        foregroundColor: AppColors.ink,
+      scaffoldBackgroundColor: c.paper,
+      extensions: [c],
+      textTheme: base.textTheme.apply(bodyColor: c.ink, displayColor: c.ink),
+      iconTheme: IconThemeData(color: c.walnut),
+      appBarTheme: AppBarTheme(
+        backgroundColor: Colors.transparent,
+        foregroundColor: c.walnut,
         elevation: 0,
         scrolledUnderElevation: 0,
         centerTitle: true,
-        titleTextStyle: TextStyle(fontFamily: fontFamily, fontSize: 21, color: AppColors.ink),
+        titleTextStyle: TextStyle(fontFamily: body, fontSize: 21, color: c.walnut),
       ),
-      dividerTheme: const DividerThemeData(color: AppColors.rule, thickness: 1, space: 1),
-      sliderTheme: const SliderThemeData(
-        trackHeight: 1.5,
-        activeTrackColor: AppColors.sage,
-        inactiveTrackColor: AppColors.rule,
-        thumbColor: AppColors.sage,
-        overlayColor: Color(0x2266785F),
-        thumbShape: RoundSliderThumbShape(enabledThumbRadius: 6),
+      dividerTheme: DividerThemeData(color: c.rule, thickness: 1, space: 1),
+      sliderTheme: SliderThemeData(
+        trackHeight: 2,
+        activeTrackColor: c.gold,
+        inactiveTrackColor: c.rule,
+        thumbColor: c.walnut,
+        overlayColor: c.highlight,
+        thumbShape: const RoundSliderThumbShape(enabledThumbRadius: 7),
       ),
       switchTheme: SwitchThemeData(
-        thumbColor: WidgetStateProperty.resolveWith(
-          (s) => s.contains(WidgetState.selected) ? AppColors.paper : AppColors.muted,
-        ),
-        trackColor: WidgetStateProperty.resolveWith(
-          (s) => s.contains(WidgetState.selected) ? AppColors.sage : AppColors.rule,
-        ),
+        thumbColor: WidgetStateProperty.resolveWith((s) => s.contains(WidgetState.selected) ? c.paper : c.muted),
+        trackColor: WidgetStateProperty.resolveWith((s) => s.contains(WidgetState.selected) ? c.gold : c.rule),
         trackOutlineColor: WidgetStateProperty.all(Colors.transparent),
       ),
-      bottomSheetTheme: const BottomSheetThemeData(backgroundColor: AppColors.paper),
+      cardTheme: CardThemeData(
+        color: c.parchment,
+        elevation: 0,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(6), side: BorderSide(color: c.frame)),
+      ),
+      bottomSheetTheme: BottomSheetThemeData(backgroundColor: c.paper, surfaceTintColor: Colors.transparent),
+      dialogTheme: DialogThemeData(backgroundColor: c.paper, surfaceTintColor: Colors.transparent),
+      inputDecorationTheme: InputDecorationTheme(
+        filled: true,
+        fillColor: c.parchment,
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(6), borderSide: BorderSide(color: c.frame)),
+        enabledBorder:
+            OutlineInputBorder(borderRadius: BorderRadius.circular(6), borderSide: BorderSide(color: c.frame)),
+      ),
+      pageTransitionsTheme: const PageTransitionsTheme(builders: {
+        TargetPlatform.android: PageTurnTransitionsBuilder(),
+        TargetPlatform.iOS: PageTurnTransitionsBuilder(),
+        TargetPlatform.linux: PageTurnTransitionsBuilder(),
+        TargetPlatform.macOS: PageTurnTransitionsBuilder(),
+      }),
     );
   }
 }
 
-/// Recurring text styles. Arabic is never letter-spaced (it would break
-/// the joined script), so hierarchy comes from size, colour and italics.
-class AppText {
-  static const label = TextStyle(fontSize: 15, color: AppColors.muted, height: 1.4);
-  static const labelSage = TextStyle(fontSize: 15, color: AppColors.sage, height: 1.4);
-  static const caption = TextStyle(fontSize: 20, fontStyle: FontStyle.italic, color: AppColors.ink);
-  static const speaker = TextStyle(fontSize: 19, color: AppColors.sage);
-  static const direction = TextStyle(fontSize: 19, fontStyle: FontStyle.italic, color: AppColors.sage);
-  static const control = TextStyle(fontSize: 17, color: AppColors.sage);
-  static TextStyle story(double scale) =>
-      TextStyle(fontSize: 25 * scale, height: 1.75, color: AppColors.ink);
+/// A restrained "turning page": the new page slides in from the reading
+/// edge with a soft fade and a slight perspective tilt.
+class PageTurnTransitionsBuilder extends PageTransitionsBuilder {
+  const PageTurnTransitionsBuilder();
+
+  @override
+  Widget buildTransitions<T>(PageRoute<T> route, BuildContext context, Animation<double> animation,
+      Animation<double> secondaryAnimation, Widget child) {
+    final rtl = Directionality.of(context) == TextDirection.rtl;
+    final curve = CurvedAnimation(parent: animation, curve: Curves.easeOutCubic);
+    return AnimatedBuilder(
+      animation: curve,
+      child: child,
+      builder: (context, child) {
+        final t = 1 - curve.value;
+        return Opacity(
+          opacity: curve.value.clamp(0.0, 1.0),
+          child: Transform(
+            alignment: rtl ? Alignment.centerRight : Alignment.centerLeft,
+            transform: Matrix4.identity()
+              ..setEntry(3, 2, 0.0012)
+              ..rotateY((rtl ? -1 : 1) * t * 0.35)
+              ..translateByDouble((rtl ? -1 : 1) * t * 40, 0, 0, 1),
+            child: child,
+          ),
+        );
+      },
+    );
+  }
 }
 
 const _arabicDigits = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
 
-String arabicDigits(Object value) =>
-    value.toString().split('').map((c) {
-      final d = int.tryParse(c);
-      return d == null ? c : _arabicDigits[d];
+String arabicDigits(Object value) => value.toString().split('').map((ch) {
+      final d = int.tryParse(ch);
+      return d == null ? ch : _arabicDigits[d];
     }).join();
 
 String formatTime(Duration d) {
-  final m = d.inMinutes;
+  final h = d.inHours;
+  final m = d.inMinutes % 60;
   final s = d.inSeconds % 60;
-  return arabicDigits('$m:${s.toString().padLeft(2, '0')}');
+  final core = h > 0 ? '$h:${m.toString().padLeft(2, '0')}:${s.toString().padLeft(2, '0')}' : '$m:${s.toString().padLeft(2, '0')}';
+  return arabicDigits(core);
 }
 
+String formatSpeed(double v) => '${arabicDigits(v.toString().replaceAll(RegExp(r'\.0$'), '').replaceAll('.', '٫'))}×';
+
 const _ordinals = [
-  'الأولى', 'الثانية', 'الثالثة', 'الرابعة', 'الخامسة', 'السادسة', 'السابعة', 'الثامنة', 'التاسعة',
-  'العاشرة',
+  'الأولى', 'الثانية', 'الثالثة', 'الرابعة', 'الخامسة', 'السادسة', 'السابعة', 'الثامنة', 'التاسعة', 'العاشرة',
+  'الحادية عشرة', 'الثانية عشرة', 'الثالثة عشرة', 'الرابعة عشرة', 'الخامسة عشرة', 'السادسة عشرة',
+  'السابعة عشرة', 'الثامنة عشرة', 'التاسعة عشرة', 'العشرون', 'الحادية والعشرون', 'الثانية والعشرون',
 ];
 
 String episodeOrdinal(int n) => n >= 1 && n <= _ordinals.length ? _ordinals[n - 1] : arabicDigits(n);

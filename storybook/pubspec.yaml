@@ -1,5 +1,5 @@
-name: thumma_ihtadayt
-description: "ثم اهتديت — كتاب صوتي مصوّر تفاعلي يعمل دون اتصال."
+name: hikaya
+description: "حكايا — مكتبة كتب مصوّرة ومسموعة تعمل دون اتصال."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -36,6 +36,11 @@ dependencies:
   just_audio: ^0.10.6
   audio_session: ^0.2.4
   shared_preferences: ^2.5.6
+  audio_service: ^0.18.19
+  path_provider: ^2.1.6
+  file_picker: ^13.2.0
+  archive: ^4.5.2
+  path: ^1.9.1
 
 dev_dependencies:
   flutter_test:
@@ -56,7 +61,9 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/library.json
+    - assets/books/index.json
+    - assets/books/thumma_ihtadayt/
+    - assets/ui/
     - assets/books/thumma_ihtadayt/ep01/
     - assets/books/thumma_ihtadayt/ep01/images/
     - assets/books/thumma_ihtadayt/ep01/audio/
@@ -72,3 +79,8 @@ flutter:
         - asset: assets/fonts/Amiri-BoldItalic.ttf
           weight: 700
           style: italic
+    - family: ArefRuqaa
+      fonts:
+        - asset: assets/fonts/ArefRuqaa-Regular.ttf
+        - asset: assets/fonts/ArefRuqaa-Bold.ttf
+          weight: 700
