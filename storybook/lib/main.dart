@@ -9,6 +9,7 @@ import 'package:path_provider/path_provider.dart';
 import 'models/book.dart';
 import 'screens/bookmarks_screen.dart';
 import 'screens/home_screen.dart';
+import 'screens/intro_screen.dart';
 import 'screens/library_screen.dart';
 import 'screens/player_screen.dart';
 import 'screens/settings_screen.dart';
@@ -23,6 +24,7 @@ Future<void> main() async {
   final store = LibraryStore(booksDir: Directory(p.join(docs.path, 'hikaya', 'books')));
   final user = await UserData.load();
   await store.load();
+  final intro = await IntroAssets.detect();
   HikayaAudioHandler? media;
   try {
     media = await AudioService.init(
@@ -37,7 +39,7 @@ Future<void> main() async {
   } on Object catch (e) {
     debugPrint('media session unavailable: $e');
   }
-  runApp(HikayaApp(store: store, user: user, media: media));
+  runApp(HikayaApp(store: store, user: user, media: media, intro: intro));
 }
 
 /// App-wide services.
@@ -58,8 +60,9 @@ class HikayaApp extends StatelessWidget {
   final LibraryStore store;
   final UserData user;
   final HikayaAudioHandler? media;
+  final IntroAssets? intro;
 
-  const HikayaApp({super.key, required this.store, required this.user, this.media});
+  const HikayaApp({super.key, required this.store, required this.user, this.media, this.intro});
 
   @override
   Widget build(BuildContext context) {
@@ -78,7 +81,9 @@ class HikayaApp extends StatelessWidget {
           locale: const Locale('ar'),
           supportedLocales: const [Locale('ar')],
           localizationsDelegates: GlobalMaterialLocalizations.delegates,
-          home: const ShellScreen(),
+          home: intro != null && intro!.any && user.showIntro
+              ? IntroScreen(assets: intro!, next: (_) => const ShellScreen())
+              : const ShellScreen(),
         ),
       ),
     );

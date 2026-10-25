@@ -6,6 +6,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:hikaya/main.dart';
 import 'package:hikaya/models/book.dart';
 import 'package:hikaya/models/episode.dart';
+import 'package:hikaya/screens/intro_screen.dart';
 import 'package:hikaya/screens/player_screen.dart';
 import 'package:hikaya/services/library_store.dart';
 import 'package:hikaya/services/playback.dart';
@@ -152,5 +153,36 @@ void main() {
     expect(find.text('إظهار نص القصة'), findsOneWidget);
     expect(find.byTooltip('تشغيل'), findsOneWidget);
     c.dispose();
+  });
+
+  testWidgets('launch intro plays the logos then opens the app; tap skips', (tester) async {
+    phone(tester);
+    const assets = IntroAssets(hasVideo: false, availableLogos: ['assets/ui/paper_light.png', 'assets/ui/paper_dark.png']);
+    Widget app() => MaterialApp(
+          theme: AppTheme.light(),
+          home: IntroScreen(assets: assets, next: (_) => const Scaffold(body: Text('APP'))),
+        );
+    await tester.pumpWidget(app());
+    await tester.pump(const Duration(milliseconds: 500));
+    expect(find.text('APP'), findsNothing);
+    await tester.pump(const Duration(milliseconds: 4200));
+    await tester.pumpAndSettle();
+    expect(find.text('APP'), findsOneWidget);
+
+    await tester.pumpWidget(Container());
+    await tester.pumpWidget(app());
+    await tester.pump(const Duration(milliseconds: 300));
+    await tester.tap(find.byType(IntroScreen));
+    await tester.pumpAndSettle();
+    expect(find.text('APP'), findsOneWidget);
+  });
+
+  testWidgets('no intro assets means the app opens directly', (tester) async {
+    phone(tester);
+    final (store, user) = await services(tester);
+    await tester.pumpWidget(HikayaApp(
+        store: store, user: user, intro: const IntroAssets(hasVideo: false, availableLogos: [])));
+    await tester.pump();
+    expect(find.text('مكتبتي'), findsOneWidget);
   });
 }

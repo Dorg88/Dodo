@@ -41,6 +41,7 @@ dependencies:
   file_picker: ^13.2.0
   archive: ^4.5.2
   path: ^1.9.1
+  video_player: ^2.14.1
 
 dev_dependencies:
   flutter_test:
@@ -64,6 +65,7 @@ flutter:
     - assets/books/index.json
     - assets/books/thumma_ihtadayt/
     - assets/ui/
+    - assets/brand/
     - assets/books/thumma_ihtadayt/ep01/
     - assets/books/thumma_ihtadayt/ep01/images/
     - assets/books/thumma_ihtadayt/ep01/audio/

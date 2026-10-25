@@ -64,6 +64,10 @@ class SettingsScreen extends StatelessWidget {
               SwitchListTile(title: const Text('المؤثرات الصوتية'), value: u.sfxEnabled, onChanged: u.setSfxEnabled),
               SwitchListTile(
                   title: const Text('الانتقال تلقائياً إلى الحلقة التالية'), value: u.autoNext, onChanged: u.setAutoNext),
+              SwitchListTile(
+                  title: const Text('عرض شعارات البداية عند تشغيل التطبيق'),
+                  value: u.showIntro,
+                  onChanged: u.setShowIntro),
               const SectionTitle('المساعدة'),
               ListTile(
                 leading: const Icon(Icons.menu_book_outlined),
@@ -73,7 +77,11 @@ class SettingsScreen extends StatelessWidget {
               const ListTile(
                 leading: Icon(Icons.info_outline),
                 title: Text('حكايا'),
-                subtitle: Text('يعمل دون اتصال. الخطوط: أميري ورقعة عارف (SIL OFL).'),
+                subtitle: Text('شعبة البحوث والدراسات — قسم الشؤون الدينية\n'
+                    'الأمانة العامة للعتبة الحسينية المقدسة\n'
+                    'فكرةً وتصميماً: ضرغام الگيار\n'
+                    'يعمل دون اتصال. الخطوط: أميري ورقعة عارف (SIL OFL).'),
+                isThreeLine: true,
               ),
             ],
           ),

@@ -61,6 +61,7 @@ class UserData extends ChangeNotifier {
   bool get musicMuted => _p.getBool('musicMuted') ?? false;
   bool get sfxEnabled => _p.getBool('sfxEnabled') ?? true;
   bool get autoNext => _p.getBool('autoNext') ?? true;
+  bool get showIntro => _p.getBool('showIntro') ?? true;
 
   static const fontScales = [0.85, 1.0, 1.15, 1.3, 1.5, 1.75];
   static const speeds = [0.75, 1.0, 1.25, 1.5, 2.0];
@@ -76,6 +77,7 @@ class UserData extends ChangeNotifier {
   Future<void> setMusicMuted(bool v) => _set(() => _p.setBool('musicMuted', v));
   Future<void> setSfxEnabled(bool v) => _set(() => _p.setBool('sfxEnabled', v));
   Future<void> setAutoNext(bool v) => _set(() => _p.setBool('autoNext', v));
+  Future<void> setShowIntro(bool v) => _set(() => _p.setBool('showIntro', v));
 
   Future<void> _set(Future<bool> Function() write) async {
     await write();
