@@ -406,6 +406,48 @@ def fx_rustle(dur, seed=131):
     return reverb(out, 2.5, 0.45, seed)
 
 
+def fx_sea(dur, seed=141):
+    """Open sea from a ship's deck: slow swells, wash and a low engine hum."""
+    rng = _rng(seed)
+    n = int(dur * SR)
+    t = np.arange(n) / SR
+    wash = butter(rng.standard_normal((n, 2)), "band", (120, 2400), 2)
+    swell = 0.55 + 0.45 * np.sin(2 * np.pi * 0.11 * t)
+    swell2 = 0.5 + 0.5 * np.sin(2 * np.pi * 0.07 * t + 2.0)
+    out = wash * (swell * swell2)[:, None] * 0.12
+    hum = np.sin(2 * np.pi * 52 * t) * 0.03 + np.sin(2 * np.pi * 104 * t) * 0.012
+    out += np.stack([hum, hum], axis=1)
+    return reverb(out, 1.6, 0.25, seed)
+
+
+def fx_city(dur, seed=151):
+    """A town street of the period: distant voices, footsteps, a far-off cart."""
+    rng = _rng(seed)
+    out = _babble(dur, 9, seed, 0.035, rate=(3.0, 5.5))
+    out = butter(out, "band", (200, 3500), 2)
+    steps = fx_footsteps(dur, seed + 3) * 0.25
+    out = out + steps
+    for _ in range(int(dur // 6)):
+        m = int(1.5 * SR)
+        clop = np.zeros(m)
+        for j in range(0, m, int(0.32 * SR)):
+            clop[j:j + 400] += np.exp(-np.arange(400) / 60) * rng.uniform(0.3, 0.5)
+        clop = butter(clop * rng.standard_normal(m) * 0.5 + clop, "band", (500, 2500), 2) * np.hanning(m) * 0.08
+        place(out, pan(clop, rng.uniform(-0.9, 0.9)), int(rng.uniform(0, max(dur - 2, 0.1)) * SR))
+    return reverb(out, 1.4, 0.3, seed)
+
+
+def fx_study(dur, seed=161):
+    """A quiet room of books: soft room tone, an occasional page turn."""
+    rng = _rng(seed)
+    out = fx_roomtone(dur, seed) * 0.6
+    for _ in range(int(dur // 5) + 1):
+        m = int(rng.uniform(0.35, 0.6) * SR)
+        page = butter(rng.standard_normal(m), "band", (1500, 6500), 2) * np.hanning(m) ** 2 * 0.05
+        place(out, pan(page, rng.uniform(-0.4, 0.4)), int(rng.uniform(0.5, max(dur - 1, 0.6)) * SR))
+    return reverb(out, 1.2, 0.3, seed)
+
+
 MUSIC = {
     "nostalgic": cue_nostalgic,
     "suspense": cue_suspense,
@@ -423,4 +465,7 @@ SFX = {
     "murmur": fx_murmur,
     "crowd": fx_crowd,
     "rustle": fx_rustle,
+    "sea": fx_sea,
+    "city": fx_city,
+    "study": fx_study,
 }
