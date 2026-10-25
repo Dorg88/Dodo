@@ -110,7 +110,8 @@ def cmd_estimate(args, paths, cfg, reg):
 
 
 def producer(paths, cfg, reg, backend):
-    return Producer(paths, cfg, reg, backend, Transcriber(cfg["validation"].get("whisper_model_dir")))
+    model_dir = os.environ.get("TTS_WHISPER_MODEL_DIR") or cfg["validation"].get("whisper_model_dir")
+    return Producer(paths, cfg, reg, backend, Transcriber(model_dir))
 
 
 def cmd_preview(args, paths, cfg, reg):
