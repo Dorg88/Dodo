@@ -86,6 +86,8 @@ def test_unverified_voice_blocks_real_backend(env):
     class NotFake(FakeBackend):
         name = "gemini"
 
+    reg.set_verification("PROFESSOR_MUNIM", None, "not_found_in_catalog")
+
     with pytest.raises(RuntimeError, match="not verified"):
         Producer(paths, cfg, reg, NotFake()).produce(ep, os.path.join(paths.output, "x"))
 
@@ -156,7 +158,7 @@ def test_transient_failures_are_retried():
     class Errors:
         class APIError(Exception):
             def __init__(self, code):
-                self.code, self.status, self.message = code, "x", "x"
+                self.code, self.status, self.message, self.details = code, "x", "x", {}
     be.errors = Errors
     calls = []
     def flaky():
@@ -204,3 +206,30 @@ def test_repository_preview_script_parses():
     assert {l.speaker_id for l in ep.lines} == {"AL_TIJANI", "PROFESSOR_MUNIM"}
     assert all(l.type == "fictional" for l in ep.lines)
     json.dumps([l.__dict__ for l in ep.lines], ensure_ascii=False)
+
+
+def test_daily_quota_stops_instead_of_retrying():
+    from tts.pipeline.backends import GeminiBackend, QuotaExhausted
+
+    be = GeminiBackend.__new__(GeminiBackend)
+    be.max_retries = 5
+    be.log = lambda **kw: None
+
+    class L:
+        def wait(self):
+            pass
+    be.limiter = L()
+
+    class Errors:
+        class APIError(Exception):
+            def __init__(self):
+                self.code, self.status, self.message = 429, "RESOURCE_EXHAUSTED", "quota"
+                self.details = {"error": {"details": [{"retryDelay": "4223s"}]}}
+    be.errors = Errors
+    calls = []
+    def exhausted():
+        calls.append(1)
+        raise Errors.APIError()
+    with pytest.raises(QuotaExhausted, match="70 min"):
+        be._call(exhausted, "t")
+    assert len(calls) == 1

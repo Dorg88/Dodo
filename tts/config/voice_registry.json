@@ -5,56 +5,56 @@
     "NARRATOR": {
       "name_ar": "الراوي",
       "user_choice": "Riko",
-      "api_voice": null,
-      "status": "synthesis_failed",
+      "api_voice": "en-us-riko",
+      "status": "verified",
       "voice_brief": "Deep, expressive, cinematic Arabic narrator; controlled, clear diction in Modern Standard Arabic.",
       "accent_instruction": "Modern Standard Arabic (fusha), neutral and clear.",
-      "verification_note": "synthesis failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+      "verification_note": "catalog match + Arabic test synthesis OK on gemini-3.8-flash-tts (GitHub Actions run 40166327386, 2026-10-25)"
     },
     "AL_TIJANI": {
       "name_ar": "محمد التيجاني",
       "user_choice": "Enzo",
-      "api_voice": null,
-      "status": "synthesis_failed",
+      "api_voice": "en-us-enzo",
+      "status": "verified",
       "voice_brief": "Young-adult Muhammad al-Tijani: expressive, intelligent, increasingly reflective.",
       "accent_instruction": "Arabic with a light, natural Tunisian accent.",
-      "verification_note": "synthesis failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+      "verification_note": "catalog match + Arabic test synthesis OK on gemini-3.8-flash-tts (GitHub Actions run 40166327386, 2026-10-25)"
     },
     "MOTHER": {
       "name_ar": "الأم",
       "user_choice": "Lumi",
-      "api_voice": null,
-      "status": "synthesis_failed",
+      "api_voice": "en-us-lumi",
+      "status": "verified",
       "voice_brief": "Mother: warm and loving.",
       "accent_instruction": "Natural Tunisian Arabic accent.",
-      "verification_note": "synthesis failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+      "verification_note": "catalog match + Arabic test synthesis OK on gemini-3.8-flash-tts (GitHub Actions run 40166327386, 2026-10-25)"
     },
     "FATHER": {
       "name_ar": "الأب",
       "user_choice": "Bodi",
-      "api_voice": null,
-      "status": "synthesis_failed",
+      "api_voice": "en-us-bodi",
+      "status": "verified",
       "voice_brief": "Father: mature and affectionate.",
       "accent_instruction": "Natural Tunisian Arabic accent.",
-      "verification_note": "synthesis failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+      "verification_note": "catalog match + Arabic test synthesis OK on gemini-3.8-flash-tts (GitHub Actions run 40166327386, 2026-10-25)"
     },
     "WIFE": {
       "name_ar": "الزوجة",
       "user_choice": "Sola",
-      "api_voice": null,
-      "status": "synthesis_failed",
+      "api_voice": "en-us-sola",
+      "status": "verified",
       "voice_brief": "Wife: calm and natural.",
       "accent_instruction": "Natural Arabic; a light Tunisian colour is acceptable.",
-      "verification_note": "synthesis failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+      "verification_note": "catalog match + Arabic test synthesis OK on gemini-3.8-flash-tts (GitHub Actions run 40166327386, 2026-10-25)"
     },
     "PROFESSOR_MUNIM": {
       "name_ar": "الأستاذ منعم العراقي",
       "user_choice": "Ludo",
-      "api_voice": null,
-      "status": "synthesis_failed",
+      "api_voice": "en-us-ludo",
+      "status": "verified",
       "voice_brief": "Professor Munim: mature, gentle, intellectual and patient; medium-low tone. Never shouts, never confrontational.",
       "accent_instruction": "Educated Arabic with an understated Baghdadi Iraqi accent.",
-      "verification_note": "synthesis failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on"
+      "verification_note": "catalog match + Arabic test synthesis OK on gemini-3.8-flash-tts (GitHub Actions run 40166327386, 2026-10-25)"
     }
   },
   "secondary_cast": {
@@ -63,10 +63,10 @@
       "name_ar": "مسافر على الباخرة",
       "proposed_voice": "Iapetus",
       "api_voice": null,
-      "status": "synthesis_failed",
+      "status": "unverified",
       "voice_brief": "Adult male fellow traveller, friendly.",
       "accent_instruction": "Modern Standard Arabic.",
-      "verification_note": "synthesis failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on"
+      "verification_note": "test hit the free-tier daily quota (429); re-check later"
     },
     "IRAQI_HOST": {
       "name_ar": "مضيف عراقي",
@@ -75,34 +75,34 @@
       "status": "verified",
       "voice_brief": "Hospitable Iraqi man.",
       "accent_instruction": "Light Iraqi accent.",
-      "verification_note": "Achird (prebuilt, accent=General American, lang=en-US); test 3.4s"
+      "verification_note": "catalog match + Arabic test synthesis OK on gemini-3.8-flash-tts (GitHub Actions run 40166327386, 2026-10-25)"
     },
     "SCHOLAR": {
       "name_ar": "عالم من النجف",
       "proposed_voice": "Algenib",
-      "api_voice": null,
-      "status": "synthesis_failed",
+      "api_voice": "algenib",
+      "status": "verified",
       "voice_brief": "Elderly, dignified scholar. Use only for anonymous scholars or verified quotations.",
       "accent_instruction": "Formal Arabic with an Iraqi colour.",
-      "verification_note": "synthesis failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on"
+      "verification_note": "catalog match + Arabic test synthesis OK on gemini-3.8-flash-tts (GitHub Actions run 40166327386, 2026-10-25)"
     },
     "TUNISIAN_FRIEND": {
       "name_ar": "صديق تونسي",
       "proposed_voice": "Orus",
-      "api_voice": null,
-      "status": "synthesis_failed",
+      "api_voice": "orus",
+      "status": "verified",
       "voice_brief": "Al-Tijani's friend or colleague in Tunisia.",
       "accent_instruction": "Natural Tunisian Arabic accent.",
-      "verification_note": "synthesis failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on"
+      "verification_note": "catalog match + Arabic test synthesis OK on gemini-3.8-flash-tts (GitHub Actions run 40166327386, 2026-10-25)"
     },
     "WOMAN_SECONDARY": {
       "name_ar": "امرأة",
       "proposed_voice": "Aoede",
       "api_voice": null,
-      "status": "synthesis_failed",
+      "status": "unverified",
       "voice_brief": "Adult woman, secondary role.",
       "accent_instruction": "Natural Arabic.",
-      "verification_note": "synthesis failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on"
+      "verification_note": "test hit the free-tier daily quota (429); re-check later"
     }
   },
   "historical_figures_policy": "Named historical figures (for example Sayyid Muhammad Baqir al-Sadr or Sayyid al-Khoei) are presented through the narrator. A historical figure may speak only a direct quotation that appears in the book, tagged {type=quote source=\"...\"}; the parser rejects any other line for them.",

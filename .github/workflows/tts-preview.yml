@@ -62,6 +62,7 @@ jobs:
         run: python3 -m tts.pipeline preview 2>&1 | tee /tmp/preview.log; exit ${PIPESTATUS[0]}
 
       - name: Comparison preview with native Arabic catalog voices
+        if: ${{ hashFiles('tts/requests/compare.request') != '' }}
         continue-on-error: true
         run: |
           cp tts/config/voice_registry.json /tmp/registry.json
@@ -84,8 +85,8 @@ jobs:
           for P in preview preview_arabic_voices; do
             if [ -d tts/output/$P ]; then
               mkdir -p $R/$P
-              cp tts/output/$P/*.mp3 tts/output/$P/*.json tts/output/$P/*.md $R/$P/
-              cp -r tts/output/$P/lines $R/$P/ && rm -f $R/$P/lines/*.wav
+              cp tts/output/$P/*.mp3 tts/output/$P/*.json tts/output/$P/*.md $R/$P/ 2>/dev/null || true
+              cp -r tts/output/$P/lines $R/$P/ 2>/dev/null && rm -f $R/$P/lines/*.wav || true
             fi
           done
           git config user.name "github-actions[bot]"

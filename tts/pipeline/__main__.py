@@ -61,6 +61,9 @@ def cmd_verify(args, paths, cfg, reg):
                "|---|---|---|---|---|---|"]
     for cid in sorted(reg.characters, key=lambda c: (reg.characters[c]["group"], c)):
         choice = reg.voice_choice(cid)
+        if reg.api_voice(cid) and not args.recheck:
+            report.append(f"| {cid} | {choice} | (already verified) | `{reg.api_voice(cid)}` | skipped | verified |")
+            continue
         matches = be.search_voices(choice) if choice else []
         exact = [v for v in matches if choice.lower() in {(v.display_name or "").lower(), (v.id or "").lower()}]
         if not exact:
@@ -220,7 +223,8 @@ def main(argv=None):
     ap = argparse.ArgumentParser(prog="python3 -m tts.pipeline", description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
-    sub.add_parser("verify-voices")
+    vv = sub.add_parser("verify-voices")
+    vv.add_argument("--recheck", action="store_true", help="re-test voices that are already verified")
     e = sub.add_parser("estimate")
     e.add_argument("--model")
     pv = sub.add_parser("preview")

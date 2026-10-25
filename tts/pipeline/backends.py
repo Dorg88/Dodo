@@ -27,6 +27,14 @@ def load_api_key(root):
     return None
 
 
+class QuotaExhausted(RuntimeError):
+    """Daily/plan quota used up: waiting minutes will not help, so stop cleanly."""
+
+    def __init__(self, retry_after_s, message):
+        super().__init__(f"API quota exhausted; retry in about {retry_after_s // 60} min. {message}")
+        self.retry_after_s = retry_after_s
+
+
 class SynthesisResult:
     def __init__(self, pcm, sample_rate, input_tokens=None, output_tokens=None, mime=""):
         self.pcm = pcm  # float64 mono in [-1, 1]
@@ -74,6 +82,10 @@ class GeminiBackend:
                 return fn()
             except self.errors.APIError as e:
                 transient = e.code in TRANSIENT_CODES
+                delay = re.search(r"retryDelay'?\"?:\s*'?\"?(\d+)s", str(e.details))
+                if e.code == 429 and delay and int(delay.group(1)) > 300:
+                    self.log(event="quota_exhausted", what=what, retry_after_s=int(delay.group(1)))
+                    raise QuotaExhausted(int(delay.group(1)), str(e.message)[:400]) from e
                 self.log(event="api_error", what=what, code=e.code, status=e.status, message=str(e.message)[:300],
                          attempt=attempt, transient=transient)
                 if not transient or attempt == self.max_retries:
