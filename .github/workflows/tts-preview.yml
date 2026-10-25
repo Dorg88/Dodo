@@ -56,16 +56,18 @@ jobs:
         continue-on-error: true
         run: python3 -m tts.pipeline verify-voices 2>&1 | tee /tmp/verify.log
 
-      - name: Diagnose voices that failed
-        continue-on-error: true
-        run: |
-          python3 -m tts.pipeline diagnose-voice --names Enzo 2>&1 | tee /tmp/diagnose.log
-          python3 -m tts.pipeline list-voices > /tmp/list.log 2>&1
-
       - name: Generate preview
         id: preview
         continue-on-error: true
         run: python3 -m tts.pipeline preview 2>&1 | tee /tmp/preview.log; exit ${PIPESTATUS[0]}
+
+      - name: Comparison preview with native Arabic catalog voices
+        continue-on-error: true
+        run: |
+          cp tts/config/voice_registry.json /tmp/registry.json
+          python3 -m tts.pipeline preview --out preview_arabic_voices \
+            --voice-override AL_TIJANI=ar-001-training-2,PROFESSOR_MUNIM=ar-001-tutor-2 2>&1 | tee /tmp/preview_alt.log
+          cp /tmp/registry.json tts/config/voice_registry.json
 
       - name: Estimate
         continue-on-error: true
@@ -78,11 +80,14 @@ jobs:
           rm -rf $R && mkdir -p $R
           cp /tmp/verify.log /tmp/preview.log /tmp/estimate.log /tmp/diagnose.log /tmp/list.log $R/ 2>/dev/null || true
           cp tts/output/voice_verification.md tts/output/cost_estimate.md tts/output/voice_diagnosis.md tts/output/voice_catalog.md $R/ 2>/dev/null || true
-          if [ -d tts/output/preview ]; then
-            mkdir -p $R/preview
-            cp tts/output/preview/*.mp3 tts/output/preview/*.json tts/output/preview/*.md $R/preview/
-            cp -r tts/output/preview/lines $R/preview/ && rm -f $R/preview/lines/*.wav
-          fi
+          cp /tmp/preview_alt.log $R/ 2>/dev/null || true
+          for P in preview preview_arabic_voices; do
+            if [ -d tts/output/$P ]; then
+              mkdir -p $R/$P
+              cp tts/output/$P/*.mp3 tts/output/$P/*.json tts/output/$P/*.md $R/$P/
+              cp -r tts/output/$P/lines $R/$P/ && rm -f $R/$P/lines/*.wav
+            fi
+          done
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -f $R tts/config/voice_registry.json

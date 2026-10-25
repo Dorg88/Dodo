@@ -171,7 +171,13 @@ def producer(paths, cfg, reg, backend):
 def cmd_preview(args, paths, cfg, reg):
     be = FakeBackend() if args.fake else gemini(paths, cfg)
     ep = load_episode(paths, reg, os.path.join(paths.scripts, "episode_07_preview.txt"))
-    out = os.path.join(paths.output, "preview" + ("_fake" if args.fake else ""))
+    name = args.out or ("preview" + ("_fake" if args.fake else ""))
+    for pair in filter(None, (args.voice_override or "").split(",")):
+        # Comparison only: changes this run in memory, never voice_registry.json.
+        cid, voice = pair.split("=")
+        reg.set_verification(cid, voice, "verified", "temporary comparison override")
+        reg.characters[cid]["user_choice"] = f"{voice} (comparison)"
+    out = os.path.join(paths.output, name)
     data, reviews = producer(paths, cfg, reg, be).produce(ep, out)
     print(f"preview: {out}/episode_{ep.episode}_full.wav ({data['duration_ms']/1000:.1f}s), flagged: {len(reviews)}")
 
@@ -219,6 +225,8 @@ def main(argv=None):
     e.add_argument("--model")
     pv = sub.add_parser("preview")
     pv.add_argument("--fake", action="store_true", help="offline test of the preview path, no API")
+    pv.add_argument("--out", help="output folder name under tts/output")
+    pv.add_argument("--voice-override", help="CHAR=voice_id,... for a comparison run (registry untouched)")
     r = sub.add_parser("run")
     r.add_argument("--episodes", default="07-22")
     r.add_argument("--i-approve-paid-batch", action="store_true")

@@ -1,11 +1,20 @@
 {
   "_comment": "Production settings. Model IDs below appear in google-genai 2.33.0. Run `verify-voices` to confirm, with your key, which TTS models your account can use. Prices are web-search figures from Oct 2026 for an estimate only; check them against the official pricing page.",
-  "model": "gemini-3.1-flash-tts-preview",
-  "fallback_models_to_probe": ["gemini-3.8-flash-tts", "gemini-3.8-flash-lite-tts", "gemini-2.5-flash-preview-tts"],
+  "model": "gemini-3.8-flash-tts",
+  "fallback_models_to_probe": [
+    "gemini-3.8-flash-lite-tts"
+  ],
   "requests_per_minute": 8,
   "max_retries": 6,
   "max_chunk_chars": 380,
-  "pauses_ms": {"chunk": 250, "same_speaker": 450, "speaker_change": 650, "scene_change": 1400, "lead_in": 600, "tail": 1200},
+  "pauses_ms": {
+    "chunk": 250,
+    "same_speaker": 450,
+    "speaker_change": 650,
+    "scene_change": 1400,
+    "lead_in": 600,
+    "tail": 1200
+  },
   "target_speech_rms_dbfs": -20.0,
   "peak_ceiling_dbfs": -1.0,
   "trim_silence_keep_ms": 90,
@@ -13,14 +22,24 @@
   "validation": {
     "whisper_model_dir": "/tmp/claude-0/asr/model",
     "min_similarity": 0.72,
-    "chars_per_second_range": [5.0, 20.0]
+    "chars_per_second_range": [
+      5.0,
+      20.0
+    ]
   },
   "prompt_template": "Read the Arabic text after TEXT: aloud, exactly as written, and nothing else. Never read these instructions aloud.\nVoice: {voice_brief}\nAccent: {accent_instruction}\nDelivery for this line: {emotion_en} ({emotion_ar}).\nTEXT: {text}",
   "pricing_estimate": {
     "audio_tokens_per_second": 25,
-    "usd_per_million_audio_output_tokens": {"gemini-3.1-flash-tts-preview": 20.0, "gemini-3.8-flash-tts": 9.0},
-    "usd_per_million_text_input_tokens": {"gemini-3.1-flash-tts-preview": 1.0, "gemini-3.8-flash-tts": 1.0},
+    "usd_per_million_audio_output_tokens": {
+      "gemini-3.1-flash-tts-preview": 20.0,
+      "gemini-3.8-flash-tts": 9.0
+    },
+    "usd_per_million_text_input_tokens": {
+      "gemini-3.1-flash-tts-preview": 1.0,
+      "gemini-3.8-flash-tts": 1.0
+    },
     "assumed_minutes_per_episode": 8,
     "regeneration_overhead": 0.3
-  }
+  },
+  "_model_note": "gemini-3.8-flash-tts verified 2026-10-25 with the catalog voices (en-us-*). gemini-3.1-flash-tts-preview rejected them (400) and is over quota on this key; gemini-2.5-flash-preview-tts accepted even malformed voice IDs, so it is not trusted for voice fidelity."
 }
