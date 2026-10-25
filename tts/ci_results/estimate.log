@@ -1,4 +1,4 @@
-# Cost estimate — Episodes 07–22 with gemini-3.1-flash-tts-preview
+# Cost estimate — Episodes 07–22 with gemini-3.8-flash-tts
 
 | Episode | Basis | Characters | Audio (min) |
 |---|---|---|---|
@@ -21,5 +21,5 @@
 
 - Total audio: **128 min**, about 752 TTS requests
 - Tokens: ~192,000 audio output, ~105,299 text input
-- Cost: **≈ $3.95**, or ≈ $5.13 allowing 30% regeneration
+- Cost: **≈ $1.83**, or ≈ $2.38 allowing 30% regeneration
 - Time at 8 requests/min: ≈ 1.6 h
