@@ -1,1 +1,5 @@
 __pycache__/
+.env
+tts/work/
+tts/output/
+.pytest_cache/

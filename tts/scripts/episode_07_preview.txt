@@ -1,0 +1,15 @@
+# Short voice test for Episode 07 (لقاء في عرض البحر): al-Tijani (Enzo) and Professor Munim (Ludo).
+# All lines are a fictional dramatised re-enactment written only to test the voices. The wording has
+# not been checked against the book: the book was not available in the workspace when this was written.
+@episode 07
+@title لقاء في عرض البحر — مقطع تجريبي
+@source_status pending_book_verification
+
+=== SCENE ep07_s01 | على سطح الباخرة
+@image none
+PROFESSOR_MUNIM [بلطف وهدوء]: السلام عليكم يا أخي. أراك تتأمل البحر منذ مدة... هل تأذن لي أن أجلس قليلاً؟
+AL_TIJANI [بابتسامة خفيفة]: وعليكم السلام ورحمة الله. تفضل يا أستاذ، المكان يتسع لنا.
+PROFESSOR_MUNIM [بلطف]: لهجتك قريبة إلى قلبي... أظنك من المغرب العربي؟
+AL_TIJANI [بحماس]: من تونس، يا أستاذ. وأنت، من أي البلاد؟
+PROFESSOR_MUNIM [بهدوء وثقة]: من العراق، من بغداد. يسعدني أن نتعارف؛ فالسفر الطويل يقصر بالحديث الطيب.
+AL_TIJANI [بفضول]: وأنا أسعد بلقائك... فالبحر واسع، والأسئلة في صدري أوسع.

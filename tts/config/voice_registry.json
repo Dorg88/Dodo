@@ -1,0 +1,100 @@
+{
+  "_comment": "One fixed voice per character for Episodes 07-22. 'user_choice' preserves the voice the producer picked in Google AI Studio. 'api_voice' is the identifier actually sent to the API (SpeechConfig.voice_config.voice). It stays null until `python3 -m tts.pipeline verify-voices` finds the choice in the live voice catalog (client.voices.list) and a test synthesis succeeds. The pipeline refuses to synthesise a character whose voice is not verified; it never substitutes another voice on its own.",
+  "language_code": "ar",
+  "main_cast": {
+    "NARRATOR": {
+      "name_ar": "الراوي",
+      "user_choice": "Riko",
+      "api_voice": null,
+      "status": "unverified",
+      "voice_brief": "Deep, expressive, cinematic Arabic narrator; controlled, clear diction in Modern Standard Arabic.",
+      "accent_instruction": "Modern Standard Arabic (fusha), neutral and clear."
+    },
+    "AL_TIJANI": {
+      "name_ar": "محمد التيجاني",
+      "user_choice": "Enzo",
+      "api_voice": null,
+      "status": "unverified",
+      "voice_brief": "Young-adult Muhammad al-Tijani: expressive, intelligent, increasingly reflective.",
+      "accent_instruction": "Arabic with a light, natural Tunisian accent."
+    },
+    "MOTHER": {
+      "name_ar": "الأم",
+      "user_choice": "Lumi",
+      "api_voice": null,
+      "status": "unverified",
+      "voice_brief": "Mother: warm and loving.",
+      "accent_instruction": "Natural Tunisian Arabic accent."
+    },
+    "FATHER": {
+      "name_ar": "الأب",
+      "user_choice": "Bodi",
+      "api_voice": null,
+      "status": "unverified",
+      "voice_brief": "Father: mature and affectionate.",
+      "accent_instruction": "Natural Tunisian Arabic accent."
+    },
+    "WIFE": {
+      "name_ar": "الزوجة",
+      "user_choice": "Sola",
+      "api_voice": null,
+      "status": "unverified",
+      "voice_brief": "Wife: calm and natural.",
+      "accent_instruction": "Natural Arabic; a light Tunisian colour is acceptable."
+    },
+    "PROFESSOR_MUNIM": {
+      "name_ar": "الأستاذ منعم العراقي",
+      "user_choice": "Ludo",
+      "api_voice": null,
+      "status": "unverified",
+      "voice_brief": "Professor Munim: mature, gentle, intellectual and patient; medium-low tone. Never shouts, never confrontational.",
+      "accent_instruction": "Educated Arabic with an understated Baghdadi Iraqi accent."
+    }
+  },
+  "secondary_cast": {
+    "_comment": "Proposed voices are taken from the official 30-voice prebuilt list. They are proposals only and stay unverified until the live check. Change any of them here; the choice then stays fixed across all episodes.",
+    "SHIP_PASSENGER": {
+      "name_ar": "مسافر على الباخرة",
+      "proposed_voice": "Iapetus",
+      "api_voice": null,
+      "status": "unverified",
+      "voice_brief": "Adult male fellow traveller, friendly.",
+      "accent_instruction": "Modern Standard Arabic."
+    },
+    "IRAQI_HOST": {
+      "name_ar": "مضيف عراقي",
+      "proposed_voice": "Achird",
+      "api_voice": null,
+      "status": "unverified",
+      "voice_brief": "Hospitable Iraqi man.",
+      "accent_instruction": "Light Iraqi accent."
+    },
+    "SCHOLAR": {
+      "name_ar": "عالم من النجف",
+      "proposed_voice": "Algenib",
+      "api_voice": null,
+      "status": "unverified",
+      "voice_brief": "Elderly, dignified scholar. Use only for anonymous scholars or verified quotations.",
+      "accent_instruction": "Formal Arabic with an Iraqi colour."
+    },
+    "TUNISIAN_FRIEND": {
+      "name_ar": "صديق تونسي",
+      "proposed_voice": "Orus",
+      "api_voice": null,
+      "status": "unverified",
+      "voice_brief": "Al-Tijani's friend or colleague in Tunisia.",
+      "accent_instruction": "Natural Tunisian Arabic accent."
+    },
+    "WOMAN_SECONDARY": {
+      "name_ar": "امرأة",
+      "proposed_voice": "Aoede",
+      "api_voice": null,
+      "status": "unverified",
+      "voice_brief": "Adult woman, secondary role.",
+      "accent_instruction": "Natural Arabic."
+    }
+  },
+  "historical_figures_policy": "Named historical figures (for example Sayyid Muhammad Baqir al-Sadr or Sayyid al-Khoei) are presented through the narrator. A historical figure may speak only a direct quotation that appears in the book, tagged {type=quote source=\"...\"}; the parser rejects any other line for them.",
+  "historical_ids": [],
+  "_historical_ids_comment": "Add character IDs of named historical figures here (e.g. a SAYYID_AL_SADR entry in secondary_cast). The parser then accepts only {type=quote source=\"...\"} lines for them."
+}
