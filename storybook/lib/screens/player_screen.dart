@@ -193,22 +193,32 @@ class _ImagePane extends StatelessWidget {
         Expanded(
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 8),
-            child: AnimatedSwitcher(
-              duration: const Duration(milliseconds: 650),
-              switchInCurve: Curves.easeOut,
-              child: KeyedSubtree(
-                key: ValueKey('${scene.number}|${scene.image}'),
-                child: SizedBox.expand(
-                  child: ArtworkFrame(
-                    book: book,
-                    image: scene.isClosing ? null : scene.image,
-                    fallback: scene.isClosing ? _ClosingCard(controller: controller) : null,
+            // Each scene is a page of the book: swipe to turn it, as in an Arabic
+            // book (drag the page to the right for the next one).
+            child: GestureDetector(
+              behavior: HitTestBehavior.opaque,
+              onHorizontalDragEnd: (d) {
+                final v = d.primaryVelocity ?? 0;
+                if (v.abs() < 250) return;
+                controller.goToScene(controller.sceneIndex + (v > 0 ? 1 : -1));
+              },
+              child: _PageTurn(
+                number: scene.number,
+                child: KeyedSubtree(
+                  key: ValueKey('${scene.number}|${scene.image}'),
+                  child: SizedBox.expand(
+                    child: ArtworkFrame(
+                      book: book,
+                      image: scene.isClosing ? null : scene.image,
+                      fallback: scene.isClosing ? _ClosingCard(controller: controller) : null,
+                    ),
                   ),
                 ),
               ),
             ),
           ),
         ),
+        _PageDots(controller: controller),
         Padding(
           padding: const EdgeInsets.fromLTRB(14, 6, 14, 6),
           child: Row(
@@ -227,6 +237,97 @@ class _ImagePane extends StatelessWidget {
           ),
         ),
       ],
+    );
+  }
+}
+
+/// Turns the page when the scene changes: the new page slides in from the
+/// side the story moves towards (from the left going forward, right to left
+/// reading) while the old one leaves. The illustration itself never moves
+/// inside its frame; only the page does.
+class _PageTurn extends StatefulWidget {
+  final int number;
+  final Widget child;
+
+  const _PageTurn({required this.number, required this.child});
+
+  @override
+  State<_PageTurn> createState() => _PageTurnState();
+}
+
+class _PageTurnState extends State<_PageTurn> {
+  bool _forward = true;
+
+  @override
+  void didUpdateWidget(_PageTurn old) {
+    super.didUpdateWidget(old);
+    if (old.number != widget.number) _forward = widget.number > old.number;
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final rtl = Directionality.of(context) == TextDirection.rtl;
+    // forward in a right-to-left book: the new page comes from the left
+    final from = (_forward == rtl) ? -0.18 : 0.18;
+    final current = ValueKey('page-${widget.number}');
+    return AnimatedSwitcher(
+      duration: const Duration(milliseconds: 650),
+      switchInCurve: Curves.easeOut,
+      switchOutCurve: Curves.easeIn,
+      transitionBuilder: (child, animation) {
+        final incoming = child.key == current;
+        final offset = Tween<Offset>(begin: Offset(incoming ? from : -from, 0), end: Offset.zero).animate(animation);
+        return FadeTransition(opacity: animation, child: SlideTransition(position: offset, child: child));
+      },
+      child: KeyedSubtree(key: current, child: widget.child),
+    );
+  }
+}
+
+/// One dot per page (scene), like a picture book's page indicator. The current
+/// page is filled; tapping a dot turns to that page.
+class _PageDots extends StatelessWidget {
+  final EpisodeController controller;
+
+  const _PageDots({required this.controller});
+
+  @override
+  Widget build(BuildContext context) {
+    final c = Hk.of(context);
+    final scenes = controller.episode.scenes;
+    if (scenes.length < 2) return const SizedBox(height: 6);
+    final current = controller.sceneIndex;
+    return Padding(
+      padding: const EdgeInsets.only(top: 8),
+      child: Wrap(
+        alignment: WrapAlignment.center,
+        spacing: 2,
+        runSpacing: 2,
+        children: [
+          for (var i = 0; i < scenes.length; i++)
+            Semantics(
+              button: true,
+              selected: i == current,
+              label: 'المشهد ${arabicDigits(i + 1)}',
+              child: InkResponse(
+                radius: 14,
+                onTap: () => controller.goToScene(i),
+                child: Padding(
+                  padding: const EdgeInsets.all(3),
+                  child: AnimatedContainer(
+                    duration: const Duration(milliseconds: 250),
+                    width: i == current ? 16 : 7,
+                    height: 7,
+                    decoration: BoxDecoration(
+                      color: i == current ? c.gold : (i < current ? c.gold.withValues(alpha: 0.45) : c.rule),
+                      borderRadius: BorderRadius.circular(4),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+        ],
+      ),
     );
   }
 }
@@ -326,44 +427,49 @@ class _StoryTextState extends State<_StoryText> {
       });
     }
     final base = TextStyle(fontSize: 23 * user.fontScale, height: user.lineHeight, color: c.ink);
+    // A scene holds a handful of lines: build them all (not lazily) so the line
+    // being spoken can always be scrolled into view, even below a long one.
     return AnimatedSwitcher(
       duration: const Duration(milliseconds: 400),
-      child: ListView(
+      child: SingleChildScrollView(
         key: ValueKey(scene.number),
         padding: const EdgeInsets.fromLTRB(20, 14, 20, 24),
-        children: [
-          for (final s in segments)
-            InkWell(
-              key: _keys.putIfAbsent(s.id, GlobalKey.new),
-              borderRadius: BorderRadius.circular(6),
-              onTap: () => ctl.seek(s.start),
-              child: Container(
-                margin: const EdgeInsets.only(bottom: 10),
-                padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-                decoration: BoxDecoration(
-                  color: s.id == active?.id && user.highlight ? c.highlight.withValues(alpha: 0.12) : null,
-                  borderRadius: BorderRadius.circular(6),
-                  border: Border(
-                    right: BorderSide(color: s.id == active?.id ? c.gold : Colors.transparent, width: 2.5),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            for (final s in segments)
+              InkWell(
+                key: _keys.putIfAbsent(s.id, GlobalKey.new),
+                borderRadius: BorderRadius.circular(6),
+                onTap: () => ctl.seek(s.start),
+                child: Container(
+                  margin: const EdgeInsets.only(bottom: 10),
+                  padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                  decoration: BoxDecoration(
+                    color: s.id == active?.id && user.highlight ? c.highlight.withValues(alpha: 0.12) : null,
+                    borderRadius: BorderRadius.circular(6),
+                    border: Border(
+                      right: BorderSide(color: s.id == active?.id ? c.gold : Colors.transparent, width: 2.5),
+                    ),
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      if (!s.isNarrator || segments.any((o) => !o.isNarrator))
+                        Text(s.speakerName, style: TextStyle(color: c.gold, fontSize: 15 * user.fontScale)),
+                      _segmentText(s, base, c, isActive: s.id == active?.id, isSpeaking: s.id == speaking?.id),
+                      if (s.trailingText != null && ctl.position >= s.end)
+                        Padding(
+                          padding: const EdgeInsets.only(top: 10),
+                          child: Text(s.trailingText!,
+                              style: base.copyWith(color: c.gold, fontStyle: FontStyle.italic, fontSize: base.fontSize! * 0.85)),
+                        ),
+                    ],
                   ),
                 ),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    if (!s.isNarrator || segments.any((o) => !o.isNarrator))
-                      Text(s.speakerName, style: TextStyle(color: c.gold, fontSize: 15 * user.fontScale)),
-                    _segmentText(s, base, c, isActive: s.id == active?.id, isSpeaking: s.id == speaking?.id),
-                    if (s.trailingText != null && ctl.position >= s.end)
-                      Padding(
-                        padding: const EdgeInsets.only(top: 10),
-                        child: Text(s.trailingText!,
-                            style: base.copyWith(color: c.gold, fontStyle: FontStyle.italic, fontSize: base.fontSize! * 0.85)),
-                      ),
-                  ],
-                ),
               ),
-            ),
-        ],
+          ],
+        ),
       ),
     );
   }

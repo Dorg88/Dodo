@@ -117,6 +117,13 @@ class _EpisodeRow extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(entry.title, style: TextStyle(fontSize: 19, color: entry.available ? c.ink : c.muted)),
+                  if (entry.available && entry.underReview)
+                    Container(
+                      margin: const EdgeInsets.only(top: 2, bottom: 2),
+                      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 1),
+                      decoration: BoxDecoration(border: Border.all(color: c.gold), borderRadius: BorderRadius.circular(4)),
+                      child: Text('قيد المراجعة', style: TextStyle(color: c.gold, fontSize: 12)),
+                    ),
                   if (entry.summary.isNotEmpty)
                     Text(entry.summary,
                         maxLines: 2, overflow: TextOverflow.ellipsis, style: TextStyle(color: c.muted, fontSize: 14)),

@@ -93,4 +93,12 @@ void main() {
       throwsFormatException,
     );
   });
+
+  test('an episode awaiting approval is marked for review', () {
+    final e = EpisodeEntry.fromJson(
+        {'id': 'ep02', 'number': 2, 'title': 'من قفصة إلى بيت الله', 'manifest': 'ep02/episode.json', 'status': 'review'});
+    expect(e.available, isTrue);
+    expect(e.underReview, isTrue);
+    expect(EpisodeEntry.fromJson({'id': 'ep01', 'number': 1, 'title': 'ليلة لا تنسى'}).underReview, isFalse);
+  });
 }

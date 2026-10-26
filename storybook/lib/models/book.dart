@@ -85,6 +85,10 @@ class EpisodeEntry {
   final String? manifest;
   final Duration duration;
 
+  /// `review`: the episode plays, but its speaking order, picture placement or
+  /// text (recovered from the recording) still awaits the producer's approval.
+  final String? status;
+
   const EpisodeEntry({
     required this.id,
     required this.number,
@@ -92,9 +96,11 @@ class EpisodeEntry {
     required this.summary,
     required this.manifest,
     required this.duration,
+    this.status,
   });
 
   bool get available => manifest != null && manifest!.isNotEmpty;
+  bool get underReview => status == 'review';
 
   factory EpisodeEntry.fromJson(Map<String, dynamic> json) => EpisodeEntry(
         id: json['id'] as String,
@@ -103,6 +109,7 @@ class EpisodeEntry {
         summary: json['summary'] as String? ?? '',
         manifest: json['manifest'] as String?,
         duration: Duration(milliseconds: json['durationMs'] as int? ?? 0),
+        status: json['status'] as String?,
       );
 }
 

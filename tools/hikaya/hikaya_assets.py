@@ -24,7 +24,7 @@ from hikaya_common import (AUDIO_EXT, IMAGE_EXT, SCRIPT_EXT, clean_directions, g
                            probe_audio, probe_image, safe_extract, sha256, write_json)
 
 EXPECTED_EPISODES = list(range(1, 23))
-BATCHES = {"batch_1": list(range(10, 15)), "batch_2": list(range(15, 20)), "batch_3": list(range(20, 23))}
+BATCHES = {1: list(range(10, 15)), 2: list(range(15, 20)), 3: list(range(20, 23))}  # «Batch 1» folder → Ep 10–14
 VOICES = {"riko": "NARRATOR", "enzo": "AL_TIJANI", "ludo": "PROFESSOR_MUNIM", "lumi": "MOTHER", "bodi": "FATHER",
           "sola": "WIFE"}
 SPEAKER_NAMES = {
@@ -36,6 +36,10 @@ SPEAKER_NAMES = {
     "الزوجة": "WIFE", "wife": "WIFE",
 }
 LINE_RE = re.compile(r"^\s*(?:\*\*)?([^:\[\]\n]{1,40}?)(?:\*\*)?\s*(?:\[[^\]]*\])?\s*[:：]\s*(.+)$")
+# Scripts written per character: a header «[الراوي — Riko]» followed by that character's lines.
+SECTION_RE = re.compile(r"^\s*\[([^\[\]\n]{1,60}?)\s+[—–-]\s+([^\[\]\n]{1,40})\]\s*$")
+DIRECTION_ONLY_RE = re.compile(r"^\s*\[[^\]]*\]\s*$")
+PLACEHOLDER_RE = re.compile(r"غير متوفر|UNAVAILABLE|DO NOT SYNTHESIZE")
 
 
 def read_text(path):
@@ -72,8 +76,22 @@ def analyse_script(path):
     text = read_text(path)
     speakers = collections.Counter()
     unknown = collections.Counter()
+    sections = []
     lines = 0
+    current = None
+    prev_blank = True
     for line in text.splitlines():
+        sec = SECTION_RE.match(line) if prev_blank else None
+        prev_blank = not line.strip() or bool(re.match(r"^\s*[=\-]{5,}\s*$", line))
+        if sec:
+            current = speaker_of(sec.group(1)) or speaker_of(sec.group(2)) or sec.group(1).strip()
+            sections.append({"label": sec.group(1).strip(), "voice": sec.group(2).strip(), "speaker": current, "lines": 0})
+            continue
+        if current and line.strip() and not DIRECTION_ONLY_RE.match(line) and not re.match(r"^\s*[=\-]{5,}", line):
+            speakers[current] += 1
+            sections[-1]["lines"] += 1
+            lines += 1
+            continue
         m = LINE_RE.match(line)
         if not m:
             continue
@@ -87,7 +105,9 @@ def analyse_script(path):
     return {
         "chars": len(text),
         "dialogue_lines": lines,
+        "placeholder": lines == 0 and bool(PLACEHOLDER_RE.search(text)),
         "speakers": dict(speakers),
+        "sections": sections,
         "unrecognised_labels": dict(unknown.most_common(15)),
         "directions_removed": len(removed),
         "direction_examples": sorted(set(removed))[:15],
@@ -97,6 +117,8 @@ def analyse_script(path):
 
 def kind_of(path):
     ext = os.path.splitext(path)[1].lower()
+    if ext == ".zip":
+        return "archive"
     return "audio" if ext in AUDIO_EXT else "image" if ext in IMAGE_EXT else "script" if ext in SCRIPT_EXT else "other"
 
 
@@ -143,7 +165,7 @@ def main():
         rejected += [{**r, "archive": k} for r in rej]
         for f in files:
             records.append({"archive": k, **f, "size": os.path.getsize(f["path"]), "sha256": sha256(f["path"]),
-                            "kind": kind_of(f["path"]), "episodes": guess_episodes(f["entry"])})
+                            "kind": kind_of(f["path"]), "episodes": guess_episodes(f["entry"], BATCHES)})
 
     by_hash = collections.defaultdict(list)
     for r in records:
@@ -175,12 +197,15 @@ def main():
     covered = collections.defaultdict(lambda: {"audio": 0, "scripts": 0, "images": 0, "batch_files": 0})
     for group, key in ((audio, "audio"), (scripts, "scripts"), (images, "images")):
         for r in group:
+            if key == "scripts" and not r.get("dialogue_lines"):
+                continue  # a placeholder page («script unavailable») is not a script
             for e in r["episodes"]:
                 covered[e][key] += 1
                 if len(r["episodes"]) > 1:
                     covered[e]["batch_files"] += 1
     per_episode = {e: covered[e] for e in EXPECTED_EPISODES}
     gaps = {k: [e for e in EXPECTED_EPISODES if per_episode[e][k] == 0] for k in ("audio", "scripts", "images")}
+    placeholders = sorted({e for r in scripts if r.get("placeholder") for e in r["episodes"]})
     unassigned = {k: [r["entry"] for r in g if not r["episodes"]] for k, g in
                   (("audio", audio), ("scripts", scripts), ("images", images))}
     voices_seen = collections.Counter()
@@ -194,10 +219,12 @@ def main():
         "generated": datetime.datetime.now().isoformat(timespec="seconds"),
         "archives": zips,
         "counts": {"audio": len(audio), "scripts": len(scripts), "images": len(images),
+                   "archives_inside": sum(1 for r in records if r["kind"] == "archive"),
                    "other": sum(1 for r in records if r["kind"] == "other")},
         "audio_total_minutes": round(sum(a.get("duration_s", 0) or 0 for a in audio) / 60, 1),
         "episodes": per_episode,
         "missing": gaps,
+        "script_placeholders": placeholders,
         "unassigned_to_episode": unassigned,
         "voice_names_in_filenames": dict(voices_seen),
         "duplicates_same_content": duplicates,
@@ -209,7 +236,7 @@ def main():
                    for i in images],
         "scripts": [{k: s.get(k) for k in ("entry", "episodes", "dialogue_lines", "speakers", "unrecognised_labels",
                                             "directions_removed", "direction_examples", "brackets_kept_for_review",
-                                            "clean_copy", "error")} for s in scripts],
+                                            "placeholder", "sections", "clean_copy", "error")} for s in scripts],
     }
     write_json(os.path.join(args.out, "inventory.json"), inventory)
     write_json(os.path.join(args.out, "originals.json"),
@@ -222,11 +249,20 @@ def main():
                   f"`{z['sha256'][:16]}…` |")
     c = inventory["counts"]
     md += ["", f"**Audio files:** {c['audio']} ({inventory['audio_total_minutes']} min) · **Scripts:** {c['scripts']} · "
-               f"**Images:** {c['images']} · other: {c['other']}", "",
+               f"**Images:** {c['images']} · ZIPs inside the ZIPs (extracted): {c['archives_inside']} · other: {c['other']}", "",
            "| Episode | Audio | Batch files | Scripts | Images |", "|---|---|---|---|---|"]
     for e, v in per_episode.items():
         md.append(f"| {e:02d} | {v['audio']} | {v['batch_files']} | {v['scripts']} | {v['images']} |")
     md += ["", "## Missing", ""] + [f"- {k}: episodes {', '.join(map(str, v)) or 'none'}" for k, v in gaps.items()]
+    if placeholders:
+        md.append(f"- script files that only say the script is unavailable: episodes {', '.join(map(str, placeholders))}")
+    md += ["", "## Recordings per episode", "", "| Episode(s) | File | Duration | Format |", "|---|---|---|---|"]
+    for a in sorted(audio, key=lambda a: (a["episodes"][:1] or [99], a["entry"])):
+        eps = a["episodes"]
+        label = "—" if not eps else f"{eps[0]:02d}" if len(eps) == 1 else f"{eps[0]:02d}–{eps[-1]:02d}"
+        dur = a.get("duration_s") or 0
+        md.append(f"| {label} | {a['entry']} | {int(dur // 60)}:{dur % 60:04.1f} | "
+                  f"{a.get('codec')} {a.get('sample_rate')} Hz × {a.get('channels')} |")
     md += ["", "## Files not matched to an episode (need a manual decision)", ""]
     for k, v in unassigned.items():
         md += [f"- {k}: {len(v)}"] + [f"  - {x}" for x in v[:40]]

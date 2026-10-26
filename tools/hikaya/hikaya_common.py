@@ -95,32 +95,71 @@ def unique_path(path):
     return f"{base} ({i}){ext}"
 
 
-def safe_extract(zip_path, dest, max_total=8 * 1024 ** 3):
-    """Extract a ZIP into dest without overwriting anything.
-    Returns (files, rejected): files = [{entry, path, renamed}], rejected = [{entry, reason}]."""
+def entry_name(info):
+    """The entry's name as the producer typed it. Names stored without the UTF-8
+    flag were decoded as cp437 by zipfile; recover them when they are UTF-8."""
+    name = info.filename
+    if not info.flag_bits & 0x800:
+        try:
+            return name.encode("cp437").decode("utf-8")
+        except (UnicodeEncodeError, UnicodeDecodeError):
+            pass
+    return name
+
+
+def _same_file(path, info, z):
+    """True when path already holds exactly this entry (a re-run of the extraction)."""
+    if os.path.getsize(path) != info.file_size:
+        return False
+    h = hashlib.sha256()
+    with z.open(info) as src:
+        for b in iter(lambda: src.read(1 << 20), b""):
+            h.update(b)
+    return h.hexdigest() == sha256(path)
+
+
+def safe_extract(zip_path, dest, max_total=8 * 1024 ** 3, nested=2, _prefix=""):
+    """Extract a ZIP into dest without overwriting anything. ZIPs inside the ZIP
+    are extracted too (up to `nested` levels) into a folder named after them,
+    next to the inner ZIP, which is kept unchanged. Re-running is safe: an
+    identical file already in place is reused, a different one gets a new name.
+    Returns (files, rejected): files = [{entry, path, renamed, container}],
+    rejected = [{entry, reason}]."""
     files, rejected = [], []
     with zipfile.ZipFile(zip_path) as z:
         total = sum(i.file_size for i in z.infolist())
         if total > max_total:
             raise ValueError(f"archive expands to {total} bytes, over the {max_total} limit")
         for info in z.infolist():
-            name = info.filename
-            if info.is_dir() or any(name.startswith(p) or name.endswith(p) for p in IGNORED):
+            name = entry_name(info)
+            label = _prefix + name
+            if info.is_dir() or any(p in name for p in IGNORED):
                 continue
             reason = unsafe_entry(name) or ("symbolic link" if is_symlink(info) else None)
             if reason:
-                rejected.append({"entry": name, "reason": reason})
+                rejected.append({"entry": label, "reason": reason})
                 continue
             root = os.path.abspath(dest)
             target = os.path.abspath(os.path.join(root, name))
             if os.path.commonpath([root, target]) != root:
-                rejected.append({"entry": name, "reason": "escapes destination"})
+                rejected.append({"entry": label, "reason": "escapes destination"})
                 continue
             os.makedirs(os.path.dirname(target), exist_ok=True)
-            final = unique_path(target)
-            with z.open(info) as src, open(final, "wb") as out:
-                shutil.copyfileobj(src, out)
-            files.append({"entry": name, "path": final, "renamed": final != target})
+            if os.path.exists(target) and _same_file(target, info, z):
+                final = target
+            else:
+                final = unique_path(target)
+                with z.open(info) as src, open(final, "wb") as out:
+                    shutil.copyfileobj(src, out)
+            files.append({"entry": label, "path": final, "renamed": final != target, "container": _prefix or None})
+            if nested and final.lower().endswith(".zip") and zipfile.is_zipfile(final):
+                try:
+                    inner, rej = safe_extract(final, os.path.splitext(final)[0], max_total, nested - 1, label + "/")
+                except (zipfile.BadZipFile, ValueError) as e:
+                    rejected.append({"entry": label, "reason": f"inner archive: {e}"})
+                    continue
+                files += inner
+                rejected += rej
     return files, rejected
 
 
@@ -174,19 +213,26 @@ RANGE_RE = re.compile(r"(?:ep|episodes?|حلقات|الحلقات|batch)?[\s_\-]
 BATCH_RE = re.compile(r"(?:batch|دفعة|الدفعة)[\s_\-]*0*(\d)", re.I)
 
 
-def guess_episodes(path):
-    """Episode numbers a file name/path refers to: a range for batch files."""
-    s = path.translate(AR_DIGITS)
-    m = RANGE_RE.search(os.path.basename(s)) or RANGE_RE.search(s)
-    if m:
-        a, b = int(m.group(1)), int(m.group(2))
-        if 1 <= a < b <= 99:
-            return list(range(a, b + 1))
-    for pat in EP_PATTERNS:
-        for part in reversed(s.replace("\\", "/").split("/")):
-            m = pat.search(part)
+def guess_episodes(path, batches=None):
+    """Episode numbers a file name/path refers to: a range for batch files.
+    The most specific part of the path wins: «part4_ep13-16/ep13/ep13_scene01.jpg»
+    is episode 13, not 13–16. `batches` maps a batch number to its episodes,
+    for files inside a folder such as «Batch 1»."""
+    s = path.translate(AR_DIGITS).replace("\\", "/")
+    for part in reversed([p for p in s.split("/") if p]):
+        stem = re.sub(r"\.(zip|wav|mp3|m4a|txt|json|docx|jpe?g|png|webp)$", "", part, flags=re.I)
+        m = RANGE_RE.search(stem)
+        if m:
+            a, b = int(m.group(1)), int(m.group(2))
+            if 1 <= a < b <= 99:
+                return list(range(a, b + 1))
+        for pat in EP_PATTERNS:
+            m = pat.search(stem)
             if m and 1 <= int(m.group(1)) <= 99:
                 return [int(m.group(1))]
+        m = BATCH_RE.search(stem)
+        if m and batches and int(m.group(1)) in batches:
+            return list(batches[int(m.group(1))])
     return []
 
 

@@ -144,6 +144,30 @@ void main() {
     c.dispose();
   });
 
+  testWidgets('pages turn like a book: swipe the picture, or tap a page dot', (tester) async {
+    phone(tester);
+    final (_, user) = await services(tester);
+    final c = await controllerFor(user);
+    await tester.pumpWidget(host(PlayerView(controller: c, user: user)));
+    await tester.pump(const Duration(seconds: 1));
+    expect(c.sceneIndex, 0);
+    // right to left book: dragging the page to the right turns to the next one
+    await tester.fling(find.byType(ArtworkFrame).first, const Offset(300, 0), 1500);
+    await tester.pump(const Duration(seconds: 1));
+    expect(c.sceneIndex, 1);
+    await tester.fling(find.byType(ArtworkFrame).first, const Offset(-300, 0), 1500);
+    await tester.pump(const Duration(seconds: 1));
+    expect(c.sceneIndex, 0);
+    // one dot per page; the dot of a later page jumps straight there
+    final dots = find.bySemanticsLabel(RegExp(r'^المشهد [٠-٩]+$'));
+    expect(dots, findsNWidgets(c.episode.scenes.length));
+    await tester.tap(find.bySemanticsLabel('المشهد ${arabicDigits(4)}'));
+    await tester.pump(const Duration(seconds: 1));
+    expect(c.sceneIndex, 3);
+    expect(c.position, c.episode.scenes[3].start);
+    c.dispose();
+  });
+
   testWidgets('hiding the story text keeps the controls', (tester) async {
     phone(tester);
     final (_, user) = await services(tester);

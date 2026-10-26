@@ -32,7 +32,7 @@ replaces any installed copy.
 | `version` | int | increase when you publish an update |
 | `cover` | path | optional |
 | `plannedEpisodes` | int | optional, e.g. 22, to show "3 of 22 available" |
-| `episodes[]` | list | `id`, `number`, `title`, `summary`, `manifest` (path to episode.json, or omit for "coming soon"), `durationMs` |
+| `episodes[]` | list | `id`, `number`, `title`, `summary`, `manifest` (path to episode.json, or omit for "coming soon"), `durationMs`, `status` (optional: `review` shows «قيد المراجعة» while the speaking order, picture placement or recovered text awaits approval) |
 
 ## episode.json — `hikaya.episode.v1`
 
@@ -43,7 +43,8 @@ replaces any installed copy.
 | `audio.voice` | track mode only |
 | `audio.music`, `audio.sfx` | optional stems spanning the whole episode timeline (written by `hikaya_score.py`); `musicLoop: true` for a short looping bed |
 | `speakers` | `{ "NARRATOR": {"name": "الراوي"}, … }` |
-| `scenes[]` | `number`, `title`, `image` (path or null), `layout` (`plate` / `closing`), `startMs`, `endMs`. Scenes tile the timeline. |
+| `textStatus` | optional: `recovered-transcript` when the text was written down from the recording because no script exists (it needs listening review) |
+| `scenes[]` | `number`, `title`, `image` (path or null), `layout` (`plate` / `closing`), `startMs`, `endMs`. Scenes tile the timeline; each scene is a page the listener can also turn by swiping the picture. |
 | `segments[]` | one spoken line: `id`, `scene`, `speakerId`, `speakerName`, `text` (clean, no directions), `direction` (metadata, never shown or spoken), `startMs`, `endMs`, `lines[]` (sentence timings for highlighting), `timing` (`verified` / `estimated` / `unverified`; the app highlights sentences only when verified), and in clips mode `clip: {file, startMs, endMs}` = where the line is inside the original recording |
 
 In clips mode the app plays the clips in order, with silence filling the gaps
