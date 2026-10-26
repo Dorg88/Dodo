@@ -40,8 +40,8 @@ to test the automatic pipeline before applying it to the other episodes. The tri
 |---|---|---|---|---|---|---|---|---|
 | 01 | ليلة لا تنسى | **PASS** | 16 (hand-verified cuts) | first session | OK | ≥16 dB (first session) | original script | first version, unchanged |
 | 02 | من قفصة إلى بيت الله | **WARNING** | 25 (25) | 25/25 | OK | 17.7 dB | recovered from the recording | proposed — 2 unused |
-| 03 | أمام الكعبة لأول مرة | **WARNING** | 24 (24) | 24/24 | OK | 16.0 dB | recovered from the recording | proposed |
-| 04 | العودة إلى قفصة | **WARNING** | 31 (31) | 31/31 | OK | 16.0 dB | recovered from the recording | proposed |
+| 03 | أمام الكعبة لأول مرة | **PASS** | 24 (24) | 24/24 | OK | 16.0 dB | recovered from the recording | approved by the producer |
+| 04 | العودة إلى قفصة | **PASS** | 31 (31) | 31/31 | OK | 16.0 dB | recovered from the recording | approved by the producer |
 | 05 | بين التصوف والتساؤل | **WARNING** | 50 (50) | 50/50 | OK | 16.8 dB | recovered from the recording | proposed — pictures out of numeric order |
 | 06 | رحلة إلى أرض الكنانة | **WARNING** | 52 (52) | 52/52 | OK | 16.0 dB | recovered from the recording | proposed |
 | 07 | لقاء في عرض البحر | **WARNING** | 25 (25) | 25/25 | OK | 18.2 dB | delivered draft (verbatim) | proposed |
@@ -77,10 +77,9 @@ These cannot be recovered from the supplied assets:
    (and the picture for each passage) is proposed from the content, the dialogue's question-and-answer chains and
    the numbering of the 15 illustrations, in `order/epNN.json`. Each character's own lines always stay in their
    recorded order.
-3. **Files and characters.** `Ep4.zip/Fellow.wav` holds Episode 03's travel companion and `Ep3.zip/Juniorscholar.wav`
-   Episode 04's student (the two files seem swapped); `Ep6.zip/Atrash.wav` is taken as Sheikh Abd al-Basit (the only
-   character left in the episode's list, though the file name points to Farid al-Atrash); the episode boundaries
-   inside Batch 3's narrator and al-Tijani recordings are inferred from the content.
+3. **Files and characters — confirmed by the producer:** `Ep4.zip/Fellow.wav` is Episode 03's travel companion,
+   `Ep3.zip/Juniorscholar.wav` Episode 04's student, `Ep6.zip/Atrash.wav` Sheikh Abd al-Basit; Episode 01 stays the
+   first version. Still to confirm: the episode boundaries inside Batch 3's narrator and al-Tijani recordings.
 4. **Illustrations.** Episode 02 leaves 12 and 14 unused, 22 leaves 10, 20 leaves 14; Episode 05 shows 10 and 12 after
    13 and 14, and 20 opens with 12, to follow the narration; Episode 06's first pictures show a sea and train
    journey while the narration describes a taxi through Libya.
