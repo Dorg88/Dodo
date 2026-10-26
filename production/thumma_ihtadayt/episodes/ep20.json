@@ -5,7 +5,10 @@
  "title": "أسباب الاستبصار",
  "durationMs": 219530,
  "audio": {
-  "mode": "clips"
+  "mode": "clips",
+  "music": "ep20/audio/score_music.m4a",
+  "sfx": "ep20/audio/score_sfx.m4a",
+  "musicLoop": false
  },
  "speakers": {
   "NARRATOR": {
@@ -616,5 +619,91 @@
    }
   }
  ],
- "textStatus": "recovered-transcript"
+ "textStatus": "recovered-transcript",
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "reflective",
+   "startMs": 0,
+   "endMs": 18510
+  },
+  {
+   "scene": 2,
+   "cue": "suspense",
+   "startMs": 16910,
+   "endMs": 35260
+  },
+  {
+   "scene": 3,
+   "cue": "suspense",
+   "startMs": 33660,
+   "endMs": 61559
+  },
+  {
+   "scene": 4,
+   "cue": "reflective",
+   "startMs": 59960,
+   "endMs": 74000
+  },
+  {
+   "scene": 5,
+   "cue": "reflective",
+   "startMs": 72400,
+   "endMs": 98830
+  },
+  {
+   "scene": 6,
+   "cue": "reflective",
+   "startMs": 97230,
+   "endMs": 110380
+  },
+  {
+   "scene": 7,
+   "cue": "reflective",
+   "startMs": 108780,
+   "endMs": 118360
+  },
+  {
+   "scene": 8,
+   "cue": "suspense",
+   "startMs": 116760,
+   "endMs": 134890
+  },
+  {
+   "scene": 9,
+   "cue": "suspense",
+   "startMs": 133290,
+   "endMs": 144120
+  },
+  {
+   "scene": 10,
+   "cue": "reflective",
+   "startMs": 142519,
+   "endMs": 158870
+  },
+  {
+   "scene": 11,
+   "cue": "reflective",
+   "startMs": 157269,
+   "endMs": 180060
+  },
+  {
+   "scene": 12,
+   "cue": "reflective",
+   "startMs": 178459,
+   "endMs": 192100
+  },
+  {
+   "scene": 13,
+   "cue": "reflective",
+   "startMs": 190500,
+   "endMs": 204230
+  },
+  {
+   "scene": 14,
+   "cue": "ending",
+   "startMs": 202630,
+   "endMs": 220330
+  }
+ ]
 }

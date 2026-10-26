@@ -1,0 +1,137 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "العودة إلى تونس",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: أسئلة"
+  },
+  {
+   "scene": 2,
+   "title": "جزء من قصة التحول",
+   "music": "reflective",
+   "sfx": [
+    "sea"
+   ],
+   "level": 0.85,
+   "reason": "text: سفينة"
+  },
+  {
+   "scene": 3,
+   "title": "صديق قديم",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: كتب"
+  },
+  {
+   "scene": 4,
+   "title": "المحبة تبقى",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 5,
+   "title": "سؤال طالب",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: سؤال"
+  },
+  {
+   "scene": 6,
+   "title": "اقرأ واسأل",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: شك"
+  },
+  {
+   "scene": 7,
+   "title": "أفكار جديدة",
+   "music": "warm",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "text: سفر"
+  },
+  {
+   "scene": 8,
+   "title": "قرارك بعد بحث",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 9,
+   "title": "الدرس الأول",
+   "music": "reflective",
+   "sfx": [
+    "sea"
+   ],
+   "level": 0.85,
+   "reason": "text: بحر"
+  },
+  {
+   "scene": 10,
+   "title": "ذكرى منعم",
+   "music": "reflective",
+   "sfx": [
+    "sea"
+   ],
+   "level": 0.85,
+   "reason": "text: باخرة"
+  },
+  {
+   "scene": 11,
+   "title": "دعنا نبحث",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 12,
+   "title": "مسؤولية القناعة",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 13,
+   "title": "دعاء",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 14,
+   "title": "رحلة أخرى",
+   "music": "reflective",
+   "sfx": [
+    "sea"
+   ],
+   "level": 0.85,
+   "reason": "text: سفينة"
+  },
+  {
+   "scene": 15,
+   "title": "ثم اهتديت",
+   "music": "ending",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: اهتديت; last scene"
+  }
+ ]
+}
