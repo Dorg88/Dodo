@@ -353,7 +353,13 @@ def from_audio(a):
         for x in sp.get("direction_text", []):
             out.append(f"# تصحيح يدوي: «{x}» جزء من تعليمة منطوقة، لا من الحوار")
         items = apply_direction_text(recover_file(path, words, sil, vocab, fine, spans), sp.get("direction_text", []))
+        for old_w, new_w in sp.get("producer_fixes", []):
+            out.append(f"# تصحيح من المنتج: «{old_w}» ← «{new_w}»")
+        fixes = sp.get("producer_fixes", [])
         for kind, text, s, e in items:
+            if kind == "line":
+                for old_w, new_w in fixes:
+                    text = re.sub(rf"(?<!\S){re.escape(old_w)}(?=[\s،,.؟?!]|$)", new_w, text)
             if kind == "direction":
                 out.append(f"[{text}]")
                 continue
