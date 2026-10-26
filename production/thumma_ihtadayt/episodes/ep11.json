@@ -3,7 +3,7 @@
  "id": "ep11",
  "number": 11,
  "title": "الشك والتساؤل",
- "durationMs": 132730,
+ "durationMs": 133330,
  "audio": {
   "mode": "clips",
   "music": "ep11/audio/score_music.m4a",
@@ -76,6 +76,48 @@
   },
   "WORSHIPPER_2": {
    "name": "المصلي الثاني"
+  },
+  "MOTHER": {
+   "name": "الأم"
+  },
+  "TRAVEL_COMPANION": {
+   "name": "رفيق الرحلة"
+  },
+  "TOWNSMAN": {
+   "name": "أحد أهل المدينة"
+  },
+  "STUDENT": {
+   "name": "أحد الطلاب"
+  },
+  "SHEIKH_ENVOY": {
+   "name": "موفد الشيخ"
+  },
+  "SHEIKH_ISMAIL": {
+   "name": "الشيخ إسماعيل الهادفي"
+  },
+  "SUFI_FOLLOWER": {
+   "name": "أحد أتباع الطريقة"
+  },
+  "WIFE": {
+   "name": "الزوجة"
+  },
+  "AHMAD_EGYPTIAN": {
+   "name": "أحمد المصري"
+  },
+  "SHEIKH_ABDULBASIT": {
+   "name": "الشيخ عبد الباسط"
+  },
+  "AZHAR_SCHOLAR": {
+   "name": "عالم أزهري"
+  },
+  "HUSAYN_SHRINE_KEEPER": {
+   "name": "مسؤول مقام الإمام الحسين"
+  },
+  "RELATIVE": {
+   "name": "أحد الأقارب"
+  },
+  "TUNISIAN_STUDENT": {
+   "name": "طالب"
   }
  },
  "scenes": [
@@ -197,7 +239,15 @@
    "title": "إلى النجف",
    "image": "ep11/images/scene_15.jpg",
    "startMs": 99000,
-   "endMs": 132730
+   "endMs": 116100
+  },
+  {
+   "number": 16,
+   "id": "s16",
+   "title": "إلى النجف",
+   "image": "ep11/images/scene_15b.jpg",
+   "startMs": 116100,
+   "endMs": 133330
   }
  ],
  "segments": [
@@ -777,14 +827,14 @@
    }
   },
   {
-   "id": "ep11_s15_l04",
-   "scene": 15,
+   "id": "ep11_s16_l01",
+   "scene": 16,
    "speakerId": "NARRATOR",
    "speakerName": "الراوي",
    "direction": "",
    "text": "وهناك سيلتقي محمد بعالم ديني لم يكن يتخيل أنه سيقف يوما أمامه.",
-   "startMs": 116100,
-   "endMs": 122360,
+   "startMs": 116700,
+   "endMs": 122960,
    "clip": {
     "file": "audio/Batch 1/Narat.wav",
     "startMs": 174700,
@@ -793,8 +843,8 @@
    "lines": [
     {
      "text": "وهناك سيلتقي محمد بعالم ديني لم يكن يتخيل أنه سيقف يوما أمامه.",
-     "startMs": 116100,
-     "endMs": 122360
+     "startMs": 116700,
+     "endMs": 122960
     }
    ],
    "timing": "verified",
@@ -804,14 +854,14 @@
    }
   },
   {
-   "id": "ep11_s15_l05",
-   "scene": 15,
+   "id": "ep11_s16_l02",
+   "scene": 16,
    "speakerId": "AL_TIJANI_ADULT",
    "speakerName": "التيجاني الكبير",
    "direction": "بنبرة اعتراف متأملة",
    "text": "لم يكن أصعب شيء علي أن أسمع جوابا جديدا. كان الأصعب أن أسمح لنفسي بسماع الجواب، دون أن أسبقه بالحكم.",
-   "startMs": 122960,
-   "endMs": 131230,
+   "startMs": 123560,
+   "endMs": 131830,
    "clip": {
     "file": "audio/Batch 1/Tijaniiii.wav",
     "startMs": 87490,
@@ -820,13 +870,13 @@
    "lines": [
     {
      "text": "لم يكن أصعب شيء علي أن أسمع جوابا جديدا.",
-     "startMs": 122960,
-     "endMs": 125750
+     "startMs": 123560,
+     "endMs": 126350
     },
     {
      "text": "كان الأصعب أن أسمح لنفسي بسماع الجواب، دون أن أسبقه بالحكم.",
-     "startMs": 125750,
-     "endMs": 131230
+     "startMs": 126350,
+     "endMs": 131830
     }
    ],
    "timing": "verified",
@@ -923,9 +973,15 @@
   },
   {
    "scene": 15,
-   "cue": "ending",
+   "cue": "reverent",
    "startMs": 98200,
-   "endMs": 133530
+   "endMs": 116899
+  },
+  {
+   "scene": 16,
+   "cue": "ending",
+   "startMs": 115300,
+   "endMs": 134130
   }
  ]
 }

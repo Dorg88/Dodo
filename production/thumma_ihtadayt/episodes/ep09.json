@@ -3,7 +3,7 @@
  "id": "ep09",
  "number": 9,
  "title": "إلى العراق لأول مرة",
- "durationMs": 182925,
+ "durationMs": 183525,
  "audio": {
   "mode": "clips",
   "music": "ep09/audio/score_music.m4a",
@@ -76,6 +76,48 @@
   },
   "WORSHIPPER_2": {
    "name": "المصلي الثاني"
+  },
+  "MOTHER": {
+   "name": "الأم"
+  },
+  "TRAVEL_COMPANION": {
+   "name": "رفيق الرحلة"
+  },
+  "TOWNSMAN": {
+   "name": "أحد أهل المدينة"
+  },
+  "STUDENT": {
+   "name": "أحد الطلاب"
+  },
+  "SHEIKH_ENVOY": {
+   "name": "موفد الشيخ"
+  },
+  "SHEIKH_ISMAIL": {
+   "name": "الشيخ إسماعيل الهادفي"
+  },
+  "SUFI_FOLLOWER": {
+   "name": "أحد أتباع الطريقة"
+  },
+  "WIFE": {
+   "name": "الزوجة"
+  },
+  "AHMAD_EGYPTIAN": {
+   "name": "أحمد المصري"
+  },
+  "SHEIKH_ABDULBASIT": {
+   "name": "الشيخ عبد الباسط"
+  },
+  "AZHAR_SCHOLAR": {
+   "name": "عالم أزهري"
+  },
+  "HUSAYN_SHRINE_KEEPER": {
+   "name": "مسؤول مقام الإمام الحسين"
+  },
+  "RELATIVE": {
+   "name": "أحد الأقارب"
+  },
+  "TUNISIAN_STUDENT": {
+   "name": "طالب"
   }
  },
  "scenes": [
@@ -173,31 +215,39 @@
    "title": "حديث الليل",
    "image": "ep09/images/scene_12.jpg",
    "startMs": 88360,
-   "endMs": 128905
+   "endMs": 112300
   },
   {
    "number": 13,
    "id": "s13",
-   "title": "الكرامات",
-   "image": "ep09/images/scene_13.jpg",
-   "startMs": 128905,
-   "endMs": 149515
+   "title": "حديث الليل",
+   "image": "ep09/images/scene_12b.jpg",
+   "startMs": 112300,
+   "endMs": 129505
   },
   {
    "number": 14,
    "id": "s14",
-   "title": "غدا إلى المقام",
-   "image": "ep09/images/scene_14.jpg",
-   "startMs": 149515,
-   "endMs": 170640
+   "title": "الكرامات",
+   "image": "ep09/images/scene_13.jpg",
+   "startMs": 129505,
+   "endMs": 150115
   },
   {
    "number": 15,
    "id": "s15",
+   "title": "غدا إلى المقام",
+   "image": "ep09/images/scene_14.jpg",
+   "startMs": 150115,
+   "endMs": 171240
+  },
+  {
+   "number": 16,
+   "id": "s16",
    "title": "ليلة الانتظار",
    "image": "ep09/images/scene_15.jpg",
-   "startMs": 170640,
-   "endMs": 182925
+   "startMs": 171240,
+   "endMs": 183525
   }
  ],
  "segments": [
@@ -716,14 +766,14 @@
    }
   },
   {
-   "id": "ep09_s12_l03",
-   "scene": 12,
+   "id": "ep09_s13_l01",
+   "scene": 13,
    "speakerId": "AL_TIJANI",
    "speakerName": "التيجاني",
    "direction": "بحماس ديني صادق",
    "text": "تعلم أنني أحمل محبة خاصة للشيخ عبد القادر الجيلاني. لقد سمعت عنه منذ طفولتي حكايات كثيرة، وأتمنى زيارة مقامه.",
-   "startMs": 112300,
-   "endMs": 121795,
+   "startMs": 112900,
+   "endMs": 122395,
    "clip": {
     "file": "audio/Ep9/Tjyouth11.wav",
     "startMs": 27975,
@@ -732,13 +782,13 @@
    "lines": [
     {
      "text": "تعلم أنني أحمل محبة خاصة للشيخ عبد القادر الجيلاني.",
-     "startMs": 112300,
-     "endMs": 117324
+     "startMs": 112900,
+     "endMs": 117924
     },
     {
      "text": "لقد سمعت عنه منذ طفولتي حكايات كثيرة، وأتمنى زيارة مقامه.",
-     "startMs": 117324,
-     "endMs": 121794
+     "startMs": 117924,
+     "endMs": 122394
     }
    ],
    "timing": "verified",
@@ -748,14 +798,14 @@
    }
   },
   {
-   "id": "ep09_s12_l04",
-   "scene": 12,
+   "id": "ep09_s13_l02",
+   "scene": 13,
    "speakerId": "PROFESSOR_MUNIM",
    "speakerName": "الأستاذ منعم",
    "direction": "بتفهم",
    "text": "أعرف أن للشيخ عبد القادر مكانة كبيرة عندكم، واحترم محبتك له.",
-   "startMs": 122395,
-   "endMs": 128305,
+   "startMs": 122995,
+   "endMs": 128905,
    "clip": {
     "file": "audio/Ep9/Munaim.wav",
     "startMs": 14740,
@@ -764,8 +814,8 @@
    "lines": [
     {
      "text": "أعرف أن للشيخ عبد القادر مكانة كبيرة عندكم، واحترم محبتك له.",
-     "startMs": 122395,
-     "endMs": 128304
+     "startMs": 122995,
+     "endMs": 128904
     }
    ],
    "timing": "verified",
@@ -775,14 +825,14 @@
    }
   },
   {
-   "id": "ep09_s13_l01",
-   "scene": 13,
+   "id": "ep09_s14_l01",
+   "scene": 14,
    "speakerId": "NARRATOR",
    "speakerName": "الراوي",
    "direction": "",
    "text": "ولاحظ أن منعم لا يشاركه الحماسة نفسها لتلك الروايات.",
-   "startMs": 129505,
-   "endMs": 133905,
+   "startMs": 130105,
+   "endMs": 134505,
    "clip": {
     "file": "audio/Ep9/Nrt.wav",
     "startMs": 68660,
@@ -791,8 +841,8 @@
    "lines": [
     {
      "text": "ولاحظ أن منعم لا يشاركه الحماسة نفسها لتلك الروايات.",
-     "startMs": 129505,
-     "endMs": 133905
+     "startMs": 130105,
+     "endMs": 134505
     }
    ],
    "timing": "verified",
@@ -802,14 +852,14 @@
    }
   },
   {
-   "id": "ep09_s13_l02",
-   "scene": 13,
+   "id": "ep09_s14_l02",
+   "scene": 14,
    "speakerId": "AL_TIJANI",
    "speakerName": "التيجاني",
    "direction": "بحيرة",
    "text": "أراك هادئا كلما حدثتك عن الكرامات التي كنت أسمعها. هل تختلف نظرتك إليها؟",
-   "startMs": 134505,
-   "endMs": 140675,
+   "startMs": 135105,
+   "endMs": 141275,
    "clip": {
     "file": "audio/Ep9/Tjyouth11.wav",
     "startMs": 39610,
@@ -818,13 +868,13 @@
    "lines": [
     {
      "text": "أراك هادئا كلما حدثتك عن الكرامات التي كنت أسمعها.",
-     "startMs": 134505,
-     "endMs": 138075
+     "startMs": 135105,
+     "endMs": 138675
     },
     {
      "text": "هل تختلف نظرتك إليها؟",
-     "startMs": 138075,
-     "endMs": 140675
+     "startMs": 138675,
+     "endMs": 141275
     }
    ],
    "timing": "verified",
@@ -834,14 +884,14 @@
    }
   },
   {
-   "id": "ep09_s13_l03",
-   "scene": 13,
+   "id": "ep09_s14_l03",
+   "scene": 14,
    "speakerId": "PROFESSOR_MUNIM",
    "speakerName": "الأستاذ منعم",
    "direction": "بنبرة متأنية",
    "text": "خلينا نشوف الأماكن ونتحاور بهدوء، ونفرق بين محبة الرجل وما ينسبه الناس إله من حكايات.",
-   "startMs": 141275,
-   "endMs": 148915,
+   "startMs": 141875,
+   "endMs": 149515,
    "clip": {
     "file": "audio/Ep9/Munaim.wav",
     "startMs": 23110,
@@ -850,8 +900,8 @@
    "lines": [
     {
      "text": "خلينا نشوف الأماكن ونتحاور بهدوء، ونفرق بين محبة الرجل وما ينسبه الناس إله من حكايات.",
-     "startMs": 141275,
-     "endMs": 148915
+     "startMs": 141875,
+     "endMs": 149515
     }
    ],
    "timing": "verified",
@@ -861,14 +911,14 @@
    }
   },
   {
-   "id": "ep09_s14_l01",
-   "scene": 14,
+   "id": "ep09_s15_l01",
+   "scene": 15,
    "speakerId": "NARRATOR",
    "speakerName": "الراوي",
    "direction": "",
    "text": "لم يحوّل منعم اختلافهما إلى شجار. اقترح أن يرتاح محمد من عناء الطريق، ووعده بزيارة مقام الجيلاني في الصباح.",
-   "startMs": 150115,
-   "endMs": 159465,
+   "startMs": 150715,
+   "endMs": 160065,
    "clip": {
     "file": "audio/Ep9/Nrt.wav",
     "startMs": 73530,
@@ -877,13 +927,13 @@
    "lines": [
     {
      "text": "لم يحوّل منعم اختلافهما إلى شجار.",
-     "startMs": 150115,
-     "endMs": 152645
+     "startMs": 150715,
+     "endMs": 153245
     },
     {
      "text": "اقترح أن يرتاح محمد من عناء الطريق، ووعده بزيارة مقام الجيلاني في الصباح.",
-     "startMs": 152645,
-     "endMs": 159464
+     "startMs": 153245,
+     "endMs": 160064
     }
    ],
    "timing": "verified",
@@ -893,14 +943,14 @@
    }
   },
   {
-   "id": "ep09_s14_l02",
-   "scene": 14,
+   "id": "ep09_s15_l02",
+   "scene": 15,
    "speakerId": "PROFESSOR_MUNIM",
    "speakerName": "الأستاذ منعم",
    "direction": "بابتسامة دافئة",
    "text": "نام الليلة وارتاح. وباچر نروح نزور مقام الشيخ عبد القادر إن شاء الله.",
-   "startMs": 160065,
-   "endMs": 164770,
+   "startMs": 160665,
+   "endMs": 165370,
    "clip": {
     "file": "audio/Ep9/Munaim.wav",
     "startMs": 33290,
@@ -909,13 +959,13 @@
    "lines": [
     {
      "text": "نام الليلة وارتاح.",
-     "startMs": 160065,
-     "endMs": 161115
+     "startMs": 160665,
+     "endMs": 161715
     },
     {
      "text": "وباچر نروح نزور مقام الشيخ عبد القادر إن شاء الله.",
-     "startMs": 161115,
-     "endMs": 164769
+     "startMs": 161715,
+     "endMs": 165369
     }
    ],
    "timing": "verified",
@@ -925,14 +975,14 @@
    }
   },
   {
-   "id": "ep09_s14_l03",
-   "scene": 14,
+   "id": "ep09_s15_l03",
+   "scene": 15,
    "speakerId": "AL_TIJANI",
    "speakerName": "التيجاني",
    "direction": "بفرح طفل تحقق حلمه",
    "text": "سنزوره غدا؟ إذن أتمنى أن يطلع الصباح سريعا!",
-   "startMs": 165370,
-   "endMs": 170040,
+   "startMs": 165970,
+   "endMs": 170640,
    "clip": {
     "file": "audio/Ep9/Tjyouth11.wav",
     "startMs": 49045,
@@ -941,13 +991,13 @@
    "lines": [
     {
      "text": "سنزوره غدا؟",
-     "startMs": 165370,
-     "endMs": 166385
+     "startMs": 165970,
+     "endMs": 166985
     },
     {
      "text": "إذن أتمنى أن يطلع الصباح سريعا!",
-     "startMs": 166385,
-     "endMs": 170040
+     "startMs": 166985,
+     "endMs": 170640
     }
    ],
    "timing": "verified",
@@ -957,14 +1007,14 @@
    }
   },
   {
-   "id": "ep09_s15_l01",
-   "scene": 15,
+   "id": "ep09_s16_l01",
+   "scene": 16,
    "speakerId": "NARRATOR",
    "speakerName": "الراوي",
    "direction": "بنبرة ختامية دافئة",
    "text": "نام محمد تلك الليلة متشوقا إلى الزيارة، لكنه لم يكن يعرف أن بغداد ستريه وجوها من التدين لم يعتد رؤيتها من قبل.",
-   "startMs": 171240,
-   "endMs": 181425,
+   "startMs": 171840,
+   "endMs": 182025,
    "clip": {
     "file": "audio/Ep9/Nrt.wav",
     "startMs": 85880,
@@ -973,8 +1023,8 @@
    "lines": [
     {
      "text": "نام محمد تلك الليلة متشوقا إلى الزيارة، لكنه لم يكن يعرف أن بغداد ستريه وجوها من التدين لم يعتد رؤيتها من قبل.",
-     "startMs": 171240,
-     "endMs": 181425
+     "startMs": 171840,
+     "endMs": 182025
     }
    ],
    "timing": "verified",
@@ -1055,25 +1105,31 @@
    "scene": 12,
    "cue": "nostalgic",
    "startMs": 87560,
-   "endMs": 129705
+   "endMs": 113100
   },
   {
    "scene": 13,
-   "cue": "reflective",
-   "startMs": 128104,
-   "endMs": 150315
+   "cue": "nostalgic",
+   "startMs": 111500,
+   "endMs": 130305
   },
   {
    "scene": 14,
-   "cue": "reverent",
-   "startMs": 148714,
-   "endMs": 171440
+   "cue": "reflective",
+   "startMs": 128704,
+   "endMs": 150915
   },
   {
    "scene": 15,
+   "cue": "reverent",
+   "startMs": 149315,
+   "endMs": 172040
+  },
+  {
+   "scene": 16,
    "cue": "ending",
-   "startMs": 169839,
-   "endMs": 183725
+   "startMs": 170440,
+   "endMs": 184325
   }
  ]
 }

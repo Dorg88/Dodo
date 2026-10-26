@@ -1,6 +1,6 @@
 @episode 15
 @title بين الشك والحيرة
-# Play order proposed: built by hikaya_storyboard.py from the per-character
+# Play order approved by the producer (order, pictures and corrected text), 2026-10-26: built by hikaya_storyboard.py from the per-character
 # TTS script. Text is verbatim; {src=…} is the line's place in the recording order.
 
 === SCENE s01 | صور متعارضة

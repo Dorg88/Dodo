@@ -53,6 +53,16 @@
   },
   {
    "scene": 6,
+   "title": "استقبال المدينة",
+   "music": "warm",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: مدينة"
+  },
+  {
+   "scene": 7,
    "title": "حدثنا عن مكة",
    "music": "warm",
    "sfx": [
@@ -62,7 +72,7 @@
    "reason": "text: تهاني; ambience of the episode's place"
   },
   {
-   "scene": 7,
+   "scene": 8,
    "title": "الحاج",
    "music": "reflective",
    "sfx": [
@@ -72,7 +82,7 @@
    "reason": "text: الناس; ambience of the episode's place"
   },
   {
-   "scene": 8,
+   "scene": 9,
    "title": "أفكار جديدة",
    "music": "reflective",
    "sfx": [
@@ -82,7 +92,7 @@
    "reason": "default; ambience of the episode's place"
   },
   {
-   "scene": 9,
+   "scene": 10,
    "title": "دروس المساجد وسؤال طالب",
    "music": "suspense",
    "sfx": [
@@ -92,7 +102,17 @@
    "reason": "title: سؤال; ambience continues"
   },
   {
-   "scene": 10,
+   "scene": 11,
+   "title": "دروس المساجد وسؤال طالب",
+   "music": "suspense",
+   "sfx": [
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "title: سؤال; ambience continues"
+  },
+  {
+   "scene": 12,
    "title": "أجيب عن أسئلة الناس",
    "music": "suspense",
    "sfx": [
@@ -102,7 +122,7 @@
    "reason": "title: أسئلة; ambience continues"
   },
   {
-   "scene": 11,
+   "scene": 13,
    "title": "التعليم والقراءة",
    "music": "reflective",
    "sfx": [
@@ -112,7 +132,7 @@
    "reason": "title: قراءة"
   },
   {
-   "scene": 12,
+   "scene": 14,
    "title": "أمنية الأم",
    "music": "warm",
    "sfx": [
@@ -122,7 +142,7 @@
    "reason": "text: فرح; ambience of the episode's place"
   },
   {
-   "scene": 13,
+   "scene": 15,
    "title": "مسؤولية كبيرة",
    "music": "warm",
    "sfx": [
@@ -132,7 +152,7 @@
    "reason": "text: يقين; ambience of the episode's place"
   },
   {
-   "scene": 14,
+   "scene": 16,
    "title": "سؤال بلا جواب",
    "music": "ending",
    "sfx": [

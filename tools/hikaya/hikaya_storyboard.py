@@ -150,7 +150,7 @@ def index(ep):
 def expand(ref, lines):
     """Resolve a reference to (line ref, [unit indices]): 'N2' whole line, 'N2.3' sentence 3,
     'N2.1-2' sentences 1–2, 'N2.3/1' clause 1 of sentence 3, 'N2.3/2-3' its clauses 2–3."""
-    m = re.match(r"^([A-Z]+\d+)(?:\.(\d+)(?:-(\d+))?(?:/(\d+)(?:-(\d+))?)?)?$", ref)
+    m = re.match(r"^([A-Z]+\d+(?:~\d+)?)(?:\.(\d+)(?:-(\d+))?(?:/(\d+)(?:-(\d+))?)?)?$", ref)
     if not m or m.group(1) not in lines:
         raise SystemExit(f"unknown line reference {ref}")
     _, ln = lines[m.group(1)]
@@ -167,7 +167,33 @@ def expand(ref, lines):
     return m.group(1), idx
 
 
+def apply_splits(ep, splits):
+    """{"N5": ["زار الموسيقار", "ثم جاءت"]}: the line becomes pieces N5~1, N5~2, N5~3,
+    each starting where a phrase begins (for a picture change inside a long passage)."""
+    for sec in ep["sections"]:
+        for ln in list(sec["lines"]):
+            cuts = splits.get(ln["ref"])
+            if not cuts:
+                continue
+            text, pieces, pos = ln["text"], [], 0
+            for phrase in cuts:
+                k = text.find(phrase, pos + 1)
+                if k < 0:
+                    raise SystemExit(f"split of {ln['ref']}: «{phrase}» not found after the previous cut")
+                pieces.append(text[pos:k].strip())
+                pos = k
+            pieces.append(text[pos:].strip())
+            i = sec["lines"].index(ln)
+            new = []
+            for j, piece in enumerate(pieces, 1):
+                new.append({**ln, "ref": f"{ln['ref']}~{j}", "text": piece, "sentences": sentences(piece),
+                            "units": units(piece), "direction": ln["direction"] if j == 1 else "",
+                            "src": f"{ln['src']}.{j:02d}"})
+            sec["lines"][i:i + 1] = new
+
+
 def build(ep, spec, images_dir, image_name):
+    apply_splits(ep, spec.get("splits", {}))
     lines = index(ep)
     used = {}          # line ref → unit indices used, in order of use
     order = {}         # speaker → last (line position, unit) used
@@ -177,7 +203,8 @@ def build(ep, spec, images_dir, image_name):
     for k, sc in enumerate(spec["scenes"], 1):
         img = sc.get("image")
         out.append(f"=== SCENE s{k:02d} | {sc.get('title', '')}".rstrip(" |"))
-        out.append(f"@image {images_dir}/{image_name.format(n=img)}" if img else "@image none")
+        name = image_name.format(n=img) if isinstance(img, int) else f"scene_{img}.jpg"
+        out.append(f"@image {images_dir}/{name}" if img else "@image none")
         if sc.get("layout"):
             out.append(f"@layout {sc['layout']}")
         groups = []    # consecutive pieces of the same line inside one scene become one script line

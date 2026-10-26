@@ -1,6 +1,6 @@
 @episode 19
 @title لحظة التحول
-# Play order proposed: built by hikaya_storyboard.py from the per-character
+# Play order approved by the producer (order, pictures and corrected text), 2026-10-26: built by hikaya_storyboard.py from the per-character
 # TTS script. Text is verbatim; {src=…} is the line's place in the recording order.
 
 === SCENE s01 | ثلاثة أشهر
@@ -63,5 +63,8 @@ AL_TIJANI [بعزم عاطفي] {src=19.02.05}: لقد وصلت إلى قناع�
 === SCENE s15 | بداية هداية وراحة
 @image ep19/images/scene_15.jpg
 NARRATOR [بصوت ختامي مؤثر] {src=19.01.05}: في نظره كانت تلك بداية هداية وراحة. وفي نظر القصة كلها، كانت نهاية مرحلة من الشك وبداية مسؤولية جديدة: أن يشرح للآخرين كيف وصل إلى ما وصل إليه.
+
+=== SCENE s16 | بداية هداية وراحة
+@image ep19/images/scene_15b.jpg
 AL_TIJANI_ADULT [بصوت ناضج ممتن] {src=19.03.01}: لم يحدث التحول في ليلة واحدة. كان ثمرة قراءة وقلق وخوف ومراجعة. وحين اطمأن قلبي إلى النتيجة، شعرت وكأن عبئا ثقيلا بدأ يزول.
 

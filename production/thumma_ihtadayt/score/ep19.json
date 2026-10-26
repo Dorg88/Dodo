@@ -144,12 +144,22 @@
   {
    "scene": 15,
    "title": "بداية هداية وراحة",
+   "music": "suspense",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: شك; ambience of the episode's place"
+  },
+  {
+   "scene": 16,
+   "title": "بداية هداية وراحة",
    "music": "ending",
    "sfx": [
     "study"
    ],
    "level": 0.85,
-   "reason": "text: شك; ambience of the episode's place; last scene"
+   "reason": "text: قلق; ambience of the episode's place; last scene"
   }
  ]
 }

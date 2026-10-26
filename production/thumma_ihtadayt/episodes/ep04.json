@@ -3,7 +3,7 @@
  "id": "ep04",
  "number": 4,
  "title": "العودة إلى قفصة",
- "durationMs": 301620,
+ "durationMs": 302820,
  "audio": {
   "mode": "clips",
   "music": "ep04/audio/score_music.m4a",
@@ -159,79 +159,95 @@
    "title": "استقبال المدينة",
    "image": "ep04/images/scene_05.jpg",
    "startMs": 60045,
-   "endMs": 94475
+   "endMs": 86175
   },
   {
    "number": 6,
    "id": "s06",
-   "title": "حدثنا عن مكة",
-   "image": "ep04/images/scene_06.jpg",
-   "startMs": 94475,
-   "endMs": 131850
+   "title": "استقبال المدينة",
+   "image": "ep04/images/scene_05b.jpg",
+   "startMs": 86175,
+   "endMs": 95075
   },
   {
    "number": 7,
    "id": "s07",
-   "title": "الحاج",
-   "image": "ep04/images/scene_07.jpg",
-   "startMs": 131850,
-   "endMs": 154250
+   "title": "حدثنا عن مكة",
+   "image": "ep04/images/scene_06.jpg",
+   "startMs": 95075,
+   "endMs": 132450
   },
   {
    "number": 8,
    "id": "s08",
-   "title": "أفكار جديدة",
-   "image": "ep04/images/scene_08.jpg",
-   "startMs": 154250,
-   "endMs": 175500
+   "title": "الحاج",
+   "image": "ep04/images/scene_07.jpg",
+   "startMs": 132450,
+   "endMs": 154850
   },
   {
    "number": 9,
    "id": "s09",
-   "title": "دروس المساجد وسؤال طالب",
-   "image": "ep04/images/scene_09.jpg",
-   "startMs": 175500,
-   "endMs": 223315
+   "title": "أفكار جديدة",
+   "image": "ep04/images/scene_08.jpg",
+   "startMs": 154850,
+   "endMs": 176100
   },
   {
    "number": 10,
    "id": "s10",
-   "title": "أجيب عن أسئلة الناس",
-   "image": "ep04/images/scene_11.jpg",
-   "startMs": 223315,
-   "endMs": 231895
+   "title": "دروس المساجد وسؤال طالب",
+   "image": "ep04/images/scene_09.jpg",
+   "startMs": 176100,
+   "endMs": 202190
   },
   {
    "number": 11,
    "id": "s11",
-   "title": "التعليم والقراءة",
-   "image": "ep04/images/scene_12.jpg",
-   "startMs": 231895,
-   "endMs": 245685
+   "title": "دروس المساجد وسؤال طالب",
+   "image": "ep04/images/scene_09b.jpg",
+   "startMs": 202190,
+   "endMs": 224515
   },
   {
    "number": 12,
    "id": "s12",
-   "title": "أمنية الأم",
-   "image": "ep04/images/scene_13.jpg",
-   "startMs": 245685,
-   "endMs": 269455
+   "title": "أجيب عن أسئلة الناس",
+   "image": "ep04/images/scene_11.jpg",
+   "startMs": 224515,
+   "endMs": 233095
   },
   {
    "number": 13,
    "id": "s13",
-   "title": "مسؤولية كبيرة",
-   "image": "ep04/images/scene_14.jpg",
-   "startMs": 269455,
-   "endMs": 291265
+   "title": "التعليم والقراءة",
+   "image": "ep04/images/scene_12.jpg",
+   "startMs": 233095,
+   "endMs": 246885
   },
   {
    "number": 14,
    "id": "s14",
+   "title": "أمنية الأم",
+   "image": "ep04/images/scene_13.jpg",
+   "startMs": 246885,
+   "endMs": 270655
+  },
+  {
+   "number": 15,
+   "id": "s15",
+   "title": "مسؤولية كبيرة",
+   "image": "ep04/images/scene_14.jpg",
+   "startMs": 270655,
+   "endMs": 292465
+  },
+  {
+   "number": 16,
+   "id": "s16",
    "title": "سؤال بلا جواب",
    "image": "ep04/images/scene_15.jpg",
-   "startMs": 291265,
-   "endMs": 301620
+   "startMs": 292465,
+   "endMs": 302820
   }
  ],
  "segments": [
@@ -506,14 +522,14 @@
    }
   },
   {
-   "id": "ep04_s05_l03",
-   "scene": 5,
+   "id": "ep04_s06_l01",
+   "scene": 6,
    "speakerId": "AL_TIJANI",
    "speakerName": "التيجاني",
    "direction": "بصوت متأثر",
    "text": "يا لها من فرحة لم أتخيل أن عودتي من الحج ستصبح مناسبة تحتفل بها المدينة كلها",
-   "startMs": 86175,
-   "endMs": 93875,
+   "startMs": 86775,
+   "endMs": 94475,
    "clip": {
     "file": "audio/Ep4/Hisyouth1.wav",
     "startMs": 11890,
@@ -522,8 +538,8 @@
    "lines": [
     {
      "text": "يا لها من فرحة لم أتخيل أن عودتي من الحج ستصبح مناسبة تحتفل بها المدينة كلها",
-     "startMs": 86175,
-     "endMs": 93874
+     "startMs": 86775,
+     "endMs": 94474
     }
    ],
    "timing": "verified",
@@ -533,14 +549,14 @@
    }
   },
   {
-   "id": "ep04_s06_l01",
-   "scene": 6,
+   "id": "ep04_s07_l01",
+   "scene": 7,
    "speakerId": "TOWNSMAN",
    "speakerName": "أحد أهل المدينة",
    "direction": "",
    "text": "الحمد لله على سلامتك يا حاج محمد ما شاء الله حججت بيت الله وانت في هذه السن الصغيرة",
-   "startMs": 95075,
-   "endMs": 102995,
+   "startMs": 95675,
+   "endMs": 103595,
    "clip": {
     "file": "audio/Ep4/Neighbour.wav",
     "startMs": 120,
@@ -549,8 +565,8 @@
    "lines": [
     {
      "text": "الحمد لله على سلامتك يا حاج محمد ما شاء الله حججت بيت الله وانت في هذه السن الصغيرة",
-     "startMs": 95075,
-     "endMs": 102994
+     "startMs": 95675,
+     "endMs": 103594
     }
    ],
    "timing": "verified",
@@ -560,14 +576,14 @@
    }
   },
   {
-   "id": "ep04_s06_l02",
-   "scene": 6,
+   "id": "ep04_s07_l02",
+   "scene": 7,
    "speakerId": "TOWNSMAN",
    "speakerName": "أحد أهل المدينة",
    "direction": "بفضول وشوق",
    "text": "حدثنا عن مكة كيف كان شعورك عندما رأيت الكعبة لأول مرة",
-   "startMs": 103345,
-   "endMs": 108620,
+   "startMs": 103945,
+   "endMs": 109220,
    "clip": {
     "file": "audio/Ep4/Neighbour.wav",
     "startMs": 9405,
@@ -576,8 +592,8 @@
    "lines": [
     {
      "text": "حدثنا عن مكة كيف كان شعورك عندما رأيت الكعبة لأول مرة",
-     "startMs": 103345,
-     "endMs": 108619
+     "startMs": 103945,
+     "endMs": 109219
     }
    ],
    "timing": "verified",
@@ -587,14 +603,14 @@
    }
   },
   {
-   "id": "ep04_s06_l03",
-   "scene": 6,
+   "id": "ep04_s07_l03",
+   "scene": 7,
    "speakerId": "TOWNSMAN",
    "speakerName": "أحد أهل المدينة",
    "direction": "بصوت متأثر",
    "text": "نسأل الله أن يرزقنا زيارتها كما رزقك",
-   "startMs": 108970,
-   "endMs": 112030,
+   "startMs": 109570,
+   "endMs": 112630,
    "clip": {
     "file": "audio/Ep4/Neighbour.wav",
     "startMs": 16610,
@@ -603,8 +619,8 @@
    "lines": [
     {
      "text": "نسأل الله أن يرزقنا زيارتها كما رزقك",
-     "startMs": 108970,
-     "endMs": 112030
+     "startMs": 109570,
+     "endMs": 112630
     }
    ],
    "timing": "verified",
@@ -614,14 +630,14 @@
    }
   },
   {
-   "id": "ep04_s06_l04",
-   "scene": 6,
+   "id": "ep04_s07_l04",
+   "scene": 7,
    "speakerId": "NARRATOR",
    "speakerName": "الراوي",
    "direction": "بصوت دافئ",
    "text": "وفي البيت استمرت الزيارات والتهاني كان والده سعيدا وفخورا به أما والدته فكانت تخشى عليه من الحسد وتحرص على حمايته بالوسائل التي اعتادت عليها في بيئتها وأقام والده ثلاث ليال من المجالس والولائم احتفالا بعودته",
-   "startMs": 112630,
-   "endMs": 131550,
+   "startMs": 113230,
+   "endMs": 132150,
    "clip": {
     "file": "audio/Ep4/Narrator4.wav",
     "startMs": 57700,
@@ -630,62 +646,8 @@
    "lines": [
     {
      "text": "وفي البيت استمرت الزيارات والتهاني كان والده سعيدا وفخورا به أما والدته فكانت تخشى عليه من الحسد وتحرص على حمايته بالوسائل التي اعتادت عليها في بيئتها وأقام والده ثلاث ليال من المجالس والولائم احتفالا بعودته",
-     "startMs": 112630,
-     "endMs": 131550
-    }
-   ],
-   "timing": "verified",
-   "alignment": {
-    "confidence": 1.0,
-    "flags": []
-   }
-  },
-  {
-   "id": "ep04_s07_l01",
-   "scene": 7,
-   "speakerId": "NARRATOR",
-   "speakerName": "الراوي",
-   "direction": "بنبرة وصفية",
-   "text": "ومنذ ذلك الوقت اشتهر محمد في قفصة بلقب جديد الحاج حتى أصبح الناس إذا قالوا الحاج قصدوا به محمد التجاني",
-   "startMs": 132150,
-   "endMs": 143220,
-   "clip": {
-    "file": "audio/Ep4/Narrator4.wav",
-    "startMs": 79050,
-    "endMs": 90120
-   },
-   "lines": [
-    {
-     "text": "ومنذ ذلك الوقت اشتهر محمد في قفصة بلقب جديد الحاج حتى أصبح الناس إذا قالوا الحاج قصدوا به محمد التجاني",
-     "startMs": 132150,
-     "endMs": 143220
-    }
-   ],
-   "timing": "verified",
-   "alignment": {
-    "confidence": 1.0,
-    "flags": []
-   }
-  },
-  {
-   "id": "ep04_s07_l02",
-   "scene": 7,
-   "speakerId": "AL_TIJANI",
-   "speakerName": "التيجاني",
-   "direction": "باعتزاز ممزوج بالتواضع",
-   "text": "لقد رأيت في مكة أمورا ستبقى معي العمر كله وتعلمت أفكاراً جديدة وأريد أن أشاركها مع الناس",
-   "startMs": 143820,
-   "endMs": 153650,
-   "clip": {
-    "file": "audio/Ep4/Hisyouth1.wav",
-    "startMs": 24070,
-    "endMs": 33900
-   },
-   "lines": [
-    {
-     "text": "لقد رأيت في مكة أمورا ستبقى معي العمر كله وتعلمت أفكاراً جديدة وأريد أن أشاركها مع الناس",
-     "startMs": 143820,
-     "endMs": 153649
+     "startMs": 113230,
+     "endMs": 132150
     }
    ],
    "timing": "verified",
@@ -699,20 +661,47 @@
    "scene": 8,
    "speakerId": "NARRATOR",
    "speakerName": "الراوي",
-   "direction": "بنبرة جادة",
-   "text": "لكن الحج لم يغير مكانته الاجتماعية فحسب لقد غير كثيراً من أفكاره الدينية أيضاً أصبح يدعو إلى بعض المعتقدات التي تأثر بها خلال إقامته في السعودية وكان يعترض على تقبيل الأضرحة والتمسح بها ويرى في بعض هذه الممارسات ما يخالف التوحيد",
-   "startMs": 154850,
-   "endMs": 174900,
+   "direction": "بنبرة وصفية",
+   "text": "ومنذ ذلك الوقت اشتهر محمد في قفصة بلقب جديد الحاج حتى أصبح الناس إذا قالوا الحاج قصدوا به محمد التجاني",
+   "startMs": 132750,
+   "endMs": 143820,
    "clip": {
     "file": "audio/Ep4/Narrator4.wav",
-    "startMs": 92600,
-    "endMs": 112650
+    "startMs": 79050,
+    "endMs": 90120
    },
    "lines": [
     {
-     "text": "لكن الحج لم يغير مكانته الاجتماعية فحسب لقد غير كثيراً من أفكاره الدينية أيضاً أصبح يدعو إلى بعض المعتقدات التي تأثر بها خلال إقامته في السعودية وكان يعترض على تقبيل الأضرحة والتمسح بها ويرى في بعض هذه الممارسات ما يخالف التوحيد",
-     "startMs": 154850,
-     "endMs": 174900
+     "text": "ومنذ ذلك الوقت اشتهر محمد في قفصة بلقب جديد الحاج حتى أصبح الناس إذا قالوا الحاج قصدوا به محمد التجاني",
+     "startMs": 132750,
+     "endMs": 143820
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s08_l02",
+   "scene": 8,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "باعتزاز ممزوج بالتواضع",
+   "text": "لقد رأيت في مكة أمورا ستبقى معي العمر كله وتعلمت أفكاراً جديدة وأريد أن أشاركها مع الناس",
+   "startMs": 144420,
+   "endMs": 154250,
+   "clip": {
+    "file": "audio/Ep4/Hisyouth1.wav",
+    "startMs": 24070,
+    "endMs": 33900
+   },
+   "lines": [
+    {
+     "text": "لقد رأيت في مكة أمورا ستبقى معي العمر كله وتعلمت أفكاراً جديدة وأريد أن أشاركها مع الناس",
+     "startMs": 144420,
+     "endMs": 154249
     }
    ],
    "timing": "verified",
@@ -724,157 +713,22 @@
   {
    "id": "ep04_s09_l01",
    "scene": 9,
-   "speakerId": "AL_TIJANI",
-   "speakerName": "التيجاني",
-   "direction": "بنبرة حماسية وإقناعية",
-   "text": "يا إخواني علينا أن نبحث عن الدليل وأن نعبد الله وحده وأنا أرى أن بعض العادات التي تعودنا عليها تحتاج إلى مراجعة",
-   "startMs": 176100,
-   "endMs": 186920,
-   "clip": {
-    "file": "audio/Ep4/Hisyouth1.wav",
-    "startMs": 38070,
-    "endMs": 48890
-   },
-   "lines": [
-    {
-     "text": "يا إخواني علينا أن نبحث عن الدليل وأن نعبد الله وحده وأنا أرى أن بعض العادات التي تعودنا عليها تحتاج إلى مراجعة",
-     "startMs": 176100,
-     "endMs": 186920
-    }
-   ],
-   "timing": "verified",
-   "alignment": {
-    "confidence": 1.0,
-    "flags": []
-   }
-  },
-  {
-   "id": "ep04_s09_l02",
-   "scene": 9,
    "speakerId": "NARRATOR",
    "speakerName": "الراوي",
-   "direction": "بصوت حيوي",
-   "text": "توسع نشاطه في المساجد، ألقى الدروس قبل صلاة الجمعة، وتنقل بين جامع أبي عقوب والجامع الكبير، وكان طلابه وزملائه وأهل المدينة يستمعون إليه بإعجاب",
-   "startMs": 187520,
-   "endMs": 200990,
+   "direction": "بنبرة جادة",
+   "text": "لكن الحج لم يغير مكانته الاجتماعية فحسب لقد غير كثيراً من أفكاره الدينية أيضاً أصبح يدعو إلى بعض المعتقدات التي تأثر بها خلال إقامته في السعودية وكان يعترض على تقبيل الأضرحة والتمسح بها ويرى في بعض هذه الممارسات ما يخالف التوحيد",
+   "startMs": 155450,
+   "endMs": 175500,
    "clip": {
     "file": "audio/Ep4/Narrator4.wav",
-    "startMs": 114740,
-    "endMs": 128210
+    "startMs": 92600,
+    "endMs": 112650
    },
    "lines": [
     {
-     "text": "توسع نشاطه في المساجد، ألقى الدروس قبل صلاة الجمعة، وتنقل بين جامع أبي عقوب والجامع الكبير، وكان طلابه وزملائه وأهل المدينة يستمعون إليه بإعجاب",
-     "startMs": 187520,
-     "endMs": 200989
-    }
-   ],
-   "timing": "verified",
-   "alignment": {
-    "confidence": 1.0,
-    "flags": []
-   }
-  },
-  {
-   "id": "ep04_s09_l03",
-   "scene": 9,
-   "speakerId": "STUDENT",
-   "speakerName": "أحد الطلاب",
-   "direction": "",
-   "text": "أستاذ محمد، عندي سؤال",
-   "startMs": 201590,
-   "endMs": 204020,
-   "clip": {
-    "file": "audio/Ep3/Juniorscholar.wav",
-    "startMs": 160,
-    "endMs": 2590
-   },
-   "lines": [
-    {
-     "text": "أستاذ محمد، عندي سؤال",
-     "startMs": 201590,
-     "endMs": 204019
-    }
-   ],
-   "timing": "verified",
-   "alignment": {
-    "confidence": 1.0,
-    "flags": []
-   }
-  },
-  {
-   "id": "ep04_s09_l04",
-   "scene": 9,
-   "speakerId": "STUDENT",
-   "speakerName": "أحد الطلاب",
-   "direction": "بتردد خفيف",
-   "text": "نحن نرى الناس يزورون الأضرحة ويتبركون بها منذ سنوات طويلة فلماذا أصبحت تعترض على بعض هذه العادات؟",
-   "startMs": 204370,
-   "endMs": 213020,
-   "clip": {
-    "file": "audio/Ep3/Juniorscholar.wav",
-    "startMs": 5240,
-    "endMs": 13890
-   },
-   "lines": [
-    {
-     "text": "نحن نرى الناس يزورون الأضرحة ويتبركون بها منذ سنوات طويلة فلماذا أصبحت تعترض على بعض هذه العادات؟",
-     "startMs": 204370,
-     "endMs": 213020
-    }
-   ],
-   "timing": "verified",
-   "alignment": {
-    "confidence": 1.0,
-    "flags": []
-   }
-  },
-  {
-   "id": "ep04_s09_l05",
-   "scene": 9,
-   "speakerId": "STUDENT",
-   "speakerName": "أحد الطلاب",
-   "direction": "باهتمام صادق",
-   "text": "أريد أن أفهم رأيك ودليلك",
-   "startMs": 213370,
-   "endMs": 215720,
-   "clip": {
-    "file": "audio/Ep3/Juniorscholar.wav",
-    "startMs": 15870,
-    "endMs": 18220
-   },
-   "lines": [
-    {
-     "text": "أريد أن أفهم رأيك ودليلك",
-     "startMs": 213370,
-     "endMs": 215719
-    }
-   ],
-   "timing": "verified",
-   "alignment": {
-    "confidence": 1.0,
-    "flags": []
-   }
-  },
-  {
-   "id": "ep04_s09_l06",
-   "scene": 9,
-   "speakerId": "STUDENT",
-   "speakerName": "أحد الطلاب",
-   "direction": "بإعجاب",
-   "text": "أحب أن أستمع إلى دروسك لأنك تجعلنا نفكر ونسأل، لا أن نحفظ الكلام فقط",
-   "startMs": 216070,
-   "endMs": 222715,
-   "clip": {
-    "file": "audio/Ep3/Juniorscholar.wav",
-    "startMs": 20230,
-    "endMs": 26875
-   },
-   "lines": [
-    {
-     "text": "أحب أن أستمع إلى دروسك لأنك تجعلنا نفكر ونسأل، لا أن نحفظ الكلام فقط",
-     "startMs": 216070,
-     "endMs": 222715
+     "text": "لكن الحج لم يغير مكانته الاجتماعية فحسب لقد غير كثيراً من أفكاره الدينية أيضاً أصبح يدعو إلى بعض المعتقدات التي تأثر بها خلال إقامته في السعودية وكان يعترض على تقبيل الأضرحة والتمسح بها ويرى في بعض هذه الممارسات ما يخالف التوحيد",
+     "startMs": 155450,
+     "endMs": 175500
     }
    ],
    "timing": "verified",
@@ -888,20 +742,47 @@
    "scene": 10,
    "speakerId": "AL_TIJANI",
    "speakerName": "التيجاني",
-   "direction": "بصوت واثق",
-   "text": "لا أريد أن أكتفي بالكلام سأقرأ أكثر وأبحث أكثر وأحاول أن أجيب عن أسئلة الناس",
-   "startMs": 223915,
-   "endMs": 231295,
+   "direction": "بنبرة حماسية وإقناعية",
+   "text": "يا إخواني علينا أن نبحث عن الدليل وأن نعبد الله وحده وأنا أرى أن بعض العادات التي تعودنا عليها تحتاج إلى مراجعة",
+   "startMs": 176700,
+   "endMs": 187520,
    "clip": {
     "file": "audio/Ep4/Hisyouth1.wav",
-    "startMs": 51930,
-    "endMs": 59310
+    "startMs": 38070,
+    "endMs": 48890
    },
    "lines": [
     {
-     "text": "لا أريد أن أكتفي بالكلام سأقرأ أكثر وأبحث أكثر وأحاول أن أجيب عن أسئلة الناس",
-     "startMs": 223915,
-     "endMs": 231295
+     "text": "يا إخواني علينا أن نبحث عن الدليل وأن نعبد الله وحده وأنا أرى أن بعض العادات التي تعودنا عليها تحتاج إلى مراجعة",
+     "startMs": 176700,
+     "endMs": 187520
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s10_l02",
+   "scene": 10,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت حيوي",
+   "text": "توسع نشاطه في المساجد، ألقى الدروس قبل صلاة الجمعة، وتنقل بين جامع أبي عقوب والجامع الكبير، وكان طلابه وزملائه وأهل المدينة يستمعون إليه بإعجاب",
+   "startMs": 188120,
+   "endMs": 201590,
+   "clip": {
+    "file": "audio/Ep4/Narrator4.wav",
+    "startMs": 114740,
+    "endMs": 128210
+   },
+   "lines": [
+    {
+     "text": "توسع نشاطه في المساجد، ألقى الدروس قبل صلاة الجمعة، وتنقل بين جامع أبي عقوب والجامع الكبير، وكان طلابه وزملائه وأهل المدينة يستمعون إليه بإعجاب",
+     "startMs": 188120,
+     "endMs": 201589
     }
    ],
    "timing": "verified",
@@ -913,22 +794,103 @@
   {
    "id": "ep04_s11_l01",
    "scene": 11,
-   "speakerId": "NARRATOR",
-   "speakerName": "الراوي",
-   "direction": "بنبرة هادئة",
-   "text": "وفي تلك المرحلة لم يكتفي بالتدريس الديني فقد كان يعمل أيضا في تعليم التكنولوجيا والمبادئ التقنية ويخصص من وقته للقراءة والتحضير والإجابة عن الأسئلة",
-   "startMs": 232495,
-   "endMs": 245085,
+   "speakerId": "STUDENT",
+   "speakerName": "أحد الطلاب",
+   "direction": "",
+   "text": "أستاذ محمد، عندي سؤال",
+   "startMs": 202790,
+   "endMs": 205220,
    "clip": {
-    "file": "audio/Ep4/Narrator4.wav",
-    "startMs": 130260,
-    "endMs": 142850
+    "file": "audio/Ep3/Juniorscholar.wav",
+    "startMs": 160,
+    "endMs": 2590
    },
    "lines": [
     {
-     "text": "وفي تلك المرحلة لم يكتفي بالتدريس الديني فقد كان يعمل أيضا في تعليم التكنولوجيا والمبادئ التقنية ويخصص من وقته للقراءة والتحضير والإجابة عن الأسئلة",
-     "startMs": 232495,
-     "endMs": 245085
+     "text": "أستاذ محمد، عندي سؤال",
+     "startMs": 202790,
+     "endMs": 205219
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s11_l02",
+   "scene": 11,
+   "speakerId": "STUDENT",
+   "speakerName": "أحد الطلاب",
+   "direction": "بتردد خفيف",
+   "text": "نحن نرى الناس يزورون الأضرحة ويتبركون بها منذ سنوات طويلة فلماذا أصبحت تعترض على بعض هذه العادات؟",
+   "startMs": 205570,
+   "endMs": 214220,
+   "clip": {
+    "file": "audio/Ep3/Juniorscholar.wav",
+    "startMs": 5240,
+    "endMs": 13890
+   },
+   "lines": [
+    {
+     "text": "نحن نرى الناس يزورون الأضرحة ويتبركون بها منذ سنوات طويلة فلماذا أصبحت تعترض على بعض هذه العادات؟",
+     "startMs": 205570,
+     "endMs": 214220
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s11_l03",
+   "scene": 11,
+   "speakerId": "STUDENT",
+   "speakerName": "أحد الطلاب",
+   "direction": "باهتمام صادق",
+   "text": "أريد أن أفهم رأيك ودليلك",
+   "startMs": 214570,
+   "endMs": 216920,
+   "clip": {
+    "file": "audio/Ep3/Juniorscholar.wav",
+    "startMs": 15870,
+    "endMs": 18220
+   },
+   "lines": [
+    {
+     "text": "أريد أن أفهم رأيك ودليلك",
+     "startMs": 214570,
+     "endMs": 216919
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s11_l04",
+   "scene": 11,
+   "speakerId": "STUDENT",
+   "speakerName": "أحد الطلاب",
+   "direction": "بإعجاب",
+   "text": "أحب أن أستمع إلى دروسك لأنك تجعلنا نفكر ونسأل، لا أن نحفظ الكلام فقط",
+   "startMs": 217270,
+   "endMs": 223915,
+   "clip": {
+    "file": "audio/Ep3/Juniorscholar.wav",
+    "startMs": 20230,
+    "endMs": 26875
+   },
+   "lines": [
+    {
+     "text": "أحب أن أستمع إلى دروسك لأنك تجعلنا نفكر ونسأل، لا أن نحفظ الكلام فقط",
+     "startMs": 217270,
+     "endMs": 223915
     }
    ],
    "timing": "verified",
@@ -940,49 +902,22 @@
   {
    "id": "ep04_s12_l01",
    "scene": 12,
-   "speakerId": "MOTHER",
-   "speakerName": "الأم",
-   "direction": "بحنان عميق",
-   "text": "يا ولدي اللي أبغيه الآن أني شوفك مستقر وسعيد في حياتك وأن أفرح بيوم زواجك كما فرحت اليوم بعودتك",
-   "startMs": 246285,
-   "endMs": 256935,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت واثق",
+   "text": "لا أريد أن أكتفي بالكلام سأقرأ أكثر وأبحث أكثر وأحاول أن أجيب عن أسئلة الناس",
+   "startMs": 225115,
+   "endMs": 232495,
    "clip": {
-    "file": "audio/Ep4/Mom1.wav",
-    "startMs": 18610,
-    "endMs": 29260
+    "file": "audio/Ep4/Hisyouth1.wav",
+    "startMs": 51930,
+    "endMs": 59310
    },
    "lines": [
     {
-     "text": "يا ولدي اللي أبغيه الآن أني شوفك مستقر وسعيد في حياتك وأن أفرح بيوم زواجك كما فرحت اليوم بعودتك",
-     "startMs": 246285,
-     "endMs": 256934
-    }
-   ],
-   "timing": "verified",
-   "alignment": {
-    "confidence": 1.0,
-    "flags": []
-   }
-  },
-  {
-   "id": "ep04_s12_l02",
-   "scene": 12,
-   "speakerId": "NARRATOR",
-   "speakerName": "الراوي",
-   "direction": "بصوت حنون ومؤثر",
-   "text": "وشهدت حياته العائلية تحولا آخر كانت والدته تتمنى أن تراه عريسا قبل وفاتها فاستجاب لرغبتها وتزوج ثم رزق بأبناء",
-   "startMs": 257535,
-   "endMs": 268855,
-   "clip": {
-    "file": "audio/Ep4/Narrator4.wav",
-    "startMs": 145830,
-    "endMs": 157150
-   },
-   "lines": [
-    {
-     "text": "وشهدت حياته العائلية تحولا آخر كانت والدته تتمنى أن تراه عريسا قبل وفاتها فاستجاب لرغبتها وتزوج ثم رزق بأبناء",
-     "startMs": 257535,
-     "endMs": 268855
+     "text": "لا أريد أن أكتفي بالكلام سأقرأ أكثر وأبحث أكثر وأحاول أن أجيب عن أسئلة الناس",
+     "startMs": 225115,
+     "endMs": 232495
     }
    ],
    "timing": "verified",
@@ -994,22 +929,22 @@
   {
    "id": "ep04_s13_l01",
    "scene": 13,
-   "speakerId": "AL_TIJANI",
-   "speakerName": "التيجاني",
-   "direction": "بتأمل خفيف",
-   "text": "أشعر أن أمامي مسؤولية كبيرة ولكنني ما زلت في بداية الطريق",
-   "startMs": 270055,
-   "endMs": 275505,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة هادئة",
+   "text": "وفي تلك المرحلة لم يكتفي بالتدريس الديني فقد كان يعمل أيضا في تعليم التكنولوجيا والمبادئ التقنية ويخصص من وقته للقراءة والتحضير والإجابة عن الأسئلة",
+   "startMs": 233695,
+   "endMs": 246285,
    "clip": {
-    "file": "audio/Ep4/Hisyouth1.wav",
-    "startMs": 62360,
-    "endMs": 67810
+    "file": "audio/Ep4/Narrator4.wav",
+    "startMs": 130260,
+    "endMs": 142850
    },
    "lines": [
     {
-     "text": "أشعر أن أمامي مسؤولية كبيرة ولكنني ما زلت في بداية الطريق",
-     "startMs": 270055,
-     "endMs": 275505
+     "text": "وفي تلك المرحلة لم يكتفي بالتدريس الديني فقد كان يعمل أيضا في تعليم التكنولوجيا والمبادئ التقنية ويخصص من وقته للقراءة والتحضير والإجابة عن الأسئلة",
+     "startMs": 233695,
+     "endMs": 246285
     }
    ],
    "timing": "verified",
@@ -1019,14 +954,95 @@
    }
   },
   {
-   "id": "ep04_s13_l02",
-   "scene": 13,
+   "id": "ep04_s14_l01",
+   "scene": 14,
+   "speakerId": "MOTHER",
+   "speakerName": "الأم",
+   "direction": "بحنان عميق",
+   "text": "يا ولدي اللي أبغيه الآن أني شوفك مستقر وسعيد في حياتك وأن أفرح بيوم زواجك كما فرحت اليوم بعودتك",
+   "startMs": 247485,
+   "endMs": 258135,
+   "clip": {
+    "file": "audio/Ep4/Mom1.wav",
+    "startMs": 18610,
+    "endMs": 29260
+   },
+   "lines": [
+    {
+     "text": "يا ولدي اللي أبغيه الآن أني شوفك مستقر وسعيد في حياتك وأن أفرح بيوم زواجك كما فرحت اليوم بعودتك",
+     "startMs": 247485,
+     "endMs": 258134
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s14_l02",
+   "scene": 14,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت حنون ومؤثر",
+   "text": "وشهدت حياته العائلية تحولا آخر كانت والدته تتمنى أن تراه عريسا قبل وفاتها فاستجاب لرغبتها وتزوج ثم رزق بأبناء",
+   "startMs": 258735,
+   "endMs": 270055,
+   "clip": {
+    "file": "audio/Ep4/Narrator4.wav",
+    "startMs": 145830,
+    "endMs": 157150
+   },
+   "lines": [
+    {
+     "text": "وشهدت حياته العائلية تحولا آخر كانت والدته تتمنى أن تراه عريسا قبل وفاتها فاستجاب لرغبتها وتزوج ثم رزق بأبناء",
+     "startMs": 258735,
+     "endMs": 270055
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s15_l01",
+   "scene": 15,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بتأمل خفيف",
+   "text": "أشعر أن أمامي مسؤولية كبيرة ولكنني ما زلت في بداية الطريق",
+   "startMs": 271255,
+   "endMs": 276705,
+   "clip": {
+    "file": "audio/Ep4/Hisyouth1.wav",
+    "startMs": 62360,
+    "endMs": 67810
+   },
+   "lines": [
+    {
+     "text": "أشعر أن أمامي مسؤولية كبيرة ولكنني ما زلت في بداية الطريق",
+     "startMs": 271255,
+     "endMs": 276705
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s15_l02",
+   "scene": 15,
    "speakerId": "NARRATOR",
    "speakerName": "الراوي",
    "direction": "بنبرة تأملية",
    "text": "كانت مكانته تتسع وثقته بأفكاره تزداد لكن الحياة كانت تعد له لقاء جديدا لقاء سيضع أمامه طريقين مختلفين وسؤالا لن يستطيع الهروب منه",
-   "startMs": 276105,
-   "endMs": 290965,
+   "startMs": 277305,
+   "endMs": 292165,
    "clip": {
     "file": "audio/Ep4/Narrator4.wav",
     "startMs": 159520,
@@ -1035,8 +1051,8 @@
    "lines": [
     {
      "text": "كانت مكانته تتسع وثقته بأفكاره تزداد لكن الحياة كانت تعد له لقاء جديدا لقاء سيضع أمامه طريقين مختلفين وسؤالا لن يستطيع الهروب منه",
-     "startMs": 276105,
-     "endMs": 290965
+     "startMs": 277305,
+     "endMs": 292165
     }
    ],
    "timing": "verified",
@@ -1046,14 +1062,14 @@
    }
   },
   {
-   "id": "ep04_s14_l01",
-   "scene": 14,
+   "id": "ep04_s16_l01",
+   "scene": 16,
    "speakerId": "NARRATOR",
    "speakerName": "الراوي",
    "direction": "بصوت ختامي مشوق",
    "text": "هل يكفي أن نرث معتقداتنا أو نتأثر بمن نحبهم لكي نصل إلى الحقيقة؟ كان الجواب لا يزال بعيدا",
-   "startMs": 291565,
-   "endMs": 300120,
+   "startMs": 292765,
+   "endMs": 301320,
    "clip": {
     "file": "audio/Ep4/Narrator4.wav",
     "startMs": 177070,
@@ -1062,13 +1078,13 @@
    "lines": [
     {
      "text": "هل يكفي أن نرث معتقداتنا أو نتأثر بمن نحبهم لكي نصل إلى الحقيقة؟",
-     "startMs": 291565,
-     "endMs": 297235
+     "startMs": 292765,
+     "endMs": 298435
     },
     {
      "text": "كان الجواب لا يزال بعيدا",
-     "startMs": 297235,
-     "endMs": 300120
+     "startMs": 298435,
+     "endMs": 301320
     }
    ],
    "timing": "verified",
@@ -1108,61 +1124,73 @@
    "scene": 5,
    "cue": "warm",
    "startMs": 59245,
-   "endMs": 95274
+   "endMs": 86975
   },
   {
    "scene": 6,
    "cue": "warm",
-   "startMs": 93675,
-   "endMs": 132650
+   "startMs": 85375,
+   "endMs": 95875
   },
   {
    "scene": 7,
-   "cue": "reflective",
-   "startMs": 131049,
-   "endMs": 155050
+   "cue": "warm",
+   "startMs": 94275,
+   "endMs": 133250
   },
   {
    "scene": 8,
    "cue": "reflective",
-   "startMs": 153450,
-   "endMs": 176300
+   "startMs": 131649,
+   "endMs": 155650
   },
   {
    "scene": 9,
-   "cue": "suspense",
-   "startMs": 174700,
-   "endMs": 224115
+   "cue": "reflective",
+   "startMs": 154049,
+   "endMs": 176900
   },
   {
    "scene": 10,
    "cue": "suspense",
-   "startMs": 222515,
-   "endMs": 232695
+   "startMs": 175299,
+   "endMs": 202990
   },
   {
    "scene": 11,
-   "cue": "reflective",
-   "startMs": 231095,
-   "endMs": 246485
+   "cue": "suspense",
+   "startMs": 201390,
+   "endMs": 225315
   },
   {
    "scene": 12,
-   "cue": "warm",
-   "startMs": 244885,
-   "endMs": 270255
+   "cue": "suspense",
+   "startMs": 223714,
+   "endMs": 233895
   },
   {
    "scene": 13,
-   "cue": "warm",
-   "startMs": 268655,
-   "endMs": 292065
+   "cue": "reflective",
+   "startMs": 232295,
+   "endMs": 247685
   },
   {
    "scene": 14,
+   "cue": "warm",
+   "startMs": 246084,
+   "endMs": 271455
+  },
+  {
+   "scene": 15,
+   "cue": "warm",
+   "startMs": 269854,
+   "endMs": 293265
+  },
+  {
+   "scene": 16,
    "cue": "ending",
-   "startMs": 290465,
-   "endMs": 302420
+   "startMs": 291664,
+   "endMs": 303620
   }
  ]
 }

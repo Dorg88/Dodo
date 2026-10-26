@@ -3,7 +3,7 @@
  "id": "ep19",
  "number": 19,
  "title": "لحظة التحول",
- "durationMs": 127555,
+ "durationMs": 128155,
  "audio": {
   "mode": "clips",
   "music": "ep19/audio/score_music.m4a",
@@ -76,6 +76,48 @@
   },
   "WORSHIPPER_2": {
    "name": "المصلي الثاني"
+  },
+  "MOTHER": {
+   "name": "الأم"
+  },
+  "TRAVEL_COMPANION": {
+   "name": "رفيق الرحلة"
+  },
+  "TOWNSMAN": {
+   "name": "أحد أهل المدينة"
+  },
+  "STUDENT": {
+   "name": "أحد الطلاب"
+  },
+  "SHEIKH_ENVOY": {
+   "name": "موفد الشيخ"
+  },
+  "SHEIKH_ISMAIL": {
+   "name": "الشيخ إسماعيل الهادفي"
+  },
+  "SUFI_FOLLOWER": {
+   "name": "أحد أتباع الطريقة"
+  },
+  "WIFE": {
+   "name": "الزوجة"
+  },
+  "AHMAD_EGYPTIAN": {
+   "name": "أحمد المصري"
+  },
+  "SHEIKH_ABDULBASIT": {
+   "name": "الشيخ عبد الباسط"
+  },
+  "AZHAR_SCHOLAR": {
+   "name": "عالم أزهري"
+  },
+  "HUSAYN_SHRINE_KEEPER": {
+   "name": "مسؤول مقام الإمام الحسين"
+  },
+  "RELATIVE": {
+   "name": "أحد الأقارب"
+  },
+  "TUNISIAN_STUDENT": {
+   "name": "طالب"
   }
  },
  "scenes": [
@@ -197,7 +239,15 @@
    "title": "بداية هداية وراحة",
    "image": "ep19/images/scene_15.jpg",
    "startMs": 97235,
-   "endMs": 127555
+   "endMs": 112940
+  },
+  {
+   "number": 16,
+   "id": "s16",
+   "title": "بداية هداية وراحة",
+   "image": "ep19/images/scene_15b.jpg",
+   "startMs": 112940,
+   "endMs": 128155
   }
  ],
  "segments": [
@@ -654,14 +704,14 @@
    }
   },
   {
-   "id": "ep19_s15_l02",
-   "scene": 15,
+   "id": "ep19_s16_l01",
+   "scene": 16,
    "speakerId": "AL_TIJANI_ADULT",
    "speakerName": "التيجاني الكبير",
    "direction": "بصوت ناضج ممتن",
    "text": "لم يحدث التحول في ليلة واحدة. كان ثمرة قراءة وقلق وخوف ومراجعة. وحين اطمأن قلبي إلى النتيجة، شعرت وكأن عبئا ثقيلا بدأ يزول.",
-   "startMs": 112940,
-   "endMs": 126055,
+   "startMs": 113540,
+   "endMs": 126655,
    "clip": {
     "file": "audio/Batch 2/Tiǰǰjani.wav",
     "startMs": 246730,
@@ -670,23 +720,23 @@
    "lines": [
     {
      "text": "لم يحدث التحول في ليلة واحدة.",
-     "startMs": 112940,
-     "endMs": 115190
+     "startMs": 113540,
+     "endMs": 115790
     },
     {
      "text": "كان ثمرة قراءة وقلق وخوف ومراجعة.",
-     "startMs": 115190,
-     "endMs": 119250
+     "startMs": 115790,
+     "endMs": 119850
     },
     {
      "text": "وحين اطمأن قلبي إلى النتيجة، شعرت وكأن عبئا ثقيلا بدأ يزول.",
-     "startMs": 119250,
-     "endMs": 126055
+     "startMs": 119850,
+     "endMs": 126655
     }
    ],
    "timing": "verified",
    "alignment": {
-    "confidence": 0.959,
+    "confidence": 0.992,
     "flags": []
    }
   }
@@ -778,9 +828,15 @@
   },
   {
    "scene": 15,
-   "cue": "ending",
+   "cue": "suspense",
    "startMs": 96435,
-   "endMs": 128355
+   "endMs": 113740
+  },
+  {
+   "scene": 16,
+   "cue": "ending",
+   "startMs": 112140,
+   "endMs": 128955
   }
  ]
 }

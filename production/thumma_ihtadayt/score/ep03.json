@@ -13,6 +13,16 @@
   },
   {
    "scene": 2,
+   "title": "عبر أثينا وعمّان",
+   "music": "reflective",
+   "sfx": [
+    "crowd"
+   ],
+   "level": 0.85,
+   "reason": "text: رحلة; ambience of the episode's place"
+  },
+  {
+   "scene": 3,
    "title": "الطريق إلى مكة",
    "music": "reflective",
    "sfx": [
@@ -22,7 +32,7 @@
    "reason": "title: الطريق"
   },
   {
-   "scene": 3,
+   "scene": 4,
    "title": "موعد مع بيت الله",
    "music": "warm",
    "sfx": [
@@ -32,7 +42,7 @@
    "reason": "title: بيت"
   },
   {
-   "scene": 4,
+   "scene": 5,
    "title": "أمام الكعبة",
    "music": "reverent",
    "sfx": [
@@ -42,7 +52,7 @@
    "reason": "text: مسجد; ambience of the episode's place"
   },
   {
-   "scene": 5,
+   "scene": 6,
    "title": "هذه هي الكعبة",
    "music": "reflective",
    "sfx": [
@@ -52,7 +62,7 @@
    "reason": "text: عاد; ambience of the episode's place"
   },
   {
-   "scene": 6,
+   "scene": 7,
    "title": "لبيك اللهم لبيك",
    "music": "warm",
    "sfx": [
@@ -62,7 +72,7 @@
    "reason": "text: فرح; ambience of the episode's place"
   },
   {
-   "scene": 7,
+   "scene": 8,
    "title": "الطواف وزمزم",
    "music": "reflective",
    "sfx": [
@@ -72,7 +82,7 @@
    "reason": "default; ambience of the episode's place"
   },
   {
-   "scene": 8,
+   "scene": 9,
    "title": "على غير موعد",
    "music": "reflective",
    "sfx": [
@@ -82,7 +92,7 @@
    "reason": "text: فقد; ambience of the episode's place"
   },
   {
-   "scene": 9,
+   "scene": 10,
    "title": "أحلام الطفولة",
    "music": "reflective",
    "sfx": [
@@ -92,7 +102,7 @@
    "reason": "default; ambience of the episode's place"
   },
   {
-   "scene": 10,
+   "scene": 11,
    "title": "أسعد الأيام",
    "music": "reflective",
    "sfx": [
@@ -102,7 +112,7 @@
    "reason": "text: مراجع; ambience of the episode's place"
   },
   {
-   "scene": 11,
+   "scene": 12,
    "title": "جبل النور",
    "music": "reflective",
    "sfx": [
@@ -112,7 +122,7 @@
    "reason": "text: وصل; ambience of the episode's place"
   },
   {
-   "scene": 12,
+   "scene": 13,
    "title": "غار حراء",
    "music": "reflective",
    "sfx": [
@@ -122,7 +132,7 @@
    "reason": "default; ambience of the episode's place"
   },
   {
-   "scene": 13,
+   "scene": 14,
    "title": "رفاق الرحلة",
    "music": "reflective",
    "sfx": [
@@ -132,7 +142,7 @@
    "reason": "title: رحلة"
   },
   {
-   "scene": 14,
+   "scene": 15,
    "title": "أفكار جديدة",
    "music": "reflective",
    "sfx": [
@@ -142,7 +152,7 @@
    "reason": "text: رحلة; ambience of the episode's place"
   },
   {
-   "scene": 15,
+   "scene": 16,
    "title": "قفصة تنتظر",
    "music": "ending",
    "sfx": [

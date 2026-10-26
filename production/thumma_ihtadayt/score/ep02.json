@@ -14,6 +14,17 @@
   },
   {
    "scene": 2,
+   "title": "ذكريات المسجد",
+   "music": "reverent",
+   "sfx": [
+    "roomtone",
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "title: مسجد"
+  },
+  {
+   "scene": 3,
    "title": "دروس الأم",
    "music": "reflective",
    "sfx": [
@@ -23,7 +34,27 @@
    "reason": "text: فقد; ambience of the episode's place"
   },
   {
-   "scene": 3,
+   "scene": 4,
+   "title": "دروس الأم",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "default; ambience of the episode's place"
+  },
+  {
+   "scene": 5,
+   "title": "دروس الأم",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: أهل; ambience of the episode's place"
+  },
+  {
+   "scene": 6,
    "title": "اسم التيجاني",
    "music": "reflective",
    "sfx": [
@@ -33,7 +64,7 @@
    "reason": "text: فقد; ambience of the episode's place"
   },
   {
-   "scene": 4,
+   "scene": 7,
    "title": "مجالس الطرق الصوفية",
    "music": "suspense",
    "sfx": [
@@ -43,7 +74,17 @@
    "reason": "text: شك; ambience of the episode's place"
   },
   {
-   "scene": 5,
+   "scene": 8,
+   "title": "مجالس الطرق الصوفية",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: عاد; ambience of the episode's place"
+  },
+  {
+   "scene": 9,
    "title": "خبر غير متوقع",
    "music": "reflective",
    "sfx": [
@@ -53,7 +94,7 @@
    "reason": "default; ambience of the episode's place"
   },
   {
-   "scene": 6,
+   "scene": 10,
    "title": "فرصة الحج",
    "music": "reverent",
    "sfx": [
@@ -63,7 +104,7 @@
    "reason": "text: زيارة; ambience of the episode's place"
   },
   {
-   "scene": 7,
+   "scene": 11,
    "title": "دعاء الأب",
    "music": "warm",
    "sfx": [
@@ -73,7 +114,7 @@
    "reason": "text: بيت; ambience of the episode's place"
   },
   {
-   "scene": 8,
+   "scene": 12,
    "title": "دموع الوداع",
    "music": "reflective",
    "sfx": [
@@ -83,7 +124,7 @@
    "reason": "title: دموع; ambience continues"
   },
   {
-   "scene": 9,
+   "scene": 13,
    "title": "أسئلة لم يتوقعها",
    "music": "suspense",
    "sfx": [
@@ -93,7 +134,7 @@
    "reason": "title: أسئلة; ambience continues"
   },
   {
-   "scene": 10,
+   "scene": 14,
    "title": "اختير اسمي",
    "music": "warm",
    "sfx": [
@@ -103,7 +144,7 @@
    "reason": "text: سفر; ambience of the episode's place"
   },
   {
-   "scene": 11,
+   "scene": 15,
    "title": "الحلم يقترب",
    "music": "reflective",
    "sfx": [
@@ -113,7 +154,7 @@
    "reason": "default; ambience of the episode's place"
   },
   {
-   "scene": 12,
+   "scene": 16,
    "title": "من زوار بيتك",
    "music": "warm",
    "sfx": [
@@ -123,7 +164,7 @@
    "reason": "title: بيت"
   },
   {
-   "scene": 13,
+   "scene": 17,
    "title": "بداية رحلة جديدة",
    "music": "ending",
    "sfx": [

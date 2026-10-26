@@ -144,12 +144,22 @@
   {
    "scene": 15,
    "title": "إلى النجف",
+   "music": "reverent",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: حوزة; ambience of the episode's place"
+  },
+  {
+   "scene": 16,
+   "title": "إلى النجف",
    "music": "ending",
    "sfx": [
     "roomtone"
    ],
    "level": 0.85,
-   "reason": "text: حوزة; ambience of the episode's place; last scene"
+   "reason": "default; ambience of the episode's place; last scene"
   }
  ]
 }

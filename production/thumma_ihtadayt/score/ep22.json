@@ -23,6 +23,16 @@
   },
   {
    "scene": 3,
+   "title": "جزء من قصة التحول",
+   "music": "reflective",
+   "sfx": [
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "text: قراءة; ambience of the episode's place"
+  },
+  {
+   "scene": 4,
    "title": "صديق قديم",
    "music": "reflective",
    "sfx": [
@@ -32,7 +42,7 @@
    "reason": "title: صديق"
   },
   {
-   "scene": 4,
+   "scene": 5,
    "title": "المحبة تبقى",
    "music": "reflective",
    "sfx": [
@@ -42,7 +52,7 @@
    "reason": "text: وصل; ambience of the episode's place"
   },
   {
-   "scene": 5,
+   "scene": 6,
    "title": "سؤال طالب",
    "music": "suspense",
    "sfx": [
@@ -52,7 +62,7 @@
    "reason": "title: سؤال; ambience continues"
   },
   {
-   "scene": 6,
+   "scene": 7,
    "title": "اقرأ واسأل",
    "music": "suspense",
    "sfx": [
@@ -62,7 +72,7 @@
    "reason": "text: شك; ambience of the episode's place"
   },
   {
-   "scene": 7,
+   "scene": 8,
    "title": "أفكار جديدة",
    "music": "warm",
    "sfx": [
@@ -72,7 +82,7 @@
    "reason": "text: سفر; ambience of the episode's place"
   },
   {
-   "scene": 8,
+   "scene": 9,
    "title": "قرارك بعد بحث",
    "music": "reflective",
    "sfx": [
@@ -82,7 +92,7 @@
    "reason": "text: الناس; ambience of the episode's place"
   },
   {
-   "scene": 9,
+   "scene": 10,
    "title": "الدرس الأول",
    "music": "reflective",
    "sfx": [
@@ -92,7 +102,7 @@
    "reason": "text: بحر; ambience of the episode's place"
   },
   {
-   "scene": 10,
+   "scene": 11,
    "title": "ذكرى منعم",
    "music": "reflective",
    "sfx": [
@@ -102,7 +112,7 @@
    "reason": "text: باخرة; ambience of the episode's place"
   },
   {
-   "scene": 11,
+   "scene": 12,
    "title": "دعنا نبحث",
    "music": "reflective",
    "sfx": [
@@ -112,7 +122,7 @@
    "reason": "text: صديق; ambience of the episode's place"
   },
   {
-   "scene": 12,
+   "scene": 13,
    "title": "مسؤولية القناعة",
    "music": "reflective",
    "sfx": [
@@ -122,7 +132,7 @@
    "reason": "text: الطريق; ambience of the episode's place"
   },
   {
-   "scene": 13,
+   "scene": 14,
    "title": "دعاء",
    "music": "reflective",
    "sfx": [
@@ -132,7 +142,17 @@
    "reason": "default; ambience of the episode's place"
   },
   {
-   "scene": 14,
+   "scene": 15,
+   "title": "دعاء",
+   "music": "reflective",
+   "sfx": [
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "default; ambience of the episode's place"
+  },
+  {
+   "scene": 16,
    "title": "رحلة أخرى",
    "music": "reflective",
    "sfx": [
@@ -142,7 +162,17 @@
    "reason": "title: رحلة"
   },
   {
-   "scene": 15,
+   "scene": 17,
+   "title": "رحلة أخرى",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: رحلة"
+  },
+  {
+   "scene": 18,
    "title": "ثم اهتديت",
    "music": "ending",
    "sfx": [

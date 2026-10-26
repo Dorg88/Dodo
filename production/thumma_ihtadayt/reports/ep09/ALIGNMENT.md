@@ -19,12 +19,12 @@
 | ep09_s11_l02 | AL_TIJANI | Tjyouth11.wav 21.22–25.50 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
 | ep09_s12_l01 | NARRATOR | Nrt.wav 43.55–57.44 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
 | ep09_s12_l02 | NARRATOR | Nrt.wav 59.76–68.26 | 0.99 | verified |  | the direction was read aloud; it is left out of the clip |
-| ep09_s12_l03 | AL_TIJANI | Tjyouth11.wav 27.98–37.47 | 0.99 | verified |  | the direction was read aloud; it is left out of the clip |
-| ep09_s12_l04 | PROFESSOR_MUNIM | Munaim.wav 14.74–20.65 | 0.92 | verified |  |  |
-| ep09_s13_l01 | NARRATOR | Nrt.wav 68.66–73.06 | 0.99 | verified |  |  |
-| ep09_s13_l02 | AL_TIJANI | Tjyouth11.wav 39.61–45.78 | 0.99 | verified |  | the direction was read aloud; it is left out of the clip |
-| ep09_s13_l03 | PROFESSOR_MUNIM | Munaim.wav 23.11–30.75 | 0.96 | verified |  | the direction was read aloud; it is left out of the clip |
-| ep09_s14_l01 | NARRATOR | Nrt.wav 73.53–82.88 | 0.99 | verified |  |  |
-| ep09_s14_l02 | PROFESSOR_MUNIM | Munaim.wav 33.29–37.99 | 0.97 | verified |  | the direction was read aloud; it is left out of the clip |
-| ep09_s14_l03 | AL_TIJANI | Tjyouth11.wav 49.05–53.72 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
-| ep09_s15_l01 | NARRATOR | Nrt.wav 85.88–96.06 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
+| ep09_s13_l01 | AL_TIJANI | Tjyouth11.wav 27.98–37.47 | 0.99 | verified |  | the direction was read aloud; it is left out of the clip |
+| ep09_s13_l02 | PROFESSOR_MUNIM | Munaim.wav 14.74–20.65 | 0.92 | verified |  |  |
+| ep09_s14_l01 | NARRATOR | Nrt.wav 68.66–73.06 | 0.99 | verified |  |  |
+| ep09_s14_l02 | AL_TIJANI | Tjyouth11.wav 39.61–45.78 | 0.99 | verified |  | the direction was read aloud; it is left out of the clip |
+| ep09_s14_l03 | PROFESSOR_MUNIM | Munaim.wav 23.11–30.75 | 0.96 | verified |  | the direction was read aloud; it is left out of the clip |
+| ep09_s15_l01 | NARRATOR | Nrt.wav 73.53–82.88 | 0.99 | verified |  |  |
+| ep09_s15_l02 | PROFESSOR_MUNIM | Munaim.wav 33.29–37.99 | 0.97 | verified |  | the direction was read aloud; it is left out of the clip |
+| ep09_s15_l03 | AL_TIJANI | Tjyouth11.wav 49.05–53.72 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
+| ep09_s16_l01 | NARRATOR | Nrt.wav 85.88–96.06 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |

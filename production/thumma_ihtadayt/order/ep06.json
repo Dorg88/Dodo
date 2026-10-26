@@ -1,7 +1,7 @@
 {
  "episode": 6,
  "status": "approved by the producer (order, pictures and corrected text), 2026-10-26",
- "note": "Recovered transcript (no original script): speaking order and illustration placement proposed from the content and the order of the 15 illustrations; to be confirmed by the producer. Illustrations 1–4 show the journey by sea and train while the narration describes a taxi through Libya; they are placed on the journey passages.",
+ "note": "Recovered transcript (no original script): speaking order and illustration placement proposed from the content and the order of the 15 illustrations; to be confirmed by the producer. Illustrations 1–4 show the journey by sea and train while the narration describes a taxi through Libya; they are placed on the journey passages. Illustrations 2 and 3 (ship and train) replaced by the producer's 02b and 02c (taxi from Tripoli).",
  "scenes": [
   {
    "image": 1,
@@ -12,17 +12,17 @@
    ]
   },
   {
-   "image": 2,
-   "title": "طريق طويل",
+   "image": "02b",
+   "title": "سيارة أجرة من طرابلس إلى القاهرة",
    "lines": [
-    "N2"
+    "N2",
+    "N3"
    ]
   },
   {
-   "image": 3,
+   "image": "03b",
    "title": "رفاق الطريق",
    "lines": [
-    "N3",
     "AE1",
     "AE2"
    ]
@@ -57,7 +57,21 @@
    "image": 7,
    "title": "عالم واسع",
    "lines": [
-    "N5"
+    "N5~1"
+   ]
+  },
+  {
+   "image": "07b",
+   "title": "عند فريد الأطرش",
+   "lines": [
+    "N5~2"
+   ]
+  },
+  {
+   "image": "07c",
+   "title": "في بيت الشيخ عبد الباسط",
+   "lines": [
+    "N5~3"
    ]
   },
   {
@@ -66,10 +80,28 @@
    "lines": [
     "AB1",
     "AB2",
-    "T4",
-    "AB3",
+    "T4"
+   ]
+  },
+  {
+   "image": "08b",
+   "title": "في مجلس الشيخ عبد الباسط",
+   "lines": [
+    "AB3"
+   ]
+  },
+  {
+   "image": "08c",
+   "title": "في مجلس الشيخ عبد الباسط",
+   "lines": [
     "AB4",
-    "AB5",
+    "AB5"
+   ]
+  },
+  {
+   "image": "08d",
+   "title": "في مجلس الشيخ عبد الباسط",
+   "lines": [
     "AB6",
     "AB7"
    ]
@@ -79,7 +111,13 @@
    "title": "علماء الأزهر",
    "lines": [
     "N6",
-    "AZ1",
+    "AZ1"
+   ]
+  },
+  {
+   "image": "09b",
+   "title": "علماء الأزهر",
+   "lines": [
     "T5",
     "AZ2",
     "AZ3"
@@ -89,7 +127,20 @@
    "image": 10,
    "title": "لقاء عام",
    "lines": [
-    "N7",
+    "N7~1"
+   ]
+  },
+  {
+   "image": "10c",
+   "title": "لقاء عام في القاهرة",
+   "lines": [
+    "N7~2"
+   ]
+  },
+  {
+   "image": "10b",
+   "title": "لقاء عام",
+   "lines": [
     "T6",
     "N8"
    ]
@@ -99,7 +150,13 @@
    "title": "هل كنت أعرف حقا؟",
    "lines": [
     "T7",
-    "T8",
+    "T8"
+   ]
+  },
+  {
+   "image": "11b",
+   "title": "هل كنت أعرف حقا؟",
+   "lines": [
     "AZ4",
     "AZ5"
    ]
@@ -119,10 +176,22 @@
     "HK2",
     "HK3",
     "HK4",
-    "T9",
+    "T9"
+   ]
+  },
+  {
+   "image": "13b",
+   "title": "حجرة الآثار",
+   "lines": [
     "HK5",
     "HK6",
-    "HK7",
+    "HK7"
+   ]
+  },
+  {
+   "image": "13c",
+   "title": "حجرة الآثار",
+   "lines": [
     "N10"
    ]
   },
@@ -131,7 +200,13 @@
    "title": "اتجاهان مختلفان",
    "lines": [
     "N11",
-    "T10",
+    "T10"
+   ]
+  },
+  {
+   "image": "14b",
+   "title": "اتجاهان مختلفان",
+   "lines": [
     "T11",
     "T12"
    ]
@@ -141,9 +216,27 @@
    "title": "إلى الإسكندرية",
    "lines": [
     "N12",
-    "N13",
+    "N13"
+   ]
+  },
+  {
+   "image": "15b",
+   "title": "إلى الإسكندرية",
+   "lines": [
     "T13"
    ]
   }
- ]
+ ],
+ "splits": {
+  "N5": [
+   "زار الموسيقار",
+   "ثم جاءت زيارة"
+  ],
+  "N7": [
+   "وفي إحدى المناسبات"
+  ]
+ },
+ "unused_images": {
+  "02c": "producer: the image is damaged"
+ }
 }

@@ -86,4 +86,4 @@
 | ep19_s13_l01 | NARRATOR | Narŕŕ.wav 369.63–378.94 | 0.99 | verified |  |  |
 | ep19_s14_l01 | AL_TIJANI | Tiǰǰjani.wav 237.38–242.88 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
 | ep19_s15_l01 | NARRATOR | Narŕŕ.wav 382.22–396.73 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
-| ep19_s15_l02 | AL_TIJANI_ADULT | Tiǰǰjani.wav 246.73–259.85 | 0.96 | verified |  | the direction was read aloud; it is left out of the clip |
+| ep19_s16_l01 | AL_TIJANI_ADULT | Tiǰǰjani.wav 246.73–259.85 | 0.99 | verified |  | the direction was read aloud; it is left out of the clip |

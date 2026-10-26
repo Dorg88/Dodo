@@ -1,6 +1,6 @@
 @episode 11
 @title الشك والتساؤل
-# Play order proposed: built by hikaya_storyboard.py from the per-character
+# Play order approved by the producer (order, pictures and corrected text), 2026-10-26: built by hikaya_storyboard.py from the per-character
 # TTS script. Text is verbatim; {src=…} is the line's place in the recording order.
 
 === SCENE s01 | أيام في بيت منعم
@@ -67,6 +67,9 @@ AL_TIJANI [بعزم] {src=11.02.04}: لن أكره أحدا بسبب اسمه أ
 NARRATOR {src=11.01.05.01}: ثم جاء منعم بخبر جديد: سنسافر إلى النجف.
 PROFESSOR_MUNIM [بتفاؤل] {src=11.03.03}: باچر إن شاء الله نسافر للنجف. راح تشوف الحوزة والطلاب والعلماء، وتكوّن رأيك بنفسك.
 AL_TIJANI [بدهشة وفضول] {src=11.02.05}: النجف؟ أعرف اسمها، لكن ماذا سأرى فيها؟
+
+=== SCENE s16 | إلى النجف
+@image ep11/images/scene_15b.jpg
 NARRATOR {src=11.01.05.03}: وهناك سيلتقي محمد بعالم ديني لم يكن يتخيل أنه سيقف يوما أمامه.
 AL_TIJANI_ADULT [بنبرة اعتراف متأملة] {src=11.04.01}: لم يكن أصعب شيء علي أن أسمع جوابا جديدا. كان الأصعب أن أسمح لنفسي بسماع الجواب، دون أن أسبقه بالحكم.
 

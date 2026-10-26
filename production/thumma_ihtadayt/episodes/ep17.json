@@ -76,6 +76,48 @@
   },
   "WORSHIPPER_2": {
    "name": "المصلي الثاني"
+  },
+  "MOTHER": {
+   "name": "الأم"
+  },
+  "TRAVEL_COMPANION": {
+   "name": "رفيق الرحلة"
+  },
+  "TOWNSMAN": {
+   "name": "أحد أهل المدينة"
+  },
+  "STUDENT": {
+   "name": "أحد الطلاب"
+  },
+  "SHEIKH_ENVOY": {
+   "name": "موفد الشيخ"
+  },
+  "SHEIKH_ISMAIL": {
+   "name": "الشيخ إسماعيل الهادفي"
+  },
+  "SUFI_FOLLOWER": {
+   "name": "أحد أتباع الطريقة"
+  },
+  "WIFE": {
+   "name": "الزوجة"
+  },
+  "AHMAD_EGYPTIAN": {
+   "name": "أحمد المصري"
+  },
+  "SHEIKH_ABDULBASIT": {
+   "name": "الشيخ عبد الباسط"
+  },
+  "AZHAR_SCHOLAR": {
+   "name": "عالم أزهري"
+  },
+  "HUSAYN_SHRINE_KEEPER": {
+   "name": "مسؤول مقام الإمام الحسين"
+  },
+  "RELATIVE": {
+   "name": "أحد الأقارب"
+  },
+  "TUNISIAN_STUDENT": {
+   "name": "طالب"
   }
  },
  "scenes": [
