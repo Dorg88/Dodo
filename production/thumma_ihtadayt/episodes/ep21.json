@@ -1,0 +1,655 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep21",
+ "number": 21,
+ "title": "الاجتهاد في مقابل النص",
+ "durationMs": 217180,
+ "audio": {
+  "mode": "clips"
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AL_TIJANI": {
+   "name": "التيجاني"
+  },
+  "PROFESSOR_MUNIM": {
+   "name": "الأستاذ منعم"
+  },
+  "AL_TIJANI_ADULT": {
+   "name": "التيجاني الكبير"
+  },
+  "MUNIM_FATHER": {
+   "name": "والد منعم"
+  },
+  "MUNIM_MOTHER": {
+   "name": "والدة منعم"
+  },
+  "SHRINE_RESEARCHER": {
+   "name": "باحث عراقي في المقام"
+  },
+  "HAWZA_STUDENT": {
+   "name": "طالب حوزة"
+  },
+  "NAJAF_VISITOR": {
+   "name": "زائر في النجف"
+  },
+  "ABU_SHUBAR": {
+   "name": "السيد أبو شبر"
+  },
+  "BAQIR_AL_SADR": {
+   "name": "السيد محمد باقر الصدر"
+  },
+  "AL_BASHIR": {
+   "name": "البشير"
+  },
+  "DOCUMENT_READER": {
+   "name": "قارئ الوثائق"
+  },
+  "TEXT_READER": {
+   "name": "قارئ النصوص"
+  },
+  "TUNISIAN_INTERLOCUTOR": {
+   "name": "محاور تونسي"
+  },
+  "TUNISIAN_FRIEND": {
+   "name": "صديق تونسي"
+  },
+  "TUNISIAN_ELDER": {
+   "name": "أحد أهل تونس"
+  },
+  "AL_TIJANI_CHILD": {
+   "name": "التيجاني الصغير"
+  },
+  "FATHER": {
+   "name": "الأب"
+  },
+  "TEACHER": {
+   "name": "المعلم"
+  },
+  "WORSHIPPER_1": {
+   "name": "المصلي الأول"
+  },
+  "WORSHIPPER_2": {
+   "name": "المصلي الثاني"
+  },
+  "MOTHER": {
+   "name": "الأم"
+  },
+  "TRAVEL_COMPANION": {
+   "name": "رفيق الرحلة"
+  },
+  "TOWNSMAN": {
+   "name": "أحد أهل المدينة"
+  },
+  "STUDENT": {
+   "name": "أحد الطلاب"
+  },
+  "SHEIKH_ENVOY": {
+   "name": "موفد الشيخ"
+  },
+  "SHEIKH_ISMAIL": {
+   "name": "الشيخ إسماعيل الهديفي"
+  },
+  "SUFI_FOLLOWER": {
+   "name": "أحد أتباع الطريقة"
+  },
+  "WIFE": {
+   "name": "الزوجة"
+  },
+  "AHMAD_EGYPTIAN": {
+   "name": "أحمد المصري"
+  },
+  "SHEIKH_ABDULBASIT": {
+   "name": "الشيخ عبد الباسط"
+  },
+  "AZHAR_SCHOLAR": {
+   "name": "عالم أزهري"
+  },
+  "HUSAYN_SHRINE_KEEPER": {
+   "name": "مسؤول مقام الإمام الحسين"
+  },
+  "RELATIVE": {
+   "name": "أحد الأقارب"
+  },
+  "TUNISIAN_STUDENT": {
+   "name": "طالب"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "المرحلة التالية",
+   "image": "ep21/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 14390
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "الاجتهاد في مقابل النص",
+   "image": "ep21/images/scene_02.jpg",
+   "startMs": 14390,
+   "endMs": 22980
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "حين يختلف الفريقان",
+   "image": "ep21/images/scene_03.jpg",
+   "startMs": 22980,
+   "endMs": 44240
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "من أين أبدأ التحقيق؟",
+   "image": "ep21/images/scene_04.jpg",
+   "startMs": 44240,
+   "endMs": 55980
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "أحداث صدر الإسلام",
+   "image": "ep21/images/scene_05.jpg",
+   "startMs": 55980,
+   "endMs": 80660
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "الرواية وسياقها",
+   "image": "ep21/images/scene_06.jpg",
+   "startMs": 80660,
+   "endMs": 93000
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "إجابات متباينة",
+   "image": "ep21/images/scene_07.jpg",
+   "startMs": 93000,
+   "endMs": 120650
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "الاجتهاد المشروع",
+   "image": "ep21/images/scene_08.jpg",
+   "startMs": 120650,
+   "endMs": 134350
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "مناقشات صعبة",
+   "image": "ep21/images/scene_09.jpg",
+   "startMs": 134350,
+   "endMs": 148380
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "أفكار أحببتها",
+   "image": "ep21/images/scene_10.jpg",
+   "startMs": 148380,
+   "endMs": 156280
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "باب البحث مفتوح",
+   "image": "ep21/images/scene_11.jpg",
+   "startMs": 156280,
+   "endMs": 177190
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "لا أهرب من سؤال",
+   "image": "ep21/images/scene_12.jpg",
+   "startMs": 177190,
+   "endMs": 182950
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "العلم مسؤولية",
+   "image": "ep21/images/scene_13.jpg",
+   "startMs": 182950,
+   "endMs": 193510
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "مستعد لتصحيح فهمي",
+   "image": "ep21/images/scene_14.jpg",
+   "startMs": 193510,
+   "endMs": 205430
+  },
+  {
+   "number": 15,
+   "id": "s15",
+   "title": "مرحلة أصعب",
+   "image": "ep21/images/scene_15.jpg",
+   "startMs": 205430,
+   "endMs": 217180
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep21_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة علمية رصينة",
+   "text": "في المرحلة التالية من البحث واجه محمد التجاني مسألة أثارت جدلاً واسعاً بين علماء المسلمين عبر القرون إنها مسألة الاجتهاد في مقابل النص",
+   "startMs": 500,
+   "endMs": 13790,
+   "clip": {
+    "file": "audio/Batch 3/Narrŕatttor.wav",
+    "startMs": 134350,
+    "endMs": 147640
+   },
+   "lines": [
+    {
+     "text": "في المرحلة التالية من البحث واجه محمد التجاني مسألة أثارت جدلاً واسعاً بين علماء المسلمين عبر القرون إنها مسألة الاجتهاد في مقابل النص",
+     "startMs": 500,
+     "endMs": 13789
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep21_s02_l01",
+   "scene": 2,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت باحث يقرأ لنفسه",
+   "text": "الاجتهاد في مقابل النص كم من مرة مرت أمامي هذه العبارة دون أن أتوقف عند معناها",
+   "startMs": 14990,
+   "endMs": 22380,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 110440,
+    "endMs": 117830
+   },
+   "lines": [
+    {
+     "text": "الاجتهاد في مقابل النص كم من مرة مرت أمامي هذه العبارة دون أن أتوقف عند معناها",
+     "startMs": 14990,
+     "endMs": 22380
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep21_s03_l01",
+   "scene": 3,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بتأنن",
+   "text": "الاجتهاد في أصله محاولة علمية لفهم الأحكام واصطنباطها من أدلتها لكن الخلافة يبدأ حين يرى فريقاً أن نصاً صحيحاً صريحاً قد حسم مسألة بينما يرى فريق آخر أن النص يحتاج إلى تفسير أو تخصيص أو أن ثبوته أو دلالته موضع بحث",
+   "startMs": 23580,
+   "endMs": 43640,
+   "clip": {
+    "file": "audio/Batch 3/Narrŕatttor.wav",
+    "startMs": 149430,
+    "endMs": 169490
+   },
+   "lines": [
+    {
+     "text": "الاجتهاد في أصله محاولة علمية لفهم الأحكام واصطنباطها من أدلتها لكن الخلافة يبدأ حين يرى فريقاً أن نصاً صحيحاً صريحاً قد حسم مسألة بينما يرى فريق آخر أن النص يحتاج إلى تفسير أو تخصيص أو أن ثبوته أو دلالته موضع بحث",
+     "startMs": 23580,
+     "endMs": 43640
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep21_s04_l01",
+   "scene": 4,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بتساؤلا عميق",
+   "text": "إن ثبت عن رسول الله قول واضح فكيف أتعامل مع رأي يخالف ظاهره؟ وإن اختلف العلماء في معنى ذلك القول فمن أين أبدأ التحقيق؟",
+   "startMs": 44840,
+   "endMs": 55380,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 120850,
+    "endMs": 131390
+   },
+   "lines": [
+    {
+     "text": "إن ثبت عن رسول الله قول واضح فكيف أتعامل مع رأي يخالف ظاهره؟",
+     "startMs": 44840,
+     "endMs": 49890
+    },
+    {
+     "text": "وإن اختلف العلماء في معنى ذلك القول فمن أين أبدأ التحقيق؟",
+     "startMs": 49890,
+     "endMs": 55379
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep21_s05_l01",
+   "scene": 5,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة تحليلية",
+   "text": "قرأ محمد أمثلة من أحداث التاريخ الإسلامي وتوقف عند مواقف نسبت إلى شخصيات من صدر الإسلام وسأل عن علاقتها بما ورد من أقوال النبي صلى الله عليه وآله وسلم وكان من الأسئلة التي شغلته متى يكون الرأي اجتهادا مشروعا ومتى يصبح تقديماً لاجتهاد البشر على توجيه ديني ثابت",
+   "startMs": 56580,
+   "endMs": 80060,
+   "clip": {
+    "file": "audio/Batch 3/Narrŕatttor.wav",
+    "startMs": 171710,
+    "endMs": 195190
+   },
+   "lines": [
+    {
+     "text": "قرأ محمد أمثلة من أحداث التاريخ الإسلامي وتوقف عند مواقف نسبت إلى شخصيات من صدر الإسلام وسأل عن علاقتها بما ورد من أقوال النبي صلى الله عليه وآله وسلم وكان من الأسئلة التي شغلته متى يكون الرأي اجتهادا مشروعا ومتى يصبح تقديماً لاجتهاد البشر على توجيه ديني ثابت",
+     "startMs": 56580,
+     "endMs": 80059
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep21_s06_l01",
+   "scene": 6,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بتردد",
+   "text": "لقد كنت أنظر إلى بعض أحداث التاريخ من زاوية واحدة أما الآن فأريد أن أعرف الرواية وسياقها وما قيل في تفسيرها قبل أن أصدر حكمي",
+   "startMs": 81260,
+   "endMs": 92400,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 134370,
+    "endMs": 145510
+   },
+   "lines": [
+    {
+     "text": "لقد كنت أنظر إلى بعض أحداث التاريخ من زاوية واحدة أما الآن فأريد أن أعرف الرواية وسياقها وما قيل في تفسيرها قبل أن أصدر حكمي",
+     "startMs": 81260,
+     "endMs": 92399
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep21_s07_l01",
+   "scene": 7,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت هادئ",
+   "text": "وجد إجابات متباينة لدى المدارس المختلفة بعض العلماء يؤكدون أن الوقائع تحتاج إلى معرفة أسبابها وظروفها وآخرون يشددون على أن النص الصحيح الواضح ينبغي أن يكون المرجع الحاسم ومن خلال قراءته مال محمد إلى منهج يعطي أهمية مركزية لما اعتبره نصوصاً نبوية دالة على مرجعية أهل البيت",
+   "startMs": 93600,
+   "endMs": 120050,
+   "clip": {
+    "file": "audio/Batch 3/Narrŕatttor.wav",
+    "startMs": 196950,
+    "endMs": 223400
+   },
+   "lines": [
+    {
+     "text": "وجد إجابات متباينة لدى المدارس المختلفة بعض العلماء يؤكدون أن الوقائع تحتاج إلى معرفة أسبابها وظروفها وآخرون يشددون على أن النص الصحيح الواضح ينبغي أن يكون المرجع الحاسم ومن خلال قراءته مال محمد إلى منهج يعطي أهمية مركزية لما اعتبره نصوصاً نبوية دالة على مرجعية أهل البيت",
+     "startMs": 93600,
+     "endMs": 120050
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep21_s08_l01",
+   "scene": 8,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت جاد",
+   "text": "لا يصح أن أخلط بين الاجتهاد المشروع وبين مخالفة النص الثابت الصريح لكن لا يصح أيضا أن أتهم شخصا بمخالفة النص قبل أن أثبت صحة النص وأفهم دلالته",
+   "startMs": 121250,
+   "endMs": 133750,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 148270,
+    "endMs": 160770
+   },
+   "lines": [
+    {
+     "text": "لا يصح أن أخلط بين الاجتهاد المشروع وبين مخالفة النص الثابت الصريح لكن لا يصح أيضا أن أتهم شخصا بمخالفة النص قبل أن أثبت صحة النص وأفهم دلالته",
+     "startMs": 121250,
+     "endMs": 133750
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep21_s09_l01",
+   "scene": 9,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة إنسانية",
+   "text": "لم تكن تلك المناقشات سهلة عليه فخلف أسماء الكتب والروايات كانت هناك شخصيات اعتاد احترامها وذكريات طفولة وأعوام من الدروس والخطب والمجالس",
+   "startMs": 134950,
+   "endMs": 147780,
+   "clip": {
+    "file": "audio/Batch 3/Narrŕatttor.wav",
+    "startMs": 226030,
+    "endMs": 238860
+   },
+   "lines": [
+    {
+     "text": "لم تكن تلك المناقشات سهلة عليه فخلف أسماء الكتب والروايات كانت هناك شخصيات اعتاد احترامها وذكريات طفولة وأعوام من الدروس والخطب والمجالس",
+     "startMs": 134950,
+     "endMs": 147780
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep21_s10_l01",
+   "scene": 10,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بتأثر",
+   "text": "كم هو صعب أن أراجع أفكار أحببتها وأن أنظر إلى تاريخ تعلمت احترام شخصياته منذ صغر",
+   "startMs": 148980,
+   "endMs": 155680,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 163020,
+    "endMs": 169720
+   },
+   "lines": [
+    {
+     "text": "كم هو صعب أن أراجع أفكار أحببتها وأن أنظر إلى تاريخ تعلمت احترام شخصياته منذ صغر",
+     "startMs": 148980,
+     "endMs": 155680
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep21_s11_l01",
+   "scene": 11,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بتأثر",
+   "text": "لكن محمد اختار كما يروي عن نفسه ألا يجعل محبته السابقة سبباً لإغلاق باب البحث ولم يكن ذلك يعني أن كل قارئ سيتوصل إلى النتيجة نفسها بل كانت تلك حصيلة بحثه الشخصي بما حمله من أدلة وتأويلات وترجيحات",
+   "startMs": 156880,
+   "endMs": 176590,
+   "clip": {
+    "file": "audio/Batch 3/Narrŕatttor.wav",
+    "startMs": 240800,
+    "endMs": 260510
+   },
+   "lines": [
+    {
+     "text": "لكن محمد اختار كما يروي عن نفسه ألا يجعل محبته السابقة سبباً لإغلاق باب البحث ولم يكن ذلك يعني أن كل قارئ سيتوصل إلى النتيجة نفسها بل كانت تلك حصيلة بحثه الشخصي بما حمله من أدلة وتأويلات وترجيحات",
+     "startMs": 156880,
+     "endMs": 176590
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep21_s12_l01",
+   "scene": 12,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بعزم",
+   "text": "ومع ذلك لا أريد أن أهرب من سؤال لأن جوابه قد يغير حياتي",
+   "startMs": 177790,
+   "endMs": 182650,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 171910,
+    "endMs": 176770
+   },
+   "lines": [
+    {
+     "text": "ومع ذلك لا أريد أن أهرب من سؤال لأن جوابه قد يغير حياتي",
+     "startMs": 177790,
+     "endMs": 182650
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep21_s13_l01",
+   "scene": 13,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت المتأمل",
+   "text": "كلما قرأت أدركت أن العلم مسؤولية ومن مسؤولية الباحث أن يذكر ما يقوي رأيه وأن يعرف أيضاً الاعتراضات التي ترد عليه",
+   "startMs": 183250,
+   "endMs": 193210,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 179640,
+    "endMs": 189600
+   },
+   "lines": [
+    {
+     "text": "كلما قرأت أدركت أن العلم مسؤولية ومن مسؤولية الباحث أن يذكر ما يقوي رأيه وأن يعرف أيضاً الاعتراضات التي ترد عليه",
+     "startMs": 183250,
+     "endMs": 193210
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep21_s14_l01",
+   "scene": 14,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بهدوء",
+   "text": "لقد انتهيت إلى اختيار أؤمن به لكنني لا أظن أن دور انتهى علي أن أواصل التعلم وأن أكون مستعداً لتصحيح فهمي متى ظهر لي دليل أقوى",
+   "startMs": 193810,
+   "endMs": 204830,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 192030,
+    "endMs": 203050
+   },
+   "lines": [
+    {
+     "text": "لقد انتهيت إلى اختيار أؤمن به لكنني لا أظن أن دور انتهى علي أن أواصل التعلم وأن أكون مستعداً لتصحيح فهمي متى ظهر لي دليل أقوى",
+     "startMs": 193810,
+     "endMs": 204830
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep21_s15_l01",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت مشوق",
+   "text": "ومع انتهاء مرحلة البحث بدأت مرحلة أصعب كيف يعيش الإنسان قناعته الجديدة بين أهله وأصدقائه ومجتمعه؟",
+   "startMs": 206030,
+   "endMs": 215680,
+   "clip": {
+    "file": "audio/Batch 3/Narrŕatttor.wav",
+    "startMs": 262790,
+    "endMs": 272440
+   },
+   "lines": [
+    {
+     "text": "ومع انتهاء مرحلة البحث بدأت مرحلة أصعب كيف يعيش الإنسان قناعته الجديدة بين أهله وأصدقائه ومجتمعه؟",
+     "startMs": 206030,
+     "endMs": 215679
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  }
+ ],
+ "textStatus": "recovered-transcript"
+}

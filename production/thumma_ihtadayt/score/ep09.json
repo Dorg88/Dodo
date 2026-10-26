@@ -1,0 +1,142 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "من دمشق",
+   "music": "warm",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "text: بغداد"
+  },
+  {
+   "scene": 2,
+   "title": "طريق الصحراء",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 3,
+   "title": "حر شديد",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 4,
+   "title": "استراحة في الطريق",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 5,
+   "title": "هذه بغداد",
+   "music": "warm",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: بغداد"
+  },
+  {
+   "scene": 6,
+   "title": "إلى حي جميلة",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 7,
+   "title": "على باب البيت",
+   "music": "warm",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "text: بغداد"
+  },
+  {
+   "scene": 8,
+   "title": "عناق الأب",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 9,
+   "title": "ترحيب الأم",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 10,
+   "title": "كرم الضيافة",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: شك"
+  },
+  {
+   "scene": 11,
+   "title": "الدشداشة",
+   "music": "warm",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "text: سفر"
+  },
+  {
+   "scene": 12,
+   "title": "حديث الليل",
+   "music": "nostalgic",
+   "sfx": [
+    "night"
+   ],
+   "level": 0.85,
+   "reason": "title: ليل"
+  },
+  {
+   "scene": 13,
+   "title": "الكرامات",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: روايات"
+  },
+  {
+   "scene": 14,
+   "title": "غدا إلى المقام",
+   "music": "reverent",
+   "sfx": [
+    "roomtone",
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "title: مقام"
+  },
+  {
+   "scene": 15,
+   "title": "ليلة الانتظار",
+   "music": "ending",
+   "sfx": [
+    "night"
+   ],
+   "level": 0.85,
+   "reason": "title: ليل; last scene"
+  }
+ ]
+}

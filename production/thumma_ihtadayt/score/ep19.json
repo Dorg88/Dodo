@@ -1,0 +1,127 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "ثلاثة أشهر",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: اضطراب"
+  },
+  {
+   "scene": 2,
+   "title": "لا طمأنينة سريعة",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: سؤال"
+  },
+  {
+   "scene": 3,
+   "title": "أراجع وأقارن",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: سؤال"
+  },
+  {
+   "scene": 4,
+   "title": "أخشى أن أكون ظلمت أحدا",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 5,
+   "title": "حيرة حتى في النوم",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: حيرة"
+  },
+  {
+   "scene": 6,
+   "title": "خوف من تجاوز الحدود",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 7,
+   "title": "خوف من إغلاق الباب",
+   "music": "warm",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: الحقيقة"
+  },
+  {
+   "scene": 8,
+   "title": "شيء يتغير",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 9,
+   "title": "قراءة نقدية",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: قراءة"
+  },
+  {
+   "scene": 10,
+   "title": "عودة إلى الدعاء",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: قلق"
+  },
+  {
+   "scene": 11,
+   "title": "أبدأ أفهم",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 12,
+   "title": "لحظة الموقف",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 13,
+   "title": "القناعة",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 14,
+   "title": "مسؤولية الاختيار",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 15,
+   "title": "بداية هداية وراحة",
+   "music": "ending",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: شك; last scene"
+  }
+ ]
+}

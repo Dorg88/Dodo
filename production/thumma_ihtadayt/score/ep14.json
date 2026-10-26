@@ -1,0 +1,138 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "في الطريق",
+   "music": "reverent",
+   "sfx": [
+    "roomtone",
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "text: حوزة"
+  },
+  {
+   "scene": 2,
+   "title": "على باب السيد الصدر",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: سؤال"
+  },
+  {
+   "scene": 3,
+   "title": "مجلس العلم",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 4,
+   "title": "الضيف القادم من تونس",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: نقاش"
+  },
+  {
+   "scene": 5,
+   "title": "السؤال الصريح",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: سؤال"
+  },
+  {
+   "scene": 6,
+   "title": "النصوص وأسانيدها",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: دراسة"
+  },
+  {
+   "scene": 7,
+   "title": "الخلفاء والصحابة",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: مصادر"
+  },
+  {
+   "scene": 8,
+   "title": "الطرق الصوفية والتوسل",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 9,
+   "title": "مسائل كثيرة",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: مصادر"
+  },
+  {
+   "scene": 10,
+   "title": "أجوبة المدرسة الإمامية",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 11,
+   "title": "تراث من البحث",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: مصادر"
+  },
+  {
+   "scene": 12,
+   "title": "امتنان",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: شك"
+  },
+  {
+   "scene": 13,
+   "title": "الخروج من المجلس",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: حيرة"
+  },
+  {
+   "scene": 14,
+   "title": "الإنصاف",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: مصادر"
+  },
+  {
+   "scene": 15,
+   "title": "مسؤولية جديدة",
+   "music": "ending",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: سؤال; last scene"
+  }
+ ]
+}

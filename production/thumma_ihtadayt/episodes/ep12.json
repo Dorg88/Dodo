@@ -1,0 +1,941 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep12",
+ "number": 12,
+ "title": "الطريق إلى النجف",
+ "durationMs": 165120,
+ "audio": {
+  "mode": "clips",
+  "music": "ep12/audio/score_music.m4a",
+  "sfx": "ep12/audio/score_sfx.m4a",
+  "musicLoop": false
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AL_TIJANI": {
+   "name": "التيجاني"
+  },
+  "PROFESSOR_MUNIM": {
+   "name": "الأستاذ منعم"
+  },
+  "AL_TIJANI_ADULT": {
+   "name": "التيجاني الكبير"
+  },
+  "MUNIM_FATHER": {
+   "name": "والد منعم"
+  },
+  "MUNIM_MOTHER": {
+   "name": "والدة منعم"
+  },
+  "SHRINE_RESEARCHER": {
+   "name": "باحث عراقي في المقام"
+  },
+  "HAWZA_STUDENT": {
+   "name": "طالب حوزة"
+  },
+  "NAJAF_VISITOR": {
+   "name": "زائر في النجف"
+  },
+  "ABU_SHUBAR": {
+   "name": "السيد أبو شبر"
+  },
+  "BAQIR_AL_SADR": {
+   "name": "السيد محمد باقر الصدر"
+  },
+  "AL_BASHIR": {
+   "name": "البشير"
+  },
+  "DOCUMENT_READER": {
+   "name": "قارئ الوثائق"
+  },
+  "TEXT_READER": {
+   "name": "قارئ النصوص"
+  },
+  "TUNISIAN_INTERLOCUTOR": {
+   "name": "محاور تونسي"
+  },
+  "TUNISIAN_FRIEND": {
+   "name": "صديق تونسي"
+  },
+  "TUNISIAN_ELDER": {
+   "name": "أحد أهل تونس"
+  },
+  "AL_TIJANI_CHILD": {
+   "name": "التيجاني الصغير"
+  },
+  "FATHER": {
+   "name": "الأب"
+  },
+  "TEACHER": {
+   "name": "المعلم"
+  },
+  "WORSHIPPER_1": {
+   "name": "المصلي الأول"
+  },
+  "WORSHIPPER_2": {
+   "name": "المصلي الثاني"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "إلى النجف الأشرف",
+   "image": "ep12/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 4600
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "مرقد الإمام علي",
+   "image": "ep12/images/scene_02.jpg",
+   "startMs": 4600,
+   "endMs": 13840
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "مدينة علمية",
+   "image": "ep12/images/scene_03.jpg",
+   "startMs": 13840,
+   "endMs": 28285
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "الكوفة",
+   "image": "ep12/images/scene_04.jpg",
+   "startMs": 28285,
+   "endMs": 36225
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "مسجد الكوفة",
+   "image": "ep12/images/scene_05.jpg",
+   "startMs": 36225,
+   "endMs": 42165
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "مقامات الكوفة",
+   "image": "ep12/images/scene_06.jpg",
+   "startMs": 42165,
+   "endMs": 46295
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "بين ما رأى وما قرأ",
+   "image": "ep12/images/scene_07.jpg",
+   "startMs": 46295,
+   "endMs": 52125
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "ثم إلى النجف",
+   "image": "ep12/images/scene_08.jpg",
+   "startMs": 52125,
+   "endMs": 54045
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "على الطريق",
+   "image": "ep12/images/scene_09.jpg",
+   "startMs": 54045,
+   "endMs": 61255
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "النجف",
+   "image": "ep12/images/scene_10.jpg",
+   "startMs": 61255,
+   "endMs": 64855
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "طلاب ومجالس",
+   "image": "ep12/images/scene_11.jpg",
+   "startMs": 64855,
+   "endMs": 86090
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "حرم الإمام علي",
+   "image": "ep12/images/scene_12.jpg",
+   "startMs": 86090,
+   "endMs": 103950
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "بكاء وجنازة",
+   "image": "ep12/images/scene_13.jpg",
+   "startMs": 103950,
+   "endMs": 119840
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "اسأل أهل العلم",
+   "image": "ep12/images/scene_14.jpg",
+   "startMs": 119840,
+   "endMs": 143880
+  },
+  {
+   "number": 15,
+   "id": "s15",
+   "title": "عالم جديد",
+   "image": "ep12/images/scene_15.jpg",
+   "startMs": 143880,
+   "endMs": 165120
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep12_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة سفر وترقب",
+   "text": "أخبر منعم صديقه أنهما سيتوجهان إلى النجف الأشرف.",
+   "startMs": 500,
+   "endMs": 4600,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 184210,
+    "endMs": 188310
+   },
+   "lines": [
+    {
+     "text": "أخبر منعم صديقه أنهما سيتوجهان إلى النجف الأشرف.",
+     "startMs": 500,
+     "endMs": 4599
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s02_l01",
+   "scene": 2,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "تعجب محمد حين علم أن فيها مرقد الإمام علي بن أبي طالب؛ فقد نشأ على أقوال مختلفة بشأن موضع قبره.",
+   "startMs": 4600,
+   "endMs": 13240,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 188650,
+    "endMs": 197290
+   },
+   "lines": [
+    {
+     "text": "تعجب محمد حين علم أن فيها مرقد الإمام علي بن أبي طالب؛ فقد نشأ على أقوال مختلفة بشأن موضع قبره.",
+     "startMs": 4600,
+     "endMs": 13239
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s03_l01",
+   "scene": 3,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بفضول ودهشة",
+   "text": "أتقول إن قبر الإمام علي هنا معروف ويقصده الناس؟ هذا يختلف عما كنت أسمعه في تونس.",
+   "startMs": 14440,
+   "endMs": 20715,
+   "clip": {
+    "file": "audio/Batch 1/Tijaniiii.wav",
+    "startMs": 98110,
+    "endMs": 104385
+   },
+   "lines": [
+    {
+     "text": "أتقول إن قبر الإمام علي هنا معروف ويقصده الناس؟",
+     "startMs": 14440,
+     "endMs": 17569
+    },
+    {
+     "text": "هذا يختلف عما كنت أسمعه في تونس.",
+     "startMs": 17569,
+     "endMs": 20714
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.987,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s03_l02",
+   "scene": 3,
+   "speakerId": "PROFESSOR_MUNIM",
+   "speakerName": "الأستاذ منعم",
+   "direction": "بنبرة شرح صبورة",
+   "text": "النجف مدينة علمية قديمة يا أخ محمد، وفيها مرقد الإمام علي، وحولها مدارس ومجالس بحث.",
+   "startMs": 21315,
+   "endMs": 27685,
+   "clip": {
+    "file": "audio/Batch 1/Munaim22.wav",
+    "startMs": 44640,
+    "endMs": 51010
+   },
+   "lines": [
+    {
+     "text": "النجف مدينة علمية قديمة يا أخ محمد، وفيها مرقد الإمام علي، وحولها مدارس ومجالس بحث.",
+     "startMs": 21315,
+     "endMs": 27684
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s04_l01",
+   "scene": 4,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت وصفي دافئ",
+   "text": "وصلا أولا إلى الكوفة، وزارا مسجدها وأماكن مرتبطة بذاكرة التاريخ الإسلامي،",
+   "startMs": 28885,
+   "endMs": 35625,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 200340,
+    "endMs": 207080
+   },
+   "lines": [
+    {
+     "text": "وصلا أولا إلى الكوفة، وزارا مسجدها وأماكن مرتبطة بذاكرة التاريخ الإسلامي،",
+     "startMs": 28885,
+     "endMs": 35625
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s05_l01",
+   "scene": 5,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بخشوع",
+   "text": "مسجد الكوفة... كم من أحداث التاريخ مرّت في هذا المكان!",
+   "startMs": 36825,
+   "endMs": 41565,
+   "clip": {
+    "file": "audio/Batch 1/Tijaniiii.wav",
+    "startMs": 105790,
+    "endMs": 110530
+   },
+   "lines": [
+    {
+     "text": "مسجد الكوفة...",
+     "startMs": 36825,
+     "endMs": 37915
+    },
+    {
+     "text": "كم من أحداث التاريخ مرّت في هذا المكان!",
+     "startMs": 37915,
+     "endMs": 41565
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s06_l01",
+   "scene": 6,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "ومنها مقامات مسلم بن عقيل وهانئ بن عروة.",
+   "startMs": 42765,
+   "endMs": 46295,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 207310,
+    "endMs": 210840
+   },
+   "lines": [
+    {
+     "text": "ومنها مقامات مسلم بن عقيل وهانئ بن عروة.",
+     "startMs": 42765,
+     "endMs": 46295
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s07_l01",
+   "scene": 7,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "كان محمد ينظر إلى كل مشهد ويحاول ربط ما يراه بما قرأه سابقا.",
+   "startMs": 46295,
+   "endMs": 51825,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 211610,
+    "endMs": 217140
+   },
+   "lines": [
+    {
+     "text": "كان محمد ينظر إلى كل مشهد ويحاول ربط ما يراه بما قرأه سابقا.",
+     "startMs": 46295,
+     "endMs": 51825
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s08_l01",
+   "scene": 8,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "ثم اتجها إلى النجف.",
+   "startMs": 52425,
+   "endMs": 54045,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 217730,
+    "endMs": 219350
+   },
+   "lines": [
+    {
+     "text": "ثم اتجها إلى النجف.",
+     "startMs": 52425,
+     "endMs": 54045
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.971,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s09_l01",
+   "scene": 9,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "ظهرت مدينة تضم مدارس دينية ومكتبات وأروقة وطلابا يرتدون العمائم،",
+   "startMs": 54045,
+   "endMs": 61255,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 219390,
+    "endMs": 226600
+   },
+   "lines": [
+    {
+     "text": "ظهرت مدينة تضم مدارس دينية ومكتبات وأروقة وطلابا يرتدون العمائم،",
+     "startMs": 54045,
+     "endMs": 61255
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s10_l01",
+   "scene": 10,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "ومكانا تفيض فيه الزيارات والعبادة.",
+   "startMs": 61255,
+   "endMs": 64255,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 226600,
+    "endMs": 229600
+   },
+   "lines": [
+    {
+     "text": "ومكانا تفيض فيه الزيارات والعبادة.",
+     "startMs": 61255,
+     "endMs": 64255
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s11_l01",
+   "scene": 11,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت متأمل",
+   "text": "أرى هنا طلابا ومجالس علمية، وأسمع أسئلة كثيرة. أريد أن أعرف كيف يدرسون، وعلى أي مصادر يعتمدون.",
+   "startMs": 65455,
+   "endMs": 75035,
+   "clip": {
+    "file": "audio/Batch 1/Tijaniiii.wav",
+    "startMs": 113350,
+    "endMs": 122930
+   },
+   "lines": [
+    {
+     "text": "أرى هنا طلابا ومجالس علمية، وأسمع أسئلة كثيرة.",
+     "startMs": 65455,
+     "endMs": 70145
+    },
+    {
+     "text": "أريد أن أعرف كيف يدرسون، وعلى أي مصادر يعتمدون.",
+     "startMs": 70145,
+     "endMs": 75035
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s11_l02",
+   "scene": 11,
+   "speakerId": "HAWZA_STUDENT",
+   "speakerName": "طالب حوزة",
+   "direction": "بأدب علمي",
+   "text": "حياكم الله. الدراسة هنا تشمل الفقه والأصول واللغة والتفسير، ويقضي بعض الطلاب سنوات طويلة في البحث والمناقشة.",
+   "startMs": 75635,
+   "endMs": 85490,
+   "clip": {
+    "file": "audio/Batch 1/Hawza.wav",
+    "startMs": 115,
+    "endMs": 9970
+   },
+   "lines": [
+    {
+     "text": "حياكم الله.",
+     "startMs": 75635,
+     "endMs": 76500
+    },
+    {
+     "text": "الدراسة هنا تشمل الفقه والأصول واللغة والتفسير، ويقضي بعض الطلاب سنوات طويلة في البحث والمناقشة.",
+     "startMs": 76500,
+     "endMs": 85490
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s12_l01",
+   "scene": 12,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بتأثر",
+   "text": "في حرم الإمام علي، نظر إلى الزائرين وطقوسهم بدهشة.",
+   "startMs": 86690,
+   "endMs": 92190,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 232030,
+    "endMs": 237530
+   },
+   "lines": [
+    {
+     "text": "في حرم الإمام علي، نظر إلى الزائرين وطقوسهم بدهشة.",
+     "startMs": 86690,
+     "endMs": 92190
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.958,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s12_l02",
+   "scene": 12,
+   "speakerId": "NAJAF_VISITOR",
+   "speakerName": "زائر في النجف",
+   "direction": "بحزن محترم",
+   "text": "جئنا نزور أمير المؤمنين ونتذكر سيرته ومواقفه. لكل زائر همومه ودعاؤه، والله يعلم ما في القلوب.",
+   "startMs": 92790,
+   "endMs": 103350,
+   "clip": {
+    "file": "audio/Batch 1/Visitor.wav",
+    "startMs": 160,
+    "endMs": 10720
+   },
+   "lines": [
+    {
+     "text": "جئنا نزور أمير المؤمنين ونتذكر سيرته ومواقفه.",
+     "startMs": 92790,
+     "endMs": 97570
+    },
+    {
+     "text": "لكل زائر همومه ودعاؤه، والله يعلم ما في القلوب.",
+     "startMs": 97570,
+     "endMs": 103350
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.983,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s13_l01",
+   "scene": 13,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "رأى أموالا وتبرعات، وسمع بكاء حاضرين، ومرت بقربه جنازة.",
+   "startMs": 104550,
+   "endMs": 111240,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 238150,
+    "endMs": 244840
+   },
+   "lines": [
+    {
+     "text": "رأى أموالا وتبرعات، وسمع بكاء حاضرين، ومرت بقربه جنازة.",
+     "startMs": 104550,
+     "endMs": 111239
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s13_l02",
+   "scene": 13,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بحيرة مهذبة",
+   "text": "وهؤلاء الذين يبكون... ما قصتهم؟ وهذه الأموال التي يقدمها الزائرون، كيف تنفق؟",
+   "startMs": 111840,
+   "endMs": 119240,
+   "clip": {
+    "file": "audio/Batch 1/Tijaniiii.wav",
+    "startMs": 125710,
+    "endMs": 133110
+   },
+   "lines": [
+    {
+     "text": "وهؤلاء الذين يبكون...",
+     "startMs": 111840,
+     "endMs": 113170
+    },
+    {
+     "text": "ما قصتهم؟",
+     "startMs": 113170,
+     "endMs": 114810
+    },
+    {
+     "text": "وهذه الأموال التي يقدمها الزائرون، كيف تنفق؟",
+     "startMs": 114810,
+     "endMs": 119240
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s14_l01",
+   "scene": 14,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "لم يفهم كل شيء من النظرة الأولى، وأخذ يسأل منعم عن تفاصيل الحياة في المدينة.",
+   "startMs": 120440,
+   "endMs": 126640,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 245500,
+    "endMs": 251700
+   },
+   "lines": [
+    {
+     "text": "لم يفهم كل شيء من النظرة الأولى، وأخذ يسأل منعم عن تفاصيل الحياة في المدينة.",
+     "startMs": 120440,
+     "endMs": 126639
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.993,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s14_l02",
+   "scene": 14,
+   "speakerId": "PROFESSOR_MUNIM",
+   "speakerName": "الأستاذ منعم",
+   "direction": "بود",
+   "text": "أي شيء تشوفه وتستغرب منه اسألني عنه. والأحسن أحيانا نسأل أهله المسؤولين مباشرة.",
+   "startMs": 127240,
+   "endMs": 133060,
+   "clip": {
+    "file": "audio/Batch 1/Munaim22.wav",
+    "startMs": 52450,
+    "endMs": 58270
+   },
+   "lines": [
+    {
+     "text": "أي شيء تشوفه وتستغرب منه اسألني عنه.",
+     "startMs": 127240,
+     "endMs": 129749
+    },
+    {
+     "text": "والأحسن أحيانا نسأل أهله المسؤولين مباشرة.",
+     "startMs": 129749,
+     "endMs": 133060
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.98,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s14_l03",
+   "scene": 14,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بتصميم",
+   "text": "لن أكتفي بالمشاهدة. أريد أن ألتقي أهل العلم وأسألهم مباشرة.",
+   "startMs": 133660,
+   "endMs": 139230,
+   "clip": {
+    "file": "audio/Batch 1/Tijaniiii.wav",
+    "startMs": 134870,
+    "endMs": 140440
+   },
+   "lines": [
+    {
+     "text": "لن أكتفي بالمشاهدة.",
+     "startMs": 133660,
+     "endMs": 135109
+    },
+    {
+     "text": "أريد أن ألتقي أهل العلم وأسألهم مباشرة.",
+     "startMs": 135109,
+     "endMs": 139229
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s14_l04",
+   "scene": 14,
+   "speakerId": "PROFESSOR_MUNIM",
+   "speakerName": "الأستاذ منعم",
+   "direction": "بتشجيع",
+   "text": "راح نلتقي علماء وطلبة، وتسمع منهم بنفسك.",
+   "startMs": 139830,
+   "endMs": 143280,
+   "clip": {
+    "file": "audio/Batch 1/Munaim22.wav",
+    "startMs": 60050,
+    "endMs": 63500
+   },
+   "lines": [
+    {
+     "text": "راح نلتقي علماء وطلبة، وتسمع منهم بنفسك.",
+     "startMs": 139830,
+     "endMs": 143279
+    }
+   ],
+   "timing": "estimated",
+   "alignment": {
+    "confidence": 0.933,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s15_l01",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة مشوقة",
+   "text": "كان كل جواب يكشف له عالما جديدا، لكنه في الوقت نفسه يوسع قائمة ما يريد التحقق منه. وفي النجف، لم يعد السؤال عن الصور التي يسمعها عن الشيعة فحسب؛ بل صار عن الفكر الذي يدرسه علماؤهم وعن الأدلة التي يحتجون بها.",
+   "startMs": 144480,
+   "endMs": 163620,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 254740,
+    "endMs": 273880
+   },
+   "lines": [
+    {
+     "text": "كان كل جواب يكشف له عالما جديدا، لكنه في الوقت نفسه يوسع قائمة ما يريد التحقق منه.",
+     "startMs": 144480,
+     "endMs": 152280
+    },
+    {
+     "text": "وفي النجف، لم يعد السؤال عن الصور التي يسمعها عن الشيعة فحسب؛ بل صار عن الفكر الذي يدرسه علماؤهم وعن الأدلة التي يحتجون بها.",
+     "startMs": 152280,
+     "endMs": 163619
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  }
+ ],
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "reflective",
+   "startMs": 0,
+   "endMs": 5399
+  },
+  {
+   "scene": 2,
+   "cue": "reverent",
+   "startMs": 3800,
+   "endMs": 14640
+  },
+  {
+   "scene": 3,
+   "cue": "warm",
+   "startMs": 13040,
+   "endMs": 29085
+  },
+  {
+   "scene": 4,
+   "cue": "reverent",
+   "startMs": 27485,
+   "endMs": 37025
+  },
+  {
+   "scene": 5,
+   "cue": "reverent",
+   "startMs": 35425,
+   "endMs": 42964
+  },
+  {
+   "scene": 6,
+   "cue": "reverent",
+   "startMs": 41365,
+   "endMs": 47095
+  },
+  {
+   "scene": 7,
+   "cue": "reflective",
+   "startMs": 45495,
+   "endMs": 52925
+  },
+  {
+   "scene": 8,
+   "cue": "reflective",
+   "startMs": 51325,
+   "endMs": 54845
+  },
+  {
+   "scene": 9,
+   "cue": "reflective",
+   "startMs": 53245,
+   "endMs": 62055
+  },
+  {
+   "scene": 10,
+   "cue": "reflective",
+   "startMs": 60455,
+   "endMs": 65655
+  },
+  {
+   "scene": 11,
+   "cue": "suspense",
+   "startMs": 64055,
+   "endMs": 86890
+  },
+  {
+   "scene": 12,
+   "cue": "reflective",
+   "startMs": 85290,
+   "endMs": 104750
+  },
+  {
+   "scene": 13,
+   "cue": "reflective",
+   "startMs": 103150,
+   "endMs": 120640
+  },
+  {
+   "scene": 14,
+   "cue": "warm",
+   "startMs": 119040,
+   "endMs": 144680
+  },
+  {
+   "scene": 15,
+   "cue": "ending",
+   "startMs": 143079,
+   "endMs": 165920
+  }
+ ]
+}

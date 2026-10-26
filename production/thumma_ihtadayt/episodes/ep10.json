@@ -1,0 +1,963 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep10",
+ "number": 10,
+ "title": "بين الجيلاني والكاظم",
+ "durationMs": 165770,
+ "audio": {
+  "mode": "clips",
+  "music": "ep10/audio/score_music.m4a",
+  "sfx": "ep10/audio/score_sfx.m4a",
+  "musicLoop": false
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AL_TIJANI": {
+   "name": "التيجاني"
+  },
+  "PROFESSOR_MUNIM": {
+   "name": "الأستاذ منعم"
+  },
+  "AL_TIJANI_ADULT": {
+   "name": "التيجاني الكبير"
+  },
+  "MUNIM_FATHER": {
+   "name": "والد منعم"
+  },
+  "MUNIM_MOTHER": {
+   "name": "والدة منعم"
+  },
+  "SHRINE_RESEARCHER": {
+   "name": "باحث عراقي في المقام"
+  },
+  "HAWZA_STUDENT": {
+   "name": "طالب حوزة"
+  },
+  "NAJAF_VISITOR": {
+   "name": "زائر في النجف"
+  },
+  "ABU_SHUBAR": {
+   "name": "السيد أبو شبر"
+  },
+  "BAQIR_AL_SADR": {
+   "name": "السيد محمد باقر الصدر"
+  },
+  "AL_BASHIR": {
+   "name": "البشير"
+  },
+  "DOCUMENT_READER": {
+   "name": "قارئ الوثائق"
+  },
+  "TEXT_READER": {
+   "name": "قارئ النصوص"
+  },
+  "TUNISIAN_INTERLOCUTOR": {
+   "name": "محاور تونسي"
+  },
+  "TUNISIAN_FRIEND": {
+   "name": "صديق تونسي"
+  },
+  "TUNISIAN_ELDER": {
+   "name": "أحد أهل تونس"
+  },
+  "AL_TIJANI_CHILD": {
+   "name": "التيجاني الصغير"
+  },
+  "FATHER": {
+   "name": "الأب"
+  },
+  "TEACHER": {
+   "name": "المعلم"
+  },
+  "WORSHIPPER_1": {
+   "name": "المصلي الأول"
+  },
+  "WORSHIPPER_2": {
+   "name": "المصلي الثاني"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "صباح بغداد",
+   "image": "ep10/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 8060
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "مقام الشيخ عبد القادر",
+   "image": "ep10/images/scene_02.jpg",
+   "startMs": 8060,
+   "endMs": 12770
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "شوق قديم",
+   "image": "ep10/images/scene_03.jpg",
+   "startMs": 12770,
+   "endMs": 21350
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "بين الزائرين",
+   "image": "ep10/images/scene_04.jpg",
+   "startMs": 21350,
+   "endMs": 33855
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "مصادر عن الشيخ",
+   "image": "ep10/images/scene_05.jpg",
+   "startMs": 33855,
+   "endMs": 48100
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "في أسواق بغداد",
+   "image": "ep10/images/scene_06.jpg",
+   "startMs": 48100,
+   "endMs": 53930
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "إلى مراقد أخرى",
+   "image": "ep10/images/scene_07.jpg",
+   "startMs": 53930,
+   "endMs": 62090
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "مرقد الإمام موسى الكاظم",
+   "image": "ep10/images/scene_08.jpg",
+   "startMs": 62090,
+   "endMs": 64850
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "طقوس لم يألفها",
+   "image": "ep10/images/scene_09.jpg",
+   "startMs": 64850,
+   "endMs": 77800
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "أسئلة الزيارة",
+   "image": "ep10/images/scene_10.jpg",
+   "startMs": 77800,
+   "endMs": 94280
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "الاحترام والعبادة",
+   "image": "ep10/images/scene_11.jpg",
+   "startMs": 94280,
+   "endMs": 103610
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "حوار ونقاش",
+   "image": "ep10/images/scene_12.jpg",
+   "startMs": 103610,
+   "endMs": 127140
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "كتاب عن الجيلاني",
+   "image": "ep10/images/scene_13.jpg",
+   "startMs": 127140,
+   "endMs": 139520
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "الاختلاف أمام عينيه",
+   "image": "ep10/images/scene_14.jpg",
+   "startMs": 139520,
+   "endMs": 155200
+  },
+  {
+   "number": 15,
+   "id": "s15",
+   "title": "ليل الأسئلة",
+   "image": "ep10/images/scene_15.jpg",
+   "startMs": 155200,
+   "endMs": 165770
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep10_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت يحمل اهتماما تاريخيا",
+   "text": "في الصباح، قصد محمد ومنعم منطقة باب الشيخ في بغداد، حيث مقام عبد القادر الجيلاني.",
+   "startMs": 500,
+   "endMs": 7460,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 3130,
+    "endMs": 10090
+   },
+   "lines": [
+    {
+     "text": "في الصباح، قصد محمد ومنعم منطقة باب الشيخ في بغداد، حيث مقام عبد القادر الجيلاني.",
+     "startMs": 500,
+     "endMs": 7460
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.994,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep10_s02_l01",
+   "scene": 2,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بشوق شديد",
+   "text": "هذا مقام الشيخ عبد القادر... أخيرا وصلت إليه!",
+   "startMs": 8660,
+   "endMs": 12170,
+   "clip": {
+    "file": "audio/Batch 1/Tijaniiii.wav",
+    "startMs": 2090,
+    "endMs": 5600
+   },
+   "lines": [
+    {
+     "text": "هذا مقام الشيخ عبد القادر...",
+     "startMs": 8660,
+     "endMs": 11170
+    },
+    {
+     "text": "أخيرا وصلت إليه!",
+     "startMs": 11170,
+     "endMs": 12170
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.988,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep10_s03_l01",
+   "scene": 3,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "تقدم محمد بشوق شديد،",
+   "startMs": 13370,
+   "endMs": 15620,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 10420,
+    "endMs": 12670
+   },
+   "lines": [
+    {
+     "text": "تقدم محمد بشوق شديد،",
+     "startMs": 13370,
+     "endMs": 15620
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep10_s03_l02",
+   "scene": 3,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بخشوع وفرح",
+   "text": "كم حدثونا عنه في تونس. هذه الزيارة تعني لي كثيرا.",
+   "startMs": 16220,
+   "endMs": 20750,
+   "clip": {
+    "file": "audio/Batch 1/Tijaniiii.wav",
+    "startMs": 8220,
+    "endMs": 12750
+   },
+   "lines": [
+    {
+     "text": "كم حدثونا عنه في تونس.",
+     "startMs": 16220,
+     "endMs": 17960
+    },
+    {
+     "text": "هذه الزيارة تعني لي كثيرا.",
+     "startMs": 17960,
+     "endMs": 20749
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.989,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep10_s04_l01",
+   "scene": 4,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "واختلط بالزائرين الذين ملؤوا المكان، وصلى ودعا وتوقف عند تفاصيل الزيارة.",
+   "startMs": 21950,
+   "endMs": 28910,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 12720,
+    "endMs": 19680
+   },
+   "lines": [
+    {
+     "text": "واختلط بالزائرين الذين ملؤوا المكان، وصلى ودعا وتوقف عند تفاصيل الزيارة.",
+     "startMs": 21950,
+     "endMs": 28909
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.986,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep10_s04_l02",
+   "scene": 4,
+   "speakerId": "PROFESSOR_MUNIM",
+   "speakerName": "الأستاذ منعم",
+   "direction": "بهدوء صبور",
+   "text": "شوف بعينك يا محمد، واسأل أي سؤال يجي ببالك.",
+   "startMs": 29510,
+   "endMs": 33255,
+   "clip": {
+    "file": "audio/Batch 1/Munaim22.wav",
+    "startMs": 85,
+    "endMs": 3830
+   },
+   "lines": [
+    {
+     "text": "شوف بعينك يا محمد، واسأل أي سؤال يجي ببالك.",
+     "startMs": 29510,
+     "endMs": 33255
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.988,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep10_s05_l01",
+   "scene": 5,
+   "speakerId": "SHRINE_RESEARCHER",
+   "speakerName": "باحث عراقي في المقام",
+   "direction": "بأدب واهتمام",
+   "text": "يسرني أنك تسأل عن سيرة الشيخ عبد القادر. هذه بعض المصادر التي قد تساعدك على فهم الروايات المختلفة عنه.",
+   "startMs": 34455,
+   "endMs": 42815,
+   "clip": {
+    "file": "audio/Batch 1/Researcher.wav",
+    "startMs": 150,
+    "endMs": 8510
+   },
+   "lines": [
+    {
+     "text": "يسرني أنك تسأل عن سيرة الشيخ عبد القادر.",
+     "startMs": 34455,
+     "endMs": 38484
+    },
+    {
+     "text": "هذه بعض المصادر التي قد تساعدك على فهم الروايات المختلفة عنه.",
+     "startMs": 38484,
+     "endMs": 42815
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.985,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep10_s05_l02",
+   "scene": 5,
+   "speakerId": "SHRINE_RESEARCHER",
+   "speakerName": "باحث عراقي في المقام",
+   "direction": "بثقة معتدلة",
+   "text": "أرجو أن تقرأها بنفسك، ولا تكتفي بما تسمعه هنا أو هناك.",
+   "startMs": 43165,
+   "endMs": 47500,
+   "clip": {
+    "file": "audio/Batch 1/Researcher.wav",
+    "startMs": 9150,
+    "endMs": 13485
+   },
+   "lines": [
+    {
+     "text": "أرجو أن تقرأها بنفسك، ولا تكتفي بما تسمعه هنا أو هناك.",
+     "startMs": 43165,
+     "endMs": 47499
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep10_s06_l01",
+   "scene": 6,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة مقارنة هادئة",
+   "text": "كانت تجربته الأولى في العراق امتدادا لتربيته الروحية في تونس،",
+   "startMs": 48700,
+   "endMs": 53930,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 22540,
+    "endMs": 27770
+   },
+   "lines": [
+    {
+     "text": "كانت تجربته الأولى في العراق امتدادا لتربيته الروحية في تونس،",
+     "startMs": 48700,
+     "endMs": 53930
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep10_s07_l01",
+   "scene": 7,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "لكن المشهد تبدل حين ذهب مع منعم إلى مراقد أخرى، ومنها مرقد الإمام موسى الكاظم.",
+   "startMs": 53930,
+   "endMs": 61490,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 27940,
+    "endMs": 35500
+   },
+   "lines": [
+    {
+     "text": "لكن المشهد تبدل حين ذهب مع منعم إلى مراقد أخرى، ومنها مرقد الإمام موسى الكاظم.",
+     "startMs": 53930,
+     "endMs": 61490
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.987,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep10_s08_l01",
+   "scene": 8,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بدهشة",
+   "text": "وهنا مرقد الإمام موسى الكاظم؟",
+   "startMs": 62690,
+   "endMs": 64850,
+   "clip": {
+    "file": "audio/Batch 1/Tijaniiii.wav",
+    "startMs": 14470,
+    "endMs": 16630
+   },
+   "lines": [
+    {
+     "text": "وهنا مرقد الإمام موسى الكاظم؟",
+     "startMs": 62690,
+     "endMs": 64849
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep10_s09_l01",
+   "scene": 9,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "",
+   "text": "أرى آلاف الزائرين، لكنني أحتاج أن أفهم هذه الممارسات أكثر.",
+   "startMs": 64850,
+   "endMs": 69650,
+   "clip": {
+    "file": "audio/Batch 1/Tijaniiii.wav",
+    "startMs": 17030,
+    "endMs": 21830
+   },
+   "lines": [
+    {
+     "text": "أرى آلاف الزائرين، لكنني أحتاج أن أفهم هذه الممارسات أكثر.",
+     "startMs": 64850,
+     "endMs": 69650
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep10_s09_l02",
+   "scene": 9,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "هناك واجه طقوسا وعادات لم يألفها، ولاحظ تعلق الزائرين بأهل البيت عليهم السلام.",
+   "startMs": 70250,
+   "endMs": 77800,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 35890,
+    "endMs": 43440
+   },
+   "lines": [
+    {
+     "text": "هناك واجه طقوسا وعادات لم يألفها، ولاحظ تعلق الزائرين بأهل البيت عليهم السلام.",
+     "startMs": 70250,
+     "endMs": 77799
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.993,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep10_s10_l01",
+   "scene": 10,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "وتبادل مع مرافقيه الأسئلة عن الزيارة والتوسل والدعاء، وعن الفرق بين التعبد لله ومحبة الصالحين.",
+   "startMs": 77800,
+   "endMs": 86610,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 43680,
+    "endMs": 52490
+   },
+   "lines": [
+    {
+     "text": "وتبادل مع مرافقيه الأسئلة عن الزيارة والتوسل والدعاء، وعن الفرق بين التعبد لله ومحبة الصالحين.",
+     "startMs": 77800,
+     "endMs": 86610
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep10_s10_l02",
+   "scene": 10,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت مهذب وحازم",
+   "text": "أحب أن أميز بين الاحترام والعبادة. لا أريد أن أظلم أحدا، ولا أن أتخلى عن السؤال.",
+   "startMs": 87210,
+   "endMs": 93680,
+   "clip": {
+    "file": "audio/Batch 1/Tijaniiii.wav",
+    "startMs": 24240,
+    "endMs": 30710
+   },
+   "lines": [
+    {
+     "text": "أحب أن أميز بين الاحترام والعبادة.",
+     "startMs": 87210,
+     "endMs": 89630
+    },
+    {
+     "text": "لا أريد أن أظلم أحدا، ولا أن أتخلى عن السؤال.",
+     "startMs": 89630,
+     "endMs": 93680
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep10_s11_l01",
+   "scene": 11,
+   "speakerId": "PROFESSOR_MUNIM",
+   "speakerName": "الأستاذ منعم",
+   "direction": "بنبرة تحليلية",
+   "text": "محبة أهل البيت والصالحين شيء، والعبادة لله وحده شيء آخر. المهم نعرف قصد الناس ودليلهم قبل نحكم عليهم.",
+   "startMs": 94880,
+   "endMs": 103010,
+   "clip": {
+    "file": "audio/Batch 1/Munaim22.wav",
+    "startMs": 6630,
+    "endMs": 14760
+   },
+   "lines": [
+    {
+     "text": "محبة أهل البيت والصالحين شيء، والعبادة لله وحده شيء آخر.",
+     "startMs": 94880,
+     "endMs": 99150
+    },
+    {
+     "text": "المهم نعرف قصد الناس ودليلهم قبل نحكم عليهم.",
+     "startMs": 99150,
+     "endMs": 103009
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.99,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep10_s12_l01",
+   "scene": 12,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بتشويق",
+   "text": "لم يقف الأمر عند مشاهدة المباني والجموع. التقى رجالا ناقشوه في التاريخ والفقه، واستمع إلى تفسيرات لم يسمعها في بلاده.",
+   "startMs": 104210,
+   "endMs": 114220,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 54480,
+    "endMs": 64490
+   },
+   "lines": [
+    {
+     "text": "لم يقف الأمر عند مشاهدة المباني والجموع.",
+     "startMs": 104210,
+     "endMs": 106869
+    },
+    {
+     "text": "التقى رجالا ناقشوه في التاريخ والفقه، واستمع إلى تفسيرات لم يسمعها في بلاده.",
+     "startMs": 106869,
+     "endMs": 114219
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep10_s12_l02",
+   "scene": 12,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بتأثر",
+   "text": "ما كنت أتصور أنني سأتعلم في يوم واحد كل هذه الأشياء عن بلد كنت أعرفه من بعيد.",
+   "startMs": 114820,
+   "endMs": 121060,
+   "clip": {
+    "file": "audio/Batch 1/Tijaniiii.wav",
+    "startMs": 32410,
+    "endMs": 38650
+   },
+   "lines": [
+    {
+     "text": "ما كنت أتصور أنني سأتعلم في يوم واحد كل هذه الأشياء عن بلد كنت أعرفه من بعيد.",
+     "startMs": 114820,
+     "endMs": 121059
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep10_s12_l03",
+   "scene": 12,
+   "speakerId": "PROFESSOR_MUNIM",
+   "speakerName": "الأستاذ منعم",
+   "direction": "بلطف",
+   "text": "مو مطلوب منك تغيّر رأيك اليوم. خذ وقتك، اقرأ، وارجع اسألني.",
+   "startMs": 121660,
+   "endMs": 126540,
+   "clip": {
+    "file": "audio/Batch 1/Munaim22.wav",
+    "startMs": 16300,
+    "endMs": 21180
+   },
+   "lines": [
+    {
+     "text": "مو مطلوب منك تغيّر رأيك اليوم.",
+     "startMs": 121660,
+     "endMs": 123559
+    },
+    {
+     "text": "خذ وقتك، اقرأ، وارجع اسألني.",
+     "startMs": 123559,
+     "endMs": 126539
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.981,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep10_s13_l01",
+   "scene": 13,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "وقدم له أحدهم كتابا عن عبد القادر الجيلاني، فقرأه لاحقا بشغف.",
+   "startMs": 127740,
+   "endMs": 133050,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 64780,
+    "endMs": 70090
+   },
+   "lines": [
+    {
+     "text": "وقدم له أحدهم كتابا عن عبد القادر الجيلاني، فقرأه لاحقا بشغف.",
+     "startMs": 127740,
+     "endMs": 133050
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.991,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep10_s13_l02",
+   "scene": 13,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بفضول",
+   "text": "سأقرأ هذا الكتاب الذي أعطيتموني إياه، وأقارن ما فيه بما تعلمته من قبل.",
+   "startMs": 133650,
+   "endMs": 138920,
+   "clip": {
+    "file": "audio/Batch 1/Tijaniiii.wav",
+    "startMs": 40410,
+    "endMs": 45680
+   },
+   "lines": [
+    {
+     "text": "سأقرأ هذا الكتاب الذي أعطيتموني إياه، وأقارن ما فيه بما تعلمته من قبل.",
+     "startMs": 133650,
+     "endMs": 138919
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep10_s14_l01",
+   "scene": 14,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة تأملية",
+   "text": "كان الاختلاف هذه المرة يعيش أمام عينيه، لا داخل كتب نقلت إليه صورا مسبقة. شعر بالدهشة، وربما بالحرج من أحكامه القديمة، لكنه لم يرد أن يسلم بسهولة لكل جديد.",
+   "startMs": 140120,
+   "endMs": 154900,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 72540,
+    "endMs": 87320
+   },
+   "lines": [
+    {
+     "text": "كان الاختلاف هذه المرة يعيش أمام عينيه، لا داخل كتب نقلت إليه صورا مسبقة.",
+     "startMs": 140120,
+     "endMs": 146180
+    },
+    {
+     "text": "شعر بالدهشة، وربما بالحرج من أحكامه القديمة، لكنه لم يرد أن يسلم بسهولة لكل جديد.",
+     "startMs": 146180,
+     "endMs": 154900
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep10_s15_l01",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت ختامي مشوق",
+   "text": "عاد إلى بيت منعم مثقلا بالتعب والأسئلة. وفي الليل، لم تعد صورة العراق كما رسمتها له الذاكرة القديمة.",
+   "startMs": 155500,
+   "endMs": 164270,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 90590,
+    "endMs": 99360
+   },
+   "lines": [
+    {
+     "text": "عاد إلى بيت منعم مثقلا بالتعب والأسئلة.",
+     "startMs": 155500,
+     "endMs": 158710
+    },
+    {
+     "text": "وفي الليل، لم تعد صورة العراق كما رسمتها له الذاكرة القديمة.",
+     "startMs": 158710,
+     "endMs": 164270
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  }
+ ],
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "warm",
+   "startMs": 0,
+   "endMs": 8860
+  },
+  {
+   "scene": 2,
+   "cue": "reverent",
+   "startMs": 7260,
+   "endMs": 13570
+  },
+  {
+   "scene": 3,
+   "cue": "reverent",
+   "startMs": 11969,
+   "endMs": 22150
+  },
+  {
+   "scene": 4,
+   "cue": "reverent",
+   "startMs": 20550,
+   "endMs": 34654
+  },
+  {
+   "scene": 5,
+   "cue": "reflective",
+   "startMs": 33055,
+   "endMs": 48900
+  },
+  {
+   "scene": 6,
+   "cue": "warm",
+   "startMs": 47300,
+   "endMs": 54730
+  },
+  {
+   "scene": 7,
+   "cue": "reverent",
+   "startMs": 53130,
+   "endMs": 62890
+  },
+  {
+   "scene": 8,
+   "cue": "reverent",
+   "startMs": 61290,
+   "endMs": 65649
+  },
+  {
+   "scene": 9,
+   "cue": "reflective",
+   "startMs": 64050,
+   "endMs": 78600
+  },
+  {
+   "scene": 10,
+   "cue": "reverent",
+   "startMs": 77000,
+   "endMs": 95080
+  },
+  {
+   "scene": 11,
+   "cue": "nostalgic",
+   "startMs": 93480,
+   "endMs": 104410
+  },
+  {
+   "scene": 12,
+   "cue": "suspense",
+   "startMs": 102810,
+   "endMs": 127940
+  },
+  {
+   "scene": 13,
+   "cue": "reverent",
+   "startMs": 126340,
+   "endMs": 140320
+  },
+  {
+   "scene": 14,
+   "cue": "reflective",
+   "startMs": 138720,
+   "endMs": 156000
+  },
+  {
+   "scene": 15,
+   "cue": "ending",
+   "startMs": 154399,
+   "endMs": 166570
+  }
+ ]
+}

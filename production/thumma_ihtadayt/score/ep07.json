@@ -1,0 +1,142 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "من الإسكندرية إلى بيروت",
+   "music": "reflective",
+   "sfx": [
+    "sea"
+   ],
+   "level": 0.85,
+   "reason": "title: الإسكندرية"
+  },
+  {
+   "scene": 2,
+   "title": "صعود متعب",
+   "music": "reflective",
+   "sfx": [
+    "sea"
+   ],
+   "level": 0.85,
+   "reason": "text: إبحار"
+  },
+  {
+   "scene": 3,
+   "title": "في الحجرة",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 4,
+   "title": "صوت يسأل عن حاله",
+   "music": "reflective",
+   "sfx": [
+    "sea"
+   ],
+   "level": 0.85,
+   "reason": "text: سفينة"
+  },
+  {
+   "scene": 5,
+   "title": "تعارف",
+   "music": "reverent",
+   "sfx": [
+    "roomtone",
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "text: جامع"
+  },
+  {
+   "scene": 6,
+   "title": "حديث عن حال الأمة",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 7,
+   "title": "حادثة في مصر",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: مصيبة"
+  },
+  {
+   "scene": 8,
+   "title": "أنا شيعي",
+   "music": "warm",
+   "sfx": [
+    "crowd"
+   ],
+   "level": 0.85,
+   "reason": "text: ابتسم"
+  },
+  {
+   "scene": 9,
+   "title": "صورة قديمة",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 10,
+   "title": "من أين أخذت هذه الصورة؟",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: كتب"
+  },
+  {
+   "scene": 11,
+   "title": "أفكار شائعة",
+   "music": "warm",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: الحقيقة"
+  },
+  {
+   "scene": 12,
+   "title": "العدل",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: مصادر"
+  },
+  {
+   "scene": 13,
+   "title": "سؤال مفتوح",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: سؤال"
+  },
+  {
+   "scene": 14,
+   "title": "يقين قديم يهتز",
+   "music": "warm",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: يقين"
+  },
+  {
+   "scene": 15,
+   "title": "في عرض البحر",
+   "music": "ending",
+   "sfx": [
+    "sea"
+   ],
+   "level": 0.85,
+   "reason": "title: بحر; last scene"
+  }
+ ]
+}

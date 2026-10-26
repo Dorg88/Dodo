@@ -1,0 +1,981 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep02",
+ "number": 2,
+ "title": "من قفصة إلى بيت الله",
+ "durationMs": 252030,
+ "audio": {
+  "mode": "clips",
+  "music": "ep02/audio/score_music.m4a",
+  "sfx": "ep02/audio/score_sfx.m4a",
+  "musicLoop": false
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AL_TIJANI": {
+   "name": "التيجاني"
+  },
+  "PROFESSOR_MUNIM": {
+   "name": "الأستاذ منعم"
+  },
+  "AL_TIJANI_ADULT": {
+   "name": "التيجاني الكبير"
+  },
+  "MUNIM_FATHER": {
+   "name": "والد منعم"
+  },
+  "MUNIM_MOTHER": {
+   "name": "والدة منعم"
+  },
+  "SHRINE_RESEARCHER": {
+   "name": "باحث عراقي في المقام"
+  },
+  "HAWZA_STUDENT": {
+   "name": "طالب حوزة"
+  },
+  "NAJAF_VISITOR": {
+   "name": "زائر في النجف"
+  },
+  "ABU_SHUBAR": {
+   "name": "السيد أبو شبر"
+  },
+  "BAQIR_AL_SADR": {
+   "name": "السيد محمد باقر الصدر"
+  },
+  "AL_BASHIR": {
+   "name": "البشير"
+  },
+  "DOCUMENT_READER": {
+   "name": "قارئ الوثائق"
+  },
+  "TEXT_READER": {
+   "name": "قارئ النصوص"
+  },
+  "TUNISIAN_INTERLOCUTOR": {
+   "name": "محاور تونسي"
+  },
+  "TUNISIAN_FRIEND": {
+   "name": "صديق تونسي"
+  },
+  "TUNISIAN_ELDER": {
+   "name": "أحد أهل تونس"
+  },
+  "AL_TIJANI_CHILD": {
+   "name": "التيجاني الصغير"
+  },
+  "FATHER": {
+   "name": "الأب"
+  },
+  "TEACHER": {
+   "name": "المعلم"
+  },
+  "WORSHIPPER_1": {
+   "name": "المصلي الأول"
+  },
+  "WORSHIPPER_2": {
+   "name": "المصلي الثاني"
+  },
+  "MOTHER": {
+   "name": "الأم"
+  },
+  "TRAVEL_COMPANION": {
+   "name": "رفيق الرحلة"
+  },
+  "TOWNSMAN": {
+   "name": "أحد أهل المدينة"
+  },
+  "STUDENT": {
+   "name": "أحد الطلاب"
+  },
+  "SHEIKH_ENVOY": {
+   "name": "موفد الشيخ"
+  },
+  "SHEIKH_ISMAIL": {
+   "name": "الشيخ إسماعيل الهديفي"
+  },
+  "SUFI_FOLLOWER": {
+   "name": "أحد أتباع الطريقة"
+  },
+  "WIFE": {
+   "name": "الزوجة"
+  },
+  "AHMAD_EGYPTIAN": {
+   "name": "أحمد المصري"
+  },
+  "SHEIKH_ABDULBASIT": {
+   "name": "الشيخ عبد الباسط"
+  },
+  "AZHAR_SCHOLAR": {
+   "name": "عالم أزهري"
+  },
+  "HUSAYN_SHRINE_KEEPER": {
+   "name": "مسؤول مقام الإمام الحسين"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "ذكريات المسجد",
+   "image": "ep02/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 39825
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "دروس الأم",
+   "image": "ep02/images/scene_02.jpg",
+   "startMs": 39825,
+   "endMs": 100425
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "اسم التيجاني",
+   "image": "ep02/images/scene_03.jpg",
+   "startMs": 100425,
+   "endMs": 123165
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "مجالس الطرق الصوفية",
+   "image": "ep02/images/scene_04.jpg",
+   "startMs": 123165,
+   "endMs": 153435
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "خبر غير متوقع",
+   "image": "ep02/images/scene_05.jpg",
+   "startMs": 153435,
+   "endMs": 174905
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "فرصة الحج",
+   "image": "ep02/images/scene_06.jpg",
+   "startMs": 174905,
+   "endMs": 183665
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "دعاء الأب",
+   "image": "ep02/images/scene_07.jpg",
+   "startMs": 183665,
+   "endMs": 202415
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "دموع الوداع",
+   "image": "ep02/images/scene_08.jpg",
+   "startMs": 202415,
+   "endMs": 213015
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "أسئلة لم يتوقعها",
+   "image": "ep02/images/scene_09.jpg",
+   "startMs": 213015,
+   "endMs": 219465
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "اختير اسمي",
+   "image": "ep02/images/scene_10.jpg",
+   "startMs": 219465,
+   "endMs": 231005
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "الحلم يقترب",
+   "image": "ep02/images/scene_11.jpg",
+   "startMs": 231005,
+   "endMs": 237435
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "من زوار بيتك",
+   "image": "ep02/images/scene_13.jpg",
+   "startMs": 237435,
+   "endMs": 242705
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "بداية رحلة جديدة",
+   "image": "ep02/images/scene_15.jpg",
+   "startMs": 242705,
+   "endMs": 252030
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep02_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "انتهت تلك الليلة الرمضانية لكن أثرها لم ينتهي كبر الطفل محمد التجاني السماوي وبقيت ذكريات المسجد ترافقه في سنوات طفولته وشبابه",
+   "startMs": 500,
+   "endMs": 14420,
+   "clip": {
+    "file": "audio/Ep2/Narrator2.wav",
+    "startMs": 210,
+    "endMs": 14130
+   },
+   "lines": [
+    {
+     "text": "انتهت تلك الليلة الرمضانية لكن أثرها لم ينتهي كبر الطفل محمد التجاني السماوي وبقيت ذكريات المسجد ترافقه في سنوات طفولته وشبابه",
+     "startMs": 500,
+     "endMs": 14420
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s01_l02",
+   "scene": 1,
+   "speakerId": "AL_TIJANI_ADULT",
+   "speakerName": "التيجاني الكبير",
+   "direction": "",
+   "text": "تلك الأيام لم تغادر ذاكرتي أبدا",
+   "startMs": 15020,
+   "endMs": 18785,
+   "clip": {
+    "file": "audio/Ep2/Bigtijani.wav",
+    "startMs": 95,
+    "endMs": 3860
+   },
+   "lines": [
+    {
+     "text": "تلك الأيام لم تغادر ذاكرتي أبدا",
+     "startMs": 15020,
+     "endMs": 18784
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s01_l03",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة تأملية هادئة",
+   "text": "كلما شعر بالحيرة عادت إليه تلك اللحظات التي وقف فيها أمام المصلين وكأنها تذكره بمسؤولية أكبر تنتظره في الحياة",
+   "startMs": 19385,
+   "endMs": 30875,
+   "clip": {
+    "file": "audio/Ep2/Narrator2.wav",
+    "startMs": 17400,
+    "endMs": 28890
+   },
+   "lines": [
+    {
+     "text": "كلما شعر بالحيرة عادت إليه تلك اللحظات التي وقف فيها أمام المصلين وكأنها تذكره بمسؤولية أكبر تنتظره في الحياة",
+     "startMs": 19385,
+     "endMs": 30875
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s01_l04",
+   "scene": 1,
+   "speakerId": "AL_TIJANI_ADULT",
+   "speakerName": "التيجاني الكبير",
+   "direction": "بنبرة تأملية صادقة",
+   "text": "كنت أشعر أنني كلما ابتعدت عن الطريق أعادتني ذكريات طفولتي إلى الإيمان",
+   "startMs": 31475,
+   "endMs": 39225,
+   "clip": {
+    "file": "audio/Ep2/Bigtijani.wav",
+    "startMs": 8320,
+    "endMs": 16070
+   },
+   "lines": [
+    {
+     "text": "كنت أشعر أنني كلما ابتعدت عن الطريق أعادتني ذكريات طفولتي إلى الإيمان",
+     "startMs": 31475,
+     "endMs": 39225
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s02_l01",
+   "scene": 2,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت دافئ وملئ بالحنان",
+   "text": "ولم يكن والده ومعلمه وحدهما من زرع في قلبه حب الدين كانت هناك امرأة أخرى تركت في نفسه أثرا لا يقل عمقا إنها أمه منذ سنواته الأولى كانت تعلمه قصار السور من القرآن الكريم وتعلمه الصلاة والطهارة وكانت تعتني به عناية خاصة فقد كان ابنها الأول",
+   "startMs": 40425,
+   "endMs": 64795,
+   "clip": {
+    "file": "audio/Ep2/Narrator2.wav",
+    "startMs": 32640,
+    "endMs": 57010
+   },
+   "lines": [
+    {
+     "text": "ولم يكن والده ومعلمه وحدهما من زرع في قلبه حب الدين كانت هناك امرأة أخرى تركت في نفسه أثرا لا يقل عمقا إنها أمه منذ سنواته الأولى كانت تعلمه قصار السور من القرآن الكريم وتعلمه الصلاة والطهارة وكانت تعتني به عناية خاصة فقد كان ابنها الأول",
+     "startMs": 40425,
+     "endMs": 64794
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s02_l02",
+   "scene": 2,
+   "speakerId": "AL_TIJANI_ADULT",
+   "speakerName": "التيجاني الكبير",
+   "direction": "بصوت حنون ومتأثر",
+   "text": "ولأمي رحمها الله فضل كبير في حياتي منذ أن فتحت عيني على الدنيا كانت تعلمني القرآن والصلاة وتحيطني بحبها ورعايتها",
+   "startMs": 65395,
+   "endMs": 78115,
+   "clip": {
+    "file": "audio/Ep2/Bigtijani.wav",
+    "startMs": 20170,
+    "endMs": 32890
+   },
+   "lines": [
+    {
+     "text": "ولأمي رحمها الله فضل كبير في حياتي منذ أن فتحت عيني على الدنيا كانت تعلمني القرآن والصلاة وتحيطني بحبها ورعايتها",
+     "startMs": 65395,
+     "endMs": 78115
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s02_l03",
+   "scene": 2,
+   "speakerId": "MOTHER",
+   "speakerName": "الأم",
+   "direction": "",
+   "text": "تعال يا محمد، اجلس بقربي يا وليدي،",
+   "startMs": 78715,
+   "endMs": 82145,
+   "clip": {
+    "file": "audio/Ep2/Mom.wav",
+    "startMs": 120,
+    "endMs": 3550
+   },
+   "lines": [
+    {
+     "text": "تعال يا محمد، اجلس بقربي يا وليدي،",
+     "startMs": 78715,
+     "endMs": 82144
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s02_l04",
+   "scene": 2,
+   "speakerId": "MOTHER",
+   "speakerName": "الأم",
+   "direction": "بنبرة علمية هادئة ومشجعة",
+   "text": "اليوم نراجع ما حفظته من القرآن،",
+   "startMs": 82495,
+   "endMs": 85685,
+   "clip": {
+    "file": "audio/Ep2/Mom.wav",
+    "startMs": 7710,
+    "endMs": 10900
+   },
+   "lines": [
+    {
+     "text": "اليوم نراجع ما حفظته من القرآن،",
+     "startMs": 82495,
+     "endMs": 85685
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s02_l05",
+   "scene": 2,
+   "speakerId": "MOTHER",
+   "speakerName": "الأم",
+   "direction": "بفرح واعتزاز مع ابتسامة مسموعة",
+   "text": "ما شاء الله عليك، ربي يفتح عليك ويجعلك من أهل القرآن،",
+   "startMs": 86035,
+   "endMs": 91535,
+   "clip": {
+    "file": "audio/Ep2/Mom.wav",
+    "startMs": 14870,
+    "endMs": 20370
+   },
+   "lines": [
+    {
+     "text": "ما شاء الله عليك، ربي يفتح عليك ويجعلك من أهل القرآن،",
+     "startMs": 86035,
+     "endMs": 91535
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s02_l06",
+   "scene": 2,
+   "speakerId": "MOTHER",
+   "speakerName": "الأم",
+   "direction": "بصوت عاطفي مفعم بالحنان",
+   "text": "يا وليدي العلم والدين نعمة كبيرة وكل ما أتمناه أن تكبر وتبقى قريبا من الله",
+   "startMs": 91885,
+   "endMs": 99825,
+   "clip": {
+    "file": "audio/Ep2/Mom.wav",
+    "startMs": 23960,
+    "endMs": 31900
+   },
+   "lines": [
+    {
+     "text": "يا وليدي العلم والدين نعمة كبيرة وكل ما أتمناه أن تكبر وتبقى قريبا من الله",
+     "startMs": 91885,
+     "endMs": 99825
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s03_l01",
+   "scene": 3,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة هادئة تحمل شيئا من الفضول",
+   "text": "حتى اسمه لم يكن اسما عاديا في عائلته فقد اختارت له أمه اسم التيجاني تيمنا بالشيخ أحمد التيجاني الذي انتشرت طريقته الصوفية في أجزاء واسعة من شمال إفريقيا وفي مدينة قفصة كانت الطريقة التيجانية حاضرة في حياة كثير من العائلات ومن بينها عائلة السماوي",
+   "startMs": 101025,
+   "endMs": 122865,
+   "clip": {
+    "file": "audio/Ep2/Narrator2.wav",
+    "startMs": 60930,
+    "endMs": 82770
+   },
+   "lines": [
+    {
+     "text": "حتى اسمه لم يكن اسما عاديا في عائلته فقد اختارت له أمه اسم التيجاني تيمنا بالشيخ أحمد التيجاني الذي انتشرت طريقته الصوفية في أجزاء واسعة من شمال إفريقيا وفي مدينة قفصة كانت الطريقة التيجانية حاضرة في حياة كثير من العائلات ومن بينها عائلة السماوي",
+     "startMs": 101025,
+     "endMs": 122864
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s04_l01",
+   "scene": 4,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة وصفية رزينة",
+   "text": "نشأ محمد في مجتمع يعتز بالتدين وتنتشر فيه طرق صوفية مثل التجانية والقادرية والرحمانية وغيرها وكان لكل طريقة مجالسها وأذكارها وأتباعها وسط تلك البيئة تشكلت أفكاره الأولى وتعمقت علاقته بالحياة الدينية",
+   "startMs": 123465,
+   "endMs": 142555,
+   "clip": {
+    "file": "audio/Ep2/Narrator2.wav",
+    "startMs": 86230,
+    "endMs": 105320
+   },
+   "lines": [
+    {
+     "text": "نشأ محمد في مجتمع يعتز بالتدين وتنتشر فيه طرق صوفية مثل التجانية والقادرية والرحمانية وغيرها وكان لكل طريقة مجالسها وأذكارها وأتباعها وسط تلك البيئة تشكلت أفكاره الأولى وتعمقت علاقته بالحياة الدينية",
+     "startMs": 123465,
+     "endMs": 142555
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s04_l02",
+   "scene": 4,
+   "speakerId": "AL_TIJANI_ADULT",
+   "speakerName": "التيجاني الكبير",
+   "direction": "بنبرة اعتزاز هادئة",
+   "text": "نشأت على ما نشأ عليه أهل مدينتي من اعتقادات وعادات دينية كنت أرى في ذلك العالم كل ما أعرفه عن الدين",
+   "startMs": 143155,
+   "endMs": 152835,
+   "clip": {
+    "file": "audio/Ep2/Bigtijani.wav",
+    "startMs": 36150,
+    "endMs": 45830
+   },
+   "lines": [
+    {
+     "text": "نشأت على ما نشأ عليه أهل مدينتي من اعتقادات وعادات دينية كنت أرى في ذلك العالم كل ما أعرفه عن الدين",
+     "startMs": 143155,
+     "endMs": 152834
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s05_l01",
+   "scene": 5,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة مشوقة تتصاعد تدريجيا",
+   "text": "ومرت السنوات حتى بلغ محمد الثامنة عشرة من عمره وفي ذلك العمر جاءه خبر لم يكن يتوقعه لقد اختير للمشاركة في مؤتمر للكشافة العربية والإسلامية في مكة المكرمة ضمن بعثة تونسية تضم ستة أشخاص وكان أصغر أفراد البعثة سنا",
+   "startMs": 154035,
+   "endMs": 174605,
+   "clip": {
+    "file": "audio/Ep2/Narrator2.wav",
+    "startMs": 109720,
+    "endMs": 130290
+   },
+   "lines": [
+    {
+     "text": "ومرت السنوات حتى بلغ محمد الثامنة عشرة من عمره وفي ذلك العمر جاءه خبر لم يكن يتوقعه لقد اختير للمشاركة في مؤتمر للكشافة العربية والإسلامية في مكة المكرمة ضمن بعثة تونسية تضم ستة أشخاص وكان أصغر أفراد البعثة سنا",
+     "startMs": 154035,
+     "endMs": 174604
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s06_l01",
+   "scene": 6,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة حماسية ممزوجة بالرهبة",
+   "text": "لم تكن مجرد رحلة إلى بلد بعيد بل كانت فرصة لأداء فريضة الحج وزيارة البيت الذي طالما اشتاق إليه",
+   "startMs": 175205,
+   "endMs": 183065,
+   "clip": {
+    "file": "audio/Ep2/Narrator2.wav",
+    "startMs": 133790,
+    "endMs": 141650
+   },
+   "lines": [
+    {
+     "text": "لم تكن مجرد رحلة إلى بلد بعيد بل كانت فرصة لأداء فريضة الحج وزيارة البيت الذي طالما اشتاق إليه",
+     "startMs": 175205,
+     "endMs": 183065
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s07_l01",
+   "scene": 7,
+   "speakerId": "FATHER",
+   "speakerName": "الأب",
+   "direction": "",
+   "text": "حنيا لك يا بني لقد أراد الله لك أن تحج قبلي وأنت في هذه السن",
+   "startMs": 184265,
+   "endMs": 192745,
+   "clip": {
+    "file": "audio/Ep2/Dad.wav",
+    "startMs": 80,
+    "endMs": 8560
+   },
+   "lines": [
+    {
+     "text": "حنيا لك يا بني لقد أراد الله لك أن تحج قبلي وأنت في هذه السن",
+     "startMs": 184265,
+     "endMs": 192745
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s07_l02",
+   "scene": 7,
+   "speakerId": "FATHER",
+   "speakerName": "الأب",
+   "direction": "بصوت فخور ومفعم بالمحبة",
+   "text": "فأنت ولد سيدي أحمد التيجاني",
+   "startMs": 193095,
+   "endMs": 195705,
+   "clip": {
+    "file": "audio/Ep2/Dad.wav",
+    "startMs": 13130,
+    "endMs": 15740
+   },
+   "lines": [
+    {
+     "text": "فأنت ولد سيدي أحمد التيجاني",
+     "startMs": 193095,
+     "endMs": 195704
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s07_l03",
+   "scene": 7,
+   "speakerId": "FATHER",
+   "speakerName": "الأب",
+   "direction": "بنبرة حزينة قليلا تحمل شوقا عميقا إلى بيت الله",
+   "text": "ادعو الله لي في بيته أن يتوب عليه ويرزقني حج بيته الحرام",
+   "startMs": 196055,
+   "endMs": 201815,
+   "clip": {
+    "file": "audio/Ep2/Dad.wav",
+    "startMs": 22680,
+    "endMs": 28440
+   },
+   "lines": [
+    {
+     "text": "ادعو الله لي في بيته أن يتوب عليه ويرزقني حج بيته الحرام",
+     "startMs": 196055,
+     "endMs": 201815
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s08_l01",
+   "scene": 8,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت منخفض ومؤثر",
+   "text": "وحين تأكد والده من سفره لم يستطع أن يحبس دموعه",
+   "startMs": 203015,
+   "endMs": 207455,
+   "clip": {
+    "file": "audio/Ep2/Narrator2.wav",
+    "startMs": 144840,
+    "endMs": 149280
+   },
+   "lines": [
+    {
+     "text": "وحين تأكد والده من سفره لم يستطع أن يحبس دموعه",
+     "startMs": 203015,
+     "endMs": 207454
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s08_l02",
+   "scene": 8,
+   "speakerId": "MOTHER",
+   "speakerName": "الأم",
+   "direction": "بصوت رقيق يحمل دعاء صادقا",
+   "text": "الله يحفظك يا محمد ويرزك الخير أينما كنت",
+   "startMs": 208055,
+   "endMs": 212415,
+   "clip": {
+    "file": "audio/Ep2/Mom.wav",
+    "startMs": 35870,
+    "endMs": 40230
+   },
+   "lines": [
+    {
+     "text": "الله يحفظك يا محمد ويرزك الخير أينما كنت",
+     "startMs": 208055,
+     "endMs": 212414
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s09_l01",
+   "scene": 9,
+   "speakerId": "AL_TIJANI_ADULT",
+   "speakerName": "التيجاني الكبير",
+   "direction": "بنبرة تحمل تساؤلا خفيفا",
+   "text": "ولم أكن أتوقع أن الأيام ستضع أمامي أسئلة جديدة",
+   "startMs": 213615,
+   "endMs": 219165,
+   "clip": {
+    "file": "audio/Ep2/Bigtijani.wav",
+    "startMs": 50310,
+    "endMs": 55860
+   },
+   "lines": [
+    {
+     "text": "ولم أكن أتوقع أن الأيام ستضع أمامي أسئلة جديدة",
+     "startMs": 213615,
+     "endMs": 219164
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s10_l01",
+   "scene": 10,
+   "speakerId": "AL_TIJANI_ADULT",
+   "speakerName": "التيجاني الكبير",
+   "direction": "بصوت يزداد حماسا ودهشة",
+   "text": "وحين بلغت الثامنة عشر اختير اسمي للسفر إلى مكة المكرمة لم أصدق في البداية أنني سأحج بيت الله وأنا في تلك السن",
+   "startMs": 219765,
+   "endMs": 230705,
+   "clip": {
+    "file": "audio/Ep2/Bigtijani.wav",
+    "startMs": 59820,
+    "endMs": 70760
+   },
+   "lines": [
+    {
+     "text": "وحين بلغت الثامنة عشر اختير اسمي للسفر إلى مكة المكرمة لم أصدق في البداية أنني سأحج بيت الله وأنا في تلك السن",
+     "startMs": 219765,
+     "endMs": 230705
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s11_l01",
+   "scene": 11,
+   "speakerId": "AL_TIJANI_ADULT",
+   "speakerName": "التيجاني الكبير",
+   "direction": "بصوت متأثر تغمره مشاعر الشوق",
+   "text": "كنت أحلم برؤية الكعبة وفجأة أصبح الحلم قريبا جدا",
+   "startMs": 231305,
+   "endMs": 237135,
+   "clip": {
+    "file": "audio/Ep2/Bigtijani.wav",
+    "startMs": 75570,
+    "endMs": 81400
+   },
+   "lines": [
+    {
+     "text": "كنت أحلم برؤية الكعبة وفجأة أصبح الحلم قريبا جدا",
+     "startMs": 231305,
+     "endMs": 237135
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s12_l01",
+   "scene": 12,
+   "speakerId": "AL_TIJANI_ADULT",
+   "speakerName": "التيجاني الكبير",
+   "direction": "بهمس خاشع يحمل دهشة وفرحا",
+   "text": "يا رب أأكون حقا من زوار بيتك الحرام",
+   "startMs": 237735,
+   "endMs": 242105,
+   "clip": {
+    "file": "audio/Ep2/Bigtijani.wav",
+    "startMs": 86280,
+    "endMs": 90650
+   },
+   "lines": [
+    {
+     "text": "يا رب أأكون حقا من زوار بيتك الحرام",
+     "startMs": 237735,
+     "endMs": 242105
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s13_l01",
+   "scene": 13,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة ختامية عميقة ومشوقة",
+   "text": "كانت تلك بداية رحلة جديدة رحلة ستفتح أمام الشاب أبواب لم يكن يتخيلها",
+   "startMs": 243305,
+   "endMs": 250530,
+   "clip": {
+    "file": "audio/Ep2/Narrator2.wav",
+    "startMs": 152970,
+    "endMs": 160195
+   },
+   "lines": [
+    {
+     "text": "كانت تلك بداية رحلة جديدة رحلة ستفتح أمام الشاب أبواب لم يكن يتخيلها",
+     "startMs": 243305,
+     "endMs": 250529
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  }
+ ],
+ "textStatus": "recovered-transcript",
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "reverent",
+   "startMs": 0,
+   "endMs": 40625
+  },
+  {
+   "scene": 2,
+   "cue": "reflective",
+   "startMs": 39025,
+   "endMs": 101225
+  },
+  {
+   "scene": 3,
+   "cue": "reflective",
+   "startMs": 99625,
+   "endMs": 123965
+  },
+  {
+   "scene": 4,
+   "cue": "suspense",
+   "startMs": 122365,
+   "endMs": 154235
+  },
+  {
+   "scene": 5,
+   "cue": "reflective",
+   "startMs": 152635,
+   "endMs": 175705
+  },
+  {
+   "scene": 6,
+   "cue": "reverent",
+   "startMs": 174105,
+   "endMs": 184465
+  },
+  {
+   "scene": 7,
+   "cue": "reflective",
+   "startMs": 182864,
+   "endMs": 203215
+  },
+  {
+   "scene": 8,
+   "cue": "reflective",
+   "startMs": 201614,
+   "endMs": 213815
+  },
+  {
+   "scene": 9,
+   "cue": "suspense",
+   "startMs": 212214,
+   "endMs": 220265
+  },
+  {
+   "scene": 10,
+   "cue": "warm",
+   "startMs": 218665,
+   "endMs": 231805
+  },
+  {
+   "scene": 11,
+   "cue": "reflective",
+   "startMs": 230204,
+   "endMs": 238235
+  },
+  {
+   "scene": 12,
+   "cue": "reflective",
+   "startMs": 236635,
+   "endMs": 243505
+  },
+  {
+   "scene": 13,
+   "cue": "ending",
+   "startMs": 241905,
+   "endMs": 252830
+  }
+ ]
+}

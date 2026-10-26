@@ -1,0 +1,18 @@
+{"episode": 21, "status": "proposed", "note": "Recovered transcript: Batch 3 was recorded from a script that is not among the delivered files (the drafts for Episodes 20–22 do not match the recordings). Episode boundaries inside the batch recordings, speaking order and illustration placement are proposed from the content; to be confirmed by the producer.",
+ "scenes": [
+  {"image": 1,  "title": "المرحلة التالية", "lines": ["N1"]},
+  {"image": 2,  "title": "الاجتهاد في مقابل النص", "lines": ["T1"]},
+  {"image": 3,  "title": "حين يختلف الفريقان", "lines": ["N2"]},
+  {"image": 4,  "title": "من أين أبدأ التحقيق؟", "lines": ["T2"]},
+  {"image": 5,  "title": "أحداث صدر الإسلام", "lines": ["N3"]},
+  {"image": 6,  "title": "الرواية وسياقها", "lines": ["T3"]},
+  {"image": 7,  "title": "إجابات متباينة", "lines": ["N4"]},
+  {"image": 8,  "title": "الاجتهاد المشروع", "lines": ["T4"]},
+  {"image": 9,  "title": "مناقشات صعبة", "lines": ["N5"]},
+  {"image": 10, "title": "أفكار أحببتها", "lines": ["T5"]},
+  {"image": 11, "title": "باب البحث مفتوح", "lines": ["N6"]},
+  {"image": 12, "title": "لا أهرب من سؤال", "lines": ["T6"]},
+  {"image": 13, "title": "العلم مسؤولية", "lines": ["T7"]},
+  {"image": 14, "title": "مستعد لتصحيح فهمي", "lines": ["T8"]},
+  {"image": 15, "title": "مرحلة أصعب", "lines": ["N7"]}
+ ]}

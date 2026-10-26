@@ -1,0 +1,117 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "ذكريات المسجد",
+   "music": "reverent",
+   "sfx": [
+    "roomtone",
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "title: مسجد"
+  },
+  {
+   "scene": 2,
+   "title": "دروس الأم",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: فقد"
+  },
+  {
+   "scene": 3,
+   "title": "اسم التيجاني",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: فقد"
+  },
+  {
+   "scene": 4,
+   "title": "مجالس الطرق الصوفية",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: شك"
+  },
+  {
+   "scene": 5,
+   "title": "خبر غير متوقع",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 6,
+   "title": "فرصة الحج",
+   "music": "reverent",
+   "sfx": [
+    "roomtone",
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "text: زيارة"
+  },
+  {
+   "scene": 7,
+   "title": "دعاء الأب",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 8,
+   "title": "دموع الوداع",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: دموع"
+  },
+  {
+   "scene": 9,
+   "title": "أسئلة لم يتوقعها",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: أسئلة"
+  },
+  {
+   "scene": 10,
+   "title": "اختير اسمي",
+   "music": "warm",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "text: سفر"
+  },
+  {
+   "scene": 11,
+   "title": "الحلم يقترب",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 12,
+   "title": "من زوار بيتك",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 13,
+   "title": "بداية رحلة جديدة",
+   "music": "ending",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default; last scene"
+  }
+ ]
+}

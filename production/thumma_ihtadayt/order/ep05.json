@@ -1,0 +1,20 @@
+{"episode": 5, "status": "proposed",
+ "note": "Recovered transcript (no original script): speaking order and illustration placement proposed from the content and the order of the 15 illustrations; to be confirmed by the producer.",
+ "out_of_order_images": "Illustrations 10 and 12 (the wife) are shown after 13 and 14: in the narration the wife's complaint follows the dhikr gatherings at the house. Please confirm.",
+ "scenes": [
+  {"image": 1,  "title": "دعوة غير متوقعة", "lines": ["N1"]},
+  {"image": 2,  "title": "موفد الشيخ", "lines": ["SE1", "SE2", "SE3", "SE4", "N2", "T1"]},
+  {"image": 3,  "title": "إلى توزر", "lines": ["N3", "N4"]},
+  {"image": 4,  "title": "ها هو الشيخ", "lines": ["SE5", "T2.1", "N5"]},
+  {"image": 5,  "title": "في مجلس الشيخ", "lines": ["SE6", "SI1", "SI2", "N6"]},
+  {"image": 6,  "title": "أسئلة واعتراضات", "lines": ["T2.2", "N7", "SE7"]},
+  {"image": 7,  "title": "آداب المجلس", "lines": ["SF1", "SF2", "T3"]},
+  {"image": 8,  "title": "قم فاغتسل", "lines": ["N8", "SI3", "SI4", "SI5", "SI6", "SI7"]},
+  {"image": 9,  "title": "القصة موجهة إليه", "lines": ["T4", "N9", "SI8"]},
+  {"image": 13, "title": "مجالس الذكر", "lines": ["N10", "T5", "T6"]},
+  {"image": 11, "title": "بين اتجاهين", "lines": ["T7", "N11", "T8"]},
+  {"image": 14, "title": "حيرة لا تنتهي", "lines": ["N12", "SF3", "SF4"]},
+  {"image": 10, "title": "شكوى الجيران", "lines": ["WI1", "WI2", "WI3", "WI4", "N13"]},
+  {"image": 12, "title": "عزم على السفر", "lines": ["WI5", "WI6", "T9", "T10"]},
+  {"image": 15, "title": "بداية مواجهة طويلة", "lines": ["N14"]}
+ ]}

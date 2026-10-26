@@ -1,0 +1,620 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep20",
+ "number": 20,
+ "title": "أسباب الاستبصار",
+ "durationMs": 219530,
+ "audio": {
+  "mode": "clips"
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AL_TIJANI": {
+   "name": "التيجاني"
+  },
+  "PROFESSOR_MUNIM": {
+   "name": "الأستاذ منعم"
+  },
+  "AL_TIJANI_ADULT": {
+   "name": "التيجاني الكبير"
+  },
+  "MUNIM_FATHER": {
+   "name": "والد منعم"
+  },
+  "MUNIM_MOTHER": {
+   "name": "والدة منعم"
+  },
+  "SHRINE_RESEARCHER": {
+   "name": "باحث عراقي في المقام"
+  },
+  "HAWZA_STUDENT": {
+   "name": "طالب حوزة"
+  },
+  "NAJAF_VISITOR": {
+   "name": "زائر في النجف"
+  },
+  "ABU_SHUBAR": {
+   "name": "السيد أبو شبر"
+  },
+  "BAQIR_AL_SADR": {
+   "name": "السيد محمد باقر الصدر"
+  },
+  "AL_BASHIR": {
+   "name": "البشير"
+  },
+  "DOCUMENT_READER": {
+   "name": "قارئ الوثائق"
+  },
+  "TEXT_READER": {
+   "name": "قارئ النصوص"
+  },
+  "TUNISIAN_INTERLOCUTOR": {
+   "name": "محاور تونسي"
+  },
+  "TUNISIAN_FRIEND": {
+   "name": "صديق تونسي"
+  },
+  "TUNISIAN_ELDER": {
+   "name": "أحد أهل تونس"
+  },
+  "AL_TIJANI_CHILD": {
+   "name": "التيجاني الصغير"
+  },
+  "FATHER": {
+   "name": "الأب"
+  },
+  "TEACHER": {
+   "name": "المعلم"
+  },
+  "WORSHIPPER_1": {
+   "name": "المصلي الأول"
+  },
+  "WORSHIPPER_2": {
+   "name": "المصلي الثاني"
+  },
+  "MOTHER": {
+   "name": "الأم"
+  },
+  "TRAVEL_COMPANION": {
+   "name": "رفيق الرحلة"
+  },
+  "TOWNSMAN": {
+   "name": "أحد أهل المدينة"
+  },
+  "STUDENT": {
+   "name": "أحد الطلاب"
+  },
+  "SHEIKH_ENVOY": {
+   "name": "موفد الشيخ"
+  },
+  "SHEIKH_ISMAIL": {
+   "name": "الشيخ إسماعيل الهديفي"
+  },
+  "SUFI_FOLLOWER": {
+   "name": "أحد أتباع الطريقة"
+  },
+  "WIFE": {
+   "name": "الزوجة"
+  },
+  "AHMAD_EGYPTIAN": {
+   "name": "أحمد المصري"
+  },
+  "SHEIKH_ABDULBASIT": {
+   "name": "الشيخ عبد الباسط"
+  },
+  "AZHAR_SCHOLAR": {
+   "name": "عالم أزهري"
+  },
+  "HUSAYN_SHRINE_KEEPER": {
+   "name": "مسؤول مقام الإمام الحسين"
+  },
+  "RELATIVE": {
+   "name": "أحد الأقارب"
+  },
+  "TUNISIAN_STUDENT": {
+   "name": "طالب"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "لم يكن قرارا عابرا",
+   "image": "ep20/images/scene_12.jpg",
+   "startMs": 0,
+   "endMs": 17710
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "لماذا تغيرت قناعتي؟",
+   "image": "ep20/images/scene_01.jpg",
+   "startMs": 17710,
+   "endMs": 34460
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "المرجعية بعد النبي",
+   "image": "ep20/images/scene_02.jpg",
+   "startMs": 34460,
+   "endMs": 60760
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "ما يستدلون به",
+   "image": "ep20/images/scene_03.jpg",
+   "startMs": 60760,
+   "endMs": 73200
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "روايات أهل البيت",
+   "image": "ep20/images/scene_04.jpg",
+   "startMs": 73200,
+   "endMs": 98030
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "الثقلين والغدير",
+   "image": "ep20/images/scene_05.jpg",
+   "startMs": 98030,
+   "endMs": 109580
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "تفسيرات مختلفة",
+   "image": "ep20/images/scene_06.jpg",
+   "startMs": 109580,
+   "endMs": 117560
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "أعمق من مذهب",
+   "image": "ep20/images/scene_07.jpg",
+   "startMs": 117560,
+   "endMs": 134090
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "سؤال عن المرجعية",
+   "image": "ep20/images/scene_08.jpg",
+   "startMs": 134090,
+   "endMs": 143320
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "محبة أهل البيت",
+   "image": "ep20/images/scene_09.jpg",
+   "startMs": 143320,
+   "endMs": 158070
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "الإنصاف مع المخالفين",
+   "image": "ep20/images/scene_10.jpg",
+   "startMs": 158070,
+   "endMs": 179260
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "مقدار التعب",
+   "image": "ep20/images/scene_11.jpg",
+   "startMs": 179260,
+   "endMs": 191300
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "لا تعصب",
+   "image": "ep20/images/scene_13.jpg",
+   "startMs": 191300,
+   "endMs": 203430
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "سؤال آخر",
+   "image": "ep20/images/scene_15.jpg",
+   "startMs": 203430,
+   "endMs": 219530
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep20_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت عميق ومتأمل",
+   "text": "لم يكن قرار محمد التيجاني ولداً فعال عابر ولا نتيجة لقاء واحد في عرض البحر لقد بدأت الحكاية بسؤال ثم امتدت إلى رحلة ثم تحولت إلى بحث طويل بين صفحات التاريخ والحديث والتفسير",
+   "startMs": 500,
+   "endMs": 17110,
+   "clip": {
+    "file": "audio/Batch 3/Narrŕatttor.wav",
+    "startMs": 3400,
+    "endMs": 20010
+   },
+   "lines": [
+    {
+     "text": "لم يكن قرار محمد التيجاني ولداً فعال عابر ولا نتيجة لقاء واحد في عرض البحر لقد بدأت الحكاية بسؤال ثم امتدت إلى رحلة ثم تحولت إلى بحث طويل بين صفحات التاريخ والحديث والتفسير",
+     "startMs": 500,
+     "endMs": 17110
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep20_s02_l01",
+   "scene": 2,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "",
+   "text": "حين أسأل نفسي اليوم لماذا تغيرت قناعتي لا أجد جواباً واحداً كانت هناك أسئلة كثيرة وأجوبة متراكمة وكتباً قرأتها أكثر من مرة",
+   "startMs": 18310,
+   "endMs": 33860,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 140,
+    "endMs": 15690
+   },
+   "lines": [
+    {
+     "text": "حين أسأل نفسي اليوم لماذا تغيرت قناعتي لا أجد جواباً واحداً كانت هناك أسئلة كثيرة وأجوبة متراكمة وكتباً قرأتها أكثر من مرة",
+     "startMs": 18310,
+     "endMs": 33859
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep20_s03_l01",
+   "scene": 3,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "وبهدوء فكري",
+   "text": "وبعد أشهر من المراجعة أراد محمد أن يفهم الأسباب التي جعلته يطمئن إلى اختياره الجديد كان أول ما شغله هو السؤال عن المرجعية الدينية بعد رحيل رسول الله صلى الله عليه وآله وسلم هل ترك النبي أمته لتختلف في تفسير الدين والقيادة؟ أم أن في النصوص النبوية ما يستحق إعادة النظر والبحث عن دلالته؟",
+   "startMs": 35060,
+   "endMs": 60160,
+   "clip": {
+    "file": "audio/Batch 3/Narrŕatttor.wav",
+    "startMs": 22940,
+    "endMs": 48040
+   },
+   "lines": [
+    {
+     "text": "وبعد أشهر من المراجعة أراد محمد أن يفهم الأسباب التي جعلته يطمئن إلى اختياره الجديد كان أول ما شغله هو السؤال عن المرجعية الدينية بعد رحيل رسول الله صلى الله عليه وآله وسلم هل ترك النبي أمته لتختلف في تفسير الدين والقيادة؟",
+     "startMs": 35060,
+     "endMs": 54460
+    },
+    {
+     "text": "أم أن في النصوص النبوية ما يستحق إعادة النظر والبحث عن دلالته؟",
+     "startMs": 54460,
+     "endMs": 60160
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep20_s04_l01",
+   "scene": 4,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بنبرجادة",
+   "text": "لم أعد أريد أن أعرف رأي الآخرين من خصومهم وحدهم أردت أن أقرأ ما يستدلون به ثم أعود إلى المصادر التي عرفتها منذ طفولتي",
+   "startMs": 61360,
+   "endMs": 72600,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 18150,
+    "endMs": 29390
+   },
+   "lines": [
+    {
+     "text": "لم أعد أريد أن أعرف رأي الآخرين من خصومهم وحدهم أردت أن أقرأ ما يستدلون به ثم أعود إلى المصادر التي عرفتها منذ طفولتي",
+     "startMs": 61360,
+     "endMs": 72600
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep20_s05_l01",
+   "scene": 5,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة جادة",
+   "text": "توقف عند الروايات المتعلقة بأهل البيت ومنها حديث الثقلين وحديث الغدير وغيرهما من النصوص التي تختلف المدارس الإسلامية في تفسير بعض دلالاتها لم يكن مجرد وجود الرواية كافيا عنده بل حاول أن يعرف ألفاظها ومصادرها ثم يدرس كيف فهمها العلماء ولماذا اختلفوا في الاستدلال بها",
+   "startMs": 73800,
+   "endMs": 97430,
+   "clip": {
+    "file": "audio/Batch 3/Narrŕatttor.wav",
+    "startMs": 50510,
+    "endMs": 74140
+   },
+   "lines": [
+    {
+     "text": "توقف عند الروايات المتعلقة بأهل البيت ومنها حديث الثقلين وحديث الغدير وغيرهما من النصوص التي تختلف المدارس الإسلامية في تفسير بعض دلالاتها لم يكن مجرد وجود الرواية كافيا عنده بل حاول أن يعرف ألفاظها ومصادرها ثم يدرس كيف فهمها العلماء ولماذا اختلفوا في الاستدلال بها",
+     "startMs": 73800,
+     "endMs": 97429
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep20_s06_l01",
+   "scene": 6,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بفضول ألمي",
+   "text": "حديث الثقلين وحديث الغدير ما ألفاظ هذه الروايات وما درجة ثبوتها وكيف فهمها علماء المسلمين",
+   "startMs": 98630,
+   "endMs": 109280,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 32130,
+    "endMs": 42780
+   },
+   "lines": [
+    {
+     "text": "حديث الثقلين وحديث الغدير ما ألفاظ هذه الروايات وما درجة ثبوتها وكيف فهمها علماء المسلمين",
+     "startMs": 98630,
+     "endMs": 109279
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep20_s07_l01",
+   "scene": 7,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بتأنن",
+   "text": "كنت أجد تفسيرات مختلفة للنص الواحد فأعود إلى القراءة وأقارن بين الأقوال",
+   "startMs": 109880,
+   "endMs": 116960,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 45510,
+    "endMs": 52590
+   },
+   "lines": [
+    {
+     "text": "كنت أجد تفسيرات مختلفة للنص الواحد فأعود إلى القراءة وأقارن بين الأقوال",
+     "startMs": 109880,
+     "endMs": 116959
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep20_s08_l01",
+   "scene": 8,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بتأثر هادئ",
+   "text": "وشيئا فشيئا صار يرى أن القضية أعمق من الانتماء إلى مذهب إنها سؤال عن الطريق الذي يظن أنه أقرب إلى تعاليم النبي وعن المسئولية التي يتحملها الإنسان حين يجد دليلا يطمئن إليه",
+   "startMs": 118160,
+   "endMs": 133490,
+   "clip": {
+    "file": "audio/Batch 3/Narrŕatttor.wav",
+    "startMs": 76630,
+    "endMs": 91960
+   },
+   "lines": [
+    {
+     "text": "وشيئا فشيئا صار يرى أن القضية أعمق من الانتماء إلى مذهب إنها سؤال عن الطريق الذي يظن أنه أقرب إلى تعاليم النبي وعن المسئولية التي يتحملها الإنسان حين يجد دليلا يطمئن إليه",
+     "startMs": 118160,
+     "endMs": 133489
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep20_s09_l01",
+   "scene": 9,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت هادئ حازم",
+   "text": "لقد أصبحت مسألة الإمامة بالنسبة إلي سؤالا عن المرجعية لا مجرد جدل حول أسماء وشخصيات",
+   "startMs": 134690,
+   "endMs": 143020,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 55630,
+    "endMs": 63960
+   },
+   "lines": [
+    {
+     "text": "لقد أصبحت مسألة الإمامة بالنسبة إلي سؤالا عن المرجعية لا مجرد جدل حول أسماء وشخصيات",
+     "startMs": 134690,
+     "endMs": 143019
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep20_s10_l01",
+   "scene": 10,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بتأثر",
+   "text": "وكنت أشعر أن محبة أهل بيت رسول الله صلى الله عليه وآله وسلم يجب أن تدفعني إلى معرفة سيرتهم وأقوالهم ومكانتهم لا أن تبقى كلمات أرددها دون فهم",
+   "startMs": 143620,
+   "endMs": 157470,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 66100,
+    "endMs": 79950
+   },
+   "lines": [
+    {
+     "text": "وكنت أشعر أن محبة أهل بيت رسول الله صلى الله عليه وآله وسلم يجب أن تدفعني إلى معرفة سيرتهم وأقوالهم ومكانتهم لا أن تبقى كلمات أرددها دون فهم",
+     "startMs": 143620,
+     "endMs": 157470
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep20_s11_l01",
+   "scene": 11,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة متزنة",
+   "text": "ووجد في المدرسة الإمامية تفسيرا للتاريخ الإسلامي ومسألة الإمامة أقنعه بعد بحثه لكنه أدرك كذلك أن الوصول إلى قناعة شخصية لا يعفي الباحث من الإنصاف مع المخالفين ولا يجعل جميع المسائل التاريخية محل اتفاق",
+   "startMs": 158670,
+   "endMs": 178660,
+   "clip": {
+    "file": "audio/Batch 3/Narrŕatttor.wav",
+    "startMs": 94350,
+    "endMs": 114340
+   },
+   "lines": [
+    {
+     "text": "ووجد في المدرسة الإمامية تفسيرا للتاريخ الإسلامي ومسألة الإمامة أقنعه بعد بحثه لكنه أدرك كذلك أن الوصول إلى قناعة شخصية لا يعفي الباحث من الإنصاف مع المخالفين ولا يجعل جميع المسائل التاريخية محل اتفاق",
+     "startMs": 158670,
+     "endMs": 178660
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep20_s12_l01",
+   "scene": 12,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت معترف",
+   "text": "قد يختلف معي غيري في النتيجة وقد يناقش الأدلة التي اعتمدت عليها لكنني أعرف مقدار التعب الذي بذلته قبل أن أصل إلى هذه القناع",
+   "startMs": 179860,
+   "endMs": 191000,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 82160,
+    "endMs": 93300
+   },
+   "lines": [
+    {
+     "text": "قد يختلف معي غيري في النتيجة وقد يناقش الأدلة التي اعتمدت عليها لكنني أعرف مقدار التعب الذي بذلته قبل أن أصل إلى هذه القناع",
+     "startMs": 179860,
+     "endMs": 191000
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep20_s13_l01",
+   "scene": 13,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بعزم هادئ",
+   "text": "لن يكون انتمائي الجديد عذرا للتعصب إن كنت قد تعلمت شيئا من رحلتي فهو أن الإنصاف يبدأ حين أستطيع سماع الرأي الذي لا يعجبني",
+   "startMs": 191600,
+   "endMs": 202830,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 95480,
+    "endMs": 106710
+   },
+   "lines": [
+    {
+     "text": "لن يكون انتمائي الجديد عذرا للتعصب إن كنت قد تعلمت شيئا من رحلتي فهو أن الإنصاف يبدأ حين أستطيع سماع الرأي الذي لا يعجبني",
+     "startMs": 191600,
+     "endMs": 202830
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep20_s14_l01",
+   "scene": 14,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت ختامي يحمل ترقبا",
+   "text": "ومع اقترابه من نهاية هذه المرحلة بقي سؤال آخر ينتظره إذا كان النص الديني واضحا في مسألة ما فهل يجوز أن يقدم الإنسان عليه اجتهاده ورأيه",
+   "startMs": 204030,
+   "endMs": 218030,
+   "clip": {
+    "file": "audio/Batch 3/Narrŕatttor.wav",
+    "startMs": 117580,
+    "endMs": 131580
+   },
+   "lines": [
+    {
+     "text": "ومع اقترابه من نهاية هذه المرحلة بقي سؤال آخر ينتظره إذا كان النص الديني واضحا في مسألة ما فهل يجوز أن يقدم الإنسان عليه اجتهاده ورأيه",
+     "startMs": 204030,
+     "endMs": 218030
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  }
+ ],
+ "textStatus": "recovered-transcript"
+}

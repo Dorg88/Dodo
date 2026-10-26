@@ -1,0 +1,145 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "النقاش يستمر",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: نقاش"
+  },
+  {
+   "scene": 2,
+   "title": "كتب معروفة",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: كتب"
+  },
+  {
+   "scene": 3,
+   "title": "شهادة طرف واحد",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: مصادر"
+  },
+  {
+   "scene": 4,
+   "title": "في كتب الشيعة أنفسهم",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: كتب"
+  },
+  {
+   "scene": 5,
+   "title": "حجة بلا أرض صلبة",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 6,
+   "title": "دعوة إلى العراق",
+   "music": "warm",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "text: سفر"
+  },
+  {
+   "scene": 7,
+   "title": "أمنية قديمة",
+   "music": "warm",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "text: سفر"
+  },
+  {
+   "scene": 8,
+   "title": "التأشيرة",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 9,
+   "title": "ليل على سطح الباخرة",
+   "music": "reflective",
+   "sfx": [
+    "sea"
+   ],
+   "level": 0.85,
+   "reason": "title: باخرة"
+  },
+  {
+   "scene": 10,
+   "title": "في ميناء بيروت",
+   "music": "reflective",
+   "sfx": [
+    "sea"
+   ],
+   "level": 0.85,
+   "reason": "title: ميناء"
+  },
+  {
+   "scene": 11,
+   "title": "بيروت",
+   "music": "nostalgic",
+   "sfx": [
+    "night"
+   ],
+   "level": 0.85,
+   "reason": "text: ليل"
+  },
+  {
+   "scene": 12,
+   "title": "ذكرى اللقاء",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: سؤال"
+  },
+  {
+   "scene": 13,
+   "title": "الطريق إلى دمشق",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: قراءة"
+  },
+  {
+   "scene": 14,
+   "title": "تأشيرة العراق",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 15,
+   "title": "الطريق إلى بغداد مفتوح",
+   "music": "ending",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: بغداد; last scene"
+  }
+ ]
+}

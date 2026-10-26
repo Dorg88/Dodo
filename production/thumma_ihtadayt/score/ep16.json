@@ -1,0 +1,133 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "المكتبة",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: مكتبة"
+  },
+  {
+   "scene": 2,
+   "title": "مكتبة خاصة",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: مكتبة"
+  },
+  {
+   "scene": 3,
+   "title": "أقرؤها كلها",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 4,
+   "title": "العودة إلى التعليم",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 5,
+   "title": "ساعات المطالعة",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 6,
+   "title": "هدف واضح",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: مصادر"
+  },
+  {
+   "scene": 7,
+   "title": "جمع الروايات",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: روايات"
+  },
+  {
+   "scene": 8,
+   "title": "قول وقول آخر",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 9,
+   "title": "كيف تنتقل المعرفة",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: سؤال"
+  },
+  {
+   "scene": 10,
+   "title": "خوف من النتائج",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 11,
+   "title": "جدوى البحث",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 12,
+   "title": "وحده بين الرفوف",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 13,
+   "title": "الصوت الداخلي",
+   "music": "warm",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: الحقيقة"
+  },
+  {
+   "scene": 14,
+   "title": "دعاء",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 15,
+   "title": "محاسبة النفس",
+   "music": "ending",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: يقين; last scene"
+  }
+ ]
+}

@@ -10,15 +10,19 @@
 # Inputs: ~/HIKAYA/assets (hikaya_assets.py), the transcripts (hikaya_transcribe.py:
 # large-v3-turbo in ~/HIKAYA/transcripts for all recordings, large-v3 in
 # ~/HIKAYA/transcripts_large for Episodes 01–06 and Batch 3), the per-character
-# scripts (delivered drafts for 07–22, recovered scripts for 01–06 and 20–22), and
+# scripts (delivered drafts for 07–22, recovered scripts for 02–06 and 20–22), and
 # the scene orders in $BOOK/order/. Nothing here changes a recording or an image.
+# Episode 01 is the first version, copied unchanged from the app's bundled book
+# (storybook/assets/books/thumma_ihtadayt/ep01); it is never rebuilt here. The
+# pipeline's trial on it (cuts compared with the hand cuts) is kept apart in
+# ~/HIKAYA/books/ep01_pipeline_trial.
 set -euo pipefail
 cd "$(dirname "$0")/../.."
 PY=${PY:-$HOME/HIKAYA/.venv/bin/python}
 BOOK=${BOOK:-$HOME/HIKAYA/books/thumma_ihtadayt}
 DRAFTS=$HOME/HIKAYA/assets/audio/HIKAYA_TTS_Scripts_01_22_Handover/HIKAYA_TTS_Handover
-REC=$HOME/HIKAYA/recovered_scripts
-ALL="01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22"
+REC=$HOME/HIKAYA/recovered_scripts/data   # with the spoken directions, which alignment needs
+ALL="02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22"   # 01: first version, unchanged
 
 source_script() {  # per-character script of an episode
   case $1 in
@@ -45,7 +49,6 @@ case ${1:-} in
     done ;;
   align)
     T=$HOME/HIKAYA/transcripts; L=$HOME/HIKAYA/transcripts_large
-    align ep01 "$T" large-v3-turbo - 01
     for e in 02 03 04 05 06; do align "ep$e" "$L" large-v3 recovered-transcript "$e"; done
     align ep07 "$T" large-v3-turbo - 07
     align ep08 "$T" large-v3-turbo - 08
@@ -60,6 +63,8 @@ case ${1:-} in
         --book-dir "$BOOK" --episode "ep$e" --video | tail -1
     done ;;
   pack)
+    cmp -s storybook/assets/books/thumma_ihtadayt/ep01/episode.json "$BOOK/ep01/episode.json" || \
+      { echo "ep01 differs from the first version: rsync -a storybook/assets/books/thumma_ihtadayt/ep01/ $BOOK/ep01/"; exit 1; }
     python3 tools/hikaya/hikaya_pack.py refresh "$BOOK"
     python3 tools/hikaya/hikaya_pack.py build "$BOOK" -o "$HOME/HIKAYA/thumma_ihtadayt-v$(python3 -c \
       "import json;print(json.load(open('$BOOK/book.json'))['version'])").zip" ;;
@@ -77,7 +82,9 @@ case ${1:-} in
       [ -f "$d/alignment.csv" ] && cp "$d/alignment.csv" "$P/reports/$n/"
     done
     rsync -a --include='*/' --include='*.txt' --include='*.md' --include='*.csv' --include='*.docx' --include='*.json' \
-      --exclude='*' "$REC/" "$P/recovered_scripts/"
+      --exclude='*' "$HOME/HIKAYA/recovered_scripts/" "$P/recovered_scripts/"
+    TR=$HOME/HIKAYA/books/ep01_pipeline_trial; mkdir -p "$P/ep01_pipeline_trial"
+    cp "$TR"/reports/ep01/*.md "$TR/order/ep01.json" "$TR/scripts/ep01.txt" "$P/ep01_pipeline_trial/"
     cp "$HOME/HIKAYA/assets/INVENTORY.md" "$P/INVENTORY.md" ;;
   *) sed -n '2,15p' "$0"; exit 2 ;;
 esac

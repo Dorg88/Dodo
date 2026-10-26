@@ -127,6 +127,12 @@ def check_clips(ep, cache, model):
         extra_head = got[: blocks[0].b] if blocks else got
         extra_tail = got[blocks[-1].b + blocks[-1].size:] if blocks else []
         issues = []
+        # a phrase the transcriber invents in the silence that closes a clip
+        # («المترجم للقناة»…) is not speech in the clip
+        from hikaya_recover import HALLUCINATIONS
+        if extra_tail and any(extra_tail[-len(h):] == [norm(x)[0] if norm(x) else x for x in h] and len(extra_tail) == len(h)
+                              for h in HALLUCINATIONS if len(h) > 1):
+            extra_tail = []
         for side, extra in (("start", extra_head), ("end", extra_tail)):
             if not extra:
                 continue

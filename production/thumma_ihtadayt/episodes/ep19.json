@@ -1,0 +1,786 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep19",
+ "number": 19,
+ "title": "لحظة التحول",
+ "durationMs": 127555,
+ "audio": {
+  "mode": "clips",
+  "music": "ep19/audio/score_music.m4a",
+  "sfx": "ep19/audio/score_sfx.m4a",
+  "musicLoop": false
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AL_TIJANI": {
+   "name": "التيجاني"
+  },
+  "PROFESSOR_MUNIM": {
+   "name": "الأستاذ منعم"
+  },
+  "AL_TIJANI_ADULT": {
+   "name": "التيجاني الكبير"
+  },
+  "MUNIM_FATHER": {
+   "name": "والد منعم"
+  },
+  "MUNIM_MOTHER": {
+   "name": "والدة منعم"
+  },
+  "SHRINE_RESEARCHER": {
+   "name": "باحث عراقي في المقام"
+  },
+  "HAWZA_STUDENT": {
+   "name": "طالب حوزة"
+  },
+  "NAJAF_VISITOR": {
+   "name": "زائر في النجف"
+  },
+  "ABU_SHUBAR": {
+   "name": "السيد أبو شبر"
+  },
+  "BAQIR_AL_SADR": {
+   "name": "السيد محمد باقر الصدر"
+  },
+  "AL_BASHIR": {
+   "name": "البشير"
+  },
+  "DOCUMENT_READER": {
+   "name": "قارئ الوثائق"
+  },
+  "TEXT_READER": {
+   "name": "قارئ النصوص"
+  },
+  "TUNISIAN_INTERLOCUTOR": {
+   "name": "محاور تونسي"
+  },
+  "TUNISIAN_FRIEND": {
+   "name": "صديق تونسي"
+  },
+  "TUNISIAN_ELDER": {
+   "name": "أحد أهل تونس"
+  },
+  "AL_TIJANI_CHILD": {
+   "name": "التيجاني الصغير"
+  },
+  "FATHER": {
+   "name": "الأب"
+  },
+  "TEACHER": {
+   "name": "المعلم"
+  },
+  "WORSHIPPER_1": {
+   "name": "المصلي الأول"
+  },
+  "WORSHIPPER_2": {
+   "name": "المصلي الثاني"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "ثلاثة أشهر",
+   "image": "ep19/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 4880
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "لا طمأنينة سريعة",
+   "image": "ep19/images/scene_02.jpg",
+   "startMs": 4880,
+   "endMs": 15830
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "أراجع وأقارن",
+   "image": "ep19/images/scene_03.jpg",
+   "startMs": 15830,
+   "endMs": 24410
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "أخشى أن أكون ظلمت أحدا",
+   "image": "ep19/images/scene_04.jpg",
+   "startMs": 24410,
+   "endMs": 31290
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "حيرة حتى في النوم",
+   "image": "ep19/images/scene_05.jpg",
+   "startMs": 31290,
+   "endMs": 35805
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "خوف من تجاوز الحدود",
+   "image": "ep19/images/scene_06.jpg",
+   "startMs": 35805,
+   "endMs": 40715
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "خوف من إغلاق الباب",
+   "image": "ep19/images/scene_07.jpg",
+   "startMs": 40715,
+   "endMs": 46655
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "شيء يتغير",
+   "image": "ep19/images/scene_08.jpg",
+   "startMs": 46655,
+   "endMs": 49565
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "قراءة نقدية",
+   "image": "ep19/images/scene_09.jpg",
+   "startMs": 49565,
+   "endMs": 57105
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "عودة إلى الدعاء",
+   "image": "ep19/images/scene_10.jpg",
+   "startMs": 57105,
+   "endMs": 66825
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "أبدأ أفهم",
+   "image": "ep19/images/scene_11.jpg",
+   "startMs": 66825,
+   "endMs": 75825
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "لحظة الموقف",
+   "image": "ep19/images/scene_12.jpg",
+   "startMs": 75825,
+   "endMs": 80625
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "القناعة",
+   "image": "ep19/images/scene_13.jpg",
+   "startMs": 80625,
+   "endMs": 90535
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "مسؤولية الاختيار",
+   "image": "ep19/images/scene_14.jpg",
+   "startMs": 90535,
+   "endMs": 97235
+  },
+  {
+   "number": 15,
+   "id": "s15",
+   "title": "بداية هداية وراحة",
+   "image": "ep19/images/scene_15.jpg",
+   "startMs": 97235,
+   "endMs": 127555
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep19_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت هادئ حزين قليلا",
+   "text": "مرت ثلاثة أشهر ومحمد يعيش اضطرابا عميقا.",
+   "startMs": 500,
+   "endMs": 4880,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 312430,
+    "endMs": 316810
+   },
+   "lines": [
+    {
+     "text": "مرت ثلاثة أشهر ومحمد يعيش اضطرابا عميقا.",
+     "startMs": 500,
+     "endMs": 4879
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep19_s02_l01",
+   "scene": 2,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "لم تكن القراءة تعطيه طمأنينة سريعة؛ بل كانت تعيد إليه كل يوم سؤالا عن نفسه وتربيته وعلاقاته وأحكامه القديمة.",
+   "startMs": 4880,
+   "endMs": 15230,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 317110,
+    "endMs": 327460
+   },
+   "lines": [
+    {
+     "text": "لم تكن القراءة تعطيه طمأنينة سريعة؛ بل كانت تعيد إليه كل يوم سؤالا عن نفسه وتربيته وعلاقاته وأحكامه القديمة.",
+     "startMs": 4880,
+     "endMs": 15229
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep19_s03_l01",
+   "scene": 3,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت مرهق ومضطرب",
+   "text": "ثلاثة أشهر... وأنا أراجع وأقارن وأتردد. كلما حاولت النوم عاد إلي سؤال جديد.",
+   "startMs": 16430,
+   "endMs": 24110,
+   "clip": {
+    "file": "audio/Batch 2/Tiǰǰjani.wav",
+    "startMs": 201030,
+    "endMs": 208710
+   },
+   "lines": [
+    {
+     "text": "ثلاثة أشهر...",
+     "startMs": 16430,
+     "endMs": 17420
+    },
+    {
+     "text": "وأنا أراجع وأقارن وأتردد.",
+     "startMs": 17420,
+     "endMs": 20339
+    },
+    {
+     "text": "كلما حاولت النوم عاد إلي سؤال جديد.",
+     "startMs": 20339,
+     "endMs": 24110
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep19_s04_l01",
+   "scene": 4,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بخوف صادق",
+   "text": "أخشى أن أكون ظلمت أحدا، أو اتبعت رأيا لأني اعتدته لا لأني تحققت منه.",
+   "startMs": 24710,
+   "endMs": 30690,
+   "clip": {
+    "file": "audio/Batch 2/Tiǰǰjani.wav",
+    "startMs": 210800,
+    "endMs": 216780
+   },
+   "lines": [
+    {
+     "text": "أخشى أن أكون ظلمت أحدا، أو اتبعت رأيا لأني اعتدته لا لأني تحققت منه.",
+     "startMs": 24710,
+     "endMs": 30690
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep19_s05_l01",
+   "scene": 5,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بتأثر",
+   "text": "يصف في كتابه أن الحيرة لازمته حتى في النوم.",
+   "startMs": 31890,
+   "endMs": 35805,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 329730,
+    "endMs": 333645
+   },
+   "lines": [
+    {
+     "text": "يصف في كتابه أن الحيرة لازمته حتى في النوم.",
+     "startMs": 31890,
+     "endMs": 35804
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep19_s06_l01",
+   "scene": 6,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "كان يخاف أن يكون قد تجاوز حدودا تربى على عدم الاقتراب منها،",
+   "startMs": 35805,
+   "endMs": 40715,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 333750,
+    "endMs": 338660
+   },
+   "lines": [
+    {
+     "text": "كان يخاف أن يكون قد تجاوز حدودا تربى على عدم الاقتراب منها،",
+     "startMs": 35805,
+     "endMs": 40715
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep19_s07_l01",
+   "scene": 7,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "ويخاف في الوقت نفسه أن يغلق باب الحقيقة خوفا من الناس أو الذكريات.",
+   "startMs": 40715,
+   "endMs": 46355,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 338810,
+    "endMs": 344450
+   },
+   "lines": [
+    {
+     "text": "ويخاف في الوقت نفسه أن يغلق باب الحقيقة خوفا من الناس أو الذكريات.",
+     "startMs": 40715,
+     "endMs": 46354
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep19_s08_l01",
+   "scene": 8,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة متصاعدة",
+   "text": "لكن شيئا كان يتغير في داخله.",
+   "startMs": 46955,
+   "endMs": 49565,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 347330,
+    "endMs": 349940
+   },
+   "lines": [
+    {
+     "text": "لكن شيئا كان يتغير في داخله.",
+     "startMs": 46955,
+     "endMs": 49565
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep19_s09_l01",
+   "scene": 9,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "صار أقل استعدادا لقبول حكم بلا دليل، وأكثر رغبة في قراءة التاريخ قراءة نقدية.",
+   "startMs": 49565,
+   "endMs": 57105,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 350260,
+    "endMs": 357800
+   },
+   "lines": [
+    {
+     "text": "صار أقل استعدادا لقبول حكم بلا دليل، وأكثر رغبة في قراءة التاريخ قراءة نقدية.",
+     "startMs": 49565,
+     "endMs": 57105
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep19_s10_l01",
+   "scene": 10,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "وكلما شعر بالقلق، عاد إلى الدعاء، طالبا الهداية.",
+   "startMs": 57105,
+   "endMs": 61235,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 358270,
+    "endMs": 362400
+   },
+   "lines": [
+    {
+     "text": "وكلما شعر بالقلق، عاد إلى الدعاء، طالبا الهداية.",
+     "startMs": 57105,
+     "endMs": 61234
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep19_s10_l02",
+   "scene": 10,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بدعاء مخلص",
+   "text": "اللهم لا تجعل خوفي من الناس أكبر من رغبتي في معرفة الحق.",
+   "startMs": 61835,
+   "endMs": 66525,
+   "clip": {
+    "file": "audio/Batch 2/Tiǰǰjani.wav",
+    "startMs": 218480,
+    "endMs": 223170
+   },
+   "lines": [
+    {
+     "text": "اللهم لا تجعل خوفي من الناس أكبر من رغبتي في معرفة الحق.",
+     "startMs": 61835,
+     "endMs": 66524
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep19_s11_l01",
+   "scene": 11,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "براحة تدريجية",
+   "text": "ها أنا أبدأ أفهم لماذا كان بعض الأجوبة التي سمعتها في العراق تؤثر في نفسي كل ذلك التأثير.",
+   "startMs": 67125,
+   "endMs": 75225,
+   "clip": {
+    "file": "audio/Batch 2/Tiǰǰjani.wav",
+    "startMs": 226180,
+    "endMs": 234280
+   },
+   "lines": [
+    {
+     "text": "ها أنا أبدأ أفهم لماذا كان بعض الأجوبة التي سمعتها في العراق تؤثر في نفسي كل ذلك التأثير.",
+     "startMs": 67125,
+     "endMs": 75224
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.989,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep19_s12_l01",
+   "scene": 12,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بوقار",
+   "text": "ثم جاءت لحظة اتخذ فيها موقفا من القضايا التي بحثها.",
+   "startMs": 76425,
+   "endMs": 80625,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 364860,
+    "endMs": 369060
+   },
+   "lines": [
+    {
+     "text": "ثم جاءت لحظة اتخذ فيها موقفا من القضايا التي بحثها.",
+     "startMs": 76425,
+     "endMs": 80624
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep19_s13_l01",
+   "scene": 13,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "يروي التيجاني أنه وصل، بعد هذا الصراع، إلى اقتناع بالمدرسة الإمامية الاثني عشرية واتباع أهل البيت عليهم السلام.",
+   "startMs": 80625,
+   "endMs": 89935,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 369630,
+    "endMs": 378940
+   },
+   "lines": [
+    {
+     "text": "يروي التيجاني أنه وصل، بعد هذا الصراع، إلى اقتناع بالمدرسة الإمامية الاثني عشرية واتباع أهل البيت عليهم السلام.",
+     "startMs": 80625,
+     "endMs": 89935
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.995,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep19_s14_l01",
+   "scene": 14,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بعزم عاطفي",
+   "text": "لقد وصلت إلى قناعة بعد طول بحث. وسأتحمل مسؤولية اختياري.",
+   "startMs": 91135,
+   "endMs": 96635,
+   "clip": {
+    "file": "audio/Batch 2/Tiǰǰjani.wav",
+    "startMs": 237380,
+    "endMs": 242880
+   },
+   "lines": [
+    {
+     "text": "لقد وصلت إلى قناعة بعد طول بحث.",
+     "startMs": 91135,
+     "endMs": 93755
+    },
+    {
+     "text": "وسأتحمل مسؤولية اختياري.",
+     "startMs": 93755,
+     "endMs": 96635
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep19_s15_l01",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت ختامي مؤثر",
+   "text": "في نظره كانت تلك بداية هداية وراحة. وفي نظر القصة كلها، كانت نهاية مرحلة من الشك وبداية مسؤولية جديدة: أن يشرح للآخرين كيف وصل إلى ما وصل إليه.",
+   "startMs": 97835,
+   "endMs": 112340,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 382220,
+    "endMs": 396725
+   },
+   "lines": [
+    {
+     "text": "في نظره كانت تلك بداية هداية وراحة.",
+     "startMs": 97835,
+     "endMs": 101015
+    },
+    {
+     "text": "وفي نظر القصة كلها، كانت نهاية مرحلة من الشك وبداية مسؤولية جديدة: أن يشرح للآخرين كيف وصل إلى ما وصل إليه.",
+     "startMs": 101015,
+     "endMs": 112340
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep19_s15_l02",
+   "scene": 15,
+   "speakerId": "AL_TIJANI_ADULT",
+   "speakerName": "التيجاني الكبير",
+   "direction": "بصوت ناضج ممتن",
+   "text": "لم يحدث التحول في ليلة واحدة. كان ثمرة قراءة وقلق وخوف ومراجعة. وحين اطمأن قلبي إلى النتيجة، شعرت وكأن عبئا ثقيلا بدأ يزول.",
+   "startMs": 112940,
+   "endMs": 126055,
+   "clip": {
+    "file": "audio/Batch 2/Tiǰǰjani.wav",
+    "startMs": 246730,
+    "endMs": 259845
+   },
+   "lines": [
+    {
+     "text": "لم يحدث التحول في ليلة واحدة.",
+     "startMs": 112940,
+     "endMs": 115190
+    },
+    {
+     "text": "كان ثمرة قراءة وقلق وخوف ومراجعة.",
+     "startMs": 115190,
+     "endMs": 119250
+    },
+    {
+     "text": "وحين اطمأن قلبي إلى النتيجة، شعرت وكأن عبئا ثقيلا بدأ يزول.",
+     "startMs": 119250,
+     "endMs": 126055
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.959,
+    "flags": []
+   }
+  }
+ ],
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "suspense",
+   "startMs": 0,
+   "endMs": 5680
+  },
+  {
+   "scene": 2,
+   "cue": "suspense",
+   "startMs": 4080,
+   "endMs": 16630
+  },
+  {
+   "scene": 3,
+   "cue": "suspense",
+   "startMs": 15030,
+   "endMs": 25210
+  },
+  {
+   "scene": 4,
+   "cue": "reflective",
+   "startMs": 23610,
+   "endMs": 32089
+  },
+  {
+   "scene": 5,
+   "cue": "suspense",
+   "startMs": 30490,
+   "endMs": 36605
+  },
+  {
+   "scene": 6,
+   "cue": "reflective",
+   "startMs": 35005,
+   "endMs": 41515
+  },
+  {
+   "scene": 7,
+   "cue": "warm",
+   "startMs": 39915,
+   "endMs": 47455
+  },
+  {
+   "scene": 8,
+   "cue": "reflective",
+   "startMs": 45855,
+   "endMs": 50364
+  },
+  {
+   "scene": 9,
+   "cue": "reflective",
+   "startMs": 48765,
+   "endMs": 57904
+  },
+  {
+   "scene": 10,
+   "cue": "suspense",
+   "startMs": 56305,
+   "endMs": 67625
+  },
+  {
+   "scene": 11,
+   "cue": "reflective",
+   "startMs": 66025,
+   "endMs": 76625
+  },
+  {
+   "scene": 12,
+   "cue": "reflective",
+   "startMs": 75025,
+   "endMs": 81425
+  },
+  {
+   "scene": 13,
+   "cue": "reflective",
+   "startMs": 79825,
+   "endMs": 91335
+  },
+  {
+   "scene": 14,
+   "cue": "reflective",
+   "startMs": 89735,
+   "endMs": 98035
+  },
+  {
+   "scene": 15,
+   "cue": "ending",
+   "startMs": 96435,
+   "endMs": 128355
+  }
+ ]
+}

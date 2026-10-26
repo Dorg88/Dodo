@@ -1,0 +1,39 @@
+[
+ {
+  "file": "~/HIKAYA/assets/audio/Ep2/Narrator2.wav",
+  "display_file": "Ep2.zip/Narrator2.wav",
+  "label": "الراوي",
+  "basis": "اسم الملف"
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Ep2/Bigtijani.wav",
+  "display_file": "Ep2.zip/Bigtijani.wav",
+  "label": "التيجاني الكبير",
+  "basis": "اسم الملف (Big Tijani) ومضمونه: يتذكر طفولته بصيغة الماضي",
+  "direction_text": [
+   "تغمره مشاعر الشوق",
+   "يحمل دهشة وفرحا"
+  ]
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Ep2/Mom.wav",
+  "display_file": "Ep2.zip/Mom.wav",
+  "label": "الأم",
+  "basis": "اسم الملف",
+  "direction_spans": [
+   {
+    "span": [
+     13.4,
+     14.72
+    ],
+    "reason": "«مسموعة،» تكملة «بفرح واعتزاز مع ابتسامة مسموعة» قبل «ما شاء الله عليك»"
+   }
+  ]
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Ep2/Dad.wav",
+  "display_file": "Ep2.zip/Dad.wav",
+  "label": "الأب",
+  "basis": "اسم الملف"
+ }
+]

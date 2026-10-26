@@ -1,0 +1,982 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep03",
+ "number": 3,
+ "title": "أمام الكعبة لأول مرة",
+ "durationMs": 276285,
+ "audio": {
+  "mode": "clips",
+  "music": "ep03/audio/score_music.m4a",
+  "sfx": "ep03/audio/score_sfx.m4a",
+  "musicLoop": false
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AL_TIJANI": {
+   "name": "التيجاني"
+  },
+  "PROFESSOR_MUNIM": {
+   "name": "الأستاذ منعم"
+  },
+  "AL_TIJANI_ADULT": {
+   "name": "التيجاني الكبير"
+  },
+  "MUNIM_FATHER": {
+   "name": "والد منعم"
+  },
+  "MUNIM_MOTHER": {
+   "name": "والدة منعم"
+  },
+  "SHRINE_RESEARCHER": {
+   "name": "باحث عراقي في المقام"
+  },
+  "HAWZA_STUDENT": {
+   "name": "طالب حوزة"
+  },
+  "NAJAF_VISITOR": {
+   "name": "زائر في النجف"
+  },
+  "ABU_SHUBAR": {
+   "name": "السيد أبو شبر"
+  },
+  "BAQIR_AL_SADR": {
+   "name": "السيد محمد باقر الصدر"
+  },
+  "AL_BASHIR": {
+   "name": "البشير"
+  },
+  "DOCUMENT_READER": {
+   "name": "قارئ الوثائق"
+  },
+  "TEXT_READER": {
+   "name": "قارئ النصوص"
+  },
+  "TUNISIAN_INTERLOCUTOR": {
+   "name": "محاور تونسي"
+  },
+  "TUNISIAN_FRIEND": {
+   "name": "صديق تونسي"
+  },
+  "TUNISIAN_ELDER": {
+   "name": "أحد أهل تونس"
+  },
+  "AL_TIJANI_CHILD": {
+   "name": "التيجاني الصغير"
+  },
+  "FATHER": {
+   "name": "الأب"
+  },
+  "TEACHER": {
+   "name": "المعلم"
+  },
+  "WORSHIPPER_1": {
+   "name": "المصلي الأول"
+  },
+  "WORSHIPPER_2": {
+   "name": "المصلي الثاني"
+  },
+  "MOTHER": {
+   "name": "الأم"
+  },
+  "TRAVEL_COMPANION": {
+   "name": "رفيق الرحلة"
+  },
+  "TOWNSMAN": {
+   "name": "أحد أهل المدينة"
+  },
+  "STUDENT": {
+   "name": "أحد الطلاب"
+  },
+  "SHEIKH_ENVOY": {
+   "name": "موفد الشيخ"
+  },
+  "SHEIKH_ISMAIL": {
+   "name": "الشيخ إسماعيل الهديفي"
+  },
+  "SUFI_FOLLOWER": {
+   "name": "أحد أتباع الطريقة"
+  },
+  "WIFE": {
+   "name": "الزوجة"
+  },
+  "AHMAD_EGYPTIAN": {
+   "name": "أحمد المصري"
+  },
+  "SHEIKH_ABDULBASIT": {
+   "name": "الشيخ عبد الباسط"
+  },
+  "AZHAR_SCHOLAR": {
+   "name": "عالم أزهري"
+  },
+  "HUSAYN_SHRINE_KEEPER": {
+   "name": "مسؤول مقام الإمام الحسين"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "أصغر أفراد البعثة",
+   "image": "ep03/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 22500
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "الطريق إلى مكة",
+   "image": "ep03/images/scene_02.jpg",
+   "startMs": 22500,
+   "endMs": 45540
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "موعد مع بيت الله",
+   "image": "ep03/images/scene_03.jpg",
+   "startMs": 45540,
+   "endMs": 62880
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "أمام الكعبة",
+   "image": "ep03/images/scene_04.jpg",
+   "startMs": 62880,
+   "endMs": 83200
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "هذه هي الكعبة",
+   "image": "ep03/images/scene_05.jpg",
+   "startMs": 83200,
+   "endMs": 96785
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "لبيك اللهم لبيك",
+   "image": "ep03/images/scene_06.jpg",
+   "startMs": 96785,
+   "endMs": 115465
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "الطواف وزمزم",
+   "image": "ep03/images/scene_07.jpg",
+   "startMs": 115465,
+   "endMs": 129385
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "على غير موعد",
+   "image": "ep03/images/scene_08.jpg",
+   "startMs": 129385,
+   "endMs": 140425
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "أحلام الطفولة",
+   "image": "ep03/images/scene_09.jpg",
+   "startMs": 140425,
+   "endMs": 148235
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "أسعد الأيام",
+   "image": "ep03/images/scene_10.jpg",
+   "startMs": 148235,
+   "endMs": 164975
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "جبل النور",
+   "image": "ep03/images/scene_11.jpg",
+   "startMs": 164975,
+   "endMs": 199585
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "غار حراء",
+   "image": "ep03/images/scene_12.jpg",
+   "startMs": 199585,
+   "endMs": 207485
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "رفاق الرحلة",
+   "image": "ep03/images/scene_13.jpg",
+   "startMs": 207485,
+   "endMs": 224520
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "أفكار جديدة",
+   "image": "ep03/images/scene_14.jpg",
+   "startMs": 224520,
+   "endMs": 252660
+  },
+  {
+   "number": 15,
+   "id": "s15",
+   "title": "قفصة تنتظر",
+   "image": "ep03/images/scene_15.jpg",
+   "startMs": 252660,
+   "endMs": 276285
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep03_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت عميق، هادئ ومشوق",
+   "text": "كان محمد التيجاني في الثامنة عشرة من عمره حين بدأت واحدة من أهم الرحلات في حياته اخترته الجمعية القومية للكشافة التونسية للمشاركة في مؤتمر عربي وإسلامي يقام في مكة المكرمة كان أفراد البعثة ستة رجال وكان محمد أصغرهم سناً",
+   "startMs": 500,
+   "endMs": 22200,
+   "clip": {
+    "file": "audio/Ep3/Narrator3.wav",
+    "startMs": 3920,
+    "endMs": 25620
+   },
+   "lines": [
+    {
+     "text": "كان محمد التيجاني في الثامنة عشرة من عمره حين بدأت واحدة من أهم الرحلات في حياته اخترته الجمعية القومية للكشافة التونسية للمشاركة في مؤتمر عربي وإسلامي يقام في مكة المكرمة كان أفراد البعثة ستة رجال وكان محمد أصغرهم سناً",
+     "startMs": 500,
+     "endMs": 22200
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s02_l01",
+   "scene": 2,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة وصفية تحمل الترقب",
+   "text": "لم تكن الرحلة مباشرة، غادروا تونس ومروا بأثناء، حيث قضوا ثلاثة أيام، ثم انتقلوا إلى عمان، عاصمة الأردن، وأقاموا فيها أربعة أيام، وأخيراً وصلت البعثة إلى المملكة العربية السعودية.",
+   "startMs": 22800,
+   "endMs": 39670,
+   "clip": {
+    "file": "audio/Ep3/Narrator3.wav",
+    "startMs": 29250,
+    "endMs": 46120
+   },
+   "lines": [
+    {
+     "text": "لم تكن الرحلة مباشرة، غادروا تونس ومروا بأثناء، حيث قضوا ثلاثة أيام، ثم انتقلوا إلى عمان، عاصمة الأردن، وأقاموا فيها أربعة أيام، وأخيراً وصلت البعثة إلى المملكة العربية السعودية.",
+     "startMs": 22800,
+     "endMs": 39669
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s02_l02",
+   "scene": 2,
+   "speakerId": "TRAVEL_COMPANION",
+   "speakerName": "رفيق الرحلة",
+   "direction": "",
+   "text": "محمد يبدو أنك كنت تنتظر هذه الرحلة بشوق كبير",
+   "startMs": 40270,
+   "endMs": 44940,
+   "clip": {
+    "file": "audio/Ep4/Fellow.wav",
+    "startMs": 100,
+    "endMs": 4770
+   },
+   "lines": [
+    {
+     "text": "محمد يبدو أنك كنت تنتظر هذه الرحلة بشوق كبير",
+     "startMs": 40270,
+     "endMs": 44940
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s03_l01",
+   "scene": 3,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة حماسية تزداد تدريجيا",
+   "text": "كان محمد يعرف أنه سيشارك في المؤتمر لكنه كان ينتظر شيئا أعظم من ذلك كله لقد أصبح على موعد مع بيت الله الحرام",
+   "startMs": 46140,
+   "endMs": 56140,
+   "clip": {
+    "file": "audio/Ep3/Narrator3.wav",
+    "startMs": 49890,
+    "endMs": 59890
+   },
+   "lines": [
+    {
+     "text": "كان محمد يعرف أنه سيشارك في المؤتمر لكنه كان ينتظر شيئا أعظم من ذلك كله لقد أصبح على موعد مع بيت الله الحرام",
+     "startMs": 46140,
+     "endMs": 56140
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s03_l02",
+   "scene": 3,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "",
+   "text": "مكة المكرمة كم سمعت عنها وكم تمنيت أن أراها",
+   "startMs": 56740,
+   "endMs": 62580,
+   "clip": {
+    "file": "audio/Ep3/Hisyouth.wav",
+    "startMs": 130,
+    "endMs": 5970
+   },
+   "lines": [
+    {
+     "text": "مكة المكرمة كم سمعت عنها وكم تمنيت أن أراها",
+     "startMs": 56740,
+     "endMs": 62580
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s04_l01",
+   "scene": 4,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بدهشة ممسوجة بالفرح",
+   "text": "أنا في الثامنة عشرة فقط وها أنا أسافر لأداء الحج",
+   "startMs": 63180,
+   "endMs": 67590,
+   "clip": {
+    "file": "audio/Ep3/Hisyouth.wav",
+    "startMs": 10170,
+    "endMs": 14580
+   },
+   "lines": [
+    {
+     "text": "أنا في الثامنة عشرة فقط وها أنا أسافر لأداء الحج",
+     "startMs": 63180,
+     "endMs": 67590
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s04_l02",
+   "scene": 4,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت خافت يحمل الرهبة",
+   "text": "وحين دخل المسجد الحرام لأول مرة ووقعت عيناه على الكعبة توقف كل شيء في داخله هناك أمام البيت العتيق غلبته دموعه ولم يعود يستطيع وصف ما يشعر به",
+   "startMs": 68190,
+   "endMs": 82600,
+   "clip": {
+    "file": "audio/Ep3/Narrator3.wav",
+    "startMs": 63350,
+    "endMs": 77760
+   },
+   "lines": [
+    {
+     "text": "وحين دخل المسجد الحرام لأول مرة ووقعت عيناه على الكعبة توقف كل شيء في داخله هناك أمام البيت العتيق غلبته دموعه ولم يعود يستطيع وصف ما يشعر به",
+     "startMs": 68190,
+     "endMs": 82600
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s05_l01",
+   "scene": 5,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت خاشع تملأه الرهبة",
+   "text": "هذه هي الكعبة يا الله كم تمنيت هذه اللحظة",
+   "startMs": 83800,
+   "endMs": 89650,
+   "clip": {
+    "file": "audio/Ep3/Hisyouth.wav",
+    "startMs": 19350,
+    "endMs": 25200
+   },
+   "lines": [
+    {
+     "text": "هذه هي الكعبة يا الله كم تمنيت هذه اللحظة",
+     "startMs": 83800,
+     "endMs": 89650
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s05_l02",
+   "scene": 5,
+   "speakerId": "AL_TIJANI_ADULT",
+   "speakerName": "التيجاني الكبير",
+   "direction": "",
+   "text": "كلما تذكرت أول مرة رأيت فيها الكعبة عاد إلي الشعور نفسه",
+   "startMs": 90250,
+   "endMs": 96485,
+   "clip": {
+    "file": "audio/Ep3/Hismature.wav",
+    "startMs": 55,
+    "endMs": 6290
+   },
+   "lines": [
+    {
+     "text": "كلما تذكرت أول مرة رأيت فيها الكعبة عاد إلي الشعور نفسه",
+     "startMs": 90250,
+     "endMs": 96485
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s06_l01",
+   "scene": 6,
+   "speakerId": "AL_TIJANI_ADULT",
+   "speakerName": "التيجاني الكبير",
+   "direction": "بتأثر شديد",
+   "text": "كنت أظن أن قلبي سينفطر من شدة الفرح والشوق وغلبتني الدموع وشعرت أن الله اختصني بعناية لم أكن أستحقها",
+   "startMs": 97085,
+   "endMs": 109345,
+   "clip": {
+    "file": "audio/Ep3/Hismature.wav",
+    "startMs": 9980,
+    "endMs": 22240
+   },
+   "lines": [
+    {
+     "text": "كنت أظن أن قلبي سينفطر من شدة الفرح والشوق وغلبتني الدموع وشعرت أن الله اختصني بعناية لم أكن أستحقها",
+     "startMs": 97085,
+     "endMs": 109344
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s06_l02",
+   "scene": 6,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت مرتجف من شدة التأثر",
+   "text": "لبيك اللهم لبيك هذا عبدك جاء إليك",
+   "startMs": 109945,
+   "endMs": 114865,
+   "clip": {
+    "file": "audio/Ep3/Hisyouth.wav",
+    "startMs": 30030,
+    "endMs": 34950
+   },
+   "lines": [
+    {
+     "text": "لبيك اللهم لبيك هذا عبدك جاء إليك",
+     "startMs": 109945,
+     "endMs": 114865
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s07_l01",
+   "scene": 7,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة مهيبة ومؤثرة",
+   "text": "وسط آلاف الحجاج أخذ يطوف ويصلي ويسعى ويشرب من ماء زمزم وكان يشعر أنه نال نعمة لم يكن يتوقعها في تلك السن المبكرة",
+   "startMs": 116065,
+   "endMs": 128785,
+   "clip": {
+    "file": "audio/Ep3/Narrator3.wav",
+    "startMs": 80830,
+    "endMs": 93550
+   },
+   "lines": [
+    {
+     "text": "وسط آلاف الحجاج أخذ يطوف ويصلي ويسعى ويشرب من ماء زمزم وكان يشعر أنه نال نعمة لم يكن يتوقعها في تلك السن المبكرة",
+     "startMs": 116065,
+     "endMs": 128784
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s08_l01",
+   "scene": 8,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بنبرة متأملة وعاطفية",
+   "text": "كم من إنسان قضى سنوات طويلة يجمع المال وينتظر فرصة الحج أما أنا فقد جئت على غير موعد كنت أتوقعه",
+   "startMs": 129985,
+   "endMs": 140125,
+   "clip": {
+    "file": "audio/Ep3/Hisyouth.wav",
+    "startMs": 39210,
+    "endMs": 49350
+   },
+   "lines": [
+    {
+     "text": "كم من إنسان قضى سنوات طويلة يجمع المال وينتظر فرصة الحج أما أنا فقد جئت على غير موعد كنت أتوقعه",
+     "startMs": 129985,
+     "endMs": 140125
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s09_l01",
+   "scene": 9,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بحماس شاب ممتلئ بالعزيمة",
+   "text": "سأطوف ما استطعت وأصلي ما استطعت وأزور الأماكن التي بقيت أحلم بها منذ طفولتي",
+   "startMs": 140725,
+   "endMs": 147635,
+   "clip": {
+    "file": "audio/Ep3/Hisyouth.wav",
+    "startMs": 53110,
+    "endMs": 60020
+   },
+   "lines": [
+    {
+     "text": "سأطوف ما استطعت وأصلي ما استطعت وأزور الأماكن التي بقيت أحلم بها منذ طفولتي",
+     "startMs": 140725,
+     "endMs": 147635
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s10_l01",
+   "scene": 10,
+   "speakerId": "AL_TIJANI_ADULT",
+   "speakerName": "التيجاني الكبير",
+   "direction": "بنبرة تأملية صادقة",
+   "text": "كانت تلك الأيام من أسعد أيام حياتي لكنني لم أكن أعلم أنني سأعود منها بقناعات جديدة سترافقني سنوات طويلة ثم أجد نفسي مضطرا إلى مراجعتها",
+   "startMs": 148835,
+   "endMs": 164375,
+   "clip": {
+    "file": "audio/Ep3/Hismature.wav",
+    "startMs": 26700,
+    "endMs": 42240
+   },
+   "lines": [
+    {
+     "text": "كانت تلك الأيام من أسعد أيام حياتي لكنني لم أكن أعلم أنني سأعود منها بقناعات جديدة سترافقني سنوات طويلة ثم أجد نفسي مضطرا إلى مراجعتها",
+     "startMs": 148835,
+     "endMs": 164375
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s11_l01",
+   "scene": 11,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت مشوق",
+   "text": "ولم يكتفي بالمناسك بل صعد جبل النور متجها نحو غار حراء وكان من أوائل من وصلوا إليه في ذلك اليوم بعد شاب سوداني سبقه إلى الغار وخلال إقامته التي استمرت خمسة وعشرين يوما تعرف إلى حجاج وعلماء من بلدان مختلفة شارك في المسابقات والأنشطة ونال جوائز وكسب صداقات جديدة وتغيرت نظرة بعض رفاقه إليه بعدما عرفوا قدراته ومعرفته",
+   "startMs": 165575,
+   "endMs": 198985,
+   "clip": {
+    "file": "audio/Ep3/Narrator3.wav",
+    "startMs": 95690,
+    "endMs": 129100
+   },
+   "lines": [
+    {
+     "text": "ولم يكتفي بالمناسك بل صعد جبل النور متجها نحو غار حراء وكان من أوائل من وصلوا إليه في ذلك اليوم بعد شاب سوداني سبقه إلى الغار وخلال إقامته التي استمرت خمسة وعشرين يوما تعرف إلى حجاج وعلماء من بلدان مختلفة شارك في المسابقات والأنشطة ونال جوائز وكسب صداقات جديدة وتغيرت نظرة بعض رفاقه إليه بعدما عرفوا قدراته ومعرفته",
+     "startMs": 165575,
+     "endMs": 198985
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s12_l01",
+   "scene": 12,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت مفعم بالدهشة",
+   "text": "خار حراء هنا عاش رسول الله صلى الله عليه وآله لحظات من أعظم لحظات التاريخ",
+   "startMs": 200185,
+   "endMs": 206885,
+   "clip": {
+    "file": "audio/Ep3/Hisyouth.wav",
+    "startMs": 63460,
+    "endMs": 70160
+   },
+   "lines": [
+    {
+     "text": "خار حراء هنا عاش رسول الله صلى الله عليه وآله لحظات من أعظم لحظات التاريخ",
+     "startMs": 200185,
+     "endMs": 206884
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s13_l01",
+   "scene": 13,
+   "speakerId": "TRAVEL_COMPANION",
+   "speakerName": "رفيق الرحلة",
+   "direction": "بنبرة إعجاب",
+   "text": "لم أتوقع أن تكون بهذه المعرفة وأنت أصغرنا سنا",
+   "startMs": 208085,
+   "endMs": 212625,
+   "clip": {
+    "file": "audio/Ep4/Fellow.wav",
+    "startMs": 8080,
+    "endMs": 12620
+   },
+   "lines": [
+    {
+     "text": "لم أتوقع أن تكون بهذه المعرفة وأنت أصغرنا سنا",
+     "startMs": 208085,
+     "endMs": 212624
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s13_l02",
+   "scene": 13,
+   "speakerId": "TRAVEL_COMPANION",
+   "speakerName": "رفيق الرحلة",
+   "direction": "بفرح صادق",
+   "text": "أحسنت يا محمد لقد شرفتنا أمام الوفود المشاركة",
+   "startMs": 212975,
+   "endMs": 217595,
+   "clip": {
+    "file": "audio/Ep4/Fellow.wav",
+    "startMs": 15110,
+    "endMs": 19730
+   },
+   "lines": [
+    {
+     "text": "أحسنت يا محمد لقد شرفتنا أمام الوفود المشاركة",
+     "startMs": 212975,
+     "endMs": 217594
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s13_l03",
+   "scene": 13,
+   "speakerId": "TRAVEL_COMPANION",
+   "speakerName": "رفيق الرحلة",
+   "direction": "بنبرة ودودة",
+   "text": "احتفظ بهذه الذكريات يا صديقي فليست كل رحلة مثل هذه الرحلة",
+   "startMs": 217945,
+   "endMs": 223920,
+   "clip": {
+    "file": "audio/Ep4/Fellow.wav",
+    "startMs": 21590,
+    "endMs": 27565
+   },
+   "lines": [
+    {
+     "text": "احتفظ بهذه الذكريات يا صديقي فليست كل رحلة مثل هذه الرحلة",
+     "startMs": 217945,
+     "endMs": 223919
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s14_l01",
+   "scene": 14,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة تأملية",
+   "text": "لكن تلك الرحلة لم تترك في قلبه الذكريات الجميلة وحدها لقد تأثر أيضا بأفكار دينية جديدة وبدأ يتبنى بعض الآراء التي سمعها من علماء السعودية لم يكن يدرك بعد أن هذه الأفكار ستصبح يوما جزءا من صراع كبير في داخله",
+   "startMs": 225120,
+   "endMs": 246070,
+   "clip": {
+    "file": "audio/Ep3/Narrator3.wav",
+    "startMs": 131750,
+    "endMs": 152700
+   },
+   "lines": [
+    {
+     "text": "لكن تلك الرحلة لم تترك في قلبه الذكريات الجميلة وحدها لقد تأثر أيضا بأفكار دينية جديدة وبدأ يتبنى بعض الآراء التي سمعها من علماء السعودية لم يكن يدرك بعد أن هذه الأفكار ستصبح يوما جزءا من صراع كبير في داخله",
+     "startMs": 225120,
+     "endMs": 246069
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s14_l02",
+   "scene": 14,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت عاطفي حادئ",
+   "text": "ما أجمل هذه الأيام أشعر أن ذكراها سترافقني ما حيت",
+   "startMs": 246670,
+   "endMs": 252060,
+   "clip": {
+    "file": "audio/Ep3/Hisyouth.wav",
+    "startMs": 73630,
+    "endMs": 79020
+   },
+   "lines": [
+    {
+     "text": "ما أجمل هذه الأيام أشعر أن ذكراها سترافقني ما حيت",
+     "startMs": 246670,
+     "endMs": 252060
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s15_l01",
+   "scene": 15,
+   "speakerId": "AL_TIJANI_ADULT",
+   "speakerName": "التيجاني الكبير",
+   "direction": "بصوت هادئ",
+   "text": "هكذا بدأت رحلتي ولم يكن الحج نهايتها",
+   "startMs": 253260,
+   "endMs": 258005,
+   "clip": {
+    "file": "audio/Ep3/Hismature.wav",
+    "startMs": 44970,
+    "endMs": 49715
+   },
+   "lines": [
+    {
+     "text": "هكذا بدأت رحلتي ولم يكن الحج نهايتها",
+     "startMs": 253260,
+     "endMs": 258004
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s15_l02",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت ختامي مؤثر",
+   "text": "انتهت أيام الحج لكن محمد التيجاني لم يعد الشاب نفسه الذي غادر تونس كان يحمل معه ذكريات وأصدقاء وقناعات جديدة وكانت مدينة قفصة تنتظر عودته",
+   "startMs": 258605,
+   "endMs": 274785,
+   "clip": {
+    "file": "audio/Ep3/Narrator3.wav",
+    "startMs": 155460,
+    "endMs": 171640
+   },
+   "lines": [
+    {
+     "text": "انتهت أيام الحج لكن محمد التيجاني لم يعد الشاب نفسه الذي غادر تونس كان يحمل معه ذكريات وأصدقاء وقناعات جديدة وكانت مدينة قفصة تنتظر عودته",
+     "startMs": 258605,
+     "endMs": 274784
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  }
+ ],
+ "textStatus": "recovered-transcript",
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "reflective",
+   "startMs": 0,
+   "endMs": 23300
+  },
+  {
+   "scene": 2,
+   "cue": "reflective",
+   "startMs": 21700,
+   "endMs": 46339
+  },
+  {
+   "scene": 3,
+   "cue": "reflective",
+   "startMs": 44740,
+   "endMs": 63680
+  },
+  {
+   "scene": 4,
+   "cue": "reverent",
+   "startMs": 62080,
+   "endMs": 84000
+  },
+  {
+   "scene": 5,
+   "cue": "reflective",
+   "startMs": 82400,
+   "endMs": 97585
+  },
+  {
+   "scene": 6,
+   "cue": "warm",
+   "startMs": 95985,
+   "endMs": 116265
+  },
+  {
+   "scene": 7,
+   "cue": "reflective",
+   "startMs": 114665,
+   "endMs": 130185
+  },
+  {
+   "scene": 8,
+   "cue": "reflective",
+   "startMs": 128584,
+   "endMs": 141225
+  },
+  {
+   "scene": 9,
+   "cue": "reflective",
+   "startMs": 139625,
+   "endMs": 149035
+  },
+  {
+   "scene": 10,
+   "cue": "reflective",
+   "startMs": 147435,
+   "endMs": 165775
+  },
+  {
+   "scene": 11,
+   "cue": "reflective",
+   "startMs": 164174,
+   "endMs": 200385
+  },
+  {
+   "scene": 12,
+   "cue": "reflective",
+   "startMs": 198785,
+   "endMs": 208285
+  },
+  {
+   "scene": 13,
+   "cue": "reflective",
+   "startMs": 206685,
+   "endMs": 225320
+  },
+  {
+   "scene": 14,
+   "cue": "reflective",
+   "startMs": 223720,
+   "endMs": 253460
+  },
+  {
+   "scene": 15,
+   "cue": "ending",
+   "startMs": 251859,
+   "endMs": 277085
+  }
+ ]
+}

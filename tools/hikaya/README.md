@@ -72,6 +72,8 @@ python3 tools/hikaya/hikaya_pack.py build $B -o thumma_ihtadayt.zip
 | `hikaya_verify.py` | Assembles the episode exactly as the app plays it, transcribes every clip on its own (no spoken direction, no neighbouring line), checks scenes, pictures and display text, and renders a preview video. |
 | `hikaya_crosscheck.py` | Compares automatic cuts with hand-verified ones. |
 | `hikaya_scripts_docx.js` | Word document (Arabic, right to left) of per-character scripts. |
+| `hikaya_qa_table.py` | One QA row per episode (PASS / WARNING / FAIL computed from the reports). |
+| `build_thumma_ihtadayt.sh` | Rebuilds «ثم اهتديت» exactly as built: scripts, align, score + verify, pack, mirror. |
 | `intro/render_intro.py` | Renders the launch logo animation (HyperFrames) from the three original logos and installs it in the app. |
 
 Tested here on the Episode 01 recordings. Automatic cuts matched the manually

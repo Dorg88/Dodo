@@ -1,0 +1,749 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep17",
+ "number": 17,
+ "title": "الصحابة بين التاريخ والرواية",
+ "durationMs": 133145,
+ "audio": {
+  "mode": "clips",
+  "music": "ep17/audio/score_music.m4a",
+  "sfx": "ep17/audio/score_sfx.m4a",
+  "musicLoop": false
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AL_TIJANI": {
+   "name": "التيجاني"
+  },
+  "PROFESSOR_MUNIM": {
+   "name": "الأستاذ منعم"
+  },
+  "AL_TIJANI_ADULT": {
+   "name": "التيجاني الكبير"
+  },
+  "MUNIM_FATHER": {
+   "name": "والد منعم"
+  },
+  "MUNIM_MOTHER": {
+   "name": "والدة منعم"
+  },
+  "SHRINE_RESEARCHER": {
+   "name": "باحث عراقي في المقام"
+  },
+  "HAWZA_STUDENT": {
+   "name": "طالب حوزة"
+  },
+  "NAJAF_VISITOR": {
+   "name": "زائر في النجف"
+  },
+  "ABU_SHUBAR": {
+   "name": "السيد أبو شبر"
+  },
+  "BAQIR_AL_SADR": {
+   "name": "السيد محمد باقر الصدر"
+  },
+  "AL_BASHIR": {
+   "name": "البشير"
+  },
+  "DOCUMENT_READER": {
+   "name": "قارئ الوثائق"
+  },
+  "TEXT_READER": {
+   "name": "قارئ النصوص"
+  },
+  "TUNISIAN_INTERLOCUTOR": {
+   "name": "محاور تونسي"
+  },
+  "TUNISIAN_FRIEND": {
+   "name": "صديق تونسي"
+  },
+  "TUNISIAN_ELDER": {
+   "name": "أحد أهل تونس"
+  },
+  "AL_TIJANI_CHILD": {
+   "name": "التيجاني الصغير"
+  },
+  "FATHER": {
+   "name": "الأب"
+  },
+  "TEACHER": {
+   "name": "المعلم"
+  },
+  "WORSHIPPER_1": {
+   "name": "المصلي الأول"
+  },
+  "WORSHIPPER_2": {
+   "name": "المصلي الثاني"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "موضوع الصحابة",
+   "image": "ep17/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 5040
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "أساس الخلافات",
+   "image": "ep17/images/scene_02.jpg",
+   "startMs": 5040,
+   "endMs": 14280
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "لماذا الصحابة؟",
+   "image": "ep17/images/scene_03.jpg",
+   "startMs": 14280,
+   "endMs": 24250
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "موضوع حساس",
+   "image": "ep17/images/scene_04.jpg",
+   "startMs": 24250,
+   "endMs": 28425
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "مصادر التاريخ والحديث",
+   "image": "ep17/images/scene_05.jpg",
+   "startMs": 28425,
+   "endMs": 37635
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "الموازنة بين الروايات",
+   "image": "ep17/images/scene_06.jpg",
+   "startMs": 37635,
+   "endMs": 46825
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "الاحترام وفحص الأخبار",
+   "image": "ep17/images/scene_07.jpg",
+   "startMs": 46825,
+   "endMs": 61235
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "أمثلة من كتب مختلفة",
+   "image": "ep17/images/scene_08.jpg",
+   "startMs": 61235,
+   "endMs": 73975
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "سؤالان",
+   "image": "ep17/images/scene_09.jpg",
+   "startMs": 73975,
+   "endMs": 90105
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "مرة بعد مرة",
+   "image": "ep17/images/scene_10.jpg",
+   "startMs": 90105,
+   "endMs": 93505
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "كيف أكون منصفا؟",
+   "image": "ep17/images/scene_11.jpg",
+   "startMs": 93505,
+   "endMs": 104455
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "الرأي والرأي الآخر",
+   "image": "ep17/images/scene_12.jpg",
+   "startMs": 104455,
+   "endMs": 111235
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "لا إدانة جماعية",
+   "image": "ep17/images/scene_13.jpg",
+   "startMs": 111235,
+   "endMs": 117385
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "التخلص من التعصب",
+   "image": "ep17/images/scene_14.jpg",
+   "startMs": 117385,
+   "endMs": 123475
+  },
+  {
+   "number": 15,
+   "id": "s15",
+   "title": "بداية مرحلة طويلة",
+   "image": "ep17/images/scene_15.jpg",
+   "startMs": 123475,
+   "endMs": 133145
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep17_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة علمية رصينة",
+   "text": "في بداية دراسته المعمقة، اختار محمد موضوع الصحابة.",
+   "startMs": 500,
+   "endMs": 5040,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 159930,
+    "endMs": 164470
+   },
+   "lines": [
+    {
+     "text": "في بداية دراسته المعمقة، اختار محمد موضوع الصحابة.",
+     "startMs": 500,
+     "endMs": 5039
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s02_l01",
+   "scene": 2,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "رأى أن فهم حياتهم ومواقفهم أساسي لفهم كثير من الخلافات التي نشأت بعد وفاة النبي صلى الله عليه وآله.",
+   "startMs": 5040,
+   "endMs": 13680,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 164660,
+    "endMs": 173300
+   },
+   "lines": [
+    {
+     "text": "رأى أن فهم حياتهم ومواقفهم أساسي لفهم كثير من الخلافات التي نشأت بعد وفاة النبي صلى الله عليه وآله.",
+     "startMs": 5040,
+     "endMs": 13680
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s03_l01",
+   "scene": 3,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت جاد",
+   "text": "لماذا اخترت الصحابة موضوعا لبحثي؟ لأن كثيرا من معارفنا الدينية وصلت إلينا عبر روايات تتصل بذلك الجيل.",
+   "startMs": 14880,
+   "endMs": 23650,
+   "clip": {
+    "file": "audio/Batch 2/Tiǰǰjani.wav",
+    "startMs": 118120,
+    "endMs": 126890
+   },
+   "lines": [
+    {
+     "text": "لماذا اخترت الصحابة موضوعا لبحثي؟",
+     "startMs": 14880,
+     "endMs": 17520
+    },
+    {
+     "text": "لأن كثيرا من معارفنا الدينية وصلت إلينا عبر روايات تتصل بذلك الجيل.",
+     "startMs": 17520,
+     "endMs": 23650
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s04_l01",
+   "scene": 4,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بهدوء وتحفظ",
+   "text": "لم يكن الموضوع بسيطا أو خاليا من الحساسية.",
+   "startMs": 24850,
+   "endMs": 28425,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 175670,
+    "endMs": 179245
+   },
+   "lines": [
+    {
+     "text": "لم يكن الموضوع بسيطا أو خاليا من الحساسية.",
+     "startMs": 24850,
+     "endMs": 28425
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s05_l01",
+   "scene": 5,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "ففي الذاكرة الإسلامية احترام كبير للصحابة، لكن مصادر التاريخ والحديث تورد أيضا أحداثا واختلافات بينهم.",
+   "startMs": 28425,
+   "endMs": 37635,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 179350,
+    "endMs": 188560
+   },
+   "lines": [
+    {
+     "text": "ففي الذاكرة الإسلامية احترام كبير للصحابة، لكن مصادر التاريخ والحديث تورد أيضا أحداثا واختلافات بينهم.",
+     "startMs": 28425,
+     "endMs": 37635
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s06_l01",
+   "scene": 6,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "حاول محمد أن يقرأ الأخبار ويوازن بين الروايات، معتبرا أن الحب أو النفور لا يكفيان وحدهما للحكم.",
+   "startMs": 37635,
+   "endMs": 46225,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 188850,
+    "endMs": 197440
+   },
+   "lines": [
+    {
+     "text": "حاول محمد أن يقرأ الأخبار ويوازن بين الروايات، معتبرا أن الحب أو النفور لا يكفيان وحدهما للحكم.",
+     "startMs": 37635,
+     "endMs": 46225
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s07_l01",
+   "scene": 7,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بتركيز",
+   "text": "أريد أن أميز بين احترام الأشخاص وبين فحص الأخبار المنقولة عنهم.",
+   "startMs": 47425,
+   "endMs": 52775,
+   "clip": {
+    "file": "audio/Batch 2/Tiǰǰjani.wav",
+    "startMs": 129150,
+    "endMs": 134500
+   },
+   "lines": [
+    {
+     "text": "أريد أن أميز بين احترام الأشخاص وبين فحص الأخبار المنقولة عنهم.",
+     "startMs": 47425,
+     "endMs": 52774
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s07_l02",
+   "scene": 7,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بتردد صادق",
+   "text": "هذه الأحداث شديدة الحساسية. لكن هل أترك السؤال لمجرد أن الجواب قد يكون مؤلما؟",
+   "startMs": 53125,
+   "endMs": 60635,
+   "clip": {
+    "file": "audio/Batch 2/Tiǰǰjani.wav",
+    "startMs": 136510,
+    "endMs": 144020
+   },
+   "lines": [
+    {
+     "text": "هذه الأحداث شديدة الحساسية.",
+     "startMs": 53125,
+     "endMs": 55695
+    },
+    {
+     "text": "لكن هل أترك السؤال لمجرد أن الجواب قد يكون مؤلما؟",
+     "startMs": 55695,
+     "endMs": 60635
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s08_l01",
+   "scene": 8,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة مفكرة",
+   "text": "جمع أمثلة من كتب معروفة لدى مدارس مختلفة، ووقف عند أسئلة عن الطاعة والخلاف والتأويل، وعن الفرق بين ثبوت الخبر وطريقة فهمه.",
+   "startMs": 61835,
+   "endMs": 73375,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 199760,
+    "endMs": 211300
+   },
+   "lines": [
+    {
+     "text": "جمع أمثلة من كتب معروفة لدى مدارس مختلفة، ووقف عند أسئلة عن الطاعة والخلاف والتأويل، وعن الفرق بين ثبوت الخبر وطريقة فهمه.",
+     "startMs": 61835,
+     "endMs": 73375
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s09_l01",
+   "scene": 9,
+   "speakerId": "DOCUMENT_READER",
+   "speakerName": "قارئ الوثائق",
+   "direction": "بنبرة توثيقية واضحة",
+   "text": "المصدر التاريخي يحتاج إلى سؤالين: هل ثبت الخبر؟ وإذا ثبت، فكيف يُفهم في سياقه؟ ليست كل رواية حكما نهائيا، ولا كل اختلاف دليلا على سوء النية.",
+   "startMs": 74575,
+   "endMs": 89505,
+   "clip": {
+    "file": "audio/Batch 2/Ducmen.wav",
+    "startMs": 2800,
+    "endMs": 17730
+   },
+   "lines": [
+    {
+     "text": "المصدر التاريخي يحتاج إلى سؤالين: هل ثبت الخبر؟",
+     "startMs": 74575,
+     "endMs": 79635
+    },
+    {
+     "text": "وإذا ثبت، فكيف يُفهم في سياقه؟",
+     "startMs": 79635,
+     "endMs": 82935
+    },
+    {
+     "text": "ليست كل رواية حكما نهائيا، ولا كل اختلاف دليلا على سوء النية.",
+     "startMs": 82935,
+     "endMs": 89505
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s10_l01",
+   "scene": 10,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بتأثر",
+   "text": "كان يعيد قراءة النص مرة بعد مرة،",
+   "startMs": 90705,
+   "endMs": 93505,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 213260,
+    "endMs": 216060
+   },
+   "lines": [
+    {
+     "text": "كان يعيد قراءة النص مرة بعد مرة،",
+     "startMs": 90705,
+     "endMs": 93505
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s11_l01",
+   "scene": 11,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "وأحيانا يضع الكتاب جانبا ويفكر: كيف أكون منصفا لأشخاص عاشوا زمنا غير زماني، ولا أُسقط على التاريخ أحكامي الجاهزة؟",
+   "startMs": 93505,
+   "endMs": 103855,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 216450,
+    "endMs": 226800
+   },
+   "lines": [
+    {
+     "text": "وأحيانا يضع الكتاب جانبا ويفكر: كيف أكون منصفا لأشخاص عاشوا زمنا غير زماني، ولا أُسقط على التاريخ أحكامي الجاهزة؟",
+     "startMs": 93505,
+     "endMs": 103855
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.995,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s12_l01",
+   "scene": 12,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بحزم هادئ",
+   "text": "سأبحث في المصادر، وأقرأ الرأي الذي أؤيده والرأي الذي أختلف معه.",
+   "startMs": 105055,
+   "endMs": 110635,
+   "clip": {
+    "file": "audio/Batch 2/Tiǰǰjani.wav",
+    "startMs": 145890,
+    "endMs": 151470
+   },
+   "lines": [
+    {
+     "text": "سأبحث في المصادر، وأقرأ الرأي الذي أؤيده والرأي الذي أختلف معه.",
+     "startMs": 105055,
+     "endMs": 110635
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s13_l01",
+   "scene": 13,
+   "speakerId": "AL_TIJANI_ADULT",
+   "speakerName": "التيجاني الكبير",
+   "direction": "بتأمل",
+   "text": "كان علي أن أتعلم أن البحث التاريخي لا يتحول إلى إدانة جماعية.",
+   "startMs": 111835,
+   "endMs": 117385,
+   "clip": {
+    "file": "audio/Batch 2/Tiǰǰjani.wav",
+    "startMs": 153950,
+    "endMs": 159500
+   },
+   "lines": [
+    {
+     "text": "كان علي أن أتعلم أن البحث التاريخي لا يتحول إلى إدانة جماعية.",
+     "startMs": 111835,
+     "endMs": 117385
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s14_l01",
+   "scene": 14,
+   "speakerId": "AL_TIJANI_ADULT",
+   "speakerName": "التيجاني الكبير",
+   "direction": "",
+   "text": "والأصعب أن أتخلص من التعصب حين أقرأ ما لا يوافق ما تعودته.",
+   "startMs": 117385,
+   "endMs": 122875,
+   "clip": {
+    "file": "audio/Batch 2/Tiǰǰjani.wav",
+    "startMs": 159900,
+    "endMs": 165390
+   },
+   "lines": [
+    {
+     "text": "والأصعب أن أتخلص من التعصب حين أقرأ ما لا يوافق ما تعودته.",
+     "startMs": 117385,
+     "endMs": 122874
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s15_l01",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت ختامي مشوق",
+   "text": "كانت هذه الدراسة بداية مرحلة طويلة، تختبر طريقته في التفكير بقدر ما تختبر معلوماته.",
+   "startMs": 124075,
+   "endMs": 131645,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 229890,
+    "endMs": 237460
+   },
+   "lines": [
+    {
+     "text": "كانت هذه الدراسة بداية مرحلة طويلة، تختبر طريقته في التفكير بقدر ما تختبر معلوماته.",
+     "startMs": 124075,
+     "endMs": 131645
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  }
+ ],
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "reflective",
+   "startMs": 0,
+   "endMs": 5840
+  },
+  {
+   "scene": 2,
+   "cue": "reflective",
+   "startMs": 4240,
+   "endMs": 15080
+  },
+  {
+   "scene": 3,
+   "cue": "reflective",
+   "startMs": 13479,
+   "endMs": 25050
+  },
+  {
+   "scene": 4,
+   "cue": "reflective",
+   "startMs": 23450,
+   "endMs": 29225
+  },
+  {
+   "scene": 5,
+   "cue": "reflective",
+   "startMs": 27625,
+   "endMs": 38434
+  },
+  {
+   "scene": 6,
+   "cue": "reflective",
+   "startMs": 36835,
+   "endMs": 47625
+  },
+  {
+   "scene": 7,
+   "cue": "suspense",
+   "startMs": 46025,
+   "endMs": 62035
+  },
+  {
+   "scene": 8,
+   "cue": "reflective",
+   "startMs": 60435,
+   "endMs": 74774
+  },
+  {
+   "scene": 9,
+   "cue": "suspense",
+   "startMs": 73175,
+   "endMs": 90905
+  },
+  {
+   "scene": 10,
+   "cue": "reflective",
+   "startMs": 89305,
+   "endMs": 94304
+  },
+  {
+   "scene": 11,
+   "cue": "reflective",
+   "startMs": 92705,
+   "endMs": 105255
+  },
+  {
+   "scene": 12,
+   "cue": "reflective",
+   "startMs": 103655,
+   "endMs": 112035
+  },
+  {
+   "scene": 13,
+   "cue": "reflective",
+   "startMs": 110435,
+   "endMs": 118185
+  },
+  {
+   "scene": 14,
+   "cue": "reflective",
+   "startMs": 116585,
+   "endMs": 124274
+  },
+  {
+   "scene": 15,
+   "cue": "ending",
+   "startMs": 122675,
+   "endMs": 133945
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "صباح بغداد",
+   "music": "warm",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: بغداد"
+  },
+  {
+   "scene": 2,
+   "title": "مقام الشيخ عبد القادر",
+   "music": "reverent",
+   "sfx": [
+    "roomtone",
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "title: مقام"
+  },
+  {
+   "scene": 3,
+   "title": "شوق قديم",
+   "music": "reverent",
+   "sfx": [
+    "roomtone",
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "text: زيارة"
+  },
+  {
+   "scene": 4,
+   "title": "بين الزائرين",
+   "music": "reverent",
+   "sfx": [
+    "roomtone",
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "text: زيارة"
+  },
+  {
+   "scene": 5,
+   "title": "مصادر عن الشيخ",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: مصادر"
+  },
+  {
+   "scene": 6,
+   "title": "في أسواق بغداد",
+   "music": "warm",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: بغداد"
+  },
+  {
+   "scene": 7,
+   "title": "إلى مراقد أخرى",
+   "music": "reverent",
+   "sfx": [
+    "roomtone",
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "text: مرقد"
+  },
+  {
+   "scene": 8,
+   "title": "مرقد الإمام موسى الكاظم",
+   "music": "reverent",
+   "sfx": [
+    "roomtone",
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "title: مرقد"
+  },
+  {
+   "scene": 9,
+   "title": "طقوس لم يألفها",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 10,
+   "title": "أسئلة الزيارة",
+   "music": "reverent",
+   "sfx": [
+    "roomtone",
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "title: زيارة"
+  },
+  {
+   "scene": 11,
+   "title": "الاحترام والعبادة",
+   "music": "nostalgic",
+   "sfx": [
+    "night"
+   ],
+   "level": 0.85,
+   "reason": "text: ليل"
+  },
+  {
+   "scene": 12,
+   "title": "حوار ونقاش",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: نقاش"
+  },
+  {
+   "scene": 13,
+   "title": "كتاب عن الجيلاني",
+   "music": "reverent",
+   "sfx": [
+    "roomtone",
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "title: الجيلاني"
+  },
+  {
+   "scene": 14,
+   "title": "الاختلاف أمام عينيه",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: كتب"
+  },
+  {
+   "scene": 15,
+   "title": "ليل الأسئلة",
+   "music": "ending",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: أسئلة; last scene"
+  }
+ ]
+}

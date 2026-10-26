@@ -1,0 +1,26 @@
+[
+ {
+  "file": "~/HIKAYA/assets/audio/Batch 3/Narrŕatttor.wav",
+  "display_file": "Batch 3.zip/Narrŕatttor.wav",
+  "label": "الراوي",
+  "basis": "اسم الملف",
+  "from": 0,
+  "to": 131.05,
+  "part_basis": "حدود الحلقة مستنتجة من المضمون: يبدأ الجزء التالي بتعليمة منطوقة وبموضوع الحلقة 21 («الاجتهاد في مقابل النص») — يحتاج تأكيدا",
+  "direction_text": [
+   "وبهدوء فكري"
+  ]
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Batch 3/Tiììjani.wav",
+  "display_file": "Batch 3.zip/Tiììjani.wav",
+  "label": "التيجاني",
+  "basis": "اسم الملف",
+  "from": 0,
+  "to": 106.4,
+  "part_basis": "حدود الحلقة مستنتجة من المضمون: يبدأ الجزء التالي بتعليمة منطوقة وبموضوع الحلقة 21 («الاجتهاد في مقابل النص») — يحتاج تأكيدا",
+  "direction_text": [
+   "بنبرجادة"
+  ]
+ }
+]

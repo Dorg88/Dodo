@@ -1,0 +1,19 @@
+{"episode": 8, "status": "proposed",
+ "note": "Play order proposed from the per-character script and the order of the 15 illustrations; to be confirmed by the producer.",
+ "scenes": [
+  {"image": 1,  "title": "النقاش يستمر", "lines": ["N1.1-2"]},
+  {"image": 2,  "title": "كتب معروفة", "lines": ["N1.3", "T1", "N2.1"]},
+  {"image": 3,  "title": "شهادة طرف واحد", "lines": ["M1", "N2.2-3"]},
+  {"image": 4,  "title": "في كتب الشيعة أنفسهم", "lines": ["T2", "M2"]},
+  {"image": 5,  "title": "حجة بلا أرض صلبة", "lines": ["N3.1-2", "T3"]},
+  {"image": 6,  "title": "دعوة إلى العراق", "lines": ["N3.3", "M3"]},
+  {"image": 7,  "title": "أمنية قديمة", "lines": ["T4", "N4.1"]},
+  {"image": 8,  "title": "التأشيرة", "lines": ["N4.2", "M4"]},
+  {"image": 9,  "title": "ليل على سطح الباخرة", "lines": ["N5.1-3", "T5", "N5.4"]},
+  {"image": 10, "title": "في ميناء بيروت", "lines": ["T6"]},
+  {"image": 11, "title": "بيروت", "lines": ["N6.1"]},
+  {"image": 12, "title": "ذكرى اللقاء", "lines": ["TA1"]},
+  {"image": 13, "title": "الطريق إلى دمشق", "lines": ["TA2"]},
+  {"image": 14, "title": "تأشيرة العراق", "lines": ["N6.2-3"]},
+  {"image": 15, "title": "الطريق إلى بغداد مفتوح", "lines": ["M5", "TA3"]}
+ ]}

@@ -1,0 +1,134 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "أصغر أفراد البعثة",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 2,
+   "title": "الطريق إلى مكة",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 3,
+   "title": "موعد مع بيت الله",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 4,
+   "title": "أمام الكعبة",
+   "music": "reverent",
+   "sfx": [
+    "roomtone",
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "text: مسجد"
+  },
+  {
+   "scene": 5,
+   "title": "هذه هي الكعبة",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 6,
+   "title": "لبيك اللهم لبيك",
+   "music": "warm",
+   "sfx": [
+    "crowd"
+   ],
+   "level": 0.85,
+   "reason": "text: فرح"
+  },
+  {
+   "scene": 7,
+   "title": "الطواف وزمزم",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 8,
+   "title": "على غير موعد",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: فقد"
+  },
+  {
+   "scene": 9,
+   "title": "أحلام الطفولة",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 10,
+   "title": "أسعد الأيام",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: مراجع"
+  },
+  {
+   "scene": 11,
+   "title": "جبل النور",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 12,
+   "title": "غار حراء",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 13,
+   "title": "رفاق الرحلة",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 14,
+   "title": "أفكار جديدة",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 15,
+   "title": "قفصة تنتظر",
+   "music": "ending",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "text: مدينة; last scene"
+  }
+ ]
+}

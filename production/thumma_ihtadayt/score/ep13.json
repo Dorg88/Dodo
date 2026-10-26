@@ -1,0 +1,135 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "في النجف",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 2,
+   "title": "طلاب صغار بالعمائم",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: كتب"
+  },
+  {
+   "scene": 3,
+   "title": "دهشة وإعجاب",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: كتب"
+  },
+  {
+   "scene": 4,
+   "title": "طريق طويل من القراءة",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: قراءة"
+  },
+  {
+   "scene": 5,
+   "title": "في المجلس العلمي",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 6,
+   "title": "أجوبة وأسئلة",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: أسئلة"
+  },
+  {
+   "scene": 7,
+   "title": "منعم يعود إلى بغداد",
+   "music": "warm",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: بغداد"
+  },
+  {
+   "scene": 8,
+   "title": "في منزل السيد أبي شبر",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 9,
+   "title": "شبان من طلبة العلم",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 10,
+   "title": "الدراسة الحوزوية",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: دراسة"
+  },
+  {
+   "scene": 11,
+   "title": "أفكار مسبقة",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 12,
+   "title": "في ختام المجلس",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 13,
+   "title": "لقاء مرتقب",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: أسئلة"
+  },
+  {
+   "scene": 14,
+   "title": "رعاية الأصدقاء",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: فقد"
+  },
+  {
+   "scene": 15,
+   "title": "أسئلة تنتظر",
+   "music": "ending",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: أسئلة; last scene"
+  }
+ ]
+}

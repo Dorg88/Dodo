@@ -34,18 +34,19 @@ Work on branch `ccr-98ead9b4-z932hl`. Progress log: `PROGRESS.md`. QA status: `Q
 ## STATE (2026-10-26, on the producer's Mac)
 Book folder `~/HIKAYA/books/thumma_ihtadayt/` (originals copied unchanged; build with `hikaya_pack.py`).
 Text artifacts mirrored in `production/thumma_ihtadayt/` (orders, scripts, maps, reports, recovered scripts).
-- All 22 episodes built in clips mode from the original recordings and the 15 IMG.zip illustrations each.
-- Ep 01: original script (episode_source.json); automatic cuts = hand cuts 16/16; app end-to-end test passes.
+- Episodes 02–22 built in clips mode from the original recordings and the 15 IMG.zip illustrations each.
+- Ep 01: the FIRST VERSION, unchanged (producer's decision): copied byte for byte from the bundled book; never
+  rebuild it. The pipeline trial on it (automatic cuts = hand cuts 16/16) lives in ~/HIKAYA/books/ep01_pipeline_trial.
 - Ep 07–19: delivered per-character drafts; play order and picture placement PROPOSED (order/epNN.json).
 - Ep 02–06, 20–22: no script matches the recordings → text recovered from the audio (two local transcriptions),
-  marked `textStatus: recovered-transcript`; spoken TTS directions removed from text and clips.
+  marked `textStatus: recovered-transcript`; spoken TTS directions deleted from the texts, the display and the clips
+  (a copy with them, needed by alignment, is in ~/HIKAYA/recovered_scripts/data/).
 - Episodes awaiting the producer's approval carry `status: review` in book.json («قيد المراجعة» in the app).
 
 ## NEXT STEPS (need the producer)
 1. Listen and approve/correct the proposed orders (`order/epNN.json`, preview videos in `reports/epNN/`).
 2. Review the recovered texts (`~/HIKAYA/recovered_scripts/…`, Word documents) and the open questions in
-   `QA_REPORT.md` (swapped Fellow/Juniorscholar files, Atrash = Sheikh Abd al-Basit?, Batch 3 boundaries,
-   Episode 01 image set). After a change: storyboard build → align → score → verify → pack refresh/build.
+   `QA_REPORT.md` (swapped Fellow/Juniorscholar files, Atrash = Sheikh Abd al-Basit?, Batch 3 boundaries). After a change: storyboard build → align → score → verify → pack refresh/build.
 3. Test the imported book on a phone (background playback, lock-screen controls).
 
 ## Commands

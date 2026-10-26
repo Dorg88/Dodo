@@ -1,0 +1,18 @@
+{"episode": 18, "status": "proposed", "note": "Play order proposed from the per-character script and the order of the 15 illustrations; to be confirmed by the producer.",
+ "scenes": [
+  {"image": 1,  "title": "النصوص القرآنية", "lines": ["N1"]},
+  {"image": 2,  "title": "مدح وتحذير", "lines": ["N2.1"]},
+  {"image": 3,  "title": "الآيات في سياقها", "lines": ["T1"]},
+  {"image": 4,  "title": "حدود التعميم", "lines": ["N2.2"]},
+  {"image": 5,  "title": "النص كاملا", "lines": ["T2"]},
+  {"image": 6,  "title": "مراتب الروايات", "lines": ["N3.1"]},
+  {"image": 7,  "title": "اللفظ والرواية والتفسير", "lines": ["TR1"]},
+  {"image": 8,  "title": "المقارنة الدقيقة", "lines": ["N3.2"]},
+  {"image": 9,  "title": "القرآن والأخبار", "lines": ["T3"]},
+  {"image": 10, "title": "ازداد اقتناعه", "lines": ["N4.1/1-2"]},
+  {"image": 11, "title": "مصادر الطرف الآخر", "lines": ["N4.1/3"]},
+  {"image": 12, "title": "ثقل النتائج", "lines": ["N4.2"]},
+  {"image": 13, "title": "الدليل أولا", "lines": ["T4"]},
+  {"image": 14, "title": "سؤال جديد", "lines": ["N5.1/1"]},
+  {"image": 15, "title": "لأعرف ما ينبغي أن أعتقده", "lines": ["N5.1/2-3"]}
+ ]}

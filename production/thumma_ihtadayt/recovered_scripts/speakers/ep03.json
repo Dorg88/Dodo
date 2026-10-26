@@ -1,0 +1,39 @@
+[
+ {
+  "file": "~/HIKAYA/assets/audio/Ep3/Narrator3.wav",
+  "display_file": "Ep3.zip/Narrator3.wav",
+  "label": "الراوي",
+  "basis": "اسم الملف",
+  "direction_text": [
+   "هادئ ومشوق",
+   "يحمل الرهبة"
+  ]
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Ep3/Hisyouth.wav",
+  "display_file": "Ep3.zip/Hisyouth.wav",
+  "label": "التيجاني الشاب",
+  "basis": "اسم الملف (his youth)",
+  "direction_text": [
+   "ممسوجة بالفرح",
+   "تملأه الرهبة",
+   "من شدة التأثر",
+   "وعاطفية"
+  ]
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Ep4/Fellow.wav",
+  "display_file": "Ep4.zip/Fellow.wav",
+  "label": "رفيق الرحلة",
+  "basis": "⚠ الملف موجود في Ep4.zip لكن مضمونه من الحلقة الثالثة: زميل في بعثة الحج («وأنت أصغرنا سنا… شرفتنا أمام الوفود المشاركة»)، و«رفيق الرحلة» من شخصيات الحلقة الثالثة المعلومة — يحتاج تأكيدا"
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Ep3/Hismature.wav",
+  "display_file": "Ep3.zip/Hismature.wav",
+  "label": "التيجاني الكبير",
+  "basis": "اسم الملف (his mature)",
+  "direction_text": [
+   "شديد"
+  ]
+ }
+]

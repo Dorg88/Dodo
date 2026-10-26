@@ -1,0 +1,127 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "لم يكن قرارا عابرا",
+   "music": "reflective",
+   "sfx": [
+    "sea"
+   ],
+   "level": 0.85,
+   "reason": "text: بحر"
+  },
+  {
+   "scene": 2,
+   "title": "لماذا تغيرت قناعتي؟",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: أسئلة"
+  },
+  {
+   "scene": 3,
+   "title": "المرجعية بعد النبي",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: سؤال"
+  },
+  {
+   "scene": 4,
+   "title": "ما يستدلون به",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: مصادر"
+  },
+  {
+   "scene": 5,
+   "title": "روايات أهل البيت",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: روايات"
+  },
+  {
+   "scene": 6,
+   "title": "الثقلين والغدير",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: روايات"
+  },
+  {
+   "scene": 7,
+   "title": "تفسيرات مختلفة",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: قراءة"
+  },
+  {
+   "scene": 8,
+   "title": "أعمق من مذهب",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: سؤال"
+  },
+  {
+   "scene": 9,
+   "title": "سؤال عن المرجعية",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: سؤال"
+  },
+  {
+   "scene": 10,
+   "title": "محبة أهل البيت",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 11,
+   "title": "الإنصاف مع المخالفين",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 12,
+   "title": "مقدار التعب",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 13,
+   "title": "لا تعصب",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 14,
+   "title": "سؤال آخر",
+   "music": "ending",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: سؤال; last scene"
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+[
+ {
+  "file": "~/HIKAYA/assets/audio/Ep4/Narrator4.wav",
+  "display_file": "Ep4.zip/Narrator4.wav",
+  "label": "الراوي",
+  "basis": "اسم الملف"
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Ep4/Hisyouth1.wav",
+  "display_file": "Ep4.zip/Hisyouth1.wav",
+  "label": "التيجاني الشاب",
+  "basis": "اسم الملف",
+  "direction_text": [
+   "باعتزاز ممزوج بالتواضع"
+  ]
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Ep4/Dad2.wav",
+  "display_file": "Ep4.zip/Dad2.wav",
+  "label": "الأب",
+  "basis": "اسم الملف"
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Ep4/Mom1.wav",
+  "display_file": "Ep4.zip/Mom1.wav",
+  "label": "الأم",
+  "basis": "اسم الملف"
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Ep4/Neighbour.wav",
+  "display_file": "Ep4.zip/Neighbour.wav",
+  "label": "أحد أهل المدينة",
+  "basis": "اسم الملف (neighbour) وقائمة شخصيات الحلقة"
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Ep3/Juniorscholar.wav",
+  "display_file": "Ep3.zip/Juniorscholar.wav",
+  "label": "أحد الطلاب",
+  "basis": "⚠ الملف موجود في Ep3.zip لكن مضمونه من الحلقة الرابعة: طالب يسأل «أستاذ محمد» عن اعتراضه على زيارة الأضرحة بعد عودته من الحج، و«أحد الطلاب» من شخصيات الحلقة الرابعة المعلومة — يحتاج تأكيدا",
+  "direction_spans": [
+   {
+    "span": [
+     4.1,
+     4.6
+    ],
+    "reason": "«خفيف،» تكملة «بتردد خفيف»"
+   },
+   {
+    "span": [
+     17.86,
+     19.5
+    ],
+    "reason": "«بإعجاب،» تعليمة أداء بين جملتين («…ودليلك» | «أحب أن أستمع…»)"
+   }
+  ]
+ }
+]

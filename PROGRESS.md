@@ -19,3 +19,22 @@
       light-mode home header use the official HIKAYA logo; credit «فكرةً وتصميماً: ضرغام الگيار»
 - [ ] Optional: a higher-resolution shrine logo (current file is 591×338)
 - [ ] On-device check of background playback and lock-screen controls
+
+## 2026-10-26 (producer's Mac)
+- [x] Inventory of `Audio.zip` (13 ZIPs inside: Ep1–Ep9, Batch 1–3, scripts handover → 64 recordings, 91 min,
+      26 script files) and `IMG.zip` (330 illustrations = 15 per episode × 22); `hikaya_assets.py` fixed for
+      nested ZIPs, folder episode ranges and per-character scripts
+- [x] Scripts: Ep 01 original (from the repository); Ep 07–19 delivered per-character drafts (verbatim);
+      Ep 02–06 and 20–22 recovered from the recordings (no matching script exists) — TXT per episode, Word
+      documents and `RECOVERY_REPORT.md` in `~/HIKAYA/recovered_scripts/` and `production/thumma_ihtadayt/`;
+      TTS directions deleted from the recovered texts (producer's decision)
+- [x] New tools: transcribe once (local Whisper), recover scripts, play-order builder, verify playback and
+      render previews, cut cross-check, QA table, Word export, book build script
+- [x] Episode 01 end to end as the test of the method: automatic cuts = hand cuts 16/16; clips 21/21; app test
+      passes. The book keeps the FIRST VERSION of Episode 01 unchanged (producer's decision); the trial is kept apart
+- [x] Episodes 02–22 built in clips mode with the 15 illustrations each; play order and picture placement
+      proposed for 02–22 (`order/epNN.json`), marked «قيد المراجعة» in the app
+- [x] App: page turns by swipe or page dots with a page-turn transition; spoken line always scrolled into view;
+      scene changes in the pause; review badge; end-to-end imported-book test
+- [ ] Producer: approve or correct the proposed orders and the recovered texts (see `QA_REPORT.md` questions)
+- [ ] On-device check of background playback and lock-screen controls

@@ -1,0 +1,23 @@
+[
+ {
+  "file": "~/HIKAYA/assets/audio/Batch 3/Narrŕatttor.wav",
+  "display_file": "Batch 3.zip/Narrŕatttor.wav",
+  "label": "الراوي",
+  "basis": "اسم الملف",
+  "from": 131.05,
+  "to": 272.0,
+  "part_basis": "حدود الحلقة مستنتجة من المضمون: يبدأ بموضوع «الاجتهاد في مقابل النص» (عنوان الحلقة 21) وينتهي قبل «العودة إلى تونس» — يحتاج تأكيدا",
+  "direction_text": [
+   "علمية رصينة"
+  ]
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Batch 3/Tiììjani.wav",
+  "display_file": "Batch 3.zip/Tiììjani.wav",
+  "label": "التيجاني",
+  "basis": "اسم الملف",
+  "from": 106.4,
+  "to": 202.7,
+  "part_basis": "حدود الحلقة مستنتجة من المضمون: يبدأ بموضوع «الاجتهاد في مقابل النص» (عنوان الحلقة 21) وينتهي قبل «العودة إلى تونس» — يحتاج تأكيدا"
+ }
+]

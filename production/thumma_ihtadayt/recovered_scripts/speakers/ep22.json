@@ -1,0 +1,43 @@
+[
+ {
+  "file": "~/HIKAYA/assets/audio/Batch 3/Narrŕatttor.wav",
+  "display_file": "Batch 3.zip/Narrŕatttor.wav",
+  "label": "الراوي",
+  "basis": "اسم الملف",
+  "from": 272.0,
+  "part_basis": "حدود الحلقة مستنتجة من المضمون: يبدأ بالعودة إلى تونس وينتهي بـ«ثم اهتديت» — يحتاج تأكيدا",
+  "direction_text": [
+   "يحمل إحساس العودة"
+  ]
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Batch 3/Tiììjani.wav",
+  "display_file": "Batch 3.zip/Tiììjani.wav",
+  "label": "التيجاني",
+  "basis": "اسم الملف",
+  "from": 202.7,
+  "part_basis": "حدود الحلقة مستنتجة من المضمون: يبدأ بالعودة إلى تونس وينتهي بـ«ثم اهتديت» — يحتاج تأكيدا"
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Batch 3/Friend.wav",
+  "display_file": "Batch 3.zip/Friend.wav",
+  "label": "صديق تونسي",
+  "basis": "اسم الملف (friend) ومضمونه بعد العودة إلى تونس"
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Batch 3/Relative.wav",
+  "display_file": "Batch 3.zip/Relative.wav",
+  "label": "أحد الأقارب",
+  "basis": "اسم الملف (relative) ومضمونه: «نعرفوك من صغرك»",
+  "direction_text": [
+   "بنبرح نونة",
+   "بتقبل حذر"
+  ]
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Batch 3/Scholar.wav",
+  "display_file": "Batch 3.zip/Scholar.wav",
+  "label": "طالب",
+  "basis": "⚠ اسم الملف Scholar، ومضمونه طالب تونسي يسأل «أستاذ محمد» بعد عودته — نسبته إلى الحلقة 22 من المضمون"
+ }
+]

@@ -1,0 +1,202 @@
+{
+ "schema": "hikaya.book.v1",
+ "id": "thumma_ihtadayt",
+ "title": "ثم اهتديت",
+ "subtitle": "رحلة البحث عن الحقيقة",
+ "author": "محمد التيجاني السماوي",
+ "language": "ar",
+ "version": 2,
+ "description": "سيرة محمد التيجاني السماوي ورحلته في البحث عن الحقيقة، في اثنتين وعشرين حلقة مصوّرة ومسموعة.",
+ "cover": "ep01/images/01_gafsa_moonlit_city.jpg",
+ "plannedEpisodes": 22,
+ "episodes": [
+  {
+   "id": "ep01",
+   "number": 1,
+   "title": "ليلة لا تنسى",
+   "summary": "طفل في العاشرة يؤمّ المصلين في صلاة التراويح لأول مرة، في ليلة ستبقى محفورة في ذاكرته.",
+   "manifest": "ep01/episode.json",
+   "durationMs": 148810
+  },
+  {
+   "id": "ep02",
+   "number": 2,
+   "title": "من قفصة إلى بيت الله",
+   "summary": "انتهت تلك الليلة الرمضانية لكن أثرها لم ينتهي كبر الطفل محمد التجاني السماوي وبقيت ذكريات المسجد ترافقه في سنوات طفولته وشبابه",
+   "manifest": "ep02/episode.json",
+   "durationMs": 252030,
+   "status": "review"
+  },
+  {
+   "id": "ep03",
+   "number": 3,
+   "title": "أمام الكعبة لأول مرة",
+   "summary": "كان محمد التيجاني في الثامنة عشرة من عمره حين بدأت واحدة من أهم الرحلات في حياته اخترته الجمعية القومية للكشافة التونسية للمشاركة في مؤتمر عربي وإسلامي يقام في مكة المكرمة كان أفراد البعثة ستة رجال وكان محمد أصغرهم سناً",
+   "manifest": "ep03/episode.json",
+   "durationMs": 276285,
+   "status": "review"
+  },
+  {
+   "id": "ep04",
+   "number": 4,
+   "title": "العودة إلى قفصة",
+   "summary": "بعد خمسة وعشرين يوماً قضاها في السعودية عاد محمد التجاني إلى وطنه لكنه لم يكن يتوقع المفاجأة التي أعدها والده لاستقباله",
+   "manifest": "ep04/episode.json",
+   "durationMs": 302220,
+   "status": "review"
+  },
+  {
+   "id": "ep05",
+   "number": 5,
+   "title": "بين التصوف والتساؤل",
+   "summary": "بينما كان محمد التيجاني يواصل دروسه الدينية في مدينة قفصة وصلته دعوة غير متوقعة كانت الدعوة من أتباع الشيخ إسماعيل الهاتفي أحد مشايخ التصوف المعروفين في مدينة توزر",
+   "manifest": "ep05/episode.json",
+   "durationMs": 471530,
+   "status": "review"
+  },
+  {
+   "id": "ep06",
+   "number": 6,
+   "title": "رحلة إلى أرض الكنانة",
+   "summary": "غادر محمد التيجاني السماوي وطنه وقد امتلأ قلبه بالأمل والرغبة في اكتشاف العالم كانت وجهته هذه المرة مصر",
+   "manifest": "ep06/episode.json",
+   "durationMs": 577740,
+   "status": "review"
+  },
+  {
+   "id": "ep07",
+   "number": 7,
+   "title": "لقاء في عرض البحر",
+   "summary": "بعد أيام مزدحمة في القاهرة، توجه محمد التيجاني إلى الإسكندرية.",
+   "manifest": "ep07/episode.json",
+   "durationMs": 184430,
+   "status": "review"
+  },
+  {
+   "id": "ep08",
+   "number": 8,
+   "title": "أسئلة لم أجد لها جوابا",
+   "summary": "استمر النقاش في الباخرة.",
+   "manifest": "ep08/episode.json",
+   "durationMs": 218645,
+   "status": "review"
+  },
+  {
+   "id": "ep09",
+   "number": 9,
+   "title": "إلى العراق لأول مرة",
+   "summary": "من دمشق، انطلقت رحلة جديدة إلى بغداد.",
+   "manifest": "ep09/episode.json",
+   "durationMs": 182925,
+   "status": "review"
+  },
+  {
+   "id": "ep10",
+   "number": 10,
+   "title": "بين الجيلاني والكاظم",
+   "summary": "في الصباح، قصد محمد ومنعم منطقة باب الشيخ في بغداد، حيث مقام عبد القادر الجيلاني.",
+   "manifest": "ep10/episode.json",
+   "durationMs": 165770,
+   "status": "review"
+  },
+  {
+   "id": "ep11",
+   "number": 11,
+   "title": "الشك والتساؤل",
+   "summary": "قضى محمد أياما في بيت منعم يستريح ويفكر.",
+   "manifest": "ep11/episode.json",
+   "durationMs": 132730,
+   "status": "review"
+  },
+  {
+   "id": "ep12",
+   "number": 12,
+   "title": "الطريق إلى النجف",
+   "summary": "أخبر منعم صديقه أنهما سيتوجهان إلى النجف الأشرف.",
+   "manifest": "ep12/episode.json",
+   "durationMs": 165120,
+   "status": "review"
+  },
+  {
+   "id": "ep13",
+   "number": 13,
+   "title": "في مجلس العلماء",
+   "summary": "في النجف، دخل محمد برفقة منعم أحد المجالس العلمية.",
+   "manifest": "ep13/episode.json",
+   "durationMs": 151455,
+   "status": "review"
+  },
+  {
+   "id": "ep14",
+   "number": 14,
+   "title": "لقاء السيد محمد باقر الصدر",
+   "summary": "في صباح اليوم المرتقب، سار محمد مع السيد أبي شبر إلى بيت السيد محمد باقر الصدر.",
+   "manifest": "ep14/episode.json",
+   "durationMs": 187700,
+   "status": "review"
+  },
+  {
+   "id": "ep15",
+   "number": 15,
+   "title": "بين الشك والحيرة",
+   "summary": "خرج محمد من لقاءاته في العراق وقد ازدحمت في داخله صور متعارضة.",
+   "manifest": "ep15/episode.json",
+   "durationMs": 155725,
+   "status": "review"
+  },
+  {
+   "id": "ep16",
+   "number": 16,
+   "title": "بداية البحث عن الحقيقة",
+   "summary": "عاد محمد إلى قفصة، وجعل للكتب التي وصلته مكانا خاصا أسماه المكتبة.",
+   "manifest": "ep16/episode.json",
+   "durationMs": 109630,
+   "status": "review"
+  },
+  {
+   "id": "ep17",
+   "number": 17,
+   "title": "الصحابة بين التاريخ والرواية",
+   "summary": "في بداية دراسته المعمقة، اختار محمد موضوع الصحابة.",
+   "manifest": "ep17/episode.json",
+   "durationMs": 133145,
+   "status": "review"
+  },
+  {
+   "id": "ep18",
+   "number": 18,
+   "title": "ماذا يقول القرآن؟",
+   "summary": "واصل محمد بحثه، وانتقل إلى دراسة النصوص القرآنية والروايات التي يستشهد بها المسلمون في تقييم الصحابة وأحداث التاريخ المبكر.",
+   "manifest": "ep18/episode.json",
+   "durationMs": 108950,
+   "status": "review"
+  },
+  {
+   "id": "ep19",
+   "number": 19,
+   "title": "لحظة التحول",
+   "summary": "مرت ثلاثة أشهر ومحمد يعيش اضطرابا عميقا.",
+   "manifest": "ep19/episode.json",
+   "durationMs": 127555,
+   "status": "review"
+  },
+  {
+   "id": "ep20",
+   "number": 20,
+   "title": "أسباب الاستبصار",
+   "summary": ""
+  },
+  {
+   "id": "ep21",
+   "number": 21,
+   "title": "الاجتهاد في مقابل النص",
+   "summary": ""
+  },
+  {
+   "id": "ep22",
+   "number": 22,
+   "title": "ثم اهتديت — بداية طريق جديد",
+   "summary": ""
+  }
+ ]
+}

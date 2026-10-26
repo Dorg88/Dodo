@@ -1,0 +1,143 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "إلى النجف الأشرف",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 2,
+   "title": "مرقد الإمام علي",
+   "music": "reverent",
+   "sfx": [
+    "roomtone",
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "title: مرقد"
+  },
+  {
+   "scene": 3,
+   "title": "مدينة علمية",
+   "music": "warm",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: مدينة"
+  },
+  {
+   "scene": 4,
+   "title": "الكوفة",
+   "music": "reverent",
+   "sfx": [
+    "roomtone",
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "text: مسجد"
+  },
+  {
+   "scene": 5,
+   "title": "مسجد الكوفة",
+   "music": "reverent",
+   "sfx": [
+    "roomtone",
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "title: مسجد"
+  },
+  {
+   "scene": 6,
+   "title": "مقامات الكوفة",
+   "music": "reverent",
+   "sfx": [
+    "roomtone",
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "title: مقام"
+  },
+  {
+   "scene": 7,
+   "title": "بين ما رأى وما قرأ",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 8,
+   "title": "ثم إلى النجف",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 9,
+   "title": "على الطريق",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: كتب"
+  },
+  {
+   "scene": 10,
+   "title": "النجف",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 11,
+   "title": "طلاب ومجالس",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: أسئلة"
+  },
+  {
+   "scene": 12,
+   "title": "حرم الإمام علي",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 13,
+   "title": "بكاء وجنازة",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: بكاء"
+  },
+  {
+   "scene": 14,
+   "title": "اسأل أهل العلم",
+   "music": "warm",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "text: مدينة"
+  },
+  {
+   "scene": 15,
+   "title": "عالم جديد",
+   "music": "ending",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: سؤال; last scene"
+  }
+ ]
+}

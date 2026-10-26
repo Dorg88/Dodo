@@ -1,0 +1,149 @@
+{
+ "episode": 6,
+ "status": "proposed",
+ "note": "Recovered transcript (no original script): speaking order and illustration placement proposed from the content and the order of the 15 illustrations; to be confirmed by the producer. Illustrations 1–4 show the journey by sea and train while the narration describes a taxi through Libya; they are placed on the journey passages.",
+ "scenes": [
+  {
+   "image": 1,
+   "title": "إلى مصر",
+   "lines": [
+    "N1",
+    "T1"
+   ]
+  },
+  {
+   "image": 2,
+   "title": "طريق طويل",
+   "lines": [
+    "N2"
+   ]
+  },
+  {
+   "image": 3,
+   "title": "رفاق الطريق",
+   "lines": [
+    "N3",
+    "AE1",
+    "AE2"
+   ]
+  },
+  {
+   "image": 4,
+   "title": "دعوة أحمد",
+   "lines": [
+    "AE3",
+    "AE4",
+    "T2"
+   ]
+  },
+  {
+   "image": 5,
+   "title": "القاهرة",
+   "lines": [
+    "N4",
+    "AE5"
+   ]
+  },
+  {
+   "image": 6,
+   "title": "في بيت أحمد",
+   "lines": [
+    "T3",
+    "AE6",
+    "AE7"
+   ]
+  },
+  {
+   "image": 7,
+   "title": "عالم واسع",
+   "lines": [
+    "N5"
+   ]
+  },
+  {
+   "image": 8,
+   "title": "في مجلس الشيخ عبد الباسط",
+   "lines": [
+    "AB1",
+    "AB2",
+    "T4",
+    "AB3",
+    "AB4",
+    "AB5",
+    "AB6",
+    "AB7"
+   ]
+  },
+  {
+   "image": 9,
+   "title": "علماء الأزهر",
+   "lines": [
+    "N6",
+    "AZ1",
+    "T5",
+    "AZ2",
+    "AZ3"
+   ]
+  },
+  {
+   "image": 10,
+   "title": "لقاء عام",
+   "lines": [
+    "N7",
+    "T6",
+    "N8"
+   ]
+  },
+  {
+   "image": 11,
+   "title": "هل كنت أعرف حقا؟",
+   "lines": [
+    "T7",
+    "T8",
+    "AZ4",
+    "AZ5"
+   ]
+  },
+  {
+   "image": 12,
+   "title": "مسجد الإمام الحسين",
+   "lines": [
+    "N9"
+   ]
+  },
+  {
+   "image": 13,
+   "title": "حجرة الآثار",
+   "lines": [
+    "HK1",
+    "HK2",
+    "HK3",
+    "HK4",
+    "T9",
+    "HK5",
+    "HK6",
+    "HK7",
+    "N10"
+   ]
+  },
+  {
+   "image": 14,
+   "title": "اتجاهان مختلفان",
+   "lines": [
+    "N11",
+    "T10",
+    "T11",
+    "T12"
+   ]
+  },
+  {
+   "image": 15,
+   "title": "إلى الإسكندرية",
+   "lines": [
+    "N12",
+    "N13",
+    "T13"
+   ]
+  }
+ ]
+}

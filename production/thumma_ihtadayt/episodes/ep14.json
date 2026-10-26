@@ -1,0 +1,892 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep14",
+ "number": 14,
+ "title": "لقاء السيد محمد باقر الصدر",
+ "durationMs": 187700,
+ "audio": {
+  "mode": "clips",
+  "music": "ep14/audio/score_music.m4a",
+  "sfx": "ep14/audio/score_sfx.m4a",
+  "musicLoop": false
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AL_TIJANI": {
+   "name": "التيجاني"
+  },
+  "PROFESSOR_MUNIM": {
+   "name": "الأستاذ منعم"
+  },
+  "AL_TIJANI_ADULT": {
+   "name": "التيجاني الكبير"
+  },
+  "MUNIM_FATHER": {
+   "name": "والد منعم"
+  },
+  "MUNIM_MOTHER": {
+   "name": "والدة منعم"
+  },
+  "SHRINE_RESEARCHER": {
+   "name": "باحث عراقي في المقام"
+  },
+  "HAWZA_STUDENT": {
+   "name": "طالب حوزة"
+  },
+  "NAJAF_VISITOR": {
+   "name": "زائر في النجف"
+  },
+  "ABU_SHUBAR": {
+   "name": "السيد أبو شبر"
+  },
+  "BAQIR_AL_SADR": {
+   "name": "السيد محمد باقر الصدر"
+  },
+  "AL_BASHIR": {
+   "name": "البشير"
+  },
+  "DOCUMENT_READER": {
+   "name": "قارئ الوثائق"
+  },
+  "TEXT_READER": {
+   "name": "قارئ النصوص"
+  },
+  "TUNISIAN_INTERLOCUTOR": {
+   "name": "محاور تونسي"
+  },
+  "TUNISIAN_FRIEND": {
+   "name": "صديق تونسي"
+  },
+  "TUNISIAN_ELDER": {
+   "name": "أحد أهل تونس"
+  },
+  "AL_TIJANI_CHILD": {
+   "name": "التيجاني الصغير"
+  },
+  "FATHER": {
+   "name": "الأب"
+  },
+  "TEACHER": {
+   "name": "المعلم"
+  },
+  "WORSHIPPER_1": {
+   "name": "المصلي الأول"
+  },
+  "WORSHIPPER_2": {
+   "name": "المصلي الثاني"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "في الطريق",
+   "image": "ep14/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 12990
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "على باب السيد الصدر",
+   "image": "ep14/images/scene_02.jpg",
+   "startMs": 12990,
+   "endMs": 21300
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "مجلس العلم",
+   "image": "ep14/images/scene_03.jpg",
+   "startMs": 21300,
+   "endMs": 30950
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "الضيف القادم من تونس",
+   "image": "ep14/images/scene_04.jpg",
+   "startMs": 30950,
+   "endMs": 45680
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "السؤال الصريح",
+   "image": "ep14/images/scene_05.jpg",
+   "startMs": 45680,
+   "endMs": 60380
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "النصوص وأسانيدها",
+   "image": "ep14/images/scene_06.jpg",
+   "startMs": 60380,
+   "endMs": 72110
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "الخلفاء والصحابة",
+   "image": "ep14/images/scene_07.jpg",
+   "startMs": 72110,
+   "endMs": 88610
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "الطرق الصوفية والتوسل",
+   "image": "ep14/images/scene_08.jpg",
+   "startMs": 88610,
+   "endMs": 108360
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "مسائل كثيرة",
+   "image": "ep14/images/scene_09.jpg",
+   "startMs": 108360,
+   "endMs": 118970
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "أجوبة المدرسة الإمامية",
+   "image": "ep14/images/scene_10.jpg",
+   "startMs": 118970,
+   "endMs": 126750
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "تراث من البحث",
+   "image": "ep14/images/scene_11.jpg",
+   "startMs": 126750,
+   "endMs": 145040
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "امتنان",
+   "image": "ep14/images/scene_12.jpg",
+   "startMs": 145040,
+   "endMs": 156580
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "الخروج من المجلس",
+   "image": "ep14/images/scene_13.jpg",
+   "startMs": 156580,
+   "endMs": 164480
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "الإنصاف",
+   "image": "ep14/images/scene_14.jpg",
+   "startMs": 164480,
+   "endMs": 172765
+  },
+  {
+   "number": 15,
+   "id": "s15",
+   "title": "مسؤولية جديدة",
+   "image": "ep14/images/scene_15.jpg",
+   "startMs": 172765,
+   "endMs": 187700
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep14_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت عميق جاد",
+   "text": "في صباح اليوم المرتقب، سار محمد مع السيد أبي شبر إلى بيت السيد محمد باقر الصدر. في الطريق، حدثه مرافقه عن العلماء وعن التقليد والدراسة في الحوزة.",
+   "startMs": 500,
+   "endMs": 12390,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 361510,
+    "endMs": 373400
+   },
+   "lines": [
+    {
+     "text": "في صباح اليوم المرتقب، سار محمد مع السيد أبي شبر إلى بيت السيد محمد باقر الصدر.",
+     "startMs": 500,
+     "endMs": 6750
+    },
+    {
+     "text": "في الطريق، حدثه مرافقه عن العلماء وعن التقليد والدراسة في الحوزة.",
+     "startMs": 6750,
+     "endMs": 12389
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s02_l01",
+   "scene": 2,
+   "speakerId": "ABU_SHUBAR",
+   "speakerName": "السيد أبو شبر",
+   "direction": "بمودة",
+   "text": "تفضل يا أستاذ محمد. هذا مجلس بحث، فخذ راحتك بالسؤال، وسنساعدك في الحصول على ما تحتاجه من كتب.",
+   "startMs": 13590,
+   "endMs": 20700,
+   "clip": {
+    "file": "audio/Batch 1/Abushubar.wav",
+    "startMs": 16330,
+    "endMs": 23440
+   },
+   "lines": [
+    {
+     "text": "تفضل يا أستاذ محمد.",
+     "startMs": 13590,
+     "endMs": 14860
+    },
+    {
+     "text": "هذا مجلس بحث، فخذ راحتك بالسؤال، وسنساعدك في الحصول على ما تحتاجه من كتب.",
+     "startMs": 14860,
+     "endMs": 20700
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s03_l01",
+   "scene": 3,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة احترام",
+   "text": "دخل الاثنان مجلسا يضم عددا من طلاب العلم. نهض السيد الصدر ورحب بالضيف القادم من تونس، وأجلسه بالقرب منه.",
+   "startMs": 21900,
+   "endMs": 30950,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 375790,
+    "endMs": 384840
+   },
+   "lines": [
+    {
+     "text": "دخل الاثنان مجلسا يضم عددا من طلاب العلم.",
+     "startMs": 21900,
+     "endMs": 24929
+    },
+    {
+     "text": "نهض السيد الصدر ورحب بالضيف القادم من تونس، وأجلسه بالقرب منه.",
+     "startMs": 24929,
+     "endMs": 30949
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.995,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s04_l01",
+   "scene": 4,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "سأل عن تونس والجزائر وبعض علمائهما، ثم فُتح باب النقاش.",
+   "startMs": 30950,
+   "endMs": 35750,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 385340,
+    "endMs": 390140
+   },
+   "lines": [
+    {
+     "text": "سأل عن تونس والجزائر وبعض علمائهما، ثم فُتح باب النقاش.",
+     "startMs": 30950,
+     "endMs": 35750
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.971,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s04_l02",
+   "scene": 4,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "باحترام عميق",
+   "text": "سماحة السيد، جئت من تونس وفي ذهني أسئلة كثيرة، وبعضها قد يكون صعبا. أرجو أن تسمح لي بطرحها بصراحة.",
+   "startMs": 36350,
+   "endMs": 45080,
+   "clip": {
+    "file": "audio/Batch 1/Tijaniiii.wav",
+    "startMs": 183030,
+    "endMs": 191760
+   },
+   "lines": [
+    {
+     "text": "سماحة السيد، جئت من تونس وفي ذهني أسئلة كثيرة، وبعضها قد يكون صعبا.",
+     "startMs": 36350,
+     "endMs": 42019
+    },
+    {
+     "text": "أرجو أن تسمح لي بطرحها بصراحة.",
+     "startMs": 42019,
+     "endMs": 45079
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.979,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s05_l01",
+   "scene": 5,
+   "speakerId": "BAQIR_AL_SADR",
+   "speakerName": "السيد محمد باقر الصدر",
+   "direction": "بصوت وقور ولطيف",
+   "text": "أهلا بك يا أخ محمد. نرحب بالسؤال الصريح متى كان هدفه الوصول إلى المعرفة.",
+   "startMs": 46280,
+   "endMs": 52250,
+   "clip": {
+    "file": "audio/Batch 1/Baqirsadr.wav",
+    "startMs": 120,
+    "endMs": 6090
+   },
+   "lines": [
+    {
+     "text": "أهلا بك يا أخ محمد.",
+     "startMs": 46280,
+     "endMs": 47860
+    },
+    {
+     "text": "نرحب بالسؤال الصريح متى كان هدفه الوصول إلى المعرفة.",
+     "startMs": 47860,
+     "endMs": 52250
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.986,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s05_l02",
+   "scene": 5,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بجدية",
+   "text": "كيف تنظرون إلى مسألة الإمامة بعد النبي؟ وكيف تقرؤون الروايات المتعلقة بمواقف الصحابة؟",
+   "startMs": 52850,
+   "endMs": 59780,
+   "clip": {
+    "file": "audio/Batch 1/Tijaniiii.wav",
+    "startMs": 193390,
+    "endMs": 200320
+   },
+   "lines": [
+    {
+     "text": "كيف تنظرون إلى مسألة الإمامة بعد النبي؟",
+     "startMs": 52850,
+     "endMs": 55900
+    },
+    {
+     "text": "وكيف تقرؤون الروايات المتعلقة بمواقف الصحابة؟",
+     "startMs": 55900,
+     "endMs": 59780
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s06_l01",
+   "scene": 6,
+   "speakerId": "BAQIR_AL_SADR",
+   "speakerName": "السيد محمد باقر الصدر",
+   "direction": "بنبرة علمية متزنة",
+   "text": "الخلاف في التاريخ الإسلامي يحتاج إلى دراسة النصوص وأسانيدها وسياقاتها، لا إلى الانفعال أو مجرد تقليد ما شاع بين الناس.",
+   "startMs": 60980,
+   "endMs": 71510,
+   "clip": {
+    "file": "audio/Batch 1/Baqirsadr.wav",
+    "startMs": 8400,
+    "endMs": 18930
+   },
+   "lines": [
+    {
+     "text": "الخلاف في التاريخ الإسلامي يحتاج إلى دراسة النصوص وأسانيدها وسياقاتها، لا إلى الانفعال أو مجرد تقليد ما شاع بين الناس.",
+     "startMs": 60980,
+     "endMs": 71510
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s07_l01",
+   "scene": 7,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بتردد صادق",
+   "text": "لقد تربيت على احترام الخلفاء والصحابة، ولا يسهل علي أن أراجع ما استقر في نفسي منذ الصغر.",
+   "startMs": 72710,
+   "endMs": 79550,
+   "clip": {
+    "file": "audio/Batch 1/Tijaniiii.wav",
+    "startMs": 202630,
+    "endMs": 209470
+   },
+   "lines": [
+    {
+     "text": "لقد تربيت على احترام الخلفاء والصحابة، ولا يسهل علي أن أراجع ما استقر في نفسي منذ الصغر.",
+     "startMs": 72710,
+     "endMs": 79550
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.988,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s07_l02",
+   "scene": 7,
+   "speakerId": "BAQIR_AL_SADR",
+   "speakerName": "السيد محمد باقر الصدر",
+   "direction": "بهدوء",
+   "text": "اقرأ أدلة كل مدرسة من مصادرها، وقارن، واسأل عما لا يتضح لك. ليس المطلوب أن تعجل بالحكم.",
+   "startMs": 80150,
+   "endMs": 88010,
+   "clip": {
+    "file": "audio/Batch 1/Baqirsadr.wav",
+    "startMs": 20800,
+    "endMs": 28660
+   },
+   "lines": [
+    {
+     "text": "اقرأ أدلة كل مدرسة من مصادرها، وقارن، واسأل عما لا يتضح لك.",
+     "startMs": 80150,
+     "endMs": 85630
+    },
+    {
+     "text": "ليس المطلوب أن تعجل بالحكم.",
+     "startMs": 85630,
+     "endMs": 88009
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s08_l01",
+   "scene": 8,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "باهتمام",
+   "text": "وأريد أن أفهم رأيكم في الطرق الصوفية والتوسل، فهذه المسائل شغلتني في تونس وفي السعودية.",
+   "startMs": 89210,
+   "endMs": 98050,
+   "clip": {
+    "file": "audio/Batch 1/Tijaniiii.wav",
+    "startMs": 211070,
+    "endMs": 219910
+   },
+   "lines": [
+    {
+     "text": "وأريد أن أفهم رأيكم في الطرق الصوفية والتوسل، فهذه المسائل شغلتني في تونس وفي السعودية.",
+     "startMs": 89210,
+     "endMs": 98050
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s08_l02",
+   "scene": 8,
+   "speakerId": "BAQIR_AL_SADR",
+   "speakerName": "السيد محمد باقر الصدر",
+   "direction": "بنبرة تأملية",
+   "text": "وفي الطرق الصوفية جوانب من تزكية النفس والزهد قد تكون نافعة، وفي بعض الممارسات ما يحتاج إلى نقد وتمييز.",
+   "startMs": 98650,
+   "endMs": 107760,
+   "clip": {
+    "file": "audio/Batch 1/Baqirsadr.wav",
+    "startMs": 31660,
+    "endMs": 40770
+   },
+   "lines": [
+    {
+     "text": "وفي الطرق الصوفية جوانب من تزكية النفس والزهد قد تكون نافعة، وفي بعض الممارسات ما يحتاج إلى نقد وتمييز.",
+     "startMs": 98650,
+     "endMs": 107760
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.99,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s09_l01",
+   "scene": 9,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "ببطء وتركيز",
+   "text": "كانت لدى محمد مسائل كثيرة: الإمامة والخلافة، مواقف بعض الصحابة، التوسل، الطرق الصوفية، ومصادر الاعتقاد.",
+   "startMs": 108960,
+   "endMs": 118970,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 392680,
+    "endMs": 402690
+   },
+   "lines": [
+    {
+     "text": "كانت لدى محمد مسائل كثيرة: الإمامة والخلافة، مواقف بعض الصحابة، التوسل، الطرق الصوفية، ومصادر الاعتقاد.",
+     "startMs": 108960,
+     "endMs": 118969
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s10_l01",
+   "scene": 10,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "وقدّم السيد الصدر أجوبة من منظور المدرسة الإمامية، مستندا إلى قراءته للنصوص والتاريخ.",
+   "startMs": 118970,
+   "endMs": 126450,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 403070,
+    "endMs": 410550
+   },
+   "lines": [
+    {
+     "text": "وقدّم السيد الصدر أجوبة من منظور المدرسة الإمامية، مستندا إلى قراءته للنصوص والتاريخ.",
+     "startMs": 118970,
+     "endMs": 126450
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s11_l01",
+   "scene": 11,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة متزنة",
+   "text": "لم يكن هذا اللقاء يعني أن محمد قد غيّر رأيه فورا. لقد قضى عمرا يحترم منظومة من الأفكار ويثق في مصادرها. لكن اللقاء جعله يرى أن وراء ما سمعه عن الشيعة تراثا من البحث والحجج لا يصح تجاهله.",
+   "startMs": 127050,
+   "endMs": 144440,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 413080,
+    "endMs": 430470
+   },
+   "lines": [
+    {
+     "text": "لم يكن هذا اللقاء يعني أن محمد قد غيّر رأيه فورا.",
+     "startMs": 127050,
+     "endMs": 130429
+    },
+    {
+     "text": "لقد قضى عمرا يحترم منظومة من الأفكار ويثق في مصادرها.",
+     "startMs": 130429,
+     "endMs": 135450
+    },
+    {
+     "text": "لكن اللقاء جعله يرى أن وراء ما سمعه عن الشيعة تراثا من البحث والحجج لا يصح تجاهله.",
+     "startMs": 135450,
+     "endMs": 144440
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s12_l01",
+   "scene": 12,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بتأثر وامتنان",
+   "text": "أشكركم على سعة صدركم. سأعود إلى المصادر، وأفكر مليا فيما سمعته اليوم.",
+   "startMs": 145640,
+   "endMs": 152300,
+   "clip": {
+    "file": "audio/Batch 1/Tijaniiii.wav",
+    "startMs": 224340,
+    "endMs": 231000
+   },
+   "lines": [
+    {
+     "text": "أشكركم على سعة صدركم.",
+     "startMs": 145640,
+     "endMs": 147399
+    },
+    {
+     "text": "سأعود إلى المصادر، وأفكر مليا فيما سمعته اليوم.",
+     "startMs": 147399,
+     "endMs": 152299
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.97,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s12_l02",
+   "scene": 12,
+   "speakerId": "BAQIR_AL_SADR",
+   "speakerName": "السيد محمد باقر الصدر",
+   "direction": "بدفء",
+   "text": "أسأل الله أن يوفقك إلى ما فيه الحق والخير.",
+   "startMs": 152900,
+   "endMs": 155980,
+   "clip": {
+    "file": "audio/Batch 1/Baqirsadr.wav",
+    "startMs": 42660,
+    "endMs": 45740
+   },
+   "lines": [
+    {
+     "text": "أسأل الله أن يوفقك إلى ما فيه الحق والخير.",
+     "startMs": 152900,
+     "endMs": 155979
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s13_l01",
+   "scene": 13,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بتأثر",
+   "text": "خرج من المجلس وهو يشعر بالامتنان للحفاوة، وبالحيرة أمام كثرة ما يحتاج إلى التحقيق.",
+   "startMs": 157180,
+   "endMs": 164480,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 432530,
+    "endMs": 439830
+   },
+   "lines": [
+    {
+     "text": "خرج من المجلس وهو يشعر بالامتنان للحفاوة، وبالحيرة أمام كثرة ما يحتاج إلى التحقيق.",
+     "startMs": 157180,
+     "endMs": 164480
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.988,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s14_l01",
+   "scene": 14,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "وبدأ يفكر أن الإنصاف يقتضي العودة إلى المصادر التي يحتج بها المختلفون، لا الاكتفاء بانطباع واحد.",
+   "startMs": 164480,
+   "endMs": 172165,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 440220,
+    "endMs": 447905
+   },
+   "lines": [
+    {
+     "text": "وبدأ يفكر أن الإنصاف يقتضي العودة إلى المصادر التي يحتج بها المختلفون، لا الاكتفاء بانطباع واحد.",
+     "startMs": 164480,
+     "endMs": 172165
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s15_l01",
+   "scene": 15,
+   "speakerId": "AL_TIJANI_ADULT",
+   "speakerName": "التيجاني الكبير",
+   "direction": "بتأمل صادق",
+   "text": "لم تمح أجوبة السيد الصدر تاريخي القديم في ساعة. لكنها وضعت أمامي مسؤولية جديدة: أن أختبر قناعاتي بالبحث، وألا أخاف من السؤال.",
+   "startMs": 173365,
+   "endMs": 186200,
+   "clip": {
+    "file": "audio/Batch 1/Tijaniiii.wav",
+    "startMs": 235070,
+    "endMs": 247905
+   },
+   "lines": [
+    {
+     "text": "لم تمح أجوبة السيد الصدر تاريخي القديم في ساعة.",
+     "startMs": 173365,
+     "endMs": 177554
+    },
+    {
+     "text": "لكنها وضعت أمامي مسؤولية جديدة: أن أختبر قناعاتي بالبحث، وألا أخاف من السؤال.",
+     "startMs": 177554,
+     "endMs": 186200
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  }
+ ],
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "reverent",
+   "startMs": 0,
+   "endMs": 13790
+  },
+  {
+   "scene": 2,
+   "cue": "suspense",
+   "startMs": 12190,
+   "endMs": 22100
+  },
+  {
+   "scene": 3,
+   "cue": "reflective",
+   "startMs": 20500,
+   "endMs": 31750
+  },
+  {
+   "scene": 4,
+   "cue": "suspense",
+   "startMs": 30150,
+   "endMs": 46480
+  },
+  {
+   "scene": 5,
+   "cue": "suspense",
+   "startMs": 44880,
+   "endMs": 61180
+  },
+  {
+   "scene": 6,
+   "cue": "reflective",
+   "startMs": 59580,
+   "endMs": 72910
+  },
+  {
+   "scene": 7,
+   "cue": "reflective",
+   "startMs": 71310,
+   "endMs": 89410
+  },
+  {
+   "scene": 8,
+   "cue": "reflective",
+   "startMs": 87810,
+   "endMs": 109160
+  },
+  {
+   "scene": 9,
+   "cue": "reflective",
+   "startMs": 107560,
+   "endMs": 119770
+  },
+  {
+   "scene": 10,
+   "cue": "reflective",
+   "startMs": 118170,
+   "endMs": 127550
+  },
+  {
+   "scene": 11,
+   "cue": "reflective",
+   "startMs": 125950,
+   "endMs": 145840
+  },
+  {
+   "scene": 12,
+   "cue": "suspense",
+   "startMs": 144239,
+   "endMs": 157380
+  },
+  {
+   "scene": 13,
+   "cue": "suspense",
+   "startMs": 155780,
+   "endMs": 165280
+  },
+  {
+   "scene": 14,
+   "cue": "reflective",
+   "startMs": 163679,
+   "endMs": 173565
+  },
+  {
+   "scene": 15,
+   "cue": "ending",
+   "startMs": 171964,
+   "endMs": 188500
+  }
+ ]
+}

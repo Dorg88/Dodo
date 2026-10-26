@@ -1,0 +1,931 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep11",
+ "number": 11,
+ "title": "الشك والتساؤل",
+ "durationMs": 132730,
+ "audio": {
+  "mode": "clips",
+  "music": "ep11/audio/score_music.m4a",
+  "sfx": "ep11/audio/score_sfx.m4a",
+  "musicLoop": false
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AL_TIJANI": {
+   "name": "التيجاني"
+  },
+  "PROFESSOR_MUNIM": {
+   "name": "الأستاذ منعم"
+  },
+  "AL_TIJANI_ADULT": {
+   "name": "التيجاني الكبير"
+  },
+  "MUNIM_FATHER": {
+   "name": "والد منعم"
+  },
+  "MUNIM_MOTHER": {
+   "name": "والدة منعم"
+  },
+  "SHRINE_RESEARCHER": {
+   "name": "باحث عراقي في المقام"
+  },
+  "HAWZA_STUDENT": {
+   "name": "طالب حوزة"
+  },
+  "NAJAF_VISITOR": {
+   "name": "زائر في النجف"
+  },
+  "ABU_SHUBAR": {
+   "name": "السيد أبو شبر"
+  },
+  "BAQIR_AL_SADR": {
+   "name": "السيد محمد باقر الصدر"
+  },
+  "AL_BASHIR": {
+   "name": "البشير"
+  },
+  "DOCUMENT_READER": {
+   "name": "قارئ الوثائق"
+  },
+  "TEXT_READER": {
+   "name": "قارئ النصوص"
+  },
+  "TUNISIAN_INTERLOCUTOR": {
+   "name": "محاور تونسي"
+  },
+  "TUNISIAN_FRIEND": {
+   "name": "صديق تونسي"
+  },
+  "TUNISIAN_ELDER": {
+   "name": "أحد أهل تونس"
+  },
+  "AL_TIJANI_CHILD": {
+   "name": "التيجاني الصغير"
+  },
+  "FATHER": {
+   "name": "الأب"
+  },
+  "TEACHER": {
+   "name": "المعلم"
+  },
+  "WORSHIPPER_1": {
+   "name": "المصلي الأول"
+  },
+  "WORSHIPPER_2": {
+   "name": "المصلي الثاني"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "أيام في بيت منعم",
+   "image": "ep11/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 5390
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "أسئلة متلاحقة",
+   "image": "ep11/images/scene_02.jpg",
+   "startMs": 5390,
+   "endMs": 16150
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "لماذا كل هذا النفور؟",
+   "image": "ep11/images/scene_03.jpg",
+   "startMs": 16150,
+   "endMs": 23520
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "مراجعة الأحكام",
+   "image": "ep11/images/scene_04.jpg",
+   "startMs": 23520,
+   "endMs": 28520
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "ضيافة وعبادة",
+   "image": "ep11/images/scene_05.jpg",
+   "startMs": 28520,
+   "endMs": 33060
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "كلام دون عداء",
+   "image": "ep11/images/scene_06.jpg",
+   "startMs": 33060,
+   "endMs": 45840
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "الدليل هو الحكم",
+   "image": "ep11/images/scene_07.jpg",
+   "startMs": 45840,
+   "endMs": 50940
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "فكرة مؤلمة",
+   "image": "ep11/images/scene_08.jpg",
+   "startMs": 50940,
+   "endMs": 55560
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "الكبرياء",
+   "image": "ep11/images/scene_09.jpg",
+   "startMs": 55560,
+   "endMs": 60210
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "اعتراف",
+   "image": "ep11/images/scene_10.jpg",
+   "startMs": 60210,
+   "endMs": 67380
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "إجابات جاهزة",
+   "image": "ep11/images/scene_11.jpg",
+   "startMs": 67380,
+   "endMs": 75230
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "الحيرة ليست النهاية",
+   "image": "ep11/images/scene_12.jpg",
+   "startMs": 75230,
+   "endMs": 77820
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "يقين لم يمتحن",
+   "image": "ep11/images/scene_13.jpg",
+   "startMs": 77820,
+   "endMs": 81120
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "دعاء",
+   "image": "ep11/images/scene_14.jpg",
+   "startMs": 81120,
+   "endMs": 99000
+  },
+  {
+   "number": 15,
+   "id": "s15",
+   "title": "إلى النجف",
+   "image": "ep11/images/scene_15.jpg",
+   "startMs": 99000,
+   "endMs": 132730
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep11_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت تأملي بطيء",
+   "text": "قضى محمد أياما في بيت منعم يستريح ويفكر.",
+   "startMs": 500,
+   "endMs": 5390,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 102170,
+    "endMs": 107060
+   },
+   "lines": [
+    {
+     "text": "قضى محمد أياما في بيت منعم يستريح ويفكر.",
+     "startMs": 500,
+     "endMs": 5390
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s02_l01",
+   "scene": 2,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "وترددت في ذهنه أسئلة متلاحقة: لماذا لم نسمع عن هؤلاء الناس إلا ما يسوءهم؟ ولماذا نشعر بالنفور ممن لم نعرفهم؟",
+   "startMs": 5390,
+   "endMs": 15550,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 107290,
+    "endMs": 117450
+   },
+   "lines": [
+    {
+     "text": "وترددت في ذهنه أسئلة متلاحقة: لماذا لم نسمع عن هؤلاء الناس إلا ما يسوءهم؟",
+     "startMs": 5390,
+     "endMs": 11940
+    },
+    {
+     "text": "ولماذا نشعر بالنفور ممن لم نعرفهم؟",
+     "startMs": 11940,
+     "endMs": 15550
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s03_l01",
+   "scene": 3,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بحيرة حقيقية",
+   "text": "لماذا كنت أحمل كل هذا النفور من قوم لم أعرفهم؟ هل كنت أكرر كلاما لم أتحقق منه؟",
+   "startMs": 16750,
+   "endMs": 22920,
+   "clip": {
+    "file": "audio/Batch 1/Tijaniiii.wav",
+    "startMs": 48100,
+    "endMs": 54270
+   },
+   "lines": [
+    {
+     "text": "لماذا كنت أحمل كل هذا النفور من قوم لم أعرفهم؟",
+     "startMs": 16750,
+     "endMs": 19789
+    },
+    {
+     "text": "هل كنت أكرر كلاما لم أتحقق منه؟",
+     "startMs": 19789,
+     "endMs": 22920
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s04_l01",
+   "scene": 4,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بهدوء",
+   "text": "كان يعيد النظر في أحكام تشكلت داخل أسرته ومجتمعه،",
+   "startMs": 24120,
+   "endMs": 28520,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 119570,
+    "endMs": 123970
+   },
+   "lines": [
+    {
+     "text": "كان يعيد النظر في أحكام تشكلت داخل أسرته ومجتمعه،",
+     "startMs": 24120,
+     "endMs": 28520
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s05_l01",
+   "scene": 5,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "ويقارنها بما رآه من ضيافة وعبادة ونقاش.",
+   "startMs": 28520,
+   "endMs": 33060,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 124140,
+    "endMs": 128680
+   },
+   "lines": [
+    {
+     "text": "ويقارنها بما رآه من ضيافة وعبادة ونقاش.",
+     "startMs": 28520,
+     "endMs": 33060
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s06_l01",
+   "scene": 6,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "لم تختف الخلافات بينه وبين منعم، لكنهما صارا قادرين على الكلام دون عداء.",
+   "startMs": 33060,
+   "endMs": 39790,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 129470,
+    "endMs": 136200
+   },
+   "lines": [
+    {
+     "text": "لم تختف الخلافات بينه وبين منعم، لكنهما صارا قادرين على الكلام دون عداء.",
+     "startMs": 33060,
+     "endMs": 39789
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.993,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s06_l02",
+   "scene": 6,
+   "speakerId": "PROFESSOR_MUNIM",
+   "speakerName": "الأستاذ منعم",
+   "direction": "بصوت هادئ مشجع",
+   "text": "سعيد لأنك تسأل هالأسئلة يا محمد. مو لازم نوصل لكل جواب بليلة وحدة.",
+   "startMs": 40390,
+   "endMs": 45540,
+   "clip": {
+    "file": "audio/Batch 1/Munaim22.wav",
+    "startMs": 23660,
+    "endMs": 28810
+   },
+   "lines": [
+    {
+     "text": "سعيد لأنك تسأل هالأسئلة يا محمد.",
+     "startMs": 40390,
+     "endMs": 42510
+    },
+    {
+     "text": "مو لازم نوصل لكل جواب بليلة وحدة.",
+     "startMs": 42510,
+     "endMs": 45539
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s07_l01",
+   "scene": 7,
+   "speakerId": "PROFESSOR_MUNIM",
+   "speakerName": "الأستاذ منعم",
+   "direction": "بإخلاص",
+   "text": "خلينا نخلي الدليل هو الحكم، ونبعد عنّا العصبية قدر ما نكدر.",
+   "startMs": 46140,
+   "endMs": 50340,
+   "clip": {
+    "file": "audio/Batch 1/Munaim22.wav",
+    "startMs": 30440,
+    "endMs": 34640
+   },
+   "lines": [
+    {
+     "text": "خلينا نخلي الدليل هو الحكم، ونبعد عنّا العصبية قدر ما نكدر.",
+     "startMs": 46140,
+     "endMs": 50340
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.964,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s08_l01",
+   "scene": 8,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة روحية",
+   "text": "وفي إحدى الليالي، وقف محمد عند فكرة مؤلمة:",
+   "startMs": 51540,
+   "endMs": 55560,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 138860,
+    "endMs": 142880
+   },
+   "lines": [
+    {
+     "text": "وفي إحدى الليالي، وقف محمد عند فكرة مؤلمة:",
+     "startMs": 51540,
+     "endMs": 55560
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s09_l01",
+   "scene": 9,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "ربما كان الكبرياء يمنعني من الاعتراف بأنني أخطأت.",
+   "startMs": 55560,
+   "endMs": 59610,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 143480,
+    "endMs": 147530
+   },
+   "lines": [
+    {
+     "text": "ربما كان الكبرياء يمنعني من الاعتراف بأنني أخطأت.",
+     "startMs": 55560,
+     "endMs": 59610
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s10_l01",
+   "scene": 10,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت خافت، يعترف لنفسه",
+   "text": "أخاف أحيانا أن أكون مخطئا. وأخاف أكثر أن يمنعني كبريائي من الاعتراف بذلك.",
+   "startMs": 60810,
+   "endMs": 66780,
+   "clip": {
+    "file": "audio/Batch 1/Tijaniiii.wav",
+    "startMs": 57830,
+    "endMs": 63800
+   },
+   "lines": [
+    {
+     "text": "أخاف أحيانا أن أكون مخطئا.",
+     "startMs": 60810,
+     "endMs": 62639
+    },
+    {
+     "text": "وأخاف أكثر أن يمنعني كبريائي من الاعتراف بذلك.",
+     "startMs": 62639,
+     "endMs": 66779
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s11_l01",
+   "scene": 11,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "لسنوات اعتدت إجابات جاهزة، وها أنا أواجه أسئلة لا تكفيها الإجابات نفسها.",
+   "startMs": 67980,
+   "endMs": 74930,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 147810,
+    "endMs": 154760
+   },
+   "lines": [
+    {
+     "text": "لسنوات اعتدت إجابات جاهزة، وها أنا أواجه أسئلة لا تكفيها الإجابات نفسها.",
+     "startMs": 67980,
+     "endMs": 74929
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s12_l01",
+   "scene": 12,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت مشوق",
+   "text": "لم تكن الحيرة نهاية الطريق،",
+   "startMs": 75530,
+   "endMs": 77820,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 157490,
+    "endMs": 159780
+   },
+   "lines": [
+    {
+     "text": "لم تكن الحيرة نهاية الطريق،",
+     "startMs": 75530,
+     "endMs": 77819
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s13_l01",
+   "scene": 13,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "بل بداية تحرره من يقين لم يمتحنه.",
+   "startMs": 77820,
+   "endMs": 81120,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 159880,
+    "endMs": 163180
+   },
+   "lines": [
+    {
+     "text": "بل بداية تحرره من يقين لم يمتحنه.",
+     "startMs": 77820,
+     "endMs": 81120
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s14_l01",
+   "scene": 14,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "دعا الله أن يريه الحق وأن يعينه على اتباعه مهما كان ثمن مراجعة نفسه.",
+   "startMs": 81120,
+   "endMs": 87230,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 163250,
+    "endMs": 169360
+   },
+   "lines": [
+    {
+     "text": "دعا الله أن يريه الحق وأن يعينه على اتباعه مهما كان ثمن مراجعة نفسه.",
+     "startMs": 81120,
+     "endMs": 87230
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s14_l02",
+   "scene": 14,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بدعاء متأثر",
+   "text": "يا رب، ألهمني رشدي. اجعلني من الذين يستمعون القول فيتبعون أحسنه.",
+   "startMs": 87830,
+   "endMs": 93960,
+   "clip": {
+    "file": "audio/Batch 1/Tijaniiii.wav",
+    "startMs": 66090,
+    "endMs": 72220
+   },
+   "lines": [
+    {
+     "text": "يا رب، ألهمني رشدي.",
+     "startMs": 87830,
+     "endMs": 89700
+    },
+    {
+     "text": "اجعلني من الذين يستمعون القول فيتبعون أحسنه.",
+     "startMs": 89700,
+     "endMs": 93960
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s14_l03",
+   "scene": 14,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بعزم",
+   "text": "لن أكره أحدا بسبب اسمه أو مذهبه قبل أن أسمع حجته.",
+   "startMs": 94310,
+   "endMs": 98400,
+   "clip": {
+    "file": "audio/Batch 1/Tijaniiii.wav",
+    "startMs": 73770,
+    "endMs": 77860
+   },
+   "lines": [
+    {
+     "text": "لن أكره أحدا بسبب اسمه أو مذهبه قبل أن أسمع حجته.",
+     "startMs": 94310,
+     "endMs": 98400
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s15_l01",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "ثم جاء منعم بخبر جديد: سنسافر إلى النجف.",
+   "startMs": 99600,
+   "endMs": 103810,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 170070,
+    "endMs": 174280
+   },
+   "lines": [
+    {
+     "text": "ثم جاء منعم بخبر جديد: سنسافر إلى النجف.",
+     "startMs": 99600,
+     "endMs": 103810
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s15_l02",
+   "scene": 15,
+   "speakerId": "PROFESSOR_MUNIM",
+   "speakerName": "الأستاذ منعم",
+   "direction": "بتفاؤل",
+   "text": "باچر إن شاء الله نسافر للنجف. راح تشوف الحوزة والطلاب والعلماء، وتكوّن رأيك بنفسك.",
+   "startMs": 104410,
+   "endMs": 110300,
+   "clip": {
+    "file": "audio/Batch 1/Munaim22.wav",
+    "startMs": 36430,
+    "endMs": 42320
+   },
+   "lines": [
+    {
+     "text": "باچر إن شاء الله نسافر للنجف.",
+     "startMs": 104410,
+     "endMs": 106519
+    },
+    {
+     "text": "راح تشوف الحوزة والطلاب والعلماء، وتكوّن رأيك بنفسك.",
+     "startMs": 106519,
+     "endMs": 110300
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.987,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s15_l03",
+   "scene": 15,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بدهشة وفضول",
+   "text": "النجف؟ أعرف اسمها، لكن ماذا سأرى فيها؟",
+   "startMs": 110900,
+   "endMs": 115500,
+   "clip": {
+    "file": "audio/Batch 1/Tijaniiii.wav",
+    "startMs": 80030,
+    "endMs": 84630
+   },
+   "lines": [
+    {
+     "text": "النجف؟",
+     "startMs": 110900,
+     "endMs": 111490
+    },
+    {
+     "text": "أعرف اسمها، لكن ماذا سأرى فيها؟",
+     "startMs": 111490,
+     "endMs": 115499
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s15_l04",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "وهناك سيلتقي محمد بعالم ديني لم يكن يتخيل أنه سيقف يوما أمامه.",
+   "startMs": 116100,
+   "endMs": 122360,
+   "clip": {
+    "file": "audio/Batch 1/Narat.wav",
+    "startMs": 174700,
+    "endMs": 180960
+   },
+   "lines": [
+    {
+     "text": "وهناك سيلتقي محمد بعالم ديني لم يكن يتخيل أنه سيقف يوما أمامه.",
+     "startMs": 116100,
+     "endMs": 122360
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s15_l05",
+   "scene": 15,
+   "speakerId": "AL_TIJANI_ADULT",
+   "speakerName": "التيجاني الكبير",
+   "direction": "بنبرة اعتراف متأملة",
+   "text": "لم يكن أصعب شيء علي أن أسمع جوابا جديدا. كان الأصعب أن أسمح لنفسي بسماع الجواب، دون أن أسبقه بالحكم.",
+   "startMs": 122960,
+   "endMs": 131230,
+   "clip": {
+    "file": "audio/Batch 1/Tijaniiii.wav",
+    "startMs": 87490,
+    "endMs": 95760
+   },
+   "lines": [
+    {
+     "text": "لم يكن أصعب شيء علي أن أسمع جوابا جديدا.",
+     "startMs": 122960,
+     "endMs": 125750
+    },
+    {
+     "text": "كان الأصعب أن أسمح لنفسي بسماع الجواب، دون أن أسبقه بالحكم.",
+     "startMs": 125750,
+     "endMs": 131230
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.99,
+    "flags": []
+   }
+  }
+ ],
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "reflective",
+   "startMs": 0,
+   "endMs": 6189
+  },
+  {
+   "scene": 2,
+   "cue": "suspense",
+   "startMs": 4590,
+   "endMs": 16950
+  },
+  {
+   "scene": 3,
+   "cue": "reflective",
+   "startMs": 15349,
+   "endMs": 24320
+  },
+  {
+   "scene": 4,
+   "cue": "reflective",
+   "startMs": 22720,
+   "endMs": 29320
+  },
+  {
+   "scene": 5,
+   "cue": "suspense",
+   "startMs": 27720,
+   "endMs": 33860
+  },
+  {
+   "scene": 6,
+   "cue": "suspense",
+   "startMs": 32260,
+   "endMs": 46640
+  },
+  {
+   "scene": 7,
+   "cue": "nostalgic",
+   "startMs": 45040,
+   "endMs": 51739
+  },
+  {
+   "scene": 8,
+   "cue": "reflective",
+   "startMs": 50140,
+   "endMs": 56360
+  },
+  {
+   "scene": 9,
+   "cue": "reflective",
+   "startMs": 54760,
+   "endMs": 61010
+  },
+  {
+   "scene": 10,
+   "cue": "reflective",
+   "startMs": 59410,
+   "endMs": 68179
+  },
+  {
+   "scene": 11,
+   "cue": "suspense",
+   "startMs": 66580,
+   "endMs": 76030
+  },
+  {
+   "scene": 12,
+   "cue": "suspense",
+   "startMs": 74430,
+   "endMs": 78619
+  },
+  {
+   "scene": 13,
+   "cue": "warm",
+   "startMs": 77020,
+   "endMs": 81920
+  },
+  {
+   "scene": 14,
+   "cue": "reflective",
+   "startMs": 80320,
+   "endMs": 99800
+  },
+  {
+   "scene": 15,
+   "cue": "ending",
+   "startMs": 98200,
+   "endMs": 133530
+  }
+ ]
+}

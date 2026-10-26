@@ -1,0 +1,54 @@
+[
+ {
+  "file": "~/HIKAYA/assets/audio/Ep6/Narration.wav",
+  "display_file": "Ep6.zip/Narration.wav",
+  "label": "الراوي",
+  "basis": "اسم الملف",
+  "direction_text": [
+   "وبنبرة ختامية المشوقة"
+  ]
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Ep6/Youth.wav",
+  "display_file": "Ep6.zip/Youth.wav",
+  "label": "التيجاني الشاب",
+  "basis": "اسم الملف",
+  "direction_text": [
+   "بأعجاب وامتنان",
+   "مع ابتسامة خفيفة",
+   "من نبرة تتباطأ تدريجيا وتصبح أكثر تأملا",
+   "ومتأثر بشدة"
+  ]
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Ep6/Ahmedegy.wav",
+  "display_file": "Ep6.zip/Ahmedegy.wav",
+  "label": "أحمد المصري",
+  "basis": "اسم الملف (Ahmed Egy)",
+  "direction_text": [
+   "بإعجاب صادق"
+  ]
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Ep6/Atrash.wav",
+  "display_file": "Ep6.zip/Atrash.wav",
+  "label": "الشيخ عبد الباسط",
+  "basis": "⚠ بالاستبعاد: الشخصية الوحيدة الباقية في قائمة الحلقة، ومضمونه شيخ يسأل عن القرآن ورحلة مكة؛ لكن اسم الملف يشير إلى فريد الأطرش — يحتاج تأكيدا",
+  "direction_text": [
+   "لطيف",
+   "بإعجاب وابتسامة خفيفة"
+  ]
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Ep6/Azhar.wav",
+  "display_file": "Ep6.zip/Azhar.wav",
+  "label": "عالم أزهري",
+  "basis": "اسم الملف ومضمونه"
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Ep6/Rashusain.wav",
+  "display_file": "Ep6.zip/Rashusain.wav",
+  "label": "مسؤول مقام الإمام الحسين",
+  "basis": "اسم الملف (Ras Husain) ومضمونه"
+ }
+]

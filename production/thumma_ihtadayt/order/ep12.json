@@ -1,0 +1,18 @@
+{"episode": 12, "status": "proposed", "note": "Play order proposed from the per-character script and the order of the 15 illustrations; to be confirmed by the producer.",
+ "scenes": [
+  {"image": 1,  "title": "إلى النجف الأشرف", "lines": ["N1.1"]},
+  {"image": 2,  "title": "مرقد الإمام علي", "lines": ["N1.2"]},
+  {"image": 3,  "title": "مدينة علمية", "lines": ["T1", "M1"]},
+  {"image": 4,  "title": "الكوفة", "lines": ["N2.1/1-2"]},
+  {"image": 5,  "title": "مسجد الكوفة", "lines": ["T2"]},
+  {"image": 6,  "title": "مقامات الكوفة", "lines": ["N2.1/3"]},
+  {"image": 7,  "title": "بين ما رأى وما قرأ", "lines": ["N2.2"]},
+  {"image": 8,  "title": "ثم إلى النجف", "lines": ["N3.1"]},
+  {"image": 9,  "title": "على الطريق", "lines": ["N3.2/1"]},
+  {"image": 10, "title": "النجف", "lines": ["N3.2/2"]},
+  {"image": 11, "title": "طلاب ومجالس", "lines": ["T3", "HS1"]},
+  {"image": 12, "title": "حرم الإمام علي", "lines": ["N4.1", "V1"]},
+  {"image": 13, "title": "بكاء وجنازة", "lines": ["N4.2", "T4"]},
+  {"image": 14, "title": "اسأل أهل العلم", "lines": ["N4.3", "M2", "T5", "M3"]},
+  {"image": 15, "title": "عالم جديد", "lines": ["N5"]}
+ ]}

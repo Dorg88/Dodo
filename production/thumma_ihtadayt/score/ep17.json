@@ -1,0 +1,141 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "موضوع الصحابة",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 2,
+   "title": "أساس الخلافات",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: وفاة"
+  },
+  {
+   "scene": 3,
+   "title": "لماذا الصحابة؟",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: روايات"
+  },
+  {
+   "scene": 4,
+   "title": "موضوع حساس",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 5,
+   "title": "مصادر التاريخ والحديث",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: مصادر"
+  },
+  {
+   "scene": 6,
+   "title": "الموازنة بين الروايات",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: روايات"
+  },
+  {
+   "scene": 7,
+   "title": "الاحترام وفحص الأخبار",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: سؤال"
+  },
+  {
+   "scene": 8,
+   "title": "أمثلة من كتب مختلفة",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: كتب"
+  },
+  {
+   "scene": 9,
+   "title": "سؤالان",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: سؤال"
+  },
+  {
+   "scene": 10,
+   "title": "مرة بعد مرة",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: قراءة"
+  },
+  {
+   "scene": 11,
+   "title": "كيف أكون منصفا؟",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: كتاب"
+  },
+  {
+   "scene": 12,
+   "title": "الرأي والرأي الآخر",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: مصادر"
+  },
+  {
+   "scene": 13,
+   "title": "لا إدانة جماعية",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 14,
+   "title": "التخلص من التعصب",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 15,
+   "title": "بداية مرحلة طويلة",
+   "music": "ending",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: دراسة; last scene"
+  }
+ ]
+}

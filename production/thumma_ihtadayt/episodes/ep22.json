@@ -1,0 +1,1034 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep22",
+ "number": 22,
+ "title": "ثم اهتديت — بداية طريق جديد",
+ "durationMs": 326760,
+ "audio": {
+  "mode": "clips"
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AL_TIJANI": {
+   "name": "التيجاني"
+  },
+  "PROFESSOR_MUNIM": {
+   "name": "الأستاذ منعم"
+  },
+  "AL_TIJANI_ADULT": {
+   "name": "التيجاني الكبير"
+  },
+  "MUNIM_FATHER": {
+   "name": "والد منعم"
+  },
+  "MUNIM_MOTHER": {
+   "name": "والدة منعم"
+  },
+  "SHRINE_RESEARCHER": {
+   "name": "باحث عراقي في المقام"
+  },
+  "HAWZA_STUDENT": {
+   "name": "طالب حوزة"
+  },
+  "NAJAF_VISITOR": {
+   "name": "زائر في النجف"
+  },
+  "ABU_SHUBAR": {
+   "name": "السيد أبو شبر"
+  },
+  "BAQIR_AL_SADR": {
+   "name": "السيد محمد باقر الصدر"
+  },
+  "AL_BASHIR": {
+   "name": "البشير"
+  },
+  "DOCUMENT_READER": {
+   "name": "قارئ الوثائق"
+  },
+  "TEXT_READER": {
+   "name": "قارئ النصوص"
+  },
+  "TUNISIAN_INTERLOCUTOR": {
+   "name": "محاور تونسي"
+  },
+  "TUNISIAN_FRIEND": {
+   "name": "صديق تونسي"
+  },
+  "TUNISIAN_ELDER": {
+   "name": "أحد أهل تونس"
+  },
+  "AL_TIJANI_CHILD": {
+   "name": "التيجاني الصغير"
+  },
+  "FATHER": {
+   "name": "الأب"
+  },
+  "TEACHER": {
+   "name": "المعلم"
+  },
+  "WORSHIPPER_1": {
+   "name": "المصلي الأول"
+  },
+  "WORSHIPPER_2": {
+   "name": "المصلي الثاني"
+  },
+  "MOTHER": {
+   "name": "الأم"
+  },
+  "TRAVEL_COMPANION": {
+   "name": "رفيق الرحلة"
+  },
+  "TOWNSMAN": {
+   "name": "أحد أهل المدينة"
+  },
+  "STUDENT": {
+   "name": "أحد الطلاب"
+  },
+  "SHEIKH_ENVOY": {
+   "name": "موفد الشيخ"
+  },
+  "SHEIKH_ISMAIL": {
+   "name": "الشيخ إسماعيل الهديفي"
+  },
+  "SUFI_FOLLOWER": {
+   "name": "أحد أتباع الطريقة"
+  },
+  "WIFE": {
+   "name": "الزوجة"
+  },
+  "AHMAD_EGYPTIAN": {
+   "name": "أحمد المصري"
+  },
+  "SHEIKH_ABDULBASIT": {
+   "name": "الشيخ عبد الباسط"
+  },
+  "AZHAR_SCHOLAR": {
+   "name": "عالم أزهري"
+  },
+  "HUSAYN_SHRINE_KEEPER": {
+   "name": "مسؤول مقام الإمام الحسين"
+  },
+  "RELATIVE": {
+   "name": "أحد الأقارب"
+  },
+  "TUNISIAN_STUDENT": {
+   "name": "طالب"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "العودة إلى تونس",
+   "image": "ep22/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 34400
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "جزء من قصة التحول",
+   "image": "ep22/images/scene_02.jpg",
+   "startMs": 34400,
+   "endMs": 77280
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "صديق قديم",
+   "image": "ep22/images/scene_03.jpg",
+   "startMs": 77280,
+   "endMs": 95620
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "المحبة تبقى",
+   "image": "ep22/images/scene_04.jpg",
+   "startMs": 95620,
+   "endMs": 105800
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "سؤال طالب",
+   "image": "ep22/images/scene_05.jpg",
+   "startMs": 105800,
+   "endMs": 123500
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "اقرأ واسأل",
+   "image": "ep22/images/scene_06.jpg",
+   "startMs": 123500,
+   "endMs": 133345
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "أفكار جديدة",
+   "image": "ep22/images/scene_07.jpg",
+   "startMs": 133345,
+   "endMs": 147925
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "قرارك بعد بحث",
+   "image": "ep22/images/scene_08.jpg",
+   "startMs": 147925,
+   "endMs": 163460
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "الدرس الأول",
+   "image": "ep22/images/scene_09.jpg",
+   "startMs": 163460,
+   "endMs": 201380
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "ذكرى منعم",
+   "image": "ep22/images/scene_11.jpg",
+   "startMs": 201380,
+   "endMs": 215540
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "دعنا نبحث",
+   "image": "ep22/images/scene_12.jpg",
+   "startMs": 215540,
+   "endMs": 231790
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "مسؤولية القناعة",
+   "image": "ep22/images/scene_13.jpg",
+   "startMs": 231790,
+   "endMs": 245560
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "دعاء",
+   "image": "ep22/images/scene_14.jpg",
+   "startMs": 245560,
+   "endMs": 284210
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "رحلة أخرى",
+   "image": "ep22/images/scene_15.jpg",
+   "startMs": 284210,
+   "endMs": 323745
+  },
+  {
+   "number": 15,
+   "id": "s15",
+   "title": "ثم اهتديت",
+   "image": null,
+   "startMs": 323745,
+   "endMs": 326760,
+   "layout": "closing"
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep22_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت دافئ يحمل إحساس العودة",
+   "text": "عاد محمد التجاني إلى حياته اليومية في تونس الشوارع هي نفسها والبيوت هي نفسها والوجوه التي أحبها منذ طفولته لم تتغير لكن في داخله كان شيء كبير قد تغير",
+   "startMs": 500,
+   "endMs": 16330,
+   "clip": {
+    "file": "audio/Batch 3/Narrŕatttor.wav",
+    "startMs": 276260,
+    "endMs": 292090
+   },
+   "lines": [
+    {
+     "text": "عاد محمد التجاني إلى حياته اليومية في تونس الشوارع هي نفسها والبيوت هي نفسها والوجوه التي أحبها منذ طفولته لم تتغير لكن في داخله كان شيء كبير قد تغير",
+     "startMs": 500,
+     "endMs": 16329
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s01_l02",
+   "scene": 1,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بنبرة حنين",
+   "text": "ها أنا أعود إلى تونس كم تبدو هذه الشوارع مألوفة كنت أمشي فيها من قبل وأنا أحمل أسئلة قليلة وأجوبة كثيرة واليوم أعود بأسئلة أعمق وقناعة وصلت إليها بعد رحلة طويلة",
+   "startMs": 16930,
+   "endMs": 33800,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 205900,
+    "endMs": 222770
+   },
+   "lines": [
+    {
+     "text": "ها أنا أعود إلى تونس كم تبدو هذه الشوارع مألوفة كنت أمشي فيها من قبل وأنا أحمل أسئلة قليلة وأجوبة كثيرة واليوم أعود بأسئلة أعمق وقناعة وصلت إليها بعد رحلة طويلة",
+     "startMs": 16930,
+     "endMs": 33800
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s02_l01",
+   "scene": 2,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة تأملية",
+   "text": "لم تعد رحلته إلى العراق مجرد ذكرى سفر ولا حديثه مع منعم مجرد مصادفة لطيفة فوق سفينة صار كل ذلك جزءا من قصة التحول الذي عاشه",
+   "startMs": 35000,
+   "endMs": 47340,
+   "clip": {
+    "file": "audio/Batch 3/Narrŕatttor.wav",
+    "startMs": 294800,
+    "endMs": 307140
+   },
+   "lines": [
+    {
+     "text": "لم تعد رحلته إلى العراق مجرد ذكرى سفر ولا حديثه مع منعم مجرد مصادفة لطيفة فوق سفينة صار كل ذلك جزءا من قصة التحول الذي عاشه",
+     "startMs": 35000,
+     "endMs": 47339
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s02_l02",
+   "scene": 2,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت دافئ",
+   "text": "أعرف أن بعض أحبتي قد لا يفهمون اختياري ولن أطلب منهم أن يوافقوني دون بحث",
+   "startMs": 47940,
+   "endMs": 54290,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 224960,
+    "endMs": 231310
+   },
+   "lines": [
+    {
+     "text": "أعرف أن بعض أحبتي قد لا يفهمون اختياري ولن أطلب منهم أن يوافقوني دون بحث",
+     "startMs": 47940,
+     "endMs": 54289
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s02_l03",
+   "scene": 2,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصدق",
+   "text": "سأخبرهم بما مررت به وأترك لهم حق القراءة والسؤال والمناقشة",
+   "startMs": 54640,
+   "endMs": 60390,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 232950,
+    "endMs": 238700
+   },
+   "lines": [
+    {
+     "text": "سأخبرهم بما مررت به وأترك لهم حق القراءة والسؤال والمناقشة",
+     "startMs": 54640,
+     "endMs": 60390
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s02_l04",
+   "scene": 2,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بهدوء",
+   "text": "واصل القراءة والكتابة وحاول أن يشرح أفكاره لمن سأله عنها ولم تكن ردود الفعل متشابهة فهناك من استمع باهتمام وهناك من اختلف معه وهناك من وجد صعوبة في فهم الطريق الذي اختاره",
+   "startMs": 60990,
+   "endMs": 76680,
+   "clip": {
+    "file": "audio/Batch 3/Narrŕatttor.wav",
+    "startMs": 309170,
+    "endMs": 324860
+   },
+   "lines": [
+    {
+     "text": "واصل القراءة والكتابة وحاول أن يشرح أفكاره لمن سأله عنها ولم تكن ردود الفعل متشابهة فهناك من استمع باهتمام وهناك من اختلف معه وهناك من وجد صعوبة في فهم الطريق الذي اختاره",
+     "startMs": 60990,
+     "endMs": 76679
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s03_l01",
+   "scene": 3,
+   "speakerId": "TUNISIAN_FRIEND",
+   "speakerName": "صديق تونسي",
+   "direction": "",
+   "text": "محمد من وقت اللي رجعت مصفر نشوفك تبدلت برشا ديما في الكتب وديما تقرأ وتكتب",
+   "startMs": 77880,
+   "endMs": 85270,
+   "clip": {
+    "file": "audio/Batch 3/Friend.wav",
+    "startMs": 190,
+    "endMs": 7580
+   },
+   "lines": [
+    {
+     "text": "محمد من وقت اللي رجعت مصفر نشوفك تبدلت برشا ديما في الكتب وديما تقرأ وتكتب",
+     "startMs": 77880,
+     "endMs": 85270
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s03_l02",
+   "scene": 3,
+   "speakerId": "TUNISIAN_FRIEND",
+   "speakerName": "صديق تونسي",
+   "direction": "بفضول صادق",
+   "text": "شنو اللي لقيته في العراق وخلاك تفكر بالطريقة هذي أما الموضوع مش ساهل يا محمد الناس عندها معتقداتها وعندها اللي تربات عليه",
+   "startMs": 85620,
+   "endMs": 95320,
+   "clip": {
+    "file": "audio/Batch 3/Friend.wav",
+    "startMs": 9290,
+    "endMs": 18990
+   },
+   "lines": [
+    {
+     "text": "شنو اللي لقيته في العراق وخلاك تفكر بالطريقة هذي أما الموضوع مش ساهل يا محمد الناس عندها معتقداتها وعندها اللي تربات عليه",
+     "startMs": 85620,
+     "endMs": 95319
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s04_l01",
+   "scene": 4,
+   "speakerId": "TUNISIAN_FRIEND",
+   "speakerName": "صديق تونسي",
+   "direction": "بلطف",
+   "text": "أنا نختلف معاك في برشا أمور أما نحب نسمع منك ونفهم كيفاش وصلت للنتيجة هذي",
+   "startMs": 95920,
+   "endMs": 101470,
+   "clip": {
+    "file": "audio/Batch 3/Friend.wav",
+    "startMs": 20870,
+    "endMs": 26420
+   },
+   "lines": [
+    {
+     "text": "أنا نختلف معاك في برشا أمور أما نحب نسمع منك ونفهم كيفاش وصلت للنتيجة هذي",
+     "startMs": 95920,
+     "endMs": 101470
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s04_l02",
+   "scene": 4,
+   "speakerId": "TUNISIAN_FRIEND",
+   "speakerName": "صديق تونسي",
+   "direction": "بابتسامة دافئة",
+   "text": "المهم تبقى لمحبة بيناتنا مهما اختلفت الآراء",
+   "startMs": 101820,
+   "endMs": 105200,
+   "clip": {
+    "file": "audio/Batch 3/Friend.wav",
+    "startMs": 29240,
+    "endMs": 32620
+   },
+   "lines": [
+    {
+     "text": "المهم تبقى لمحبة بيناتنا مهما اختلفت الآراء",
+     "startMs": 101820,
+     "endMs": 105199
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s05_l01",
+   "scene": 5,
+   "speakerId": "TUNISIAN_STUDENT",
+   "speakerName": "طالب",
+   "direction": "بفضول شاب واحترام بلهجة تونسية خفيفة",
+   "text": "أستاذ محمد صحيح أنت بدلت مذهبك بعدما سافرت للعراق؟",
+   "startMs": 106400,
+   "endMs": 110790,
+   "clip": {
+    "file": "audio/Batch 3/Scholar.wav",
+    "startMs": 3550,
+    "endMs": 7940
+   },
+   "lines": [
+    {
+     "text": "أستاذ محمد صحيح أنت بدلت مذهبك بعدما سافرت للعراق؟",
+     "startMs": 106400,
+     "endMs": 110790
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s05_l02",
+   "scene": 5,
+   "speakerId": "TUNISIAN_STUDENT",
+   "speakerName": "طالب",
+   "direction": "بتردد بريء",
+   "text": "أنا نحب نفهم حاجة كيفاش الواحد يعرف أنه الفكرة اللي ترب عليها صحيحة؟ مش خطر نس الكل تقول بيها",
+   "startMs": 111140,
+   "endMs": 118280,
+   "clip": {
+    "file": "audio/Batch 3/Scholar.wav",
+    "startMs": 9960,
+    "endMs": 17100
+   },
+   "lines": [
+    {
+     "text": "أنا نحب نفهم حاجة كيفاش الواحد يعرف أنه الفكرة اللي ترب عليها صحيحة؟",
+     "startMs": 111140,
+     "endMs": 115980
+    },
+    {
+     "text": "مش خطر نس الكل تقول بيها",
+     "startMs": 115980,
+     "endMs": 118280
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s05_l03",
+   "scene": 5,
+   "speakerId": "TUNISIAN_STUDENT",
+   "speakerName": "طالب",
+   "direction": "باهتمام",
+   "text": "وإذا نلقى كتاب يقول كلام وكتاب ثاني يقول عكسه كيفاش نختار؟",
+   "startMs": 118630,
+   "endMs": 123200,
+   "clip": {
+    "file": "audio/Batch 3/Scholar.wav",
+    "startMs": 18870,
+    "endMs": 23440
+   },
+   "lines": [
+    {
+     "text": "وإذا نلقى كتاب يقول كلام وكتاب ثاني يقول عكسه كيفاش نختار؟",
+     "startMs": 118630,
+     "endMs": 123200
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s06_l01",
+   "scene": 6,
+   "speakerId": "TUNISIAN_STUDENT",
+   "speakerName": "طالب",
+   "direction": "بحماس هادئ",
+   "text": "يعني تنصحني نقرأ ونسأل وما نخوذش الأحكام من غير ما نثبت؟",
+   "startMs": 123800,
+   "endMs": 127970,
+   "clip": {
+    "file": "audio/Batch 3/Scholar.wav",
+    "startMs": 25510,
+    "endMs": 29680
+   },
+   "lines": [
+    {
+     "text": "يعني تنصحني نقرأ ونسأل وما نخوذش الأحكام من غير ما نثبت؟",
+     "startMs": 123800,
+     "endMs": 127970
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s06_l02",
+   "scene": 6,
+   "speakerId": "TUNISIAN_STUDENT",
+   "speakerName": "طالب",
+   "direction": "بامتنان",
+   "text": "شكرا يا أستاذ فهمت أنه السؤال مش عيب وأنه البحث يحتاج صبر",
+   "startMs": 128320,
+   "endMs": 132745,
+   "clip": {
+    "file": "audio/Batch 3/Scholar.wav",
+    "startMs": 31590,
+    "endMs": 36015
+   },
+   "lines": [
+    {
+     "text": "شكرا يا أستاذ فهمت أنه السؤال مش عيب وأنه البحث يحتاج صبر",
+     "startMs": 128320,
+     "endMs": 132745
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s07_l01",
+   "scene": 7,
+   "speakerId": "RELATIVE",
+   "speakerName": "أحد الأقارب",
+   "direction": "",
+   "text": "يا محمد، سمعنا أنك رجعت من سفرك بأفكار جديدة، إحنا نعرفوك من صغرك، ونعرف محبتك للدين والأهلك، أما عليش وصلت للقرار كبير حكا؟",
+   "startMs": 133945,
+   "endMs": 147625,
+   "clip": {
+    "file": "audio/Batch 3/Relative.wav",
+    "startMs": 110,
+    "endMs": 13790
+   },
+   "lines": [
+    {
+     "text": "يا محمد، سمعنا أنك رجعت من سفرك بأفكار جديدة، إحنا نعرفوك من صغرك، ونعرف محبتك للدين والأهلك، أما عليش وصلت للقرار كبير حكا؟",
+     "startMs": 133945,
+     "endMs": 147625
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s08_l01",
+   "scene": 8,
+   "speakerId": "RELATIVE",
+   "speakerName": "أحد الأقارب",
+   "direction": "بنبرح نونة",
+   "text": "ما نحبكش تتخاصم مع الناس، ولا يبعدوك عن صحابك،",
+   "startMs": 148225,
+   "endMs": 152565,
+   "clip": {
+    "file": "audio/Batch 3/Relative.wav",
+    "startMs": 16190,
+    "endMs": 20530
+   },
+   "lines": [
+    {
+     "text": "ما نحبكش تتخاصم مع الناس، ولا يبعدوك عن صحابك،",
+     "startMs": 148225,
+     "endMs": 152565
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s08_l02",
+   "scene": 8,
+   "speakerId": "RELATIVE",
+   "speakerName": "أحد الأقارب",
+   "direction": "بتقبل حذر",
+   "text": "إذا هذا قرارك بعد بحث وتفكير، ربي يهديك لما فيه الخير والمحبة لبيناتنا ما يلزمهاش تضيع بسبب الاختلاف",
+   "startMs": 152915,
+   "endMs": 162860,
+   "clip": {
+    "file": "audio/Batch 3/Relative.wav",
+    "startMs": 23090,
+    "endMs": 33035
+   },
+   "lines": [
+    {
+     "text": "إذا هذا قرارك بعد بحث وتفكير، ربي يهديك لما فيه الخير والمحبة لبيناتنا ما يلزمهاش تضيع بسبب الاختلاف",
+     "startMs": 152915,
+     "endMs": 162859
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s09_l01",
+   "scene": 9,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة إنسانية مؤثرة",
+   "text": "وكان عليه أن يتذكر الدرس الذي بدأ منه كل شيء لقد طلب يوما أن لا يحكم الناس عليه قبل أن يسمعوه وعليه الآن أن يمنح الآخرين الحق نفسه في الاختلاف والسؤال بتصاعد عاطفي هادئ في المكتبة التي بدأت برزم من الكتب القادمة من العراق جلس محمد يتذكر أول لقاء مع منعم تذكر البحر وتذكر بغداد وتذكر طرقات النجف ومجالس العلم وتذكر ليالي الحيرة التي لم يعرف فيها إلى أين يقوده البحث",
+   "startMs": 164060,
+   "endMs": 200780,
+   "clip": {
+    "file": "audio/Batch 3/Narrŕatttor.wav",
+    "startMs": 327780,
+    "endMs": 364500
+   },
+   "lines": [
+    {
+     "text": "وكان عليه أن يتذكر الدرس الذي بدأ منه كل شيء لقد طلب يوما أن لا يحكم الناس عليه قبل أن يسمعوه وعليه الآن أن يمنح الآخرين الحق نفسه في الاختلاف والسؤال بتصاعد عاطفي هادئ في المكتبة التي بدأت برزم من الكتب القادمة من العراق جلس محمد يتذكر أول لقاء مع منعم تذكر البحر وتذكر بغداد وتذكر طرقات النجف ومجالس العلم وتذكر ليالي الحيرة التي لم يعرف فيها إلى أين يقوده البحث",
+     "startMs": 164060,
+     "endMs": 200780
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s10_l01",
+   "scene": 10,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بتأثر",
+   "text": "أذكر منعم ذلك الرجل الذي التقيته مصادفة على ظهر الباخرة لم أكن أعرف أن حديثا قصيرا معه سيقودني إلى بغداد والنجف ثم إلى شهور من التفكير والمراجعة",
+   "startMs": 201980,
+   "endMs": 215240,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 240620,
+    "endMs": 253880
+   },
+   "lines": [
+    {
+     "text": "أذكر منعم ذلك الرجل الذي التقيته مصادفة على ظهر الباخرة لم أكن أعرف أن حديثا قصيرا معه سيقودني إلى بغداد والنجف ثم إلى شهور من التفكير والمراجعة",
+     "startMs": 201980,
+     "endMs": 215239
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s11_l01",
+   "scene": 11,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بامتنان",
+   "text": "كم من أناس أساء الظن بمن لم يعرفوهم وكم كنت أنا واحدا منهم",
+   "startMs": 215840,
+   "endMs": 221200,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 255920,
+    "endMs": 261280
+   },
+   "lines": [
+    {
+     "text": "كم من أناس أساء الظن بمن لم يعرفوهم وكم كنت أنا واحدا منهم",
+     "startMs": 215840,
+     "endMs": 221199
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s11_l02",
+   "scene": 11,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بهدوء حازم",
+   "text": "إذا اختلف معي صديق فلن أجعل اختلافه سببا لقطع المحبة وإذا سألني طالب فلن أخجل من القول لا أعلم دعنا نبحث",
+   "startMs": 221550,
+   "endMs": 231190,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 263690,
+    "endMs": 273330
+   },
+   "lines": [
+    {
+     "text": "إذا اختلف معي صديق فلن أجعل اختلافه سببا لقطع المحبة وإذا سألني طالب فلن أخجل من القول لا أعلم دعنا نبحث",
+     "startMs": 221550,
+     "endMs": 231189
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s12_l01",
+   "scene": 12,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت يحمل الطمأنينة",
+   "text": "ثم تأمل الطريق كله من شاب كان يحمل إجابات جاهزة إلى رجل أدرك أن الإيمان الذي يختاره عن قناعة يحمله مسؤولية التعلم والحوار والعمل",
+   "startMs": 232390,
+   "endMs": 244960,
+   "clip": {
+    "file": "audio/Batch 3/Narrŕatttor.wav",
+    "startMs": 367390,
+    "endMs": 379960
+   },
+   "lines": [
+    {
+     "text": "ثم تأمل الطريق كله من شاب كان يحمل إجابات جاهزة إلى رجل أدرك أن الإيمان الذي يختاره عن قناعة يحمله مسؤولية التعلم والحوار والعمل",
+     "startMs": 232390,
+     "endMs": 244959
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s13_l01",
+   "scene": 13,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بخشوع",
+   "text": "اللهم إنك تعلم أنني طلبت الهداية بقدر استطاعتي فثبتني على طلب الحق ولا تجعلني أستبدل تعصبا بتعصب آخر",
+   "startMs": 246160,
+   "endMs": 255860,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 275190,
+    "endMs": 284890
+   },
+   "lines": [
+    {
+     "text": "اللهم إنك تعلم أنني طلبت الهداية بقدر استطاعتي فثبتني على طلب الحق ولا تجعلني أستبدل تعصبا بتعصب آخر",
+     "startMs": 246160,
+     "endMs": 255859
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s13_l02",
+   "scene": 13,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بخشوع",
+   "text": "لم يعد يسأل فقط من الذي أتبعه بل صار يسأل أيضا كيف أكون صادقاً مع ما أؤمن به وكيف أحفظ كرامة من يختلف معي",
+   "startMs": 256460,
+   "endMs": 267480,
+   "clip": {
+    "file": "audio/Batch 3/Narrŕatttor.wav",
+    "startMs": 382020,
+    "endMs": 393040
+   },
+   "lines": [
+    {
+     "text": "لم يعد يسأل فقط من الذي أتبعه بل صار يسأل أيضا كيف أكون صادقاً مع ما أؤمن به وكيف أحفظ كرامة من يختلف معي",
+     "startMs": 256460,
+     "endMs": 267480
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s13_l03",
+   "scene": 13,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت يختلط فيه الحنين بالطمأنينة",
+   "text": "أتذكر والدي ووالدتي وطفولتي وحجي الأول وأتذكر ذلك الشاب الذي ظن يوما أن العالم ينقسم إلى من يشبهه ومن يخالفه لقد تعلمت أن العالم أعقد من ذلك بكثير",
+   "startMs": 268080,
+   "endMs": 283610,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 288510,
+    "endMs": 304040
+   },
+   "lines": [
+    {
+     "text": "أتذكر والدي ووالدتي وطفولتي وحجي الأول وأتذكر ذلك الشاب الذي ظن يوما أن العالم ينقسم إلى من يشبهه ومن يخالفه لقد تعلمت أن العالم أعقد من ذلك بكثير",
+     "startMs": 268080,
+     "endMs": 283610
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s14_l01",
+   "scene": 14,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت ختامي مؤثر وبطيء",
+   "text": "وهكذا انتهت رحلة وبدأت رحلة أخرى رحلة لا تقاس بالأميال التي قطعتها السفينة ولا بالمدن التي زارها المسافر بل بما تغير في قلب إنسان حين قرر أن يسأل ويقرأ ويبحث كانت تلك قصة محمد التيجاني كما رواها من منظوره قصة بدأها وهو يبحث عن الحقيقة ثم اختار لها عنوانا من كلمتين",
+   "startMs": 284810,
+   "endMs": 312090,
+   "clip": {
+    "file": "audio/Batch 3/Narrŕatttor.wav",
+    "startMs": 396470,
+    "endMs": 423750
+   },
+   "lines": [
+    {
+     "text": "وهكذا انتهت رحلة وبدأت رحلة أخرى رحلة لا تقاس بالأميال التي قطعتها السفينة ولا بالمدن التي زارها المسافر بل بما تغير في قلب إنسان حين قرر أن يسأل ويقرأ ويبحث كانت تلك قصة محمد التيجاني كما رواها من منظوره قصة بدأها وهو يبحث عن الحقيقة ثم اختار لها عنوانا من كلمتين",
+     "startMs": 284810,
+     "endMs": 312090
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s14_l02",
+   "scene": 14,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت ختامي مؤثر",
+   "text": "لم تكن رحلتي نهاية الأسئلة كانت بداية أن أطرحها بصدق وهذه هي الحكاية التي اخترت أن أرويها ثم اهتديت",
+   "startMs": 312690,
+   "endMs": 323145,
+   "clip": {
+    "file": "audio/Batch 3/Tiììjani.wav",
+    "startMs": 307000,
+    "endMs": 317455
+   },
+   "lines": [
+    {
+     "text": "لم تكن رحلتي نهاية الأسئلة كانت بداية أن أطرحها بصدق وهذه هي الحكاية التي اخترت أن أرويها ثم اهتديت",
+     "startMs": 312690,
+     "endMs": 323144
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s15_l01",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بهدوء عميق",
+   "text": "ثم اهتديت",
+   "startMs": 324345,
+   "endMs": 325260,
+   "clip": {
+    "file": "audio/Batch 3/Narrŕatttor.wav",
+    "startMs": 426070,
+    "endMs": 426985
+   },
+   "lines": [
+    {
+     "text": "ثم اهتديت",
+     "startMs": 324345,
+     "endMs": 325260
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  }
+ ],
+ "textStatus": "recovered-transcript"
+}

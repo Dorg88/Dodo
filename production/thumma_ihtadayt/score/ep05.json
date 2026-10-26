@@ -1,0 +1,135 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "دعوة غير متوقعة",
+   "music": "warm",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "text: مدينة"
+  },
+  {
+   "scene": 2,
+   "title": "موفد الشيخ",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: يقرأ"
+  },
+  {
+   "scene": 3,
+   "title": "إلى توزر",
+   "music": "warm",
+   "sfx": [
+    "crowd"
+   ],
+   "level": 0.85,
+   "reason": "text: فرح"
+  },
+  {
+   "scene": 4,
+   "title": "ها هو الشيخ",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: فقد"
+  },
+  {
+   "scene": 5,
+   "title": "في مجلس الشيخ",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 6,
+   "title": "أسئلة واعتراضات",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: أسئلة"
+  },
+  {
+   "scene": 7,
+   "title": "آداب المجلس",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: سؤال"
+  },
+  {
+   "scene": 8,
+   "title": "قم فاغتسل",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 9,
+   "title": "القصة موجهة إليه",
+   "music": "reflective",
+   "sfx": [
+    "sea"
+   ],
+   "level": 0.85,
+   "reason": "title: موج"
+  },
+  {
+   "scene": 10,
+   "title": "مجالس الذكر",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 11,
+   "title": "بين اتجاهين",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: فقد"
+  },
+  {
+   "scene": 12,
+   "title": "حيرة لا تنتهي",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: حيرة"
+  },
+  {
+   "scene": 13,
+   "title": "شكوى الجيران",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: شك"
+  },
+  {
+   "scene": 14,
+   "title": "عزم على السفر",
+   "music": "warm",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: سفر"
+  },
+  {
+   "scene": 15,
+   "title": "بداية مواجهة طويلة",
+   "music": "ending",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: شك; last scene"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+[
+ {
+  "file": "~/HIKAYA/assets/audio/Ep5/Narrator5.wav",
+  "display_file": "Ep5.zip/Narrator5.wav",
+  "label": "الراوي",
+  "basis": "اسم الملف",
+  "direction_text": [
+   "وبنبرة حزينة"
+  ]
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Ep5/Hisyouth5.wav",
+  "display_file": "Ep5.zip/Hisyouth5.wav",
+  "label": "التيجاني الشاب",
+  "basis": "اسم الملف",
+  "direction_text": [
+   "بتوتر وحيرة واضحة"
+  ]
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Ep5/Sheikhassist.wav",
+  "display_file": "Ep5.zip/Sheikhassist.wav",
+  "label": "موفد الشيخ",
+  "basis": "اسم الملف (sheikh assistant) وقائمة شخصيات الحلقة"
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Ep5/Sheik.wav",
+  "display_file": "Ep5.zip/Sheik.wav",
+  "label": "الشيخ إسماعيل الهديفي",
+  "basis": "اسم الملف وقائمة شخصيات الحلقة؛ الاسم بالصيغة الواردة في القائمة",
+  "direction_text": [
+   "بعد نقاش"
+  ]
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Ep5/Onefelow.wav",
+  "display_file": "Ep5.zip/Onefelow.wav",
+  "label": "أحد أتباع الطريقة",
+  "basis": "اسم الملف (one fellow) وقائمة شخصيات الحلقة",
+  "direction_text": [
+   "بإعجاب"
+  ]
+ },
+ {
+  "file": "~/HIKAYA/assets/audio/Ep5/Wife.wav",
+  "display_file": "Ep5.zip/Wife.wav",
+  "label": "الزوجة",
+  "basis": "اسم الملف"
+ }
+]

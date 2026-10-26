@@ -1,0 +1,1037 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep07",
+ "number": 7,
+ "title": "لقاء في عرض البحر",
+ "durationMs": 184430,
+ "audio": {
+  "mode": "clips",
+  "music": "ep07/audio/score_music.m4a",
+  "sfx": "ep07/audio/score_sfx.m4a",
+  "musicLoop": false
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AL_TIJANI": {
+   "name": "التيجاني"
+  },
+  "PROFESSOR_MUNIM": {
+   "name": "الأستاذ منعم"
+  },
+  "AL_TIJANI_ADULT": {
+   "name": "التيجاني الكبير"
+  },
+  "MUNIM_FATHER": {
+   "name": "والد منعم"
+  },
+  "MUNIM_MOTHER": {
+   "name": "والدة منعم"
+  },
+  "SHRINE_RESEARCHER": {
+   "name": "باحث عراقي في المقام"
+  },
+  "HAWZA_STUDENT": {
+   "name": "طالب حوزة"
+  },
+  "NAJAF_VISITOR": {
+   "name": "زائر في النجف"
+  },
+  "ABU_SHUBAR": {
+   "name": "السيد أبو شبر"
+  },
+  "BAQIR_AL_SADR": {
+   "name": "السيد محمد باقر الصدر"
+  },
+  "AL_BASHIR": {
+   "name": "البشير"
+  },
+  "DOCUMENT_READER": {
+   "name": "قارئ الوثائق"
+  },
+  "TEXT_READER": {
+   "name": "قارئ النصوص"
+  },
+  "TUNISIAN_INTERLOCUTOR": {
+   "name": "محاور تونسي"
+  },
+  "TUNISIAN_FRIEND": {
+   "name": "صديق تونسي"
+  },
+  "TUNISIAN_ELDER": {
+   "name": "أحد أهل تونس"
+  },
+  "AL_TIJANI_CHILD": {
+   "name": "التيجاني الصغير"
+  },
+  "FATHER": {
+   "name": "الأب"
+  },
+  "TEACHER": {
+   "name": "المعلم"
+  },
+  "WORSHIPPER_1": {
+   "name": "المصلي الأول"
+  },
+  "WORSHIPPER_2": {
+   "name": "المصلي الثاني"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "من الإسكندرية إلى بيروت",
+   "image": "ep07/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 9955
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "صعود متعب",
+   "image": "ep07/images/scene_02.jpg",
+   "startMs": 9955,
+   "endMs": 16595
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "في الحجرة",
+   "image": "ep07/images/scene_03.jpg",
+   "startMs": 16595,
+   "endMs": 19065
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "صوت يسأل عن حاله",
+   "image": "ep07/images/scene_04.jpg",
+   "startMs": 19065,
+   "endMs": 40005
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "تعارف",
+   "image": "ep07/images/scene_05.jpg",
+   "startMs": 40005,
+   "endMs": 55805
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "حديث عن حال الأمة",
+   "image": "ep07/images/scene_06.jpg",
+   "startMs": 55805,
+   "endMs": 76355
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "حادثة في مصر",
+   "image": "ep07/images/scene_07.jpg",
+   "startMs": 76355,
+   "endMs": 100095
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "أنا شيعي",
+   "image": "ep07/images/scene_08.jpg",
+   "startMs": 100095,
+   "endMs": 119075
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "صورة قديمة",
+   "image": "ep07/images/scene_09.jpg",
+   "startMs": 119075,
+   "endMs": 138765
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "من أين أخذت هذه الصورة؟",
+   "image": "ep07/images/scene_10.jpg",
+   "startMs": 138765,
+   "endMs": 148110
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "أفكار شائعة",
+   "image": "ep07/images/scene_11.jpg",
+   "startMs": 148110,
+   "endMs": 158505
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "العدل",
+   "image": "ep07/images/scene_12.jpg",
+   "startMs": 158505,
+   "endMs": 166255
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "سؤال مفتوح",
+   "image": "ep07/images/scene_13.jpg",
+   "startMs": 166255,
+   "endMs": 173215
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "يقين قديم يهتز",
+   "image": "ep07/images/scene_14.jpg",
+   "startMs": 173215,
+   "endMs": 177360
+  },
+  {
+   "number": 15,
+   "id": "s15",
+   "title": "في عرض البحر",
+   "image": "ep07/images/scene_15.jpg",
+   "startMs": 177360,
+   "endMs": 184430
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep07_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت عميق يحمل تعب السفر والترقب",
+   "text": "بعد أيام مزدحمة في القاهرة، توجه محمد التيجاني إلى الإسكندرية. حان موعد الباخرة المصرية التي تنقله إلى بيروت.",
+   "startMs": 500,
+   "endMs": 9955,
+   "clip": {
+    "file": "audio/Ep7/Narrationn.wav",
+    "startMs": 115,
+    "endMs": 9570
+   },
+   "lines": [
+    {
+     "text": "بعد أيام مزدحمة في القاهرة، توجه محمد التيجاني إلى الإسكندرية.",
+     "startMs": 500,
+     "endMs": 5725
+    },
+    {
+     "text": "حان موعد الباخرة المصرية التي تنقله إلى بيروت.",
+     "startMs": 5725,
+     "endMs": 9955
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s02_l01",
+   "scene": 2,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "صعد متعبا؛ فقد نام ساعات قليلة، وقطع الطريق مسرعا كي لا يفوته موعد الإبحار.",
+   "startMs": 9955,
+   "endMs": 16595,
+   "clip": {
+    "file": "audio/Ep7/Narrationn.wav",
+    "startMs": 9750,
+    "endMs": 16390
+   },
+   "lines": [
+    {
+     "text": "صعد متعبا؛ فقد نام ساعات قليلة، وقطع الطريق مسرعا كي لا يفوته موعد الإبحار.",
+     "startMs": 9955,
+     "endMs": 16595
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s03_l01",
+   "scene": 3,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "دخل حجرته واستلقى على السرير.",
+   "startMs": 16595,
+   "endMs": 19065,
+   "clip": {
+    "file": "audio/Ep7/Narrationn.wav",
+    "startMs": 16810,
+    "endMs": 19280
+   },
+   "lines": [
+    {
+     "text": "دخل حجرته واستلقى على السرير.",
+     "startMs": 16595,
+     "endMs": 19065
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s04_l01",
+   "scene": 4,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "وبعد ساعتين أو ثلاث من انطلاق السفينة، استيقظ على صوت رجل يسأله عن حاله.",
+   "startMs": 19065,
+   "endMs": 25315,
+   "clip": {
+    "file": "audio/Ep7/Narrationn.wav",
+    "startMs": 19480,
+    "endMs": 25730
+   },
+   "lines": [
+    {
+     "text": "وبعد ساعتين أو ثلاث من انطلاق السفينة، استيقظ على صوت رجل يسأله عن حاله.",
+     "startMs": 19065,
+     "endMs": 25315
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s04_l02",
+   "scene": 4,
+   "speakerId": "PROFESSOR_MUNIM",
+   "speakerName": "الأستاذ منعم",
+   "direction": "بصوت عراقي بغدادي متزن وودود",
+   "text": "يبدو أن الأخ متعب. أتمنى ما يكون السفر أتعبك أكثر من اللازم.",
+   "startMs": 25915,
+   "endMs": 30615,
+   "clip": {
+    "file": "audio/Ep7/Muayn.wav",
+    "startMs": 120,
+    "endMs": 4820
+   },
+   "lines": [
+    {
+     "text": "يبدو أن الأخ متعب.",
+     "startMs": 25915,
+     "endMs": 27335
+    },
+    {
+     "text": "أتمنى ما يكون السفر أتعبك أكثر من اللازم.",
+     "startMs": 27335,
+     "endMs": 30615
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s04_l03",
+   "scene": 4,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بإرهاق صادق",
+   "text": "نعم، أنا متعب. لم أنم الليلة الماضية إلا قليلا، وخشيت أن تفوتني الباخرة.",
+   "startMs": 31215,
+   "endMs": 39405,
+   "clip": {
+    "file": "audio/Ep7/Tijaniyouth.wav",
+    "startMs": 2880,
+    "endMs": 11070
+   },
+   "lines": [
+    {
+     "text": "نعم، أنا متعب.",
+     "startMs": 31215,
+     "endMs": 33315
+    },
+    {
+     "text": "لم أنم الليلة الماضية إلا قليلا، وخشيت أن تفوتني الباخرة.",
+     "startMs": 33315,
+     "endMs": 39405
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s05_l01",
+   "scene": 5,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة فضول هادئ",
+   "text": "كان جاره في الحجرة عراقيا، أستاذا في جامعة بغداد، جاء إلى القاهرة لأمر يتعلق بأطروحته في الأزهر. اسمه منعم.",
+   "startMs": 40605,
+   "endMs": 49765,
+   "clip": {
+    "file": "audio/Ep7/Narrationn.wav",
+    "startMs": 28410,
+    "endMs": 37570
+   },
+   "lines": [
+    {
+     "text": "كان جاره في الحجرة عراقيا، أستاذا في جامعة بغداد، جاء إلى القاهرة لأمر يتعلق بأطروحته في الأزهر.",
+     "startMs": 40605,
+     "endMs": 48215
+    },
+    {
+     "text": "اسمه منعم.",
+     "startMs": 48215,
+     "endMs": 49765
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.995,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s05_l02",
+   "scene": 5,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت ودود يزداد حماسا",
+   "text": "يسرني أن أتعرف إليك يا أستاذ منعم. أنا محمد من تونس.",
+   "startMs": 50365,
+   "endMs": 55205,
+   "clip": {
+    "file": "audio/Ep7/Tijaniyouth.wav",
+    "startMs": 14860,
+    "endMs": 19700
+   },
+   "lines": [
+    {
+     "text": "يسرني أن أتعرف إليك يا أستاذ منعم.",
+     "startMs": 50365,
+     "endMs": 52564
+    },
+    {
+     "text": "أنا محمد من تونس.",
+     "startMs": 52564,
+     "endMs": 55204
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s06_l01",
+   "scene": 6,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "ولم يكن محمد يعلم أن هذا التعارف البسيط سيتحول إلى لحظة مفصلية في حياته.",
+   "startMs": 56405,
+   "endMs": 62755,
+   "clip": {
+    "file": "audio/Ep7/Narrationn.wav",
+    "startMs": 37790,
+    "endMs": 44140
+   },
+   "lines": [
+    {
+     "text": "ولم يكن محمد يعلم أن هذا التعارف البسيط سيتحول إلى لحظة مفصلية في حياته.",
+     "startMs": 56405,
+     "endMs": 62755
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s06_l02",
+   "scene": 6,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "",
+   "text": "كثيرا ما أفكر في حال الأمة، وفي هذه الحدود والخلافات التي تفرق المسلمين.",
+   "startMs": 63355,
+   "endMs": 70095,
+   "clip": {
+    "file": "audio/Ep7/Tijaniyouth.wav",
+    "startMs": 20550,
+    "endMs": 27290
+   },
+   "lines": [
+    {
+     "text": "كثيرا ما أفكر في حال الأمة، وفي هذه الحدود والخلافات التي تفرق المسلمين.",
+     "startMs": 63355,
+     "endMs": 70094
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.986,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s06_l03",
+   "scene": 6,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "تحدث الرجلان عن مصر، وعن هزيمة العرب، وعن الفرقة بين المسلمين.",
+   "startMs": 70695,
+   "endMs": 75755,
+   "clip": {
+    "file": "audio/Ep7/Narrationn.wav",
+    "startMs": 44570,
+    "endMs": 49630
+   },
+   "lines": [
+    {
+     "text": "تحدث الرجلان عن مصر، وعن هزيمة العرب، وعن الفرقة بين المسلمين.",
+     "startMs": 70695,
+     "endMs": 75755
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s07_l01",
+   "scene": 7,
+   "speakerId": "PROFESSOR_MUNIM",
+   "speakerName": "الأستاذ منعم",
+   "direction": "باهتمام فكري هادئ",
+   "text": "صحيح، اختلاف الناس مو مصيبة بحد ذاته. المصيبة إذا صار الاختلاف سببا للعداوة، ومنعنا نفهم بعض.",
+   "startMs": 76955,
+   "endMs": 84995,
+   "clip": {
+    "file": "audio/Ep7/Muayn.wav",
+    "startMs": 7160,
+    "endMs": 15200
+   },
+   "lines": [
+    {
+     "text": "صحيح، اختلاف الناس مو مصيبة بحد ذاته.",
+     "startMs": 76955,
+     "endMs": 79914
+    },
+    {
+     "text": "المصيبة إذا صار الاختلاف سببا للعداوة، ومنعنا نفهم بعض.",
+     "startMs": 79914,
+     "endMs": 84994
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s07_l02",
+   "scene": 7,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بتحسر",
+   "text": "حتى بين المذاهب نرى نزاعات عجيبة. وقعت لي في مصر حادثة مع رجل اعترض على طريقة صلاتي، مع أنني مالكي وأتبع ما تعلمته.",
+   "startMs": 85595,
+   "endMs": 99495,
+   "clip": {
+    "file": "audio/Ep7/Tijaniyouth.wav",
+    "startMs": 29350,
+    "endMs": 43250
+   },
+   "lines": [
+    {
+     "text": "حتى بين المذاهب نرى نزاعات عجيبة.",
+     "startMs": 85595,
+     "endMs": 88965
+    },
+    {
+     "text": "وقعت لي في مصر حادثة مع رجل اعترض على طريقة صلاتي، مع أنني مالكي وأتبع ما تعلمته.",
+     "startMs": 88965,
+     "endMs": 99495
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s08_l01",
+   "scene": 8,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "كانا متفقين على خطورة الانقسام، لكن الحديث اقترب تدريجيا من موضع لم يتوقعه محمد.",
+   "startMs": 100695,
+   "endMs": 108265,
+   "clip": {
+    "file": "audio/Ep7/Narrationn.wav",
+    "startMs": 49900,
+    "endMs": 57470
+   },
+   "lines": [
+    {
+     "text": "كانا متفقين على خطورة الانقسام، لكن الحديث اقترب تدريجيا من موضع لم يتوقعه محمد.",
+     "startMs": 100695,
+     "endMs": 108264
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s08_l02",
+   "scene": 8,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بتشويق متزايد",
+   "text": "ابتسم منعم، وأخبره أنه شيعي.",
+   "startMs": 108615,
+   "endMs": 111735,
+   "clip": {
+    "file": "audio/Ep7/Narrationn.wav",
+    "startMs": 59870,
+    "endMs": 62990
+   },
+   "lines": [
+    {
+     "text": "ابتسم منعم، وأخبره أنه شيعي.",
+     "startMs": 108615,
+     "endMs": 111734
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s08_l03",
+   "scene": 8,
+   "speakerId": "PROFESSOR_MUNIM",
+   "speakerName": "الأستاذ منعم",
+   "direction": "بهدوء وثقة",
+   "text": "أنا شيعي يا أخ محمد. لكن قبل ما تحكم عليّ، اسألني شنو أؤمن وشنو أعتقد.",
+   "startMs": 112335,
+   "endMs": 118475,
+   "clip": {
+    "file": "audio/Ep7/Muayn.wav",
+    "startMs": 17970,
+    "endMs": 24110
+   },
+   "lines": [
+    {
+     "text": "أنا شيعي يا أخ محمد.",
+     "startMs": 112335,
+     "endMs": 113645
+    },
+    {
+     "text": "لكن قبل ما تحكم عليّ، اسألني شنو أؤمن وشنو أعتقد.",
+     "startMs": 113645,
+     "endMs": 118475
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s09_l01",
+   "scene": 9,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصدمة ثم تحفظ",
+   "text": "أنت... شيعي؟ لم أكن أتوقع ذلك. لقد سمعت عن مذهبكم أشياء تجعلني حذرا.",
+   "startMs": 119675,
+   "endMs": 128875,
+   "clip": {
+    "file": "audio/Ep7/Tijaniyouth.wav",
+    "startMs": 46280,
+    "endMs": 55480
+   },
+   "lines": [
+    {
+     "text": "أنت...",
+     "startMs": 119675,
+     "endMs": 120214
+    },
+    {
+     "text": "شيعي؟",
+     "startMs": 120214,
+     "endMs": 121894
+    },
+    {
+     "text": "لم أكن أتوقع ذلك.",
+     "startMs": 121894,
+     "endMs": 123894
+    },
+    {
+     "text": "لقد سمعت عن مذهبكم أشياء تجعلني حذرا.",
+     "startMs": 123894,
+     "endMs": 128874
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s09_l02",
+   "scene": 9,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "في تلك اللحظة تبدلت ملامح الشاب التونسي، وخرجت من ذاكرته صورة رسمها عن الشيعة من أقوال سمعها ولم يختبرها بنفسه.",
+   "startMs": 129475,
+   "endMs": 138765,
+   "clip": {
+    "file": "audio/Ep7/Narrationn.wav",
+    "startMs": 63200,
+    "endMs": 72490
+   },
+   "lines": [
+    {
+     "text": "في تلك اللحظة تبدلت ملامح الشاب التونسي، وخرجت من ذاكرته صورة رسمها عن الشيعة من أقوال سمعها ولم يختبرها بنفسه.",
+     "startMs": 129475,
+     "endMs": 138764
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s10_l01",
+   "scene": 10,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "أما منعم، فلم يستجب للحدة بمثلها.",
+   "startMs": 138765,
+   "endMs": 141670,
+   "clip": {
+    "file": "audio/Ep7/Narrationn.wav",
+    "startMs": 72980,
+    "endMs": 75885
+   },
+   "lines": [
+    {
+     "text": "أما منعم، فلم يستجب للحدة بمثلها.",
+     "startMs": 138765,
+     "endMs": 141670
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s10_l02",
+   "scene": 10,
+   "speakerId": "PROFESSOR_MUNIM",
+   "speakerName": "الأستاذ منعم",
+   "direction": "بتساؤل رصين",
+   "text": "منين أخذت هذه الصورة عن الشيعة؟ من كتبهم هم، لو من كتب خصومهم؟",
+   "startMs": 142270,
+   "endMs": 147510,
+   "clip": {
+    "file": "audio/Ep7/Muayn.wav",
+    "startMs": 26430,
+    "endMs": 31670
+   },
+   "lines": [
+    {
+     "text": "منين أخذت هذه الصورة عن الشيعة؟",
+     "startMs": 142270,
+     "endMs": 144280
+    },
+    {
+     "text": "من كتبهم هم، لو من كتب خصومهم؟",
+     "startMs": 144280,
+     "endMs": 147510
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.967,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s11_l01",
+   "scene": 11,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "باندفاع يتبعه تردد",
+   "text": "لا أريد أن أظلمك، لكن هذه الأفكار شائعة عندنا. كيف لي أن أعرف الحقيقة وسط كل ما قرأته وسمعته؟",
+   "startMs": 148710,
+   "endMs": 157905,
+   "clip": {
+    "file": "audio/Ep7/Tijaniyouth.wav",
+    "startMs": 58950,
+    "endMs": 68145
+   },
+   "lines": [
+    {
+     "text": "لا أريد أن أظلمك، لكن هذه الأفكار شائعة عندنا.",
+     "startMs": 148710,
+     "endMs": 152960
+    },
+    {
+     "text": "كيف لي أن أعرف الحقيقة وسط كل ما قرأته وسمعته؟",
+     "startMs": 152960,
+     "endMs": 157905
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s12_l01",
+   "scene": 12,
+   "speakerId": "PROFESSOR_MUNIM",
+   "speakerName": "الأستاذ منعم",
+   "direction": "بصوت حنون وحازم",
+   "text": "العدل يقتضي أن تسمع الإنسان من نفسه، وأن تقرأ مصادره قبل أن تحاسبه على كلام غيره.",
+   "startMs": 159105,
+   "endMs": 165655,
+   "clip": {
+    "file": "audio/Ep7/Muayn.wav",
+    "startMs": 34650,
+    "endMs": 41200
+   },
+   "lines": [
+    {
+     "text": "العدل يقتضي أن تسمع الإنسان من نفسه، وأن تقرأ مصادره قبل أن تحاسبه على كلام غيره.",
+     "startMs": 159105,
+     "endMs": 165654
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s13_l01",
+   "scene": 13,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "فتح باب السؤال: كيف تحكم على قوم لم تقرأ كتبهم ولم تجالس علماءهم؟",
+   "startMs": 166855,
+   "endMs": 172915,
+   "clip": {
+    "file": "audio/Ep7/Narrationn.wav",
+    "startMs": 76010,
+    "endMs": 82070
+   },
+   "lines": [
+    {
+     "text": "فتح باب السؤال: كيف تحكم على قوم لم تقرأ كتبهم ولم تجالس علماءهم؟",
+     "startMs": 166855,
+     "endMs": 172915
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s14_l01",
+   "scene": 14,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة ختامية مشوقة",
+   "text": "كان السؤال بسيطا، لكنه زعزع يقينا قديما.",
+   "startMs": 173515,
+   "endMs": 177360,
+   "clip": {
+    "file": "audio/Ep7/Narrationn.wav",
+    "startMs": 84930,
+    "endMs": 88775
+   },
+   "lines": [
+    {
+     "text": "كان السؤال بسيطا، لكنه زعزع يقينا قديما.",
+     "startMs": 173515,
+     "endMs": 177360
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s15_l01",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "وفي عرض البحر، بدأ أول امتحان حقيقي لعادة الحكم على الآخرين من بعيد.",
+   "startMs": 177360,
+   "endMs": 182930,
+   "clip": {
+    "file": "audio/Ep7/Narrationn.wav",
+    "startMs": 88870,
+    "endMs": 94440
+   },
+   "lines": [
+    {
+     "text": "وفي عرض البحر، بدأ أول امتحان حقيقي لعادة الحكم على الآخرين من بعيد.",
+     "startMs": 177360,
+     "endMs": 182930
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  }
+ ],
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "reflective",
+   "startMs": 0,
+   "endMs": 10755
+  },
+  {
+   "scene": 2,
+   "cue": "reflective",
+   "startMs": 9155,
+   "endMs": 17395
+  },
+  {
+   "scene": 3,
+   "cue": "reflective",
+   "startMs": 15794,
+   "endMs": 19865
+  },
+  {
+   "scene": 4,
+   "cue": "reflective",
+   "startMs": 18265,
+   "endMs": 40805
+  },
+  {
+   "scene": 5,
+   "cue": "reverent",
+   "startMs": 39205,
+   "endMs": 56605
+  },
+  {
+   "scene": 6,
+   "cue": "reflective",
+   "startMs": 55005,
+   "endMs": 77155
+  },
+  {
+   "scene": 7,
+   "cue": "reflective",
+   "startMs": 75555,
+   "endMs": 100895
+  },
+  {
+   "scene": 8,
+   "cue": "warm",
+   "startMs": 99295,
+   "endMs": 119875
+  },
+  {
+   "scene": 9,
+   "cue": "reflective",
+   "startMs": 118275,
+   "endMs": 139565
+  },
+  {
+   "scene": 10,
+   "cue": "reflective",
+   "startMs": 137964,
+   "endMs": 148910
+  },
+  {
+   "scene": 11,
+   "cue": "warm",
+   "startMs": 147310,
+   "endMs": 159305
+  },
+  {
+   "scene": 12,
+   "cue": "reflective",
+   "startMs": 157704,
+   "endMs": 167055
+  },
+  {
+   "scene": 13,
+   "cue": "suspense",
+   "startMs": 165454,
+   "endMs": 174015
+  },
+  {
+   "scene": 14,
+   "cue": "warm",
+   "startMs": 172415,
+   "endMs": 178160
+  },
+  {
+   "scene": 15,
+   "cue": "ending",
+   "startMs": 176560,
+   "endMs": 185230
+  }
+ ]
+}

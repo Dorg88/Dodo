@@ -1,0 +1,712 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep18",
+ "number": 18,
+ "title": "ماذا يقول القرآن؟",
+ "durationMs": 108950,
+ "audio": {
+  "mode": "clips",
+  "music": "ep18/audio/score_music.m4a",
+  "sfx": "ep18/audio/score_sfx.m4a",
+  "musicLoop": false
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AL_TIJANI": {
+   "name": "التيجاني"
+  },
+  "PROFESSOR_MUNIM": {
+   "name": "الأستاذ منعم"
+  },
+  "AL_TIJANI_ADULT": {
+   "name": "التيجاني الكبير"
+  },
+  "MUNIM_FATHER": {
+   "name": "والد منعم"
+  },
+  "MUNIM_MOTHER": {
+   "name": "والدة منعم"
+  },
+  "SHRINE_RESEARCHER": {
+   "name": "باحث عراقي في المقام"
+  },
+  "HAWZA_STUDENT": {
+   "name": "طالب حوزة"
+  },
+  "NAJAF_VISITOR": {
+   "name": "زائر في النجف"
+  },
+  "ABU_SHUBAR": {
+   "name": "السيد أبو شبر"
+  },
+  "BAQIR_AL_SADR": {
+   "name": "السيد محمد باقر الصدر"
+  },
+  "AL_BASHIR": {
+   "name": "البشير"
+  },
+  "DOCUMENT_READER": {
+   "name": "قارئ الوثائق"
+  },
+  "TEXT_READER": {
+   "name": "قارئ النصوص"
+  },
+  "TUNISIAN_INTERLOCUTOR": {
+   "name": "محاور تونسي"
+  },
+  "TUNISIAN_FRIEND": {
+   "name": "صديق تونسي"
+  },
+  "TUNISIAN_ELDER": {
+   "name": "أحد أهل تونس"
+  },
+  "AL_TIJANI_CHILD": {
+   "name": "التيجاني الصغير"
+  },
+  "FATHER": {
+   "name": "الأب"
+  },
+  "TEACHER": {
+   "name": "المعلم"
+  },
+  "WORSHIPPER_1": {
+   "name": "المصلي الأول"
+  },
+  "WORSHIPPER_2": {
+   "name": "المصلي الثاني"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "النصوص القرآنية",
+   "image": "ep18/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 10830
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "مدح وتحذير",
+   "image": "ep18/images/scene_02.jpg",
+   "startMs": 10830,
+   "endMs": 20640
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "الآيات في سياقها",
+   "image": "ep18/images/scene_03.jpg",
+   "startMs": 20640,
+   "endMs": 31020
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "حدود التعميم",
+   "image": "ep18/images/scene_04.jpg",
+   "startMs": 31020,
+   "endMs": 37900
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "النص كاملا",
+   "image": "ep18/images/scene_05.jpg",
+   "startMs": 37900,
+   "endMs": 46020
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "مراتب الروايات",
+   "image": "ep18/images/scene_06.jpg",
+   "startMs": 46020,
+   "endMs": 54710
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "اللفظ والرواية والتفسير",
+   "image": "ep18/images/scene_07.jpg",
+   "startMs": 54710,
+   "endMs": 66560
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "المقارنة الدقيقة",
+   "image": "ep18/images/scene_08.jpg",
+   "startMs": 66560,
+   "endMs": 72890
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "القرآن والأخبار",
+   "image": "ep18/images/scene_09.jpg",
+   "startMs": 72890,
+   "endMs": 81250
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "ازداد اقتناعه",
+   "image": "ep18/images/scene_10.jpg",
+   "startMs": 81250,
+   "endMs": 85020
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "مصادر الطرف الآخر",
+   "image": "ep18/images/scene_11.jpg",
+   "startMs": 85020,
+   "endMs": 90780
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "ثقل النتائج",
+   "image": "ep18/images/scene_12.jpg",
+   "startMs": 90780,
+   "endMs": 94580
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "الدليل أولا",
+   "image": "ep18/images/scene_13.jpg",
+   "startMs": 94580,
+   "endMs": 98430
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "سؤال جديد",
+   "image": "ep18/images/scene_14.jpg",
+   "startMs": 98430,
+   "endMs": 102100
+  },
+  {
+   "number": 15,
+   "id": "s15",
+   "title": "لأعرف ما ينبغي أن أعتقده",
+   "image": "ep18/images/scene_15.jpg",
+   "startMs": 102100,
+   "endMs": 108950
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep18_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة متزنة وعميقة",
+   "text": "واصل محمد بحثه، وانتقل إلى دراسة النصوص القرآنية والروايات التي يستشهد بها المسلمون في تقييم الصحابة وأحداث التاريخ المبكر.",
+   "startMs": 500,
+   "endMs": 10530,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 240750,
+    "endMs": 250780
+   },
+   "lines": [
+    {
+     "text": "واصل محمد بحثه، وانتقل إلى دراسة النصوص القرآنية والروايات التي يستشهد بها المسلمون في تقييم الصحابة وأحداث التاريخ المبكر.",
+     "startMs": 500,
+     "endMs": 10530
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep18_s02_l01",
+   "scene": 2,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بوقار",
+   "text": "وجد في القرآن مواضع تمدح المؤمنين السابقين وصدقهم وتضحياتهم، ومواضع أخرى تحذر من النفاق والتراجع والخطأ.",
+   "startMs": 11130,
+   "endMs": 20040,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 252690,
+    "endMs": 261600
+   },
+   "lines": [
+    {
+     "text": "وجد في القرآن مواضع تمدح المؤمنين السابقين وصدقهم وتضحياتهم، ومواضع أخرى تحذر من النفاق والتراجع والخطأ.",
+     "startMs": 11130,
+     "endMs": 20040
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep18_s03_l01",
+   "scene": 3,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت باحث مركز",
+   "text": "القرآن يذكر نماذج للإيمان والصبر، ويحذر كذلك من الغفلة والنفاق. لا بد أن أقرأ الآيات في سياقها.",
+   "startMs": 21240,
+   "endMs": 30420,
+   "clip": {
+    "file": "audio/Batch 2/Tiǰǰjani.wav",
+    "startMs": 167980,
+    "endMs": 177160
+   },
+   "lines": [
+    {
+     "text": "القرآن يذكر نماذج للإيمان والصبر، ويحذر كذلك من الغفلة والنفاق.",
+     "startMs": 21240,
+     "endMs": 27480
+    },
+    {
+     "text": "لا بد أن أقرأ الآيات في سياقها.",
+     "startMs": 27480,
+     "endMs": 30420
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.995,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep18_s04_l01",
+   "scene": 4,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "وبدأ يتساءل عن حدود التعميم، وعن ضرورة النظر في كل سياق على حدة.",
+   "startMs": 31620,
+   "endMs": 37300,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 261950,
+    "endMs": 267630
+   },
+   "lines": [
+    {
+     "text": "وبدأ يتساءل عن حدود التعميم، وعن ضرورة النظر في كل سياق على حدة.",
+     "startMs": 31620,
+     "endMs": 37300
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep18_s05_l01",
+   "scene": 5,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بدهشة هادئة",
+   "text": "كم تختلف النتيجة عندما أقرأ النص كاملا بدل أن أقتطع منه جملة تناسب رأيي!",
+   "startMs": 38500,
+   "endMs": 45420,
+   "clip": {
+    "file": "audio/Batch 2/Tiǰǰjani.wav",
+    "startMs": 179040,
+    "endMs": 185960
+   },
+   "lines": [
+    {
+     "text": "كم تختلف النتيجة عندما أقرأ النص كاملا بدل أن أقتطع منه جملة تناسب رأيي!",
+     "startMs": 38500,
+     "endMs": 45420
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.972,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep18_s06_l01",
+   "scene": 6,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت محايد",
+   "text": "أما روايات التاريخ والحديث فليست كلها في مرتبة واحدة من الثبوت، ولا تتفق المدارس في فهمها.",
+   "startMs": 46620,
+   "endMs": 54110,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 269830,
+    "endMs": 277320
+   },
+   "lines": [
+    {
+     "text": "أما روايات التاريخ والحديث فليست كلها في مرتبة واحدة من الثبوت، ولا تتفق المدارس في فهمها.",
+     "startMs": 46620,
+     "endMs": 54110
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep18_s07_l01",
+   "scene": 7,
+   "speakerId": "TEXT_READER",
+   "speakerName": "قارئ النصوص",
+   "direction": "بنبرة تفسيرية واضحة",
+   "text": "في دراسة النصوص، ينبغي التمييز بين اللفظ الثابت، والرواية المنقولة، وتفسير العلماء. اختلاف التفسير لا يساوي بالضرورة اختلاف أصل النص.",
+   "startMs": 55310,
+   "endMs": 65960,
+   "clip": {
+    "file": "audio/Batch 2/Textþ.wav",
+    "startMs": 2500,
+    "endMs": 13150
+   },
+   "lines": [
+    {
+     "text": "في دراسة النصوص، ينبغي التمييز بين اللفظ الثابت، والرواية المنقولة، وتفسير العلماء.",
+     "startMs": 55310,
+     "endMs": 61730
+    },
+    {
+     "text": "اختلاف التفسير لا يساوي بالضرورة اختلاف أصل النص.",
+     "startMs": 61730,
+     "endMs": 65960
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep18_s08_l01",
+   "scene": 8,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "لذلك تصبح المقارنة أمرا أدق من الاكتفاء بنقل نص خارج سياقه.",
+   "startMs": 67160,
+   "endMs": 72290,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 277600,
+    "endMs": 282730
+   },
+   "lines": [
+    {
+     "text": "لذلك تصبح المقارنة أمرا أدق من الاكتفاء بنقل نص خارج سياقه.",
+     "startMs": 67160,
+     "endMs": 72289
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep18_s09_l01",
+   "scene": 9,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بقلق فكري",
+   "text": "ولا بد لي أن أميز القرآن عن الأخبار التاريخية التي يختلف العلماء في أسانيدها ودلالاتها.",
+   "startMs": 73490,
+   "endMs": 80650,
+   "clip": {
+    "file": "audio/Batch 2/Tiǰǰjani.wav",
+    "startMs": 187500,
+    "endMs": 194660
+   },
+   "lines": [
+    {
+     "text": "ولا بد لي أن أميز القرآن عن الأخبار التاريخية التي يختلف العلماء في أسانيدها ودلالاتها.",
+     "startMs": 73490,
+     "endMs": 80649
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.994,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep18_s10_l01",
+   "scene": 10,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة تأملية",
+   "text": "ازداد اقتناع محمد، بحسب ما يروي في كتابه،",
+   "startMs": 81850,
+   "endMs": 85020,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 285330,
+    "endMs": 288500
+   },
+   "lines": [
+    {
+     "text": "ازداد اقتناع محمد، بحسب ما يروي في كتابه،",
+     "startMs": 81850,
+     "endMs": 85020
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep18_s11_l01",
+   "scene": 11,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "بضرورة البحث عن الأدلة في المصادر التي تحظى بالاعتبار عند الطرف الذي يناقشه.",
+   "startMs": 85020,
+   "endMs": 90780,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 288500,
+    "endMs": 294260
+   },
+   "lines": [
+    {
+     "text": "بضرورة البحث عن الأدلة في المصادر التي تحظى بالاعتبار عند الطرف الذي يناقشه.",
+     "startMs": 85020,
+     "endMs": 90779
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep18_s12_l01",
+   "scene": 12,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "لكنه ظل يشعر بثقل النتائج على نفسه.",
+   "startMs": 90780,
+   "endMs": 93980,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 294640,
+    "endMs": 297840
+   },
+   "lines": [
+    {
+     "text": "لكنه ظل يشعر بثقل النتائج على نفسه.",
+     "startMs": 90780,
+     "endMs": 93979
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep18_s13_l01",
+   "scene": 13,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بعزم",
+   "text": "لن أجعل التعصب يسبق الدليل.",
+   "startMs": 95180,
+   "endMs": 97830,
+   "clip": {
+    "file": "audio/Batch 2/Tiǰǰjani.wav",
+    "startMs": 195880,
+    "endMs": 198530
+   },
+   "lines": [
+    {
+     "text": "لن أجعل التعصب يسبق الدليل.",
+     "startMs": 95180,
+     "endMs": 97830
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep18_s14_l01",
+   "scene": 14,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بتشويق",
+   "text": "كل صفحة كانت تفتح سؤالا جديدا:",
+   "startMs": 99030,
+   "endMs": 102100,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 299510,
+    "endMs": 302580
+   },
+   "lines": [
+    {
+     "text": "كل صفحة كانت تفتح سؤالا جديدا:",
+     "startMs": 99030,
+     "endMs": 102099
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep18_s15_l01",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "هل أبحث لأنتصر لما أعتقده، أم لأعرف ما ينبغي أن أعتقده؟",
+   "startMs": 102100,
+   "endMs": 107450,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 303150,
+    "endMs": 308500
+   },
+   "lines": [
+    {
+     "text": "هل أبحث لأنتصر لما أعتقده، أم لأعرف ما ينبغي أن أعتقده؟",
+     "startMs": 102100,
+     "endMs": 107450
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.981,
+    "flags": []
+   }
+  }
+ ],
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "reflective",
+   "startMs": 0,
+   "endMs": 11630
+  },
+  {
+   "scene": 2,
+   "cue": "reflective",
+   "startMs": 10030,
+   "endMs": 21440
+  },
+  {
+   "scene": 3,
+   "cue": "reflective",
+   "startMs": 19840,
+   "endMs": 31820
+  },
+  {
+   "scene": 4,
+   "cue": "reflective",
+   "startMs": 30220,
+   "endMs": 38699
+  },
+  {
+   "scene": 5,
+   "cue": "reflective",
+   "startMs": 37100,
+   "endMs": 46820
+  },
+  {
+   "scene": 6,
+   "cue": "reflective",
+   "startMs": 45220,
+   "endMs": 55510
+  },
+  {
+   "scene": 7,
+   "cue": "reflective",
+   "startMs": 53910,
+   "endMs": 67360
+  },
+  {
+   "scene": 8,
+   "cue": "reflective",
+   "startMs": 65760,
+   "endMs": 73690
+  },
+  {
+   "scene": 9,
+   "cue": "reflective",
+   "startMs": 72090,
+   "endMs": 82050
+  },
+  {
+   "scene": 10,
+   "cue": "reflective",
+   "startMs": 80450,
+   "endMs": 85820
+  },
+  {
+   "scene": 11,
+   "cue": "reflective",
+   "startMs": 84220,
+   "endMs": 91580
+  },
+  {
+   "scene": 12,
+   "cue": "reflective",
+   "startMs": 89980,
+   "endMs": 95380
+  },
+  {
+   "scene": 13,
+   "cue": "nostalgic",
+   "startMs": 93780,
+   "endMs": 99230
+  },
+  {
+   "scene": 14,
+   "cue": "suspense",
+   "startMs": 97630,
+   "endMs": 102899
+  },
+  {
+   "scene": 15,
+   "cue": "ending",
+   "startMs": 101300,
+   "endMs": 109750
+  }
+ ]
+}

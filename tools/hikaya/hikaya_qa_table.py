@@ -38,6 +38,11 @@ def main():
             continue
         ep = json.load(open(ep_path, encoding="utf-8"))
         segs = ep["segments"]
+        if ep.get("audio", {}).get("mode") == "track":
+            # the first version (Episode 01): one continuous voice track, verified in the first session
+            rows.append(f"| {n:02d} | {e['title']} | **PASS** | {len(segs)} (hand-verified cuts) | first session | OK | "
+                        f"≥16 dB (first session) | original script | first version, unchanged |")
+            continue
         verified = sum(1 for s in segs if s.get("timing") == "verified")
         check = read(os.path.join(b, "reports", eid, "PLAYBACK_CHECK.md"))
         m = re.search(r"\*\*(\d+) of (\d+) clips hold exactly their line", check)

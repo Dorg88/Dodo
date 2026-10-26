@@ -1,0 +1,131 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "صور متعارضة",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 2,
+   "title": "وداع الأصدقاء",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 3,
+   "title": "كيف أجمع بينهما؟",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 4,
+   "title": "أحببت هؤلاء الناس",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 5,
+   "title": "سنشتاق إليك",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 6,
+   "title": "شكرا يا منعم",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: شك"
+  },
+  {
+   "scene": 7,
+   "title": "المحبة تبقى",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: أسئلة"
+  },
+  {
+   "scene": 8,
+   "title": "إلى الحجاز",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 9,
+   "title": "البشير في جدة",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 10,
+   "title": "قصص الرحلة",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: مراجع"
+  },
+  {
+   "scene": 11,
+   "title": "إلى العمرة",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 12,
+   "title": "العمرة",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 13,
+   "title": "حديث وتحفظات",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 14,
+   "title": "العودة إلى تونس",
+   "music": "reflective",
+   "sfx": [
+    "sea"
+   ],
+   "level": 0.85,
+   "reason": "text: باخرة"
+  },
+  {
+   "scene": 15,
+   "title": "كتب من العراق",
+   "music": "ending",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: كتب; last scene"
+  }
+ ]
+}

@@ -1,0 +1,1079 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep09",
+ "number": 9,
+ "title": "إلى العراق لأول مرة",
+ "durationMs": 182925,
+ "audio": {
+  "mode": "clips",
+  "music": "ep09/audio/score_music.m4a",
+  "sfx": "ep09/audio/score_sfx.m4a",
+  "musicLoop": false
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AL_TIJANI": {
+   "name": "التيجاني"
+  },
+  "PROFESSOR_MUNIM": {
+   "name": "الأستاذ منعم"
+  },
+  "AL_TIJANI_ADULT": {
+   "name": "التيجاني الكبير"
+  },
+  "MUNIM_FATHER": {
+   "name": "والد منعم"
+  },
+  "MUNIM_MOTHER": {
+   "name": "والدة منعم"
+  },
+  "SHRINE_RESEARCHER": {
+   "name": "باحث عراقي في المقام"
+  },
+  "HAWZA_STUDENT": {
+   "name": "طالب حوزة"
+  },
+  "NAJAF_VISITOR": {
+   "name": "زائر في النجف"
+  },
+  "ABU_SHUBAR": {
+   "name": "السيد أبو شبر"
+  },
+  "BAQIR_AL_SADR": {
+   "name": "السيد محمد باقر الصدر"
+  },
+  "AL_BASHIR": {
+   "name": "البشير"
+  },
+  "DOCUMENT_READER": {
+   "name": "قارئ الوثائق"
+  },
+  "TEXT_READER": {
+   "name": "قارئ النصوص"
+  },
+  "TUNISIAN_INTERLOCUTOR": {
+   "name": "محاور تونسي"
+  },
+  "TUNISIAN_FRIEND": {
+   "name": "صديق تونسي"
+  },
+  "TUNISIAN_ELDER": {
+   "name": "أحد أهل تونس"
+  },
+  "AL_TIJANI_CHILD": {
+   "name": "التيجاني الصغير"
+  },
+  "FATHER": {
+   "name": "الأب"
+  },
+  "TEACHER": {
+   "name": "المعلم"
+  },
+  "WORSHIPPER_1": {
+   "name": "المصلي الأول"
+  },
+  "WORSHIPPER_2": {
+   "name": "المصلي الثاني"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "من دمشق",
+   "image": "ep09/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 7440
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "طريق الصحراء",
+   "image": "ep09/images/scene_02.jpg",
+   "startMs": 7440,
+   "endMs": 11980
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "حر شديد",
+   "image": "ep09/images/scene_03.jpg",
+   "startMs": 11980,
+   "endMs": 13750
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "استراحة في الطريق",
+   "image": "ep09/images/scene_04.jpg",
+   "startMs": 13750,
+   "endMs": 17530
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "هذه بغداد",
+   "image": "ep09/images/scene_05.jpg",
+   "startMs": 17530,
+   "endMs": 24790
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "إلى حي جميلة",
+   "image": "ep09/images/scene_06.jpg",
+   "startMs": 24790,
+   "endMs": 29770
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "على باب البيت",
+   "image": "ep09/images/scene_07.jpg",
+   "startMs": 29770,
+   "endMs": 41740
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "عناق الأب",
+   "image": "ep09/images/scene_08.jpg",
+   "startMs": 41740,
+   "endMs": 57715
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "ترحيب الأم",
+   "image": "ep09/images/scene_09.jpg",
+   "startMs": 57715,
+   "endMs": 70140
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "كرم الضيافة",
+   "image": "ep09/images/scene_10.jpg",
+   "startMs": 70140,
+   "endMs": 77660
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "الدشداشة",
+   "image": "ep09/images/scene_11.jpg",
+   "startMs": 77660,
+   "endMs": 88360
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "حديث الليل",
+   "image": "ep09/images/scene_12.jpg",
+   "startMs": 88360,
+   "endMs": 128905
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "الكرامات",
+   "image": "ep09/images/scene_13.jpg",
+   "startMs": 128905,
+   "endMs": 149515
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "غدا إلى المقام",
+   "image": "ep09/images/scene_14.jpg",
+   "startMs": 149515,
+   "endMs": 170640
+  },
+  {
+   "number": 15,
+   "id": "s15",
+   "title": "ليلة الانتظار",
+   "image": "ep09/images/scene_15.jpg",
+   "startMs": 170640,
+   "endMs": 182925
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep09_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت روائي دافئ",
+   "text": "من دمشق، انطلقت رحلة جديدة إلى بغداد. استقل محمد ومنعم سيارة كبيرة مكيفة،",
+   "startMs": 500,
+   "endMs": 7440,
+   "clip": {
+    "file": "audio/Ep9/Nrt.wav",
+    "startMs": 2950,
+    "endMs": 9890
+   },
+   "lines": [
+    {
+     "text": "من دمشق، انطلقت رحلة جديدة إلى بغداد.",
+     "startMs": 500,
+     "endMs": 4590
+    },
+    {
+     "text": "استقل محمد ومنعم سيارة كبيرة مكيفة،",
+     "startMs": 4590,
+     "endMs": 7440
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.939,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s02_l01",
+   "scene": 2,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "وسارا ساعات طويلة حتى وصلا إلى العاصمة العراقية.",
+   "startMs": 7440,
+   "endMs": 11980,
+   "clip": {
+    "file": "audio/Ep9/Nrt.wav",
+    "startMs": 10120,
+    "endMs": 14660
+   },
+   "lines": [
+    {
+     "text": "وسارا ساعات طويلة حتى وصلا إلى العاصمة العراقية.",
+     "startMs": 7440,
+     "endMs": 11979
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s03_l01",
+   "scene": 3,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "كانت الحرارة شديدة،",
+   "startMs": 11980,
+   "endMs": 13750,
+   "clip": {
+    "file": "audio/Ep9/Nrt.wav",
+    "startMs": 14950,
+    "endMs": 16720
+   },
+   "lines": [
+    {
+     "text": "كانت الحرارة شديدة،",
+     "startMs": 11980,
+     "endMs": 13749
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s04_l01",
+   "scene": 4,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "وبلغت في وصفه أربعين درجة مئوية.",
+   "startMs": 13750,
+   "endMs": 16930,
+   "clip": {
+    "file": "audio/Ep9/Nrt.wav",
+    "startMs": 16830,
+    "endMs": 20010
+   },
+   "lines": [
+    {
+     "text": "وبلغت في وصفه أربعين درجة مئوية.",
+     "startMs": 13750,
+     "endMs": 16930
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s05_l01",
+   "scene": 5,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بدهشة وإعجاب",
+   "text": "هذه بغداد إذن... كم تمنيت أن أراها! والحرارة هنا شديدة حقا.",
+   "startMs": 18130,
+   "endMs": 24190,
+   "clip": {
+    "file": "audio/Ep9/Tjyouth11.wav",
+    "startMs": 3380,
+    "endMs": 9440
+   },
+   "lines": [
+    {
+     "text": "هذه بغداد إذن...",
+     "startMs": 18130,
+     "endMs": 19730
+    },
+    {
+     "text": "كم تمنيت أن أراها!",
+     "startMs": 19730,
+     "endMs": 21670
+    },
+    {
+     "text": "والحرارة هنا شديدة حقا.",
+     "startMs": 21670,
+     "endMs": 24190
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s06_l01",
+   "scene": 6,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بحنان",
+   "text": "اتجه منعم بصديقه إلى بيته في حي جميلة.",
+   "startMs": 25390,
+   "endMs": 29170,
+   "clip": {
+    "file": "audio/Ep9/Nrt.wav",
+    "startMs": 21730,
+    "endMs": 25510
+   },
+   "lines": [
+    {
+     "text": "اتجه منعم بصديقه إلى بيته في حي جميلة.",
+     "startMs": 25390,
+     "endMs": 29170
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s07_l01",
+   "scene": 7,
+   "speakerId": "PROFESSOR_MUNIM",
+   "speakerName": "الأستاذ منعم",
+   "direction": "بحفاوة عراقية بسيطة",
+   "text": "حياك الله ببغداد، يا أخ محمد. هذا بيتك، وإنت مو غريب هنا.",
+   "startMs": 30370,
+   "endMs": 35150,
+   "clip": {
+    "file": "audio/Ep9/Munaim.wav",
+    "startMs": 2370,
+    "endMs": 7150
+   },
+   "lines": [
+    {
+     "text": "حياك الله ببغداد، يا أخ محمد.",
+     "startMs": 30370,
+     "endMs": 32639
+    },
+    {
+     "text": "هذا بيتك، وإنت مو غريب هنا.",
+     "startMs": 32639,
+     "endMs": 35150
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.972,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s07_l02",
+   "scene": 7,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "ما إن استراح حتى قدم له لباسا عراقيا فضفاضا، وأحضر الطعام والفاكهة.",
+   "startMs": 35750,
+   "endMs": 41740,
+   "clip": {
+    "file": "audio/Ep9/Nrt.wav",
+    "startMs": 25780,
+    "endMs": 31770
+   },
+   "lines": [
+    {
+     "text": "ما إن استراح حتى قدم له لباسا عراقيا فضفاضا، وأحضر الطعام والفاكهة.",
+     "startMs": 35750,
+     "endMs": 41740
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.953,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s08_l01",
+   "scene": 8,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "ثم دخل أفراد الأسرة يرحبون بالضيف: الأب يعانقه بمحبة،",
+   "startMs": 41740,
+   "endMs": 46920,
+   "clip": {
+    "file": "audio/Ep9/Nrt.wav",
+    "startMs": 32340,
+    "endMs": 37520
+   },
+   "lines": [
+    {
+     "text": "ثم دخل أفراد الأسرة يرحبون بالضيف: الأب يعانقه بمحبة،",
+     "startMs": 41740,
+     "endMs": 46919
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s08_l02",
+   "scene": 8,
+   "speakerId": "MUNIM_FATHER",
+   "speakerName": "والد منعم",
+   "direction": "بصوت أبوي عميق",
+   "text": "أهلا وسهلا بابني محمد. نورت بيتنا يا ولدي. اعتبر نفسك بين أهلك، ولا تحمل هم شي.",
+   "startMs": 47520,
+   "endMs": 57115,
+   "clip": {
+    "file": "audio/Ep9/Munaimdad.wav",
+    "startMs": 150,
+    "endMs": 9745
+   },
+   "lines": [
+    {
+     "text": "أهلا وسهلا بابني محمد.",
+     "startMs": 47520,
+     "endMs": 50370
+    },
+    {
+     "text": "نورت بيتنا يا ولدي.",
+     "startMs": 50370,
+     "endMs": 53490
+    },
+    {
+     "text": "اعتبر نفسك بين أهلك، ولا تحمل هم شي.",
+     "startMs": 53490,
+     "endMs": 57115
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.966,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s09_l01",
+   "scene": 9,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "والأم تسلم من عند الباب في عباءتها السوداء.",
+   "startMs": 58315,
+   "endMs": 61965,
+   "clip": {
+    "file": "audio/Ep9/Nrt.wav",
+    "startMs": 37610,
+    "endMs": 41260
+   },
+   "lines": [
+    {
+     "text": "والأم تسلم من عند الباب في عباءتها السوداء.",
+     "startMs": 58315,
+     "endMs": 61964
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s09_l02",
+   "scene": 9,
+   "speakerId": "MUNIM_MOTHER",
+   "speakerName": "والدة منعم",
+   "direction": "بصوت حنون ومحتشم",
+   "text": "حياك الله يمّه، تفضل وارتاح. إن شاء الله تكون إقامتك عدنا طيبة ومباركة.",
+   "startMs": 62565,
+   "endMs": 69540,
+   "clip": {
+    "file": "audio/Ep9/Munimnmom.wav",
+    "startMs": 190,
+    "endMs": 7165
+   },
+   "lines": [
+    {
+     "text": "حياك الله يمّه، تفضل وارتاح.",
+     "startMs": 62565,
+     "endMs": 65675
+    },
+    {
+     "text": "إن شاء الله تكون إقامتك عدنا طيبة ومباركة.",
+     "startMs": 65675,
+     "endMs": 69540
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.985,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s10_l01",
+   "scene": 10,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بامتنان",
+   "text": "أستاذ منعم، أكرمتني أنت وأهلك كأنني واحد من العائلة. كيف أشكركم؟",
+   "startMs": 70740,
+   "endMs": 77060,
+   "clip": {
+    "file": "audio/Ep9/Tjyouth11.wav",
+    "startMs": 12050,
+    "endMs": 18370
+   },
+   "lines": [
+    {
+     "text": "أستاذ منعم، أكرمتني أنت وأهلك كأنني واحد من العائلة.",
+     "startMs": 70740,
+     "endMs": 74830
+    },
+    {
+     "text": "كيف أشكركم؟",
+     "startMs": 74830,
+     "endMs": 77060
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s11_l01",
+   "scene": 11,
+   "speakerId": "PROFESSOR_MUNIM",
+   "speakerName": "الأستاذ منعم",
+   "direction": "بهدوء لطيف",
+   "text": "ارتاح من الطريق أول شي. وعندي إلك دشداشة أخف من ملابس السفر.",
+   "startMs": 78260,
+   "endMs": 82880,
+   "clip": {
+    "file": "audio/Ep9/Munaim.wav",
+    "startMs": 9550,
+    "endMs": 14170
+   },
+   "lines": [
+    {
+     "text": "ارتاح من الطريق أول شي.",
+     "startMs": 78260,
+     "endMs": 79590
+    },
+    {
+     "text": "وعندي إلك دشداشة أخف من ملابس السفر.",
+     "startMs": 79590,
+     "endMs": 82879
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.983,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s11_l02",
+   "scene": 11,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بابتسامة فضولية",
+   "text": "هذه الدشداشة مريحة جدا. لم أعتد لبسها في تونس.",
+   "startMs": 83480,
+   "endMs": 87760,
+   "clip": {
+    "file": "audio/Ep9/Tjyouth11.wav",
+    "startMs": 21220,
+    "endMs": 25500
+   },
+   "lines": [
+    {
+     "text": "هذه الدشداشة مريحة جدا.",
+     "startMs": 83480,
+     "endMs": 85380
+    },
+    {
+     "text": "لم أعتد لبسها في تونس.",
+     "startMs": 85380,
+     "endMs": 87760
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s12_l01",
+   "scene": 12,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة فضول",
+   "text": "أعجب محمد بما وجده من كرم، لكنه بقي مشغولا بالأسئلة التي حملها من الباخرة. وفي حديث الليل، عاد إلى موضوع الاختلاف بين المذاهب، فوجد صديقه يصغي دون استعجال.",
+   "startMs": 88960,
+   "endMs": 102850,
+   "clip": {
+    "file": "audio/Ep9/Nrt.wav",
+    "startMs": 43550,
+    "endMs": 57440
+   },
+   "lines": [
+    {
+     "text": "أعجب محمد بما وجده من كرم، لكنه بقي مشغولا بالأسئلة التي حملها من الباخرة.",
+     "startMs": 88960,
+     "endMs": 95269
+    },
+    {
+     "text": "وفي حديث الليل، عاد إلى موضوع الاختلاف بين المذاهب، فوجد صديقه يصغي دون استعجال.",
+     "startMs": 95269,
+     "endMs": 102849
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s12_l02",
+   "scene": 12,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت مشوق",
+   "text": "تحدث محمد أيضا عن تعلقه القديم بالشيخ عبد القادر الجيلاني، وعن القصص التي سمعها حوله في شمال أفريقيا.",
+   "startMs": 103200,
+   "endMs": 111700,
+   "clip": {
+    "file": "audio/Ep9/Nrt.wav",
+    "startMs": 59760,
+    "endMs": 68260
+   },
+   "lines": [
+    {
+     "text": "تحدث محمد أيضا عن تعلقه القديم بالشيخ عبد القادر الجيلاني، وعن القصص التي سمعها حوله في شمال أفريقيا.",
+     "startMs": 103200,
+     "endMs": 111700
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.99,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s12_l03",
+   "scene": 12,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بحماس ديني صادق",
+   "text": "تعلم أنني أحمل محبة خاصة للشيخ عبد القادر الجيلاني. لقد سمعت عنه منذ طفولتي حكايات كثيرة، وأتمنى زيارة مقامه.",
+   "startMs": 112300,
+   "endMs": 121795,
+   "clip": {
+    "file": "audio/Ep9/Tjyouth11.wav",
+    "startMs": 27975,
+    "endMs": 37470
+   },
+   "lines": [
+    {
+     "text": "تعلم أنني أحمل محبة خاصة للشيخ عبد القادر الجيلاني.",
+     "startMs": 112300,
+     "endMs": 117324
+    },
+    {
+     "text": "لقد سمعت عنه منذ طفولتي حكايات كثيرة، وأتمنى زيارة مقامه.",
+     "startMs": 117324,
+     "endMs": 121794
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.995,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s12_l04",
+   "scene": 12,
+   "speakerId": "PROFESSOR_MUNIM",
+   "speakerName": "الأستاذ منعم",
+   "direction": "بتفهم",
+   "text": "أعرف أن للشيخ عبد القادر مكانة كبيرة عندكم، واحترم محبتك له.",
+   "startMs": 122395,
+   "endMs": 128305,
+   "clip": {
+    "file": "audio/Ep9/Munaim.wav",
+    "startMs": 14740,
+    "endMs": 20650
+   },
+   "lines": [
+    {
+     "text": "أعرف أن للشيخ عبد القادر مكانة كبيرة عندكم، واحترم محبتك له.",
+     "startMs": 122395,
+     "endMs": 128304
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.919,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s13_l01",
+   "scene": 13,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "ولاحظ أن منعم لا يشاركه الحماسة نفسها لتلك الروايات.",
+   "startMs": 129505,
+   "endMs": 133905,
+   "clip": {
+    "file": "audio/Ep9/Nrt.wav",
+    "startMs": 68660,
+    "endMs": 73060
+   },
+   "lines": [
+    {
+     "text": "ولاحظ أن منعم لا يشاركه الحماسة نفسها لتلك الروايات.",
+     "startMs": 129505,
+     "endMs": 133905
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.99,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s13_l02",
+   "scene": 13,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بحيرة",
+   "text": "أراك هادئا كلما حدثتك عن الكرامات التي كنت أسمعها. هل تختلف نظرتك إليها؟",
+   "startMs": 134505,
+   "endMs": 140675,
+   "clip": {
+    "file": "audio/Ep9/Tjyouth11.wav",
+    "startMs": 39610,
+    "endMs": 45780
+   },
+   "lines": [
+    {
+     "text": "أراك هادئا كلما حدثتك عن الكرامات التي كنت أسمعها.",
+     "startMs": 134505,
+     "endMs": 138075
+    },
+    {
+     "text": "هل تختلف نظرتك إليها؟",
+     "startMs": 138075,
+     "endMs": 140675
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.986,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s13_l03",
+   "scene": 13,
+   "speakerId": "PROFESSOR_MUNIM",
+   "speakerName": "الأستاذ منعم",
+   "direction": "بنبرة متأنية",
+   "text": "خلينا نشوف الأماكن ونتحاور بهدوء، ونفرق بين محبة الرجل وما ينسبه الناس إله من حكايات.",
+   "startMs": 141275,
+   "endMs": 148915,
+   "clip": {
+    "file": "audio/Ep9/Munaim.wav",
+    "startMs": 23110,
+    "endMs": 30750
+   },
+   "lines": [
+    {
+     "text": "خلينا نشوف الأماكن ونتحاور بهدوء، ونفرق بين محبة الرجل وما ينسبه الناس إله من حكايات.",
+     "startMs": 141275,
+     "endMs": 148915
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.963,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s14_l01",
+   "scene": 14,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "لم يحوّل منعم اختلافهما إلى شجار. اقترح أن يرتاح محمد من عناء الطريق، ووعده بزيارة مقام الجيلاني في الصباح.",
+   "startMs": 150115,
+   "endMs": 159465,
+   "clip": {
+    "file": "audio/Ep9/Nrt.wav",
+    "startMs": 73530,
+    "endMs": 82880
+   },
+   "lines": [
+    {
+     "text": "لم يحوّل منعم اختلافهما إلى شجار.",
+     "startMs": 150115,
+     "endMs": 152645
+    },
+    {
+     "text": "اقترح أن يرتاح محمد من عناء الطريق، ووعده بزيارة مقام الجيلاني في الصباح.",
+     "startMs": 152645,
+     "endMs": 159464
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.995,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s14_l02",
+   "scene": 14,
+   "speakerId": "PROFESSOR_MUNIM",
+   "speakerName": "الأستاذ منعم",
+   "direction": "بابتسامة دافئة",
+   "text": "نام الليلة وارتاح. وباچر نروح نزور مقام الشيخ عبد القادر إن شاء الله.",
+   "startMs": 160065,
+   "endMs": 164770,
+   "clip": {
+    "file": "audio/Ep9/Munaim.wav",
+    "startMs": 33290,
+    "endMs": 37995
+   },
+   "lines": [
+    {
+     "text": "نام الليلة وارتاح.",
+     "startMs": 160065,
+     "endMs": 161115
+    },
+    {
+     "text": "وباچر نروح نزور مقام الشيخ عبد القادر إن شاء الله.",
+     "startMs": 161115,
+     "endMs": 164769
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.97,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s14_l03",
+   "scene": 14,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بفرح طفل تحقق حلمه",
+   "text": "سنزوره غدا؟ إذن أتمنى أن يطلع الصباح سريعا!",
+   "startMs": 165370,
+   "endMs": 170040,
+   "clip": {
+    "file": "audio/Ep9/Tjyouth11.wav",
+    "startMs": 49045,
+    "endMs": 53715
+   },
+   "lines": [
+    {
+     "text": "سنزوره غدا؟",
+     "startMs": 165370,
+     "endMs": 166385
+    },
+    {
+     "text": "إذن أتمنى أن يطلع الصباح سريعا!",
+     "startMs": 166385,
+     "endMs": 170040
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep09_s15_l01",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة ختامية دافئة",
+   "text": "نام محمد تلك الليلة متشوقا إلى الزيارة، لكنه لم يكن يعرف أن بغداد ستريه وجوها من التدين لم يعتد رؤيتها من قبل.",
+   "startMs": 171240,
+   "endMs": 181425,
+   "clip": {
+    "file": "audio/Ep9/Nrt.wav",
+    "startMs": 85880,
+    "endMs": 96065
+   },
+   "lines": [
+    {
+     "text": "نام محمد تلك الليلة متشوقا إلى الزيارة، لكنه لم يكن يعرف أن بغداد ستريه وجوها من التدين لم يعتد رؤيتها من قبل.",
+     "startMs": 171240,
+     "endMs": 181425
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  }
+ ],
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "warm",
+   "startMs": 0,
+   "endMs": 8240
+  },
+  {
+   "scene": 2,
+   "cue": "reflective",
+   "startMs": 6640,
+   "endMs": 12780
+  },
+  {
+   "scene": 3,
+   "cue": "reflective",
+   "startMs": 11180,
+   "endMs": 14550
+  },
+  {
+   "scene": 4,
+   "cue": "reflective",
+   "startMs": 12950,
+   "endMs": 18330
+  },
+  {
+   "scene": 5,
+   "cue": "warm",
+   "startMs": 16730,
+   "endMs": 25590
+  },
+  {
+   "scene": 6,
+   "cue": "reflective",
+   "startMs": 23990,
+   "endMs": 30570
+  },
+  {
+   "scene": 7,
+   "cue": "warm",
+   "startMs": 28970,
+   "endMs": 42540
+  },
+  {
+   "scene": 8,
+   "cue": "reflective",
+   "startMs": 40940,
+   "endMs": 58515
+  },
+  {
+   "scene": 9,
+   "cue": "reflective",
+   "startMs": 56915,
+   "endMs": 70940
+  },
+  {
+   "scene": 10,
+   "cue": "suspense",
+   "startMs": 69340,
+   "endMs": 78460
+  },
+  {
+   "scene": 11,
+   "cue": "warm",
+   "startMs": 76860,
+   "endMs": 89160
+  },
+  {
+   "scene": 12,
+   "cue": "nostalgic",
+   "startMs": 87560,
+   "endMs": 129705
+  },
+  {
+   "scene": 13,
+   "cue": "reflective",
+   "startMs": 128104,
+   "endMs": 150315
+  },
+  {
+   "scene": 14,
+   "cue": "reverent",
+   "startMs": 148714,
+   "endMs": 171440
+  },
+  {
+   "scene": 15,
+   "cue": "ending",
+   "startMs": 169839,
+   "endMs": 183725
+  }
+ ]
+}

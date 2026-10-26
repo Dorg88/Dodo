@@ -7,6 +7,8 @@ Two sources, never mixed and always labelled:
     session worked from, stored with its directions and verified cut points in
     production/ep01/episode_source.json):
 
+        python3 hikaya_recover.py clean Episode_02.txt -o for_people/Episode_02.txt   # without directions
+
         python3 hikaya_recover.py source production/ep01/episode_source.json \\
             --files files_ep01.json -o recovered/Episode_01.txt
 
@@ -123,7 +125,8 @@ NOT_DIRECTION = {"بدايه", "بعد", "بين", "بل", "بها", "به", "ب
                  "بسبب", "بالله", "بعض", "بقي", "بقيت", "بلغ", "بدا", "بدات", "بدا", "بينما"}
 
 # phrases the transcriber invents in the silence at the end of a recording
-HALLUCINATIONS = [["اشتركوا", "في", "القناه"], ["شكرا", "للمشاهده"], ["ترجمه", "نانسي", "قنقر"], ["شكرا"]]
+HALLUCINATIONS = [["اشتركوا", "في", "القناه"], ["المترجم", "للقناه"], ["شكرا", "للمشاهده"], ["ترجمه", "نانسي", "قنقر"],
+                  ["شكرا"]]
 
 
 def drop_hallucinations(words, duration):
@@ -292,6 +295,17 @@ def agreement(a, b):
     return difflib.SequenceMatcher(None, ta, tb, autojunk=False).ratio() if ta or tb else 1.0
 
 
+def word_differences(a, b):
+    """«بأثناء ↔ بآثينا»: words the two transcriptions heard differently."""
+    ta, tb = a.split(), b.split()
+    na, nb = [norm_word(w) for w in ta], [norm_word(w) for w in tb]
+    out = []
+    for op, i1, i2, j1, j2 in difflib.SequenceMatcher(None, na, nb, autojunk=False).get_opcodes():
+        if op == "replace":
+            out.append(f"{' '.join(ta[i1:i2])} ↔ {' '.join(tb[j1:j2])}")
+    return out
+
+
 def text_between(words, s, e):
     return " ".join(w["w"] for w in words if w["s"] >= s - 0.05 and w["e"] <= e + 0.05).strip()
 
@@ -350,7 +364,8 @@ def from_audio(a):
             out.append(f"# {rel} · {s:.2f}–{e:.2f} ث{flag}")
             out.append(text)
             review.append({"speaker": sp["label"], "file": rel, "line": n, "start": round(s, 2), "end": round(e, 2),
-                           "text": text, "check_text": other, "agreement": None if agree is None else round(agree, 2)})
+                           "text": text, "check_text": other, "agreement": None if agree is None else round(agree, 2),
+                           "differences": " · ".join(word_differences(text, other)) if other else ""})
         out.append("")
     return "\n".join(out) + "\n", review
 
@@ -360,13 +375,37 @@ def write_review(review, path):
         w = csv.DictWriter(fh, fieldnames=list(review[0].keys()))
         w.writeheader()
         w.writerows(review)
-    md = ["| الشخصية | الملف | الزمن | النص المستعاد | تفريغ المقارنة | التطابق |", "|---|---|---|---|---|---|"]
+    md = ["كلمات «الفروق» سمعها التفريغان مختلفة (التفريغ المعتمد ↔ تفريغ المقارنة): ابدأ المراجعة بالسماع منها.", "",
+          "| الشخصية | الملف | الزمن | النص المستعاد | الفروق | التطابق |", "|---|---|---|---|---|---|"]
     for r in review:
         mark = "" if r["agreement"] is None or r["agreement"] >= 0.85 else " ⚠"
         md.append(f"| {r['speaker']} | {r['file']} | {r['start']:.2f}–{r['end']:.2f} | {r['text']} | "
-                  f"{r['check_text']} | {r['agreement']}{mark} |")
+                  f"{r['differences']} | {r['agreement']}{mark} |")
     with open(path + ".md", "w", encoding="utf-8") as fh:
         fh.write("\n".join(md) + "\n")
+
+
+def clean(text):
+    """The script for people: TTS delivery directions removed (they are instructions to the
+    voice engine, not dialogue), with the notes that quote them. The full version, which
+    alignment needs to cut spoken directions out of the clips, is kept apart."""
+    out, prev_blank = [], True
+    for line in text.splitlines():
+        t = line.strip()
+        is_header = prev_blank and re.match(r"^\[[^\[\]]+?\s+[—–-]\s+[^\[\]]+\]$", t)
+        prev_blank = not t
+        if not is_header and re.match(r"^\[[^\]]*\]$", t):
+            continue
+        if t.startswith("# تصحيح يدوي"):
+            continue
+        if t.startswith("(تفريغ آلي محلي") or t.startswith("نطقها محرك الصوت"):
+            continue
+        if t.startswith("النص الأصلي لهذه الحلقة غير موجود"):
+            out += [line, "(تفريغ آلي محلي بنموذجين، يحتاج إلى مراجعة بالسماع). حُذفت منه تعليمات الأداء التي",
+                    "نطقها محرك الصوت (TTS)، فهي ليست من الحوار؛ ولا تظهر في التطبيق ولا تُسمع في مقاطعه."]
+            continue
+        out.append(line)
+    return "\n".join(out) + "\n"
 
 
 def main():
@@ -386,8 +425,18 @@ def main():
     au.add_argument("--check-model", default="large-v3-turbo")
     au.add_argument("--directions-from", nargs="+", required=True)
     au.add_argument("-o", "--output", required=True)
+    c = sub.add_parser("clean", help="copy of a script without the TTS delivery directions")
+    c.add_argument("script")
+    c.add_argument("-o", "--output", required=True)
     a = ap.parse_args()
     os.makedirs(os.path.dirname(os.path.abspath(a.output)), exist_ok=True)
+    if a.cmd == "clean":
+        with open(a.script, encoding="utf-8") as fh:
+            text = clean(fh.read())
+        with open(a.output, "w", encoding="utf-8") as fh:
+            fh.write(text)
+        print(f"→ {a.output}")
+        return
     if a.cmd == "source":
         files = {}
         if a.files:

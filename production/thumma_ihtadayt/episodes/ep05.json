@@ -1,0 +1,1700 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep05",
+ "number": 5,
+ "title": "بين التصوف والتساؤل",
+ "durationMs": 471530,
+ "audio": {
+  "mode": "clips",
+  "music": "ep05/audio/score_music.m4a",
+  "sfx": "ep05/audio/score_sfx.m4a",
+  "musicLoop": false
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AL_TIJANI": {
+   "name": "التيجاني"
+  },
+  "PROFESSOR_MUNIM": {
+   "name": "الأستاذ منعم"
+  },
+  "AL_TIJANI_ADULT": {
+   "name": "التيجاني الكبير"
+  },
+  "MUNIM_FATHER": {
+   "name": "والد منعم"
+  },
+  "MUNIM_MOTHER": {
+   "name": "والدة منعم"
+  },
+  "SHRINE_RESEARCHER": {
+   "name": "باحث عراقي في المقام"
+  },
+  "HAWZA_STUDENT": {
+   "name": "طالب حوزة"
+  },
+  "NAJAF_VISITOR": {
+   "name": "زائر في النجف"
+  },
+  "ABU_SHUBAR": {
+   "name": "السيد أبو شبر"
+  },
+  "BAQIR_AL_SADR": {
+   "name": "السيد محمد باقر الصدر"
+  },
+  "AL_BASHIR": {
+   "name": "البشير"
+  },
+  "DOCUMENT_READER": {
+   "name": "قارئ الوثائق"
+  },
+  "TEXT_READER": {
+   "name": "قارئ النصوص"
+  },
+  "TUNISIAN_INTERLOCUTOR": {
+   "name": "محاور تونسي"
+  },
+  "TUNISIAN_FRIEND": {
+   "name": "صديق تونسي"
+  },
+  "TUNISIAN_ELDER": {
+   "name": "أحد أهل تونس"
+  },
+  "AL_TIJANI_CHILD": {
+   "name": "التيجاني الصغير"
+  },
+  "FATHER": {
+   "name": "الأب"
+  },
+  "TEACHER": {
+   "name": "المعلم"
+  },
+  "WORSHIPPER_1": {
+   "name": "المصلي الأول"
+  },
+  "WORSHIPPER_2": {
+   "name": "المصلي الثاني"
+  },
+  "MOTHER": {
+   "name": "الأم"
+  },
+  "TRAVEL_COMPANION": {
+   "name": "رفيق الرحلة"
+  },
+  "TOWNSMAN": {
+   "name": "أحد أهل المدينة"
+  },
+  "STUDENT": {
+   "name": "أحد الطلاب"
+  },
+  "SHEIKH_ENVOY": {
+   "name": "موفد الشيخ"
+  },
+  "SHEIKH_ISMAIL": {
+   "name": "الشيخ إسماعيل الهديفي"
+  },
+  "SUFI_FOLLOWER": {
+   "name": "أحد أتباع الطريقة"
+  },
+  "WIFE": {
+   "name": "الزوجة"
+  },
+  "AHMAD_EGYPTIAN": {
+   "name": "أحمد المصري"
+  },
+  "SHEIKH_ABDULBASIT": {
+   "name": "الشيخ عبد الباسط"
+  },
+  "AZHAR_SCHOLAR": {
+   "name": "عالم أزهري"
+  },
+  "HUSAYN_SHRINE_KEEPER": {
+   "name": "مسؤول مقام الإمام الحسين"
+  },
+  "RELATIVE": {
+   "name": "أحد الأقارب"
+  },
+  "TUNISIAN_STUDENT": {
+   "name": "طالب"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "دعوة غير متوقعة",
+   "image": "ep05/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 14660
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "موفد الشيخ",
+   "image": "ep05/images/scene_02.jpg",
+   "startMs": 14660,
+   "endMs": 59290
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "إلى توزر",
+   "image": "ep05/images/scene_03.jpg",
+   "startMs": 59290,
+   "endMs": 88870
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "ها هو الشيخ",
+   "image": "ep05/images/scene_04.jpg",
+   "startMs": 88870,
+   "endMs": 109000
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "في مجلس الشيخ",
+   "image": "ep05/images/scene_05.jpg",
+   "startMs": 109000,
+   "endMs": 133985
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "أسئلة واعتراضات",
+   "image": "ep05/images/scene_06.jpg",
+   "startMs": 133985,
+   "endMs": 176440
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "آداب المجلس",
+   "image": "ep05/images/scene_07.jpg",
+   "startMs": 176440,
+   "endMs": 200995
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "قم فاغتسل",
+   "image": "ep05/images/scene_08.jpg",
+   "startMs": 200995,
+   "endMs": 274335
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "القصة موجهة إليه",
+   "image": "ep05/images/scene_09.jpg",
+   "startMs": 274335,
+   "endMs": 302065
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "مجالس الذكر",
+   "image": "ep05/images/scene_13.jpg",
+   "startMs": 302065,
+   "endMs": 334335
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "بين اتجاهين",
+   "image": "ep05/images/scene_11.jpg",
+   "startMs": 334335,
+   "endMs": 363335
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "حيرة لا تنتهي",
+   "image": "ep05/images/scene_14.jpg",
+   "startMs": 363335,
+   "endMs": 399090
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "شكوى الجيران",
+   "image": "ep05/images/scene_10.jpg",
+   "startMs": 399090,
+   "endMs": 430680
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "عزم على السفر",
+   "image": "ep05/images/scene_12.jpg",
+   "startMs": 430680,
+   "endMs": 452160
+  },
+  {
+   "number": 15,
+   "id": "s15",
+   "title": "بداية مواجهة طويلة",
+   "image": "ep05/images/scene_15.jpg",
+   "startMs": 452160,
+   "endMs": 471530
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep05_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت عميق ومشوق",
+   "text": "بينما كان محمد التيجاني يواصل دروسه الدينية في مدينة قفصة وصلته دعوة غير متوقعة كانت الدعوة من أتباع الشيخ إسماعيل الهاتفي أحد مشايخ التصوف المعروفين في مدينة توزر",
+   "startMs": 500,
+   "endMs": 14060,
+   "clip": {
+    "file": "audio/Ep5/Narrator5.wav",
+    "startMs": 2570,
+    "endMs": 16130
+   },
+   "lines": [
+    {
+     "text": "بينما كان محمد التيجاني يواصل دروسه الدينية في مدينة قفصة وصلته دعوة غير متوقعة كانت الدعوة من أتباع الشيخ إسماعيل الهاتفي أحد مشايخ التصوف المعروفين في مدينة توزر",
+     "startMs": 500,
+     "endMs": 14060
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s02_l01",
+   "scene": 2,
+   "speakerId": "SHEIKH_ENVOY",
+   "speakerName": "موفد الشيخ",
+   "direction": "",
+   "text": "يا محمد، لقد بلغ الشيخ إسماعيل خبر نشاطك ودروسك في قفصة",
+   "startMs": 15260,
+   "endMs": 20450,
+   "clip": {
+    "file": "audio/Ep5/Sheikhassist.wav",
+    "startMs": 100,
+    "endMs": 5290
+   },
+   "lines": [
+    {
+     "text": "يا محمد، لقد بلغ الشيخ إسماعيل خبر نشاطك ودروسك في قفصة",
+     "startMs": 15260,
+     "endMs": 20450
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s02_l02",
+   "scene": 2,
+   "speakerId": "SHEIKH_ENVOY",
+   "speakerName": "موفد الشيخ",
+   "direction": "بنبرة تقدير",
+   "text": "ونحن نرى فيك شاباً مجتهداً محباً للعلم والدين",
+   "startMs": 20800,
+   "endMs": 24770,
+   "clip": {
+    "file": "audio/Ep5/Sheikhassist.wav",
+    "startMs": 7430,
+    "endMs": 11400
+   },
+   "lines": [
+    {
+     "text": "ونحن نرى فيك شاباً مجتهداً محباً للعلم والدين",
+     "startMs": 20800,
+     "endMs": 24770
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s02_l03",
+   "scene": 2,
+   "speakerId": "SHEIKH_ENVOY",
+   "speakerName": "موفد الشيخ",
+   "direction": "بصوت جاد ومقنع",
+   "text": "لكن العلم يحتاج إلى من يرشد صاحبه فالإنسان قد يقرأ كثيراً ثم يظن أنه وصل إلى كل شيء",
+   "startMs": 25120,
+   "endMs": 32320,
+   "clip": {
+    "file": "audio/Ep5/Sheikhassist.wav",
+    "startMs": 14020,
+    "endMs": 21220
+   },
+   "lines": [
+    {
+     "text": "لكن العلم يحتاج إلى من يرشد صاحبه فالإنسان قد يقرأ كثيراً ثم يظن أنه وصل إلى كل شيء",
+     "startMs": 25120,
+     "endMs": 32319
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s02_l04",
+   "scene": 2,
+   "speakerId": "SHEIKH_ENVOY",
+   "speakerName": "موفد الشيخ",
+   "direction": "بنبرة مبشرة",
+   "text": "يسعدنا أن تزور الشيخ في توزر",
+   "startMs": 32670,
+   "endMs": 34950,
+   "clip": {
+    "file": "audio/Ep5/Sheikhassist.wav",
+    "startMs": 23530,
+    "endMs": 25810
+   },
+   "lines": [
+    {
+     "text": "يسعدنا أن تزور الشيخ في توزر",
+     "startMs": 32670,
+     "endMs": 34950
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s02_l05",
+   "scene": 2,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة غامضة قليلا",
+   "text": "أخبروه أن الشيخ يرغب في لقائه وأن العلم وحده لا يكفي بل لابد من شيخ عارف يرشد الإنسان في طريقه إلى الله وأخبره أنه اختير ليكون من المقربين",
+   "startMs": 35550,
+   "endMs": 47540,
+   "clip": {
+    "file": "audio/Ep5/Narrator5.wav",
+    "startMs": 18870,
+    "endMs": 30860
+   },
+   "lines": [
+    {
+     "text": "أخبروه أن الشيخ يرغب في لقائه وأن العلم وحده لا يكفي بل لابد من شيخ عارف يرشد الإنسان في طريقه إلى الله وأخبره أنه اختير ليكون من المقربين",
+     "startMs": 35550,
+     "endMs": 47540
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s02_l06",
+   "scene": 2,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "",
+   "text": "الشيخ إسماعيل الهادفي يدعوني أنا لزيارته؟ يا لها من نعمة كم أتمنى أن أتعرف إليه وأن أسمع منه مباشرة",
+   "startMs": 48140,
+   "endMs": 58690,
+   "clip": {
+    "file": "audio/Ep5/Hisyouth5.wav",
+    "startMs": 150,
+    "endMs": 10700
+   },
+   "lines": [
+    {
+     "text": "الشيخ إسماعيل الهادفي يدعوني أنا لزيارته؟",
+     "startMs": 48140,
+     "endMs": 52490
+    },
+    {
+     "text": "يا لها من نعمة كم أتمنى أن أتعرف إليه وأن أسمع منه مباشرة",
+     "startMs": 52490,
+     "endMs": 58689
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s03_l01",
+   "scene": 3,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت دافئ",
+   "text": "فرح محمد كثيرا بهذه الدعوة فقد عرف في حياته شيوخا من الطرق الصوفية وكان يحمل لهم محبة واحترامة وتخيل أن لقاء الشيخ إسماعيل سيكون حدثا استثنائيا",
+   "startMs": 59890,
+   "endMs": 72990,
+   "clip": {
+    "file": "audio/Ep5/Narrator5.wav",
+    "startMs": 33080,
+    "endMs": 46180
+   },
+   "lines": [
+    {
+     "text": "فرح محمد كثيرا بهذه الدعوة فقد عرف في حياته شيوخا من الطرق الصوفية وكان يحمل لهم محبة واحترامة وتخيل أن لقاء الشيخ إسماعيل سيكون حدثا استثنائيا",
+     "startMs": 59890,
+     "endMs": 72989
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s03_l02",
+   "scene": 3,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة ترقب",
+   "text": "وصل إلى بيت الشيخ في توزر كان المجلس مليئا بالمريدين وفيهم رجال يرتدون ثياب البيضاء وكان الجميع ينتظر ظهور الشيخ وحين دخل الشيخ إسماعيل نهض الحاضرون لتحيته وتقبيل يده",
+   "startMs": 73340,
+   "endMs": 88270,
+   "clip": {
+    "file": "audio/Ep5/Narrator5.wav",
+    "startMs": 48790,
+    "endMs": 63720
+   },
+   "lines": [
+    {
+     "text": "وصل إلى بيت الشيخ في توزر كان المجلس مليئا بالمريدين وفيهم رجال يرتدون ثياب البيضاء وكان الجميع ينتظر ظهور الشيخ وحين دخل الشيخ إسماعيل نهض الحاضرون لتحيته وتقبيل يده",
+     "startMs": 73340,
+     "endMs": 88270
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s04_l01",
+   "scene": 4,
+   "speakerId": "SHEIKH_ENVOY",
+   "speakerName": "موفد الشيخ",
+   "direction": "بصوت منخفض يحمل الاحترام",
+   "text": "ها هو الشيخ إسماعيل",
+   "startMs": 89470,
+   "endMs": 91060,
+   "clip": {
+    "file": "audio/Ep5/Sheikhassist.wav",
+    "startMs": 28770,
+    "endMs": 30360
+   },
+   "lines": [
+    {
+     "text": "ها هو الشيخ إسماعيل",
+     "startMs": 89470,
+     "endMs": 91059
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s04_l02",
+   "scene": 4,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بنبرة متردد عند اللقاء",
+   "text": "إذن هذا هو الشيخ إسماعيل؟",
+   "startMs": 91660,
+   "endMs": 94620,
+   "clip": {
+    "file": "audio/Ep5/Hisyouth5.wav",
+    "startMs": 13170,
+    "endMs": 16130
+   },
+   "lines": [
+    {
+     "text": "إذن هذا هو الشيخ إسماعيل؟",
+     "startMs": 91660,
+     "endMs": 94620
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s04_l03",
+   "scene": 4,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة مدهوشة",
+   "text": "لكن محمد شعر بشيء من خيبة التوقع فقد رسم في خياله صورة مهيبة للشيخ ثم وجد أمامه إنسانا عاديا لا يشبه تماما تلك الصورة التي بناها من حكايات أتباعه",
+   "startMs": 95220,
+   "endMs": 108400,
+   "clip": {
+    "file": "audio/Ep5/Narrator5.wav",
+    "startMs": 66020,
+    "endMs": 79200
+   },
+   "lines": [
+    {
+     "text": "لكن محمد شعر بشيء من خيبة التوقع فقد رسم في خياله صورة مهيبة للشيخ ثم وجد أمامه إنسانا عاديا لا يشبه تماما تلك الصورة التي بناها من حكايات أتباعه",
+     "startMs": 95220,
+     "endMs": 108400
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s05_l01",
+   "scene": 5,
+   "speakerId": "SHEIKH_ENVOY",
+   "speakerName": "موفد الشيخ",
+   "direction": "بنبرة ترحيبية",
+   "text": "تفضل يا محمد",
+   "startMs": 109600,
+   "endMs": 111000,
+   "clip": {
+    "file": "audio/Ep5/Sheikhassist.wav",
+    "startMs": 32550,
+    "endMs": 33950
+   },
+   "lines": [
+    {
+     "text": "تفضل يا محمد",
+     "startMs": 109600,
+     "endMs": 110999
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s05_l02",
+   "scene": 5,
+   "speakerId": "SHEIKH_ISMAIL",
+   "speakerName": "الشيخ إسماعيل الهديفي",
+   "direction": "",
+   "text": "أهلاً بك يا محمد لقد سمعنا عن نشاطك في خدمة الدين ويسرنا أن نراك بيننا",
+   "startMs": 111600,
+   "endMs": 119605,
+   "clip": {
+    "file": "audio/Ep5/Sheik.wav",
+    "startMs": 105,
+    "endMs": 8110
+   },
+   "lines": [
+    {
+     "text": "أهلاً بك يا محمد لقد سمعنا عن نشاطك في خدمة الدين ويسرنا أن نراك بيننا",
+     "startMs": 111600,
+     "endMs": 119604
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s05_l03",
+   "scene": 5,
+   "speakerId": "SHEIKH_ISMAIL",
+   "speakerName": "الشيخ إسماعيل الهديفي",
+   "direction": "بصوت مطمئن",
+   "text": "اجلس يا بني وتفضل",
+   "startMs": 119955,
+   "endMs": 122175,
+   "clip": {
+    "file": "audio/Ep5/Sheik.wav",
+    "startMs": 10280,
+    "endMs": 12500
+   },
+   "lines": [
+    {
+     "text": "اجلس يا بني وتفضل",
+     "startMs": 119955,
+     "endMs": 122174
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s05_l04",
+   "scene": 5,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت هادئ",
+   "text": "رحب الشيخ به وأجلسه إلى جانبه وأكرمه بالطعام ثم شارك محمد في المجلس وأخذ العهد والورد من الشيخ وهنأه الحاضرون",
+   "startMs": 122775,
+   "endMs": 133385,
+   "clip": {
+    "file": "audio/Ep5/Narrator5.wav",
+    "startMs": 81210,
+    "endMs": 91820
+   },
+   "lines": [
+    {
+     "text": "رحب الشيخ به وأجلسه إلى جانبه وأكرمه بالطعام ثم شارك محمد في المجلس وأخذ العهد والورد من الشيخ وهنأه الحاضرون",
+     "startMs": 122775,
+     "endMs": 133385
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s06_l01",
+   "scene": 6,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "",
+   "text": "يا سيدي أرجو أن تسمح لي بسؤال هناك بعض الأمور التي أفهمها من القرآن والسنة على وجه مختلف فكيف يمكن أن نجمع بين هذه الأقوال",
+   "startMs": 134585,
+   "endMs": 145665,
+   "clip": {
+    "file": "audio/Ep5/Hisyouth5.wav",
+    "startMs": 16440,
+    "endMs": 27520
+   },
+   "lines": [
+    {
+     "text": "يا سيدي أرجو أن تسمح لي بسؤال هناك بعض الأمور التي أفهمها من القرآن والسنة على وجه مختلف فكيف يمكن أن نجمع بين هذه الأقوال",
+     "startMs": 134585,
+     "endMs": 145665
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s06_l02",
+   "scene": 6,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة تزداد توترا",
+   "text": "لكن محمد لم يستطع أن يمنع نفسه من السؤال والمناقشة كان يستمع إلى بعض أجوبة الشيخ ثم يعترض عليها محاولا لاستدلال بالقرآن والسنة ضاق بعض الحاضرين بكلامه ورأوا فيه تجاوزا لآداب مجلس الشيخ أما الشيخ اسماعيل فتعامل مع الموقف بهدوء",
+   "startMs": 146265,
+   "endMs": 167815,
+   "clip": {
+    "file": "audio/Ep5/Narrator5.wav",
+    "startMs": 94450,
+    "endMs": 116000
+   },
+   "lines": [
+    {
+     "text": "لكن محمد لم يستطع أن يمنع نفسه من السؤال والمناقشة كان يستمع إلى بعض أجوبة الشيخ ثم يعترض عليها محاولا لاستدلال بالقرآن والسنة ضاق بعض الحاضرين بكلامه ورأوا فيه تجاوزا لآداب مجلس الشيخ أما الشيخ اسماعيل فتعامل مع الموقف بهدوء",
+     "startMs": 146265,
+     "endMs": 167815
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s06_l03",
+   "scene": 6,
+   "speakerId": "SHEIKH_ENVOY",
+   "speakerName": "موفد الشيخ",
+   "direction": "بصوت جاد يحمل تنبيها لطيفا",
+   "text": "يا أخي في مجلس الشيخ آداب ينبغي مراعاتها اسأل ما شئت ولكن اختر الوقت والطريقة المناسبة",
+   "startMs": 168415,
+   "endMs": 175840,
+   "clip": {
+    "file": "audio/Ep5/Sheikhassist.wav",
+    "startMs": 37260,
+    "endMs": 44685
+   },
+   "lines": [
+    {
+     "text": "يا أخي في مجلس الشيخ آداب ينبغي مراعاتها اسأل ما شئت ولكن اختر الوقت والطريقة المناسبة",
+     "startMs": 168415,
+     "endMs": 175839
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s07_l01",
+   "scene": 7,
+   "speakerId": "SUFI_FOLLOWER",
+   "speakerName": "أحد أتباع الطريقة",
+   "direction": "",
+   "text": "مرحباً بك بيننا يا أخ محمد لقد شرفنا حضورك لكن يا أخي ليس من المناسب أن تقاطع الشيخ أمام الجميع في كل مسألة",
+   "startMs": 177040,
+   "endMs": 187705,
+   "clip": {
+    "file": "audio/Ep5/Onefelow.wav",
+    "startMs": 115,
+    "endMs": 10780
+   },
+   "lines": [
+    {
+     "text": "مرحباً بك بيننا يا أخ محمد لقد شرفنا حضورك لكن يا أخي ليس من المناسب أن تقاطع الشيخ أمام الجميع في كل مسألة",
+     "startMs": 177040,
+     "endMs": 187705
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s07_l02",
+   "scene": 7,
+   "speakerId": "SUFI_FOLLOWER",
+   "speakerName": "أحد أتباع الطريقة",
+   "direction": "بصوت ناصح",
+   "text": "نحن نحب العلم والسؤال ولكننا نرى أن احترام الشيخ من آداب المجلس",
+   "startMs": 188055,
+   "endMs": 194515,
+   "clip": {
+    "file": "audio/Ep5/Onefelow.wav",
+    "startMs": 12950,
+    "endMs": 19410
+   },
+   "lines": [
+    {
+     "text": "نحن نحب العلم والسؤال ولكننا نرى أن احترام الشيخ من آداب المجلس",
+     "startMs": 188055,
+     "endMs": 194514
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s07_l03",
+   "scene": 7,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بنبرة جادة تحمل إصرارا",
+   "text": "أنا لا أريد الآتراض لمجرد الاحتراض ولكنني أبحث عن الدليل",
+   "startMs": 195115,
+   "endMs": 200395,
+   "clip": {
+    "file": "audio/Ep5/Hisyouth5.wav",
+    "startMs": 30050,
+    "endMs": 35330
+   },
+   "lines": [
+    {
+     "text": "أنا لا أريد الآتراض لمجرد الاحتراض ولكنني أبحث عن الدليل",
+     "startMs": 195115,
+     "endMs": 200394
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s08_l01",
+   "scene": 8,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت يحمل الغموض",
+   "text": "قال عبارة بقيت حاضرة في ذاكرة محمد من كانت بدايته محرقة تكون نهايته مشرقة ثم حكى قصة عالم جاء إلى شيخ عارف يطلب العلم فأمره الشيخ بالاغتسال مرارا حتى فهم العالم أخيرا أن المقصود لم يكن غسل الجسد بل التخلي عن الشعور بالتفوق والعلم قبل تلقي المعرفة الجديدة",
+   "startMs": 201595,
+   "endMs": 228415,
+   "clip": {
+    "file": "audio/Ep5/Narrator5.wav",
+    "startMs": 119050,
+    "endMs": 145870
+   },
+   "lines": [
+    {
+     "text": "قال عبارة بقيت حاضرة في ذاكرة محمد من كانت بدايته محرقة تكون نهايته مشرقة ثم حكى قصة عالم جاء إلى شيخ عارف يطلب العلم فأمره الشيخ بالاغتسال مرارا حتى فهم العالم أخيرا أن المقصود لم يكن غسل الجسد بل التخلي عن الشعور بالتفوق والعلم قبل تلقي المعرفة الجديدة",
+     "startMs": 201595,
+     "endMs": 228415
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s08_l02",
+   "scene": 8,
+   "speakerId": "SHEIKH_ISMAIL",
+   "speakerName": "الشيخ إسماعيل الهديفي",
+   "direction": "بنبرة حكيمة بعد نقاش",
+   "text": "من كانت بدايته محرقة تكون نهايته مشرقة",
+   "startMs": 229015,
+   "endMs": 233665,
+   "clip": {
+    "file": "audio/Ep5/Sheik.wav",
+    "startMs": 16140,
+    "endMs": 20790
+   },
+   "lines": [
+    {
+     "text": "من كانت بدايته محرقة تكون نهايته مشرقة",
+     "startMs": 229015,
+     "endMs": 233664
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s08_l03",
+   "scene": 8,
+   "speakerId": "SHEIKH_ISMAIL",
+   "speakerName": "الشيخ إسماعيل الهديفي",
+   "direction": "بصوت هادئ يحمل معناً عميقاً",
+   "text": "سأحكي لكم قصة جاء عالم إلى أحد العارفين بالله يطلب أن يجلس في مجلسه فقال له الشيخ قم فاغتسل",
+   "startMs": 234015,
+   "endMs": 245525,
+   "clip": {
+    "file": "audio/Ep5/Sheik.wav",
+    "startMs": 25050,
+    "endMs": 36560
+   },
+   "lines": [
+    {
+     "text": "سأحكي لكم قصة جاء عالم إلى أحد العارفين بالله يطلب أن يجلس في مجلسه فقال له الشيخ قم فاغتسل",
+     "startMs": 234015,
+     "endMs": 245525
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s08_l04",
+   "scene": 8,
+   "speakerId": "SHEIKH_ISMAIL",
+   "speakerName": "الشيخ إسماعيل الهديفي",
+   "direction": "بنبرة سردية رزينة",
+   "text": "ذهب العالم واغتسل ثم عاد فقال له الشيخ مرة أخرى قم فاغتسل وعاد الرجل إلى الغسل ثم جاء ولكن الشيخ كرر الأمر",
+   "startMs": 245875,
+   "endMs": 258815,
+   "clip": {
+    "file": "audio/Ep5/Sheik.wav",
+    "startMs": 39270,
+    "endMs": 52210
+   },
+   "lines": [
+    {
+     "text": "ذهب العالم واغتسل ثم عاد فقال له الشيخ مرة أخرى قم فاغتسل وعاد الرجل إلى الغسل ثم جاء ولكن الشيخ كرر الأمر",
+     "startMs": 245875,
+     "endMs": 258814
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s08_l05",
+   "scene": 8,
+   "speakerId": "SHEIKH_ISMAIL",
+   "speakerName": "الشيخ إسماعيل الهديفي",
+   "direction": "بنبرة تأملية",
+   "text": "حتى فهم العالم أن المقصود لم يكن الماء وحده لقد كان عليه أن يتخلى عن غروره بعلمه وعمله وأن يجلس طالباً للمعرفة",
+   "startMs": 259165,
+   "endMs": 270405,
+   "clip": {
+    "file": "audio/Ep5/Sheik.wav",
+    "startMs": 54810,
+    "endMs": 66050
+   },
+   "lines": [
+    {
+     "text": "حتى فهم العالم أن المقصود لم يكن الماء وحده لقد كان عليه أن يتخلى عن غروره بعلمه وعمله وأن يجلس طالباً للمعرفة",
+     "startMs": 259165,
+     "endMs": 270404
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s08_l06",
+   "scene": 8,
+   "speakerId": "SHEIKH_ISMAIL",
+   "speakerName": "الشيخ إسماعيل الهديفي",
+   "direction": "بصوت هادئ وحاسم",
+   "text": "عند ذلك أذن له الشيخ بالجلوس",
+   "startMs": 270755,
+   "endMs": 273735,
+   "clip": {
+    "file": "audio/Ep5/Sheik.wav",
+    "startMs": 68870,
+    "endMs": 71850
+   },
+   "lines": [
+    {
+     "text": "عند ذلك أذن له الشيخ بالجلوس",
+     "startMs": 270755,
+     "endMs": 273735
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s09_l01",
+   "scene": 9,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت هادئ ثم يتحول إلى التأمل",
+   "text": "فهمت الآن لعلكم تريدون مني أن أتعلم قبل أن أحكم",
+   "startMs": 274935,
+   "endMs": 279495,
+   "clip": {
+    "file": "audio/Ep5/Hisyouth5.wav",
+    "startMs": 38480,
+    "endMs": 43040
+   },
+   "lines": [
+    {
+     "text": "فهمت الآن لعلكم تريدون مني أن أتعلم قبل أن أحكم",
+     "startMs": 274935,
+     "endMs": 279494
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s09_l02",
+   "scene": 9,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة تأملية",
+   "text": "فهم محمد أن القصة موجهة إليه وقضى مع الشيخ ثلاثة أيام سأله خلالها أسئلة كثيرة واطلع على بعض كتبه وسلاسل شيوخه",
+   "startMs": 280095,
+   "endMs": 291935,
+   "clip": {
+    "file": "audio/Ep5/Narrator5.wav",
+    "startMs": 148870,
+    "endMs": 160710
+   },
+   "lines": [
+    {
+     "text": "فهم محمد أن القصة موجهة إليه وقضى مع الشيخ ثلاثة أيام سأله خلالها أسئلة كثيرة واطلع على بعض كتبه وسلاسل شيوخه",
+     "startMs": 280095,
+     "endMs": 291935
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s09_l03",
+   "scene": 9,
+   "speakerId": "SHEIKH_ISMAIL",
+   "speakerName": "الشيخ إسماعيل الهديفي",
+   "direction": "بنبرة أبوية",
+   "text": "يا محمد للعلم أبواب كثيرة ومن أراد أن يتعلم فعليه أن يجمع بين السؤال والتواضع",
+   "startMs": 292535,
+   "endMs": 301465,
+   "clip": {
+    "file": "audio/Ep5/Sheik.wav",
+    "startMs": 74460,
+    "endMs": 83390
+   },
+   "lines": [
+    {
+     "text": "يا محمد للعلم أبواب كثيرة ومن أراد أن يتعلم فعليه أن يجمع بين السؤال والتواضع",
+     "startMs": 292535,
+     "endMs": 301465
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s10_l01",
+   "scene": 10,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة وصفية",
+   "text": "وشارك أيضا في مجالس الذكر حيث تتعاقب تلاوة القرآن والقصائد والأذكار وتتصاعد حماسة المشاركين وحركاتهم كانت تلك الأجواء تحمل إليه شعورا روحيا عميقا لكن شيئا في داخله كان يقاومها",
+   "startMs": 302665,
+   "endMs": 320075,
+   "clip": {
+    "file": "audio/Ep5/Narrator5.wav",
+    "startMs": 162990,
+    "endMs": 180400
+   },
+   "lines": [
+    {
+     "text": "وشارك أيضا في مجالس الذكر حيث تتعاقب تلاوة القرآن والقصائد والأذكار وتتصاعد حماسة المشاركين وحركاتهم كانت تلك الأجواء تحمل إليه شعورا روحيا عميقا لكن شيئا في داخله كان يقاومها",
+     "startMs": 302665,
+     "endMs": 320074
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s10_l02",
+   "scene": 10,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بنبرة متأثرة",
+   "text": "قضيت أياما في هذا المجلس وشعرت بأثره في نفسي لكن قلبي لم يطمئن تماما",
+   "startMs": 320675,
+   "endMs": 327925,
+   "clip": {
+    "file": "audio/Ep5/Hisyouth5.wav",
+    "startMs": 45060,
+    "endMs": 52310
+   },
+   "lines": [
+    {
+     "text": "قضيت أياما في هذا المجلس وشعرت بأثره في نفسي لكن قلبي لم يطمئن تماما",
+     "startMs": 320675,
+     "endMs": 327925
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s10_l03",
+   "scene": 10,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بتوتر وحيرة واضحة",
+   "text": "كيف يمكنني أن أشارك في هذه الأذكار وأنا أحمل في داخلي أفكارا تحذرني منها",
+   "startMs": 328275,
+   "endMs": 334035,
+   "clip": {
+    "file": "audio/Ep5/Hisyouth5.wav",
+    "startMs": 54840,
+    "endMs": 60600
+   },
+   "lines": [
+    {
+     "text": "كيف يمكنني أن أشارك في هذه الأذكار وأنا أحمل في داخلي أفكارا تحذرني منها",
+     "startMs": 328275,
+     "endMs": 334034
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s11_l01",
+   "scene": 11,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت مضطرب",
+   "text": "أحب الصالحين وأحترمهم لكنني أخشى أن أقع فيما تعلمت أنه مخالف للتوحيد",
+   "startMs": 334635,
+   "endMs": 340865,
+   "clip": {
+    "file": "audio/Ep5/Hisyouth5.wav",
+    "startMs": 62280,
+    "endMs": 68510
+   },
+   "lines": [
+    {
+     "text": "أحب الصالحين وأحترمهم لكنني أخشى أن أقع فيما تعلمت أنه مخالف للتوحيد",
+     "startMs": 334635,
+     "endMs": 340865
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s11_l02",
+   "scene": 11,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت متوتر ومتأثر",
+   "text": "فقد كان يحمل أفكارا اكتسبها خلال رحلته إلى السعودية تجعله يعترض على التوسل بالأولياء وبعض ممارسات الطرق الصوفية وهكذا وجد نفسه بين اتجاهين متعارضين في نظره",
+   "startMs": 341465,
+   "endMs": 355825,
+   "clip": {
+    "file": "audio/Ep5/Narrator5.wav",
+    "startMs": 184200,
+    "endMs": 198560
+   },
+   "lines": [
+    {
+     "text": "فقد كان يحمل أفكارا اكتسبها خلال رحلته إلى السعودية تجعله يعترض على التوسل بالأولياء وبعض ممارسات الطرق الصوفية وهكذا وجد نفسه بين اتجاهين متعارضين في نظره",
+     "startMs": 341465,
+     "endMs": 355825
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s11_l03",
+   "scene": 11,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت مكسور يكاد يبكي",
+   "text": "يا رب كيف أعرف الحق؟ كيف أميز بين ما يقربني إليك وما يبعدني عنك؟",
+   "startMs": 356425,
+   "endMs": 362735,
+   "clip": {
+    "file": "audio/Ep5/Hisyouth5.wav",
+    "startMs": 70890,
+    "endMs": 77200
+   },
+   "lines": [
+    {
+     "text": "يا رب كيف أعرف الحق؟",
+     "startMs": 356425,
+     "endMs": 358575
+    },
+    {
+     "text": "كيف أميز بين ما يقربني إليك وما يبعدني عنك؟",
+     "startMs": 358575,
+     "endMs": 362735
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s12_l01",
+   "scene": 12,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "وبنبرة حزينة",
+   "text": "وبلغ به للطراب أنه سقط باكيا لم يكن يعرف أي الطريقين يتبع وعلى الرغم من أن الشيخ عينه وكينا له في قفصه لم تنتهي حيرته بل استمرت الأسئلة ترافقه حتى بعد عودته وكان بعض المريدين يجتمعون في منزله لإقامة حلقات الذكر ثم بدأت شكاوى الجيران تصل إلى زوجته بسبب ارتفاع الأصوات",
+   "startMs": 363935,
+   "endMs": 390445,
+   "clip": {
+    "file": "audio/Ep5/Narrator5.wav",
+    "startMs": 201070,
+    "endMs": 227580
+   },
+   "lines": [
+    {
+     "text": "وبلغ به للطراب أنه سقط باكيا لم يكن يعرف أي الطريقين يتبع وعلى الرغم من أن الشيخ عينه وكينا له في قفصه لم تنتهي حيرته بل استمرت الأسئلة ترافقه حتى بعد عودته وكان بعض المريدين يجتمعون في منزله لإقامة حلقات الذكر ثم بدأت شكاوى الجيران تصل إلى زوجته بسبب ارتفاع الأصوات",
+     "startMs": 363935,
+     "endMs": 390445
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s12_l02",
+   "scene": 12,
+   "speakerId": "SUFI_FOLLOWER",
+   "speakerName": "أحد أتباع الطريقة",
+   "direction": "بنبرة فرح",
+   "text": "هنيئاً لك يا محمد لقد قربك الشيخ إليه",
+   "startMs": 391045,
+   "endMs": 394355,
+   "clip": {
+    "file": "audio/Ep5/Onefelow.wav",
+    "startMs": 21110,
+    "endMs": 24420
+   },
+   "lines": [
+    {
+     "text": "هنيئاً لك يا محمد لقد قربك الشيخ إليه",
+     "startMs": 391045,
+     "endMs": 394355
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s12_l03",
+   "scene": 12,
+   "speakerId": "SUFI_FOLLOWER",
+   "speakerName": "أحد أتباع الطريقة",
+   "direction": "بإعجاب",
+   "text": "نسأل الله أن يفتح عليك ويزيدك علماً ومعرفة",
+   "startMs": 394705,
+   "endMs": 398490,
+   "clip": {
+    "file": "audio/Ep5/Onefelow.wav",
+    "startMs": 26100,
+    "endMs": 29885
+   },
+   "lines": [
+    {
+     "text": "نسأل الله أن يفتح عليك ويزيدك علماً ومعرفة",
+     "startMs": 394705,
+     "endMs": 398490
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s13_l01",
+   "scene": 13,
+   "speakerId": "WIFE",
+   "speakerName": "الزوجة",
+   "direction": "",
+   "text": "محمد، أريد أن أحدثك في أمر",
+   "startMs": 399690,
+   "endMs": 403390,
+   "clip": {
+    "file": "audio/Ep5/Wife.wav",
+    "startMs": 170,
+    "endMs": 3870
+   },
+   "lines": [
+    {
+     "text": "محمد، أريد أن أحدثك في أمر",
+     "startMs": 399690,
+     "endMs": 403390
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s13_l02",
+   "scene": 13,
+   "speakerId": "WIFE",
+   "speakerName": "الزوجة",
+   "direction": "بتردد ومراعاة لمشاعره",
+   "text": "بعض نساء الجيران جئنا يشتكين من الأصوات المرتفعة في مجالس الذكر التي تقام عندنا",
+   "startMs": 403740,
+   "endMs": 410060,
+   "clip": {
+    "file": "audio/Ep5/Wife.wav",
+    "startMs": 7680,
+    "endMs": 14000
+   },
+   "lines": [
+    {
+     "text": "بعض نساء الجيران جئنا يشتكين من الأصوات المرتفعة في مجالس الذكر التي تقام عندنا",
+     "startMs": 403740,
+     "endMs": 410060
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s13_l03",
+   "scene": 13,
+   "speakerId": "WIFE",
+   "speakerName": "الزوجة",
+   "direction": "بنبرة هادئة",
+   "text": "أنا أعرف أن هذه المجالس مهمة عندك ولكن الجيران أيضا يحتاجون إلى الراحة",
+   "startMs": 410410,
+   "endMs": 416590,
+   "clip": {
+    "file": "audio/Ep5/Wife.wav",
+    "startMs": 16470,
+    "endMs": 22650
+   },
+   "lines": [
+    {
+     "text": "أنا أعرف أن هذه المجالس مهمة عندك ولكن الجيران أيضا يحتاجون إلى الراحة",
+     "startMs": 410410,
+     "endMs": 416590
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s13_l04",
+   "scene": 13,
+   "speakerId": "WIFE",
+   "speakerName": "الزوجة",
+   "direction": "بصوت نتفهم",
+   "text": "ربما كان من الأفضل أن تجتمع في مكان آخر",
+   "startMs": 416940,
+   "endMs": 420250,
+   "clip": {
+    "file": "audio/Ep5/Wife.wav",
+    "startMs": 25530,
+    "endMs": 28840
+   },
+   "lines": [
+    {
+     "text": "ربما كان من الأفضل أن تجتمع في مكان آخر",
+     "startMs": 416940,
+     "endMs": 420250
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s13_l05",
+   "scene": 13,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة حاسمة",
+   "text": "وفي النهاية طلب محمد نقل المجالس إلى مكان آخر وكان قد عزم على السفر خارج تونس لمدة ثلاثة أشهر",
+   "startMs": 420850,
+   "endMs": 430080,
+   "clip": {
+    "file": "audio/Ep5/Narrator5.wav",
+    "startMs": 229860,
+    "endMs": 239090
+   },
+   "lines": [
+    {
+     "text": "وفي النهاية طلب محمد نقل المجالس إلى مكان آخر وكان قد عزم على السفر خارج تونس لمدة ثلاثة أشهر",
+     "startMs": 420850,
+     "endMs": 430080
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s14_l01",
+   "scene": 14,
+   "speakerId": "WIFE",
+   "speakerName": "الزوجة",
+   "direction": "بقلق وحنان",
+   "text": "وهل عزمت فعلا على السفر كل هذه المدة؟",
+   "startMs": 431280,
+   "endMs": 434570,
+   "clip": {
+    "file": "audio/Ep5/Wife.wav",
+    "startMs": 31600,
+    "endMs": 34890
+   },
+   "lines": [
+    {
+     "text": "وهل عزمت فعلا على السفر كل هذه المدة؟",
+     "startMs": 431280,
+     "endMs": 434570
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s14_l02",
+   "scene": 14,
+   "speakerId": "WIFE",
+   "speakerName": "الزوجة",
+   "direction": "بصوت دافئ",
+   "text": "أسأل الله أن يحفظك في رحلتك وأن ييسر لك ما تبحث عنه",
+   "startMs": 434920,
+   "endMs": 439240,
+   "clip": {
+    "file": "audio/Ep5/Wife.wav",
+    "startMs": 37250,
+    "endMs": 41570
+   },
+   "lines": [
+    {
+     "text": "أسأل الله أن يحفظك في رحلتك وأن ييسر لك ما تبحث عنه",
+     "startMs": 434920,
+     "endMs": 439240
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s14_l03",
+   "scene": 14,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بنبرة متعبة ومتأملة",
+   "text": "كلما ظننت أنني وجدت الجواب ظهر أمامي سؤال جديد",
+   "startMs": 439840,
+   "endMs": 444060,
+   "clip": {
+    "file": "audio/Ep5/Hisyouth5.wav",
+    "startMs": 79630,
+    "endMs": 83850
+   },
+   "lines": [
+    {
+     "text": "كلما ظننت أنني وجدت الجواب ظهر أمامي سؤال جديد",
+     "startMs": 439840,
+     "endMs": 444059
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s14_l04",
+   "scene": 14,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت هادئ يحمل عزما",
+   "text": "لن أتوقف عند هذه الحيرة سأسافر وأرى وأسمع وأبحث بنفسي",
+   "startMs": 444410,
+   "endMs": 451560,
+   "clip": {
+    "file": "audio/Ep5/Hisyouth5.wav",
+    "startMs": 86310,
+    "endMs": 93460
+   },
+   "lines": [
+    {
+     "text": "لن أتوقف عند هذه الحيرة سأسافر وأرى وأسمع وأبحث بنفسي",
+     "startMs": 444410,
+     "endMs": 451559
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s15_l01",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت ختامي عميق",
+   "text": "لم تكن تلك الرحلة مجرد انتقال من بلد إلى بلد كانت بداية مواجهة طويلة بين ما ورثه وما تعلمه وما بدأ يشك فيه ولم يكن يعلم أن الرحلة المقبلة ستقوده إلى لقاءات ستغير مجرى حياته",
+   "startMs": 452760,
+   "endMs": 470030,
+   "clip": {
+    "file": "audio/Ep5/Narrator5.wav",
+    "startMs": 242130,
+    "endMs": 259400
+   },
+   "lines": [
+    {
+     "text": "لم تكن تلك الرحلة مجرد انتقال من بلد إلى بلد كانت بداية مواجهة طويلة بين ما ورثه وما تعلمه وما بدأ يشك فيه ولم يكن يعلم أن الرحلة المقبلة ستقوده إلى لقاءات ستغير مجرى حياته",
+     "startMs": 452760,
+     "endMs": 470029
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  }
+ ],
+ "textStatus": "recovered-transcript",
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "warm",
+   "startMs": 0,
+   "endMs": 15460
+  },
+  {
+   "scene": 2,
+   "cue": "reflective",
+   "startMs": 13860,
+   "endMs": 60089
+  },
+  {
+   "scene": 3,
+   "cue": "warm",
+   "startMs": 58490,
+   "endMs": 89670
+  },
+  {
+   "scene": 4,
+   "cue": "reflective",
+   "startMs": 88070,
+   "endMs": 109800
+  },
+  {
+   "scene": 5,
+   "cue": "reflective",
+   "startMs": 108200,
+   "endMs": 134785
+  },
+  {
+   "scene": 6,
+   "cue": "suspense",
+   "startMs": 133185,
+   "endMs": 177240
+  },
+  {
+   "scene": 7,
+   "cue": "suspense",
+   "startMs": 175640,
+   "endMs": 201795
+  },
+  {
+   "scene": 8,
+   "cue": "reflective",
+   "startMs": 200195,
+   "endMs": 275135
+  },
+  {
+   "scene": 9,
+   "cue": "reflective",
+   "startMs": 273534,
+   "endMs": 302865
+  },
+  {
+   "scene": 10,
+   "cue": "reflective",
+   "startMs": 301265,
+   "endMs": 335135
+  },
+  {
+   "scene": 11,
+   "cue": "reflective",
+   "startMs": 333534,
+   "endMs": 364135
+  },
+  {
+   "scene": 12,
+   "cue": "suspense",
+   "startMs": 362534,
+   "endMs": 399890
+  },
+  {
+   "scene": 13,
+   "cue": "suspense",
+   "startMs": 398289,
+   "endMs": 431480
+  },
+  {
+   "scene": 14,
+   "cue": "warm",
+   "startMs": 429880,
+   "endMs": 452960
+  },
+  {
+   "scene": 15,
+   "cue": "ending",
+   "startMs": 451360,
+   "endMs": 472330
+  }
+ ]
+}

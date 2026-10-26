@@ -1,0 +1,18 @@
+{"episode": 15, "status": "proposed", "note": "Play order proposed from the per-character script and the order of the 15 illustrations; to be confirmed by the producer.",
+ "scenes": [
+  {"image": 1,  "title": "صور متعارضة", "lines": ["N1.1-2"]},
+  {"image": 2,  "title": "وداع الأصدقاء", "lines": ["N1.3", "N2.1"]},
+  {"image": 3,  "title": "كيف أجمع بينهما؟", "lines": ["T1"]},
+  {"image": 4,  "title": "أحببت هؤلاء الناس", "lines": ["T2"]},
+  {"image": 5,  "title": "سنشتاق إليك", "lines": ["M1"]},
+  {"image": 6,  "title": "شكرا يا منعم", "lines": ["T3"]},
+  {"image": 7,  "title": "المحبة تبقى", "lines": ["M2"]},
+  {"image": 8,  "title": "إلى الحجاز", "lines": ["N2.2"]},
+  {"image": 9,  "title": "البشير في جدة", "lines": ["N3.1", "B1"]},
+  {"image": 10, "title": "قصص الرحلة", "lines": ["T4", "B2"]},
+  {"image": 11, "title": "إلى العمرة", "lines": ["B3"]},
+  {"image": 12, "title": "العمرة", "lines": ["N3.2"]},
+  {"image": 13, "title": "حديث وتحفظات", "lines": ["N3.3"]},
+  {"image": 14, "title": "العودة إلى تونس", "lines": ["N4"]},
+  {"image": 15, "title": "كتب من العراق", "lines": ["N5.1", "T5", "T6", "N5.2"]}
+ ]}

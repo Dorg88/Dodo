@@ -1,0 +1,1764 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep06",
+ "number": 6,
+ "title": "رحلة إلى أرض الكنانة",
+ "durationMs": 574980,
+ "audio": {
+  "mode": "clips",
+  "music": "ep06/audio/score_music.m4a",
+  "sfx": "ep06/audio/score_sfx.m4a",
+  "musicLoop": false
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AL_TIJANI": {
+   "name": "التيجاني"
+  },
+  "PROFESSOR_MUNIM": {
+   "name": "الأستاذ منعم"
+  },
+  "AL_TIJANI_ADULT": {
+   "name": "التيجاني الكبير"
+  },
+  "MUNIM_FATHER": {
+   "name": "والد منعم"
+  },
+  "MUNIM_MOTHER": {
+   "name": "والدة منعم"
+  },
+  "SHRINE_RESEARCHER": {
+   "name": "باحث عراقي في المقام"
+  },
+  "HAWZA_STUDENT": {
+   "name": "طالب حوزة"
+  },
+  "NAJAF_VISITOR": {
+   "name": "زائر في النجف"
+  },
+  "ABU_SHUBAR": {
+   "name": "السيد أبو شبر"
+  },
+  "BAQIR_AL_SADR": {
+   "name": "السيد محمد باقر الصدر"
+  },
+  "AL_BASHIR": {
+   "name": "البشير"
+  },
+  "DOCUMENT_READER": {
+   "name": "قارئ الوثائق"
+  },
+  "TEXT_READER": {
+   "name": "قارئ النصوص"
+  },
+  "TUNISIAN_INTERLOCUTOR": {
+   "name": "محاور تونسي"
+  },
+  "TUNISIAN_FRIEND": {
+   "name": "صديق تونسي"
+  },
+  "TUNISIAN_ELDER": {
+   "name": "أحد أهل تونس"
+  },
+  "AL_TIJANI_CHILD": {
+   "name": "التيجاني الصغير"
+  },
+  "FATHER": {
+   "name": "الأب"
+  },
+  "TEACHER": {
+   "name": "المعلم"
+  },
+  "WORSHIPPER_1": {
+   "name": "المصلي الأول"
+  },
+  "WORSHIPPER_2": {
+   "name": "المصلي الثاني"
+  },
+  "MOTHER": {
+   "name": "الأم"
+  },
+  "TRAVEL_COMPANION": {
+   "name": "رفيق الرحلة"
+  },
+  "TOWNSMAN": {
+   "name": "أحد أهل المدينة"
+  },
+  "STUDENT": {
+   "name": "أحد الطلاب"
+  },
+  "SHEIKH_ENVOY": {
+   "name": "موفد الشيخ"
+  },
+  "SHEIKH_ISMAIL": {
+   "name": "الشيخ إسماعيل الهديفي"
+  },
+  "SUFI_FOLLOWER": {
+   "name": "أحد أتباع الطريقة"
+  },
+  "WIFE": {
+   "name": "الزوجة"
+  },
+  "AHMAD_EGYPTIAN": {
+   "name": "أحمد المصري"
+  },
+  "SHEIKH_ABDULBASIT": {
+   "name": "الشيخ عبد الباسط"
+  },
+  "AZHAR_SCHOLAR": {
+   "name": "عالم أزهري"
+  },
+  "HUSAYN_SHRINE_KEEPER": {
+   "name": "مسؤول مقام الإمام الحسين"
+  },
+  "RELATIVE": {
+   "name": "أحد الأقارب"
+  },
+  "TUNISIAN_STUDENT": {
+   "name": "طالب"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "إلى مصر",
+   "image": "ep06/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 21595
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "طريق طويل",
+   "image": "ep06/images/scene_02.jpg",
+   "startMs": 21595,
+   "endMs": 40175
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "رفاق الطريق",
+   "image": "ep06/images/scene_03.jpg",
+   "startMs": 40175,
+   "endMs": 81865
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "دعوة أحمد",
+   "image": "ep06/images/scene_04.jpg",
+   "startMs": 81865,
+   "endMs": 101075
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "القاهرة",
+   "image": "ep06/images/scene_05.jpg",
+   "startMs": 101075,
+   "endMs": 118165
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "في بيت أحمد",
+   "image": "ep06/images/scene_06.jpg",
+   "startMs": 118165,
+   "endMs": 138805
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "عالم واسع",
+   "image": "ep06/images/scene_07.jpg",
+   "startMs": 138805,
+   "endMs": 188685
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "في مجلس الشيخ عبد الباسط",
+   "image": "ep06/images/scene_08.jpg",
+   "startMs": 188685,
+   "endMs": 270085
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "علماء الأزهر",
+   "image": "ep06/images/scene_09.jpg",
+   "startMs": 270085,
+   "endMs": 317320
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "لقاء عام",
+   "image": "ep06/images/scene_10.jpg",
+   "startMs": 317320,
+   "endMs": 363640
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "هل كنت أعرف حقا؟",
+   "image": "ep06/images/scene_11.jpg",
+   "startMs": 363640,
+   "endMs": 406190
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "مسجد الإمام الحسين",
+   "image": "ep06/images/scene_12.jpg",
+   "startMs": 406190,
+   "endMs": 426300
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "حجرة الآثار",
+   "image": "ep06/images/scene_13.jpg",
+   "startMs": 426300,
+   "endMs": 479180
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "اتجاهان مختلفان",
+   "image": "ep06/images/scene_14.jpg",
+   "startMs": 479180,
+   "endMs": 526960
+  },
+  {
+   "number": 15,
+   "id": "s15",
+   "title": "إلى الإسكندرية",
+   "image": "ep06/images/scene_15.jpg",
+   "startMs": 526960,
+   "endMs": 574980
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep06_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "غادر محمد التيجاني السماوي وطنه وقد امتلأ قلبه بالأمل والرغبة في اكتشاف العالم كانت وجهته هذه المرة مصر",
+   "startMs": 500,
+   "endMs": 12280,
+   "clip": {
+    "file": "audio/Ep6/Narration.wav",
+    "startMs": 190,
+    "endMs": 11970
+   },
+   "lines": [
+    {
+     "text": "غادر محمد التيجاني السماوي وطنه وقد امتلأ قلبه بالأمل والرغبة في اكتشاف العالم كانت وجهته هذه المرة مصر",
+     "startMs": 500,
+     "endMs": 12280
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s01_l02",
+   "scene": 1,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "",
+   "text": "مصر كم تمنيت أن أزورها بلد الأزهر والعلماء والتاريخ العريق",
+   "startMs": 12880,
+   "endMs": 20995,
+   "clip": {
+    "file": "audio/Ep6/Youth.wav",
+    "startMs": 65,
+    "endMs": 8180
+   },
+   "lines": [
+    {
+     "text": "مصر كم تمنيت أن أزورها بلد الأزهر والعلماء والتاريخ العريق",
+     "startMs": 12880,
+     "endMs": 20995
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s02_l01",
+   "scene": 2,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة وصفية هادئة",
+   "text": "توقف أولا في طرابلس عاصمة ليبيا ولم تطل إقامته هناك وبعد حصوله على تأشيرة الدخول إلى مصر استقل سيارة أجرة متجها إلى القاهرة كانت رحلة طويلة استمرت ثلاثة أيام بلياليها",
+   "startMs": 22195,
+   "endMs": 39875,
+   "clip": {
+    "file": "audio/Ep6/Narration.wav",
+    "startMs": 15130,
+    "endMs": 32810
+   },
+   "lines": [
+    {
+     "text": "توقف أولا في طرابلس عاصمة ليبيا ولم تطل إقامته هناك وبعد حصوله على تأشيرة الدخول إلى مصر استقل سيارة أجرة متجها إلى القاهرة كانت رحلة طويلة استمرت ثلاثة أيام بلياليها",
+     "startMs": 22195,
+     "endMs": 39875
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s03_l01",
+   "scene": 3,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة دافئة",
+   "text": "وفي السيارة التقى أربعة رجال مصريين كانوا يعملون في ليبيا ويعودون إلى وطنهم وخلال الطريق أخذ يحدثهم ويتبادل معهم الأحاديث ويقرأ لهم شيئا مما يحفظه من القرآن الكريم أعجب الرجال بأخلاقه ومعرفته حتى إن كل واحد منهم دعاه إلى الإقامة عنده لكنه اختار رجلا شعر بالارتياح إليه اسمه أحمد",
+   "startMs": 40475,
+   "endMs": 68775,
+   "clip": {
+    "file": "audio/Ep6/Narration.wav",
+    "startMs": 35150,
+    "endMs": 63450
+   },
+   "lines": [
+    {
+     "text": "وفي السيارة التقى أربعة رجال مصريين كانوا يعملون في ليبيا ويعودون إلى وطنهم وخلال الطريق أخذ يحدثهم ويتبادل معهم الأحاديث ويقرأ لهم شيئا مما يحفظه من القرآن الكريم أعجب الرجال بأخلاقه ومعرفته حتى إن كل واحد منهم دعاه إلى الإقامة عنده لكنه اختار رجلا شعر بالارتياح إليه اسمه أحمد",
+     "startMs": 40475,
+     "endMs": 68774
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s03_l02",
+   "scene": 3,
+   "speakerId": "AHMAD_EGYPTIAN",
+   "speakerName": "أحمد المصري",
+   "direction": "",
+   "text": "أنت من تونس يا أستاذ محمد؟ أهلاً وسهلاً بيك في مصر من قبل ما توصلها",
+   "startMs": 69375,
+   "endMs": 75345,
+   "clip": {
+    "file": "audio/Ep6/Ahmedegy.wav",
+    "startMs": 120,
+    "endMs": 6090
+   },
+   "lines": [
+    {
+     "text": "أنت من تونس يا أستاذ محمد؟",
+     "startMs": 69375,
+     "endMs": 71134
+    },
+    {
+     "text": "أهلاً وسهلاً بيك في مصر من قبل ما توصلها",
+     "startMs": 71134,
+     "endMs": 75345
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s03_l03",
+   "scene": 3,
+   "speakerId": "AHMAD_EGYPTIAN",
+   "speakerName": "أحمد المصري",
+   "direction": "بابتسامة مسموعة",
+   "text": "ما شاء الله عليك واضح أنك بتحب العلم والدين وعندك معلومات كتير",
+   "startMs": 75695,
+   "endMs": 81565,
+   "clip": {
+    "file": "audio/Ep6/Ahmedegy.wav",
+    "startMs": 9060,
+    "endMs": 14930
+   },
+   "lines": [
+    {
+     "text": "ما شاء الله عليك واضح أنك بتحب العلم والدين وعندك معلومات كتير",
+     "startMs": 75695,
+     "endMs": 81564
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s04_l01",
+   "scene": 4,
+   "speakerId": "AHMAD_EGYPTIAN",
+   "speakerName": "أحمد المصري",
+   "direction": "بصوت كريم ومطمئن",
+   "text": "يا أخي أنت ضفنا ولما نوصل لقاهرة تشرفني وتنزل عندي في البيت",
+   "startMs": 82165,
+   "endMs": 87245,
+   "clip": {
+    "file": "audio/Ep6/Ahmedegy.wav",
+    "startMs": 17890,
+    "endMs": 22970
+   },
+   "lines": [
+    {
+     "text": "يا أخي أنت ضفنا ولما نوصل لقاهرة تشرفني وتنزل عندي في البيت",
+     "startMs": 82165,
+     "endMs": 87244
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s04_l02",
+   "scene": 4,
+   "speakerId": "AHMAD_EGYPTIAN",
+   "speakerName": "أحمد المصري",
+   "direction": "بنبرح أنونا",
+   "text": "ما تشيلش هم أي حاجة اعتبر نفسك وسط أهلك وخواتك",
+   "startMs": 87595,
+   "endMs": 92175,
+   "clip": {
+    "file": "audio/Ep6/Ahmedegy.wav",
+    "startMs": 24920,
+    "endMs": 29500
+   },
+   "lines": [
+    {
+     "text": "ما تشيلش هم أي حاجة اعتبر نفسك وسط أهلك وخواتك",
+     "startMs": 87595,
+     "endMs": 92175
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s04_l03",
+   "scene": 4,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بأعجاب وامتنان",
+   "text": "يا له من كرم لم أتوقع أن أجد في طريقي كل هذه المحبة من أناس لم أعرفهم من قبل",
+   "startMs": 92775,
+   "endMs": 100475,
+   "clip": {
+    "file": "audio/Ep6/Youth.wav",
+    "startMs": 11640,
+    "endMs": 19340
+   },
+   "lines": [
+    {
+     "text": "يا له من كرم لم أتوقع أن أجد في طريقي كل هذه المحبة من أناس لم أعرفهم من قبل",
+     "startMs": 92775,
+     "endMs": 100474
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s05_l01",
+   "scene": 5,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت ممتن وحنون",
+   "text": "استقبله أحمد بكرم كبير وفتح له باب بيته وقلبه وهكذا بدأت إقامة محمد التيجاني في القاهرة التي استمرت عشرين يوما",
+   "startMs": 101675,
+   "endMs": 113575,
+   "clip": {
+    "file": "audio/Ep6/Narration.wav",
+    "startMs": 66880,
+    "endMs": 78780
+   },
+   "lines": [
+    {
+     "text": "استقبله أحمد بكرم كبير وفتح له باب بيته وقلبه وهكذا بدأت إقامة محمد التيجاني في القاهرة التي استمرت عشرين يوما",
+     "startMs": 101675,
+     "endMs": 113575
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s05_l02",
+   "scene": 5,
+   "speakerId": "AHMAD_EGYPTIAN",
+   "speakerName": "أحمد المصري",
+   "direction": "بفرح",
+   "text": "حمد الله على سلامتك يا محمد نورت قاهرة",
+   "startMs": 114175,
+   "endMs": 117565,
+   "clip": {
+    "file": "audio/Ep6/Ahmedegy.wav",
+    "startMs": 31360,
+    "endMs": 34750
+   },
+   "lines": [
+    {
+     "text": "حمد الله على سلامتك يا محمد نورت قاهرة",
+     "startMs": 114175,
+     "endMs": 117565
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s06_l01",
+   "scene": 6,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بنبرة ودودة",
+   "text": "أخي أحمد أشكرك من أعماق قلبي لقد جعلتني أشعر أنني بين أهلي",
+   "startMs": 118765,
+   "endMs": 125505,
+   "clip": {
+    "file": "audio/Ep6/Youth.wav",
+    "startMs": 22760,
+    "endMs": 29500
+   },
+   "lines": [
+    {
+     "text": "أخي أحمد أشكرك من أعماق قلبي لقد جعلتني أشعر أنني بين أهلي",
+     "startMs": 118765,
+     "endMs": 125505
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s06_l02",
+   "scene": 6,
+   "speakerId": "AHMAD_EGYPTIAN",
+   "speakerName": "أحمد المصري",
+   "direction": "بصوت مهتم",
+   "text": "تحب نزور أنهي مكان الأول الأزهر ولا المساجد الأديمة ولا تحب يشوف النيل",
+   "startMs": 126105,
+   "endMs": 133025,
+   "clip": {
+    "file": "audio/Ep6/Ahmedegy.wav",
+    "startMs": 36840,
+    "endMs": 43760
+   },
+   "lines": [
+    {
+     "text": "تحب نزور أنهي مكان الأول الأزهر ولا المساجد الأديمة ولا تحب يشوف النيل",
+     "startMs": 126105,
+     "endMs": 133024
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s06_l03",
+   "scene": 6,
+   "speakerId": "AHMAD_EGYPTIAN",
+   "speakerName": "أحمد المصري",
+   "direction": "بإعجاب صادق",
+   "text": "ربنا يكرمك يا أستاذ محمد وإن شاء الله تكون زيارتك لمصر مليانة خير وعلم",
+   "startMs": 133375,
+   "endMs": 138205,
+   "clip": {
+    "file": "audio/Ep6/Ahmedegy.wav",
+    "startMs": 45900,
+    "endMs": 50730
+   },
+   "lines": [
+    {
+     "text": "ربنا يكرمك يا أستاذ محمد وإن شاء الله تكون زيارتك لمصر مليانة خير وعلم",
+     "startMs": 133375,
+     "endMs": 138204
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s07_l01",
+   "scene": 7,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة مشوقة",
+   "text": "لم تكن القاهرة بالنسبة إليه مجرد مدينة جديدة كانت عالماً واسعاً من المساجد والعلماء والفنانين والأفكار زار الموسيقار فريد الأطرش في عمارته المطلة على نهر النيل لكنه لم يمكث معه سوى عشرين دقيقة لأن الفنان كان يستعد للسفر إلى لبنان ثم جاءت زيارة أخرى تركت في نفسه أثراً مميزاً لقد التقى القارئ الشهير الشيخ عبد الباصط محمد عبد الصمد وقضى معه ثلاثة أيام دارت خلالها أحاديث واسعة مع أقاربه وأصدقائه كان المجلس ينتقل من الفن إلى الدين ومن التصوف إلى السياسة ومن التاريخ إلى العلوم وكان محمد يشارك بحماس في كل موضوع",
+   "startMs": 139405,
+   "endMs": 188085,
+   "clip": {
+    "file": "audio/Ep6/Narration.wav",
+    "startMs": 81130,
+    "endMs": 129810
+   },
+   "lines": [
+    {
+     "text": "لم تكن القاهرة بالنسبة إليه مجرد مدينة جديدة كانت عالماً واسعاً من المساجد والعلماء والفنانين والأفكار زار الموسيقار فريد الأطرش في عمارته المطلة على نهر النيل لكنه لم يمكث معه سوى عشرين دقيقة لأن الفنان كان يستعد للسفر إلى لبنان ثم جاءت زيارة أخرى تركت في نفسه أثراً مميزاً لقد التقى القارئ الشهير الشيخ عبد الباصط محمد عبد الصمد وقضى معه ثلاثة أيام دارت خلالها أحاديث واسعة مع أقاربه وأصدقائه كان المجلس ينتقل من الفن إلى الدين ومن التصوف إلى السياسة ومن التاريخ إلى العلوم وكان محمد يشارك بحماس في كل موضوع",
+     "startMs": 139405,
+     "endMs": 188085
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s08_l01",
+   "scene": 8,
+   "speakerId": "SHEIKH_ABDULBASIT",
+   "speakerName": "الشيخ عبد الباسط",
+   "direction": "",
+   "text": "أهلاً بيك يا أستاذ محمد نورتنا وأهلاً بأهل تونس الكرام",
+   "startMs": 189285,
+   "endMs": 195465,
+   "clip": {
+    "file": "audio/Ep6/Atrash.wav",
+    "startMs": 110,
+    "endMs": 6290
+   },
+   "lines": [
+    {
+     "text": "أهلاً بيك يا أستاذ محمد نورتنا وأهلاً بأهل تونس الكرام",
+     "startMs": 189285,
+     "endMs": 195465
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s08_l02",
+   "scene": 8,
+   "speakerId": "SHEIKH_ABDULBASIT",
+   "speakerName": "الشيخ عبد الباسط",
+   "direction": "بنبرة ودودة",
+   "text": "بلغني إنك مهتم بالقرآن والعلم وإنك سافرت بلاداً كثيرة",
+   "startMs": 195815,
+   "endMs": 202145,
+   "clip": {
+    "file": "audio/Ep6/Atrash.wav",
+    "startMs": 8910,
+    "endMs": 15240
+   },
+   "lines": [
+    {
+     "text": "بلغني إنك مهتم بالقرآن والعلم وإنك سافرت بلاداً كثيرة",
+     "startMs": 195815,
+     "endMs": 202145
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s08_l03",
+   "scene": 8,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت مفعم بالحماس",
+   "text": "لقد زرت بلادا كثيرا خلال العطل الصيفية باريس ولندن وبلجكا وهولندا وإيطاليا وإسبانيا لكن لكل بلد تجربته ولكل رحلة ذكرياتها أما الحج فله في نفسي مكانة لا تشبه أي رحلة أخرى رأيت الكعبة بعيني وزرت الأماكن المقدسة وصعدت إلى غار حراء",
+   "startMs": 202745,
+   "endMs": 233335,
+   "clip": {
+    "file": "audio/Ep6/Youth.wav",
+    "startMs": 33080,
+    "endMs": 63670
+   },
+   "lines": [
+    {
+     "text": "لقد زرت بلادا كثيرا خلال العطل الصيفية باريس ولندن وبلجكا وهولندا وإيطاليا وإسبانيا لكن لكل بلد تجربته ولكل رحلة ذكرياتها أما الحج فله في نفسي مكانة لا تشبه أي رحلة أخرى رأيت الكعبة بعيني وزرت الأماكن المقدسة وصعدت إلى غار حراء",
+     "startMs": 202745,
+     "endMs": 233334
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s08_l04",
+   "scene": 8,
+   "speakerId": "SHEIKH_ABDULBASIT",
+   "speakerName": "الشيخ عبد الباسط",
+   "direction": "بفضول لطيف",
+   "text": "احكي لنا عن رحلتك إلى مكة كيف كان شعورك وأنت طرى بيت الله الحرام لأول مرة",
+   "startMs": 233935,
+   "endMs": 240915,
+   "clip": {
+    "file": "audio/Ep6/Atrash.wav",
+    "startMs": 17620,
+    "endMs": 24600
+   },
+   "lines": [
+    {
+     "text": "احكي لنا عن رحلتك إلى مكة كيف كان شعورك وأنت طرى بيت الله الحرام لأول مرة",
+     "startMs": 233935,
+     "endMs": 240915
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s08_l05",
+   "scene": 8,
+   "speakerId": "SHEIKH_ABDULBASIT",
+   "speakerName": "الشيخ عبد الباسط",
+   "direction": "بإعجاب وابتسامة خفيفة",
+   "text": "ما شاء الله واضح إن الرحلة تركت في نفسك أثرا كبيرا",
+   "startMs": 241265,
+   "endMs": 246915,
+   "clip": {
+    "file": "audio/Ep6/Atrash.wav",
+    "startMs": 28330,
+    "endMs": 33980
+   },
+   "lines": [
+    {
+     "text": "ما شاء الله واضح إن الرحلة تركت في نفسك أثرا كبيرا",
+     "startMs": 241265,
+     "endMs": 246914
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s08_l06",
+   "scene": 8,
+   "speakerId": "SHEIKH_ABDULBASIT",
+   "speakerName": "الشيخ عبد الباسط",
+   "direction": "بنبرة هادئة ومشجعة",
+   "text": "العلم يا بني بحر واسع وكلما تعلم الإنسان أكثر عرف أن أمامه أشياء كثيرة لم يتعلمها بعد",
+   "startMs": 247265,
+   "endMs": 256965,
+   "clip": {
+    "file": "audio/Ep6/Atrash.wav",
+    "startMs": 37470,
+    "endMs": 47170
+   },
+   "lines": [
+    {
+     "text": "العلم يا بني بحر واسع وكلما تعلم الإنسان أكثر عرف أن أمامه أشياء كثيرة لم يتعلمها بعد",
+     "startMs": 247265,
+     "endMs": 256964
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s08_l07",
+   "scene": 8,
+   "speakerId": "SHEIKH_ABDULBASIT",
+   "speakerName": "الشيخ عبد الباسط",
+   "direction": "بصوت حنون",
+   "text": "ربنا يوفأك ويفتح عليك ويجعل علمك نافعا لك وللناس",
+   "startMs": 257315,
+   "endMs": 263335,
+   "clip": {
+    "file": "audio/Ep6/Atrash.wav",
+    "startMs": 49450,
+    "endMs": 55470
+   },
+   "lines": [
+    {
+     "text": "ربنا يوفأك ويفتح عليك ويجعل علمك نافعا لك وللناس",
+     "startMs": 257315,
+     "endMs": 263334
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s08_l08",
+   "scene": 8,
+   "speakerId": "SHEIKH_ABDULBASIT",
+   "speakerName": "الشيخ عبد الباسط",
+   "direction": "بفرح صادق",
+   "text": "أسعدتنا زيارتك يا محمد وإن شاء الله تجمعنا أيام طيبة أخرى",
+   "startMs": 263685,
+   "endMs": 269485,
+   "clip": {
+    "file": "audio/Ep6/Atrash.wav",
+    "startMs": 57850,
+    "endMs": 63650
+   },
+   "lines": [
+    {
+     "text": "أسعدتنا زيارتك يا محمد وإن شاء الله تجمعنا أيام طيبة أخرى",
+     "startMs": 263685,
+     "endMs": 269484
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s09_l01",
+   "scene": 9,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة اعتزاز ممزوجة بالتأمل",
+   "text": "وعندما حضر بعض علماء الأزهر تلك المجالس أعجبوا بمعرفته وقدرته على الحديث والاستدلال وسألوه عن الجامعة التي تخرج فيها وكان يجيب بفخر أنه درس في جامعة الزيتونة بتونس",
+   "startMs": 270685,
+   "endMs": 285765,
+   "clip": {
+    "file": "audio/Ep6/Narration.wav",
+    "startMs": 132920,
+    "endMs": 148000
+   },
+   "lines": [
+    {
+     "text": "وعندما حضر بعض علماء الأزهر تلك المجالس أعجبوا بمعرفته وقدرته على الحديث والاستدلال وسألوه عن الجامعة التي تخرج فيها وكان يجيب بفخر أنه درس في جامعة الزيتونة بتونس",
+     "startMs": 270685,
+     "endMs": 285765
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s09_l02",
+   "scene": 9,
+   "speakerId": "AZHAR_SCHOLAR",
+   "speakerName": "عالم أزهري",
+   "direction": "",
+   "text": "أخبرني يا أستاذ محمد في أي جامعة درست؟ جامعة الزيتونة ما شاء الله إنها من المؤسسات العلمية العريقة",
+   "startMs": 286365,
+   "endMs": 296655,
+   "clip": {
+    "file": "audio/Ep6/Azhar.wav",
+    "startMs": 110,
+    "endMs": 10400
+   },
+   "lines": [
+    {
+     "text": "أخبرني يا أستاذ محمد في أي جامعة درست؟",
+     "startMs": 286365,
+     "endMs": 289755
+    },
+    {
+     "text": "جامعة الزيتونة ما شاء الله إنها من المؤسسات العلمية العريقة",
+     "startMs": 289755,
+     "endMs": 296655
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s09_l03",
+   "scene": 9,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت واثق",
+   "text": "نعم أنا من خريجي جامعة الزيتونة بتونس إنها جامعة عريقة ولها مكانة عظيمة في تاريخ العلم الإسلامي",
+   "startMs": 297255,
+   "endMs": 306525,
+   "clip": {
+    "file": "audio/Ep6/Youth.wav",
+    "startMs": 66860,
+    "endMs": 76130
+   },
+   "lines": [
+    {
+     "text": "نعم أنا من خريجي جامعة الزيتونة بتونس إنها جامعة عريقة ولها مكانة عظيمة في تاريخ العلم الإسلامي",
+     "startMs": 297255,
+     "endMs": 306524
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s09_l04",
+   "scene": 9,
+   "speakerId": "AZHAR_SCHOLAR",
+   "speakerName": "عالم أزهري",
+   "direction": "بصوت متأمل",
+   "text": "وأنت تتحدث بثقة وتستحضر من التاريخ والفقه والحديث الشيء الكثير",
+   "startMs": 307125,
+   "endMs": 313570,
+   "clip": {
+    "file": "audio/Ep6/Azhar.wav",
+    "startMs": 13135,
+    "endMs": 19580
+   },
+   "lines": [
+    {
+     "text": "وأنت تتحدث بثقة وتستحضر من التاريخ والفقه والحديث الشيء الكثير",
+     "startMs": 307125,
+     "endMs": 313569
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s09_l05",
+   "scene": 9,
+   "speakerId": "AZHAR_SCHOLAR",
+   "speakerName": "عالم أزهري",
+   "direction": "بنبرة تقدير صادقة",
+   "text": "يجب أن يكون مكانك هنا في الأزهر",
+   "startMs": 313920,
+   "endMs": 316720,
+   "clip": {
+    "file": "audio/Ep6/Azhar.wav",
+    "startMs": 22090,
+    "endMs": 24890
+   },
+   "lines": [
+    {
+     "text": "يجب أن يكون مكانك هنا في الأزهر",
+     "startMs": 313920,
+     "endMs": 316720
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s10_l01",
+   "scene": 10,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت مشوق",
+   "text": "ثم تعرف إلى عدد من علماء الأزهر الشريف الذين أهدوه كتباً وفتحوا له أبواب مجالسهم وفي إحدى المناسبات دعي للمشاركة في لقاء عام جمع مسلمين ومسيحيين في القاهرة بعد التوترات التي أعقبت حرب حزيران وجلس على منصة الشرف إلى جانب عالم أزهري والأب شنودة وألقى كلمة أمام الحاضرين",
+   "startMs": 317920,
+   "endMs": 342810,
+   "clip": {
+    "file": "audio/Ep6/Narration.wav",
+    "startMs": 149730,
+    "endMs": 174620
+   },
+   "lines": [
+    {
+     "text": "ثم تعرف إلى عدد من علماء الأزهر الشريف الذين أهدوه كتباً وفتحوا له أبواب مجالسهم وفي إحدى المناسبات دعي للمشاركة في لقاء عام جمع مسلمين ومسيحيين في القاهرة بعد التوترات التي أعقبت حرب حزيران وجلس على منصة الشرف إلى جانب عالم أزهري والأب شنودة وألقى كلمة أمام الحاضرين",
+     "startMs": 317920,
+     "endMs": 342810
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s10_l02",
+   "scene": 10,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بنبرة حماسية",
+   "text": "وما أجمل أن يجتمع المسلمون على العلم والمعرفة بدلا من التفرق والاختلاف",
+   "startMs": 343410,
+   "endMs": 348950,
+   "clip": {
+    "file": "audio/Ep6/Youth.wav",
+    "startMs": 79630,
+    "endMs": 85170
+   },
+   "lines": [
+    {
+     "text": "وما أجمل أن يجتمع المسلمون على العلم والمعرفة بدلا من التفرق والاختلاف",
+     "startMs": 343410,
+     "endMs": 348950
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s10_l03",
+   "scene": 10,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة تأملية عميقة",
+   "text": "ومع كثرة المجالس واللقاءات بدأ شعور جديد يتسلل إلى نفسه شعور بالاعتزاز الشديد بما يعرفه حتى أنه اعترف لاحقا بأنه بدأ يظن نفسه عالما كبيرا",
+   "startMs": 349550,
+   "endMs": 363040,
+   "clip": {
+    "file": "audio/Ep6/Narration.wav",
+    "startMs": 177440,
+    "endMs": 190930
+   },
+   "lines": [
+    {
+     "text": "ومع كثرة المجالس واللقاءات بدأ شعور جديد يتسلل إلى نفسه شعور بالاعتزاز الشديد بما يعرفه حتى أنه اعترف لاحقا بأنه بدأ يظن نفسه عالما كبيرا",
+     "startMs": 349550,
+     "endMs": 363040
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s11_l01",
+   "scene": 11,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت فخور مع ابتسامة خفيفة",
+   "text": "ما كنت أتوقع أن ألقى هذا التقدير من علماء الأزهر لقد شعرت أن كل ما تعلمته في حياتي بدأ يؤتي ثمارة",
+   "startMs": 364240,
+   "endMs": 373680,
+   "clip": {
+    "file": "audio/Ep6/Youth.wav",
+    "startMs": 91130,
+    "endMs": 100570
+   },
+   "lines": [
+    {
+     "text": "ما كنت أتوقع أن ألقى هذا التقدير من علماء الأزهر لقد شعرت أن كل ما تعلمته في حياتي بدأ يؤتي ثمارة",
+     "startMs": 364240,
+     "endMs": 373679
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s11_l02",
+   "scene": 11,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "من نبرة تتباطأ تدريجيا وتصبح أكثر تأملا",
+   "text": "ولكن هل كنت أعرف حقا كل ما ينبغي أن أعرفه؟ أم أن إعجاب الناس به جعلني أرى نفسي أكبر مما أنا عليه",
+   "startMs": 374030,
+   "endMs": 386860,
+   "clip": {
+    "file": "audio/Ep6/Youth.wav",
+    "startMs": 107110,
+    "endMs": 119940
+   },
+   "lines": [
+    {
+     "text": "ولكن هل كنت أعرف حقا كل ما ينبغي أن أعرفه؟",
+     "startMs": 374030,
+     "endMs": 380040
+    },
+    {
+     "text": "أم أن إعجاب الناس به جعلني أرى نفسي أكبر مما أنا عليه",
+     "startMs": 380040,
+     "endMs": 386859
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s11_l03",
+   "scene": 11,
+   "speakerId": "AZHAR_SCHOLAR",
+   "speakerName": "عالم أزهري",
+   "direction": "بصوت حكيم وهادئ",
+   "text": "لكن يا بني كلما ازداد الإنسان علما ازدادت حاجته إلى التواضع فالعالم الحقيقي لا يخجل من أن يقول لا أعلم",
+   "startMs": 387460,
+   "endMs": 397480,
+   "clip": {
+    "file": "audio/Ep6/Azhar.wav",
+    "startMs": 27840,
+    "endMs": 37860
+   },
+   "lines": [
+    {
+     "text": "لكن يا بني كلما ازداد الإنسان علما ازدادت حاجته إلى التواضع فالعالم الحقيقي لا يخجل من أن يقول لا أعلم",
+     "startMs": 387460,
+     "endMs": 397480
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s11_l04",
+   "scene": 11,
+   "speakerId": "AZHAR_SCHOLAR",
+   "speakerName": "عالم أزهري",
+   "direction": "بنبرة ودودة",
+   "text": "نتمنى أن تبقى على صلة بأهل العلم وأن تواصل القراءة والبحث فطلب العلم رحلة لا تنتهي",
+   "startMs": 397830,
+   "endMs": 405590,
+   "clip": {
+    "file": "audio/Ep6/Azhar.wav",
+    "startMs": 39995,
+    "endMs": 47755
+   },
+   "lines": [
+    {
+     "text": "نتمنى أن تبقى على صلة بأهل العلم وأن تواصل القراءة والبحث فطلب العلم رحلة لا تنتهي",
+     "startMs": 397830,
+     "endMs": 405590
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s12_l01",
+   "scene": 12,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت خافت يحمل الترقب",
+   "text": "لكن أكثر ما أثر في قلبه خلال تلك الأيام كان ما حدث في مسجد الإمام الحسين بالقاهرة فقد اصطحبه أحد المسؤولين في المسجد إلى حجرة خاصة وأراه قميصا نسبه إلى رسول الله صلى الله عليه وآله وبعض الأشياء الأخرى التي قيل إنها من آثاره",
+   "startMs": 406790,
+   "endMs": 425700,
+   "clip": {
+    "file": "audio/Ep6/Narration.wav",
+    "startMs": 193620,
+    "endMs": 212530
+   },
+   "lines": [
+    {
+     "text": "لكن أكثر ما أثر في قلبه خلال تلك الأيام كان ما حدث في مسجد الإمام الحسين بالقاهرة فقد اصطحبه أحد المسؤولين في المسجد إلى حجرة خاصة وأراه قميصا نسبه إلى رسول الله صلى الله عليه وآله وبعض الأشياء الأخرى التي قيل إنها من آثاره",
+     "startMs": 406790,
+     "endMs": 425699
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s13_l01",
+   "scene": 13,
+   "speakerId": "HUSAYN_SHRINE_KEEPER",
+   "speakerName": "مسؤول مقام الإمام الحسين",
+   "direction": "بصوت منخفض ووقور",
+   "text": "اتفضل يا أستاذ محمد تعال معايا",
+   "startMs": 426900,
+   "endMs": 430320,
+   "clip": {
+    "file": "audio/Ep6/Rashusain.wav",
+    "startMs": 2870,
+    "endMs": 6290
+   },
+   "lines": [
+    {
+     "text": "اتفضل يا أستاذ محمد تعال معايا",
+     "startMs": 426900,
+     "endMs": 430320
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s13_l02",
+   "scene": 13,
+   "speakerId": "HUSAYN_SHRINE_KEEPER",
+   "speakerName": "مسؤول مقام الإمام الحسين",
+   "direction": "بنبرة جادة ومحترمة",
+   "text": "في حجرة هنا بنحتفظ فيها بأشياء منسوبة إلى رسول الله صلى الله عليه وآله",
+   "startMs": 430670,
+   "endMs": 435220,
+   "clip": {
+    "file": "audio/Ep6/Rashusain.wav",
+    "startMs": 9620,
+    "endMs": 14170
+   },
+   "lines": [
+    {
+     "text": "في حجرة هنا بنحتفظ فيها بأشياء منسوبة إلى رسول الله صلى الله عليه وآله",
+     "startMs": 430670,
+     "endMs": 435219
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s13_l03",
+   "scene": 13,
+   "speakerId": "HUSAYN_SHRINE_KEEPER",
+   "speakerName": "مسؤول مقام الإمام الحسين",
+   "direction": "بصوت خافت يحمل المهابة",
+   "text": "اتفضل شوف الأميص ده",
+   "startMs": 435570,
+   "endMs": 437990,
+   "clip": {
+    "file": "audio/Ep6/Rashusain.wav",
+    "startMs": 17380,
+    "endMs": 19800
+   },
+   "lines": [
+    {
+     "text": "اتفضل شوف الأميص ده",
+     "startMs": 435570,
+     "endMs": 437990
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s13_l04",
+   "scene": 13,
+   "speakerId": "HUSAYN_SHRINE_KEEPER",
+   "speakerName": "مسؤول مقام الإمام الحسين",
+   "direction": "بنبرة احترام وتأثر",
+   "text": "بيقال إنه من أثار النبي الكريم",
+   "startMs": 438340,
+   "endMs": 440540,
+   "clip": {
+    "file": "audio/Ep6/Rashusain.wav",
+    "startMs": 22770,
+    "endMs": 24970
+   },
+   "lines": [
+    {
+     "text": "بيقال إنه من أثار النبي الكريم",
+     "startMs": 438340,
+     "endMs": 440539
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s13_l05",
+   "scene": 13,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت خاشع ومتأثر بشدة",
+   "text": "يا رسول الله كم اشتقت إليك؟ لم أكن أتخيل أنني سأقف يوما أمام أشياء يقال أنها من آثارك",
+   "startMs": 441140,
+   "endMs": 453680,
+   "clip": {
+    "file": "audio/Ep6/Youth.wav",
+    "startMs": 127200,
+    "endMs": 139740
+   },
+   "lines": [
+    {
+     "text": "يا رسول الله كم اشتقت إليك؟",
+     "startMs": 441140,
+     "endMs": 444980
+    },
+    {
+     "text": "لم أكن أتخيل أنني سأقف يوما أمام أشياء يقال أنها من آثارك",
+     "startMs": 444980,
+     "endMs": 453680
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s13_l06",
+   "scene": 13,
+   "speakerId": "HUSAYN_SHRINE_KEEPER",
+   "speakerName": "مسؤول مقام الإمام الحسين",
+   "direction": "بصوت دافئ",
+   "text": "واضح إنك متأثر جدا يا بني",
+   "startMs": 454280,
+   "endMs": 456420,
+   "clip": {
+    "file": "audio/Ep6/Rashusain.wav",
+    "startMs": 27290,
+    "endMs": 29430
+   },
+   "lines": [
+    {
+     "text": "واضح إنك متأثر جدا يا بني",
+     "startMs": 454280,
+     "endMs": 456420
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s13_l07",
+   "scene": 13,
+   "speakerId": "HUSAYN_SHRINE_KEEPER",
+   "speakerName": "مسؤول مقام الإمام الحسين",
+   "direction": "بنبرة مطمئنة",
+   "text": "ربنا يتقبل منك ويرزقك الخير",
+   "startMs": 456770,
+   "endMs": 459940,
+   "clip": {
+    "file": "audio/Ep6/Rashusain.wav",
+    "startMs": 32110,
+    "endMs": 35280
+   },
+   "lines": [
+    {
+     "text": "ربنا يتقبل منك ويرزقك الخير",
+     "startMs": 456770,
+     "endMs": 459940
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s13_l08",
+   "scene": 13,
+   "speakerId": "HUSAYN_SHRINE_KEEPER",
+   "speakerName": "مسؤول مقام الإمام الحسين",
+   "direction": "بصوت حنون",
+   "text": "ربنا يكرمك وتكون من المقبولين إن شاء الله",
+   "startMs": 460290,
+   "endMs": 463540,
+   "clip": {
+    "file": "audio/Ep6/Rashusain.wav",
+    "startMs": 37660,
+    "endMs": 40910
+   },
+   "lines": [
+    {
+     "text": "ربنا يكرمك وتكون من المقبولين إن شاء الله",
+     "startMs": 460290,
+     "endMs": 463539
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s13_l09",
+   "scene": 13,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة متأثرة",
+   "text": "خرج محمد من تلك الحجرة باكية كان يرى في تلك اللحظة علامة عناية إلهية خاصة به لكن التجربة لم تمنحه السكينة وحدها بل أيقضت في داخله أسئلة جديدة",
+   "startMs": 464140,
+   "endMs": 478880,
+   "clip": {
+    "file": "audio/Ep6/Narration.wav",
+    "startMs": 214940,
+    "endMs": 229680
+   },
+   "lines": [
+    {
+     "text": "خرج محمد من تلك الحجرة باكية كان يرى في تلك اللحظة علامة عناية إلهية خاصة به لكن التجربة لم تمنحه السكينة وحدها بل أيقضت في داخله أسئلة جديدة",
+     "startMs": 464140,
+     "endMs": 478880
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s14_l01",
+   "scene": 14,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة جادة ومتوترة قليلة",
+   "text": "فقد تذكر ما تعلمه في السعودية وما سمعه من بعض العلماء بشأن الموت والتوسل والأولياء وقارن ذلك بما تربى عليه من أفكار صوفية وبدأ يشعر أن اتجاهين مختلفين يتجاذبان عقله وقلبه",
+   "startMs": 479480,
+   "endMs": 495630,
+   "clip": {
+    "file": "audio/Ep6/Narration.wav",
+    "startMs": 233410,
+    "endMs": 249560
+   },
+   "lines": [
+    {
+     "text": "فقد تذكر ما تعلمه في السعودية وما سمعه من بعض العلماء بشأن الموت والتوسل والأولياء وقارن ذلك بما تربى عليه من أفكار صوفية وبدأ يشعر أن اتجاهين مختلفين يتجاذبان عقله وقلبه",
+     "startMs": 479480,
+     "endMs": 495630
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s14_l02",
+   "scene": 14,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بنبرة مضطربة ومتسائلة",
+   "text": "لكن هناك أمر يحيرني لقد سمعت في السعودية أن الموت ينهي صلة الإنسان بالدنيا وتعلمت في بيئة الصوفية أفكار أخرى عن الأنبياء والأولياء فكيف أفهم هذا الاختلاف؟",
+   "startMs": 496230,
+   "endMs": 512520,
+   "clip": {
+    "file": "audio/Ep6/Youth.wav",
+    "startMs": 142370,
+    "endMs": 158660
+   },
+   "lines": [
+    {
+     "text": "لكن هناك أمر يحيرني لقد سمعت في السعودية أن الموت ينهي صلة الإنسان بالدنيا وتعلمت في بيئة الصوفية أفكار أخرى عن الأنبياء والأولياء فكيف أفهم هذا الاختلاف؟",
+     "startMs": 496230,
+     "endMs": 512519
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s14_l03",
+   "scene": 14,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت حائر يبحث عن جواب",
+   "text": "إذا كان الشهداء أحياء عند ربهم فكيف نفهم منزلة رسول الله صلى الله عليه وآله؟",
+   "startMs": 512870,
+   "endMs": 519860,
+   "clip": {
+    "file": "audio/Ep6/Youth.wav",
+    "startMs": 162790,
+    "endMs": 169780
+   },
+   "lines": [
+    {
+     "text": "إذا كان الشهداء أحياء عند ربهم فكيف نفهم منزلة رسول الله صلى الله عليه وآله؟",
+     "startMs": 512870,
+     "endMs": 519860
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s14_l04",
+   "scene": 14,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بنبرة متأملة",
+   "text": "كلما فكرت في هذه المسائل شعرت أنني بحاجة إلى معرفة أعمق",
+   "startMs": 520210,
+   "endMs": 526360,
+   "clip": {
+    "file": "audio/Ep6/Youth.wav",
+    "startMs": 172220,
+    "endMs": 178370
+   },
+   "lines": [
+    {
+     "text": "كلما فكرت في هذه المسائل شعرت أنني بحاجة إلى معرفة أعمق",
+     "startMs": 520210,
+     "endMs": 526360
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s15_l01",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت تأملي",
+   "text": "وفي أيامه الأخيرة بمصر تنقل بين عدد من المساجد والمقامات زار مساجد مرتبطة بالمذاهب الإسلامية المختلفة كما زار مسجد السيدة زينب ومسجد الإمام الحسين وزاوية الطريقة التيجانية",
+   "startMs": 527560,
+   "endMs": 542820,
+   "clip": {
+    "file": "audio/Ep6/Narration.wav",
+    "startMs": 251930,
+    "endMs": 267190
+   },
+   "lines": [
+    {
+     "text": "وفي أيامه الأخيرة بمصر تنقل بين عدد من المساجد والمقامات زار مساجد مرتبطة بالمذاهب الإسلامية المختلفة كما زار مسجد السيدة زينب ومسجد الإمام الحسين وزاوية الطريقة التيجانية",
+     "startMs": 527560,
+     "endMs": 542819
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s15_l02",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "وبنبرة ختامية المشوقة",
+   "text": "وبعد عشرين يوما في القاهرة انتهت الزيارة لكن الأسئلة لم تنته كان محمد يستعد للسفر إلى الإسكندرية ثم ركوب باخرة متجهة إلى بيروت ولم يكن يعلم أن رجلا سيجلس إلى جواره في تلك الباخرة وسيغير مسار حياته كلها",
+   "startMs": 543170,
+   "endMs": 564165,
+   "clip": {
+    "file": "audio/Ep6/Narration.wav",
+    "startMs": 270300,
+    "endMs": 291295
+   },
+   "lines": [
+    {
+     "text": "وبعد عشرين يوما في القاهرة انتهت الزيارة لكن الأسئلة لم تنته كان محمد يستعد للسفر إلى الإسكندرية ثم ركوب باخرة متجهة إلى بيروت ولم يكن يعلم أن رجلا سيجلس إلى جواره في تلك الباخرة وسيغير مسار حياته كلها",
+     "startMs": 543170,
+     "endMs": 564164
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s15_l03",
+   "scene": 15,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت هادئ وحاسم",
+   "text": "سأواصل السفر وسأواصل السؤال فربما وجدت في الطريق ما يساعدني على فهم الحقيقة",
+   "startMs": 564765,
+   "endMs": 573480,
+   "clip": {
+    "file": "audio/Ep6/Youth.wav",
+    "startMs": 180980,
+    "endMs": 189695
+   },
+   "lines": [
+    {
+     "text": "سأواصل السفر وسأواصل السؤال فربما وجدت في الطريق ما يساعدني على فهم الحقيقة",
+     "startMs": 564765,
+     "endMs": 573480
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  }
+ ],
+ "textStatus": "recovered-transcript",
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "reflective",
+   "startMs": 0,
+   "endMs": 22395
+  },
+  {
+   "scene": 2,
+   "cue": "warm",
+   "startMs": 20794,
+   "endMs": 40974
+  },
+  {
+   "scene": 3,
+   "cue": "reflective",
+   "startMs": 39375,
+   "endMs": 82664
+  },
+  {
+   "scene": 4,
+   "cue": "reflective",
+   "startMs": 81065,
+   "endMs": 101875
+  },
+  {
+   "scene": 5,
+   "cue": "warm",
+   "startMs": 100275,
+   "endMs": 118965
+  },
+  {
+   "scene": 6,
+   "cue": "suspense",
+   "startMs": 117365,
+   "endMs": 139605
+  },
+  {
+   "scene": 7,
+   "cue": "reverent",
+   "startMs": 138005,
+   "endMs": 189485
+  },
+  {
+   "scene": 8,
+   "cue": "reflective",
+   "startMs": 187885,
+   "endMs": 270885
+  },
+  {
+   "scene": 9,
+   "cue": "reverent",
+   "startMs": 269284,
+   "endMs": 318120
+  },
+  {
+   "scene": 10,
+   "cue": "reflective",
+   "startMs": 316520,
+   "endMs": 364440
+  },
+  {
+   "scene": 11,
+   "cue": "reflective",
+   "startMs": 362840,
+   "endMs": 406990
+  },
+  {
+   "scene": 12,
+   "cue": "reverent",
+   "startMs": 405390,
+   "endMs": 427100
+  },
+  {
+   "scene": 13,
+   "cue": "suspense",
+   "startMs": 425500,
+   "endMs": 479980
+  },
+  {
+   "scene": 14,
+   "cue": "reflective",
+   "startMs": 478380,
+   "endMs": 527760
+  },
+  {
+   "scene": 15,
+   "cue": "ending",
+   "startMs": 526160,
+   "endMs": 575780
+  }
+ ]
+}

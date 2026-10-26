@@ -1,0 +1,137 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "النصوص القرآنية",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: دراسة"
+  },
+  {
+   "scene": 2,
+   "title": "مدح وتحذير",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 3,
+   "title": "الآيات في سياقها",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 4,
+   "title": "حدود التعميم",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 5,
+   "title": "النص كاملا",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 6,
+   "title": "مراتب الروايات",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: روايات"
+  },
+  {
+   "scene": 7,
+   "title": "اللفظ والرواية والتفسير",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: دراسة"
+  },
+  {
+   "scene": 8,
+   "title": "المقارنة الدقيقة",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 9,
+   "title": "القرآن والأخبار",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 10,
+   "title": "ازداد اقتناعه",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: كتاب"
+  },
+  {
+   "scene": 11,
+   "title": "مصادر الطرف الآخر",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: مصادر"
+  },
+  {
+   "scene": 12,
+   "title": "ثقل النتائج",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 13,
+   "title": "الدليل أولا",
+   "music": "nostalgic",
+   "sfx": [
+    "night"
+   ],
+   "level": 0.85,
+   "reason": "title: ليل"
+  },
+  {
+   "scene": 14,
+   "title": "سؤال جديد",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: سؤال"
+  },
+  {
+   "scene": 15,
+   "title": "لأعرف ما ينبغي أن أعتقده",
+   "music": "ending",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default; last scene"
+  }
+ ]
+}

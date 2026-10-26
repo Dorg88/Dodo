@@ -1,0 +1,744 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep16",
+ "number": 16,
+ "title": "بداية البحث عن الحقيقة",
+ "durationMs": 109630,
+ "audio": {
+  "mode": "clips",
+  "music": "ep16/audio/score_music.m4a",
+  "sfx": "ep16/audio/score_sfx.m4a",
+  "musicLoop": false
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AL_TIJANI": {
+   "name": "التيجاني"
+  },
+  "PROFESSOR_MUNIM": {
+   "name": "الأستاذ منعم"
+  },
+  "AL_TIJANI_ADULT": {
+   "name": "التيجاني الكبير"
+  },
+  "MUNIM_FATHER": {
+   "name": "والد منعم"
+  },
+  "MUNIM_MOTHER": {
+   "name": "والدة منعم"
+  },
+  "SHRINE_RESEARCHER": {
+   "name": "باحث عراقي في المقام"
+  },
+  "HAWZA_STUDENT": {
+   "name": "طالب حوزة"
+  },
+  "NAJAF_VISITOR": {
+   "name": "زائر في النجف"
+  },
+  "ABU_SHUBAR": {
+   "name": "السيد أبو شبر"
+  },
+  "BAQIR_AL_SADR": {
+   "name": "السيد محمد باقر الصدر"
+  },
+  "AL_BASHIR": {
+   "name": "البشير"
+  },
+  "DOCUMENT_READER": {
+   "name": "قارئ الوثائق"
+  },
+  "TEXT_READER": {
+   "name": "قارئ النصوص"
+  },
+  "TUNISIAN_INTERLOCUTOR": {
+   "name": "محاور تونسي"
+  },
+  "TUNISIAN_FRIEND": {
+   "name": "صديق تونسي"
+  },
+  "TUNISIAN_ELDER": {
+   "name": "أحد أهل تونس"
+  },
+  "AL_TIJANI_CHILD": {
+   "name": "التيجاني الصغير"
+  },
+  "FATHER": {
+   "name": "الأب"
+  },
+  "TEACHER": {
+   "name": "المعلم"
+  },
+  "WORSHIPPER_1": {
+   "name": "المصلي الأول"
+  },
+  "WORSHIPPER_2": {
+   "name": "المصلي الثاني"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "المكتبة",
+   "image": "ep16/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 7460
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "مكتبة خاصة",
+   "image": "ep16/images/scene_02.jpg",
+   "startMs": 7460,
+   "endMs": 11040
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "أقرؤها كلها",
+   "image": "ep16/images/scene_03.jpg",
+   "startMs": 11040,
+   "endMs": 15990
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "العودة إلى التعليم",
+   "image": "ep16/images/scene_04.jpg",
+   "startMs": 15990,
+   "endMs": 18490
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "ساعات المطالعة",
+   "image": "ep16/images/scene_05.jpg",
+   "startMs": 18490,
+   "endMs": 22990
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "هدف واضح",
+   "image": "ep16/images/scene_06.jpg",
+   "startMs": 22990,
+   "endMs": 41550
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "جمع الروايات",
+   "image": "ep16/images/scene_07.jpg",
+   "startMs": 41550,
+   "endMs": 46640
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "قول وقول آخر",
+   "image": "ep16/images/scene_08.jpg",
+   "startMs": 46640,
+   "endMs": 58040
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "كيف تنتقل المعرفة",
+   "image": "ep16/images/scene_09.jpg",
+   "startMs": 58040,
+   "endMs": 69570
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "خوف من النتائج",
+   "image": "ep16/images/scene_10.jpg",
+   "startMs": 69570,
+   "endMs": 74410
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "جدوى البحث",
+   "image": "ep16/images/scene_11.jpg",
+   "startMs": 74410,
+   "endMs": 80300
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "وحده بين الرفوف",
+   "image": "ep16/images/scene_12.jpg",
+   "startMs": 80300,
+   "endMs": 85620
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "الصوت الداخلي",
+   "image": "ep16/images/scene_13.jpg",
+   "startMs": 85620,
+   "endMs": 91160
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "دعاء",
+   "image": "ep16/images/scene_14.jpg",
+   "startMs": 91160,
+   "endMs": 98530
+  },
+  {
+   "number": 15,
+   "id": "s15",
+   "title": "محاسبة النفس",
+   "image": "ep16/images/scene_15.jpg",
+   "startMs": 98530,
+   "endMs": 109630
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep16_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت هادئ يحمل بداية مرحلة جديدة",
+   "text": "عاد محمد إلى قفصة، وجعل للكتب التي وصلته مكانا خاصا أسماه المكتبة.",
+   "startMs": 500,
+   "endMs": 6860,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 90200,
+    "endMs": 96560
+   },
+   "lines": [
+    {
+     "text": "عاد محمد إلى قفصة، وجعل للكتب التي وصلته مكانا خاصا أسماه المكتبة.",
+     "startMs": 500,
+     "endMs": 6860
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep16_s02_l01",
+   "scene": 2,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت متحمس ومنظم",
+   "text": "سأجعل لهذه الكتب مكتبة خاصة.",
+   "startMs": 8060,
+   "endMs": 11040,
+   "clip": {
+    "file": "audio/Batch 2/Tiǰǰjani.wav",
+    "startMs": 61260,
+    "endMs": 64240
+   },
+   "lines": [
+    {
+     "text": "سأجعل لهذه الكتب مكتبة خاصة.",
+     "startMs": 8060,
+     "endMs": 11040
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep16_s03_l01",
+   "scene": 3,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "",
+   "text": "أريد أن أقرأها كلها، لا أن أبني حكمي على صفحات منتقاة.",
+   "startMs": 11040,
+   "endMs": 15390,
+   "clip": {
+    "file": "audio/Batch 2/Tiǰǰjani.wav",
+    "startMs": 64400,
+    "endMs": 68750
+   },
+   "lines": [
+    {
+     "text": "أريد أن أقرأها كلها، لا أن أبني حكمي على صفحات منتقاة.",
+     "startMs": 11040,
+     "endMs": 15390
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep16_s04_l01",
+   "scene": 4,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "استأنف عمله في التعليم،",
+   "startMs": 16590,
+   "endMs": 18490,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 96850,
+    "endMs": 98750
+   },
+   "lines": [
+    {
+     "text": "استأنف عمله في التعليم،",
+     "startMs": 16590,
+     "endMs": 18490
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep16_s05_l01",
+   "scene": 5,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "لكن ساعات فراغه أخذت تمتلئ بالمطالعة والمقارنة.",
+   "startMs": 18490,
+   "endMs": 22690,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 98870,
+    "endMs": 103070
+   },
+   "lines": [
+    {
+     "text": "لكن ساعات فراغه أخذت تمتلئ بالمطالعة والمقارنة.",
+     "startMs": 18490,
+     "endMs": 22690
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep16_s06_l01",
+   "scene": 6,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة منهجية",
+   "text": "كان أمامه هدف واضح: أن يعرف ما يقوله كل فريق من مصادره، ثم يزن الأدلة دون أن يسمح للتعصب أن يقود النتيجة. لم يكن الأمر سهلا؛ إذ حملت ذاكرته سنوات طويلة من التعليم والعادات والروابط الاجتماعية.",
+   "startMs": 23290,
+   "endMs": 41250,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 105450,
+    "endMs": 123410
+   },
+   "lines": [
+    {
+     "text": "كان أمامه هدف واضح: أن يعرف ما يقوله كل فريق من مصادره، ثم يزن الأدلة دون أن يسمح للتعصب أن يقود النتيجة.",
+     "startMs": 23290,
+     "endMs": 32700
+    },
+    {
+     "text": "لم يكن الأمر سهلا؛ إذ حملت ذاكرته سنوات طويلة من التعليم والعادات والروابط الاجتماعية.",
+     "startMs": 32700,
+     "endMs": 41250
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.976,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep16_s07_l01",
+   "scene": 7,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بتشويق",
+   "text": "بدأ يجمع الروايات ويقارن بين كتب الحديث والتاريخ،",
+   "startMs": 41850,
+   "endMs": 46640,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 125500,
+    "endMs": 130290
+   },
+   "lines": [
+    {
+     "text": "بدأ يجمع الروايات ويقارن بين كتب الحديث والتاريخ،",
+     "startMs": 41850,
+     "endMs": 46639
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep16_s08_l01",
+   "scene": 8,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "ويسجل ما يوافق وما يثير الاعتراض.",
+   "startMs": 46640,
+   "endMs": 49770,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 130290,
+    "endMs": 133420
+   },
+   "lines": [
+    {
+     "text": "ويسجل ما يوافق وما يثير الاعتراض.",
+     "startMs": 46640,
+     "endMs": 49769
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep16_s08_l02",
+   "scene": 8,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بتركيز",
+   "text": "هذا قول في مصدر، وذاك قول آخر. علي أن أعرف السياق والرواة وطريقة الاستدلال.",
+   "startMs": 50370,
+   "endMs": 57440,
+   "clip": {
+    "file": "audio/Batch 2/Tiǰǰjani.wav",
+    "startMs": 71430,
+    "endMs": 78500
+   },
+   "lines": [
+    {
+     "text": "هذا قول في مصدر، وذاك قول آخر.",
+     "startMs": 50370,
+     "endMs": 53160
+    },
+    {
+     "text": "علي أن أعرف السياق والرواة وطريقة الاستدلال.",
+     "startMs": 53160,
+     "endMs": 57440
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep16_s09_l01",
+   "scene": 9,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "وكلما تقدم في القراءة، أدرك أن البحث لم يعد مجرد خلاف بين أسماء المذاهب؛ بل أصبح سؤالا عن كيفية انتقال المعرفة عبر القرون.",
+   "startMs": 58640,
+   "endMs": 68970,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 133590,
+    "endMs": 143920
+   },
+   "lines": [
+    {
+     "text": "وكلما تقدم في القراءة، أدرك أن البحث لم يعد مجرد خلاف بين أسماء المذاهب؛ بل أصبح سؤالا عن كيفية انتقال المعرفة عبر القرون.",
+     "startMs": 58640,
+     "endMs": 68969
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep16_s10_l01",
+   "scene": 10,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بتردد",
+   "text": "أحيانا أخاف أن أصل إلى نتائج لا يتقبلها من حولي.",
+   "startMs": 70170,
+   "endMs": 74110,
+   "clip": {
+    "file": "audio/Batch 2/Tiǰǰjani.wav",
+    "startMs": 81170,
+    "endMs": 85110
+   },
+   "lines": [
+    {
+     "text": "أحيانا أخاف أن أصل إلى نتائج لا يتقبلها من حولي.",
+     "startMs": 70170,
+     "endMs": 74109
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep16_s11_l01",
+   "scene": 11,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بإصرار متزن",
+   "text": "لكنني إن بدأت البحث وأنا أعرف النتيجة مسبقا، فما جدوى البحث أصلا؟",
+   "startMs": 74710,
+   "endMs": 79700,
+   "clip": {
+    "file": "audio/Batch 2/Tiǰǰjani.wav",
+    "startMs": 88090,
+    "endMs": 93080
+   },
+   "lines": [
+    {
+     "text": "لكنني إن بدأت البحث وأنا أعرف النتيجة مسبقا، فما جدوى البحث أصلا؟",
+     "startMs": 74710,
+     "endMs": 79700
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep16_s12_l01",
+   "scene": 12,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت متأثر",
+   "text": "كان وحده أحيانا بين الرفوف، لكن صوته الداخلي لم يصمت:",
+   "startMs": 80900,
+   "endMs": 85620,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 146510,
+    "endMs": 151230
+   },
+   "lines": [
+    {
+     "text": "كان وحده أحيانا بين الرفوف، لكن صوته الداخلي لم يصمت:",
+     "startMs": 80900,
+     "endMs": 85619
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.99,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep16_s13_l01",
+   "scene": 13,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "",
+   "text": "إن كنت تريد الحقيقة، فهل تستطيع قبولها لو خالفت ما تحب؟",
+   "startMs": 85620,
+   "endMs": 90560,
+   "clip": {
+    "file": "audio/Batch 2/Narŕŕ.wav",
+    "startMs": 151590,
+    "endMs": 156530
+   },
+   "lines": [
+    {
+     "text": "إن كنت تريد الحقيقة، فهل تستطيع قبولها لو خالفت ما تحب؟",
+     "startMs": 85620,
+     "endMs": 90559
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep16_s14_l01",
+   "scene": 14,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بتأمل",
+   "text": "اللهم أرني الحق حقا وارزقني اتباعه، وأرني الباطل باطلا وارزقني اجتنابه.",
+   "startMs": 91760,
+   "endMs": 97930,
+   "clip": {
+    "file": "audio/Batch 2/Tiǰǰjani.wav",
+    "startMs": 95810,
+    "endMs": 101980
+   },
+   "lines": [
+    {
+     "text": "اللهم أرني الحق حقا وارزقني اتباعه، وأرني الباطل باطلا وارزقني اجتنابه.",
+     "startMs": 91760,
+     "endMs": 97930
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.986,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep16_s15_l01",
+   "scene": 15,
+   "speakerId": "AL_TIJANI_ADULT",
+   "speakerName": "التيجاني الكبير",
+   "direction": "بصوت عميق يحمل اعترافا",
+   "text": "كانت المكتبة أكثر من غرفة فيها كتب. كانت المكان الذي بدأت فيه محاسبة نفسي على كل يقين ورثته دون امتحان.",
+   "startMs": 99130,
+   "endMs": 108130,
+   "clip": {
+    "file": "audio/Batch 2/Tiǰǰjani.wav",
+    "startMs": 105820,
+    "endMs": 114820
+   },
+   "lines": [
+    {
+     "text": "كانت المكتبة أكثر من غرفة فيها كتب.",
+     "startMs": 99130,
+     "endMs": 102170
+    },
+    {
+     "text": "كانت المكان الذي بدأت فيه محاسبة نفسي على كل يقين ورثته دون امتحان.",
+     "startMs": 102170,
+     "endMs": 108130
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.99,
+    "flags": []
+   }
+  }
+ ],
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "reflective",
+   "startMs": 0,
+   "endMs": 8260
+  },
+  {
+   "scene": 2,
+   "cue": "reflective",
+   "startMs": 6660,
+   "endMs": 11840
+  },
+  {
+   "scene": 3,
+   "cue": "reflective",
+   "startMs": 10239,
+   "endMs": 16790
+  },
+  {
+   "scene": 4,
+   "cue": "reflective",
+   "startMs": 15190,
+   "endMs": 19290
+  },
+  {
+   "scene": 5,
+   "cue": "reflective",
+   "startMs": 17689,
+   "endMs": 23790
+  },
+  {
+   "scene": 6,
+   "cue": "reflective",
+   "startMs": 22189,
+   "endMs": 42349
+  },
+  {
+   "scene": 7,
+   "cue": "reflective",
+   "startMs": 40750,
+   "endMs": 47440
+  },
+  {
+   "scene": 8,
+   "cue": "reflective",
+   "startMs": 45840,
+   "endMs": 58839
+  },
+  {
+   "scene": 9,
+   "cue": "suspense",
+   "startMs": 57240,
+   "endMs": 70369
+  },
+  {
+   "scene": 10,
+   "cue": "reflective",
+   "startMs": 68770,
+   "endMs": 75210
+  },
+  {
+   "scene": 11,
+   "cue": "reflective",
+   "startMs": 73610,
+   "endMs": 81100
+  },
+  {
+   "scene": 12,
+   "cue": "reflective",
+   "startMs": 79500,
+   "endMs": 86420
+  },
+  {
+   "scene": 13,
+   "cue": "warm",
+   "startMs": 84820,
+   "endMs": 91960
+  },
+  {
+   "scene": 14,
+   "cue": "reflective",
+   "startMs": 90360,
+   "endMs": 99330
+  },
+  {
+   "scene": 15,
+   "cue": "ending",
+   "startMs": 97730,
+   "endMs": 110429
+  }
+ ]
+}

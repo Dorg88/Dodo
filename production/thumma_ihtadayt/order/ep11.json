@@ -1,0 +1,18 @@
+{"episode": 11, "status": "proposed", "note": "Play order proposed from the per-character script and the order of the 15 illustrations; to be confirmed by the producer.",
+ "scenes": [
+  {"image": 1,  "title": "أيام في بيت منعم", "lines": ["N1.1"]},
+  {"image": 2,  "title": "أسئلة متلاحقة", "lines": ["N1.2-3"]},
+  {"image": 3,  "title": "لماذا كل هذا النفور؟", "lines": ["T1"]},
+  {"image": 4,  "title": "مراجعة الأحكام", "lines": ["N2.1/1"]},
+  {"image": 5,  "title": "ضيافة وعبادة", "lines": ["N2.1/2"]},
+  {"image": 6,  "title": "كلام دون عداء", "lines": ["N2.2", "M1"]},
+  {"image": 7,  "title": "الدليل هو الحكم", "lines": ["M2"]},
+  {"image": 8,  "title": "فكرة مؤلمة", "lines": ["N3.1/1-2"]},
+  {"image": 9,  "title": "الكبرياء", "lines": ["N3.1/3"]},
+  {"image": 10, "title": "اعتراف", "lines": ["T2"]},
+  {"image": 11, "title": "إجابات جاهزة", "lines": ["N3.2"]},
+  {"image": 12, "title": "الحيرة ليست النهاية", "lines": ["N4.1/1"]},
+  {"image": 13, "title": "يقين لم يمتحن", "lines": ["N4.1/2"]},
+  {"image": 14, "title": "دعاء", "lines": ["N4.2", "T3", "T4"]},
+  {"image": 15, "title": "إلى النجف", "lines": ["N5.1", "M3", "T5", "N5.2", "TA1"]}
+ ]}

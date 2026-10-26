@@ -1,0 +1,29 @@
+{
+ "NARRATOR": [
+  "audio/Batch 1/Narat.wav"
+ ],
+ "AL_TIJANI": [
+  "audio/Batch 1/Tijaniiii.wav"
+ ],
+ "AL_TIJANI_ADULT": [
+  "audio/Batch 1/Tijaniiii.wav"
+ ],
+ "PROFESSOR_MUNIM": [
+  "audio/Batch 1/Munaim22.wav"
+ ],
+ "SHRINE_RESEARCHER": [
+  "audio/Batch 1/Researcher.wav"
+ ],
+ "HAWZA_STUDENT": [
+  "audio/Batch 1/Hawza.wav"
+ ],
+ "NAJAF_VISITOR": [
+  "audio/Batch 1/Visitor.wav"
+ ],
+ "ABU_SHUBAR": [
+  "audio/Batch 1/Abushubar.wav"
+ ],
+ "BAQIR_AL_SADR": [
+  "audio/Batch 1/Baqirsadr.wav"
+ ]
+}

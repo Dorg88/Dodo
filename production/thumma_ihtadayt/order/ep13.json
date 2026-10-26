@@ -1,0 +1,18 @@
+{"episode": 13, "status": "proposed", "note": "Play order proposed from the per-character script and the order of the 15 illustrations; to be confirmed by the producer.",
+ "scenes": [
+  {"image": 1,  "title": "في النجف", "lines": ["N1.1"]},
+  {"image": 2,  "title": "طلاب صغار بالعمائم", "lines": ["N1.2-3"]},
+  {"image": 3,  "title": "دهشة وإعجاب", "lines": ["T1"]},
+  {"image": 4,  "title": "طريق طويل من القراءة", "lines": ["M1"]},
+  {"image": 5,  "title": "في المجلس العلمي", "lines": ["T2", "HS1"]},
+  {"image": 6,  "title": "أجوبة وأسئلة", "lines": ["N2"]},
+  {"image": 7,  "title": "منعم يعود إلى بغداد", "lines": ["M2"]},
+  {"image": 8,  "title": "في منزل السيد أبي شبر", "lines": ["N3.1/1", "AS1"]},
+  {"image": 9,  "title": "شبان من طلبة العلم", "lines": ["N3.1/2-3"]},
+  {"image": 10, "title": "الدراسة الحوزوية", "lines": ["N3.2"]},
+  {"image": 11, "title": "أفكار مسبقة", "lines": ["T3"]},
+  {"image": 12, "title": "في ختام المجلس", "lines": ["N4.1"]},
+  {"image": 13, "title": "لقاء مرتقب", "lines": ["AS2", "N4.2", "T4"]},
+  {"image": 14, "title": "رعاية الأصدقاء", "lines": ["N5.1"]},
+  {"image": 15, "title": "أسئلة تنتظر", "lines": ["N5.2"]}
+ ]}

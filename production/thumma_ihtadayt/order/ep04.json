@@ -1,0 +1,18 @@
+{"episode": 4, "status": "proposed", "note": "Recovered transcript (no original script): speaking order and illustration placement proposed from the content and the order of the 15 illustrations; to be confirmed by the producer.",
+ "scenes": [
+  {"image": 1,  "title": "العودة إلى قفصة", "lines": ["N1", "N2"]},
+  {"image": 2,  "title": "ترحيب الأم", "lines": ["MO1"]},
+  {"image": 3,  "title": "على سلامتك يا ولدي", "lines": ["FA1", "FA2"]},
+  {"image": 4,  "title": "أهل قفصة يفرحون", "lines": ["FA3", "FA4", "MO2"]},
+  {"image": 5,  "title": "استقبال المدينة", "lines": ["T1", "N3", "T2"]},
+  {"image": 6,  "title": "حدثنا عن مكة", "lines": ["TW1", "TW2", "TW3", "N4"]},
+  {"image": 7,  "title": "الحاج", "lines": ["N5", "T3"]},
+  {"image": 8,  "title": "أفكار جديدة", "lines": ["N6"]},
+  {"image": 9,  "title": "دروس المساجد", "lines": ["T4", "N7"]},
+  {"image": 10, "title": "سؤال طالب", "lines": ["ST1", "ST2", "ST3", "ST4"]},
+  {"image": 11, "title": "أجيب عن أسئلة الناس", "lines": ["T5"]},
+  {"image": 12, "title": "التعليم والقراءة", "lines": ["N8"]},
+  {"image": 13, "title": "أمنية الأم", "lines": ["MO3", "N9"]},
+  {"image": 14, "title": "مسؤولية كبيرة", "lines": ["T6", "N10"]},
+  {"image": 15, "title": "سؤال بلا جواب", "lines": ["N11"]}
+ ]}

@@ -1,0 +1,148 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "إلى مصر",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 2,
+   "title": "طريق طويل",
+   "music": "warm",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "text: القاهرة"
+  },
+  {
+   "scene": 3,
+   "title": "رفاق الطريق",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: يقرأ"
+  },
+  {
+   "scene": 4,
+   "title": "دعوة أحمد",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 5,
+   "title": "القاهرة",
+   "music": "warm",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: القاهرة"
+  },
+  {
+   "scene": 6,
+   "title": "في بيت أحمد",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: شك"
+  },
+  {
+   "scene": 7,
+   "title": "عالم واسع",
+   "music": "reverent",
+   "sfx": [
+    "roomtone",
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "text: زيارة"
+  },
+  {
+   "scene": 8,
+   "title": "في مجلس الشيخ عبد الباسط",
+   "music": "reflective",
+   "sfx": [
+    "sea"
+   ],
+   "level": 0.85,
+   "reason": "text: بحر"
+  },
+  {
+   "scene": 9,
+   "title": "علماء الأزهر",
+   "music": "reverent",
+   "sfx": [
+    "roomtone",
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "text: جامع"
+  },
+  {
+   "scene": 10,
+   "title": "لقاء عام",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: كتب"
+  },
+  {
+   "scene": 11,
+   "title": "هل كنت أعرف حقا؟",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "text: قراءة"
+  },
+  {
+   "scene": 12,
+   "title": "مسجد الإمام الحسين",
+   "music": "reverent",
+   "sfx": [
+    "roomtone",
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "title: مسجد"
+  },
+  {
+   "scene": 13,
+   "title": "حجرة الآثار",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: أسئلة"
+  },
+  {
+   "scene": 14,
+   "title": "اتجاهان مختلفان",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: فقد"
+  },
+  {
+   "scene": 15,
+   "title": "إلى الإسكندرية",
+   "music": "ending",
+   "sfx": [
+    "sea"
+   ],
+   "level": 0.85,
+   "reason": "title: الإسكندرية; last scene"
+  }
+ ]
+}

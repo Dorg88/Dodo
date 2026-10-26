@@ -1,0 +1,140 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "العودة إلى قفصة",
+   "music": "warm",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "text: مدينة"
+  },
+  {
+   "scene": 2,
+   "title": "ترحيب الأم",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 3,
+   "title": "على سلامتك يا ولدي",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 4,
+   "title": "أهل قفصة يفرحون",
+   "music": "warm",
+   "sfx": [
+    "crowd"
+   ],
+   "level": 0.85,
+   "reason": "title: فرح"
+  },
+  {
+   "scene": 5,
+   "title": "استقبال المدينة",
+   "music": "warm",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: مدينة"
+  },
+  {
+   "scene": 6,
+   "title": "حدثنا عن مكة",
+   "music": "warm",
+   "sfx": [
+    "crowd"
+   ],
+   "level": 0.85,
+   "reason": "text: تهاني"
+  },
+  {
+   "scene": 7,
+   "title": "الحاج",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 8,
+   "title": "أفكار جديدة",
+   "music": "reflective",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "default"
+  },
+  {
+   "scene": 9,
+   "title": "دروس المساجد",
+   "music": "reverent",
+   "sfx": [
+    "roomtone",
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "text: جامع"
+  },
+  {
+   "scene": 10,
+   "title": "سؤال طالب",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: سؤال"
+  },
+  {
+   "scene": 11,
+   "title": "أجيب عن أسئلة الناس",
+   "music": "suspense",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: أسئلة"
+  },
+  {
+   "scene": 12,
+   "title": "التعليم والقراءة",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: قراءة"
+  },
+  {
+   "scene": 13,
+   "title": "أمنية الأم",
+   "music": "warm",
+   "sfx": [
+    "crowd"
+   ],
+   "level": 0.85,
+   "reason": "text: فرح"
+  },
+  {
+   "scene": 14,
+   "title": "مسؤولية كبيرة",
+   "music": "warm",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "text: يقين"
+  },
+  {
+   "scene": 15,
+   "title": "سؤال بلا جواب",
+   "music": "ending",
+   "sfx": [],
+   "level": 0.85,
+   "reason": "title: سؤال; last scene"
+  }
+ ]
+}
