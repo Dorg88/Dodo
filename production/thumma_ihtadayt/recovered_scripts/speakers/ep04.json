@@ -12,6 +12,12 @@
   "basis": "اسم الملف",
   "direction_text": [
    "باعتزاز ممزوج بالتواضع"
+  ],
+  "producer_fixes": [
+   [
+    "لعا",
+    "لها"
+   ]
   ]
  },
  {
@@ -30,7 +36,13 @@
   "file": "~/HIKAYA/assets/audio/Ep4/Neighbour.wav",
   "display_file": "Ep4.zip/Neighbour.wav",
   "label": "أحد أهل المدينة",
-  "basis": "اسم الملف (neighbour) وقائمة شخصيات الحلقة"
+  "basis": "اسم الملف (neighbour) وقائمة شخصيات الحلقة",
+  "producer_fixes": [
+   [
+    "حجشت",
+    "حججت"
+   ]
+  ]
  },
  {
   "file": "~/HIKAYA/assets/audio/Ep3/Juniorscholar.wav",

@@ -3,7 +3,7 @@
  "id": "ep04",
  "number": 4,
  "title": "العودة إلى قفصة",
- "durationMs": 302220,
+ "durationMs": 301620,
  "audio": {
   "mode": "clips",
   "music": "ep04/audio/score_music.m4a",
@@ -112,6 +112,12 @@
   },
   "HUSAYN_SHRINE_KEEPER": {
    "name": "مسؤول مقام الإمام الحسين"
+  },
+  "RELATIVE": {
+   "name": "أحد الأقارب"
+  },
+  "TUNISIAN_STUDENT": {
+   "name": "طالب"
   }
  },
  "scenes": [
@@ -182,58 +188,50 @@
   {
    "number": 9,
    "id": "s09",
-   "title": "دروس المساجد",
+   "title": "دروس المساجد وسؤال طالب",
    "image": "ep04/images/scene_09.jpg",
    "startMs": 175500,
-   "endMs": 201590
+   "endMs": 223315
   },
   {
    "number": 10,
    "id": "s10",
-   "title": "سؤال طالب",
-   "image": "ep04/images/scene_10.jpg",
-   "startMs": 201590,
-   "endMs": 223915
+   "title": "أجيب عن أسئلة الناس",
+   "image": "ep04/images/scene_11.jpg",
+   "startMs": 223315,
+   "endMs": 231895
   },
   {
    "number": 11,
    "id": "s11",
-   "title": "أجيب عن أسئلة الناس",
-   "image": "ep04/images/scene_11.jpg",
-   "startMs": 223915,
-   "endMs": 232495
+   "title": "التعليم والقراءة",
+   "image": "ep04/images/scene_12.jpg",
+   "startMs": 231895,
+   "endMs": 245685
   },
   {
    "number": 12,
    "id": "s12",
-   "title": "التعليم والقراءة",
-   "image": "ep04/images/scene_12.jpg",
-   "startMs": 232495,
-   "endMs": 246285
+   "title": "أمنية الأم",
+   "image": "ep04/images/scene_13.jpg",
+   "startMs": 245685,
+   "endMs": 269455
   },
   {
    "number": 13,
    "id": "s13",
-   "title": "أمنية الأم",
-   "image": "ep04/images/scene_13.jpg",
-   "startMs": 246285,
-   "endMs": 270055
+   "title": "مسؤولية كبيرة",
+   "image": "ep04/images/scene_14.jpg",
+   "startMs": 269455,
+   "endMs": 291265
   },
   {
    "number": 14,
    "id": "s14",
-   "title": "مسؤولية كبيرة",
-   "image": "ep04/images/scene_14.jpg",
-   "startMs": 270055,
-   "endMs": 291865
-  },
-  {
-   "number": 15,
-   "id": "s15",
    "title": "سؤال بلا جواب",
    "image": "ep04/images/scene_15.jpg",
-   "startMs": 291865,
-   "endMs": 302220
+   "startMs": 291265,
+   "endMs": 301620
   }
  ],
  "segments": [
@@ -513,7 +511,7 @@
    "speakerId": "AL_TIJANI",
    "speakerName": "التيجاني",
    "direction": "بصوت متأثر",
-   "text": "يا لعا من فرحة لم أتخيل أن عودتي من الحج ستصبح مناسبة تحتفل بها المدينة كلها",
+   "text": "يا لها من فرحة لم أتخيل أن عودتي من الحج ستصبح مناسبة تحتفل بها المدينة كلها",
    "startMs": 86175,
    "endMs": 93875,
    "clip": {
@@ -523,14 +521,14 @@
    },
    "lines": [
     {
-     "text": "يا لعا من فرحة لم أتخيل أن عودتي من الحج ستصبح مناسبة تحتفل بها المدينة كلها",
+     "text": "يا لها من فرحة لم أتخيل أن عودتي من الحج ستصبح مناسبة تحتفل بها المدينة كلها",
      "startMs": 86175,
      "endMs": 93874
     }
    ],
    "timing": "verified",
    "alignment": {
-    "confidence": 1.0,
+    "confidence": 0.987,
     "flags": []
    }
   },
@@ -540,7 +538,7 @@
    "speakerId": "TOWNSMAN",
    "speakerName": "أحد أهل المدينة",
    "direction": "",
-   "text": "الحمد لله على سلامتك يا حاج محمد ما شاء الله حجشت بيت الله وانت في هذه السن الصغيرة",
+   "text": "الحمد لله على سلامتك يا حاج محمد ما شاء الله حججت بيت الله وانت في هذه السن الصغيرة",
    "startMs": 95075,
    "endMs": 102995,
    "clip": {
@@ -550,14 +548,14 @@
    },
    "lines": [
     {
-     "text": "الحمد لله على سلامتك يا حاج محمد ما شاء الله حجشت بيت الله وانت في هذه السن الصغيرة",
+     "text": "الحمد لله على سلامتك يا حاج محمد ما شاء الله حججت بيت الله وانت في هذه السن الصغيرة",
      "startMs": 95075,
      "endMs": 102994
     }
    ],
    "timing": "verified",
    "alignment": {
-    "confidence": 1.0,
+    "confidence": 0.988,
     "flags": []
    }
   },
@@ -778,14 +776,14 @@
    }
   },
   {
-   "id": "ep04_s10_l01",
-   "scene": 10,
+   "id": "ep04_s09_l03",
+   "scene": 9,
    "speakerId": "STUDENT",
    "speakerName": "أحد الطلاب",
    "direction": "",
    "text": "أستاذ محمد، عندي سؤال",
-   "startMs": 202190,
-   "endMs": 204620,
+   "startMs": 201590,
+   "endMs": 204020,
    "clip": {
     "file": "audio/Ep3/Juniorscholar.wav",
     "startMs": 160,
@@ -794,8 +792,8 @@
    "lines": [
     {
      "text": "أستاذ محمد، عندي سؤال",
-     "startMs": 202190,
-     "endMs": 204619
+     "startMs": 201590,
+     "endMs": 204019
     }
    ],
    "timing": "verified",
@@ -805,14 +803,14 @@
    }
   },
   {
-   "id": "ep04_s10_l02",
-   "scene": 10,
+   "id": "ep04_s09_l04",
+   "scene": 9,
    "speakerId": "STUDENT",
    "speakerName": "أحد الطلاب",
    "direction": "بتردد خفيف",
    "text": "نحن نرى الناس يزورون الأضرحة ويتبركون بها منذ سنوات طويلة فلماذا أصبحت تعترض على بعض هذه العادات؟",
-   "startMs": 204970,
-   "endMs": 213620,
+   "startMs": 204370,
+   "endMs": 213020,
    "clip": {
     "file": "audio/Ep3/Juniorscholar.wav",
     "startMs": 5240,
@@ -821,8 +819,8 @@
    "lines": [
     {
      "text": "نحن نرى الناس يزورون الأضرحة ويتبركون بها منذ سنوات طويلة فلماذا أصبحت تعترض على بعض هذه العادات؟",
-     "startMs": 204970,
-     "endMs": 213620
+     "startMs": 204370,
+     "endMs": 213020
     }
    ],
    "timing": "verified",
@@ -832,14 +830,14 @@
    }
   },
   {
-   "id": "ep04_s10_l03",
-   "scene": 10,
+   "id": "ep04_s09_l05",
+   "scene": 9,
    "speakerId": "STUDENT",
    "speakerName": "أحد الطلاب",
    "direction": "باهتمام صادق",
    "text": "أريد أن أفهم رأيك ودليلك",
-   "startMs": 213970,
-   "endMs": 216320,
+   "startMs": 213370,
+   "endMs": 215720,
    "clip": {
     "file": "audio/Ep3/Juniorscholar.wav",
     "startMs": 15870,
@@ -848,8 +846,8 @@
    "lines": [
     {
      "text": "أريد أن أفهم رأيك ودليلك",
-     "startMs": 213970,
-     "endMs": 216319
+     "startMs": 213370,
+     "endMs": 215719
     }
    ],
    "timing": "verified",
@@ -859,14 +857,14 @@
    }
   },
   {
-   "id": "ep04_s10_l04",
-   "scene": 10,
+   "id": "ep04_s09_l06",
+   "scene": 9,
    "speakerId": "STUDENT",
    "speakerName": "أحد الطلاب",
    "direction": "بإعجاب",
    "text": "أحب أن أستمع إلى دروسك لأنك تجعلنا نفكر ونسأل، لا أن نحفظ الكلام فقط",
-   "startMs": 216670,
-   "endMs": 223315,
+   "startMs": 216070,
+   "endMs": 222715,
    "clip": {
     "file": "audio/Ep3/Juniorscholar.wav",
     "startMs": 20230,
@@ -875,8 +873,35 @@
    "lines": [
     {
      "text": "أحب أن أستمع إلى دروسك لأنك تجعلنا نفكر ونسأل، لا أن نحفظ الكلام فقط",
-     "startMs": 216670,
-     "endMs": 223315
+     "startMs": 216070,
+     "endMs": 222715
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s10_l01",
+   "scene": 10,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بصوت واثق",
+   "text": "لا أريد أن أكتفي بالكلام سأقرأ أكثر وأبحث أكثر وأحاول أن أجيب عن أسئلة الناس",
+   "startMs": 223915,
+   "endMs": 231295,
+   "clip": {
+    "file": "audio/Ep4/Hisyouth1.wav",
+    "startMs": 51930,
+    "endMs": 59310
+   },
+   "lines": [
+    {
+     "text": "لا أريد أن أكتفي بالكلام سأقرأ أكثر وأبحث أكثر وأحاول أن أجيب عن أسئلة الناس",
+     "startMs": 223915,
+     "endMs": 231295
     }
    ],
    "timing": "verified",
@@ -888,22 +913,22 @@
   {
    "id": "ep04_s11_l01",
    "scene": 11,
-   "speakerId": "AL_TIJANI",
-   "speakerName": "التيجاني",
-   "direction": "بصوت واثق",
-   "text": "لا أريد أن أكتفي بالكلام سأقرأ أكثر وأبحث أكثر وأحاول أن أجيب عن أسئلة الناس",
-   "startMs": 224515,
-   "endMs": 231895,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بنبرة هادئة",
+   "text": "وفي تلك المرحلة لم يكتفي بالتدريس الديني فقد كان يعمل أيضا في تعليم التكنولوجيا والمبادئ التقنية ويخصص من وقته للقراءة والتحضير والإجابة عن الأسئلة",
+   "startMs": 232495,
+   "endMs": 245085,
    "clip": {
-    "file": "audio/Ep4/Hisyouth1.wav",
-    "startMs": 51930,
-    "endMs": 59310
+    "file": "audio/Ep4/Narrator4.wav",
+    "startMs": 130260,
+    "endMs": 142850
    },
    "lines": [
     {
-     "text": "لا أريد أن أكتفي بالكلام سأقرأ أكثر وأبحث أكثر وأحاول أن أجيب عن أسئلة الناس",
-     "startMs": 224515,
-     "endMs": 231895
+     "text": "وفي تلك المرحلة لم يكتفي بالتدريس الديني فقد كان يعمل أيضا في تعليم التكنولوجيا والمبادئ التقنية ويخصص من وقته للقراءة والتحضير والإجابة عن الأسئلة",
+     "startMs": 232495,
+     "endMs": 245085
     }
    ],
    "timing": "verified",
@@ -915,22 +940,49 @@
   {
    "id": "ep04_s12_l01",
    "scene": 12,
-   "speakerId": "NARRATOR",
-   "speakerName": "الراوي",
-   "direction": "بنبرة هادئة",
-   "text": "وفي تلك المرحلة لم يكتفي بالتدريس الديني فقد كان يعمل أيضا في تعليم التكنولوجيا والمبادئ التقنية ويخصص من وقته للقراءة والتحضير والإجابة عن الأسئلة",
-   "startMs": 233095,
-   "endMs": 245685,
+   "speakerId": "MOTHER",
+   "speakerName": "الأم",
+   "direction": "بحنان عميق",
+   "text": "يا ولدي اللي أبغيه الآن أني شوفك مستقر وسعيد في حياتك وأن أفرح بيوم زواجك كما فرحت اليوم بعودتك",
+   "startMs": 246285,
+   "endMs": 256935,
    "clip": {
-    "file": "audio/Ep4/Narrator4.wav",
-    "startMs": 130260,
-    "endMs": 142850
+    "file": "audio/Ep4/Mom1.wav",
+    "startMs": 18610,
+    "endMs": 29260
    },
    "lines": [
     {
-     "text": "وفي تلك المرحلة لم يكتفي بالتدريس الديني فقد كان يعمل أيضا في تعليم التكنولوجيا والمبادئ التقنية ويخصص من وقته للقراءة والتحضير والإجابة عن الأسئلة",
-     "startMs": 233095,
-     "endMs": 245685
+     "text": "يا ولدي اللي أبغيه الآن أني شوفك مستقر وسعيد في حياتك وأن أفرح بيوم زواجك كما فرحت اليوم بعودتك",
+     "startMs": 246285,
+     "endMs": 256934
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s12_l02",
+   "scene": 12,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "بصوت حنون ومؤثر",
+   "text": "وشهدت حياته العائلية تحولا آخر كانت والدته تتمنى أن تراه عريسا قبل وفاتها فاستجاب لرغبتها وتزوج ثم رزق بأبناء",
+   "startMs": 257535,
+   "endMs": 268855,
+   "clip": {
+    "file": "audio/Ep4/Narrator4.wav",
+    "startMs": 145830,
+    "endMs": 157150
+   },
+   "lines": [
+    {
+     "text": "وشهدت حياته العائلية تحولا آخر كانت والدته تتمنى أن تراه عريسا قبل وفاتها فاستجاب لرغبتها وتزوج ثم رزق بأبناء",
+     "startMs": 257535,
+     "endMs": 268855
     }
    ],
    "timing": "verified",
@@ -942,22 +994,22 @@
   {
    "id": "ep04_s13_l01",
    "scene": 13,
-   "speakerId": "MOTHER",
-   "speakerName": "الأم",
-   "direction": "بحنان عميق",
-   "text": "يا ولدي اللي أبغيه الآن أني شوفك مستقر وسعيد في حياتك وأن أفرح بيوم زواجك كما فرحت اليوم بعودتك",
-   "startMs": 246885,
-   "endMs": 257535,
+   "speakerId": "AL_TIJANI",
+   "speakerName": "التيجاني",
+   "direction": "بتأمل خفيف",
+   "text": "أشعر أن أمامي مسؤولية كبيرة ولكنني ما زلت في بداية الطريق",
+   "startMs": 270055,
+   "endMs": 275505,
    "clip": {
-    "file": "audio/Ep4/Mom1.wav",
-    "startMs": 18610,
-    "endMs": 29260
+    "file": "audio/Ep4/Hisyouth1.wav",
+    "startMs": 62360,
+    "endMs": 67810
    },
    "lines": [
     {
-     "text": "يا ولدي اللي أبغيه الآن أني شوفك مستقر وسعيد في حياتك وأن أفرح بيوم زواجك كما فرحت اليوم بعودتك",
-     "startMs": 246885,
-     "endMs": 257534
+     "text": "أشعر أن أمامي مسؤولية كبيرة ولكنني ما زلت في بداية الطريق",
+     "startMs": 270055,
+     "endMs": 275505
     }
    ],
    "timing": "verified",
@@ -971,20 +1023,20 @@
    "scene": 13,
    "speakerId": "NARRATOR",
    "speakerName": "الراوي",
-   "direction": "بصوت حنون ومؤثر",
-   "text": "وشهدت حياته العائلية تحولا آخر كانت والدته تتمنى أن تراه عريسا قبل وفاتها فاستجاب لرغبتها وتزوج ثم رزق بأبناء",
-   "startMs": 258135,
-   "endMs": 269455,
+   "direction": "بنبرة تأملية",
+   "text": "كانت مكانته تتسع وثيقته بأفكاره تزداد لكن الحياة كانت تعد له لقاء جديدا لقاء سيضع أمامه طريقين مختلفين وسؤالا لن يستطيع الهروب منه",
+   "startMs": 276105,
+   "endMs": 290965,
    "clip": {
     "file": "audio/Ep4/Narrator4.wav",
-    "startMs": 145830,
-    "endMs": 157150
+    "startMs": 159520,
+    "endMs": 174380
    },
    "lines": [
     {
-     "text": "وشهدت حياته العائلية تحولا آخر كانت والدته تتمنى أن تراه عريسا قبل وفاتها فاستجاب لرغبتها وتزوج ثم رزق بأبناء",
-     "startMs": 258135,
-     "endMs": 269455
+     "text": "كانت مكانته تتسع وثيقته بأفكاره تزداد لكن الحياة كانت تعد له لقاء جديدا لقاء سيضع أمامه طريقين مختلفين وسؤالا لن يستطيع الهروب منه",
+     "startMs": 276105,
+     "endMs": 290965
     }
    ],
    "timing": "verified",
@@ -996,66 +1048,12 @@
   {
    "id": "ep04_s14_l01",
    "scene": 14,
-   "speakerId": "AL_TIJANI",
-   "speakerName": "التيجاني",
-   "direction": "بتأمل خفيف",
-   "text": "أشعر أن أمامي مسؤولية كبيرة ولكنني ما زلت في بداية الطريق",
-   "startMs": 270655,
-   "endMs": 276105,
-   "clip": {
-    "file": "audio/Ep4/Hisyouth1.wav",
-    "startMs": 62360,
-    "endMs": 67810
-   },
-   "lines": [
-    {
-     "text": "أشعر أن أمامي مسؤولية كبيرة ولكنني ما زلت في بداية الطريق",
-     "startMs": 270655,
-     "endMs": 276105
-    }
-   ],
-   "timing": "verified",
-   "alignment": {
-    "confidence": 1.0,
-    "flags": []
-   }
-  },
-  {
-   "id": "ep04_s14_l02",
-   "scene": 14,
-   "speakerId": "NARRATOR",
-   "speakerName": "الراوي",
-   "direction": "بنبرة تأملية",
-   "text": "كانت مكانته تتسع وثيقته بأفكاره تزداد لكن الحياة كانت تعد له لقاء جديدا لقاء سيضع أمامه طريقين مختلفين وسؤالا لن يستطيع الهروب منه",
-   "startMs": 276705,
-   "endMs": 291565,
-   "clip": {
-    "file": "audio/Ep4/Narrator4.wav",
-    "startMs": 159520,
-    "endMs": 174380
-   },
-   "lines": [
-    {
-     "text": "كانت مكانته تتسع وثيقته بأفكاره تزداد لكن الحياة كانت تعد له لقاء جديدا لقاء سيضع أمامه طريقين مختلفين وسؤالا لن يستطيع الهروب منه",
-     "startMs": 276705,
-     "endMs": 291565
-    }
-   ],
-   "timing": "verified",
-   "alignment": {
-    "confidence": 1.0,
-    "flags": []
-   }
-  },
-  {
-   "id": "ep04_s15_l01",
-   "scene": 15,
    "speakerId": "NARRATOR",
    "speakerName": "الراوي",
    "direction": "بصوت ختامي مشوق",
    "text": "هل يكفي أن نرث معتقداتنا أو نتأثر بمن نحبهم لكي نصل إلى الحقيقة؟ كان الجواب لا يزال بعيدا",
-   "startMs": 292165,
-   "endMs": 300720,
+   "startMs": 291565,
+   "endMs": 300120,
    "clip": {
     "file": "audio/Ep4/Narrator4.wav",
     "startMs": 177070,
@@ -1064,13 +1062,13 @@
    "lines": [
     {
      "text": "هل يكفي أن نرث معتقداتنا أو نتأثر بمن نحبهم لكي نصل إلى الحقيقة؟",
-     "startMs": 292165,
-     "endMs": 297835
+     "startMs": 291565,
+     "endMs": 297235
     },
     {
      "text": "كان الجواب لا يزال بعيدا",
-     "startMs": 297835,
-     "endMs": 300720
+     "startMs": 297235,
+     "endMs": 300120
     }
    ],
    "timing": "verified",
@@ -1134,43 +1132,37 @@
    "scene": 9,
    "cue": "reverent",
    "startMs": 174700,
-   "endMs": 202390
+   "endMs": 224115
   },
   {
    "scene": 10,
    "cue": "suspense",
-   "startMs": 200790,
-   "endMs": 224715
+   "startMs": 222515,
+   "endMs": 232695
   },
   {
    "scene": 11,
    "cue": "suspense",
-   "startMs": 223114,
-   "endMs": 233295
+   "startMs": 231095,
+   "endMs": 246485
   },
   {
    "scene": 12,
    "cue": "reflective",
-   "startMs": 231695,
-   "endMs": 247085
+   "startMs": 244885,
+   "endMs": 270255
   },
   {
    "scene": 13,
    "cue": "warm",
-   "startMs": 245484,
-   "endMs": 270855
+   "startMs": 268655,
+   "endMs": 292065
   },
   {
    "scene": 14,
    "cue": "warm",
-   "startMs": 269255,
-   "endMs": 292665
-  },
-  {
-   "scene": 15,
-   "cue": "ending",
-   "startMs": 291065,
-   "endMs": 303020
+   "startMs": 290465,
+   "endMs": 302420
   }
  ]
 }
