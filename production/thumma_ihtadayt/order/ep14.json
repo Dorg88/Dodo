@@ -1,18 +1,117 @@
-{"episode": 14, "status": "proposed", "note": "Play order proposed from the per-character script and the order of the 15 illustrations; to be confirmed by the producer.",
+{
+ "episode": 14,
+ "status": "approved by the producer (order, pictures and corrected text), 2026-10-26",
+ "note": "Play order proposed from the per-character script and the order of the 15 illustrations; to be confirmed by the producer.",
  "scenes": [
-  {"image": 1,  "title": "في الطريق", "lines": ["N1"]},
-  {"image": 2,  "title": "على باب السيد الصدر", "lines": ["AS1"]},
-  {"image": 3,  "title": "مجلس العلم", "lines": ["N2.1-2"]},
-  {"image": 4,  "title": "الضيف القادم من تونس", "lines": ["N2.3", "T1"]},
-  {"image": 5,  "title": "السؤال الصريح", "lines": ["BS1", "T2"]},
-  {"image": 6,  "title": "النصوص وأسانيدها", "lines": ["BS2"]},
-  {"image": 7,  "title": "الخلفاء والصحابة", "lines": ["T3", "BS3"]},
-  {"image": 8,  "title": "الطرق الصوفية والتوسل", "lines": ["T4", "BS4"]},
-  {"image": 9,  "title": "مسائل كثيرة", "lines": ["N3.1"]},
-  {"image": 10, "title": "أجوبة المدرسة الإمامية", "lines": ["N3.2"]},
-  {"image": 11, "title": "تراث من البحث", "lines": ["N4"]},
-  {"image": 12, "title": "امتنان", "lines": ["T5", "BS5"]},
-  {"image": 13, "title": "الخروج من المجلس", "lines": ["N5.1"]},
-  {"image": 14, "title": "الإنصاف", "lines": ["N5.2"]},
-  {"image": 15, "title": "مسؤولية جديدة", "lines": ["TA1"]}
- ]}
+  {
+   "image": 1,
+   "title": "في الطريق",
+   "lines": [
+    "N1"
+   ]
+  },
+  {
+   "image": 2,
+   "title": "على باب السيد الصدر",
+   "lines": [
+    "AS1"
+   ]
+  },
+  {
+   "image": 3,
+   "title": "مجلس العلم",
+   "lines": [
+    "N2.1-2"
+   ]
+  },
+  {
+   "image": 4,
+   "title": "الضيف القادم من تونس",
+   "lines": [
+    "N2.3",
+    "T1"
+   ]
+  },
+  {
+   "image": 5,
+   "title": "السؤال الصريح",
+   "lines": [
+    "BS1",
+    "T2"
+   ]
+  },
+  {
+   "image": 6,
+   "title": "النصوص وأسانيدها",
+   "lines": [
+    "BS2"
+   ]
+  },
+  {
+   "image": 7,
+   "title": "الخلفاء والصحابة",
+   "lines": [
+    "T3",
+    "BS3"
+   ]
+  },
+  {
+   "image": 8,
+   "title": "الطرق الصوفية والتوسل",
+   "lines": [
+    "T4",
+    "BS4"
+   ]
+  },
+  {
+   "image": 9,
+   "title": "مسائل كثيرة",
+   "lines": [
+    "N3.1"
+   ]
+  },
+  {
+   "image": 10,
+   "title": "أجوبة المدرسة الإمامية",
+   "lines": [
+    "N3.2"
+   ]
+  },
+  {
+   "image": 11,
+   "title": "تراث من البحث",
+   "lines": [
+    "N4"
+   ]
+  },
+  {
+   "image": 12,
+   "title": "امتنان",
+   "lines": [
+    "T5",
+    "BS5"
+   ]
+  },
+  {
+   "image": 13,
+   "title": "الخروج من المجلس",
+   "lines": [
+    "N5.1"
+   ]
+  },
+  {
+   "image": 14,
+   "title": "الإنصاف",
+   "lines": [
+    "N5.2"
+   ]
+  },
+  {
+   "image": 15,
+   "title": "مسؤولية جديدة",
+   "lines": [
+    "TA1"
+   ]
+  }
+ ]
+}

@@ -1,18 +1,114 @@
-{"episode": 19, "status": "proposed", "note": "Play order proposed from the per-character script and the order of the 15 illustrations; to be confirmed by the producer.",
+{
+ "episode": 19,
+ "status": "approved by the producer (order, pictures and corrected text), 2026-10-26",
+ "note": "Play order proposed from the per-character script and the order of the 15 illustrations; to be confirmed by the producer.",
  "scenes": [
-  {"image": 1,  "title": "ثلاثة أشهر", "lines": ["N1.1"]},
-  {"image": 2,  "title": "لا طمأنينة سريعة", "lines": ["N1.2"]},
-  {"image": 3,  "title": "أراجع وأقارن", "lines": ["T1"]},
-  {"image": 4,  "title": "أخشى أن أكون ظلمت أحدا", "lines": ["T2"]},
-  {"image": 5,  "title": "حيرة حتى في النوم", "lines": ["N2.1"]},
-  {"image": 6,  "title": "خوف من تجاوز الحدود", "lines": ["N2.2/1"]},
-  {"image": 7,  "title": "خوف من إغلاق الباب", "lines": ["N2.2/2"]},
-  {"image": 8,  "title": "شيء يتغير", "lines": ["N3.1"]},
-  {"image": 9,  "title": "قراءة نقدية", "lines": ["N3.2"]},
-  {"image": 10, "title": "عودة إلى الدعاء", "lines": ["N3.3", "T3"]},
-  {"image": 11, "title": "أبدأ أفهم", "lines": ["T4"]},
-  {"image": 12, "title": "لحظة الموقف", "lines": ["N4.1"]},
-  {"image": 13, "title": "القناعة", "lines": ["N4.2"]},
-  {"image": 14, "title": "مسؤولية الاختيار", "lines": ["T5"]},
-  {"image": 15, "title": "بداية هداية وراحة", "lines": ["N5", "TA1"]}
- ]}
+  {
+   "image": 1,
+   "title": "ثلاثة أشهر",
+   "lines": [
+    "N1.1"
+   ]
+  },
+  {
+   "image": 2,
+   "title": "لا طمأنينة سريعة",
+   "lines": [
+    "N1.2"
+   ]
+  },
+  {
+   "image": 3,
+   "title": "أراجع وأقارن",
+   "lines": [
+    "T1"
+   ]
+  },
+  {
+   "image": 4,
+   "title": "أخشى أن أكون ظلمت أحدا",
+   "lines": [
+    "T2"
+   ]
+  },
+  {
+   "image": 5,
+   "title": "حيرة حتى في النوم",
+   "lines": [
+    "N2.1"
+   ]
+  },
+  {
+   "image": 6,
+   "title": "خوف من تجاوز الحدود",
+   "lines": [
+    "N2.2/1"
+   ]
+  },
+  {
+   "image": 7,
+   "title": "خوف من إغلاق الباب",
+   "lines": [
+    "N2.2/2"
+   ]
+  },
+  {
+   "image": 8,
+   "title": "شيء يتغير",
+   "lines": [
+    "N3.1"
+   ]
+  },
+  {
+   "image": 9,
+   "title": "قراءة نقدية",
+   "lines": [
+    "N3.2"
+   ]
+  },
+  {
+   "image": 10,
+   "title": "عودة إلى الدعاء",
+   "lines": [
+    "N3.3",
+    "T3"
+   ]
+  },
+  {
+   "image": 11,
+   "title": "أبدأ أفهم",
+   "lines": [
+    "T4"
+   ]
+  },
+  {
+   "image": 12,
+   "title": "لحظة الموقف",
+   "lines": [
+    "N4.1"
+   ]
+  },
+  {
+   "image": 13,
+   "title": "القناعة",
+   "lines": [
+    "N4.2"
+   ]
+  },
+  {
+   "image": 14,
+   "title": "مسؤولية الاختيار",
+   "lines": [
+    "T5"
+   ]
+  },
+  {
+   "image": 15,
+   "title": "بداية هداية وراحة",
+   "lines": [
+    "N5",
+    "TA1"
+   ]
+  }
+ ]
+}

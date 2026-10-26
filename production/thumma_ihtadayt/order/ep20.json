@@ -1,18 +1,106 @@
-{"episode": 20, "status": "proposed", "note": "Recovered transcript: Batch 3 was recorded from a script that is not among the delivered files (the drafts for Episodes 20–22 do not match the recordings). Episode boundaries inside the batch recordings, speaking order and illustration placement are proposed from the content; to be confirmed by the producer.",
+{
+ "episode": 20,
+ "status": "approved by the producer (order, pictures and corrected text), 2026-10-26",
+ "note": "Recovered transcript: Batch 3 was recorded from a script that is not among the delivered files (the drafts for Episodes 20–22 do not match the recordings). Episode boundaries inside the batch recordings, speaking order and illustration placement are proposed from the content; to be confirmed by the producer.",
  "out_of_order_images": "Illustration 12 (al-Tijani and Munim on the ship) opens the episode: the first narration names «لقاء واحد في عرض البحر». Illustration 14 is not used.",
  "scenes": [
-  {"image": 12, "title": "لم يكن قرارا عابرا", "lines": ["N1"]},
-  {"image": 1,  "title": "لماذا تغيرت قناعتي؟", "lines": ["T1"]},
-  {"image": 2,  "title": "المرجعية بعد النبي", "lines": ["N2"]},
-  {"image": 3,  "title": "ما يستدلون به", "lines": ["T2"]},
-  {"image": 4,  "title": "روايات أهل البيت", "lines": ["N3"]},
-  {"image": 5,  "title": "الثقلين والغدير", "lines": ["T3"]},
-  {"image": 6,  "title": "تفسيرات مختلفة", "lines": ["T4"]},
-  {"image": 7,  "title": "أعمق من مذهب", "lines": ["N4"]},
-  {"image": 8,  "title": "سؤال عن المرجعية", "lines": ["T5"]},
-  {"image": 9,  "title": "محبة أهل البيت", "lines": ["T6"]},
-  {"image": 10, "title": "الإنصاف مع المخالفين", "lines": ["N5"]},
-  {"image": 11, "title": "مقدار التعب", "lines": ["T7"]},
-  {"image": 13, "title": "لا تعصب", "lines": ["T8"]},
-  {"image": 15, "title": "سؤال آخر", "lines": ["N6"]}
- ]}
+  {
+   "image": 12,
+   "title": "لم يكن قرارا عابرا",
+   "lines": [
+    "N1"
+   ]
+  },
+  {
+   "image": 1,
+   "title": "لماذا تغيرت قناعتي؟",
+   "lines": [
+    "T1"
+   ]
+  },
+  {
+   "image": 2,
+   "title": "المرجعية بعد النبي",
+   "lines": [
+    "N2"
+   ]
+  },
+  {
+   "image": 3,
+   "title": "ما يستدلون به",
+   "lines": [
+    "T2"
+   ]
+  },
+  {
+   "image": 4,
+   "title": "روايات أهل البيت",
+   "lines": [
+    "N3"
+   ]
+  },
+  {
+   "image": 5,
+   "title": "الثقلين والغدير",
+   "lines": [
+    "T3"
+   ]
+  },
+  {
+   "image": 6,
+   "title": "تفسيرات مختلفة",
+   "lines": [
+    "T4"
+   ]
+  },
+  {
+   "image": 7,
+   "title": "أعمق من مذهب",
+   "lines": [
+    "N4"
+   ]
+  },
+  {
+   "image": 8,
+   "title": "سؤال عن المرجعية",
+   "lines": [
+    "T5"
+   ]
+  },
+  {
+   "image": 9,
+   "title": "محبة أهل البيت",
+   "lines": [
+    "T6"
+   ]
+  },
+  {
+   "image": 10,
+   "title": "الإنصاف مع المخالفين",
+   "lines": [
+    "N5"
+   ]
+  },
+  {
+   "image": 11,
+   "title": "مقدار التعب",
+   "lines": [
+    "T7"
+   ]
+  },
+  {
+   "image": 13,
+   "title": "لا تعصب",
+   "lines": [
+    "T8"
+   ]
+  },
+  {
+   "image": 15,
+   "title": "سؤال آخر",
+   "lines": [
+    "N6"
+   ]
+  }
+ ]
+}

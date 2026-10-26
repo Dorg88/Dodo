@@ -1,18 +1,120 @@
-{"episode": 10, "status": "proposed", "note": "Play order proposed from the per-character script and the order of the 15 illustrations; to be confirmed by the producer.",
+{
+ "episode": 10,
+ "status": "approved by the producer (order, pictures and corrected text), 2026-10-26",
+ "note": "Play order proposed from the per-character script and the order of the 15 illustrations; to be confirmed by the producer.",
  "scenes": [
-  {"image": 1,  "title": "صباح بغداد", "lines": ["N1.1"]},
-  {"image": 2,  "title": "مقام الشيخ عبد القادر", "lines": ["T1"]},
-  {"image": 3,  "title": "شوق قديم", "lines": ["N1.2/1", "T2"]},
-  {"image": 4,  "title": "بين الزائرين", "lines": ["N1.2/2-3", "M1"]},
-  {"image": 5,  "title": "مصادر عن الشيخ", "lines": ["R1", "R2"]},
-  {"image": 6,  "title": "في أسواق بغداد", "lines": ["N2.1/1"]},
-  {"image": 7,  "title": "إلى مراقد أخرى", "lines": ["N2.1/2-3"]},
-  {"image": 8,  "title": "مرقد الإمام موسى الكاظم", "lines": ["T3.1"]},
-  {"image": 9,  "title": "طقوس لم يألفها", "lines": ["T3.2", "N3.1"]},
-  {"image": 10, "title": "أسئلة الزيارة", "lines": ["N3.2", "T4"]},
-  {"image": 11, "title": "الاحترام والعبادة", "lines": ["M2"]},
-  {"image": 12, "title": "حوار ونقاش", "lines": ["N4.1-2", "T5", "M3"]},
-  {"image": 13, "title": "كتاب عن الجيلاني", "lines": ["N4.3", "T6"]},
-  {"image": 14, "title": "الاختلاف أمام عينيه", "lines": ["N5"]},
-  {"image": 15, "title": "ليل الأسئلة", "lines": ["N6"]}
- ]}
+  {
+   "image": 1,
+   "title": "صباح بغداد",
+   "lines": [
+    "N1.1"
+   ]
+  },
+  {
+   "image": 2,
+   "title": "مقام الشيخ عبد القادر",
+   "lines": [
+    "T1"
+   ]
+  },
+  {
+   "image": 3,
+   "title": "شوق قديم",
+   "lines": [
+    "N1.2/1",
+    "T2"
+   ]
+  },
+  {
+   "image": 4,
+   "title": "بين الزائرين",
+   "lines": [
+    "N1.2/2-3",
+    "M1"
+   ]
+  },
+  {
+   "image": 5,
+   "title": "مصادر عن الشيخ",
+   "lines": [
+    "R1",
+    "R2"
+   ]
+  },
+  {
+   "image": 6,
+   "title": "في أسواق بغداد",
+   "lines": [
+    "N2.1/1"
+   ]
+  },
+  {
+   "image": 7,
+   "title": "إلى مراقد أخرى",
+   "lines": [
+    "N2.1/2-3"
+   ]
+  },
+  {
+   "image": 8,
+   "title": "مرقد الإمام موسى الكاظم",
+   "lines": [
+    "T3.1"
+   ]
+  },
+  {
+   "image": 9,
+   "title": "طقوس لم يألفها",
+   "lines": [
+    "T3.2",
+    "N3.1"
+   ]
+  },
+  {
+   "image": 10,
+   "title": "أسئلة الزيارة",
+   "lines": [
+    "N3.2",
+    "T4"
+   ]
+  },
+  {
+   "image": 11,
+   "title": "الاحترام والعبادة",
+   "lines": [
+    "M2"
+   ]
+  },
+  {
+   "image": 12,
+   "title": "حوار ونقاش",
+   "lines": [
+    "N4.1-2",
+    "T5",
+    "M3"
+   ]
+  },
+  {
+   "image": 13,
+   "title": "كتاب عن الجيلاني",
+   "lines": [
+    "N4.3",
+    "T6"
+   ]
+  },
+  {
+   "image": 14,
+   "title": "الاختلاف أمام عينيه",
+   "lines": [
+    "N5"
+   ]
+  },
+  {
+   "image": 15,
+   "title": "ليل الأسئلة",
+   "lines": [
+    "N6"
+   ]
+  }
+ ]
+}

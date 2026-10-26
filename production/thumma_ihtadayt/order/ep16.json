@@ -1,18 +1,113 @@
-{"episode": 16, "status": "proposed", "note": "Play order proposed from the per-character script and the order of the 15 illustrations; to be confirmed by the producer.",
+{
+ "episode": 16,
+ "status": "approved by the producer (order, pictures and corrected text), 2026-10-26",
+ "note": "Play order proposed from the per-character script and the order of the 15 illustrations; to be confirmed by the producer.",
  "scenes": [
-  {"image": 1,  "title": "المكتبة", "lines": ["N1.1"]},
-  {"image": 2,  "title": "مكتبة خاصة", "lines": ["T1.1"]},
-  {"image": 3,  "title": "أقرؤها كلها", "lines": ["T1.2"]},
-  {"image": 4,  "title": "العودة إلى التعليم", "lines": ["N1.2/1"]},
-  {"image": 5,  "title": "ساعات المطالعة", "lines": ["N1.2/2"]},
-  {"image": 6,  "title": "هدف واضح", "lines": ["N2"]},
-  {"image": 7,  "title": "جمع الروايات", "lines": ["N3.1/1"]},
-  {"image": 8,  "title": "قول وقول آخر", "lines": ["N3.1/2", "T2"]},
-  {"image": 9,  "title": "كيف تنتقل المعرفة", "lines": ["N3.2"]},
-  {"image": 10, "title": "خوف من النتائج", "lines": ["T3"]},
-  {"image": 11, "title": "جدوى البحث", "lines": ["T4"]},
-  {"image": 12, "title": "وحده بين الرفوف", "lines": ["N4.1/1-2"]},
-  {"image": 13, "title": "الصوت الداخلي", "lines": ["N4.1/3-4"]},
-  {"image": 14, "title": "دعاء", "lines": ["T5"]},
-  {"image": 15, "title": "محاسبة النفس", "lines": ["TA1"]}
- ]}
+  {
+   "image": 1,
+   "title": "المكتبة",
+   "lines": [
+    "N1.1"
+   ]
+  },
+  {
+   "image": 2,
+   "title": "مكتبة خاصة",
+   "lines": [
+    "T1.1"
+   ]
+  },
+  {
+   "image": 3,
+   "title": "أقرؤها كلها",
+   "lines": [
+    "T1.2"
+   ]
+  },
+  {
+   "image": 4,
+   "title": "العودة إلى التعليم",
+   "lines": [
+    "N1.2/1"
+   ]
+  },
+  {
+   "image": 5,
+   "title": "ساعات المطالعة",
+   "lines": [
+    "N1.2/2"
+   ]
+  },
+  {
+   "image": 6,
+   "title": "هدف واضح",
+   "lines": [
+    "N2"
+   ]
+  },
+  {
+   "image": 7,
+   "title": "جمع الروايات",
+   "lines": [
+    "N3.1/1"
+   ]
+  },
+  {
+   "image": 8,
+   "title": "قول وقول آخر",
+   "lines": [
+    "N3.1/2",
+    "T2"
+   ]
+  },
+  {
+   "image": 9,
+   "title": "كيف تنتقل المعرفة",
+   "lines": [
+    "N3.2"
+   ]
+  },
+  {
+   "image": 10,
+   "title": "خوف من النتائج",
+   "lines": [
+    "T3"
+   ]
+  },
+  {
+   "image": 11,
+   "title": "جدوى البحث",
+   "lines": [
+    "T4"
+   ]
+  },
+  {
+   "image": 12,
+   "title": "وحده بين الرفوف",
+   "lines": [
+    "N4.1/1-2"
+   ]
+  },
+  {
+   "image": 13,
+   "title": "الصوت الداخلي",
+   "lines": [
+    "N4.1/3-4"
+   ]
+  },
+  {
+   "image": 14,
+   "title": "دعاء",
+   "lines": [
+    "T5"
+   ]
+  },
+  {
+   "image": 15,
+   "title": "محاسبة النفس",
+   "lines": [
+    "TA1"
+   ]
+  }
+ ]
+}

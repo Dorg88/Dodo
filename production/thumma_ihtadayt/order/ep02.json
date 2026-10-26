@@ -1,17 +1,114 @@
-{"episode": 2, "status": "proposed", "note": "Recovered transcript (no original script): speaking order and illustration placement proposed from the content and the order of the 15 illustrations; to be confirmed by the producer.",
- "unused_images": {"12": "a rest stop on the journey: the narration covers the journey in one passage", "14": "the packed suitcase: no passage left to place it on"},
+{
+ "episode": 2,
+ "status": "approved by the producer (order, pictures and corrected text), 2026-10-26",
+ "note": "Recovered transcript (no original script): speaking order and illustration placement proposed from the content and the order of the 15 illustrations; to be confirmed by the producer.",
+ "unused_images": {
+  "12": "a rest stop on the journey: the narration covers the journey in one passage",
+  "14": "the packed suitcase: no passage left to place it on"
+ },
  "scenes": [
-  {"image": 1,  "title": "ذكريات المسجد", "lines": ["N1", "TA1", "N2", "TA2"]},
-  {"image": 2,  "title": "دروس الأم", "lines": ["N3", "TA3", "MO1", "MO2", "MO3", "MO4"]},
-  {"image": 3,  "title": "اسم التيجاني", "lines": ["N4"]},
-  {"image": 4,  "title": "مجالس الطرق الصوفية", "lines": ["N5", "TA4"]},
-  {"image": 5,  "title": "خبر غير متوقع", "lines": ["N6"]},
-  {"image": 6,  "title": "فرصة الحج", "lines": ["N7"]},
-  {"image": 7,  "title": "دعاء الأب", "lines": ["FA1", "FA2", "FA3"]},
-  {"image": 8,  "title": "دموع الوداع", "lines": ["N8", "MO5"]},
-  {"image": 9,  "title": "أسئلة لم يتوقعها", "lines": ["TA5"]},
-  {"image": 10, "title": "اختير اسمي", "lines": ["TA6"]},
-  {"image": 11, "title": "الحلم يقترب", "lines": ["TA7"]},
-  {"image": 13, "title": "من زوار بيتك", "lines": ["TA8"]},
-  {"image": 15, "title": "بداية رحلة جديدة", "lines": ["N9"]}
- ]}
+  {
+   "image": 1,
+   "title": "ذكريات المسجد",
+   "lines": [
+    "N1",
+    "TA1",
+    "N2",
+    "TA2"
+   ]
+  },
+  {
+   "image": 2,
+   "title": "دروس الأم",
+   "lines": [
+    "N3",
+    "TA3",
+    "MO1",
+    "MO2",
+    "MO3",
+    "MO4"
+   ]
+  },
+  {
+   "image": 3,
+   "title": "اسم التيجاني",
+   "lines": [
+    "N4"
+   ]
+  },
+  {
+   "image": 4,
+   "title": "مجالس الطرق الصوفية",
+   "lines": [
+    "N5",
+    "TA4"
+   ]
+  },
+  {
+   "image": 5,
+   "title": "خبر غير متوقع",
+   "lines": [
+    "N6"
+   ]
+  },
+  {
+   "image": 6,
+   "title": "فرصة الحج",
+   "lines": [
+    "N7"
+   ]
+  },
+  {
+   "image": 7,
+   "title": "دعاء الأب",
+   "lines": [
+    "FA1",
+    "FA2",
+    "FA3"
+   ]
+  },
+  {
+   "image": 8,
+   "title": "دموع الوداع",
+   "lines": [
+    "N8",
+    "MO5"
+   ]
+  },
+  {
+   "image": 9,
+   "title": "أسئلة لم يتوقعها",
+   "lines": [
+    "TA5"
+   ]
+  },
+  {
+   "image": 10,
+   "title": "اختير اسمي",
+   "lines": [
+    "TA6"
+   ]
+  },
+  {
+   "image": 11,
+   "title": "الحلم يقترب",
+   "lines": [
+    "TA7"
+   ]
+  },
+  {
+   "image": 13,
+   "title": "من زوار بيتك",
+   "lines": [
+    "TA8"
+   ]
+  },
+  {
+   "image": 15,
+   "title": "بداية رحلة جديدة",
+   "lines": [
+    "N9"
+   ]
+  }
+ ]
+}

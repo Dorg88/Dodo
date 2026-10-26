@@ -39,27 +39,27 @@ to test the automatic pipeline before applying it to the other episodes. The tri
 | Ep | Title | Status | Lines (timing verified) | Clips OK | Structure | Music under voice | Text | Order and pictures |
 |---|---|---|---|---|---|---|---|---|
 | 01 | ليلة لا تنسى | **PASS** | 16 (hand-verified cuts) | first session | OK | ≥16 dB (first session) | original script | first version, unchanged |
-| 02 | من قفصة إلى بيت الله | **WARNING** | 25 (25) | 25/25 | OK | 17.7 dB | recovered from the recording | proposed — 2 unused |
+| 02 | من قفصة إلى بيت الله | **PASS** | 25 (25) | 25/25 | OK | 17.7 dB | recovered from the recording | approved by the producer |
 | 03 | أمام الكعبة لأول مرة | **PASS** | 24 (24) | 24/24 | OK | 16.0 dB | recovered from the recording | approved by the producer |
 | 04 | العودة إلى قفصة | **PASS** | 31 (31) | 31/31 | OK | 16.0 dB | recovered from the recording | approved by the producer |
-| 05 | بين التصوف والتساؤل | **WARNING** | 50 (50) | 50/50 | OK | 16.8 dB | recovered from the recording | proposed — pictures out of numeric order |
-| 06 | رحلة إلى أرض الكنانة | **WARNING** | 52 (52) | 52/52 | OK | 16.0 dB | recovered from the recording | proposed |
-| 07 | لقاء في عرض البحر | **WARNING** | 25 (25) | 25/25 | OK | 18.2 dB | delivered draft (verbatim) | proposed |
-| 08 | أسئلة لم أجد لها جوابا | **WARNING** | 26 (26) | 26/26 | OK | 18.1 dB | delivered draft (verbatim) | proposed |
-| 09 | إلى العراق لأول مرة | **WARNING** | 26 (26) | 26/26 | OK | 17.4 dB | delivered draft (verbatim) | proposed |
-| 10 | بين الجيلاني والكاظم | **WARNING** | 23 (23) | 23/23 | OK | 15.6 dB | delivered draft (verbatim) | proposed |
-| 11 | الشك والتساؤل | **WARNING** | 22 (22) | 22/22 | OK | 16.0 dB | delivered draft (verbatim) | proposed |
-| 12 | الطريق إلى النجف | **WARNING** | 22 (21) | 22/22 | OK | 18.4 dB | delivered draft (verbatim) | proposed |
-| 13 | في مجلس العلماء | **WARNING** | 19 (19) | 19/19 | OK | 18.2 dB | delivered draft (verbatim) | proposed |
-| 14 | لقاء السيد محمد باقر الصدر | **WARNING** | 20 (20) | 20/20 | OK | 17.3 dB | delivered draft (verbatim) | proposed |
-| 15 | بين الشك والحيرة | **WARNING** | 21 (21) | 21/21 | OK | 16.9 dB | delivered draft (verbatim) | proposed |
-| 16 | بداية البحث عن الحقيقة | **WARNING** | 16 (16) | 16/16 | OK | 18.5 dB | delivered draft (verbatim) | proposed |
-| 17 | الصحابة بين التاريخ والرواية | **WARNING** | 16 (16) | 16/16 | OK | 16.3 dB | delivered draft (verbatim) | proposed |
-| 18 | ماذا يقول القرآن؟ | **WARNING** | 15 (15) | 15/15 | OK | 16.0 dB | delivered draft (verbatim) | proposed |
-| 19 | لحظة التحول | **WARNING** | 17 (17) | 17/17 | OK | 16.0 dB | delivered draft (verbatim) | proposed |
-| 20 | أسباب الاستبصار | **WARNING** | 14 (14) | 14/14 | OK | 16.0 dB | recovered from the recording | proposed — pictures out of numeric order |
-| 21 | الاجتهاد في مقابل النص | **WARNING** | 15 (15) | 15/15 | OK | 16.8 dB | recovered from the recording | proposed |
-| 22 | ثم اهتديت — بداية طريق جديد | **WARNING** | 29 (29) | 29/29 | OK | 18.0 dB | recovered from the recording | proposed — 1 unused |
+| 05 | بين التصوف والتساؤل | **PASS** | 50 (50) | 50/50 | OK | 16.8 dB | recovered from the recording | approved by the producer |
+| 06 | رحلة إلى أرض الكنانة | **PASS** | 52 (52) | 52/52 | OK | 16.0 dB | recovered from the recording | approved by the producer |
+| 07 | لقاء في عرض البحر | **PASS** | 25 (25) | 25/25 | OK | 18.2 dB | delivered draft (verbatim) | approved by the producer |
+| 08 | أسئلة لم أجد لها جوابا | **PASS** | 26 (26) | 26/26 | OK | 18.1 dB | delivered draft (verbatim) | approved by the producer |
+| 09 | إلى العراق لأول مرة | **PASS** | 26 (26) | 26/26 | OK | 17.4 dB | delivered draft (verbatim) | approved by the producer |
+| 10 | بين الجيلاني والكاظم | **PASS** | 23 (23) | 23/23 | OK | 15.6 dB | delivered draft (verbatim) | approved by the producer |
+| 11 | الشك والتساؤل | **PASS** | 22 (22) | 22/22 | OK | 16.0 dB | delivered draft (verbatim) | approved by the producer |
+| 12 | الطريق إلى النجف | **PASS** | 22 (21) | 22/22 | OK | 18.4 dB | delivered draft (verbatim) | approved by the producer |
+| 13 | في مجلس العلماء | **PASS** | 19 (19) | 19/19 | OK | 18.2 dB | delivered draft (verbatim) | approved by the producer |
+| 14 | لقاء السيد محمد باقر الصدر | **PASS** | 20 (20) | 20/20 | OK | 17.3 dB | delivered draft (verbatim) | approved by the producer |
+| 15 | بين الشك والحيرة | **PASS** | 21 (21) | 21/21 | OK | 16.9 dB | delivered draft (verbatim) | approved by the producer |
+| 16 | بداية البحث عن الحقيقة | **PASS** | 16 (16) | 16/16 | OK | 18.5 dB | delivered draft (verbatim) | approved by the producer |
+| 17 | الصحابة بين التاريخ والرواية | **PASS** | 16 (16) | 16/16 | OK | 16.3 dB | delivered draft (verbatim) | approved by the producer |
+| 18 | ماذا يقول القرآن؟ | **PASS** | 15 (15) | 15/15 | OK | 16.0 dB | delivered draft (verbatim) | approved by the producer |
+| 19 | لحظة التحول | **PASS** | 17 (17) | 17/17 | OK | 16.0 dB | delivered draft (verbatim) | approved by the producer |
+| 20 | أسباب الاستبصار | **PASS** | 14 (14) | 14/14 | OK | 16.0 dB | recovered from the recording | approved by the producer |
+| 21 | الاجتهاد في مقابل النص | **PASS** | 15 (15) | 15/15 | OK | 16.8 dB | recovered from the recording | approved by the producer |
+| 22 | ثم اهتديت — بداية طريق جديد | **PASS** | 30 (30) | 30/30 | OK | 18.0 dB | recovered from the recording | approved by the producer |
 
 Imported-book test (`thumma_ihtadayt-v2.zip`, 434 MB): **all 22 episodes pass** — 524 lines in order, right picture, text and speaker at every line, 283 sentences highlighted at the right time. Recovered texts have little punctuation, so their lines highlight whole rather than sentence by sentence.
 
@@ -79,7 +79,7 @@ These cannot be recovered from the supplied assets:
    recorded order.
 3. **Files and characters — confirmed by the producer:** `Ep4.zip/Fellow.wav` is Episode 03's travel companion,
    `Ep3.zip/Juniorscholar.wav` Episode 04's student, `Ep6.zip/Atrash.wav` Sheikh Abd al-Basit; Episode 01 stays the
-   first version. Still to confirm: the episode boundaries inside Batch 3's narrator and al-Tijani recordings.
+   first version. The producer reviewed every episode and approved the order, pictures and corrected text (2026-10-26).
 4. **Illustrations.** Episode 02 leaves 12 and 14 unused, 22 leaves 10, 20 leaves 14; Episode 05 shows 10 and 12 after
    13 and 14, and 20 opens with 12, to follow the narration; Episode 06's first pictures show a sea and train
    journey while the narration describes a taxi through Libya.

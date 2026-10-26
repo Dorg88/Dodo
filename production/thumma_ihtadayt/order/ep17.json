@@ -1,18 +1,113 @@
-{"episode": 17, "status": "proposed", "note": "Play order proposed from the per-character script and the order of the 15 illustrations; to be confirmed by the producer.",
+{
+ "episode": 17,
+ "status": "approved by the producer (order, pictures and corrected text), 2026-10-26",
+ "note": "Play order proposed from the per-character script and the order of the 15 illustrations; to be confirmed by the producer.",
  "scenes": [
-  {"image": 1,  "title": "موضوع الصحابة", "lines": ["N1.1"]},
-  {"image": 2,  "title": "أساس الخلافات", "lines": ["N1.2"]},
-  {"image": 3,  "title": "لماذا الصحابة؟", "lines": ["T1"]},
-  {"image": 4,  "title": "موضوع حساس", "lines": ["N2.1"]},
-  {"image": 5,  "title": "مصادر التاريخ والحديث", "lines": ["N2.2"]},
-  {"image": 6,  "title": "الموازنة بين الروايات", "lines": ["N2.3"]},
-  {"image": 7,  "title": "الاحترام وفحص الأخبار", "lines": ["T2", "T3"]},
-  {"image": 8,  "title": "أمثلة من كتب مختلفة", "lines": ["N3"]},
-  {"image": 9,  "title": "سؤالان", "lines": ["DR1"]},
-  {"image": 10, "title": "مرة بعد مرة", "lines": ["N4.1/1"]},
-  {"image": 11, "title": "كيف أكون منصفا؟", "lines": ["N4.1/2-4"]},
-  {"image": 12, "title": "الرأي والرأي الآخر", "lines": ["T4"]},
-  {"image": 13, "title": "لا إدانة جماعية", "lines": ["TA1.1"]},
-  {"image": 14, "title": "التخلص من التعصب", "lines": ["TA1.2"]},
-  {"image": 15, "title": "بداية مرحلة طويلة", "lines": ["N5"]}
- ]}
+  {
+   "image": 1,
+   "title": "موضوع الصحابة",
+   "lines": [
+    "N1.1"
+   ]
+  },
+  {
+   "image": 2,
+   "title": "أساس الخلافات",
+   "lines": [
+    "N1.2"
+   ]
+  },
+  {
+   "image": 3,
+   "title": "لماذا الصحابة؟",
+   "lines": [
+    "T1"
+   ]
+  },
+  {
+   "image": 4,
+   "title": "موضوع حساس",
+   "lines": [
+    "N2.1"
+   ]
+  },
+  {
+   "image": 5,
+   "title": "مصادر التاريخ والحديث",
+   "lines": [
+    "N2.2"
+   ]
+  },
+  {
+   "image": 6,
+   "title": "الموازنة بين الروايات",
+   "lines": [
+    "N2.3"
+   ]
+  },
+  {
+   "image": 7,
+   "title": "الاحترام وفحص الأخبار",
+   "lines": [
+    "T2",
+    "T3"
+   ]
+  },
+  {
+   "image": 8,
+   "title": "أمثلة من كتب مختلفة",
+   "lines": [
+    "N3"
+   ]
+  },
+  {
+   "image": 9,
+   "title": "سؤالان",
+   "lines": [
+    "DR1"
+   ]
+  },
+  {
+   "image": 10,
+   "title": "مرة بعد مرة",
+   "lines": [
+    "N4.1/1"
+   ]
+  },
+  {
+   "image": 11,
+   "title": "كيف أكون منصفا؟",
+   "lines": [
+    "N4.1/2-4"
+   ]
+  },
+  {
+   "image": 12,
+   "title": "الرأي والرأي الآخر",
+   "lines": [
+    "T4"
+   ]
+  },
+  {
+   "image": 13,
+   "title": "لا إدانة جماعية",
+   "lines": [
+    "TA1.1"
+   ]
+  },
+  {
+   "image": 14,
+   "title": "التخلص من التعصب",
+   "lines": [
+    "TA1.2"
+   ]
+  },
+  {
+   "image": 15,
+   "title": "بداية مرحلة طويلة",
+   "lines": [
+    "N5"
+   ]
+  }
+ ]
+}

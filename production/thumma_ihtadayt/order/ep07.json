@@ -1,19 +1,122 @@
-{"episode": 7, "status": "proposed",
+{
+ "episode": 7,
+ "status": "approved by the producer (order, pictures and corrected text), 2026-10-26",
  "note": "Play order proposed from the per-character script and the order of the 15 illustrations; to be confirmed by the producer.",
  "scenes": [
-  {"image": 1,  "title": "من الإسكندرية إلى بيروت", "lines": ["N1.1-2"]},
-  {"image": 2,  "title": "صعود متعب", "lines": ["N1.3"]},
-  {"image": 3,  "title": "في الحجرة", "lines": ["N1.4"]},
-  {"image": 4,  "title": "صوت يسأل عن حاله", "lines": ["N1.5", "M1", "T1"]},
-  {"image": 5,  "title": "تعارف", "lines": ["N2.1-2", "T2.1-2"]},
-  {"image": 6,  "title": "حديث عن حال الأمة", "lines": ["N2.3", "T2.3", "N3.1"]},
-  {"image": 7,  "title": "حادثة في مصر", "lines": ["M2", "T3"]},
-  {"image": 8,  "title": "أنا شيعي", "lines": ["N3.2", "N4.1", "M3"]},
-  {"image": 9,  "title": "صورة قديمة", "lines": ["T4", "N4.2"]},
-  {"image": 10, "title": "من أين أخذت هذه الصورة؟", "lines": ["N4.3", "M4"]},
-  {"image": 11, "title": "أفكار شائعة", "lines": ["T5"]},
-  {"image": 12, "title": "العدل", "lines": ["M5"]},
-  {"image": 13, "title": "سؤال مفتوح", "lines": ["N4.4"]},
-  {"image": 14, "title": "يقين قديم يهتز", "lines": ["N5.1"]},
-  {"image": 15, "title": "في عرض البحر", "lines": ["N5.2"]}
- ]}
+  {
+   "image": 1,
+   "title": "من الإسكندرية إلى بيروت",
+   "lines": [
+    "N1.1-2"
+   ]
+  },
+  {
+   "image": 2,
+   "title": "صعود متعب",
+   "lines": [
+    "N1.3"
+   ]
+  },
+  {
+   "image": 3,
+   "title": "في الحجرة",
+   "lines": [
+    "N1.4"
+   ]
+  },
+  {
+   "image": 4,
+   "title": "صوت يسأل عن حاله",
+   "lines": [
+    "N1.5",
+    "M1",
+    "T1"
+   ]
+  },
+  {
+   "image": 5,
+   "title": "تعارف",
+   "lines": [
+    "N2.1-2",
+    "T2.1-2"
+   ]
+  },
+  {
+   "image": 6,
+   "title": "حديث عن حال الأمة",
+   "lines": [
+    "N2.3",
+    "T2.3",
+    "N3.1"
+   ]
+  },
+  {
+   "image": 7,
+   "title": "حادثة في مصر",
+   "lines": [
+    "M2",
+    "T3"
+   ]
+  },
+  {
+   "image": 8,
+   "title": "أنا شيعي",
+   "lines": [
+    "N3.2",
+    "N4.1",
+    "M3"
+   ]
+  },
+  {
+   "image": 9,
+   "title": "صورة قديمة",
+   "lines": [
+    "T4",
+    "N4.2"
+   ]
+  },
+  {
+   "image": 10,
+   "title": "من أين أخذت هذه الصورة؟",
+   "lines": [
+    "N4.3",
+    "M4"
+   ]
+  },
+  {
+   "image": 11,
+   "title": "أفكار شائعة",
+   "lines": [
+    "T5"
+   ]
+  },
+  {
+   "image": 12,
+   "title": "العدل",
+   "lines": [
+    "M5"
+   ]
+  },
+  {
+   "image": 13,
+   "title": "سؤال مفتوح",
+   "lines": [
+    "N4.4"
+   ]
+  },
+  {
+   "image": 14,
+   "title": "يقين قديم يهتز",
+   "lines": [
+    "N5.1"
+   ]
+  },
+  {
+   "image": 15,
+   "title": "في عرض البحر",
+   "lines": [
+    "N5.2"
+   ]
+  }
+ ]
+}
