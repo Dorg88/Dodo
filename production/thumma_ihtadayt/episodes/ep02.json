@@ -937,7 +937,7 @@
   },
   {
    "scene": 7,
-   "cue": "reflective",
+   "cue": "warm",
    "startMs": 182864,
    "endMs": 203215
   },
@@ -967,7 +967,7 @@
   },
   {
    "scene": 12,
-   "cue": "reflective",
+   "cue": "warm",
    "startMs": 236635,
    "endMs": 243505
   },

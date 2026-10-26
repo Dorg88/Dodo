@@ -19,15 +19,17 @@
     "sea"
    ],
    "level": 0.85,
-   "reason": "text: إبحار"
+   "reason": "text: إبحار; ambience of the episode's place"
   },
   {
    "scene": 3,
    "title": "في الحجرة",
-   "music": "reflective",
-   "sfx": [],
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "title: حجرة"
   },
   {
    "scene": 4,
@@ -37,96 +39,107 @@
     "sea"
    ],
    "level": 0.85,
-   "reason": "text: سفينة"
+   "reason": "text: سفينة; ambience of the episode's place"
   },
   {
    "scene": 5,
    "title": "تعارف",
-   "music": "reverent",
+   "music": "warm",
    "sfx": [
-    "roomtone",
-    "murmur"
+    "sea"
    ],
    "level": 0.85,
-   "reason": "text: جامع"
+   "reason": "text: بغداد; ambience of the episode's place"
   },
   {
    "scene": 6,
    "title": "حديث عن حال الأمة",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "sea"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 7,
    "title": "حادثة في مصر",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "sea"
+   ],
    "level": 0.85,
-   "reason": "text: مصيبة"
+   "reason": "text: مصيبة; ambience of the episode's place"
   },
   {
    "scene": 8,
    "title": "أنا شيعي",
    "music": "warm",
    "sfx": [
-    "crowd"
+    "sea"
    ],
    "level": 0.85,
-   "reason": "text: ابتسم"
+   "reason": "text: ابتسم; ambience of the episode's place"
   },
   {
    "scene": 9,
    "title": "صورة قديمة",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "sea"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 10,
    "title": "من أين أخذت هذه الصورة؟",
    "music": "reflective",
    "sfx": [
-    "study"
+    "sea"
    ],
    "level": 0.85,
-   "reason": "text: كتب"
+   "reason": "text: كتب; ambience of the episode's place"
   },
   {
    "scene": 11,
    "title": "أفكار شائعة",
    "music": "warm",
-   "sfx": [],
+   "sfx": [
+    "sea"
+   ],
    "level": 0.85,
-   "reason": "text: الحقيقة"
+   "reason": "text: الحقيقة; ambience of the episode's place"
   },
   {
    "scene": 12,
    "title": "العدل",
    "music": "reflective",
    "sfx": [
-    "study"
+    "sea"
    ],
    "level": 0.85,
-   "reason": "text: مصادر"
+   "reason": "text: مصادر; ambience of the episode's place"
   },
   {
    "scene": 13,
    "title": "سؤال مفتوح",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "sea"
+   ],
    "level": 0.85,
-   "reason": "title: سؤال"
+   "reason": "title: سؤال; ambience continues"
   },
   {
    "scene": 14,
    "title": "يقين قديم يهتز",
    "music": "warm",
-   "sfx": [],
+   "sfx": [
+    "sea"
+   ],
    "level": 0.85,
-   "reason": "title: يقين"
+   "reason": "title: يقين; ambience continues"
   },
   {
    "scene": 15,

@@ -800,7 +800,7 @@
  "musicCues": [
   {
    "scene": 1,
-   "cue": "reverent",
+   "cue": "reflective",
    "startMs": 0,
    "endMs": 13790
   },
@@ -812,7 +812,7 @@
   },
   {
    "scene": 3,
-   "cue": "reflective",
+   "cue": "warm",
    "startMs": 20500,
    "endMs": 31750
   },
@@ -872,7 +872,7 @@
   },
   {
    "scene": 13,
-   "cue": "suspense",
+   "cue": "warm",
    "startMs": 155780,
    "endMs": 165280
   },

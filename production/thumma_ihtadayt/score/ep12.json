@@ -5,9 +5,11 @@
    "scene": 1,
    "title": "إلى النجف الأشرف",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "crowd"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "text: توجه; ambience of the episode's place"
   },
   {
    "scene": 2,
@@ -35,11 +37,10 @@
    "title": "الكوفة",
    "music": "reverent",
    "sfx": [
-    "roomtone",
-    "murmur"
+    "crowd"
    ],
    "level": 0.85,
-   "reason": "text: مسجد"
+   "reason": "text: مسجد; ambience of the episode's place"
   },
   {
    "scene": 5,
@@ -67,77 +68,91 @@
    "scene": 7,
    "title": "بين ما رأى وما قرأ",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "crowd"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 8,
    "title": "ثم إلى النجف",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "crowd"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 9,
    "title": "على الطريق",
    "music": "reflective",
    "sfx": [
-    "study"
+    "city"
    ],
    "level": 0.85,
-   "reason": "text: كتب"
+   "reason": "title: الطريق"
   },
   {
    "scene": 10,
    "title": "النجف",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "crowd"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 11,
    "title": "طلاب ومجالس",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "crowd"
+   ],
    "level": 0.85,
-   "reason": "text: أسئلة"
+   "reason": "text: أسئلة; ambience of the episode's place"
   },
   {
    "scene": 12,
    "title": "حرم الإمام علي",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "crowd"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 13,
    "title": "بكاء وجنازة",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "crowd"
+   ],
    "level": 0.85,
-   "reason": "title: بكاء"
+   "reason": "title: بكاء; ambience continues"
   },
   {
    "scene": 14,
    "title": "اسأل أهل العلم",
-   "music": "warm",
+   "music": "reflective",
    "sfx": [
-    "city"
+    "murmur"
    ],
    "level": 0.85,
-   "reason": "text: مدينة"
+   "reason": "title: أهل"
   },
   {
    "scene": 15,
    "title": "عالم جديد",
    "music": "ending",
-   "sfx": [],
+   "sfx": [
+    "crowd"
+   ],
    "level": 0.85,
-   "reason": "text: سؤال; last scene"
+   "reason": "text: سؤال; ambience of the episode's place; last scene"
   }
  ]
 }

@@ -6,34 +6,40 @@
    "title": "من دمشق",
    "music": "warm",
    "sfx": [
-    "city"
+    "roomtone"
    ],
    "level": 0.85,
-   "reason": "text: بغداد"
+   "reason": "text: بغداد; ambience of the episode's place"
   },
   {
    "scene": 2,
    "title": "طريق الصحراء",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "text: وصل; ambience of the episode's place"
   },
   {
    "scene": 3,
    "title": "حر شديد",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 4,
    "title": "استراحة في الطريق",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "city"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "title: الطريق"
   },
   {
    "scene": 5,
@@ -48,54 +54,62 @@
   {
    "scene": 6,
    "title": "إلى حي جميلة",
-   "music": "reflective",
-   "sfx": [],
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "text: بيت; ambience of the episode's place"
   },
   {
    "scene": 7,
    "title": "على باب البيت",
    "music": "warm",
    "sfx": [
-    "city"
+    "roomtone"
    ],
    "level": 0.85,
-   "reason": "text: بغداد"
+   "reason": "title: البيت"
   },
   {
    "scene": 8,
    "title": "عناق الأب",
-   "music": "reflective",
-   "sfx": [],
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "text: بيت; ambience of the episode's place"
   },
   {
    "scene": 9,
    "title": "ترحيب الأم",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 10,
    "title": "كرم الضيافة",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "text: شك"
+   "reason": "text: شك; ambience of the episode's place"
   },
   {
    "scene": 11,
    "title": "الدشداشة",
    "music": "warm",
    "sfx": [
-    "city"
+    "roomtone"
    ],
    "level": 0.85,
-   "reason": "text: سفر"
+   "reason": "text: سفر; ambience of the episode's place"
   },
   {
    "scene": 12,
@@ -112,10 +126,10 @@
    "title": "الكرامات",
    "music": "reflective",
    "sfx": [
-    "study"
+    "roomtone"
    ],
    "level": 0.85,
-   "reason": "text: روايات"
+   "reason": "text: روايات; ambience of the episode's place"
   },
   {
    "scene": 14,

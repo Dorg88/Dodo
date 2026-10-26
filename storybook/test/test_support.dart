@@ -85,6 +85,10 @@ class FakeEngine implements EpisodeEngine {
   final Episode episode;
   Duration _pos = Duration.zero;
   bool _playing = false;
+  bool disposed = false;
+
+  /// Lets a test hold an episode in the middle of loading.
+  static Future<void>? loadGate;
 
   FakeEngine(this.book, this.episode);
 
@@ -97,7 +101,10 @@ class FakeEngine implements EpisodeEngine {
   @override
   Stream<void> get completed => const Stream.empty();
   @override
-  Future<void> load(Duration start) async => _pos = start;
+  Future<void> load(Duration start) async {
+    if (loadGate != null) await loadGate;
+    _pos = start;
+  }
   @override
   Future<void> play() async => _playing = true;
   @override
@@ -111,5 +118,5 @@ class FakeEngine implements EpisodeEngine {
   @override
   void resync() {}
   @override
-  Future<void> dispose() async {}
+  Future<void> dispose() async => disposed = true;
 }

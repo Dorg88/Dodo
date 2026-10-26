@@ -1017,7 +1017,7 @@
   },
   {
    "scene": 6,
-   "cue": "reflective",
+   "cue": "warm",
    "startMs": 23990,
    "endMs": 30570
   },
@@ -1029,7 +1029,7 @@
   },
   {
    "scene": 8,
-   "cue": "reflective",
+   "cue": "warm",
    "startMs": 40940,
    "endMs": 58515
   },

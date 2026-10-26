@@ -5,29 +5,31 @@
    "scene": 1,
    "title": "في النجف",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "murmur"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 2,
    "title": "طلاب صغار بالعمائم",
    "music": "reflective",
    "sfx": [
-    "study"
+    "murmur"
    ],
    "level": 0.85,
-   "reason": "text: كتب"
+   "reason": "text: كتب; ambience of the episode's place"
   },
   {
    "scene": 3,
    "title": "دهشة وإعجاب",
    "music": "reflective",
    "sfx": [
-    "study"
+    "murmur"
    ],
    "level": 0.85,
-   "reason": "text: كتب"
+   "reason": "text: كتب; ambience of the episode's place"
   },
   {
    "scene": 4,
@@ -42,18 +44,22 @@
   {
    "scene": 5,
    "title": "في المجلس العلمي",
-   "music": "reflective",
-   "sfx": [],
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "title: مجلس"
   },
   {
    "scene": 6,
    "title": "أجوبة وأسئلة",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "title: أسئلة"
+   "reason": "title: أسئلة; ambience continues"
   },
   {
    "scene": 7,
@@ -68,18 +74,22 @@
   {
    "scene": 8,
    "title": "في منزل السيد أبي شبر",
-   "music": "reflective",
-   "sfx": [],
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "title: منزل"
   },
   {
    "scene": 9,
    "title": "شبان من طلبة العلم",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "murmur"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 10,
@@ -95,41 +105,51 @@
    "scene": 11,
    "title": "أفكار مسبقة",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "murmur"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 12,
    "title": "في ختام المجلس",
-   "music": "reflective",
-   "sfx": [],
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "title: مجلس"
   },
   {
    "scene": 13,
    "title": "لقاء مرتقب",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "murmur"
+   ],
    "level": 0.85,
-   "reason": "text: أسئلة"
+   "reason": "text: أسئلة; ambience of the episode's place"
   },
   {
    "scene": 14,
    "title": "رعاية الأصدقاء",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "murmur"
+   ],
    "level": 0.85,
-   "reason": "text: فقد"
+   "reason": "title: أصدقاء"
   },
   {
    "scene": 15,
    "title": "أسئلة تنتظر",
    "music": "ending",
-   "sfx": [],
+   "sfx": [
+    "murmur"
+   ],
    "level": 0.85,
-   "reason": "title: أسئلة; last scene"
+   "reason": "title: أسئلة; ambience continues; last scene"
   }
  ]
 }

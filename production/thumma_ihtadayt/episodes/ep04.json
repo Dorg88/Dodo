@@ -1082,7 +1082,7 @@
  "musicCues": [
   {
    "scene": 1,
-   "cue": "warm",
+   "cue": "reflective",
    "startMs": 0,
    "endMs": 27430
   },
@@ -1094,7 +1094,7 @@
   },
   {
    "scene": 3,
-   "cue": "reflective",
+   "cue": "warm",
    "startMs": 37690,
    "endMs": 48709
   },
@@ -1130,7 +1130,7 @@
   },
   {
    "scene": 9,
-   "cue": "reverent",
+   "cue": "suspense",
    "startMs": 174700,
    "endMs": 224115
   },
@@ -1142,13 +1142,13 @@
   },
   {
    "scene": 11,
-   "cue": "suspense",
+   "cue": "reflective",
    "startMs": 231095,
    "endMs": 246485
   },
   {
    "scene": 12,
-   "cue": "reflective",
+   "cue": "warm",
    "startMs": 244885,
    "endMs": 270255
   },
@@ -1160,7 +1160,7 @@
   },
   {
    "scene": 14,
-   "cue": "warm",
+   "cue": "ending",
    "startMs": 290465,
    "endMs": 302420
   }

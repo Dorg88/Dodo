@@ -242,6 +242,7 @@ def main():
     ap.add_argument("--episode", required=True)
     ap.add_argument("--model", default="large-v3-turbo")
     ap.add_argument("--video", action="store_true")
+    ap.add_argument("--preview-only", action="store_true", help="only re-render preview.m4a/mp4 (e.g. after new music)")
     a = ap.parse_args()
     book = os.path.expanduser(a.book_dir)
     with open(os.path.join(book, a.episode, "episode.json"), encoding="utf-8") as fh:
@@ -259,6 +260,10 @@ def main():
     if proc.returncode:
         problems.append(f"could not write preview audio: {proc.stderr.decode()[:200]}")
 
+    if a.preview_only:
+        render_video(book, ep, a.episode, audio_path, os.path.join(out_dir, "preview.mp4"))
+        print(f"preview → {out_dir}/preview.mp4")
+        return
     from faster_whisper import WhisperModel
     model = WhisperModel(a.model, device="cpu", compute_type="int8")
     rows, bad = check_clips(ep, cache, model)

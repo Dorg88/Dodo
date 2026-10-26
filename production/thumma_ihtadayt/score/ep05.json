@@ -6,70 +6,80 @@
    "title": "دعوة غير متوقعة",
    "music": "warm",
    "sfx": [
-    "city"
+    "roomtone"
    ],
    "level": 0.85,
-   "reason": "text: مدينة"
+   "reason": "text: مدينة; ambience of the episode's place"
   },
   {
    "scene": 2,
    "title": "موفد الشيخ",
    "music": "reflective",
    "sfx": [
-    "study"
+    "roomtone"
    ],
    "level": 0.85,
-   "reason": "text: يقرأ"
+   "reason": "text: يقرأ; ambience of the episode's place"
   },
   {
    "scene": 3,
    "title": "إلى توزر",
    "music": "warm",
    "sfx": [
-    "crowd"
+    "roomtone"
    ],
    "level": 0.85,
-   "reason": "text: فرح"
+   "reason": "text: فرح; ambience of the episode's place"
   },
   {
    "scene": 4,
    "title": "ها هو الشيخ",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "text: فقد"
+   "reason": "text: فقد; ambience of the episode's place"
   },
   {
    "scene": 5,
    "title": "في مجلس الشيخ",
-   "music": "reflective",
-   "sfx": [],
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "title: مجلس"
   },
   {
    "scene": 6,
    "title": "أسئلة واعتراضات",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "title: أسئلة"
+   "reason": "title: أسئلة; ambience continues"
   },
   {
    "scene": 7,
    "title": "آداب المجلس",
-   "music": "suspense",
-   "sfx": [],
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "text: سؤال"
+   "reason": "title: مجلس"
   },
   {
    "scene": 8,
    "title": "قم فاغتسل",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "text: عاد; ambience of the episode's place"
   },
   {
    "scene": 9,
@@ -84,34 +94,42 @@
   {
    "scene": 10,
    "title": "مجالس الذكر",
-   "music": "reflective",
-   "sfx": [],
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "text: مجلس; ambience of the episode's place"
   },
   {
    "scene": 11,
    "title": "بين اتجاهين",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "text: فقد"
+   "reason": "text: فقد; ambience of the episode's place"
   },
   {
    "scene": 12,
    "title": "حيرة لا تنتهي",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "title: حيرة"
+   "reason": "title: حيرة; ambience continues"
   },
   {
    "scene": 13,
    "title": "شكوى الجيران",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "title: شك"
+   "reason": "title: شك; ambience continues"
   },
   {
    "scene": 14,
@@ -127,9 +145,11 @@
    "scene": 15,
    "title": "بداية مواجهة طويلة",
    "music": "ending",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "text: شك; last scene"
+   "reason": "text: شك; ambience of the episode's place; last scene"
   }
  ]
 }

@@ -5,65 +5,81 @@
    "scene": 1,
    "title": "المرحلة التالية",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "city"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "title: رحلة"
   },
   {
    "scene": 2,
    "title": "الاجتهاد في مقابل النص",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 3,
    "title": "حين يختلف الفريقان",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 4,
    "title": "من أين أبدأ التحقيق؟",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 5,
    "title": "أحداث صدر الإسلام",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "text: أسئلة"
+   "reason": "text: أسئلة; ambience of the episode's place"
   },
   {
    "scene": 6,
    "title": "الرواية وسياقها",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 7,
    "title": "إجابات متباينة",
-   "music": "reflective",
-   "sfx": [],
+   "music": "warm",
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "text: البيت; ambience of the episode's place"
   },
   {
    "scene": 8,
    "title": "الاجتهاد المشروع",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 9,
@@ -73,57 +89,67 @@
     "study"
    ],
    "level": 0.85,
-   "reason": "text: كتب"
+   "reason": "text: كتب; ambience of the episode's place"
   },
   {
    "scene": 10,
    "title": "أفكار أحببتها",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 11,
    "title": "باب البحث مفتوح",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "text: وصل; ambience of the episode's place"
   },
   {
    "scene": 12,
    "title": "لا أهرب من سؤال",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "title: سؤال"
+   "reason": "title: سؤال; ambience continues"
   },
   {
    "scene": 13,
    "title": "العلم مسؤولية",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 14,
    "title": "مستعد لتصحيح فهمي",
    "music": "nostalgic",
    "sfx": [
-    "night"
+    "study"
    ],
    "level": 0.85,
-   "reason": "text: ليل"
+   "reason": "text: ليل; ambience of the episode's place"
   },
   {
    "scene": 15,
    "title": "مرحلة أصعب",
    "music": "ending",
-   "sfx": [],
+   "sfx": [
+    "city"
+   ],
    "level": 0.85,
-   "reason": "default; last scene"
+   "reason": "title: رحلة; last scene"
   }
  ]
 }

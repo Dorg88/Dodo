@@ -33,8 +33,11 @@ class _PlayerScreenState extends State<PlayerScreen> with WidgetsBindingObserver
     WidgetsBinding.instance.addPostFrameCallback((_) => _open(_entry, widget.startAt, autoplay: true));
   }
 
+  int _generation = 0;
+
   Future<void> _open(EpisodeEntry entry, Duration? start, {required bool autoplay}) async {
     final scope = AppScope.of(context);
+    final generation = ++_generation;
     final old = _controller;
     setState(() {
       _loading = true;
@@ -48,7 +51,8 @@ class _PlayerScreenState extends State<PlayerScreen> with WidgetsBindingObserver
       final episode = await scope.store.loadEpisode(widget.book, entry);
       final c = EpisodeController(book: widget.book, entry: entry, episode: episode, user: scope.user);
       await c.init(startAt: start);
-      if (!mounted) {
+      // another episode was opened (or the screen closed) while this one loaded
+      if (!mounted || generation != _generation) {
         c.dispose();
         return;
       }

@@ -5,17 +5,21 @@
    "scene": 1,
    "title": "موضوع الصحابة",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 2,
    "title": "أساس الخلافات",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "text: وفاة"
+   "reason": "text: وفاة; ambience of the episode's place"
   },
   {
    "scene": 3,
@@ -25,15 +29,17 @@
     "study"
    ],
    "level": 0.85,
-   "reason": "text: روايات"
+   "reason": "text: روايات; ambience of the episode's place"
   },
   {
    "scene": 4,
    "title": "موضوع حساس",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 5,
@@ -59,9 +65,11 @@
    "scene": 7,
    "title": "الاحترام وفحص الأخبار",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "text: سؤال"
+   "reason": "text: سؤال; ambience of the episode's place"
   },
   {
    "scene": 8,
@@ -77,9 +85,11 @@
    "scene": 9,
    "title": "سؤالان",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "title: سؤال"
+   "reason": "title: سؤال; ambience continues"
   },
   {
    "scene": 10,
@@ -89,7 +99,7 @@
     "study"
    ],
    "level": 0.85,
-   "reason": "text: قراءة"
+   "reason": "text: قراءة; ambience of the episode's place"
   },
   {
    "scene": 11,
@@ -99,7 +109,7 @@
     "study"
    ],
    "level": 0.85,
-   "reason": "text: كتاب"
+   "reason": "text: كتاب; ambience of the episode's place"
   },
   {
    "scene": 12,
@@ -109,33 +119,37 @@
     "study"
    ],
    "level": 0.85,
-   "reason": "text: مصادر"
+   "reason": "text: مصادر; ambience of the episode's place"
   },
   {
    "scene": 13,
    "title": "لا إدانة جماعية",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 14,
    "title": "التخلص من التعصب",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 15,
    "title": "بداية مرحلة طويلة",
    "music": "ending",
    "sfx": [
-    "study"
+    "city"
    ],
    "level": 0.85,
-   "reason": "text: دراسة; last scene"
+   "reason": "title: رحلة; last scene"
   }
  ]
 }

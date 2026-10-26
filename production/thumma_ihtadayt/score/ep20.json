@@ -6,26 +6,30 @@
    "title": "لم يكن قرارا عابرا",
    "music": "reflective",
    "sfx": [
-    "sea"
+    "study"
    ],
    "level": 0.85,
-   "reason": "text: بحر"
+   "reason": "text: بحر; ambience of the episode's place"
   },
   {
    "scene": 2,
    "title": "لماذا تغيرت قناعتي؟",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "text: أسئلة"
+   "reason": "text: أسئلة; ambience of the episode's place"
   },
   {
    "scene": 3,
    "title": "المرجعية بعد النبي",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "text: سؤال"
+   "reason": "text: سؤال; ambience of the episode's place"
   },
   {
    "scene": 4,
@@ -35,7 +39,7 @@
     "study"
    ],
    "level": 0.85,
-   "reason": "text: مصادر"
+   "reason": "text: مصادر; ambience of the episode's place"
   },
   {
    "scene": 5,
@@ -55,7 +59,7 @@
     "study"
    ],
    "level": 0.85,
-   "reason": "text: روايات"
+   "reason": "text: روايات; ambience of the episode's place"
   },
   {
    "scene": 7,
@@ -65,63 +69,77 @@
     "study"
    ],
    "level": 0.85,
-   "reason": "text: قراءة"
+   "reason": "text: قراءة; ambience of the episode's place"
   },
   {
    "scene": 8,
    "title": "أعمق من مذهب",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "text: سؤال"
+   "reason": "text: سؤال; ambience of the episode's place"
   },
   {
    "scene": 9,
    "title": "سؤال عن المرجعية",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "title: سؤال"
+   "reason": "title: سؤال; ambience continues"
   },
   {
    "scene": 10,
    "title": "محبة أهل البيت",
-   "music": "reflective",
-   "sfx": [],
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "title: البيت"
   },
   {
    "scene": 11,
    "title": "الإنصاف مع المخالفين",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 12,
    "title": "مقدار التعب",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 13,
    "title": "لا تعصب",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 14,
    "title": "سؤال آخر",
    "music": "ending",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "title: سؤال; last scene"
+   "reason": "title: سؤال; ambience continues; last scene"
   }
  ]
 }

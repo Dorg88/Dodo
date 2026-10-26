@@ -27,22 +27,20 @@
    "title": "شوق قديم",
    "music": "reverent",
    "sfx": [
-    "roomtone",
-    "murmur"
+    "crowd"
    ],
    "level": 0.85,
-   "reason": "text: زيارة"
+   "reason": "text: زيارة; ambience of the episode's place"
   },
   {
    "scene": 4,
    "title": "بين الزائرين",
    "music": "reverent",
    "sfx": [
-    "roomtone",
-    "murmur"
+    "crowd"
    ],
    "level": 0.85,
-   "reason": "text: زيارة"
+   "reason": "text: زيارة; ambience of the episode's place"
   },
   {
    "scene": 5,
@@ -69,11 +67,10 @@
    "title": "إلى مراقد أخرى",
    "music": "reverent",
    "sfx": [
-    "roomtone",
-    "murmur"
+    "crowd"
    ],
    "level": 0.85,
-   "reason": "text: مرقد"
+   "reason": "text: مرقد; ambience of the episode's place"
   },
   {
    "scene": 8,
@@ -90,9 +87,11 @@
    "scene": 9,
    "title": "طقوس لم يألفها",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "crowd"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "text: عاد; ambience of the episode's place"
   },
   {
    "scene": 10,
@@ -110,18 +109,20 @@
    "title": "الاحترام والعبادة",
    "music": "nostalgic",
    "sfx": [
-    "night"
+    "crowd"
    ],
    "level": 0.85,
-   "reason": "text: ليل"
+   "reason": "text: ليل; ambience of the episode's place"
   },
   {
    "scene": 12,
    "title": "حوار ونقاش",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "crowd"
+   ],
    "level": 0.85,
-   "reason": "title: نقاش"
+   "reason": "title: نقاش; ambience continues"
   },
   {
    "scene": 13,
@@ -139,18 +140,20 @@
    "title": "الاختلاف أمام عينيه",
    "music": "reflective",
    "sfx": [
-    "study"
+    "crowd"
    ],
    "level": 0.85,
-   "reason": "text: كتب"
+   "reason": "text: كتب; ambience of the episode's place"
   },
   {
    "scene": 15,
    "title": "ليل الأسئلة",
    "music": "ending",
-   "sfx": [],
+   "sfx": [
+    "crowd"
+   ],
    "level": 0.85,
-   "reason": "title: أسئلة; last scene"
+   "reason": "title: أسئلة; ambience continues; last scene"
   }
  ]
 }

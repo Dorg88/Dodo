@@ -5,9 +5,11 @@
    "scene": 1,
    "title": "إلى مصر",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "city"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 2,
@@ -17,25 +19,27 @@
     "city"
    ],
    "level": 0.85,
-   "reason": "text: القاهرة"
+   "reason": "text: القاهرة; ambience of the episode's place"
   },
   {
    "scene": 3,
    "title": "رفاق الطريق",
    "music": "reflective",
    "sfx": [
-    "study"
+    "city"
    ],
    "level": 0.85,
-   "reason": "text: يقرأ"
+   "reason": "title: الطريق"
   },
   {
    "scene": 4,
    "title": "دعوة أحمد",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "city"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "text: وصل; ambience of the episode's place"
   },
   {
    "scene": 5,
@@ -50,62 +54,62 @@
   {
    "scene": 6,
    "title": "في بيت أحمد",
-   "music": "suspense",
-   "sfx": [],
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "text: شك"
+   "reason": "title: بيت"
   },
   {
    "scene": 7,
    "title": "عالم واسع",
    "music": "reverent",
    "sfx": [
-    "roomtone",
-    "murmur"
+    "city"
    ],
    "level": 0.85,
-   "reason": "text: زيارة"
+   "reason": "text: زيارة; ambience of the episode's place"
   },
   {
    "scene": 8,
    "title": "في مجلس الشيخ عبد الباسط",
-   "music": "reflective",
+   "music": "warm",
    "sfx": [
-    "sea"
+    "roomtone"
    ],
    "level": 0.85,
-   "reason": "text: بحر"
+   "reason": "title: مجلس"
   },
   {
    "scene": 9,
    "title": "علماء الأزهر",
-   "music": "reverent",
+   "music": "reflective",
    "sfx": [
-    "roomtone",
-    "murmur"
+    "city"
    ],
    "level": 0.85,
-   "reason": "text: جامع"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 10,
    "title": "لقاء عام",
    "music": "reflective",
    "sfx": [
-    "study"
+    "city"
    ],
    "level": 0.85,
-   "reason": "text: كتب"
+   "reason": "text: كتب; ambience of the episode's place"
   },
   {
    "scene": 11,
    "title": "هل كنت أعرف حقا؟",
    "music": "reflective",
    "sfx": [
-    "study"
+    "city"
    ],
    "level": 0.85,
-   "reason": "text: قراءة"
+   "reason": "text: قراءة; ambience of the episode's place"
   },
   {
    "scene": 12,
@@ -121,18 +125,22 @@
   {
    "scene": 13,
    "title": "حجرة الآثار",
-   "music": "suspense",
-   "sfx": [],
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "text: أسئلة"
+   "reason": "title: حجرة"
   },
   {
    "scene": 14,
    "title": "اتجاهان مختلفان",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "city"
+   ],
    "level": 0.85,
-   "reason": "text: فقد"
+   "reason": "text: فقد; ambience of the episode's place"
   },
   {
    "scene": 15,

@@ -1632,7 +1632,7 @@
   },
   {
    "scene": 5,
-   "cue": "reflective",
+   "cue": "warm",
    "startMs": 108200,
    "endMs": 134785
   },
@@ -1644,7 +1644,7 @@
   },
   {
    "scene": 7,
-   "cue": "suspense",
+   "cue": "warm",
    "startMs": 175640,
    "endMs": 201795
   },
@@ -1662,7 +1662,7 @@
   },
   {
    "scene": 10,
-   "cue": "reflective",
+   "cue": "warm",
    "startMs": 301265,
    "endMs": 335135
   },

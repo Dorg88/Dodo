@@ -39,7 +39,7 @@ from build_episode import apply_window, duck_gain, encode  # noqa: E402
 from hikaya_common import write_json  # noqa: E402
 
 SR = lib.SR
-MUSIC_BUS_DB, SFX_BUS_DB = -9.0, -7.0
+MUSIC_BUS_DB, SFX_BUS_DB = -2.0, 3.0   # audible between lines; enforce_margin keeps speech clear
 MUSIC_DUCK_DB, SFX_DUCK_DB = -12.0, -7.0
 XFADE = 1.6
 
@@ -47,7 +47,7 @@ XFADE = 1.6
 RULES = [
     # prayer actually happening → silence (a mere mention of prayer does not count)
     (r"الله أكبر|تكبير|ومضت الصلا|يصلي بالناس|أقيمت الصلا|الأذان|(?<!\w)(?:يصلّ?ون|ركع|سجد|ركعوا|سجدوا)(?!\w)", "none", ["roomtone"]),
-    (r"مسجد|جامع|المصل[يّ]ن|ضريح|مرقد|الحرم|زيار[ةه]|مقام|الكاظم|الجيلاني|حوز[ةه]", "reverent", ["roomtone", "murmur"]),
+    (r"مسجد|(?<![ء-ي])جامع(?![ء-ي])|المصل[يّ]ن|ضريح|مرقد|الحرم|زيار[ةه]|مقام|الكاظم|الجيلاني|حوز[ةه]", "reverent", ["roomtone", "murmur"]),
     (r"بحر|باخر[ةه]|سفين[ةه]|ميناء|موج|إبحار|الإسكندرية", "reflective", ["sea"]),
     (r"اهتديت|الحقيق[ةه]|يقين|استبصار|طريق جديد", "warm", []),
     (r"شك|حير[ةه]|سؤال|أسئل[ةه]|تساؤل|قلق|اضطراب|جدال|نقاش", "suspense", []),
@@ -56,17 +56,21 @@ RULES = [
     (r"حزن|بكاء|دموع|مصيب[ةه]|استشهاد|عاشوراء|فقد|وفا[ةه]", "reflective", []),
     (r"ليل|ليل[ةه]|قمر|نجوم|الظلام|المساء|رمضاني", "nostalgic", ["night"]),
     (r"مدين[ةه]|شارع|سوق|بغداد|القاهر[ةه]|كربلاء|سفر|المطار|القطار", "warm", ["city"]),
+    (r"سيار[ةه]|حافل[ةه]|الطريق|رحل[ةه]|وصل|عاد|العودة|توجه|انطلق", "reflective", ["city"]),
+    (r"بيت|منزل|البيت|حجر[ةه]|غرف[ةه]|مجلس|زوجت|أمه|والده|أسرت", "warm", ["roomtone"]),
+    (r"أصدقاء|صديق|أهل|الناس|الجيران|نقاش|حوار", "reflective", ["murmur"]),
 ]
+DEFAULT_SFX = ["roomtone"]   # a scene with nothing else still breathes
 PRAYER = re.compile(r"الله أكبر|تكبير[ةه]? الإحرام")
 
 
-def suggest(ep):
+def suggest(ep, ambience=None):
     scores = []
     n = len(ep["scenes"])
     for i, sc in enumerate(ep["scenes"]):
         title = sc.get("title", "")
         text = " ".join(s["text"] for s in ep["segments"] if s["scene"] == sc["number"])
-        music, sfx, why = "reflective", [], "default"
+        music, sfx, why = "reflective", list(DEFAULT_SFX), "default"
         # the scene title describes the scene best; fall back to its text
         for source, label in ((title, "title"), (text, "text")):
             hit = None
@@ -77,6 +81,12 @@ def suggest(ep):
                     break
             if hit:
                 break
+        # the episode's place sets the ambience; only a scene title naming another place changes it
+        if ambience and not why.startswith("title"):
+            sfx = [] if music == "none" and "roomtone" not in sfx else [ambience]
+            why = f"{why}; ambience of the episode's place"
+        elif scores and (not sfx or why == "default") and scores[-1]["sfx"]:
+            sfx, why = list(scores[-1]["sfx"]), f"{why}; ambience continues"
         if i == n - 1 and music != "none":
             music, why = "ending", f"{why}; last scene"
         scores.append({"scene": sc["number"], "title": sc.get("title", ""), "music": music, "sfx": sfx,
@@ -194,6 +204,7 @@ def main():
     ap.add_argument("--book-dir", required=True)
     ap.add_argument("--episode", required=True, help="episode folder name, e.g. ep10")
     ap.add_argument("--suggest-only", action="store_true")
+    ap.add_argument("--ambience", help="the episode's place: " + ", ".join(sorted(lib.SFX)))
     args = ap.parse_args()
 
     ep_dir = os.path.join(args.book_dir, args.episode)
@@ -206,7 +217,7 @@ def main():
             score = json.load(fh)
         print(f"using {score_path}")
     else:
-        score = suggest(ep)
+        score = suggest(ep, args.ambience)
         write_json(score_path, score)
         print(f"suggested moods → {score_path}")
     for s in score["scenes"]:

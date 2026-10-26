@@ -215,12 +215,21 @@ class EpisodeController extends ChangeNotifier {
   Segment? get active => episode.activeAt(_position);
   bool get hasMusic => _ready && _engine.hasMusic;
 
+  /// The one episode allowed to sound: starting another pauses this one.
+  static EpisodeController? _sounding;
+  bool _disposed = false;
+
   Future<void> init({Duration? startAt}) async {
     _engine = engineFactory(book, episode);
     var start = startAt ?? user.progress(progressKey);
     if (start >= episode.duration - const Duration(seconds: 2)) start = Duration.zero;
     await _engine.load(start);
     _loaded = true;
+    if (_disposed) {
+      // closed while it was loading: release the players it just opened
+      await _engine.dispose();
+      return;
+    }
     _position = start;
     await _applySettings();
     _doneSub = _engine.completed.listen((_) => _finish());
@@ -235,7 +244,10 @@ class EpisodeController extends ChangeNotifier {
   }
 
   Future<void> play() async {
-    if (!_ready) return;
+    if (!_ready || _disposed) return;
+    final other = _sounding;
+    if (other != null && !identical(other, this)) await other.pause();
+    _sounding = this;
     if (_completed) {
       _completed = false;
       await _engine.seek(Duration.zero);
@@ -326,6 +338,8 @@ class EpisodeController extends ChangeNotifier {
 
   @override
   void dispose() {
+    _disposed = true;
+    if (identical(_sounding, this)) _sounding = null;
     user.removeListener(_applySettings);
     _ticker?.cancel();
     _doneSub?.cancel();

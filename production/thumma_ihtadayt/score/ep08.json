@@ -24,10 +24,10 @@
    "title": "شهادة طرف واحد",
    "music": "reflective",
    "sfx": [
-    "study"
+    "sea"
    ],
    "level": 0.85,
-   "reason": "text: مصادر"
+   "reason": "text: مصادر; ambience of the episode's place"
   },
   {
    "scene": 4,
@@ -43,37 +43,41 @@
    "scene": 5,
    "title": "حجة بلا أرض صلبة",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "sea"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "text: رحلة; ambience of the episode's place"
   },
   {
    "scene": 6,
    "title": "دعوة إلى العراق",
    "music": "warm",
    "sfx": [
-    "city"
+    "sea"
    ],
    "level": 0.85,
-   "reason": "text: سفر"
+   "reason": "text: سفر; ambience of the episode's place"
   },
   {
    "scene": 7,
    "title": "أمنية قديمة",
    "music": "warm",
    "sfx": [
-    "city"
+    "sea"
    ],
    "level": 0.85,
-   "reason": "text: سفر"
+   "reason": "text: سفر; ambience of the episode's place"
   },
   {
    "scene": 8,
    "title": "التأشيرة",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "sea"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "text: الطريق; ambience of the episode's place"
   },
   {
    "scene": 9,
@@ -100,36 +104,40 @@
    "title": "بيروت",
    "music": "nostalgic",
    "sfx": [
-    "night"
+    "sea"
    ],
    "level": 0.85,
-   "reason": "text: ليل"
+   "reason": "text: ليل; ambience of the episode's place"
   },
   {
    "scene": 12,
    "title": "ذكرى اللقاء",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "sea"
+   ],
    "level": 0.85,
-   "reason": "text: سؤال"
+   "reason": "text: سؤال; ambience of the episode's place"
   },
   {
    "scene": 13,
    "title": "الطريق إلى دمشق",
    "music": "reflective",
    "sfx": [
-    "study"
+    "city"
    ],
    "level": 0.85,
-   "reason": "text: قراءة"
+   "reason": "title: الطريق"
   },
   {
    "scene": 14,
    "title": "تأشيرة العراق",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "sea"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 15,

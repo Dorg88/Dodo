@@ -9,39 +9,47 @@
     "study"
    ],
    "level": 0.85,
-   "reason": "text: دراسة"
+   "reason": "text: دراسة; ambience of the episode's place"
   },
   {
    "scene": 2,
    "title": "مدح وتحذير",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 3,
    "title": "الآيات في سياقها",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 4,
    "title": "حدود التعميم",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 5,
    "title": "النص كاملا",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 6,
@@ -61,23 +69,27 @@
     "study"
    ],
    "level": 0.85,
-   "reason": "text: دراسة"
+   "reason": "text: دراسة; ambience of the episode's place"
   },
   {
    "scene": 8,
    "title": "المقارنة الدقيقة",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 9,
    "title": "القرآن والأخبار",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 10,
@@ -87,7 +99,7 @@
     "study"
    ],
    "level": 0.85,
-   "reason": "text: كتاب"
+   "reason": "text: كتاب; ambience of the episode's place"
   },
   {
    "scene": 11,
@@ -103,9 +115,11 @@
    "scene": 12,
    "title": "ثقل النتائج",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 13,
@@ -121,17 +135,21 @@
    "scene": 14,
    "title": "سؤال جديد",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "night"
+   ],
    "level": 0.85,
-   "reason": "title: سؤال"
+   "reason": "title: سؤال; ambience continues"
   },
   {
    "scene": 15,
    "title": "لأعرف ما ينبغي أن أعتقده",
    "music": "ending",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default; last scene"
+   "reason": "default; ambience of the episode's place; last scene"
   }
  ]
 }

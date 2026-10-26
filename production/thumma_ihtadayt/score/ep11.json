@@ -4,26 +4,32 @@
   {
    "scene": 1,
    "title": "أيام في بيت منعم",
-   "music": "reflective",
-   "sfx": [],
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "title: بيت"
   },
   {
    "scene": 2,
    "title": "أسئلة متلاحقة",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "title: أسئلة"
+   "reason": "title: أسئلة; ambience continues"
   },
   {
    "scene": 3,
    "title": "لماذا كل هذا النفور؟",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 4,
@@ -39,17 +45,21 @@
    "scene": 5,
    "title": "ضيافة وعبادة",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "text: نقاش"
+   "reason": "text: نقاش; ambience of the episode's place"
   },
   {
    "scene": 6,
    "title": "كلام دون عداء",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "text: أسئلة"
+   "reason": "text: أسئلة; ambience of the episode's place"
   },
   {
    "scene": 7,
@@ -65,70 +75,81 @@
    "scene": 8,
    "title": "فكرة مؤلمة",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 9,
    "title": "الكبرياء",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 10,
    "title": "اعتراف",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 11,
    "title": "إجابات جاهزة",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "text: أسئلة"
+   "reason": "text: أسئلة; ambience of the episode's place"
   },
   {
    "scene": 12,
    "title": "الحيرة ليست النهاية",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "title: حيرة"
+   "reason": "title: حيرة; ambience continues"
   },
   {
    "scene": 13,
    "title": "يقين لم يمتحن",
    "music": "warm",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "title: يقين"
+   "reason": "title: يقين; ambience continues"
   },
   {
    "scene": 14,
    "title": "دعاء",
    "music": "reflective",
    "sfx": [
-    "study"
+    "roomtone"
    ],
    "level": 0.85,
-   "reason": "text: مراجع"
+   "reason": "text: مراجع; ambience of the episode's place"
   },
   {
    "scene": 15,
    "title": "إلى النجف",
    "music": "ending",
    "sfx": [
-    "roomtone",
-    "murmur"
+    "roomtone"
    ],
    "level": 0.85,
-   "reason": "text: حوزة; last scene"
+   "reason": "text: حوزة; ambience of the episode's place; last scene"
   }
  ]
 }

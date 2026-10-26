@@ -25,25 +25,31 @@
    "scene": 3,
    "title": "أقرؤها كلها",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 4,
    "title": "العودة إلى التعليم",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "city"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "title: العودة"
   },
   {
    "scene": 5,
    "title": "ساعات المطالعة",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 6,
@@ -53,7 +59,7 @@
     "study"
    ],
    "level": 0.85,
-   "reason": "text: مصادر"
+   "reason": "text: مصادر; ambience of the episode's place"
   },
   {
    "scene": 7,
@@ -69,65 +75,81 @@
    "scene": 8,
    "title": "قول وقول آخر",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 9,
    "title": "كيف تنتقل المعرفة",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "text: سؤال"
+   "reason": "text: سؤال; ambience of the episode's place"
   },
   {
    "scene": 10,
    "title": "خوف من النتائج",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 11,
    "title": "جدوى البحث",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 12,
    "title": "وحده بين الرفوف",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 13,
    "title": "الصوت الداخلي",
    "music": "warm",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "text: الحقيقة"
+   "reason": "text: الحقيقة; ambience of the episode's place"
   },
   {
    "scene": 14,
    "title": "دعاء",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 15,
    "title": "محاسبة النفس",
    "music": "ending",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "text: يقين; last scene"
+   "reason": "text: يقين; ambience of the episode's place; last scene"
   }
  ]
 }

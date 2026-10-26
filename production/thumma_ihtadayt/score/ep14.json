@@ -4,135 +4,152 @@
   {
    "scene": 1,
    "title": "في الطريق",
-   "music": "reverent",
+   "music": "reflective",
    "sfx": [
-    "roomtone",
-    "murmur"
+    "city"
    ],
    "level": 0.85,
-   "reason": "text: حوزة"
+   "reason": "title: الطريق"
   },
   {
    "scene": 2,
    "title": "على باب السيد الصدر",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "text: سؤال"
+   "reason": "text: سؤال; ambience of the episode's place"
   },
   {
    "scene": 3,
    "title": "مجلس العلم",
-   "music": "reflective",
-   "sfx": [],
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "title: مجلس"
   },
   {
    "scene": 4,
    "title": "الضيف القادم من تونس",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "text: نقاش"
+   "reason": "text: نقاش; ambience of the episode's place"
   },
   {
    "scene": 5,
    "title": "السؤال الصريح",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "title: سؤال"
+   "reason": "title: سؤال; ambience continues"
   },
   {
    "scene": 6,
    "title": "النصوص وأسانيدها",
    "music": "reflective",
    "sfx": [
-    "study"
+    "roomtone"
    ],
    "level": 0.85,
-   "reason": "text: دراسة"
+   "reason": "text: دراسة; ambience of the episode's place"
   },
   {
    "scene": 7,
    "title": "الخلفاء والصحابة",
    "music": "reflective",
    "sfx": [
-    "study"
+    "roomtone"
    ],
    "level": 0.85,
-   "reason": "text: مصادر"
+   "reason": "text: مصادر; ambience of the episode's place"
   },
   {
    "scene": 8,
    "title": "الطرق الصوفية والتوسل",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 9,
    "title": "مسائل كثيرة",
    "music": "reflective",
    "sfx": [
-    "study"
+    "roomtone"
    ],
    "level": 0.85,
-   "reason": "text: مصادر"
+   "reason": "text: مصادر; ambience of the episode's place"
   },
   {
    "scene": 10,
    "title": "أجوبة المدرسة الإمامية",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 11,
    "title": "تراث من البحث",
    "music": "reflective",
    "sfx": [
-    "study"
+    "roomtone"
    ],
    "level": 0.85,
-   "reason": "text: مصادر"
+   "reason": "text: مصادر; ambience of the episode's place"
   },
   {
    "scene": 12,
    "title": "امتنان",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "text: شك"
+   "reason": "text: شك; ambience of the episode's place"
   },
   {
    "scene": 13,
    "title": "الخروج من المجلس",
-   "music": "suspense",
-   "sfx": [],
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "text: حيرة"
+   "reason": "title: مجلس"
   },
   {
    "scene": 14,
    "title": "الإنصاف",
    "music": "reflective",
    "sfx": [
-    "study"
+    "roomtone"
    ],
    "level": 0.85,
-   "reason": "text: مصادر"
+   "reason": "text: مصادر; ambience of the episode's place"
   },
   {
    "scene": 15,
    "title": "مسؤولية جديدة",
    "music": "ending",
-   "sfx": [],
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "text: سؤال; last scene"
+   "reason": "text: سؤال; ambience of the episode's place; last scene"
   }
  ]
 }

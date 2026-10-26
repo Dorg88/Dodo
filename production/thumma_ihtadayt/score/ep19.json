@@ -5,65 +5,81 @@
    "scene": 1,
    "title": "ثلاثة أشهر",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "text: اضطراب"
+   "reason": "text: اضطراب; ambience of the episode's place"
   },
   {
    "scene": 2,
    "title": "لا طمأنينة سريعة",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "text: سؤال"
+   "reason": "text: سؤال; ambience of the episode's place"
   },
   {
    "scene": 3,
    "title": "أراجع وأقارن",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "text: سؤال"
+   "reason": "text: سؤال; ambience of the episode's place"
   },
   {
    "scene": 4,
    "title": "أخشى أن أكون ظلمت أحدا",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 5,
    "title": "حيرة حتى في النوم",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "title: حيرة"
+   "reason": "title: حيرة; ambience continues"
   },
   {
    "scene": 6,
    "title": "خوف من تجاوز الحدود",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 7,
    "title": "خوف من إغلاق الباب",
    "music": "warm",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "text: الحقيقة"
+   "reason": "text: الحقيقة; ambience of the episode's place"
   },
   {
    "scene": 8,
    "title": "شيء يتغير",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 9,
@@ -79,49 +95,61 @@
    "scene": 10,
    "title": "عودة إلى الدعاء",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "text: قلق"
+   "reason": "text: قلق; ambience of the episode's place"
   },
   {
    "scene": 11,
    "title": "أبدأ أفهم",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 12,
    "title": "لحظة الموقف",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 13,
    "title": "القناعة",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "text: وصل; ambience of the episode's place"
   },
   {
    "scene": 14,
    "title": "مسؤولية الاختيار",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "text: وصل; ambience of the episode's place"
   },
   {
    "scene": 15,
    "title": "بداية هداية وراحة",
    "music": "ending",
-   "sfx": [],
+   "sfx": [
+    "study"
+   ],
    "level": 0.85,
-   "reason": "text: شك; last scene"
+   "reason": "text: شك; ambience of the episode's place; last scene"
   }
  ]
 }

@@ -5,44 +5,51 @@
    "scene": 1,
    "title": "أصغر أفراد البعثة",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "crowd"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 2,
    "title": "الطريق إلى مكة",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "city"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "title: الطريق"
   },
   {
    "scene": 3,
    "title": "موعد مع بيت الله",
-   "music": "reflective",
-   "sfx": [],
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "title: بيت"
   },
   {
    "scene": 4,
    "title": "أمام الكعبة",
    "music": "reverent",
    "sfx": [
-    "roomtone",
-    "murmur"
+    "crowd"
    ],
    "level": 0.85,
-   "reason": "text: مسجد"
+   "reason": "text: مسجد; ambience of the episode's place"
   },
   {
    "scene": 5,
    "title": "هذه هي الكعبة",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "crowd"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "text: عاد; ambience of the episode's place"
   },
   {
    "scene": 6,
@@ -52,83 +59,97 @@
     "crowd"
    ],
    "level": 0.85,
-   "reason": "text: فرح"
+   "reason": "text: فرح; ambience of the episode's place"
   },
   {
    "scene": 7,
    "title": "الطواف وزمزم",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "crowd"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 8,
    "title": "على غير موعد",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "crowd"
+   ],
    "level": 0.85,
-   "reason": "text: فقد"
+   "reason": "text: فقد; ambience of the episode's place"
   },
   {
    "scene": 9,
    "title": "أحلام الطفولة",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "crowd"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 10,
    "title": "أسعد الأيام",
    "music": "reflective",
    "sfx": [
-    "study"
+    "crowd"
    ],
    "level": 0.85,
-   "reason": "text: مراجع"
+   "reason": "text: مراجع; ambience of the episode's place"
   },
   {
    "scene": 11,
    "title": "جبل النور",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "crowd"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "text: وصل; ambience of the episode's place"
   },
   {
    "scene": 12,
    "title": "غار حراء",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "crowd"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 13,
    "title": "رفاق الرحلة",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "city"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "title: رحلة"
   },
   {
    "scene": 14,
    "title": "أفكار جديدة",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "crowd"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "text: رحلة; ambience of the episode's place"
   },
   {
    "scene": 15,
    "title": "قفصة تنتظر",
    "music": "ending",
    "sfx": [
-    "city"
+    "crowd"
    ],
    "level": 0.85,
-   "reason": "text: مدينة; last scene"
+   "reason": "text: مدينة; ambience of the episode's place; last scene"
   }
  ]
 }

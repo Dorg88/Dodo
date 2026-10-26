@@ -5,117 +5,141 @@
    "scene": 1,
    "title": "صور متعارضة",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "city"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 2,
    "title": "وداع الأصدقاء",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "murmur"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "title: أصدقاء"
   },
   {
    "scene": 3,
    "title": "كيف أجمع بينهما؟",
-   "music": "reflective",
-   "sfx": [],
+   "music": "warm",
+   "sfx": [
+    "city"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "text: بيت; ambience of the episode's place"
   },
   {
    "scene": 4,
    "title": "أحببت هؤلاء الناس",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "murmur"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "title: الناس"
   },
   {
    "scene": 5,
    "title": "سنشتاق إليك",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "city"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 6,
    "title": "شكرا يا منعم",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "city"
+   ],
    "level": 0.85,
-   "reason": "title: شك"
+   "reason": "title: شك; ambience continues"
   },
   {
    "scene": 7,
    "title": "المحبة تبقى",
    "music": "suspense",
-   "sfx": [],
+   "sfx": [
+    "city"
+   ],
    "level": 0.85,
-   "reason": "text: أسئلة"
+   "reason": "text: أسئلة; ambience of the episode's place"
   },
   {
    "scene": 8,
    "title": "إلى الحجاز",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "city"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 9,
    "title": "البشير في جدة",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "city"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "text: صديق; ambience of the episode's place"
   },
   {
    "scene": 10,
    "title": "قصص الرحلة",
    "music": "reflective",
    "sfx": [
-    "study"
+    "city"
    ],
    "level": 0.85,
-   "reason": "text: مراجع"
+   "reason": "title: رحلة"
   },
   {
    "scene": 11,
    "title": "إلى العمرة",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "city"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 12,
    "title": "العمرة",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "city"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 13,
    "title": "حديث وتحفظات",
    "music": "reflective",
-   "sfx": [],
+   "sfx": [
+    "city"
+   ],
    "level": 0.85,
-   "reason": "default"
+   "reason": "text: صديق; ambience of the episode's place"
   },
   {
    "scene": 14,
    "title": "العودة إلى تونس",
    "music": "reflective",
    "sfx": [
-    "sea"
+    "city"
    ],
    "level": 0.85,
-   "reason": "text: باخرة"
+   "reason": "title: العودة"
   },
   {
    "scene": 15,
