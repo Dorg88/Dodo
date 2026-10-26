@@ -3,7 +3,13 @@
   "file": "~/HIKAYA/assets/audio/Ep4/Narrator4.wav",
   "display_file": "Ep4.zip/Narrator4.wav",
   "label": "الراوي",
-  "basis": "اسم الملف"
+  "basis": "اسم الملف",
+  "producer_fixes": [
+   [
+    "وثيقته",
+    "وثقته"
+   ]
+  ]
  },
  {
   "file": "~/HIKAYA/assets/audio/Ep4/Hisyouth1.wav",

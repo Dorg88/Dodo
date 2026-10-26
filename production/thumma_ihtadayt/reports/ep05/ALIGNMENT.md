@@ -2,7 +2,7 @@
 
 | Line | Speaker | Clip | Confidence | Timing | Flags | Notes |
 |---|---|---|---|---|---|---|
-| ep05_s01_l01 | NARRATOR | Narrator5.wav 2.57–16.13 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
+| ep05_s01_l01 | NARRATOR | Narrator5.wav 2.57–16.13 | 0.99 | verified |  | the direction was read aloud; it is left out of the clip |
 | ep05_s02_l01 | SHEIKH_ENVOY | Sheikhassist.wav 0.10–5.29 | 1.00 | verified |  |  |
 | ep05_s02_l02 | SHEIKH_ENVOY | Sheikhassist.wav 7.43–11.40 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
 | ep05_s02_l03 | SHEIKH_ENVOY | Sheikhassist.wav 14.02–21.22 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
@@ -23,7 +23,7 @@
 | ep05_s06_l03 | SHEIKH_ENVOY | Sheikhassist.wav 37.26–44.69 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
 | ep05_s07_l01 | SUFI_FOLLOWER | Onefelow.wav 0.12–10.78 | 1.00 | verified |  |  |
 | ep05_s07_l02 | SUFI_FOLLOWER | Onefelow.wav 12.95–19.41 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
-| ep05_s07_l03 | AL_TIJANI | Hisyouth5.wav 30.05–35.33 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
+| ep05_s07_l03 | AL_TIJANI | Hisyouth5.wav 30.05–35.33 | 0.97 | verified |  | the direction was read aloud; it is left out of the clip |
 | ep05_s08_l01 | NARRATOR | Narrator5.wav 119.05–145.87 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
 | ep05_s08_l02 | SHEIKH_ISMAIL | Sheik.wav 16.14–20.79 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
 | ep05_s08_l03 | SHEIKH_ISMAIL | Sheik.wav 25.05–36.56 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
@@ -39,13 +39,13 @@
 | ep05_s11_l01 | AL_TIJANI | Hisyouth5.wav 62.28–68.51 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
 | ep05_s11_l02 | NARRATOR | Narrator5.wav 184.20–198.56 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
 | ep05_s11_l03 | AL_TIJANI | Hisyouth5.wav 70.89–77.20 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
-| ep05_s12_l01 | NARRATOR | Narrator5.wav 201.07–227.58 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
+| ep05_s12_l01 | NARRATOR | Narrator5.wav 201.07–227.58 | 0.99 | verified |  | the direction was read aloud; it is left out of the clip |
 | ep05_s12_l02 | SUFI_FOLLOWER | Onefelow.wav 21.11–24.42 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
 | ep05_s12_l03 | SUFI_FOLLOWER | Onefelow.wav 26.10–29.88 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
 | ep05_s13_l01 | WIFE | Wife.wav 0.17–3.87 | 1.00 | verified |  |  |
-| ep05_s13_l02 | WIFE | Wife.wav 7.68–14.00 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
+| ep05_s13_l02 | WIFE | Wife.wav 7.68–14.00 | 0.99 | verified |  | the direction was read aloud; it is left out of the clip |
 | ep05_s13_l03 | WIFE | Wife.wav 16.47–22.65 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
-| ep05_s13_l04 | WIFE | Wife.wav 25.53–28.84 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
+| ep05_s13_l04 | WIFE | Wife.wav 25.53–28.84 | 0.97 | verified |  | the direction was read aloud; it is left out of the clip |
 | ep05_s13_l05 | NARRATOR | Narrator5.wav 229.86–239.09 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
 | ep05_s14_l01 | WIFE | Wife.wav 31.60–34.89 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
 | ep05_s14_l02 | WIFE | Wife.wav 37.25–41.57 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |

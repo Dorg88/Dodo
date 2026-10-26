@@ -6,6 +6,20 @@
   "basis": "اسم الملف",
   "direction_text": [
    "وبنبرة حزينة"
+  ],
+  "producer_fixes": [
+   [
+    "الهاتفي",
+    "الهادفي"
+   ],
+   [
+    "لاستدلال",
+    "الاستدلال"
+   ],
+   [
+    "للطراب",
+    "الاضطراب"
+   ]
   ]
  },
  {
@@ -15,6 +29,16 @@
   "basis": "اسم الملف",
   "direction_text": [
    "بتوتر وحيرة واضحة"
+  ],
+  "producer_fixes": [
+   [
+    "الآتراض",
+    "الاعتراض"
+   ],
+   [
+    "الاحتراض",
+    "الاعتراض"
+   ]
   ]
  },
  {
@@ -26,11 +50,12 @@
  {
   "file": "~/HIKAYA/assets/audio/Ep5/Sheik.wav",
   "display_file": "Ep5.zip/Sheik.wav",
-  "label": "الشيخ إسماعيل الهديفي",
+  "label": "الشيخ إسماعيل الهادفي",
   "basis": "اسم الملف وقائمة شخصيات الحلقة؛ الاسم بالصيغة الواردة في القائمة",
   "direction_text": [
    "بعد نقاش"
-  ]
+  ],
+  "producer_fixes": []
  },
  {
   "file": "~/HIKAYA/assets/audio/Ep5/Onefelow.wav",
@@ -45,6 +70,16 @@
   "file": "~/HIKAYA/assets/audio/Ep5/Wife.wav",
   "display_file": "Ep5.zip/Wife.wav",
   "label": "الزوجة",
-  "basis": "اسم الملف"
+  "basis": "اسم الملف",
+  "producer_fixes": [
+   [
+    "جئنا",
+    "جئن"
+   ],
+   [
+    "تجتمع",
+    "تجتمعوا"
+   ]
+  ]
  }
 ]

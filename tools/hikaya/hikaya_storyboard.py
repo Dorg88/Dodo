@@ -59,7 +59,7 @@ SPEAKER_IDS = {
     "أحد أهل المدينة": ("TOWNSMAN", "TW"),
     "أحد الطلاب": ("STUDENT", "ST"),
     "موفد الشيخ": ("SHEIKH_ENVOY", "SE"),
-    "الشيخ إسماعيل الهديفي": ("SHEIKH_ISMAIL", "SI"),
+    "الشيخ إسماعيل الهادفي": ("SHEIKH_ISMAIL", "SI"),
     "أحد أتباع الطريقة": ("SUFI_FOLLOWER", "SF"),
     "أحمد المصري": ("AHMAD_EGYPTIAN", "AE"),
     "الشيخ عبد الباسط": ("SHEIKH_ABDULBASIT", "AB"),
