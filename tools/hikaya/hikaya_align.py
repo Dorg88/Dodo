@@ -180,8 +180,11 @@ def transcribe(model, pcm):
 
 
 def words_of(transcript):
-    """Words of a cached transcript (hikaya_transcribe.py) as [{w, s, e}]."""
-    return [{"w": w["w"], "s": w["s"], "e": w["e"]} for seg in transcript["segments"] for w in seg["words"]]
+    """Words of a cached transcript (hikaya_transcribe.py) as [{w, s, e}], without
+    a phrase the transcriber invents in the silence closing a recording."""
+    from hikaya_recover import drop_hallucinations
+    words = [{"w": w["w"], "s": w["s"], "e": w["e"]} for seg in transcript["segments"] for w in seg["words"]]
+    return drop_hallucinations(words, transcript.get("duration_s", words[-1]["e"] if words else 0))[0]
 
 
 # --- alignment -------------------------------------------------------------------------

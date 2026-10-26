@@ -118,10 +118,29 @@ def direction_vocabulary(paths):
     return vocab
 
 
+# common words opening with «ب» that never start a delivery direction
+NOT_DIRECTION = {"بدايه", "بعد", "بين", "بل", "بها", "به", "بيت", "بني", "بلد", "بكل", "بذلك", "بهذه", "بهذا",
+                 "بسبب", "بالله", "بعض", "بقي", "بقيت", "بلغ", "بدا", "بدات", "بدا", "بينما"}
+
+# phrases the transcriber invents in the silence at the end of a recording
+HALLUCINATIONS = [["اشتركوا", "في", "القناه"], ["شكرا", "للمشاهده"], ["ترجمه", "نانسي", "قنقر"], ["شكرا"]]
+
+
+def drop_hallucinations(words, duration):
+    """Remove a known invented phrase when it closes the recording (within its
+    last 1.5 s). Returns (words, removed text)."""
+    toks = [norm_word(w["w"]) for w in words]
+    for h in HALLUCINATIONS:
+        n = len(h)
+        if len(toks) >= n and toks[-n:] == h and words[-n]["s"] >= duration - 1.5:
+            return words[:-n], " ".join(w["w"] for w in words[-n:])
+    return words, ""
+
+
 def looks_like_direction(words, vocab):
     """A short phrase opening with a manner word used in the scripts' directions."""
     toks = [norm_word(w) for w in words if norm_word(w)]
-    if not toks or len(toks) > 12 or not toks[0].startswith("ب"):
+    if not toks or len(toks) > 12 or not toks[0].startswith("ب") or toks[0] in NOT_DIRECTION:
         return False
     if toks[0] in vocab:
         return True
@@ -302,6 +321,8 @@ def from_audio(a):
             alt = [w for w in alt if lo <= w["s"] < hi]
         sil = pauses(path)
         fine = pauses(path, min_frames=5)
+        duration = max((e for _, e in sil), default=words[-1]["e"] if words else 0)
+        words, invented = drop_hallucinations(words, max(duration, words[-1]["e"] if words else 0))
         fname = os.path.basename(path)
         rel = sp.get("display_file") or fname
         out.append(f"[{sp['label']} — {rel}]")
@@ -313,6 +334,8 @@ def from_audio(a):
         spans = [tuple(x["span"]) for x in sp.get("direction_spans", [])]
         for x in sp.get("direction_spans", []):
             out.append(f"# تصحيح يدوي: الكلمات في {x['span'][0]:.2f}–{x['span'][1]:.2f} ث جزء من تعليمة منطوقة — {x['reason']}")
+        if invented:
+            out.append(f"# حُذف من آخر التفريغ: «{invented}» — عبارة يختلقها المفرِّغ في صمت آخر التسجيل، ولم تُنطق")
         for x in sp.get("direction_text", []):
             out.append(f"# تصحيح يدوي: «{x}» جزء من تعليمة منطوقة، لا من الحوار")
         items = apply_direction_text(recover_file(path, words, sil, vocab, fine, spans), sp.get("direction_text", []))

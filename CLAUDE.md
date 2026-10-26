@@ -18,6 +18,8 @@ Work on branch `ccr-98ead9b4-z932hl`. Progress log: `PROGRESS.md`. QA status: `Q
   `hikaya_score.py` (per-scene music/SFX), `hikaya_pack.py` (book ZIP), `intro/render_intro.py` (HyperFrames logo intro)
 - `tools/sound_library.py`, `tools/build_episode.py` — procedural music/ambience, Episode 1 builder
 - `production/ep01/` — Episode 1 sources (recordings, images, timeline report)
+- `production/thumma_ihtadayt/` — the full book's text artifacts: scene orders, play-order scripts, recording
+  maps, alignment/playback reports, recovered scripts and Word documents, inventory
 - `tts/` — Gemini TTS pipeline (voices verified on gemini-3.8-flash-tts); not needed for HIKAYA playback
 - `.github/workflows/build-apk.yml` — CI builds debug + release APK → release `apk-latest`
 
@@ -29,21 +31,26 @@ Work on branch `ccr-98ead9b4-z932hl`. Progress log: `PROGRESS.md`. QA status: `Q
 - No music during prayer / «الله أكبر»; music stays ≥15 dB under speech.
 - Don't mark an episode PASS unless its audio and synchronization are verified.
 
-## NEXT STEPS (need the producer's Mac)
-1. `python3 tools/hikaya/hikaya_assets.py` → reads `~/Downloads/Audio.zip` and `~/Downloads/IMG.zip`,
-   extracts to `~/HIKAYA/assets`, writes `INVENTORY.md`. Report the inventory (counts, episodes, gaps).
-2. Batches: Episodes 1–9 produced separately; Batch 1 = Ep 10–14, Batch 2 = Ep 15–19, Batch 3 = Ep 20–22
-   (a batch file may hold one character's lines for several episodes). Voices: Riko=Narrator, Enzo=al-Tijani,
-   Ludo=Professor Munim, Lumi=Mother, Bodi=Father, Sola=Wife; find other speakers in the scripts.
-3. Build `~/HIKAYA/books/thumma_ihtadayt/` (book.json with id `thumma_ihtadayt`, 22 episodes): convert the
-   scripts to the align format, write recordings.json per batch, run `hikaya_align.py`, review flags
-   (`review.html`), map illustrations to scenes from IMG.zip (by episode/scene numbers — never invent).
-4. `hikaya_score.py` per episode, then `hikaya_pack.py check` / `build`; import the ZIP in the app.
-5. DONE (cloud session): logos are in `tools/hikaya/intro/logos_original/`, the intro is rendered into
-   `storybook/assets/brand/intro.mp4`, and the launcher icon uses the HIKAYA emblem. Re-run
-   `render_intro.py` only if a higher-resolution shrine logo arrives (the current one is 591×338).
-6. Update `QA_REPORT.md` per episode (PASS / WARNING / FAIL) and `PROGRESS.md`; commit and push.
+## STATE (2026-10-26, on the producer's Mac)
+Book folder `~/HIKAYA/books/thumma_ihtadayt/` (originals copied unchanged; build with `hikaya_pack.py`).
+Text artifacts mirrored in `production/thumma_ihtadayt/` (orders, scripts, maps, reports, recovered scripts).
+- All 22 episodes built in clips mode from the original recordings and the 15 IMG.zip illustrations each.
+- Ep 01: original script (episode_source.json); automatic cuts = hand cuts 16/16; app end-to-end test passes.
+- Ep 07–19: delivered per-character drafts; play order and picture placement PROPOSED (order/epNN.json).
+- Ep 02–06, 20–22: no script matches the recordings → text recovered from the audio (two local transcriptions),
+  marked `textStatus: recovered-transcript`; spoken TTS directions removed from text and clips.
+- Episodes awaiting the producer's approval carry `status: review` in book.json («قيد المراجعة» in the app).
+
+## NEXT STEPS (need the producer)
+1. Listen and approve/correct the proposed orders (`order/epNN.json`, preview videos in `reports/epNN/`).
+2. Review the recovered texts (`~/HIKAYA/recovered_scripts/…`, Word documents) and the open questions in
+   `QA_REPORT.md` (swapped Fellow/Juniorscholar files, Atrash = Sheikh Abd al-Basit?, Batch 3 boundaries,
+   Episode 01 image set). After a change: storyboard build → align → score → verify → pack refresh/build.
+3. Test the imported book on a phone (background playback, lock-screen controls).
 
 ## Commands
 - App: `cd storybook && flutter pub get && flutter analyze && flutter test && flutter build apk --debug`
+  (on the Mac, Flutter 3.47.8 is at `~/HIKAYA/flutter/bin/flutter`; tools' Python venv at `~/HIKAYA/.venv`)
+- Imported book in the real player: `HIKAYA_TEST_ZIP=/path/book.zip flutter test test/imported_episode_test.dart`
+- Workflow of the Mac tools: `tools/hikaya/README.md`
 - Tools' tests: `python3 -m pytest tts/tests` (TTS pipeline); app tests cover importer/timeline/layout.

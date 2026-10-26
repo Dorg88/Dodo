@@ -156,7 +156,33 @@ def render(book_dir, ep, score):
         pk = np.max(np.abs(bus)) or 1
         if pk > 0.95:
             bus *= 0.95 / pk
+    enforce_margin(voice, music, ep["segments"])
     return voice, music, sfx, cues
+
+
+MARGIN_DB = 16.0   # music stays at least this far under every line (the rule is 15 dB)
+
+
+def enforce_margin(voice, music, segments):
+    """Quiet lines (a whisper, a soft reading) can sit too close to the music even
+    after ducking: lower the music under each such line, with short ramps."""
+    n = len(voice)
+    env = np.ones(n)
+    ramp = int(0.3 * SR)
+    for s in segments:
+        a, b = int(s["startMs"] / 1000 * SR), min(n, int(s["endMs"] / 1000 * SR))
+        if b <= a:
+            continue
+        margin = db(voice[a:b]) - db(music[a:b])
+        if margin >= MARGIN_DB:
+            continue
+        g = 10 ** ((margin - MARGIN_DB) / 20)
+        lo, hi = max(0, a - ramp), min(n, b + ramp)
+        seg = np.full(hi - lo, g)
+        seg[: a - lo] = np.linspace(1, g, a - lo)
+        seg[b - lo:] = np.linspace(g, 1, hi - b)
+        env[lo:hi] = np.minimum(env[lo:hi], seg)
+    music *= env[:, None]
 
 
 def db(x):

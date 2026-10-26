@@ -2,6 +2,7 @@
 """HIKAYA book packager: check a book folder and build the ZIP the app imports.
 
     python3 hikaya_pack.py init  MyBook --id my_book --title "عنوان الكتاب" --author "المؤلف"
+    python3 hikaya_pack.py refresh MyBook      # episode list from the episode folders
     python3 hikaya_pack.py check MyBook
     python3 hikaya_pack.py build MyBook [-o my_book.zip]
 
@@ -142,6 +143,38 @@ def cmd_init(a):
     print(f"created {bp}. Add cover.jpg and episode folders, then run: hikaya_pack.py check {a.folder}")
 
 
+def cmd_refresh(a):
+    """Bring book.json's episode list up to date with the episode folders: an
+    episode with an episode.json becomes playable (manifest, duration); one whose
+    play order is only proposed (order/epNN.json) or whose text was recovered
+    from the recording is marked status «review»."""
+    bp = os.path.join(a.folder, "book.json")
+    book = load(bp)
+    for e in book.get("episodes", []):
+        man = f"{e['id']}/episode.json"
+        mp = os.path.join(a.folder, man)
+        if not os.path.exists(mp):
+            continue
+        ep = load(mp)
+        e["manifest"] = man
+        e["durationMs"] = ep.get("durationMs", e.get("durationMs", 0))
+        if not e.get("summary"):   # the episode's first narration, word for word
+            first = next((s for s in ep.get("segments", []) if s.get("speakerId") == "NARRATOR"), None)
+            if first:
+                e["summary"] = (first.get("lines") or [{"text": first["text"]}])[0]["text"]
+        spec = os.path.join(a.folder, "order", f"{e['id']}.json")
+        proposed = os.path.exists(spec) and str(load(spec).get("status", "")).startswith("proposed")
+        if proposed or ep.get("textStatus") == "recovered-transcript":
+            e["status"] = "review"
+        else:
+            e.pop("status", None)
+    with open(bp, "w", encoding="utf-8") as fh:
+        json.dump(book, fh, ensure_ascii=False, indent=1)
+    playable = [e["number"] for e in book["episodes"] if e.get("manifest")]
+    review = [e["number"] for e in book["episodes"] if e.get("status") == "review"]
+    print(f"{len(playable)} playable episodes {playable}; under review {review}")
+
+
 def report(errors, warnings, summary):
     print(f"episodes: {summary['episodes']} ({summary['playable']} playable) · segments: {summary['segments']} · "
           f"{summary['minutes']:.1f} min · unverified timing: {summary['unverified']}")
@@ -191,11 +224,13 @@ def main():
     i.add_argument("--author", default="")
     c = sub.add_parser("check")
     c.add_argument("folder")
+    r = sub.add_parser("refresh")
+    r.add_argument("folder")
     b = sub.add_parser("build")
     b.add_argument("folder")
     b.add_argument("-o", "--output")
     a = ap.parse_args()
-    {"init": cmd_init, "check": cmd_check, "build": cmd_build}[a.cmd](a)
+    {"init": cmd_init, "check": cmd_check, "build": cmd_build, "refresh": cmd_refresh}[a.cmd](a)
 
 
 if __name__ == "__main__":
