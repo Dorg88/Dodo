@@ -13,26 +13,16 @@
   },
   {
    "scene": 2,
-   "title": "سيارة أجرة من طرابلس",
-   "music": "reflective",
+   "title": "سيارة أجرة من طرابلس إلى القاهرة",
+   "music": "warm",
    "sfx": [
     "city"
    ],
    "level": 0.85,
-   "reason": "title: سيارة"
+   "reason": "title: القاهرة"
   },
   {
    "scene": 3,
-   "title": "عبر الصحراء إلى مصر",
-   "music": "reflective",
-   "sfx": [
-    "city"
-   ],
-   "level": 0.85,
-   "reason": "text: يقرأ; ambience of the episode's place"
-  },
-  {
-   "scene": 4,
    "title": "رفاق الطريق",
    "music": "reflective",
    "sfx": [
@@ -42,7 +32,7 @@
    "reason": "title: الطريق"
   },
   {
-   "scene": 5,
+   "scene": 4,
    "title": "دعوة أحمد",
    "music": "reflective",
    "sfx": [
@@ -52,7 +42,7 @@
    "reason": "text: وصل; ambience of the episode's place"
   },
   {
-   "scene": 6,
+   "scene": 5,
    "title": "القاهرة",
    "music": "warm",
    "sfx": [
@@ -62,7 +52,7 @@
    "reason": "title: القاهرة"
   },
   {
-   "scene": 7,
+   "scene": 6,
    "title": "في بيت أحمد",
    "music": "warm",
    "sfx": [
@@ -72,7 +62,7 @@
    "reason": "title: بيت"
   },
   {
-   "scene": 8,
+   "scene": 7,
    "title": "عالم واسع",
    "music": "warm",
    "sfx": [
@@ -82,7 +72,7 @@
    "reason": "text: القاهرة; ambience of the episode's place"
   },
   {
-   "scene": 9,
+   "scene": 8,
    "title": "عند فريد الأطرش",
    "music": "warm",
    "sfx": [
@@ -92,7 +82,7 @@
    "reason": "text: سفر; ambience of the episode's place"
   },
   {
-   "scene": 10,
+   "scene": 9,
    "title": "في بيت الشيخ عبد الباسط",
    "music": "warm",
    "sfx": [
@@ -100,6 +90,16 @@
    ],
    "level": 0.85,
    "reason": "title: بيت"
+  },
+  {
+   "scene": 10,
+   "title": "في مجلس الشيخ عبد الباسط",
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "title: مجلس"
   },
   {
    "scene": 11,
@@ -133,13 +133,13 @@
   },
   {
    "scene": 14,
-   "title": "في مجلس الشيخ عبد الباسط",
-   "music": "warm",
+   "title": "علماء الأزهر",
+   "music": "reflective",
    "sfx": [
-    "roomtone"
+    "city"
    ],
    "level": 0.85,
-   "reason": "title: مجلس"
+   "reason": "default; ambience of the episode's place"
   },
   {
    "scene": 15,
@@ -153,16 +153,6 @@
   },
   {
    "scene": 16,
-   "title": "علماء الأزهر",
-   "music": "reflective",
-   "sfx": [
-    "city"
-   ],
-   "level": 0.85,
-   "reason": "default; ambience of the episode's place"
-  },
-  {
-   "scene": 17,
    "title": "لقاء عام",
    "music": "reflective",
    "sfx": [
@@ -172,7 +162,7 @@
    "reason": "text: كتب; ambience of the episode's place"
   },
   {
-   "scene": 18,
+   "scene": 17,
    "title": "لقاء عام في القاهرة",
    "music": "warm",
    "sfx": [
@@ -182,7 +172,7 @@
    "reason": "title: القاهرة"
   },
   {
-   "scene": 19,
+   "scene": 18,
    "title": "لقاء عام",
    "music": "reflective",
    "sfx": [
@@ -192,7 +182,7 @@
    "reason": "default; ambience of the episode's place"
   },
   {
-   "scene": 20,
+   "scene": 19,
    "title": "هل كنت أعرف حقا؟",
    "music": "reflective",
    "sfx": [
@@ -202,7 +192,7 @@
    "reason": "text: الناس; ambience of the episode's place"
   },
   {
-   "scene": 21,
+   "scene": 20,
    "title": "هل كنت أعرف حقا؟",
    "music": "reflective",
    "sfx": [
@@ -212,7 +202,7 @@
    "reason": "text: قراءة; ambience of the episode's place"
   },
   {
-   "scene": 22,
+   "scene": 21,
    "title": "مسجد الإمام الحسين",
    "music": "reverent",
    "sfx": [
@@ -221,6 +211,16 @@
    ],
    "level": 0.85,
    "reason": "title: مسجد"
+  },
+  {
+   "scene": 22,
+   "title": "حجرة الآثار",
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "title: حجرة"
   },
   {
    "scene": 23,
@@ -244,16 +244,6 @@
   },
   {
    "scene": 25,
-   "title": "حجرة الآثار",
-   "music": "warm",
-   "sfx": [
-    "roomtone"
-   ],
-   "level": 0.85,
-   "reason": "title: حجرة"
-  },
-  {
-   "scene": 26,
    "title": "اتجاهان مختلفان",
    "music": "reflective",
    "sfx": [
@@ -263,7 +253,7 @@
    "reason": "text: فقد; ambience of the episode's place"
   },
   {
-   "scene": 27,
+   "scene": 26,
    "title": "اتجاهان مختلفان",
    "music": "warm",
    "sfx": [
@@ -273,7 +263,7 @@
    "reason": "text: منزل; ambience of the episode's place"
   },
   {
-   "scene": 28,
+   "scene": 27,
    "title": "إلى الإسكندرية",
    "music": "reflective",
    "sfx": [
@@ -283,7 +273,7 @@
    "reason": "title: الإسكندرية"
   },
   {
-   "scene": 29,
+   "scene": 28,
    "title": "إلى الإسكندرية",
    "music": "ending",
    "sfx": [

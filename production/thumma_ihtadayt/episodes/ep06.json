@@ -5,7 +5,10 @@
  "title": "رحلة إلى أرض الكنانة",
  "durationMs": 579100,
  "audio": {
-  "mode": "clips"
+  "mode": "clips",
+  "music": "ep06/audio/score_music.m4a",
+  "sfx": "ep06/audio/score_sfx.m4a",
+  "musicLoop": false
  },
  "speakers": {
   "NARRATOR": {
@@ -1850,5 +1853,175 @@
    }
   }
  ],
- "textStatus": "recovered-transcript"
+ "textStatus": "recovered-transcript",
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "reflective",
+   "startMs": 0,
+   "endMs": 22395
+  },
+  {
+   "scene": 2,
+   "cue": "warm",
+   "startMs": 20794,
+   "endMs": 69925
+  },
+  {
+   "scene": 3,
+   "cue": "reflective",
+   "startMs": 68325,
+   "endMs": 83015
+  },
+  {
+   "scene": 4,
+   "cue": "reflective",
+   "startMs": 81415,
+   "endMs": 102225
+  },
+  {
+   "scene": 5,
+   "cue": "warm",
+   "startMs": 100625,
+   "endMs": 119315
+  },
+  {
+   "scene": 6,
+   "cue": "warm",
+   "startMs": 117715,
+   "endMs": 139955
+  },
+  {
+   "scene": 7,
+   "cue": "warm",
+   "startMs": 138355,
+   "endMs": 150145
+  },
+  {
+   "scene": 8,
+   "cue": "warm",
+   "startMs": 148545,
+   "endMs": 161095
+  },
+  {
+   "scene": 9,
+   "cue": "warm",
+   "startMs": 159494,
+   "endMs": 188865
+  },
+  {
+   "scene": 10,
+   "cue": "warm",
+   "startMs": 187265,
+   "endMs": 234115
+  },
+  {
+   "scene": 11,
+   "cue": "warm",
+   "startMs": 232515,
+   "endMs": 241995
+  },
+  {
+   "scene": 12,
+   "cue": "warm",
+   "startMs": 240394,
+   "endMs": 258295
+  },
+  {
+   "scene": 13,
+   "cue": "warm",
+   "startMs": 256695,
+   "endMs": 271365
+  },
+  {
+   "scene": 14,
+   "cue": "reflective",
+   "startMs": 269765,
+   "endMs": 298535
+  },
+  {
+   "scene": 15,
+   "cue": "reflective",
+   "startMs": 296935,
+   "endMs": 319200
+  },
+  {
+   "scene": 16,
+   "cue": "reflective",
+   "startMs": 317599,
+   "endMs": 327040
+  },
+  {
+   "scene": 17,
+   "cue": "warm",
+   "startMs": 325440,
+   "endMs": 345080
+  },
+  {
+   "scene": 18,
+   "cue": "reflective",
+   "startMs": 343479,
+   "endMs": 365910
+  },
+  {
+   "scene": 19,
+   "cue": "reflective",
+   "startMs": 364310,
+   "endMs": 389730
+  },
+  {
+   "scene": 20,
+   "cue": "reflective",
+   "startMs": 388130,
+   "endMs": 409060
+  },
+  {
+   "scene": 21,
+   "cue": "reverent",
+   "startMs": 407460,
+   "endMs": 429170
+  },
+  {
+   "scene": 22,
+   "cue": "warm",
+   "startMs": 427570,
+   "endMs": 457150
+  },
+  {
+   "scene": 23,
+   "cue": "warm",
+   "startMs": 455550,
+   "endMs": 467610
+  },
+  {
+   "scene": 24,
+   "cue": "warm",
+   "startMs": 466010,
+   "endMs": 483250
+  },
+  {
+   "scene": 25,
+   "cue": "reflective",
+   "startMs": 481650,
+   "endMs": 516890
+  },
+  {
+   "scene": 26,
+   "cue": "warm",
+   "startMs": 515290,
+   "endMs": 531280
+  },
+  {
+   "scene": 27,
+   "cue": "reflective",
+   "startMs": 529680,
+   "endMs": 569084
+  },
+  {
+   "scene": 28,
+   "cue": "ending",
+   "startMs": 567485,
+   "endMs": 579900
+  }
+ ]
 }
