@@ -57,9 +57,12 @@ def main():
         status_note = str(spec.get("status", ""))
         proposed = status_note.startswith("proposed")
         failed = (clips_ok is None or clips_ok != clips or not structure_ok or margin is None or margin < 15)
-        status = "FAIL" if failed else ("WARNING" if (proposed or recovered or verified < len(segs)) else "PASS")
+        approved = status_note.startswith("approved")
+        status = "FAIL" if failed else ("PASS" if approved else
+                                        "WARNING" if (proposed or recovered or verified < len(segs)) else "PASS")
         text = "recovered from the recording" if recovered else ("original script" if n == 1 else "delivered draft (verbatim)")
-        order = ("original order; pictures proposed" if status_note.startswith("order verified") else
+        order = ("approved by the producer" if status_note.startswith("approved") else
+                 "original order; pictures proposed" if status_note.startswith("order verified") else
                  "proposed" + (" — pictures out of numeric order" if spec.get("out_of_order_images") else "") +
                  (f" — {len(spec['unused_images'])} unused" if spec.get("unused_images") else ""))
         rows.append(f"| {n:02d} | {e['title']} | **{status}** | {len(segs)} ({verified}) | "

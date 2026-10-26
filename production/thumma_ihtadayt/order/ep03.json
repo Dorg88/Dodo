@@ -1,18 +1,121 @@
-{"episode": 3, "status": "proposed", "note": "Recovered transcript (no original script): speaking order and illustration placement proposed from the content and the order of the 15 illustrations; to be confirmed by the producer.",
+{
+ "episode": 3,
+ "status": "approved by the producer (order, pictures and corrected text)",
+ "note": "Recovered transcript (no original script): speaking order and illustration placement proposed from the content and the order of the 15 illustrations; to be confirmed by the producer.",
  "scenes": [
-  {"image": 1,  "title": "أصغر أفراد البعثة", "lines": ["N1"]},
-  {"image": 2,  "title": "الطريق إلى مكة", "lines": ["N2", "RC1"]},
-  {"image": 3,  "title": "موعد مع بيت الله", "lines": ["N3", "T1"]},
-  {"image": 4,  "title": "أمام الكعبة", "lines": ["T2", "N4"]},
-  {"image": 5,  "title": "هذه هي الكعبة", "lines": ["T3", "TA1"]},
-  {"image": 6,  "title": "لبيك اللهم لبيك", "lines": ["TA2", "T4"]},
-  {"image": 7,  "title": "الطواف وزمزم", "lines": ["N5"]},
-  {"image": 8,  "title": "على غير موعد", "lines": ["T5"]},
-  {"image": 9,  "title": "أحلام الطفولة", "lines": ["T6"]},
-  {"image": 10, "title": "أسعد الأيام", "lines": ["TA3"]},
-  {"image": 11, "title": "جبل النور", "lines": ["N6"]},
-  {"image": 12, "title": "غار حراء", "lines": ["T7"]},
-  {"image": 13, "title": "رفاق الرحلة", "lines": ["RC2", "RC3", "RC4"]},
-  {"image": 14, "title": "أفكار جديدة", "lines": ["N7", "T8"]},
-  {"image": 15, "title": "قفصة تنتظر", "lines": ["TA4", "N8"]}
- ]}
+  {
+   "image": 1,
+   "title": "أصغر أفراد البعثة",
+   "lines": [
+    "N1"
+   ]
+  },
+  {
+   "image": 2,
+   "title": "الطريق إلى مكة",
+   "lines": [
+    "N2",
+    "RC1"
+   ]
+  },
+  {
+   "image": 3,
+   "title": "موعد مع بيت الله",
+   "lines": [
+    "N3",
+    "T1"
+   ]
+  },
+  {
+   "image": 4,
+   "title": "أمام الكعبة",
+   "lines": [
+    "T2",
+    "N4"
+   ]
+  },
+  {
+   "image": 5,
+   "title": "هذه هي الكعبة",
+   "lines": [
+    "T3",
+    "TA1"
+   ]
+  },
+  {
+   "image": 6,
+   "title": "لبيك اللهم لبيك",
+   "lines": [
+    "TA2",
+    "T4"
+   ]
+  },
+  {
+   "image": 7,
+   "title": "الطواف وزمزم",
+   "lines": [
+    "N5"
+   ]
+  },
+  {
+   "image": 8,
+   "title": "على غير موعد",
+   "lines": [
+    "T5"
+   ]
+  },
+  {
+   "image": 9,
+   "title": "أحلام الطفولة",
+   "lines": [
+    "T6"
+   ]
+  },
+  {
+   "image": 10,
+   "title": "أسعد الأيام",
+   "lines": [
+    "TA3"
+   ]
+  },
+  {
+   "image": 11,
+   "title": "جبل النور",
+   "lines": [
+    "N6"
+   ]
+  },
+  {
+   "image": 12,
+   "title": "غار حراء",
+   "lines": [
+    "T7"
+   ]
+  },
+  {
+   "image": 13,
+   "title": "رفاق الرحلة",
+   "lines": [
+    "RC2",
+    "RC3",
+    "RC4"
+   ]
+  },
+  {
+   "image": 14,
+   "title": "أفكار جديدة",
+   "lines": [
+    "N7",
+    "T8"
+   ]
+  },
+  {
+   "image": 15,
+   "title": "قفصة تنتظر",
+   "lines": [
+    "TA4",
+    "N8"
+   ]
+  }
+ ]
+}

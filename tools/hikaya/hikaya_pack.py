@@ -163,8 +163,10 @@ def cmd_refresh(a):
             if first:
                 e["summary"] = (first.get("lines") or [{"text": first["text"]}])[0]["text"]
         spec = os.path.join(a.folder, "order", f"{e['id']}.json")
-        proposed = os.path.exists(spec) and str(load(spec).get("status", "")).startswith("proposed")
-        if proposed or ep.get("textStatus") == "recovered-transcript":
+        state = str(load(spec).get("status", "")) if os.path.exists(spec) else ""
+        if state.startswith("approved"):
+            e.pop("status", None)
+        elif state.startswith("proposed") or ep.get("textStatus") == "recovered-transcript":
             e["status"] = "review"
         else:
             e.pop("status", None)

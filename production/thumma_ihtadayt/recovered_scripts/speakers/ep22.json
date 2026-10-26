@@ -22,7 +22,13 @@
   "file": "~/HIKAYA/assets/audio/Batch 3/Friend.wav",
   "display_file": "Batch 3.zip/Friend.wav",
   "label": "صديق تونسي",
-  "basis": "اسم الملف (friend) ومضمونه بعد العودة إلى تونس"
+  "basis": "اسم الملف (friend) ومضمونه بعد العودة إلى تونس",
+  "producer_fixes": [
+   [
+    "مصفر",
+    "من السفر"
+   ]
+  ]
  },
  {
   "file": "~/HIKAYA/assets/audio/Batch 3/Relative.wav",
@@ -32,6 +38,12 @@
   "direction_text": [
    "بنبرح نونة",
    "بتقبل حذر"
+  ],
+  "producer_fixes": [
+   [
+    "للقرار كبير حكا؟",
+    "لقرار كبير هكا؟"
+   ]
   ]
  },
  {
