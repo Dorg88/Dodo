@@ -156,8 +156,8 @@ right picture, text and speaker at every line, 1,164 sentences highlighted at th
 The producer replaced the 45 pictures with new ones made with ChatGPT (`imgs.zip`, 52 pictures, originals kept in
 `~/HIKAYA/assets/peshawar_images_chatgpt/`; the earlier pictures stay in `~/HIKAYA/assets/peshawar_images/`). The new
 pictures carry descriptive names, not scene numbers, so each was matched to its scene by its content
-(`chatgpt_images.json`): 44 scenes replaced, whole and uncropped. To confirm with the producer (review page on the
-Desktop, `مراجعة الصور الجديدة.html`): four closest matches (Ep10 s11 grief vs gesture, Ep14 s08 the boy seated,
+(`chatgpt_images.json`): 44 scenes replaced, whole and uncropped. Approved by the producer (review page on the
+Desktop, `مراجعة الصور الجديدة.html`), including four closest matches (Ep10 s11 grief vs gesture, Ep14 s08 the boy seated,
 Ep15 s09 daylight for a night scene, Ep21 s06 the woman not visible); Ep08 s06 (the two roasted birds), with no new
 picture, uses an SVG drawn for it (`art/ep08_scene06.svg`, the Prophet seen only from behind); eight new pictures are unused variants. `layali_peshawar-v3.zip`: imported-book
 test passes for all 22 episodes; previews re-rendered.
