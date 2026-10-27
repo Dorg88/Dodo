@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1080, height=1920" />
-    <!-- HIKAYA launch intro. Three logos in order: the Research & Studies
+    <!-- HIKAYA launch intro. No backdrop behind the logos: they sit on the paper, light passes over their own shapes.
+          Three logos in order: the Research & Studies
          Division, the Holy Shrine, then HIKAYA. Logos are the producer's
          original files, prepared by render_intro.py into logos/. -->
     <script src="assets/gsap.min.js"></script>
@@ -26,27 +27,25 @@
       }
       #root { position: relative; width: 100%; height: 100%; }
       .clip { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
-      .glow {
-        position: absolute;
-        width: 980px; height: 980px; border-radius: 50%;
-        background: radial-gradient(circle, rgba(214, 170, 92, 0.42) 0%, rgba(214, 170, 92, 0.12) 45%, rgba(214, 170, 92, 0) 70%);
-        opacity: 0;
+      .logo-box { position: relative; display: flex; align-items: center; justify-content: center; }
+      /* the light passes over the logo only: its own transparent shape is the mask, no box, no backdrop */
+      .light {
+        position: absolute; inset: 0; overflow: hidden;
+        -webkit-mask-size: contain; mask-size: contain;
+        -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
+        -webkit-mask-position: center; mask-position: center;
       }
-      .ring {
-        position: absolute;
-        width: 860px; height: 860px; border-radius: 50%;
-        border: 5px solid var(--gold);
-        opacity: 0;
-      }
-      .logo-box { position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; }
+      #logo1 .light { -webkit-mask-image: url("logos/logo_section.png"); mask-image: url("logos/logo_section.png"); }
+      #logo2 .light { -webkit-mask-image: url("logos/logo_shrine.png"); mask-image: url("logos/logo_shrine.png"); }
+      #logo3 .light { -webkit-mask-image: url("logos/logo_hikaya.png"); mask-image: url("logos/logo_hikaya.png"); }
       .logo-box img { display: block; object-fit: contain; }
       #logo1 { width: 760px; height: 1000px; }
-      #logo2 { width: 900px; height: 900px; }
+      #logo2 { width: 720px; height: 720px; }   /* the original is small (591×338): kept sharp */
       #logo3 { width: 900px; height: 900px; }
       .shine {
         position: absolute; top: -20%; left: 0;
         width: 180px; height: 140%;
-        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 250, 235, 0.65) 50%, rgba(255, 255, 255, 0) 100%);
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 252, 240, 0.8) 50%, rgba(255, 255, 255, 0) 100%);
         transform: rotate(18deg);
         opacity: 0;
       }
@@ -75,28 +74,25 @@
 
       <!-- 1. Research & Studies Division, Department of Religious Affairs -->
       <div id="s1" class="clip" data-start="0" data-duration="2.4" data-track-index="0">
-        <div class="glow" id="glow1"></div>
         <div class="logo-box" id="logo1">
           <img src="logos/logo_section.png" alt="شعبة البحوث والدراسات" style="width: 100%; height: 100%" />
-          <div class="shine" id="shine1"></div>
+          <div class="light"><div class="shine" id="shine1"></div></div>
         </div>
       </div>
 
       <!-- 2. The Holy Shrine (main institution) -->
       <div id="s2" class="clip" data-start="2.4" data-duration="2.4" data-track-index="1">
-        <div class="glow" id="glow2"></div>
-        <div class="ring" id="ring2"></div>
         <div class="logo-box" id="logo2">
           <img src="logos/logo_shrine.png" alt="الأمانة العامة للعتبة الحسينية المقدسة" style="width: 100%; height: 100%" />
+          <div class="light"><div class="shine" id="shine2"></div></div>
         </div>
       </div>
 
       <!-- 3. HIKAYA -->
       <div id="s3" class="clip" data-start="4.8" data-duration="2.8" data-track-index="2">
-        <div class="glow" id="glow3"></div>
         <div class="logo-box" id="logo3">
           <img src="logos/logo_hikaya.png" alt="حكايا" style="width: 100%; height: 100%" />
-          <div class="shine" id="shine3"></div>
+          <div class="light"><div class="shine" id="shine3"></div></div>
         </div>
         <div id="rule"></div>
         <div id="tagline">كتب مصوّرة ومسموعة</div>
@@ -108,24 +104,21 @@
     <script>
       const tl = gsap.timeline({ paused: true });
 
-      // 1 — section logo: rise in, warm glow, a sweep of light, lift away
+      // 1 — section logo: rise in, a sweep of light over it, lift away
       tl.fromTo("#logo1", { opacity: 0, scale: 0.9, y: 40 }, { opacity: 1, scale: 1, y: 0, duration: 0.85, ease: "power3.out" }, 0.15);
-      tl.fromTo("#glow1", { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1.15, duration: 1.9, ease: "sine.out" }, 0.2);
       tl.fromTo("#shine1", { x: -300, opacity: 0 }, { x: 900, opacity: 1, duration: 0.8, ease: "power1.inOut" }, 0.95);
       tl.to("#shine1", { opacity: 0, duration: 0.15 }, 1.6);
-      tl.to(["#logo1", "#glow1"], { opacity: 0, scale: 1.04, y: -20, duration: 0.45, ease: "power2.in" }, 1.95);
+      tl.to("#logo1", { opacity: 0, scale: 1.04, y: -20, duration: 0.45, ease: "power2.in" }, 1.95);
 
-      // 2 — Holy Shrine: gentle turn into place inside an expanding gold halo
-      tl.fromTo("#ring2", { opacity: 0, scale: 0.5 }, { opacity: 0.85, scale: 1.0, duration: 0.9, ease: "power2.out" }, 2.5);
-      tl.to("#ring2", { opacity: 0, scale: 1.25, duration: 0.9, ease: "power1.in" }, 3.4);
-      tl.fromTo("#glow2", { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1.1, duration: 1.6, ease: "sine.out" }, 2.5);
+      // 2 — Holy Shrine: gentle turn into place, a sweep of light over the shrine
       tl.fromTo("#logo2", { opacity: 0, scale: 0.82, rotation: -4 }, { opacity: 1, scale: 1, rotation: 0, duration: 0.8, ease: "back.out(1.4)" }, 2.55);
-      tl.to(["#logo2", "#glow2"], { opacity: 0, scale: 1.04, duration: 0.45, ease: "power2.in" }, 4.35);
+      tl.fromTo("#shine2", { x: -300, opacity: 0 }, { x: 900, opacity: 1, duration: 0.8, ease: "power1.inOut" }, 3.3);
+      tl.to("#shine2", { opacity: 0, duration: 0.15 }, 3.95);
+      tl.to("#logo2", { opacity: 0, scale: 1.04, duration: 0.45, ease: "power2.in" }, 4.35);
 
       // 3 — HIKAYA: the book opens upward, light passes over it, the tagline settles
       tl.fromTo("#logo3", { opacity: 0, scaleY: 0.7, scaleX: 0.95, y: 40, transformOrigin: "50% 85%" },
         { opacity: 1, scaleY: 1, scaleX: 1, y: 0, duration: 0.9, ease: "power3.out" }, 4.9);
-      tl.fromTo("#glow3", { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1.1, duration: 1.8, ease: "sine.out" }, 4.95);
       tl.fromTo("#shine3", { x: -300, opacity: 0 }, { x: 1000, opacity: 1, duration: 0.9, ease: "power1.inOut" }, 5.7);
       tl.to("#shine3", { opacity: 0, duration: 0.15 }, 6.45);
       tl.fromTo("#rule", { scaleX: 0 }, { scaleX: 1, duration: 0.6, ease: "power2.out" }, 5.65);

@@ -7,8 +7,8 @@
        hikaya.(png|jpg)    حكايا
 2. python3 tools/hikaya/intro/render_intro.py
 
-The script removes only the white background that touches the image edges
-(white details inside a logo are kept), trims the margins, renders
+The script removes the white background everywhere (also the pieces enclosed
+between and inside letters), keeps soft letter edges, trims the margins, renders
 index.html with `npx hyperframes render`, and writes:
     storybook/assets/brand/intro.mp4          the motion graphic played at launch
     storybook/assets/brand/logo_*.png         prepared logos (transparent)
@@ -42,22 +42,36 @@ def find_original(folder, key):
     return hits[0] if hits else None
 
 
-def prepare_logo(src, dst, white=236, pad=0.04):
-    """Make the edge-connected near-white background transparent, feather
-    the edge, trim, and save as PNG."""
+def prepare_logo(src, dst, white=232, soft=110, pad=0.04):
+    """Make the white background transparent everywhere, also the small pieces
+    enclosed between and inside letters, with soft anti-aliased edges; trim and
+    save as PNG. Only near-white, colourless pixels count as background: colours
+    (the beige page, the gold, the teal) stay opaque."""
     im = Image.open(src).convert("RGBA")
     a = np.asarray(im).astype(np.float32)
     rgb = a[..., :3]
-    near_white = rgb.min(axis=2) >= white
-    labels, _ = ndimage.label(near_white)
-    border = set(np.unique(np.concatenate([labels[0], labels[-1], labels[:, 0], labels[:, -1]]))) - {0}
-    background = np.isin(labels, list(border))
-    # soft edge: pixels next to the background fade by how close to white they are
-    edge = ndimage.binary_dilation(background, iterations=2) & ~background
-    whiteness = (rgb.min(axis=2) - 200) / 55.0
+    lo, hi = rgb.min(axis=2), rgb.max(axis=2)
+    colourless = (hi - lo) < 28
+    # near-white, or a pale tint of the edge it touches (the pink rim of the flag)
+    background = (colourless & (lo >= white)) | ((lo >= 222) & ((hi - lo) < 70))
+    # edge pixels: a mix of the logo's colour and the white paper it was drawn on.
+    # Their alpha is how far they are from white; their colour is the logo's, unmixed.
+    near = ndimage.binary_dilation(background, iterations=3) & ~background
     alpha = a[..., 3].copy()
     alpha[background] = 0
-    alpha[edge] = np.clip(255 * (1 - whiteness[edge]), 0, 255)
+    t = np.clip((white - lo) / float(white - soft), 0, 1)        # 0 at white … 1 at a solid colour
+    edge = near & (lo > 40) & ((hi - lo) < 90)
+    alpha[edge] = np.minimum(alpha[edge], 255 * t[edge])
+    k = np.clip(alpha / 255.0, 1e-3, 1)[..., None]
+    unmixed = np.clip((rgb - 255 * (1 - k)) / k, 0, 255)
+    a[..., :3] = np.where(edge[..., None], unmixed, rgb)
+    # specks of a pixel or two left in the gaps between letters
+    solid = alpha > 0
+    lab, n = ndimage.label(solid)
+    if n:
+        sizes = ndimage.sum(solid, lab, range(1, n + 1))
+        tiny = np.isin(lab, np.nonzero(sizes < 6)[0] + 1)
+        alpha[tiny] = 0
     a[..., 3] = alpha
     out = Image.fromarray(a.astype(np.uint8), "RGBA")
     bbox = out.getbbox()
