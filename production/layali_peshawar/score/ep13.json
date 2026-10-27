@@ -1,0 +1,155 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "المؤلف يتكلم بنبرة الواثق",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: كتب; ambience of the episode's place"
+  },
+  {
+   "scene": 2,
+   "title": "المؤلف يحلل الحديث كلمة كلمة",
+   "music": "suspense",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: سؤال; ambience of the episode's place"
+  },
+  {
+   "scene": 3,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 4,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 5,
+   "title": "المؤلف يعدّ أسماء على أصابعه",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "default; ambience of the episode's place"
+  },
+  {
+   "scene": 6,
+   "title": "الشيخ عبد السلام يتكلم بنبرة مصالحة",
+   "music": "nostalgic",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: ليل; ambience of the episode's place"
+  },
+  {
+   "scene": 7,
+   "title": "بعد صلاة العشاء",
+   "music": "nostalgic",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: ليل; ambience of the episode's place"
+  },
+  {
+   "scene": 8,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 9,
+   "title": "الحافظ يرفع يده محتجًّا",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: كتب; ambience of the episode's place"
+  },
+  {
+   "scene": 10,
+   "title": "الحافظ يغيّر الموضوع بنبرة أخفّ",
+   "music": "reverent",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: زيارة; ambience of the episode's place"
+  },
+  {
+   "scene": 11,
+   "title": "النواب يتكلم بصدق",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "default; ambience of the episode's place"
+  },
+  {
+   "scene": 12,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 13,
+   "title": "لوحة رمزية",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "default; ambience of the episode's place"
+  },
+  {
+   "scene": 14,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 15,
+   "title": "النواب يتكلم والدمع في عينيه",
+   "music": "ending",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: زيارة; ambience of the episode's place; last scene"
+  }
+ ]
+}

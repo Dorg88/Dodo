@@ -89,7 +89,7 @@ def parse_script(path):
                 meta = dict(kv.split("=", 1) for kv in (m.group(3) or "").split() if "=" in kv)
                 ep["scenes"][-1]["lines"].append({
                     "speaker": m.group(1), "direction": (m.group(2) or "").strip() or ", ".join(removed),
-                    "text": text, "line_no": no, "src": meta.get("src")})
+                    "text": text, "line_no": no, "src": meta.get("src"), "ref": meta.get("id")})
     if ep["episode"] is None:
         raise SystemExit(f"{path}: missing @episode")
     for i, sc in enumerate(ep["scenes"], 1):
@@ -497,6 +497,7 @@ def main():
         with open(args.overrides, encoding="utf-8") as fh:
             overrides = json.load(fh)
 
+    pickups = recordings.pop("_pickups", {})   # speaker -> recordings made later for lines missing from the first ones
     speakers_used = {ln["speaker"] for ep in episodes for sc in ep["scenes"] for ln in sc["lines"]}
     missing = sorted(s for s in speakers_used if s not in recordings)
     if missing:
@@ -518,7 +519,47 @@ def main():
         print(f"aligning {who}: {len(lines)} lines in {', '.join(files)}", flush=True)
         for r in align_speaker(lines, list(files), None, args.book_dir, cache, transcribe_cached):
             results[r["id"]] = r
+    # Pickup recordings: a speaker's lines that were not found (or not with verified timing)
+    # are looked for again, in recording order, in the recordings made later to complete them.
+    # A pickup given as {"file", "lines": [ids]} re-records exactly those lines: its takes
+    # replace the earlier ones.
+    all_lines = [ln for ep in episodes for sc in ep["scenes"] for ln in sc["lines"]]
+    for who, entries in pickups.items():
+        passes, run = [], []
+        for e in entries:
+            if isinstance(e, str):
+                run.append(e)
+                continue
+            if run:
+                passes.append((run, None))
+                run = []
+            passes.append(([e["file"]], set(e["lines"])))
+        if run:
+            passes.append((run, None))
+        for files, listed in passes:
+            if listed is None:
+                todo = [ln for ln in all_lines if ln["speaker"] == who and results[ln["id"]]["timing"] != "verified"]
+            else:
+                todo = [ln for ln in all_lines if ln["speaker"] == who and ln.get("ref") in listed]
+            if not todo:
+                continue
+            if all(ln.get("src") for ln in todo):
+                todo = sorted(todo, key=lambda ln: ln["src"])
+            print(f"aligning {who} (pickups): {len(todo)} lines in {', '.join(files)}", flush=True)
+            for r in align_speaker(todo, list(files), None, args.book_dir, cache, transcribe_cached):
+                old = results[r["id"]]
+                if listed is not None:
+                    better = bool(r["file"]) and (r["timing"] == "verified" or old["timing"] != "verified")
+                else:
+                    better = bool(r["file"]) and (not old["file"] or
+                                                  (r["timing"] == "verified" and r["confidence"] > old["confidence"]))
+                if better:
+                    r["notes"] = r.get("notes", []) + [("re-recorded" if listed is not None else "from a pickup recording")]
+                    results[r["id"]] = r
     for lid, o in overrides.items():
+        if lid in results and o.get("file") and not results[lid]["file"]:   # a line found by ear
+            results[lid].update(file=o["file"], confidence=1.0, coverage=1.0, heard=results[lid]["text"])
+            results[lid]["flags"] = [f for f in results[lid]["flags"] if f != "line not found in the recording"]
         if lid in results and results[lid]["file"]:
             results[lid].update(start=float(o["start"]), end=float(o["end"]), timing="verified")
             results[lid]["flags"] = [f for f in results[lid]["flags"]] + ["start/end set by hand"]

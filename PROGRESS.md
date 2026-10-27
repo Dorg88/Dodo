@@ -44,8 +44,10 @@
       scripts, per-voice batch texts, 14 recordings for 9 voices) and 323 scene pictures (4 zips) = 323 scenes
 - [x] `hikaya_from_manifest.py`: play-order scripts straight from the manifest (text verbatim, tone kept as
       metadata, one picture per scene); `build_layali_peshawar.sh` for scripts/align/score/pack/mirror
-- [x] Alignment: 810 of 1,123 lines found; aligner fix for a line whose words run into the next recording
-- [x] 10 complete episodes (01, 03, 04, 15–21) scored, verified and packed; the others shown «قريباً»
-- [ ] **Producer:** 313 lines were never recorded (AUTHOR batches 04–06 entirely, most of 03 and half of 07,
-      a few scattered lines; HAFIZ 15 lines). Ready-to-paste texts in the Desktop folder
-      `حكايا - للمراجعة/5 - ليالي بيشاور/التسجيلات الناقصة/`
+- [x] Alignment of the first takes: 810 of 1,123 lines; the producer recorded the 313 missing lines and re-recorded
+      4 incomplete ones → aligned as pickup recordings; 1,123 of 1,123 lines placed
+- [x] All 22 episodes scored, verified clip by clip (all PASS) and tested in the app (`layali_peshawar-v2.zip`)
+- [x] Launch intro remade: logos without any background (also between letters), no halos or ring; the
+      producer's high-resolution shrine logo
+- [ ] **Producer:** regenerate the 45 pictures of the Prophet, Ahl al-Bayt and the prophets with ChatGPT
+      (prompts and page on the Desktop), then swap them in

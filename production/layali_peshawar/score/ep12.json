@@ -1,0 +1,145 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "ليلة الخميس",
+   "music": "nostalgic",
+   "sfx": [
+    "night"
+   ],
+   "level": 0.85,
+   "reason": "title: ليل"
+  },
+  {
+   "scene": 2,
+   "title": "المؤلف يرد بنبرة فيها عتاب رقيق",
+   "music": "nostalgic",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: ليل; ambience of the episode's place"
+  },
+  {
+   "scene": 3,
+   "title": "لوحة رمزية",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: فقد; ambience of the episode's place"
+  },
+  {
+   "scene": 4,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 5,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 6,
+   "title": "الحافظ يقرّ ثم يعترض",
+   "music": "suspense",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: سؤال; ambience of the episode's place"
+  },
+  {
+   "scene": 7,
+   "title": "المؤلف يعدّ الأحاديث بإيقاع منتظم",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: فقد; ambience of the episode's place"
+  },
+  {
+   "scene": 8,
+   "title": "استراحة صلاة العشاء",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: عاد; ambience of the episode's place"
+  },
+  {
+   "scene": 9,
+   "title": "لوحة رمزية",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "default; ambience of the episode's place"
+  },
+  {
+   "scene": 10,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 11,
+   "title": "لوحة رمزية",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "default; ambience of the episode's place"
+  },
+  {
+   "scene": 12,
+   "title": "المؤلف يتكلم بحرارة إلى الجمع",
+   "music": "reflective",
+   "sfx": [
+    "sea"
+   ],
+   "level": 0.85,
+   "reason": "title: بحر"
+  },
+  {
+   "scene": 13,
+   "title": "الحافظ يعتدل في جلسته",
+   "music": "nostalgic",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: ليل; ambience of the episode's place"
+  },
+  {
+   "scene": 14,
+   "title": "المؤلف ينظر إلى الحافظ طويلًا",
+   "music": "ending",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "default; ambience of the episode's place; last scene"
+  }
+ ]
+}

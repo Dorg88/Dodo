@@ -5,7 +5,7 @@
  "subtitle": "عشر ليالٍ من الحوار",
  "author": "سلطان الواعظين الشيرازي",
  "language": "ar",
- "version": 1,
+ "version": 2,
  "description": "حوارات السيد محمد الموسوي الشيرازي مع علماء بيشاور سنة 1345 هـ، في اثنتين وعشرين حلقة مصوّرة ومسموعة على الليالي العشر.",
  "cover": "ep01/images/scene_01.jpg",
  "plannedEpisodes": 22,
@@ -22,7 +22,9 @@
    "id": "ep02",
    "number": 2,
    "title": "الصلاتان والقبر المخفيّ",
-   "summary": "المجلس الأول (الجزء الثاني)"
+   "summary": "المجلس الأول (الجزء الثاني)",
+   "manifest": "ep02/episode.json",
+   "durationMs": 534420
   },
   {
    "id": "ep03",
@@ -30,8 +32,7 @@
    "title": "خير البريّة",
    "summary": "المجلس الثاني كاملًا",
    "manifest": "ep03/episode.json",
-   "durationMs": 558430,
-   "status": "review"
+   "durationMs": 563805
   },
   {
    "id": "ep04",
@@ -45,61 +46,81 @@
    "id": "ep05",
    "number": 5,
    "title": "السفينة والدماء",
-   "summary": "المجلس الثالث (الجزء الثاني)"
+   "summary": "المجلس الثالث (الجزء الثاني)",
+   "manifest": "ep05/episode.json",
+   "durationMs": 613905
   },
   {
    "id": "ep06",
    "number": 6,
    "title": "منزلة هارون",
-   "summary": "المجلس الرابع كاملًا"
+   "summary": "المجلس الرابع كاملًا",
+   "manifest": "ep06/episode.json",
+   "durationMs": 523600
   },
   {
    "id": "ep07",
    "number": 7,
    "title": "يوم الإنذار",
-   "summary": "المجلس الخامس (الجزء الأول)"
+   "summary": "المجلس الخامس (الجزء الأول)",
+   "manifest": "ep07/episode.json",
+   "durationMs": 567095
   },
   {
    "id": "ep08",
    "number": 8,
    "title": "الطائر المشويّ",
-   "summary": "المجلس الخامس (الجزء الثاني)"
+   "summary": "المجلس الخامس (الجزء الثاني)",
+   "manifest": "ep08/episode.json",
+   "durationMs": 559840
   },
   {
    "id": "ep09",
    "number": 9,
    "title": "الفتى الذي نام على الفراش",
-   "summary": "المجلس السادس (الجزء الأول)"
+   "summary": "المجلس السادس (الجزء الأول)",
+   "manifest": "ep09/episode.json",
+   "durationMs": 517500
   },
   {
    "id": "ep10",
    "number": 10,
    "title": "الراية والربذة",
-   "summary": "المجلس السادس (الجزء الثاني)"
+   "summary": "المجلس السادس (الجزء الثاني)",
+   "manifest": "ep10/episode.json",
+   "durationMs": 539950
   },
   {
    "id": "ep11",
    "number": 11,
    "title": "الخاتم في الركوع",
-   "summary": "المجلس السادس (الجزء الثالث والأخير)"
+   "summary": "المجلس السادس (الجزء الثالث والأخير)",
+   "manifest": "ep11/episode.json",
+   "durationMs": 563375
   },
   {
    "id": "ep12",
    "number": 12,
    "title": "وأنفسنا وأنفسكم",
-   "summary": "المجلس السابع (الجزء الأول)"
+   "summary": "المجلس السابع (الجزء الأول)",
+   "manifest": "ep12/episode.json",
+   "durationMs": 557830
   },
   {
    "id": "ep13",
    "number": 13,
    "title": "ما بعد السقيفة",
-   "summary": "المجلس السابع (الجزء الثاني)"
+   "summary": "المجلس السابع (الجزء الثاني)",
+   "manifest": "ep13/episode.json",
+   "durationMs": 559250
   },
   {
    "id": "ep14",
    "number": 14,
    "title": "مدينة العلم وبابها",
-   "summary": "المجلس الثامن (الجزء الأول)"
+   "summary": "المجلس الثامن (الجزء الأول)",
+   "manifest": "ep14/episode.json",
+   "durationMs": 613735
   },
   {
    "id": "ep15",
@@ -107,8 +128,7 @@
    "title": "أصحابي كالنجوم",
    "summary": "المجلس الثامن (الجزء الثاني)",
    "manifest": "ep15/episode.json",
-   "durationMs": 525230,
-   "status": "review"
+   "durationMs": 526045
   },
   {
    "id": "ep16",
@@ -162,7 +182,9 @@
    "id": "ep22",
    "number": 22,
    "title": "سلوني قبل أن تفقدوني",
-   "summary": "المجلس العاشر (الجزء الثاني والأخير)"
+   "summary": "المجلس العاشر (الجزء الثاني والأخير)",
+   "manifest": "ep22/episode.json",
+   "durationMs": 574185
   }
  ]
 }

@@ -1,0 +1,155 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "الحافظ ينتصب في مجلسه",
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "title: مجلس"
+  },
+  {
+   "scene": 2,
+   "title": "المؤلف يتكلم ويده على صدره",
+   "music": "suspense",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: نقاش; ambience of the episode's place"
+  },
+  {
+   "scene": 3,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 4,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 5,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 6,
+   "title": "المؤلف يخفض صوته",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: مصادر; ambience of the episode's place"
+  },
+  {
+   "scene": 7,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 8,
+   "title": "لوحة استعادية حزينة",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 9,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 10,
+   "title": "لوحة استعادية دافئة",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 11,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 12,
+   "title": "لوحة رمزية",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "default; ambience of the episode's place"
+  },
+  {
+   "scene": 13,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 14,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 15,
+   "title": "لوحة استعادية",
+   "music": "ending",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد; last scene"
+  }
+ ]
+}

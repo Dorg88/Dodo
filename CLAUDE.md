@@ -21,8 +21,8 @@ Work on branch `ccr-98ead9b4-z932hl`. Progress log: `PROGRESS.md`. QA status: `Q
 - `production/thumma_ihtadayt/` — the full book's text artifacts: scene orders, play-order scripts, recording
   maps, alignment/playback reports, recovered scripts and Word documents, inventory
 - `production/layali_peshawar/` — second book «ليالي بيشاور»: built from the production's manifest.csv with
-  `tools/hikaya/build_layali_peshawar.sh` (book in `~/HIKAYA/books/layali_peshawar/`); 10 of 22 episodes playable,
-  the rest wait for 313 unrecorded lines (see `QA_REPORT.md`)
+  `tools/hikaya/build_layali_peshawar.sh` (book in `~/HIKAYA/books/layali_peshawar/`); all 22 episodes PASS; missing and incomplete lines
+  were recorded later and aligned as pickups (`audio/<KEY>/pickups/`, see `QA_REPORT.md`)
 - `tts/` — Gemini TTS pipeline (voices verified on gemini-3.8-flash-tts); not needed for HIKAYA playback
 - `.github/workflows/build-apk.yml` — CI builds debug + release APK → release `apk-latest`
 

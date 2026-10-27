@@ -1,0 +1,1825 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep11",
+ "number": 11,
+ "title": "الخاتم في الركوع",
+ "durationMs": 563375,
+ "audio": {
+  "mode": "clips",
+  "music": "ep11/audio/score_music.m4a",
+  "sfx": "ep11/audio/score_sfx.m4a",
+  "musicLoop": false
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AUTHOR": {
+   "name": "سلطان الواعظين"
+  },
+  "MIRZA_YAQUB": {
+   "name": "الميرزا يعقوب علي خان"
+  },
+  "HAFIZ": {
+   "name": "الحافظ محمد رشيد"
+  },
+  "NAWWAB": {
+   "name": "النواب عبد القيوم خان"
+  },
+  "ABDULHAYY": {
+   "name": "السيد عبد الحي"
+  },
+  "ABDUSSALAM": {
+   "name": "الشيخ عبد السلام"
+  },
+  "ATTENDEES": {
+   "name": "الحاضرون"
+  },
+  "GHULAM": {
+   "name": "غلام إمامين"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "الشيخ عبد السلام يتكلم بلهجة واثقة",
+   "image": "ep11/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 29070
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "لوحة استعادية",
+   "image": "ep11/images/scene_02.jpg",
+   "startMs": 29070,
+   "endMs": 85590
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "الشيخ عبد السلام يقرأ من كتاب صغير",
+   "image": "ep11/images/scene_03.jpg",
+   "startMs": 85590,
+   "endMs": 132670
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "الشيخ عبد السلام يبتسم ابتسامة من يظن أنه وجد…",
+   "image": "ep11/images/scene_04.jpg",
+   "startMs": 132670,
+   "endMs": 166960
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "المؤلف يرد بابتسامة واثقة",
+   "image": "ep11/images/scene_05.jpg",
+   "startMs": 166960,
+   "endMs": 203470
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "الشيخ عبد السلام يتشنج",
+   "image": "ep11/images/scene_06.jpg",
+   "startMs": 203470,
+   "endMs": 238570
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "المؤلف يخفض رأسه",
+   "image": "ep11/images/scene_07.jpg",
+   "startMs": 238570,
+   "endMs": 291370
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "لوحة استعادية",
+   "image": "ep11/images/scene_08.jpg",
+   "startMs": 291370,
+   "endMs": 323360
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "لوحة استعادية",
+   "image": "ep11/images/scene_09.jpg",
+   "startMs": 323360,
+   "endMs": 363225
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "عالم يخرج ساعة جيبه وينظر فيها",
+   "image": "ep11/images/scene_10.jpg",
+   "startMs": 363225,
+   "endMs": 375565
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "الحافظ يتكلم بنبرة ودّية فيها نية الوداع",
+   "image": "ep11/images/scene_11.jpg",
+   "startMs": 375565,
+   "endMs": 397365
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "النواب يلتفت بحدة نحو الحافظ",
+   "image": "ep11/images/scene_12.jpg",
+   "startMs": 397365,
+   "endMs": 448975
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "الحافظ شاحب",
+   "image": "ep11/images/scene_13.jpg",
+   "startMs": 448975,
+   "endMs": 483345
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "الميرزا يعقوب وإخوته من وجهاء القزلباش يتقدمون…",
+   "image": "ep11/images/scene_14.jpg",
+   "startMs": 483345,
+   "endMs": 563375
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep11_s01_l01",
+   "scene": 1,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "واثق",
+   "text": "عندنا ردود كثيرة، لكن نكتفي بواحد: إذا كانت الآية تنطبق على علي وحده، فلماذا جاءت بصيغة الجمع: «والذين معه»؟",
+   "startMs": 500,
+   "endMs": 10520,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 270440,
+    "endMs": 280460
+   },
+   "lines": [
+    {
+     "text": "عندنا ردود كثيرة، لكن نكتفي بواحد: إذا كانت الآية تنطبق على علي وحده، فلماذا جاءت بصيغة الجمع: «والذين معه»؟",
+     "startMs": 500,
+     "endMs": 10519
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s01_l02",
+   "scene": 1,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "مستعد",
+   "text": "أنا حاضر لأستمع كل ردودكم، فإن سكوتكم يدل على صحة حديثي. أما سؤالكم فنقاش لفظي، فالعرب والعجم يطلقون صيغة الجمع على المفرد للتعظيم والتفخيم، وله في القرآن نظائر كثيرة.",
+   "startMs": 11120,
+   "endMs": 28770,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1092550,
+    "endMs": 1110200
+   },
+   "lines": [
+    {
+     "text": "أنا حاضر لأستمع كل ردودكم، فإن سكوتكم يدل على صحة حديثي.",
+     "startMs": 11120,
+     "endMs": 17389
+    },
+    {
+     "text": "أما سؤالكم فنقاش لفظي، فالعرب والعجم يطلقون صيغة الجمع على المفرد للتعظيم والتفخيم، وله في القرآن نظائر كثيرة.",
+     "startMs": 17389,
+     "endMs": 28769
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s02_l01",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "مهيب",
+   "text": "ومن ذلك آية الولاية: «إنما وليكم الله ورسوله والذين آمنوا الذين يقيمون الصلاة ويؤتون الزكاة وهم راكعون».",
+   "startMs": 29370,
+   "endMs": 40885,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1110470,
+    "endMs": 1121985
+   },
+   "lines": [
+    {
+     "text": "ومن ذلك آية الولاية: «إنما وليكم الله ورسوله والذين آمنوا الذين يقيمون الصلاة ويؤتون الزكاة وهم راكعون».",
+     "startMs": 29370,
+     "endMs": 40885
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s02_l02",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي",
+   "text": "رووا عن ابن عباس وأبي ذر وجابر بن عبد الله وغيرهم: أن عليًّا كان يصلي في المسجد، فدخل مسكين يسأل الصدقة فلم يعطه أحد شيئًا. وكان علي في الركوع، فأشار بإصبعه إلى السائل، فأخرج الخاتم من يده. فنزلت الآية.",
+   "startMs": 41235,
+   "endMs": 60155,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1122100,
+    "endMs": 1141020
+   },
+   "lines": [
+    {
+     "text": "رووا عن ابن عباس وأبي ذر وجابر بن عبد الله وغيرهم: أن عليًّا كان يصلي في المسجد، فدخل مسكين يسأل الصدقة فلم يعطه أحد شيئًا.",
+     "startMs": 41235,
+     "endMs": 52054
+    },
+    {
+     "text": "وكان علي في الركوع، فأشار بإصبعه إلى السائل، فأخرج الخاتم من يده.",
+     "startMs": 52054,
+     "endMs": 58374
+    },
+    {
+     "text": "فنزلت الآية.",
+     "startMs": 58374,
+     "endMs": 60154
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.995,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s02_l03",
+   "scene": 2,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "معترض",
+   "text": "هذا التفسير ليس قول جميع علمائنا. فبعضهم قال إنها نزلت في الأنصار، وبعضهم في عبادة بن الصامت.",
+   "startMs": 60755,
+   "endMs": 69375,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 281030,
+    "endMs": 289650
+   },
+   "lines": [
+    {
+     "text": "هذا التفسير ليس قول جميع علمائنا.",
+     "startMs": 60755,
+     "endMs": 63365
+    },
+    {
+     "text": "فبعضهم قال إنها نزلت في الأنصار، وبعضهم في عبادة بن الصامت.",
+     "startMs": 63365,
+     "endMs": 69375
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s02_l04",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "متعجب",
+   "text": "أتعجب منكم، تتركون قول أعظم علمائكم وأكثرهم، وتتمسكون بأقوال شاذة. وقد ادّعى بعض علمائكم، كالتفتازاني والقوشجي، إجماع المفسرين على أنها نزلت في علي.",
+   "startMs": 69975,
+   "endMs": 84990,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1141200,
+    "endMs": 1156215
+   },
+   "lines": [
+    {
+     "text": "أتعجب منكم، تتركون قول أعظم علمائكم وأكثرهم، وتتمسكون بأقوال شاذة.",
+     "startMs": 69975,
+     "endMs": 77175
+    },
+    {
+     "text": "وقد ادّعى بعض علمائكم، كالتفتازاني والقوشجي، إجماع المفسرين على أنها نزلت في علي.",
+     "startMs": 77175,
+     "endMs": 84990
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s03_l01",
+   "scene": 3,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "لغوي",
+   "text": "ثم إن «الولي» في الآية بمعنى المحب والناصر، لا بمعنى الإمام والخليفة. ولو كانت بمعنى الخلافة لوجب أن يكون علي خليفة في حياة النبي نفسه!",
+   "startMs": 86190,
+   "endMs": 100000,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 290040,
+    "endMs": 303850
+   },
+   "lines": [
+    {
+     "text": "ثم إن «الولي» في الآية بمعنى المحب والناصر، لا بمعنى الإمام والخليفة.",
+     "startMs": 86190,
+     "endMs": 92529
+    },
+    {
+     "text": "ولو كانت بمعنى الخلافة لوجب أن يكون علي خليفة في حياة النبي نفسه!",
+     "startMs": 92529,
+     "endMs": 100000
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s03_l02",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "لغوي",
+   "text": "أوّلا: كلمة «الولي» جاءت بصيغة المفرد وأضيفت إلى ضمير الجمع، أي: إنّما وليّ المسلمين.",
+   "startMs": 100600,
+   "endMs": 108700,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1156340,
+    "endMs": 1164440
+   },
+   "lines": [
+    {
+     "text": "أوّلا: كلمة «الولي» جاءت بصيغة المفرد وأضيفت إلى ضمير الجمع، أي: إنّما وليّ المسلمين.",
+     "startMs": 100600,
+     "endMs": 108699
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s03_l03",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقلب الحجة",
+   "text": "بأيّ دليل تقول: إنّ هذا الأمر ـ أي: قيام الإمام عليّ عليه السلام مقام النبيّ صلى الله عليه وآله وسلم ـ لم يكن في حياة النبيّ صلى الله عليه وآله وسلم؟!",
+   "startMs": 109050,
+   "endMs": 120480,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1164790,
+    "endMs": 1176220
+   },
+   "lines": [
+    {
+     "text": "بأيّ دليل تقول: إنّ هذا الأمر ـ أي: قيام الإمام عليّ عليه السلام مقام النبيّ صلى الله عليه وآله وسلم ـ لم يكن في حياة النبيّ صلى الله عليه وآله وسلم؟!",
+     "startMs": 109050,
+     "endMs": 120479
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s03_l04",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "لقد جعله النبي خليفته في المدينة حين خرج إلى تبوك، ولم يعزله بعد ذلك حتى توفي. وكرّر له: أنت مني بمنزلة هارون من موسى.",
+   "startMs": 120830,
+   "endMs": 132070,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1176390,
+    "endMs": 1187630
+   },
+   "lines": [
+    {
+     "text": "لقد جعله النبي خليفته في المدينة حين خرج إلى تبوك، ولم يعزله بعد ذلك حتى توفي.",
+     "startMs": 120830,
+     "endMs": 127719
+    },
+    {
+     "text": "وكرّر له: أنت مني بمنزلة هارون من موسى.",
+     "startMs": 127719,
+     "endMs": 132070
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s04_l01",
+   "scene": 4,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "يظن أنه وجد ثغرة",
+   "text": "لو تعمقتم في شأن النزول لعدلتم عن رأيكم، فهو منقصة لعلي لا منقبة!",
+   "startMs": 133270,
+   "endMs": 140450,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 304660,
+    "endMs": 311840
+   },
+   "lines": [
+    {
+     "text": "لو تعمقتم في شأن النزول لعدلتم عن رأيكم، فهو منقصة لعلي لا منقبة!",
+     "startMs": 133270,
+     "endMs": 140450
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s04_l02",
+   "scene": 4,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "يروي بإعجاب",
+   "text": "فقد كان علي إذا وقف للصلاة نسي نفسه وكل شيء سوى الله. وروى بعض العلماء أنه أصيب بسهم في رجله، فلما استغرق في سجوده أخرجه الجرّاح فما أحسّ به.",
+   "startMs": 140800,
+   "endMs": 156570,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 312160,
+    "endMs": 327930
+   },
+   "lines": [
+    {
+     "text": "فقد كان علي إذا وقف للصلاة نسي نفسه وكل شيء سوى الله.",
+     "startMs": 140800,
+     "endMs": 146820
+    },
+    {
+     "text": "وروى بعض العلماء أنه أصيب بسهم في رجله، فلما استغرق في سجوده أخرجه الجرّاح فما أحسّ به.",
+     "startMs": 146820,
+     "endMs": 156570
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.993,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s04_l03",
+   "scene": 4,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "منتصر",
+   "text": "فإنّ رجلا هذا حاله حين الصلاة، كيف يلتفت إلى سائل فقير فيعطيه خاتمه وهو في حال الركوع؟!",
+   "startMs": 156920,
+   "endMs": 166360,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 328090,
+    "endMs": 337530
+   },
+   "lines": [
+    {
+     "text": "فإنّ رجلا هذا حاله حين الصلاة، كيف يلتفت إلى سائل فقير فيعطيه خاتمه وهو في حال الركوع؟!",
+     "startMs": 156920,
+     "endMs": 166359
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s05_l01",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "واثق، فيه دعابة",
+   "text": "إنّ هذا الإشكال أهون من بيت العنكبوت!",
+   "startMs": 167560,
+   "endMs": 170790,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1187930,
+    "endMs": 1191160
+   },
+   "lines": [
+    {
+     "text": "إنّ هذا الإشكال أهون من بيت العنكبوت!",
+     "startMs": 167560,
+     "endMs": 170790
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s05_l02",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يشرح",
+   "text": "فالتفات المصلي إلى الأمور المادية نقص، أما التفاته إلى الأمور المعنوية فكمال. وإعطاء الصدقة للفقير في الصلاة عبادة في عبادة، والله مدحه في كتابه.",
+   "startMs": 171140,
+   "endMs": 184740,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1191420,
+    "endMs": 1205020
+   },
+   "lines": [
+    {
+     "text": "فالتفات المصلي إلى الأمور المادية نقص، أما التفاته إلى الأمور المعنوية فكمال.",
+     "startMs": 171140,
+     "endMs": 177579
+    },
+    {
+     "text": "وإعطاء الصدقة للفقير في الصلاة عبادة في عبادة، والله مدحه في كتابه.",
+     "startMs": 177579,
+     "endMs": 184739
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s05_l03",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يتلو",
+   "text": "ما لكم كيف تحكمون؟!",
+   "startMs": 185090,
+   "endMs": 186730,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1205290,
+    "endMs": 1206930
+   },
+   "lines": [
+    {
+     "text": "ما لكم كيف تحكمون؟!",
+     "startMs": 185090,
+     "endMs": 186729
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s05_l04",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يختم المبحث",
+   "text": "فثبت أن الذي تنطبق عليه الآية تطبيقًا كاملًا هو علي، الذي لم يكن أشدّ منه على الكفار، ولا أرحم منه بالمؤمنين. وكان صلب الإيمان، ما شك في النبوة والدين لحظة واحدة.",
+   "startMs": 187080,
+   "endMs": 202870,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1207180,
+    "endMs": 1222970
+   },
+   "lines": [
+    {
+     "text": "فثبت أن الذي تنطبق عليه الآية تطبيقًا كاملًا هو علي، الذي لم يكن أشدّ منه على الكفار، ولا أرحم منه بالمؤمنين.",
+     "startMs": 187080,
+     "endMs": 197439
+    },
+    {
+     "text": "وكان صلب الإيمان، ما شك في النبوة والدين لحظة واحدة.",
+     "startMs": 197439,
+     "endMs": 202869
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s06_l01",
+   "scene": 6,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "منفعل",
+   "text": "لا أدري ما الذي تقصده من هذه الكنايات والتّصريحات؟!",
+   "startMs": 204070,
+   "endMs": 208350,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 338230,
+    "endMs": 342510
+   },
+   "lines": [
+    {
+     "text": "لا أدري ما الذي تقصده من هذه الكنايات والتّصريحات؟!",
+     "startMs": 204070,
+     "endMs": 208349
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s06_l02",
+   "scene": 6,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "منفعل",
+   "text": "هل شك أحد من الخلفاء الراشدين بعد ما آمنوا؟ لماذا هذا التأكيد على علي؟ لعلك تريد أن تقول إن الشيخين شكّا في الدين!",
+   "startMs": 208700,
+   "endMs": 219810,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 342650,
+    "endMs": 353760
+   },
+   "lines": [
+    {
+     "text": "هل شك أحد من الخلفاء الراشدين بعد ما آمنوا؟",
+     "startMs": 208700,
+     "endMs": 213710
+    },
+    {
+     "text": "لماذا هذا التأكيد على علي؟",
+     "startMs": 213710,
+     "endMs": 216150
+    },
+    {
+     "text": "لعلك تريد أن تقول إن الشيخين شكّا في الدين!",
+     "startMs": 216150,
+     "endMs": 219810
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.995,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s06_l03",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "صادق",
+   "text": "يا شيخ! اشهد الله أنّي لم أقصد بكلامي ما ظننت، ولو كان ذلك لأظهرته بالصراحة لا بالكناية.",
+   "startMs": 220410,
+   "endMs": 229000,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1223380,
+    "endMs": 1231970
+   },
+   "lines": [
+    {
+     "text": "يا شيخ!",
+     "startMs": 220410,
+     "endMs": 220989
+    },
+    {
+     "text": "اشهد الله أنّي لم أقصد بكلامي ما ظننت، ولو كان ذلك لأظهرته بالصراحة لا بالكناية.",
+     "startMs": 220989,
+     "endMs": 228999
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s06_l04",
+   "scene": 6,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "يلحّ",
+   "text": "أسلوب حديثك ينبئ بأن عندك شيئًا لا تريد إظهاره. فبيّن كل ما في قلبك، ولا نقبل منك إلا بالدليل.",
+   "startMs": 229600,
+   "endMs": 237970,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 354480,
+    "endMs": 362850
+   },
+   "lines": [
+    {
+     "text": "أسلوب حديثك ينبئ بأن عندك شيئًا لا تريد إظهاره.",
+     "startMs": 229600,
+     "endMs": 233559
+    },
+    {
+     "text": "فبيّن كل ما في قلبك، ولا نقبل منك إلا بالدليل.",
+     "startMs": 233559,
+     "endMs": 237970
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s07_l01",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "متردّد، صادق",
+   "text": "لو كنتم تعفونني من الخوض في هذا الموضوع لكان أجمل وأحسن",
+   "startMs": 239170,
+   "endMs": 244390,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1232110,
+    "endMs": 1237330
+   },
+   "lines": [
+    {
+     "text": "لو كنتم تعفونني من الخوض في هذا الموضوع لكان أجمل وأحسن",
+     "startMs": 239170,
+     "endMs": 244389
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s07_l02",
+   "scene": 7,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "يضغط",
+   "text": "لقد ألقيت الشك في قلوب هؤلاء العوام. فإما أن تقيم الدليل، أو ترجع عن كلامك وتعلن أن الشيخين لم يشكّا طرفة عين.",
+   "startMs": 244990,
+   "endMs": 255390,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 363410,
+    "endMs": 373810
+   },
+   "lines": [
+    {
+     "text": "لقد ألقيت الشك في قلوب هؤلاء العوام.",
+     "startMs": 244990,
+     "endMs": 247940
+    },
+    {
+     "text": "فإما أن تقيم الدليل، أو ترجع عن كلامك وتعلن أن الشيخين لم يشكّا طرفة عين.",
+     "startMs": 247940,
+     "endMs": 255390
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s07_l03",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "جواب عام",
+   "text": "يا شيخ، الشك كان يعتري بعض الصحابة ممن لم يدخل الإيمان في قلوبهم بعد، وبعضهم كان يعرض له الشك ثم يزول. هذا جواب عام، ولا نريد أن نمسّ أحدًا.",
+   "startMs": 255990,
+   "endMs": 269390,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1237780,
+    "endMs": 1251180
+   },
+   "lines": [
+    {
+     "text": "يا شيخ، الشك كان يعتري بعض الصحابة ممن لم يدخل الإيمان في قلوبهم بعد، وبعضهم كان يعرض له الشك ثم يزول.",
+     "startMs": 255990,
+     "endMs": 265269
+    },
+    {
+     "text": "هذا جواب عام، ولا نريد أن نمسّ أحدًا.",
+     "startMs": 265269,
+     "endMs": 269389
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s07_l04",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يرجو",
+   "text": "فأرجوكم أن تكتفوا بهذا المقدار، في هذا الإطار.",
+   "startMs": 269740,
+   "endMs": 273230,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1251370,
+    "endMs": 1254860
+   },
+   "lines": [
+    {
+     "text": "فأرجوكم أن تكتفوا بهذا المقدار، في هذا الإطار.",
+     "startMs": 269740,
+     "endMs": 273229
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s07_l05",
+   "scene": 7,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "يرفض",
+   "text": "إن الشك الذي وقع بسبب كلامك في قلوب الحاضرين باقٍ. فاذكر ما عندك صريحًا من كتبنا.",
+   "startMs": 273830,
+   "endMs": 281480,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 374370,
+    "endMs": 382020
+   },
+   "lines": [
+    {
+     "text": "إن الشك الذي وقع بسبب كلامك في قلوب الحاضرين باقٍ.",
+     "startMs": 273830,
+     "endMs": 277979
+    },
+    {
+     "text": "فاذكر ما عندك صريحًا من كتبنا.",
+     "startMs": 277979,
+     "endMs": 281479
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s07_l06",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "مضطر",
+   "text": "يا شيخ! إنّ إلحاحك وإصرارك على هذا الأمر، اضطرّني أن أكشف عن حقائق لم أكن أحبّ أن أكشف عنها.",
+   "startMs": 282080,
+   "endMs": 291070,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1255530,
+    "endMs": 1264520
+   },
+   "lines": [
+    {
+     "text": "يا شيخ!",
+     "startMs": 282080,
+     "endMs": 282769
+    },
+    {
+     "text": "إنّ إلحاحك وإصرارك على هذا الأمر، اضطرّني أن أكشف عن حقائق لم أكن أحبّ أن أكشف عنها.",
+     "startMs": 282769,
+     "endMs": 291069
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s08_l01",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ متأنٍّ",
+   "text": "ذكر الحميدي في «الجمع بين الصحيحين» وابن المغازلي وغيرهما ما جرى يوم الحديبية. رأى رسول الله في منامه أنه دخل مكة مع أصحابه واعتمروا، فقال لهم: ندخل مكة إن شاء الله ونعتمر، ولم يعيّن وقتًا.",
+   "startMs": 291670,
+   "endMs": 308420,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1264550,
+    "endMs": 1281300
+   },
+   "lines": [
+    {
+     "text": "ذكر الحميدي في «الجمع بين الصحيحين» وابن المغازلي وغيرهما ما جرى يوم الحديبية.",
+     "startMs": 291670,
+     "endMs": 298079
+    },
+    {
+     "text": "رأى رسول الله في منامه أنه دخل مكة مع أصحابه واعتمروا، فقال لهم: ندخل مكة إن شاء الله ونعتمر، ولم يعيّن وقتًا.",
+     "startMs": 298079,
+     "endMs": 308420
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s08_l02",
+   "scene": 8,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "فضولي",
+   "text": "لو سمحت، بيّن لنا ما الذي جرى في الحديبية؟",
+   "startMs": 309020,
+   "endMs": 312310,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 149200,
+    "endMs": 152490
+   },
+   "lines": [
+    {
+     "text": "لو سمحت، بيّن لنا ما الذي جرى في الحديبية؟",
+     "startMs": 309020,
+     "endMs": 312310
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.974,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s08_l03",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ",
+   "text": "خرج النبي للعمرة لا للحرب، فلما بلغ الحديبية منعته قريش، فصالحها على أن يرجع هذا العام ويعتمر في العام القابل.",
+   "startMs": 312910,
+   "endMs": 323060,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1281350,
+    "endMs": 1291500
+   },
+   "lines": [
+    {
+     "text": "خرج النبي للعمرة لا للحرب، فلما بلغ الحديبية منعته قريش، فصالحها على أن يرجع هذا العام ويعتمر في العام القابل.",
+     "startMs": 312910,
+     "endMs": 323059
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s09_l01",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ثقيل",
+   "text": "فاعترض عمر بن الخطاب وقال: أما قلت إنا ندخل مكة ونأتي بالمناسك معتمرين؟ فلماذا صالحتهم على الرجوع؟",
+   "startMs": 323660,
+   "endMs": 331860,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1291540,
+    "endMs": 1299740
+   },
+   "lines": [
+    {
+     "text": "فاعترض عمر بن الخطاب وقال: أما قلت إنا ندخل مكة ونأتي بالمناسك معتمرين؟",
+     "startMs": 323660,
+     "endMs": 329599
+    },
+    {
+     "text": "فلماذا صالحتهم على الرجوع؟",
+     "startMs": 329599,
+     "endMs": 331859
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s09_l02",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي",
+   "text": "فقال النبيّ صلى الله عليه وآله وسلم: لكنّي ما عيّنت وقتا، فهل قلت، ندخل مكّة في هذا العام؟!",
+   "startMs": 332210,
+   "endMs": 340220,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1299810,
+    "endMs": 1307820
+   },
+   "lines": [
+    {
+     "text": "فقال النبيّ صلى الله عليه وآله وسلم: لكنّي ما عيّنت وقتا، فهل قلت، ندخل مكّة في هذا العام؟!",
+     "startMs": 332210,
+     "endMs": 340219
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s09_l03",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي",
+   "text": "قال عمر: لا.",
+   "startMs": 340570,
+   "endMs": 341685,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1308010,
+    "endMs": 1309125
+   },
+   "lines": [
+    {
+     "text": "قال عمر: لا.",
+     "startMs": 340570,
+     "endMs": 341684
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s09_l04",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يتلو",
+   "text": "فنزل قوله تعالى: «لقد صدق الله رسوله الرؤيا بالحق لتدخلن المسجد الحرام إن شاء الله آمنين محلّقين رؤوسكم ومقصّرين».",
+   "startMs": 342035,
+   "endMs": 354225,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1309140,
+    "endMs": 1321330
+   },
+   "lines": [
+    {
+     "text": "فنزل قوله تعالى: «لقد صدق الله رسوله الرؤيا بالحق لتدخلن المسجد الحرام إن شاء الله آمنين محلّقين رؤوسكم ومقصّرين».",
+     "startMs": 342035,
+     "endMs": 354224
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s09_l05",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حاسم، بلا تشفٍّ",
+   "text": "وكان هذا الأمر امتحانا للمسلمين ليمتاز الثابت عن المتزلزل، والمتيقّن عن الشاكّ والمرتاب.",
+   "startMs": 354575,
+   "endMs": 362625,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1321330,
+    "endMs": 1329380
+   },
+   "lines": [
+    {
+     "text": "وكان هذا الأمر امتحانا للمسلمين ليمتاز الثابت عن المتزلزل، والمتيقّن عن الشاكّ والمرتاب.",
+     "startMs": 354575,
+     "endMs": 362624
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s10_l01",
+   "scene": 10,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "يكسر التوتر",
+   "text": "ولما وصل الحديث إلى هنا، نظر بعض العلماء إلى ساعته وقال: انقضى من الليل نصفه أو أكثر. فنترك الحديث إلى الليلة القابلة.",
+   "startMs": 363825,
+   "endMs": 374965,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 550340,
+    "endMs": 561480
+   },
+   "lines": [
+    {
+     "text": "ولما وصل الحديث إلى هنا، نظر بعض العلماء إلى ساعته وقال: انقضى من الليل نصفه أو أكثر.",
+     "startMs": 363825,
+     "endMs": 371744
+    },
+    {
+     "text": "فنترك الحديث إلى الليلة القابلة.",
+     "startMs": 371744,
+     "endMs": 374964
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s11_l01",
+   "scene": 11,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "ودود، مودّع",
+   "text": "لقد سررنا بلقياكم، وفرحنا بمجالسكم، وانجذبنا إلى حديثكم",
+   "startMs": 376165,
+   "endMs": 382295,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 620140,
+    "endMs": 626270
+   },
+   "lines": [
+    {
+     "text": "لقد سررنا بلقياكم، وفرحنا بمجالسكم، وانجذبنا إلى حديثكم",
+     "startMs": 376165,
+     "endMs": 382294
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s11_l02",
+   "scene": 11,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يمهّد للرحيل",
+   "text": "وبقي عندنا كلام كثير نؤجله إلى وقت آخر، فإنا نريد أن نرجع إلى الوطن، أفغانستان. فأرجو أن تتفضل علينا وتأتي إلى بلادنا، فنستمر في الحوار هناك.",
+   "startMs": 382645,
+   "endMs": 396765,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 626940,
+    "endMs": 641060
+   },
+   "lines": [
+    {
+     "text": "وبقي عندنا كلام كثير نؤجله إلى وقت آخر، فإنا نريد أن نرجع إلى الوطن، أفغانستان.",
+     "startMs": 382645,
+     "endMs": 390445
+    },
+    {
+     "text": "فأرجو أن تتفضل علينا وتأتي إلى بلادنا، فنستمر في الحوار هناك.",
+     "startMs": 390445,
+     "endMs": 396765
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s12_l01",
+   "scene": 12,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "حازم",
+   "text": "نحن لا ندعك ترجع إلى بلادك حتى نصل إلى نتيجة قطعية مع السيد. فقد كنتم تقولون لنا إن الشيعة ليسوا أهل بحث ولا منطق.",
+   "startMs": 397965,
+   "endMs": 407985,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 152830,
+    "endMs": 162850
+   },
+   "lines": [
+    {
+     "text": "نحن لا ندعك ترجع إلى بلادك حتى نصل إلى نتيجة قطعية مع السيد.",
+     "startMs": 397965,
+     "endMs": 402995
+    },
+    {
+     "text": "فقد كنتم تقولون لنا إن الشيعة ليسوا أهل بحث ولا منطق.",
+     "startMs": 402995,
+     "endMs": 407985
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.991,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s12_l02",
+   "scene": 12,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "صريح",
+   "text": "ولكنّا على عكس ذلك، رأيناكم خاضعين أمام براهين السيد، مستسلمين لأدلته، ونحن كلّنا شهود.",
+   "startMs": 408335,
+   "endMs": 416245,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 163140,
+    "endMs": 171050
+   },
+   "lines": [
+    {
+     "text": "ولكنّا على عكس ذلك، رأيناكم خاضعين أمام براهين السيد، مستسلمين لأدلته، ونحن كلّنا شهود.",
+     "startMs": 408335,
+     "endMs": 416245
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.994,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s12_l03",
+   "scene": 12,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يدافع عن كرامته",
+   "text": "نحن ما خضعنا ولا استسلمنا، وإنما سكتنا لنستفيد من بيانه العذب. إنه خطيب عجيب، ذو سحر في البيان.",
+   "startMs": 416845,
+   "endMs": 426525,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 641660,
+    "endMs": 651340
+   },
+   "lines": [
+    {
+     "text": "نحن ما خضعنا ولا استسلمنا، وإنما سكتنا لنستفيد من بيانه العذب.",
+     "startMs": 416845,
+     "endMs": 422385
+    },
+    {
+     "text": "إنه خطيب عجيب، ذو سحر في البيان.",
+     "startMs": 422385,
+     "endMs": 426525
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s12_l04",
+   "scene": 12,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "جادّ",
+   "text": "أمّا نحن فإلى هذه الساعة لم نسمع منكم كلاما مستدلا وحديثا مستندا إلى العقل السليم والقرآن الكريم.",
+   "startMs": 427125,
+   "endMs": 436725,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 171260,
+    "endMs": 180860
+   },
+   "lines": [
+    {
+     "text": "أمّا نحن فإلى هذه الساعة لم نسمع منكم كلاما مستدلا وحديثا مستندا إلى العقل السليم والقرآن الكريم.",
+     "startMs": 427125,
+     "endMs": 436725
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s12_l05",
+   "scene": 12,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "ثقيل",
+   "text": "وهذه المحاورات قد انتشرت في الصحف، وأوقعت الشك في نفوس أكثر أهل السنة في هذا البلد. فإن لم تظهروا الحق فأنتم مسؤولون أمام الله.",
+   "startMs": 437075,
+   "endMs": 448375,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 181000,
+    "endMs": 192300
+   },
+   "lines": [
+    {
+     "text": "وهذه المحاورات قد انتشرت في الصحف، وأوقعت الشك في نفوس أكثر أهل السنة في هذا البلد.",
+     "startMs": 437075,
+     "endMs": 444075
+    },
+    {
+     "text": "فإن لم تظهروا الحق فأنتم مسؤولون أمام الله.",
+     "startMs": 444075,
+     "endMs": 448375
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s13_l01",
+   "scene": 13,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "توتر",
+   "text": "على أثر هذا الكلام امتقع لون الحافظ وتغيّر وجهه",
+   "startMs": 449575,
+   "endMs": 454785,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 561950,
+    "endMs": 567160
+   },
+   "lines": [
+    {
+     "text": "على أثر هذا الكلام امتقع لون الحافظ وتغيّر وجهه",
+     "startMs": 449575,
+     "endMs": 454784
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.958,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s13_l02",
+   "scene": 13,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "يلطّف",
+   "text": "ولنراعِ جانب الضيف الكريم، فقد كان يريد السفر إلى خراسان لزيارة علي بن موسى الرضا، فأخّر سفره لأجلنا.",
+   "startMs": 455385,
+   "endMs": 465215,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 192560,
+    "endMs": 202390
+   },
+   "lines": [
+    {
+     "text": "ولنراعِ جانب الضيف الكريم، فقد كان يريد السفر إلى خراسان لزيارة علي بن موسى الرضا، فأخّر سفره لأجلنا.",
+     "startMs": 455385,
+     "endMs": 465214
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.99,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s13_l03",
+   "scene": 13,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "متواضع",
+   "text": "أشكر ألطافكم. لقد فرحت بتأخير سفري، إذ خدمت الدين في كشف الحقيقة. وإني مستعد أن أبقى معكم سنة أو أكثر. لكني خجل من مضيّفي الكريم الميرزا يعقوب علي خان، فقد أتعبته كثيرًا.",
+   "startMs": 465815,
+   "endMs": 482745,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1329730,
+    "endMs": 1346660
+   },
+   "lines": [
+    {
+     "text": "أشكر ألطافكم.",
+     "startMs": 465815,
+     "endMs": 466924
+    },
+    {
+     "text": "لقد فرحت بتأخير سفري، إذ خدمت الدين في كشف الحقيقة.",
+     "startMs": 466924,
+     "endMs": 471985
+    },
+    {
+     "text": "وإني مستعد أن أبقى معكم سنة أو أكثر.",
+     "startMs": 471985,
+     "endMs": 475684
+    },
+    {
+     "text": "لكني خجل من مضيّفي الكريم الميرزا يعقوب علي خان، فقد أتعبته كثيرًا.",
+     "startMs": 475684,
+     "endMs": 482745
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.981,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s14_l01",
+   "scene": 14,
+   "speakerId": "MIRZA_YAQUB",
+   "speakerName": "الميرزا يعقوب علي خان",
+   "direction": "معاتب، كريم",
+   "text": "يا مولانا السيد ما كنّا نتوقّع منكم هذا الكلام، فإنّ بيوتنا كلّها بيوتك، ونحن نفتخر بخدمتك، ونتشرف بإقامتك عندنا.",
+   "startMs": 483945,
+   "endMs": 497575,
+   "clip": {
+    "file": "audio/MIRZA_YAQUB/Generated Audio October 27, 2026 - 1_23AM.wav",
+    "startMs": 9410,
+    "endMs": 23040
+   },
+   "lines": [
+    {
+     "text": "يا مولانا السيد ما كنّا نتوقّع منكم هذا الكلام، فإنّ بيوتنا كلّها بيوتك، ونحن نفتخر بخدمتك، ونتشرف بإقامتك عندنا.",
+     "startMs": 483945,
+     "endMs": 497574
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s14_l02",
+   "scene": 14,
+   "speakerId": "ATTENDEES",
+   "speakerName": "الحاضرون",
+   "direction": "متسابقون إلى الكرم",
+   "text": "نحن نرجو من سماحتكم أن ينتقل هذا المجلس إلى بيوتنا حتّى نحظى بخدمتكم ونتشرّف ونفتخر بوجودكم عندنا.",
+   "startMs": 498175,
+   "endMs": 506585,
+   "clip": {
+    "file": "audio/ATTENDEES/Generated Audio October 27, 2026 - 2_35AM.wav",
+    "startMs": 40060,
+    "endMs": 48470
+   },
+   "lines": [
+    {
+     "text": "نحن نرجو من سماحتكم أن ينتقل هذا المجلس إلى بيوتنا حتّى نحظى بخدمتكم ونتشرّف ونفتخر بوجودكم عندنا.",
+     "startMs": 498175,
+     "endMs": 506584
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s14_l03",
+   "scene": 14,
+   "speakerId": "MIRZA_YAQUB",
+   "speakerName": "الميرزا يعقوب علي خان",
+   "direction": "قاطع، فخور",
+   "text": "لا يمكن ذلك أبدا، بل ما دام مولانا في «پيشاور»، وهذا المجلس مستمرّ في الانعقاد، فبيتي محلّه ومستقره.",
+   "startMs": 507185,
+   "endMs": 518365,
+   "clip": {
+    "file": "audio/MIRZA_YAQUB/Generated Audio October 27, 2026 - 1_23AM.wav",
+    "startMs": 23800,
+    "endMs": 34980
+   },
+   "lines": [
+    {
+     "text": "لا يمكن ذلك أبدا، بل ما دام مولانا في «پيشاور»، وهذا المجلس مستمرّ في الانعقاد، فبيتي محلّه ومستقره.",
+     "startMs": 507185,
+     "endMs": 518364
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.983,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s14_l04",
+   "scene": 14,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يتنازل",
+   "text": "وأنا أنزل عند رغبة النواب والإخوة، وأؤجّل سفري وإن كانت عندي أعمال معطّلة في أفغانستان.",
+   "startMs": 518965,
+   "endMs": 526585,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 651920,
+    "endMs": 659540
+   },
+   "lines": [
+    {
+     "text": "وأنا أنزل عند رغبة النواب والإخوة، وأؤجّل سفري وإن كانت عندي أعمال معطّلة في أفغانستان.",
+     "startMs": 518965,
+     "endMs": 526585
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.994,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s14_l05",
+   "scene": 14,
+   "speakerId": "MIRZA_YAQUB",
+   "speakerName": "الميرزا يعقوب علي خان",
+   "direction": "مبتسم",
+   "text": "أظن أن الحافظ لا يعرف عادات قبيلة القزلباش. فأهل البلد يعلمون أننا نحب الضيف ونفتخر بخدمته، وخاصة إذا كان من العلماء والسادة.",
+   "startMs": 527185,
+   "endMs": 541075,
+   "clip": {
+    "file": "audio/MIRZA_YAQUB/Generated Audio October 27, 2026 - 1_23AM.wav",
+    "startMs": 35550,
+    "endMs": 49440
+   },
+   "lines": [
+    {
+     "text": "أظن أن الحافظ لا يعرف عادات قبيلة القزلباش.",
+     "startMs": 527185,
+     "endMs": 531374
+    },
+    {
+     "text": "فأهل البلد يعلمون أننا نحب الضيف ونفتخر بخدمته، وخاصة إذا كان من العلماء والسادة.",
+     "startMs": 531374,
+     "endMs": 541074
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s14_l06",
+   "scene": 14,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يودّع",
+   "text": "أشكركم جميعا وأستودعكم الله، وإلى اللقاء في الليلة الآتية إن شاء الله تعالى.",
+   "startMs": 541675,
+   "endMs": 548415,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 660200,
+    "endMs": 666940
+   },
+   "lines": [
+    {
+     "text": "أشكركم جميعا وأستودعكم الله، وإلى اللقاء في الليلة الآتية إن شاء الله تعالى.",
+     "startMs": 541675,
+     "endMs": 548415
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.986,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep11_s14_l07",
+   "scene": 14,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "ختامي",
+   "text": "وهكذا نجا المجلس من الانفضاض. وفي الليلة التالية، سيأتي سؤال جديد من رجل لم يتكلم كثيرًا حتى الآن: السيد عبد الحي.",
+   "startMs": 549015,
+   "endMs": 561875,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 567560,
+    "endMs": 580420
+   },
+   "lines": [
+    {
+     "text": "وهكذا نجا المجلس من الانفضاض.",
+     "startMs": 549015,
+     "endMs": 552135
+    },
+    {
+     "text": "وفي الليلة التالية، سيأتي سؤال جديد من رجل لم يتكلم كثيرًا حتى الآن: السيد عبد الحي.",
+     "startMs": 552135,
+     "endMs": 561875
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.991,
+    "flags": []
+   }
+  }
+ ],
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "suspense",
+   "startMs": 0,
+   "endMs": 29870
+  },
+  {
+   "scene": 2,
+   "cue": "reflective",
+   "startMs": 28270,
+   "endMs": 86390
+  },
+  {
+   "scene": 3,
+   "cue": "reflective",
+   "startMs": 84790,
+   "endMs": 133470
+  },
+  {
+   "scene": 4,
+   "cue": "reflective",
+   "startMs": 131869,
+   "endMs": 167760
+  },
+  {
+   "scene": 5,
+   "cue": "suspense",
+   "startMs": 166160,
+   "endMs": 204270
+  },
+  {
+   "scene": 6,
+   "cue": "suspense",
+   "startMs": 202670,
+   "endMs": 239370
+  },
+  {
+   "scene": 7,
+   "cue": "suspense",
+   "startMs": 237769,
+   "endMs": 292170
+  },
+  {
+   "scene": 8,
+   "cue": "reflective",
+   "startMs": 290570,
+   "endMs": 324160
+  },
+  {
+   "scene": 9,
+   "cue": "reflective",
+   "startMs": 322560,
+   "endMs": 364025
+  },
+  {
+   "scene": 10,
+   "cue": "nostalgic",
+   "startMs": 362425,
+   "endMs": 376365
+  },
+  {
+   "scene": 11,
+   "cue": "warm",
+   "startMs": 374765,
+   "endMs": 398165
+  },
+  {
+   "scene": 12,
+   "cue": "suspense",
+   "startMs": 396565,
+   "endMs": 449775
+  },
+  {
+   "scene": 13,
+   "cue": "reverent",
+   "startMs": 448175,
+   "endMs": 484145
+  },
+  {
+   "scene": 14,
+   "cue": "ending",
+   "startMs": 482545,
+   "endMs": 564175
+  }
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "ساعة المغرب",
+   "music": "nostalgic",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: ليل; ambience of the episode's place"
+  },
+  {
+   "scene": 2,
+   "title": "زقاق في بيشاور ليلًا",
+   "music": "nostalgic",
+   "sfx": [
+    "night"
+   ],
+   "level": 0.85,
+   "reason": "title: ليل"
+  },
+  {
+   "scene": 3,
+   "title": "المجلس اكتمل",
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "title: مجلس"
+  },
+  {
+   "scene": 4,
+   "title": "لقطة لمصلين في صفّ يتبعون إمامًا في مسجد صغير",
+   "music": "reverent",
+   "sfx": [
+    "roomtone",
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "title: مسجد"
+  },
+  {
+   "scene": 5,
+   "title": "المؤلف يتكلم بثقة",
+   "music": "reverent",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: جامع; ambience of the episode's place"
+  },
+  {
+   "scene": 6,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 7,
+   "title": "الحافظ ينتفض واقفًا نصف وقفة",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: كتب; ambience of the episode's place"
+  },
+  {
+   "scene": 8,
+   "title": "الشيخ عبد السلام يتكلم بنبرة الفقيه",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: كتب; ambience of the episode's place"
+  },
+  {
+   "scene": 9,
+   "title": "لوحة رمزية",
+   "music": "none",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: الله أكبر; ambience of the episode's place"
+  },
+  {
+   "scene": 10,
+   "title": "المؤلف يرفع يده بالحديث",
+   "music": "reverent",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: مقام; ambience of the episode's place"
+  },
+  {
+   "scene": 11,
+   "title": "الحافظ يبتسم ابتسامة نادرة",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: كتب; ambience of the episode's place"
+  },
+  {
+   "scene": 12,
+   "title": "النواب يميل إلى الأمام بدهشة طفولية",
+   "music": "reverent",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: مقام; ambience of the episode's place"
+  },
+  {
+   "scene": 13,
+   "title": "همهمة بين صفوف أهل السنة",
+   "music": "reflective",
+   "sfx": [
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "title: أهل"
+  },
+  {
+   "scene": 14,
+   "title": "لوحة استعادية",
+   "music": "ending",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد; last scene"
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "الشيخ عبد السلام يتكلم بلهجة واثقة",
+   "music": "suspense",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: سؤال; ambience of the episode's place"
+  },
+  {
+   "scene": 2,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 3,
+   "title": "الشيخ عبد السلام يقرأ من كتاب صغير",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: يقرأ"
+  },
+  {
+   "scene": 4,
+   "title": "الشيخ عبد السلام يبتسم ابتسامة من يظن أنه وجد…",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: فقد; ambience of the episode's place"
+  },
+  {
+   "scene": 5,
+   "title": "المؤلف يرد بابتسامة واثقة",
+   "music": "suspense",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: شك; ambience of the episode's place"
+  },
+  {
+   "scene": 6,
+   "title": "الشيخ عبد السلام يتشنج",
+   "music": "suspense",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: شك; ambience of the episode's place"
+  },
+  {
+   "scene": 7,
+   "title": "المؤلف يخفض رأسه",
+   "music": "suspense",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: شك; ambience of the episode's place"
+  },
+  {
+   "scene": 8,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 9,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 10,
+   "title": "عالم يخرج ساعة جيبه وينظر فيها",
+   "music": "nostalgic",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: ليل; ambience of the episode's place"
+  },
+  {
+   "scene": 11,
+   "title": "الحافظ يتكلم بنبرة ودّية فيها نية الوداع",
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: فرح; ambience of the episode's place"
+  },
+  {
+   "scene": 12,
+   "title": "النواب يلتفت بحدة نحو الحافظ",
+   "music": "suspense",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: شك; ambience of the episode's place"
+  },
+  {
+   "scene": 13,
+   "title": "الحافظ شاحب",
+   "music": "reverent",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: زيارة; ambience of the episode's place"
+  },
+  {
+   "scene": 14,
+   "title": "الميرزا يعقوب وإخوته من وجهاء القزلباش يتقدمون…",
+   "music": "ending",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: شك; ambience of the episode's place; last scene"
+  }
+ ]
+}

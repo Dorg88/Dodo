@@ -10,7 +10,9 @@ scenes.csv describes each scene's picture. Writes, without retyping anything:
   BOOK/scripts/epNN.txt      play order, one scene per picture (images/scene_SS.jpg),
                              tone kept as the line's direction (metadata), text verbatim
   BOOK/speakers.json         character key → name
-  BOOK/recordings/all.json   character key → its recordings, oldest first
+  BOOK/recordings/all.json   character key → its recordings, oldest first; "_pickups": recordings
+                             made later for missing lines (audio/<KEY>/pickups/), aligned separately;
+                             a pickup with NAME.lines.txt (line ids) re-records exactly those lines
 Each line carries {src=EE.OOOO}: its place in the character's recording order
 (episode, then order in the episode), which is how the batches were recorded.
 """
@@ -86,8 +88,25 @@ def main():
         files = sorted((f for f in os.listdir(folder) if os.path.splitext(f)[1].lower() in AUDIO_EXT),
                        key=lambda f: recorded_at(os.path.join(folder, f))) if os.path.isdir(folder) else []
         recordings[key] = [f"audio/{key}/{f}" for f in files]
+    pickups = {}   # recordings made later for lines missing from the first ones: audio/<KEY>/pickups/
+    for key in speakers:
+        folder = os.path.join(book, "audio", key, "pickups")
+        if os.path.isdir(folder):
+            pickups[key] = []
+            for f in sorted(os.listdir(folder)):
+                if os.path.splitext(f)[1].lower() not in AUDIO_EXT:
+                    continue
+                rel = f"audio/{key}/pickups/{f}"
+                listed = os.path.join(folder, os.path.splitext(f)[0] + ".lines.txt")
+                if os.path.exists(listed):   # a re-recording of these lines (ids), replacing the earlier takes
+                    ids = [w for w in open(listed, encoding="utf-8").read().split() if w]
+                    pickups[key].append({"file": rel, "lines": ids})
+                else:
+                    pickups[key].append(rel)
+    if pickups:
+        recordings["_pickups"] = pickups
     write_json(os.path.join(book, "recordings", "all.json"), recordings)
-    missing = [k for k, v in recordings.items() if not v]
+    missing = [k for k, v in recordings.items() if not v and not k.startswith("_")]
     print(f"{len(titles)} episodes, {len(rows)} lines, {len(scenes)} scenes → {book}/scripts"
           + (f"; no recording for {', '.join(missing)}" if missing else ""))
 

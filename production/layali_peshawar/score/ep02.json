@@ -1,0 +1,145 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "ساحة البيت",
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "title: البيت"
+  },
+  {
+   "scene": 2,
+   "title": "القاعة بعد الصلاة",
+   "music": "suspense",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: سؤال; ambience of the episode's place"
+  },
+  {
+   "scene": 3,
+   "title": "المؤلف يشير بيده إلى صف العلماء المقابل",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "default; ambience of the episode's place"
+  },
+  {
+   "scene": 4,
+   "title": "الحافظ يلتفت إلى النواب بثقة",
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: يقين; ambience of the episode's place"
+  },
+  {
+   "scene": 5,
+   "title": "المؤلف يعدّ على أصابعه وهو يذكر المصادر",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: مصادر"
+  },
+  {
+   "scene": 6,
+   "title": "النواب يقف قليلًا ويتكلم بأسى",
+   "music": "nostalgic",
+   "sfx": [
+    "night"
+   ],
+   "level": 0.85,
+   "reason": "title: ليل"
+  },
+  {
+   "scene": 7,
+   "title": "الحافظ يبتسم لأول مرة ابتسامة ودّ",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: كتب; ambience of the episode's place"
+  },
+  {
+   "scene": 8,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 9,
+   "title": "الحافظ ينحني إلى الأمام مستغربًا",
+   "music": "reverent",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: مرقد; ambience of the episode's place"
+  },
+  {
+   "scene": 10,
+   "title": "لوحة استعادية ليلية",
+   "music": "nostalgic",
+   "sfx": [
+    "night"
+   ],
+   "level": 0.85,
+   "reason": "title: ليل"
+  },
+  {
+   "scene": 11,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 12,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 13,
+   "title": "الحافظ يشير بيده نحو الشمال كأنه يشير إلى…",
+   "music": "reverent",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: جامع; ambience of the episode's place"
+  },
+  {
+   "scene": 14,
+   "title": "السيد عبد الحي ينظر إلى ساعة جيب فضية",
+   "music": "ending",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: ابتسم; ambience of the episode's place; last scene"
+  }
+ ]
+}

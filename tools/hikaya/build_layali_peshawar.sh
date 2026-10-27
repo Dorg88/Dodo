@@ -26,9 +26,11 @@ case ${1:-} in
   scripts)
     python3 tools/hikaya/hikaya_from_manifest.py --production "$PROD" --book-dir "$BOOK" ;;
   align)
+    for f in "$BOOK"/ep*/episode.json; do cp "$f" "${f%.json}.scored.json"; done
     "$PY" tools/hikaya/hikaya_align.py --book-dir "$BOOK" --scripts "$BOOK"/scripts/ep*.txt \
       --recordings "$BOOK/recordings/all.json" --speakers "$BOOK/speakers.json" \
-      --cache "$HOME/HIKAYA/transcripts" --model large-v3-turbo --report-dir "$BOOK/reports/all"
+      --cache "$HOME/HIKAYA/transcripts" --model large-v3-turbo --report-dir "$BOOK/reports/all" \
+      --overrides "$BOOK/alignment_overrides.json"   # cuts measured by ear (with why), see that file
     # an episode missing lines is not playable yet
     "$PY" - "$BOOK" "$PROD" <<'PYEOF'
 import csv, collections, json, os, sys
@@ -44,7 +46,20 @@ for n, total in sorted(want.items()):
         os.replace(full, part)
         print(f"ep{n:02d}: {got} of {total} lines recorded → episode.partial.json")
 PYEOF
-    "$0" fix ;;
+    "$0" fix
+    # an episode whose timeline did not change keeps its music (no need to score it again)
+    "$PY" - "$BOOK" <<'PYEOF'
+import glob, json, os, sys
+for kept in sorted(glob.glob(os.path.join(sys.argv[1], "ep*", "episode.scored.json"))):
+    new = kept.replace(".scored.json", ".json")
+    if os.path.exists(new) and json.load(open(new, encoding="utf-8"))["segments"] == \
+            json.load(open(kept, encoding="utf-8"))["segments"]:
+        os.replace(kept, new)
+    else:
+        os.remove(kept)
+        print(f"{os.path.basename(os.path.dirname(new))}: timeline changed → score it again")
+PYEOF
+    ;;
   fix)   # hand-measured cuts (clip_fixes.json) around words the voice engine added
     python3 - "$BOOK" <<'PYEOF'
 import json, os, sys
@@ -80,7 +95,7 @@ PYEOF
       "import json;print(json.load(open('$BOOK/book.json'))['version'])").zip" ;;
   mirror)
     P=production/layali_peshawar; mkdir -p "$P"/{episodes,reports,recordings,scripts,score}
-    cp "$BOOK/book.json" "$BOOK/speakers.json" "$BOOK/clip_fixes.json" "$P/"
+    cp "$BOOK/book.json" "$BOOK/speakers.json" "$BOOK/clip_fixes.json" "$BOOK/alignment_overrides.json" "$P/"
     cp "$BOOK"/scripts/*.txt "$P/scripts/"; cp "$BOOK"/recordings/*.json "$P/recordings/"
     for d in "$BOOK"/ep*/; do
       e=$(basename "$d")

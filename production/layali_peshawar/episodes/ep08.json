@@ -1,0 +1,1781 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep08",
+ "number": 8,
+ "title": "الطائر المشويّ",
+ "durationMs": 559840,
+ "audio": {
+  "mode": "clips",
+  "music": "ep08/audio/score_music.m4a",
+  "sfx": "ep08/audio/score_sfx.m4a",
+  "musicLoop": false
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AUTHOR": {
+   "name": "سلطان الواعظين"
+  },
+  "MIRZA_YAQUB": {
+   "name": "الميرزا يعقوب علي خان"
+  },
+  "HAFIZ": {
+   "name": "الحافظ محمد رشيد"
+  },
+  "NAWWAB": {
+   "name": "النواب عبد القيوم خان"
+  },
+  "ABDULHAYY": {
+   "name": "السيد عبد الحي"
+  },
+  "ABDUSSALAM": {
+   "name": "الشيخ عبد السلام"
+  },
+  "ATTENDEES": {
+   "name": "الحاضرون"
+  },
+  "GHULAM": {
+   "name": "غلام إمامين"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "الشيخ عبد السلام يعدّ الأحاديث على أصابعه",
+   "image": "ep08/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 47220
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "لوحة رمزية",
+   "image": "ep08/images/scene_02.jpg",
+   "startMs": 47220,
+   "endMs": 66905
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "لوحة استعادية دافئة",
+   "image": "ep08/images/scene_03.jpg",
+   "startMs": 66905,
+   "endMs": 104595
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "الشيخ عبد السلام يقرأ من كتاب",
+   "image": "ep08/images/scene_04.jpg",
+   "startMs": 104595,
+   "endMs": 141710
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "الشيخ عبد السلام يقدّم ورقة أخرى بحماسة",
+   "image": "ep08/images/scene_05.jpg",
+   "startMs": 141710,
+   "endMs": 175230
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "لوحة استعادية",
+   "image": "ep08/images/scene_06.jpg",
+   "startMs": 175230,
+   "endMs": 222560
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "المؤلف يلتفت مباشرة إلى الشيخ عبد السلام",
+   "image": "ep08/images/scene_07.jpg",
+   "startMs": 222560,
+   "endMs": 242630
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "الشيخ عبد السلام يغيّر الموضوع بنبرة ودّية",
+   "image": "ep08/images/scene_08.jpg",
+   "startMs": 242630,
+   "endMs": 285550
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "المؤلف يفكر لحظة ثم يتكلم بتأنٍّ",
+   "image": "ep08/images/scene_09.jpg",
+   "startMs": 285550,
+   "endMs": 336980
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "لوحة استعادية",
+   "image": "ep08/images/scene_10.jpg",
+   "startMs": 336980,
+   "endMs": 423085
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "لوحة رمزية",
+   "image": "ep08/images/scene_11.jpg",
+   "startMs": 423085,
+   "endMs": 458815
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "المؤلف يقرأ الآية من مصحف صغير بين يديه",
+   "image": "ep08/images/scene_12.jpg",
+   "startMs": 458815,
+   "endMs": 521020
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "لقطة لساعة جيب مفتوحة في يد أحد العلماء",
+   "image": "ep08/images/scene_13.jpg",
+   "startMs": 521020,
+   "endMs": 559840
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep08_s01_l01",
+   "scene": 1,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "واثق",
+   "text": "لا بأس، نترك هذا الحديث الذي تشكّكون فيه، ولكن عندنا أحاديث لا شكّ فيها أنّها صدرت عن النبي صلى الله عليه وآله وسلم في شأن الخليفة أبي بكر",
+   "startMs": 500,
+   "endMs": 14490,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 123330,
+    "endMs": 137320
+   },
+   "lines": [
+    {
+     "text": "لا بأس، نترك هذا الحديث الذي تشكّكون فيه، ولكن عندنا أحاديث لا شكّ فيها أنّها صدرت عن النبي صلى الله عليه وآله وسلم في شأن الخليفة أبي بكر",
+     "startMs": 500,
+     "endMs": 14489
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s01_l02",
+   "scene": 1,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "يعدّد",
+   "text": "منها: ما صبّ الله في صدري شيئًا إلا صببته في صدر أبي بكر. ومنها: أنا وأبو بكر كفرسي رهان. ومنها: أبو بكر وعمر خير الأولين والآخرين.",
+   "startMs": 14840,
+   "endMs": 29700,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 137580,
+    "endMs": 152440
+   },
+   "lines": [
+    {
+     "text": "منها: ما صبّ الله في صدري شيئًا إلا صببته في صدر أبي بكر.",
+     "startMs": 14840,
+     "endMs": 20440
+    },
+    {
+     "text": "ومنها: أنا وأبو بكر كفرسي رهان.",
+     "startMs": 20440,
+     "endMs": 24300
+    },
+    {
+     "text": "ومنها: أبو بكر وعمر خير الأولين والآخرين.",
+     "startMs": 24300,
+     "endMs": 29700
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.988,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s01_l03",
+   "scene": 1,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "جادّ",
+   "text": "هذه الأحاديث تدلّ ظواهرها على بطلانها وفسادها.",
+   "startMs": 30300,
+   "endMs": 34930,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 627630,
+    "endMs": 632260
+   },
+   "lines": [
+    {
+     "text": "هذه الأحاديث تدلّ ظواهرها على بطلانها وفسادها.",
+     "startMs": 30300,
+     "endMs": 34929
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s01_l04",
+   "scene": 1,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يحلّل",
+   "text": "فالأول يجعل أبا بكر شريك رسول الله فيما نزل عليه من الوحي. والثاني يجعل النبي غير أرفع درجة منه، بل مساويًا له في المقام. فهل يقول بهذا مسلم؟",
+   "startMs": 35280,
+   "endMs": 46620,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 632580,
+    "endMs": 643920
+   },
+   "lines": [
+    {
+     "text": "فالأول يجعل أبا بكر شريك رسول الله فيما نزل عليه من الوحي.",
+     "startMs": 35280,
+     "endMs": 39259
+    },
+    {
+     "text": "والثاني يجعل النبي غير أرفع درجة منه، بل مساويًا له في المقام.",
+     "startMs": 39259,
+     "endMs": 44599
+    },
+    {
+     "text": "فهل يقول بهذا مسلم؟",
+     "startMs": 44599,
+     "endMs": 46619
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s02_l01",
+   "scene": 2,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "يتمسك",
+   "text": "فما تقول في الحديث المشهور: أبو بكر وعمر سيّدا كهول أهل الجنة؟",
+   "startMs": 47820,
+   "endMs": 53450,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 152910,
+    "endMs": 158540
+   },
+   "lines": [
+    {
+     "text": "فما تقول في الحديث المشهور: أبو بكر وعمر سيّدا كهول أهل الجنة؟",
+     "startMs": 47820,
+     "endMs": 53449
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.966,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s02_l02",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ساخر بلطف",
+   "text": "أمّا قولك: «الحديث... المشهور»... فربّ مشهور لا أصل له!",
+   "startMs": 54050,
+   "endMs": 59290,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 644150,
+    "endMs": 649390
+   },
+   "lines": [
+    {
+     "text": "أمّا قولك: «الحديث...",
+     "startMs": 54050,
+     "endMs": 56120
+    },
+    {
+     "text": "المشهور»...",
+     "startMs": 56120,
+     "endMs": 56780
+    },
+    {
+     "text": "فربّ مشهور لا أصل له!",
+     "startMs": 56780,
+     "endMs": 59290
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s02_l03",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يشرح",
+   "text": "من معتقدات المسلمين أنّ الجنّة ليس فيها غير شباب ولا يدخلها شيوخ وكهول.",
+   "startMs": 59640,
+   "endMs": 66605,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 649600,
+    "endMs": 656565
+   },
+   "lines": [
+    {
+     "text": "من معتقدات المسلمين أنّ الجنّة ليس فيها غير شباب ولا يدخلها شيوخ وكهول.",
+     "startMs": 59640,
+     "endMs": 66605
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s03_l01",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي بابتسامة",
+   "text": "والخبر مشهور في كتب الفريقين: أن امرأة عجوزًا طلبت من رسول الله أن يدعو لها بالجنة، فقال لها ممازحًا: إن الجنة لا تدخلها العجائز. فحزنت وقالت: وا خيبتاه!",
+   "startMs": 67205,
+   "endMs": 80155,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 656640,
+    "endMs": 669590
+   },
+   "lines": [
+    {
+     "text": "والخبر مشهور في كتب الفريقين: أن امرأة عجوزًا طلبت من رسول الله أن يدعو لها بالجنة، فقال لها ممازحًا: إن الجنة لا تدخلها العجائز.",
+     "startMs": 67205,
+     "endMs": 77145
+    },
+    {
+     "text": "فحزنت وقالت: وا خيبتاه!",
+     "startMs": 77145,
+     "endMs": 80155
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.99,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s03_l02",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "دافئ",
+   "text": "فتبسّم وقال: تدخلين الجنة ولست يومئذ بعجوز، بل تعودين فتاة شابة. فأهل الجنة كلهم شباب. فمن يكون «سيّد الكهول» فيها؟",
+   "startMs": 80505,
+   "endMs": 92375,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 669860,
+    "endMs": 681730
+   },
+   "lines": [
+    {
+     "text": "فتبسّم وقال: تدخلين الجنة ولست يومئذ بعجوز، بل تعودين فتاة شابة.",
+     "startMs": 80505,
+     "endMs": 86924
+    },
+    {
+     "text": "فأهل الجنة كلهم شباب.",
+     "startMs": 86924,
+     "endMs": 89284
+    },
+    {
+     "text": "فمن يكون «سيّد الكهول» فيها؟",
+     "startMs": 89284,
+     "endMs": 92375
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s03_l03",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حاسم",
+   "text": "إنما الحديث الصحيح الذي رواه الخوارزمي والنسائي وغيرهما:",
+   "startMs": 92725,
+   "endMs": 97645,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 681940,
+    "endMs": 686860
+   },
+   "lines": [
+    {
+     "text": "إنما الحديث الصحيح الذي رواه الخوارزمي والنسائي وغيرهما:",
+     "startMs": 92725,
+     "endMs": 97645
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s03_l04",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "بوقار",
+   "text": "الحسن والحسين سيّدا شباب أهل الجنة، وأبوهما خير منهما.",
+   "startMs": 97995,
+   "endMs": 103995,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 687460,
+    "endMs": 693460
+   },
+   "lines": [
+    {
+     "text": "الحسن والحسين سيّدا شباب أهل الجنة، وأبوهما خير منهما.",
+     "startMs": 97995,
+     "endMs": 103995
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s04_l01",
+   "scene": 4,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "قاطع",
+   "text": "وعندنا حديث مقبول عند جميع علمائنا: ما ينبغي لقوم فيهم أبو بكر أن يتقدّم عليه غيره.",
+   "startMs": 105195,
+   "endMs": 113375,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 159390,
+    "endMs": 167570
+   },
+   "lines": [
+    {
+     "text": "وعندنا حديث مقبول عند جميع علمائنا: ما ينبغي لقوم فيهم أبو بكر أن يتقدّم عليه غيره.",
+     "startMs": 105195,
+     "endMs": 113375
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s04_l02",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "آسف",
+   "text": "أسفي عليكم، أنتم علماء الامّة! إذ تتقبّلون الأخبار والأحاديث من غير تفكّر وتدبّر!",
+   "startMs": 113975,
+   "endMs": 120510,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 695065,
+    "endMs": 701600
+   },
+   "lines": [
+    {
+     "text": "أسفي عليكم، أنتم علماء الامّة!",
+     "startMs": 113975,
+     "endMs": 116529
+    },
+    {
+     "text": "إذ تتقبّلون الأخبار والأحاديث من غير تفكّر وتدبّر!",
+     "startMs": 116529,
+     "endMs": 120509
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.965,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s04_l03",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يعدّد",
+   "text": "لو كان صحيحًا، فلماذا لم يعمل به النبي نفسه؟ في غزوة تبوك خلّف عليًّا مكانه في المدينة. وفي تبليغ سورة براءة عزل أبا بكر وأرسل عليًّا. وفي خيبر أعطى الراية عليًّا. ويوم فتح مكة رفع عليًّا على كتفه فكسّر الأصنام.",
+   "startMs": 120860,
+   "endMs": 141110,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 701770,
+    "endMs": 722020
+   },
+   "lines": [
+    {
+     "text": "لو كان صحيحًا، فلماذا لم يعمل به النبي نفسه؟",
+     "startMs": 120860,
+     "endMs": 124989
+    },
+    {
+     "text": "في غزوة تبوك خلّف عليًّا مكانه في المدينة.",
+     "startMs": 124989,
+     "endMs": 128489
+    },
+    {
+     "text": "وفي تبليغ سورة براءة عزل أبا بكر وأرسل عليًّا.",
+     "startMs": 128489,
+     "endMs": 132610
+    },
+    {
+     "text": "وفي خيبر أعطى الراية عليًّا.",
+     "startMs": 132610,
+     "endMs": 135290
+    },
+    {
+     "text": "ويوم فتح مكة رفع عليًّا على كتفه فكسّر الأصنام.",
+     "startMs": 135290,
+     "endMs": 141110
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.987,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s05_l01",
+   "scene": 5,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "واثق",
+   "text": "ولدينا حديث صحيح عن عمرو بن العاص أنه سأل النبي: من أحبّ النساء إليك؟ قال: عائشة. قال: فمن الرجال؟ قال: أبوها. فحبّ النبي لهما دليل على أن الله يحبهما، وعلى أحقية أبي بكر بالخلافة.",
+   "startMs": 142310,
+   "endMs": 161470,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 168430,
+    "endMs": 187590
+   },
+   "lines": [
+    {
+     "text": "ولدينا حديث صحيح عن عمرو بن العاص أنه سأل النبي: من أحبّ النساء إليك؟",
+     "startMs": 142310,
+     "endMs": 149039
+    },
+    {
+     "text": "قال: عائشة.",
+     "startMs": 149039,
+     "endMs": 150519
+    },
+    {
+     "text": "قال: فمن الرجال؟",
+     "startMs": 150519,
+     "endMs": 152819
+    },
+    {
+     "text": "قال: أبوها.",
+     "startMs": 152819,
+     "endMs": 154159
+    },
+    {
+     "text": "فحبّ النبي لهما دليل على أن الله يحبهما، وعلى أحقية أبي بكر بالخلافة.",
+     "startMs": 154159,
+     "endMs": 161469
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s05_l02",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "هادئ",
+   "text": "هذا الخبر يعارض الأحاديث المتواترة عند الفريقين، فقد روى البيهقي وابن عبد البر وغيرهما أن رسول الله قال مرارًا:",
+   "startMs": 162070,
+   "endMs": 172365,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 722190,
+    "endMs": 732485
+   },
+   "lines": [
+    {
+     "text": "هذا الخبر يعارض الأحاديث المتواترة عند الفريقين، فقد روى البيهقي وابن عبد البر وغيرهما أن رسول الله قال مرارًا:",
+     "startMs": 162070,
+     "endMs": 172365
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s05_l03",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "بوقار",
+   "text": "«فاطمة خير نساء أمّتي»",
+   "startMs": 172715,
+   "endMs": 174930,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 732485,
+    "endMs": 734700
+   },
+   "lines": [
+    {
+     "text": "«فاطمة خير نساء أمّتي»",
+     "startMs": 172715,
+     "endMs": 174930
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s06_l01",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يمهّد بشغف",
+   "text": "وأما أحبّ الخلق إلى الله، فخبر الطائر المشوي، رواه أحمد والترمذي والنسائي وغيرهم، وروي عن أنس من أكثر من عشرين طريقًا. وألّف فيه الطبري وأبو نعيم وابن عقدة كتبًا خاصة.",
+   "startMs": 175530,
+   "endMs": 191490,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 734700,
+    "endMs": 750660
+   },
+   "lines": [
+    {
+     "text": "وأما أحبّ الخلق إلى الله، فخبر الطائر المشوي، رواه أحمد والترمذي والنسائي وغيرهم، وروي عن أنس من أكثر من عشرين طريقًا.",
+     "startMs": 175530,
+     "endMs": 186530
+    },
+    {
+     "text": "وألّف فيه الطبري وأبو نعيم وابن عقدة كتبًا خاصة.",
+     "startMs": 186530,
+     "endMs": 191489
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s06_l02",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي",
+   "text": "اتي النبيّ (صلّى الله عليه وآله وسلّم) بطائر فقال: اللهمّ ائتني بأحبّ خلقك إليك يأكل معي.",
+   "startMs": 191840,
+   "endMs": 201550,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 170,
+    "endMs": 9880
+   },
+   "lines": [
+    {
+     "text": "اتي النبيّ (صلّى الله عليه وآله وسلّم) بطائر فقال: اللهمّ ائتني بأحبّ خلقك إليك يأكل معي.",
+     "startMs": 191840,
+     "endMs": 201550
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.988,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s06_l03",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي، متصاعد",
+   "text": "فجاء علي عليه السلام فحجبته مرّتين، فجاء في الثالثة فأذنت له.",
+   "startMs": 201900,
+   "endMs": 207840,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 10290,
+    "endMs": 16230
+   },
+   "lines": [
+    {
+     "text": "فجاء علي عليه السلام فحجبته مرّتين، فجاء في الثالثة فأذنت له.",
+     "startMs": 201900,
+     "endMs": 207839
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s06_l04",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي",
+   "text": "فقال النبي: يا علي، ما حبسك؟ قال: هذه ثلاث مرات قد جئتها فحبسني أنس. فقال: لم يا أنس؟ قال: سمعت دعوتك، فأحببت أن يكون رجلًا من قومي.",
+   "startMs": 208190,
+   "endMs": 222260,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 16710,
+    "endMs": 30780
+   },
+   "lines": [
+    {
+     "text": "فقال النبي: يا علي، ما حبسك؟",
+     "startMs": 208190,
+     "endMs": 211120
+    },
+    {
+     "text": "قال: هذه ثلاث مرات قد جئتها فحبسني أنس.",
+     "startMs": 211120,
+     "endMs": 215520
+    },
+    {
+     "text": "فقال: لم يا أنس؟",
+     "startMs": 215520,
+     "endMs": 217240
+    },
+    {
+     "text": "قال: سمعت دعوتك، فأحببت أن يكون رجلًا من قومي.",
+     "startMs": 217240,
+     "endMs": 222260
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s07_l01",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "سؤال حاسم",
+   "text": "فأسأل الشيخ عبد السلام وأقول: هل استجاب الله تعالى دعوة حبيبه ونبيّه محمّد صلى الله عليه وآله وسلم أم لا؟!",
+   "startMs": 222860,
+   "endMs": 232190,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 31370,
+    "endMs": 40700
+   },
+   "lines": [
+    {
+     "text": "فأسأل الشيخ عبد السلام وأقول: هل استجاب الله تعالى دعوة حبيبه ونبيّه محمّد صلى الله عليه وآله وسلم أم لا؟!",
+     "startMs": 222860,
+     "endMs": 232190
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s07_l02",
+   "scene": 7,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "بلا تردد",
+   "text": "نعم، وكيف لا يستجيب وقد وعده الإجابة؟!",
+   "startMs": 232790,
+   "endMs": 236450,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 188510,
+    "endMs": 192170
+   },
+   "lines": [
+    {
+     "text": "نعم، وكيف لا يستجيب وقد وعده الإجابة؟!",
+     "startMs": 232790,
+     "endMs": 236449
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s07_l03",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "هادئ، منتصر بلا شماتة",
+   "text": "على هذا فعليّ عليه السلام هو أحبّ الخلق إلى الله عزّ وجلّ.",
+   "startMs": 237050,
+   "endMs": 242030,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 41310,
+    "endMs": 46290
+   },
+   "lines": [
+    {
+     "text": "على هذا فعليّ عليه السلام هو أحبّ الخلق إلى الله عزّ وجلّ.",
+     "startMs": 237050,
+     "endMs": 242029
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s08_l01",
+   "scene": 8,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "ودّي",
+   "text": "لقد قرأنا في الصحف مناظراتكم مع الهندوس والبراهمة في لاهور، وإفحامكم إياهم، فأحببناكم لنصرتكم الدين. ونحن نوافقكم على الرجوع إلى القرآن. فاسمع هذا الدليل القرآني في فضل الخلفاء.",
+   "startMs": 243230,
+   "endMs": 260590,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 193770,
+    "endMs": 211130
+   },
+   "lines": [
+    {
+     "text": "لقد قرأنا في الصحف مناظراتكم مع الهندوس والبراهمة في لاهور، وإفحامكم إياهم، فأحببناكم لنصرتكم الدين.",
+     "startMs": 243230,
+     "endMs": 252660
+    },
+    {
+     "text": "ونحن نوافقكم على الرجوع إلى القرآن.",
+     "startMs": 252660,
+     "endMs": 256580
+    },
+    {
+     "text": "فاسمع هذا الدليل القرآني في فضل الخلفاء.",
+     "startMs": 256580,
+     "endMs": 260590
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s08_l02",
+   "scene": 8,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "بإعجاب",
+   "text": "قال بعض علمائنا في قوله تعالى: «محمد رسول الله والذين معه أشداء على الكفار رحماء بينهم تراهم ركّعًا سجّدًا»: «والذين معه» أبو بكر، و«أشداء على الكفار» عمر، و«رحماء بينهم» عثمان، و«تراهم ركعًا سجدًا» علي.",
+   "startMs": 260940,
+   "endMs": 284950,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 213310,
+    "endMs": 237320
+   },
+   "lines": [
+    {
+     "text": "قال بعض علمائنا في قوله تعالى: «محمد رسول الله والذين معه أشداء على الكفار رحماء بينهم تراهم ركّعًا سجّدًا»: «والذين معه» أبو بكر، و«أشداء على الكفار» عمر، و«رحماء بينهم» عثمان، و«تراهم ركعًا سجدًا» علي.",
+     "startMs": 260940,
+     "endMs": 284949
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.981,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s09_l01",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "متحيّر",
+   "text": "يا شيخ! إنّي أعجب من كلامك وفي حيرة منه! ولا أدري من أين جئت به؟!",
+   "startMs": 286150,
+   "endMs": 291760,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 47000,
+    "endMs": 52610
+   },
+   "lines": [
+    {
+     "text": "يا شيخ!",
+     "startMs": 286150,
+     "endMs": 286790
+    },
+    {
+     "text": "إنّي أعجب من كلامك وفي حيرة منه!",
+     "startMs": 286790,
+     "endMs": 289670
+    },
+    {
+     "text": "ولا أدري من أين جئت به؟!",
+     "startMs": 289670,
+     "endMs": 291759
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s09_l02",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يعدّد",
+   "text": "فلم أجد هذا التفسير في تفاسيركم المعتبرة، كالطبري والثعلبي والسيوطي والبيضاوي والزمخشري والفخر الرازي. وإنما هو رأي شخصي، وقد قال النبي:",
+   "startMs": 292110,
+   "endMs": 305650,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 53000,
+    "endMs": 66540
+   },
+   "lines": [
+    {
+     "text": "فلم أجد هذا التفسير في تفاسيركم المعتبرة، كالطبري والثعلبي والسيوطي والبيضاوي والزمخشري والفخر الرازي.",
+     "startMs": 292110,
+     "endMs": 300950
+    },
+    {
+     "text": "وإنما هو رأي شخصي، وقد قال النبي:",
+     "startMs": 300950,
+     "endMs": 305649
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.985,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s09_l03",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "تحذير",
+   "text": "«من فسّر القرآن برأيه فليتبوّأ مقعده من النار».",
+   "startMs": 306000,
+   "endMs": 310530,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 66630,
+    "endMs": 71160
+   },
+   "lines": [
+    {
+     "text": "«من فسّر القرآن برأيه فليتبوّأ مقعده من النار».",
+     "startMs": 306000,
+     "endMs": 310530
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s09_l04",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "وقد وكّل رسول الله تفسير القرآن إلى أهل بيته حين قال: إني تارك فيكم الثقلين، كتاب الله وعترتي أهل بيتي. فيجب أن نأخذ معنى القرآن من النبي، فهو القرآن الناطق، ثم من عترته.",
+   "startMs": 310880,
+   "endMs": 326790,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 71750,
+    "endMs": 87660
+   },
+   "lines": [
+    {
+     "text": "وقد وكّل رسول الله تفسير القرآن إلى أهل بيته حين قال: إني تارك فيكم الثقلين، كتاب الله وعترتي أهل بيتي.",
+     "startMs": 310880,
+     "endMs": 320089
+    },
+    {
+     "text": "فيجب أن نأخذ معنى القرآن من النبي، فهو القرآن الناطق، ثم من عترته.",
+     "startMs": 320089,
+     "endMs": 326789
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.994,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s09_l05",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "منطقي",
+   "text": "ثم لو كانت الآية تعني الخلفاء الأربعة بهذا الترتيب، لكان علماء التفسير والتاريخ أول من ذكره. ولم يذكره أحد منهم.",
+   "startMs": 327140,
+   "endMs": 336380,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 88440,
+    "endMs": 97680
+   },
+   "lines": [
+    {
+     "text": "ثم لو كانت الآية تعني الخلفاء الأربعة بهذا الترتيب، لكان علماء التفسير والتاريخ أول من ذكره.",
+     "startMs": 327140,
+     "endMs": 334180
+    },
+    {
+     "text": "ولم يذكره أحد منهم.",
+     "startMs": 334180,
+     "endMs": 336380
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s10_l01",
+   "scene": 10,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "متحمس",
+   "text": "أما قرأت قوله تعالى: «إلا تنصروه فقد نصره الله إذ أخرجه الذين كفروا ثاني اثنين إذ هما في الغار إذ يقول لصاحبه لا تحزن إن الله معنا فأنزل الله سكينته عليه»؟ ففيها صحبة النبي، و«إن الله معنا»، ونزول السكينة على أبي بكر.",
+   "startMs": 337580,
+   "endMs": 359930,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 237810,
+    "endMs": 260160
+   },
+   "lines": [
+    {
+     "text": "أما قرأت قوله تعالى: «إلا تنصروه فقد نصره الله إذ أخرجه الذين كفروا ثاني اثنين إذ هما في الغار إذ يقول لصاحبه لا تحزن إن الله معنا فأنزل الله سكينته عليه»؟",
+     "startMs": 337580,
+     "endMs": 352769
+    },
+    {
+     "text": "ففيها صحبة النبي، و«إن الله معنا»، ونزول السكينة على أبي بكر.",
+     "startMs": 352769,
+     "endMs": 359930
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.998,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s10_l02",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "متحفّظ، مؤدّب",
+   "text": "إني أعرضت عن الجواب رعاية للأدب والوداد، لا عن عجز. لكن إصراركم يلزمني ببيان الحق.",
+   "startMs": 360530,
+   "endMs": 368700,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 98150,
+    "endMs": 106320
+   },
+   "lines": [
+    {
+     "text": "إني أعرضت عن الجواب رعاية للأدب والوداد، لا عن عجز.",
+     "startMs": 360530,
+     "endMs": 364920
+    },
+    {
+     "text": "لكن إصراركم يلزمني ببيان الحق.",
+     "startMs": 364920,
+     "endMs": 368700
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s10_l03",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يحاجّ",
+   "text": "لا ينكر أحد أنّ أبا بكر كان من كبار الصحابة، ومن شيوخ المسلمين، وأنّه زوّج ابنته من النبيّ صلى الله عليه وآله وسلم.",
+   "startMs": 369050,
+   "endMs": 379615,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 106510,
+    "endMs": 117075
+   },
+   "lines": [
+    {
+     "text": "لا ينكر أحد أنّ أبا بكر كان من كبار الصحابة، ومن شيوخ المسلمين، وأنّه زوّج ابنته من النبيّ صلى الله عليه وآله وسلم.",
+     "startMs": 369050,
+     "endMs": 379615
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s10_l04",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "ولكنّ هذه الامور لا تدلّ على أحقّيّته بالخلافة.",
+   "startMs": 379965,
+   "endMs": 384060,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 117075,
+    "endMs": 121170
+   },
+   "lines": [
+    {
+     "text": "ولكنّ هذه الامور لا تدلّ على أحقّيّته بالخلافة.",
+     "startMs": 379965,
+     "endMs": 384059
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s10_l05",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يسأل",
+   "text": "وأما قولكم إن النبي أخذه معه لأنه يعلم أنه خليفته فأراد حفظه، فلماذا لم يأخذ معه عمر وعثمان وعليًّا، وكانوا في مكة مهدّدين أيضًا؟",
+   "startMs": 384410,
+   "endMs": 397810,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 121210,
+    "endMs": 134610
+   },
+   "lines": [
+    {
+     "text": "وأما قولكم إن النبي أخذه معه لأنه يعلم أنه خليفته فأراد حفظه، فلماذا لم يأخذ معه عمر وعثمان وعليًّا، وكانوا في مكة مهدّدين أيضًا؟",
+     "startMs": 384410,
+     "endMs": 397810
+    }
+   ],
+   "timing": "estimated",
+   "alignment": {
+    "confidence": 0.972,
+    "flags": [
+     "no pause after this line — check the end"
+    ]
+   }
+  },
+  {
+   "id": "ep08_s10_l06",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "مؤثّر",
+   "text": "فلما ذا هذا التبعيض؟! يأخذ أبا بكر ويأمر عليّا ليبيت على فراش الخطر، ويفدي النبيّ صلى الله عليه وآله وسلم بنفسه!",
+   "startMs": 398160,
+   "endMs": 408030,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 133645,
+    "endMs": 143515
+   },
+   "lines": [
+    {
+     "text": "فلما ذا هذا التبعيض؟!",
+     "startMs": 398160,
+     "endMs": 400995
+    },
+    {
+     "text": "يأخذ أبا بكر ويأمر عليّا ليبيت على فراش الخطر، ويفدي النبيّ صلى الله عليه وآله وسلم بنفسه!",
+     "startMs": 400995,
+     "endMs": 408030
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.986,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s10_l07",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي",
+   "text": "ثم إن الطبري ذكر في تاريخه أن أبا بكر لم يكن يعلم بهجرة النبي، فجاء إلى علي يسأله عنه، فأخبره، فلحق به في الطريق. فكانت الصحبة على غير ميعاد.",
+   "startMs": 408380,
+   "endMs": 422785,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 143580,
+    "endMs": 157985
+   },
+   "lines": [
+    {
+     "text": "ثم إن الطبري ذكر في تاريخه أن أبا بكر لم يكن يعلم بهجرة النبي، فجاء إلى علي يسأله عنه، فأخبره، فلحق به في الطريق.",
+     "startMs": 408380,
+     "endMs": 420040
+    },
+    {
+     "text": "فكانت الصحبة على غير ميعاد.",
+     "startMs": 420040,
+     "endMs": 422785
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s11_l01",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "تعليمي",
+   "text": "والصحبة وحدها ليست فضيلة. يوسف الصديق قال لصاحبيه: «يا صاحبي السجن أأرباب متفرقون خير أم الله الواحد القهار»، وقد اتفق المفسرون أنهما كانا كافرين. وفي سورة الكهف: «قال له صاحبه وهو يحاوره أكفرت بالذي خلقك»، وكان أحدهما مؤمنًا والآخر كافرًا.",
+   "startMs": 423385,
+   "endMs": 447635,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 158010,
+    "endMs": 182260
+   },
+   "lines": [
+    {
+     "text": "والصحبة وحدها ليست فضيلة.",
+     "startMs": 423385,
+     "endMs": 426014
+    },
+    {
+     "text": "يوسف الصديق قال لصاحبيه: «يا صاحبي السجن أأرباب متفرقون خير أم الله الواحد القهار»، وقد اتفق المفسرون أنهما كانا كافرين.",
+     "startMs": 426014,
+     "endMs": 438175
+    },
+    {
+     "text": "وفي سورة الكهف: «قال له صاحبه وهو يحاوره أكفرت بالذي خلقك»، وكان أحدهما مؤمنًا والآخر كافرًا.",
+     "startMs": 438175,
+     "endMs": 447635
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.998,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s11_l02",
+   "scene": 11,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "غاضب",
+   "text": "ليس من الإنصاف أن تمثّل صاحب رسول الله وخليفته بأمثال هؤلاء!",
+   "startMs": 448235,
+   "endMs": 453425,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 260770,
+    "endMs": 265960
+   },
+   "lines": [
+    {
+     "text": "ليس من الإنصاف أن تمثّل صاحب رسول الله وخليفته بأمثال هؤلاء!",
+     "startMs": 448235,
+     "endMs": 453424
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s11_l03",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "هادئ",
+   "text": "أنا في البداية بيّنت أن: «لا مناقشة في الأمثال»",
+   "startMs": 454025,
+   "endMs": 458515,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 182660,
+    "endMs": 187150
+   },
+   "lines": [
+    {
+     "text": "أنا في البداية بيّنت أن: «لا مناقشة في الأمثال»",
+     "startMs": 454025,
+     "endMs": 458515
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s12_l01",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يحلّل اللغة",
+   "text": "الضمير يرجع إلى النبيّ صلى الله عليه وآله وسلم وليس لأبي بكر، بقرينة الجملة التالية في الآية: (وَأَيَّدَهُ بِجُنُودٍ لَمْ تَرَوْها).",
+   "startMs": 459115,
+   "endMs": 469885,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 187180,
+    "endMs": 197950
+   },
+   "lines": [
+    {
+     "text": "الضمير يرجع إلى النبيّ صلى الله عليه وآله وسلم وليس لأبي بكر، بقرينة الجملة التالية في الآية: (وَأَيَّدَهُ بِجُنُودٍ لَمْ تَرَوْها).",
+     "startMs": 459115,
+     "endMs": 469884
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s12_l02",
+   "scene": 12,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "يتشبث",
+   "text": "لكن رسول الله كان في غنى عن نزول السكينة عليه!",
+   "startMs": 470485,
+   "endMs": 473795,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 266430,
+    "endMs": 269740
+   },
+   "lines": [
+    {
+     "text": "لكن رسول الله كان في غنى عن نزول السكينة عليه!",
+     "startMs": 470485,
+     "endMs": 473795
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.967,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s12_l03",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يتلو",
+   "text": "بأي دليل؟ والله يقول في حنين: «ثم أنزل الله سكينته على رسوله وعلى المؤمنين»، وفي الفتح: «فأنزل الله سكينته على رسوله وعلى المؤمنين». فلو كان صاحبه في الغار ممن تشملهم السكينة لذكره معه كما ذكر المؤمنين هناك.",
+   "startMs": 474395,
+   "endMs": 495090,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 198730,
+    "endMs": 219425
+   },
+   "lines": [
+    {
+     "text": "بأي دليل؟",
+     "startMs": 474395,
+     "endMs": 475425
+    },
+    {
+     "text": "والله يقول في حنين: «ثم أنزل الله سكينته على رسوله وعلى المؤمنين»، وفي الفتح: «فأنزل الله سكينته على رسوله وعلى المؤمنين».",
+     "startMs": 475425,
+     "endMs": 487945
+    },
+    {
+     "text": "فلو كان صاحبه في الغار ممن تشملهم السكينة لذكره معه كما ذكر المؤمنين هناك.",
+     "startMs": 487945,
+     "endMs": 495090
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s12_l04",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يحلّل",
+   "text": "وفي الآية جملة أخرى: «إذ يقول لصاحبه لا تحزن». فالنبي ينهى صاحبه عن الحزن. فإن كان الحزن حسنًا فالرسول لا ينهى عن الحسن، وإن لم يكن حسنًا فليس النهي عنه مدحًا.",
+   "startMs": 495440,
+   "endMs": 511495,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 219490,
+    "endMs": 235545
+   },
+   "lines": [
+    {
+     "text": "وفي الآية جملة أخرى: «إذ يقول لصاحبه لا تحزن».",
+     "startMs": 495440,
+     "endMs": 500389
+    },
+    {
+     "text": "فالنبي ينهى صاحبه عن الحزن.",
+     "startMs": 500389,
+     "endMs": 503729
+    },
+    {
+     "text": "فإن كان الحزن حسنًا فالرسول لا ينهى عن الحسن، وإن لم يكن حسنًا فليس النهي عنه مدحًا.",
+     "startMs": 503729,
+     "endMs": 511495
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s12_l05",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يتلو",
+   "text": "والله تعالى يقول في علامة أوليائه: «ألا إن أولياء الله لا خوف عليهم ولا هم يحزنون».",
+   "startMs": 511845,
+   "endMs": 520420,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 235545,
+    "endMs": 244120
+   },
+   "lines": [
+    {
+     "text": "والله تعالى يقول في علامة أوليائه: «ألا إن أولياء الله لا خوف عليهم ولا هم يحزنون».",
+     "startMs": 511845,
+     "endMs": 520419
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s13_l01",
+   "scene": 13,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "يخفّف الإيقاع",
+   "text": "ولما وصل البحث إلى هذه النقطة، نظر العلماء إلى الساعة، فإذا الوقت قد جاوز منتصف الليل. فأرادوا الانصراف، لكن النواب قال:",
+   "startMs": 521620,
+   "endMs": 532950,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 460060,
+    "endMs": 471390
+   },
+   "lines": [
+    {
+     "text": "ولما وصل البحث إلى هذه النقطة، نظر العلماء إلى الساعة، فإذا الوقت قد جاوز منتصف الليل.",
+     "startMs": 521620,
+     "endMs": 529079
+    },
+    {
+     "text": "فأرادوا الانصراف، لكن النواب قال:",
+     "startMs": 529079,
+     "endMs": 532949
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.991,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s13_l02",
+   "scene": 13,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "معترض بلطف",
+   "text": "ما وصلنا إلى نتيجة حول الآية الكريمة: (مُحَمَّدٌ رَسُولُ اللهِ وَالَّذِينَ مَعَهُ...) إلى آخره والسيد بعد لم يتمّ كلامه في الموضوع.",
+   "startMs": 533550,
+   "endMs": 543130,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 127070,
+    "endMs": 136650
+   },
+   "lines": [
+    {
+     "text": "ما وصلنا إلى نتيجة حول الآية الكريمة: (مُحَمَّدٌ رَسُولُ اللهِ وَالَّذِينَ مَعَهُ...) إلى آخره والسيد بعد لم يتمّ كلامه في الموضوع.",
+     "startMs": 533550,
+     "endMs": 543130
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s13_l03",
+   "scene": 13,
+   "speakerId": "ATTENDEES",
+   "speakerName": "الحاضرون",
+   "direction": "جماعي، ودود",
+   "text": "لقد تعب السيد، فنترك البحث إلى الليلة المقبلة إن شاء الله.",
+   "startMs": 543730,
+   "endMs": 547940,
+   "clip": {
+    "file": "audio/ATTENDEES/Generated Audio October 27, 2026 - 2_35AM.wav",
+    "startMs": 35200,
+    "endMs": 39410
+   },
+   "lines": [
+    {
+     "text": "لقد تعب السيد، فنترك البحث إلى الليلة المقبلة إن شاء الله.",
+     "startMs": 543730,
+     "endMs": 547939
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.991,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep08_s13_l04",
+   "scene": 13,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "ختامي",
+   "text": "فتوادعوا وانصرفوا. لكن الليلة المقبلة كانت تخبّئ زائرًا جديدًا، وسؤالًا جديدًا، ونقاشًا سيطول.",
+   "startMs": 548540,
+   "endMs": 558340,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 471740,
+    "endMs": 481540
+   },
+   "lines": [
+    {
+     "text": "فتوادعوا وانصرفوا.",
+     "startMs": 548540,
+     "endMs": 550379
+    },
+    {
+     "text": "لكن الليلة المقبلة كانت تخبّئ زائرًا جديدًا، وسؤالًا جديدًا، ونقاشًا سيطول.",
+     "startMs": 550379,
+     "endMs": 558340
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  }
+ ],
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "reverent",
+   "startMs": 0,
+   "endMs": 48019
+  },
+  {
+   "scene": 2,
+   "cue": "reflective",
+   "startMs": 46420,
+   "endMs": 67705
+  },
+  {
+   "scene": 3,
+   "cue": "reflective",
+   "startMs": 66105,
+   "endMs": 105395
+  },
+  {
+   "scene": 4,
+   "cue": "reflective",
+   "startMs": 103795,
+   "endMs": 142510
+  },
+  {
+   "scene": 5,
+   "cue": "warm",
+   "startMs": 140910,
+   "endMs": 176030
+  },
+  {
+   "scene": 6,
+   "cue": "reflective",
+   "startMs": 174429,
+   "endMs": 223360
+  },
+  {
+   "scene": 7,
+   "cue": "reflective",
+   "startMs": 221760,
+   "endMs": 243430
+  },
+  {
+   "scene": 9,
+   "cue": "suspense",
+   "startMs": 284750,
+   "endMs": 337780
+  },
+  {
+   "scene": 10,
+   "cue": "reflective",
+   "startMs": 336180,
+   "endMs": 423885
+  },
+  {
+   "scene": 11,
+   "cue": "reflective",
+   "startMs": 422284,
+   "endMs": 459615
+  },
+  {
+   "scene": 12,
+   "cue": "reflective",
+   "startMs": 458015,
+   "endMs": 521819
+  },
+  {
+   "scene": 13,
+   "cue": "ending",
+   "startMs": 520220,
+   "endMs": 560640
+  }
+ ]
+}

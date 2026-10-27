@@ -1,0 +1,1816 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep12",
+ "number": 12,
+ "title": "وأنفسنا وأنفسكم",
+ "durationMs": 557830,
+ "audio": {
+  "mode": "clips",
+  "music": "ep12/audio/score_music.m4a",
+  "sfx": "ep12/audio/score_sfx.m4a",
+  "musicLoop": false
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AUTHOR": {
+   "name": "سلطان الواعظين"
+  },
+  "MIRZA_YAQUB": {
+   "name": "الميرزا يعقوب علي خان"
+  },
+  "HAFIZ": {
+   "name": "الحافظ محمد رشيد"
+  },
+  "NAWWAB": {
+   "name": "النواب عبد القيوم خان"
+  },
+  "ABDULHAYY": {
+   "name": "السيد عبد الحي"
+  },
+  "ABDUSSALAM": {
+   "name": "الشيخ عبد السلام"
+  },
+  "ATTENDEES": {
+   "name": "الحاضرون"
+  },
+  "GHULAM": {
+   "name": "غلام إمامين"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "ليلة الخميس",
+   "image": "ep12/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 47340
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "المؤلف يرد بنبرة فيها عتاب رقيق",
+   "image": "ep12/images/scene_02.jpg",
+   "startMs": 47340,
+   "endMs": 68215
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "لوحة رمزية",
+   "image": "ep12/images/scene_03.jpg",
+   "startMs": 68215,
+   "endMs": 119045
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "لوحة استعادية",
+   "image": "ep12/images/scene_04.jpg",
+   "startMs": 119045,
+   "endMs": 155490
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "لوحة استعادية",
+   "image": "ep12/images/scene_05.jpg",
+   "startMs": 155490,
+   "endMs": 194230
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "الحافظ يقرّ ثم يعترض",
+   "image": "ep12/images/scene_06.jpg",
+   "startMs": 194230,
+   "endMs": 248285
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "المؤلف يعدّ الأحاديث بإيقاع منتظم",
+   "image": "ep12/images/scene_07.jpg",
+   "startMs": 248285,
+   "endMs": 285725
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "استراحة صلاة العشاء",
+   "image": "ep12/images/scene_08.jpg",
+   "startMs": 285725,
+   "endMs": 295055
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "لوحة رمزية",
+   "image": "ep12/images/scene_09.jpg",
+   "startMs": 295055,
+   "endMs": 342275
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "لوحة استعادية",
+   "image": "ep12/images/scene_10.jpg",
+   "startMs": 342275,
+   "endMs": 432065
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "لوحة رمزية",
+   "image": "ep12/images/scene_11.jpg",
+   "startMs": 432065,
+   "endMs": 475130
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "المؤلف يتكلم بحرارة إلى الجمع",
+   "image": "ep12/images/scene_12.jpg",
+   "startMs": 475130,
+   "endMs": 495275
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "الحافظ يعتدل في جلسته",
+   "image": "ep12/images/scene_13.jpg",
+   "startMs": 495275,
+   "endMs": 534285
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "المؤلف ينظر إلى الحافظ طويلًا",
+   "image": "ep12/images/scene_14.jpg",
+   "startMs": 534285,
+   "endMs": 557830
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep12_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "سينمائي",
+   "text": "ليلة الخميس، التاسع والعشرون من رجب. حضر القوم مع علمائهم، وشربوا الشاي، ثم افتتح الحديث هذه المرة السيد عبد الحي، إمام جماعة المسجد.",
+   "startMs": 500,
+   "endMs": 15710,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 580680,
+    "endMs": 595890
+   },
+   "lines": [
+    {
+     "text": "ليلة الخميس، التاسع والعشرون من رجب.",
+     "startMs": 500,
+     "endMs": 4480
+    },
+    {
+     "text": "حضر القوم مع علمائهم، وشربوا الشاي، ثم افتتح الحديث هذه المرة السيد عبد الحي، إمام جماعة المسجد.",
+     "startMs": 4480,
+     "endMs": 15710
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s01_l02",
+   "scene": 1,
+   "speakerId": "ABDULHAYY",
+   "speakerName": "السيد عبد الحي",
+   "direction": "عاتب",
+   "text": "سيدنا الجليل! في مجلس سابق تحدّثت عن موضوع، ولمّا طالبك فضيلة الحافظ محمد رشيد بالدليل، ذهبت بالكلام إلى موضوع آخر وتناسيت طلب الحافظ.",
+   "startMs": 16310,
+   "endMs": 27610,
+   "clip": {
+    "file": "audio/ABDULHAYY/Generated Audio October 27, 2026 - 2_56AM.wav",
+    "startMs": 40100,
+    "endMs": 51400
+   },
+   "lines": [
+    {
+     "text": "سيدنا الجليل!",
+     "startMs": 16310,
+     "endMs": 17349
+    },
+    {
+     "text": "في مجلس سابق تحدّثت عن موضوع، ولمّا طالبك فضيلة الحافظ محمد رشيد بالدليل، ذهبت بالكلام إلى موضوع آخر وتناسيت طلب الحافظ.",
+     "startMs": 17349,
+     "endMs": 27609
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s01_l03",
+   "scene": 1,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "هادئ",
+   "text": "أرجو أن تتفضّلوا بتوضيح الموضوع، حتّى أبيّن لكم الدليل.",
+   "startMs": 28210,
+   "endMs": 33880,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1346850,
+    "endMs": 1352520
+   },
+   "lines": [
+    {
+     "text": "أرجو أن تتفضّلوا بتوضيح الموضوع، حتّى أبيّن لكم الدليل.",
+     "startMs": 28210,
+     "endMs": 33879
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s01_l04",
+   "scene": 1,
+   "speakerId": "ABDULHAYY",
+   "speakerName": "السيد عبد الحي",
+   "direction": "يسأل",
+   "text": "قلتم إن عليًّا كان في اتحاد نفسي مع رسول الله، ولذلك هو أفضل من الصحابة. فما دليلكم؟",
+   "startMs": 34480,
+   "endMs": 42070,
+   "clip": {
+    "file": "audio/ABDULHAYY/Generated Audio October 27, 2026 - 2_56AM.wav",
+    "startMs": 51860,
+    "endMs": 59450
+   },
+   "lines": [
+    {
+     "text": "قلتم إن عليًّا كان في اتحاد نفسي مع رسول الله، ولذلك هو أفضل من الصحابة.",
+     "startMs": 34480,
+     "endMs": 40519
+    },
+    {
+     "text": "فما دليلكم؟",
+     "startMs": 40519,
+     "endMs": 42070
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.994,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s01_l05",
+   "scene": 1,
+   "speakerId": "ABDULHAYY",
+   "speakerName": "السيد عبد الحي",
+   "direction": "متشكك",
+   "text": "وكيف يمكن اتّحاد شخصين حتى يصبحا نفسا واحدة؟!!",
+   "startMs": 42420,
+   "endMs": 46740,
+   "clip": {
+    "file": "audio/ABDULHAYY/Generated Audio October 27, 2026 - 2_56AM.wav",
+    "startMs": 59800,
+    "endMs": 64120
+   },
+   "lines": [
+    {
+     "text": "وكيف يمكن اتّحاد شخصين حتى يصبحا نفسا واحدة؟!!",
+     "startMs": 42420,
+     "endMs": 46740
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s02_l01",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "واثق",
+   "text": "نحن لا نعتقد بشيء من غير دليل، وقد قلت تكرارا: نحن أبناء الدليل حيثما مال نميل",
+   "startMs": 47940,
+   "endMs": 56035,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1352700,
+    "endMs": 1360795
+   },
+   "lines": [
+    {
+     "text": "نحن لا نعتقد بشيء من غير دليل، وقد قلت تكرارا: نحن أبناء الدليل حيثما مال نميل",
+     "startMs": 47940,
+     "endMs": 56035
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.974,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s02_l02",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "عاتب برفق",
+   "text": "لكن قولكم إني تناسيت طلب الحافظ وهربت إلى موضوع آخر، ما هو إلا سوء ظن بي.",
+   "startMs": 56385,
+   "endMs": 63485,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1360920,
+    "endMs": 1368020
+   },
+   "lines": [
+    {
+     "text": "لكن قولكم إني تناسيت طلب الحافظ وهربت إلى موضوع آخر، ما هو إلا سوء ظن بي.",
+     "startMs": 56385,
+     "endMs": 63484
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.986,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s02_l03",
+   "scene": 2,
+   "speakerId": "ABDULHAYY",
+   "speakerName": "السيد عبد الحي",
+   "direction": "معتذر",
+   "text": "إنّني أعتذر من سوء التعبير، وأرجو العفو والسماح.",
+   "startMs": 64085,
+   "endMs": 67615,
+   "clip": {
+    "file": "audio/ABDULHAYY/Generated Audio October 27, 2026 - 2_56AM.wav",
+    "startMs": 64640,
+    "endMs": 68170
+   },
+   "lines": [
+    {
+     "text": "إنّني أعتذر من سوء التعبير، وأرجو العفو والسماح.",
+     "startMs": 64085,
+     "endMs": 67615
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s03_l01",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "فلسفي",
+   "text": "اتّحاد شخصين بالمعنى الحقيقي غير ممكن ومحال عقلا",
+   "startMs": 68815,
+   "endMs": 74755,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1368250,
+    "endMs": 1374190
+   },
+   "lines": [
+    {
+     "text": "اتّحاد شخصين بالمعنى الحقيقي غير ممكن ومحال عقلا",
+     "startMs": 68815,
+     "endMs": 74755
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.979,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s03_l02",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "شارح",
+   "text": "ونحن نقول باتحاد نفس النبي ونفس علي مجازًا. فالمحبة بين شخصين إذا بلغت أعلى مراتبها صارت رغبتهما واحدة، كأنهما روح في جسدين.",
+   "startMs": 75105,
+   "endMs": 88850,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1373330,
+    "endMs": 1387075
+   },
+   "lines": [
+    {
+     "text": "ونحن نقول باتحاد نفس النبي ونفس علي مجازًا. فالمحبة بين شخصين إذا بلغت أعلى مراتبها صارت رغبتهما واحدة، كأنهما روح في جسدين.",
+     "startMs": 75105,
+     "endMs": 88850
+    }
+   ],
+   "timing": "estimated",
+   "alignment": {
+    "confidence": 0.98,
+    "flags": [
+     "no pause before this line — check the start"
+    ]
+   }
+  },
+  {
+   "id": "ep12_s03_l03",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ينشد",
+   "text": "كما قال الشاعر: أنا من أهوى ومن أهوى أنا، نحن روحان حللنا بدنا.",
+   "startMs": 89200,
+   "endMs": 96045,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1387120,
+    "endMs": 1393965
+   },
+   "lines": [
+    {
+     "text": "كما قال الشاعر: أنا من أهوى ومن أهوى أنا، نحن روحان حللنا بدنا.",
+     "startMs": 89200,
+     "endMs": 96045
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s03_l04",
+   "scene": 3,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "معترض",
+   "text": "فإذا كان علي يساوي رسول الله في جميع الفضائل، لزم أن يكون نبيًّا مثله!",
+   "startMs": 96645,
+   "endMs": 103185,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 667320,
+    "endMs": 673860
+   },
+   "lines": [
+    {
+     "text": "فإذا كان علي يساوي رسول الله في جميع الفضائل، لزم أن يكون نبيًّا مثله!",
+     "startMs": 96645,
+     "endMs": 103184
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s03_l05",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يوضّح",
+   "text": "هذه مغالطة. فقد قلنا إن عليًّا يماثله في الفضائل كلها إلا النبوة الخاصة ونزول الوحي. وأفضل الأنبياء أكملهم وخاتمهم، «ولكن رسول الله وخاتم النبيين».",
+   "startMs": 103785,
+   "endMs": 118745,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1394090,
+    "endMs": 1409050
+   },
+   "lines": [
+    {
+     "text": "هذه مغالطة.",
+     "startMs": 103785,
+     "endMs": 105514
+    },
+    {
+     "text": "فقد قلنا إن عليًّا يماثله في الفضائل كلها إلا النبوة الخاصة ونزول الوحي.",
+     "startMs": 105514,
+     "endMs": 112154
+    },
+    {
+     "text": "وأفضل الأنبياء أكملهم وخاتمهم، «ولكن رسول الله وخاتم النبيين».",
+     "startMs": 112154,
+     "endMs": 118744
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s04_l01",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ملحمي",
+   "text": "دليلنا من القرآن آية المباهلة، وقد رواها الفخر الرازي والثعلبي والسيوطي والبيضاوي والزمخشري ومسلم في صحيحه وغيرهم.",
+   "startMs": 119345,
+   "endMs": 130605,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1409570,
+    "endMs": 1420830
+   },
+   "lines": [
+    {
+     "text": "دليلنا من القرآن آية المباهلة، وقد رواها الفخر الرازي والثعلبي والسيوطي والبيضاوي والزمخشري ومسلم في صحيحه وغيرهم.",
+     "startMs": 119345,
+     "endMs": 130604
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.987,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s04_l02",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ",
+   "text": "دعا النبي نصارى نجران إلى الإسلام، فأقبل كبارهم وعلماؤهم، يزيدون على السبعين. فحاجّوه وجادلوه في عيسى.",
+   "startMs": 130955,
+   "endMs": 140210,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1420880,
+    "endMs": 1430135
+   },
+   "lines": [
+    {
+     "text": "دعا النبي نصارى نجران إلى الإسلام، فأقبل كبارهم وعلماؤهم، يزيدون على السبعين.",
+     "startMs": 130955,
+     "endMs": 137434
+    },
+    {
+     "text": "فحاجّوه وجادلوه في عيسى.",
+     "startMs": 137434,
+     "endMs": 140209
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.995,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s04_l03",
+   "scene": 4,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "ملحمي",
+   "text": "فلما رأى رسول الله لجاجهم دعاهم إلى المباهلة، أن يجتمع الفريقان فيبتهلوا إلى الله، فيجعلوا لعنته على الكاذبين. فقبلوا.",
+   "startMs": 140810,
+   "endMs": 154890,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 596500,
+    "endMs": 610580
+   },
+   "lines": [
+    {
+     "text": "فلما رأى رسول الله لجاجهم دعاهم إلى المباهلة، أن يجتمع الفريقان فيبتهلوا إلى الله، فيجعلوا لعنته على الكاذبين.",
+     "startMs": 140810,
+     "endMs": 152989
+    },
+    {
+     "text": "فقبلوا.",
+     "startMs": 152989,
+     "endMs": 154890
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s05_l01",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "مهيب",
+   "text": "فلما جاء اليوم خرج رسول الله، ومعه الحسن والحسين وفاطمة وعلي فقط.",
+   "startMs": 156090,
+   "endMs": 162750,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1430170,
+    "endMs": 1436830
+   },
+   "lines": [
+    {
+     "text": "فلما جاء اليوم خرج رسول الله، ومعه الحسن والحسين وفاطمة وعلي فقط.",
+     "startMs": 156090,
+     "endMs": 162749
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s05_l02",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي، بهيبة",
+   "text": "قال لهم أكبر علمائهم: انظروا إلى محمّد! لقد جاء بصفوة أهله وأعزّهم عليه ليباهلنا بهم، وهذا إنّما يدلّ على يقينه واطمئنانه بحقّانيّته ورسالته",
+   "startMs": 163100,
+   "endMs": 178750,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1436920,
+    "endMs": 1452570
+   },
+   "lines": [
+    {
+     "text": "قال لهم أكبر علمائهم: انظروا إلى محمّد!",
+     "startMs": 163100,
+     "endMs": 167080
+    },
+    {
+     "text": "لقد جاء بصفوة أهله وأعزّهم عليه ليباهلنا بهم، وهذا إنّما يدلّ على يقينه واطمئنانه بحقّانيّته ورسالته",
+     "startMs": 167080,
+     "endMs": 178749
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s05_l03",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ",
+   "text": "فبعثوا إلى رسول الله أنهم لا يباهلونه بل يصالحونه، فصالحهم على ألفي حلّة وألف مثقال ذهب.",
+   "startMs": 179100,
+   "endMs": 188510,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1453120,
+    "endMs": 1462530
+   },
+   "lines": [
+    {
+     "text": "فبعثوا إلى رسول الله أنهم لا يباهلونه بل يصالحونه، فصالحهم على ألفي حلّة وألف مثقال ذهب.",
+     "startMs": 179100,
+     "endMs": 188509
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s05_l04",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "والله ما باهل نبيّ أهل ملّة إلاّ نزل عليهم العذاب",
+   "startMs": 188860,
+   "endMs": 193630,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1463160,
+    "endMs": 1467930
+   },
+   "lines": [
+    {
+     "text": "والله ما باهل نبيّ أهل ملّة إلاّ نزل عليهم العذاب",
+     "startMs": 188860,
+     "endMs": 193629
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s06_l01",
+   "scene": 6,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "مقرّ ثم مستفهم",
+   "text": "هذا الخبر صحيح، ومنقول في كتبنا المعتبرة، ولا منكر له بين علمائنا",
+   "startMs": 194830,
+   "endMs": 201845,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 674190,
+    "endMs": 681205
+   },
+   "lines": [
+    {
+     "text": "هذا الخبر صحيح، ومنقول في كتبنا المعتبرة، ولا منكر له بين علمائنا",
+     "startMs": 194830,
+     "endMs": 201844
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s06_l02",
+   "scene": 6,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يستفهم",
+   "text": "لكن ما ارتباطه بسؤالنا عن اتحاد نفس علي مع نفس رسول الله؟",
+   "startMs": 202195,
+   "endMs": 209265,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 681280,
+    "endMs": 688350
+   },
+   "lines": [
+    {
+     "text": "لكن ما ارتباطه بسؤالنا عن اتحاد نفس علي مع نفس رسول الله؟",
+     "startMs": 202195,
+     "endMs": 209265
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s06_l03",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حاسم",
+   "text": "ارتباط الخبر بالسؤال كلمة (أَنْفُسَنا) في الآية الكريمة.",
+   "startMs": 209865,
+   "endMs": 214855,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1468970,
+    "endMs": 1473960
+   },
+   "lines": [
+    {
+     "text": "ارتباط الخبر بالسؤال كلمة (أَنْفُسَنا) في الآية الكريمة.",
+     "startMs": 209865,
+     "endMs": 214855
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s06_l04",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يشرح",
+   "text": "فالأبناء الحسن والحسين، والنساء فاطمة، ولم يبق في «أنفسنا» إلا علي. فجعله الله نفس رسول الله بتعبير القرآن. وهو اتحاد اعتباري لا حقيقي.",
+   "startMs": 215205,
+   "endMs": 229995,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1474430,
+    "endMs": 1489220
+   },
+   "lines": [
+    {
+     "text": "فالأبناء الحسن والحسين، والنساء فاطمة، ولم يبق في «أنفسنا» إلا علي.",
+     "startMs": 215205,
+     "endMs": 222435
+    },
+    {
+     "text": "فجعله الله نفس رسول الله بتعبير القرآن.",
+     "startMs": 222435,
+     "endMs": 226394
+    },
+    {
+     "text": "وهو اتحاد اعتباري لا حقيقي.",
+     "startMs": 226394,
+     "endMs": 229994
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s06_l05",
+   "scene": 6,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يتمسك",
+   "text": "لنا أن نقول إن هذا تعبير مجازي!",
+   "startMs": 230595,
+   "endMs": 234515,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 689010,
+    "endMs": 692930
+   },
+   "lines": [
+    {
+     "text": "لنا أن نقول إن هذا تعبير مجازي!",
+     "startMs": 230595,
+     "endMs": 234515
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s06_l06",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ناصح",
+   "text": "أرجوكم أن تتركوا الجدال. وما قلنا إلا المجاز، والأخذ بالمجاز الأقرب أولى، وأقربه تماثلهما في جميع الصفات الكمالية إلا النبوة.",
+   "startMs": 235115,
+   "endMs": 247985,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1490180,
+    "endMs": 1503050
+   },
+   "lines": [
+    {
+     "text": "أرجوكم أن تتركوا الجدال.",
+     "startMs": 235115,
+     "endMs": 237095
+    },
+    {
+     "text": "وما قلنا إلا المجاز، والأخذ بالمجاز الأقرب أولى، وأقربه تماثلهما في جميع الصفات الكمالية إلا النبوة.",
+     "startMs": 237095,
+     "endMs": 247984
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s07_l01",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يعدّد",
+   "text": "والأحاديث في هذا كثيرة. قال رسول الله: «علي مني وأنا منه، من أحبه فقد أحبني، ومن أحبني فقد أحب الله». أخرجه أحمد في المسند وابن المغازلي والخوارزمي.",
+   "startMs": 248585,
+   "endMs": 264345,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1503840,
+    "endMs": 1519600
+   },
+   "lines": [
+    {
+     "text": "والأحاديث في هذا كثيرة.",
+     "startMs": 248585,
+     "endMs": 250104
+    },
+    {
+     "text": "قال رسول الله: «علي مني وأنا منه، من أحبه فقد أحبني، ومن أحبني فقد أحب الله».",
+     "startMs": 250104,
+     "endMs": 259364
+    },
+    {
+     "text": "أخرجه أحمد في المسند وابن المغازلي والخوارزمي.",
+     "startMs": 259364,
+     "endMs": 264344
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s07_l02",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يعدّد",
+   "text": "«عليّ منّي وأنا من عليّ، ولا يؤدّي عنّي إلاّ أنا أو عليّ».",
+   "startMs": 264695,
+   "endMs": 270255,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1520360,
+    "endMs": 1525920
+   },
+   "lines": [
+    {
+     "text": "«عليّ منّي وأنا من عليّ، ولا يؤدّي عنّي إلاّ أنا أو عليّ».",
+     "startMs": 264695,
+     "endMs": 270254
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s07_l03",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "أخرجه ابن ماجه والترمذي وأحمد. وخصّص القندوزي في «ينابيع المودة» بابًا كاملًا عنوانه: في أن عليًّا كنفس رسول الله، وأخرج فيه أربعة وعشرين حديثًا.",
+   "startMs": 270605,
+   "endMs": 285125,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1526240,
+    "endMs": 1540760
+   },
+   "lines": [
+    {
+     "text": "أخرجه ابن ماجه والترمذي وأحمد.",
+     "startMs": 270605,
+     "endMs": 273245
+    },
+    {
+     "text": "وخصّص القندوزي في «ينابيع المودة» بابًا كاملًا عنوانه: في أن عليًّا كنفس رسول الله، وأخرج فيه أربعة وعشرين حديثًا.",
+     "startMs": 273245,
+     "endMs": 285124
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.981,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s08_l01",
+   "scene": 8,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "انتقالي",
+   "text": "وحلّ وقت العشاء. وبعد الصلاة عاد المجلس، فبدأ المؤلف الكلام في باب جديد.",
+   "startMs": 286325,
+   "endMs": 294455,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 611090,
+    "endMs": 619220
+   },
+   "lines": [
+    {
+     "text": "وحلّ وقت العشاء.",
+     "startMs": 286325,
+     "endMs": 287654
+    },
+    {
+     "text": "وبعد الصلاة عاد المجلس، فبدأ المؤلف الكلام في باب جديد.",
+     "startMs": 287654,
+     "endMs": 294454
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s09_l01",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "متأمل",
+   "text": "إن أنبياء الله كانوا يتّصفون بأحسن الفضائل. وعلي بن أبي طالب جمع كل الفضائل التي امتاز بها الأنبياء. وقد شهد بذلك رسول الله فيما رواه البيهقي وأحمد والفخر الرازي وغيرهم:",
+   "startMs": 295655,
+   "endMs": 312165,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1545920,
+    "endMs": 1562430
+   },
+   "lines": [
+    {
+     "text": "إن أنبياء الله كانوا يتّصفون بأحسن الفضائل. وعلي بن أبي طالب جمع كل الفضائل التي امتاز بها الأنبياء. وقد شهد بذلك رسول الله فيما رواه البيهقي وأحمد والفخر الرازي وغيرهم:",
+     "startMs": 295655,
+     "endMs": 312164
+    }
+   ],
+   "timing": "estimated",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": [
+     "unscripted speech near this line at 1540.5–1544.7s: والانبياء يتصفون باحسن الفضايل"
+    ]
+   }
+  },
+  {
+   "id": "ep12_s09_l02",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي، مهيب",
+   "text": "«من أراد أن ينظر إلى آدم في علمه، وإلى نوح في تقواه، وإلى إبراهيم في حلمه، وإلى موسى في هيبته، وإلى عيسى في عبادته، فلينظر إلى علي بن أبي طالب».",
+   "startMs": 312515,
+   "endMs": 327725,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1563050,
+    "endMs": 1578260
+   },
+   "lines": [
+    {
+     "text": "«من أراد أن ينظر إلى آدم في علمه، وإلى نوح في تقواه، وإلى إبراهيم في حلمه، وإلى موسى في هيبته، وإلى عيسى في عبادته، فلينظر إلى علي بن أبي طالب».",
+     "startMs": 312515,
+     "endMs": 327724
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s09_l03",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يشرح",
+   "text": "وعلّق العلامة الكنجي الشافعي: شبّهه بآدم في علمه، لأن الله علّم آدم الأسماء كلها. وشبّهه بإبراهيم في حلمه، «إن إبراهيم لأوّاه حليم».",
+   "startMs": 328075,
+   "endMs": 341975,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1578950,
+    "endMs": 1592850
+   },
+   "lines": [
+    {
+     "text": "وعلّق العلامة الكنجي الشافعي: شبّهه بآدم في علمه، لأن الله علّم آدم الأسماء كلها.",
+     "startMs": 328075,
+     "endMs": 335805
+    },
+    {
+     "text": "وشبّهه بإبراهيم في حلمه، «إن إبراهيم لأوّاه حليم».",
+     "startMs": 335805,
+     "endMs": 341974
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s10_l01",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حزين، يروي",
+   "text": "وحدّث المؤرخون أنه في آخر يوم من حياته، وهو على فراش الشهادة، سأله صعصعة بن صوحان: أنت أفضل أم آدم؟ فقال: تزكية المرء نفسه قبيح، ولولا قول الله: «وأما بنعمة ربك فحدّث» ما أجبت.",
+   "startMs": 342575,
+   "endMs": 362445,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1593240,
+    "endMs": 1613110
+   },
+   "lines": [
+    {
+     "text": "وحدّث المؤرخون أنه في آخر يوم من حياته، وهو على فراش الشهادة، سأله صعصعة بن صوحان: أنت أفضل أم آدم؟",
+     "startMs": 342575,
+     "endMs": 353235
+    },
+    {
+     "text": "فقال: تزكية المرء نفسه قبيح، ولولا قول الله: «وأما بنعمة ربك فحدّث» ما أجبت.",
+     "startMs": 353235,
+     "endMs": 362444
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s10_l02",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي",
+   "text": "ثم ذكر أن آدم نُهي عن شجرة فأكل منها، وأنه هو لم يُنهَ عن الطيبات فأعرض عنها زهدًا. وأن إبراهيم سأل ربه ليطمئن قلبه، وأما هو فقال:",
+   "startMs": 362795,
+   "endMs": 377775,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1613230,
+    "endMs": 1628210
+   },
+   "lines": [
+    {
+     "text": "ثم ذكر أن آدم نُهي عن شجرة فأكل منها، وأنه هو لم يُنهَ عن الطيبات فأعرض عنها زهدًا.",
+     "startMs": 362795,
+     "endMs": 371864
+    },
+    {
+     "text": "وأن إبراهيم سأل ربه ليطمئن قلبه، وأما هو فقال:",
+     "startMs": 371864,
+     "endMs": 377775
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.988,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s10_l03",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ بخشوع",
+   "text": "لو كشف لي الغطاء ما ازددت يقينا.",
+   "startMs": 378125,
+   "endMs": 381645,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1628410,
+    "endMs": 1631930
+   },
+   "lines": [
+    {
+     "text": "لو كشف لي الغطاء ما ازددت يقينا.",
+     "startMs": 378125,
+     "endMs": 381644
+    }
+   ],
+   "timing": "estimated",
+   "alignment": {
+    "confidence": 0.915,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s10_l04",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي",
+   "text": "وقال: إن نوحًا لما رأى عناد قومه دعا عليهم، وأما أنا فبعد حبيبي رسول الله تحمّلت أذى قومي، فظلموني كثيرًا فصبرت وما دعوت عليهم.",
+   "startMs": 381995,
+   "endMs": 396055,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1632150,
+    "endMs": 1646210
+   },
+   "lines": [
+    {
+     "text": "وقال: إن نوحًا لما رأى عناد قومه دعا عليهم، وأما أنا فبعد حبيبي رسول الله تحمّلت أذى قومي، فظلموني كثيرًا فصبرت وما دعوت عليهم.",
+     "startMs": 381995,
+     "endMs": 396054
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s10_l05",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي",
+   "text": "وقال: إن موسى لما أُمر بالذهاب إلى فرعون قال: «رب إني قتلت منهم نفسًا فأخاف أن يقتلون». وأما أنا فحين أمرني رسول الله أن أبلّغ أهل مكة سورة براءة، وقد قتلت كثيرًا من رجالهم، ذهبت وحدي بلا خوف، فوقفت في جمعهم رافعًا صوتي، وتلوت الآيات وهم يسمعون.",
+   "startMs": 396405,
+   "endMs": 423315,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1646480,
+    "endMs": 1673390
+   },
+   "lines": [
+    {
+     "text": "وقال: إن موسى لما أُمر بالذهاب إلى فرعون قال: «رب إني قتلت منهم نفسًا فأخاف أن يقتلون».",
+     "startMs": 396405,
+     "endMs": 404664
+    },
+    {
+     "text": "وأما أنا فحين أمرني رسول الله أن أبلّغ أهل مكة سورة براءة، وقد قتلت كثيرًا من رجالهم، ذهبت وحدي بلا خوف، فوقفت في جمعهم رافعًا صوتي، وتلوت الآيات وهم يسمعون.",
+     "startMs": 404664,
+     "endMs": 423315
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s10_l06",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يشرح",
+   "text": "وكل ذلك كناية عن أن فضل الإنسان عند الله بالزهد واليقين والصبر والتوكل.",
+   "startMs": 423665,
+   "endMs": 431765,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1673690,
+    "endMs": 1681790
+   },
+   "lines": [
+    {
+     "text": "وكل ذلك كناية عن أن فضل الإنسان عند الله بالزهد واليقين والصبر والتوكل.",
+     "startMs": 423665,
+     "endMs": 431764
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s11_l01",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي",
+   "text": "سمعت أحمد بن حنبل يقول: ما جاء لأحد من الصحابة من الفضائل مثل ما لعليّ بن أبي طالب عليه السلام.",
+   "startMs": 432365,
+   "endMs": 441755,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1682870,
+    "endMs": 1692260
+   },
+   "lines": [
+    {
+     "text": "سمعت أحمد بن حنبل يقول: ما جاء لأحد من الصحابة من الفضائل مثل ما لعليّ بن أبي طالب عليه السلام.",
+     "startMs": 432365,
+     "endMs": 441754
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.984,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s11_l02",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي بابتسامة",
+   "text": "وقال رجل لابن عباس: ما أكثر فضائل علي! إني لأحسبها ثلاثة آلاف منقبة. فقال ابن عباس: أو لا تقول إنها إلى ثلاثين ألفًا أقرب؟",
+   "startMs": 442105,
+   "endMs": 454915,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1692520,
+    "endMs": 1705330
+   },
+   "lines": [
+    {
+     "text": "وقال رجل لابن عباس: ما أكثر فضائل علي!",
+     "startMs": 442105,
+     "endMs": 446284
+    },
+    {
+     "text": "إني لأحسبها ثلاثة آلاف منقبة.",
+     "startMs": 446284,
+     "endMs": 449364
+    },
+    {
+     "text": "فقال ابن عباس: أو لا تقول إنها إلى ثلاثين ألفًا أقرب؟",
+     "startMs": 449364,
+     "endMs": 454914
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s11_l03",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ بإعجاب",
+   "text": "وما أقول في رجل أقرّ له أعداؤه وخصومه بالفضل، ولم يمكنهم جحد مناقبه ولا كتمان فضائله؟!",
+   "startMs": 455265,
+   "endMs": 464540,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1705750,
+    "endMs": 1715025
+   },
+   "lines": [
+    {
+     "text": "وما أقول في رجل أقرّ له أعداؤه وخصومه بالفضل، ولم يمكنهم جحد مناقبه ولا كتمان فضائله؟!",
+     "startMs": 455265,
+     "endMs": 464540
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s11_l04",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "هذا ما قاله ابن أبي الحديد المعتزلي في مقدمة شرحه لنهج البلاغة، وقال: فهو رئيس الفضائل وينبوعها.",
+   "startMs": 464890,
+   "endMs": 474830,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1715130,
+    "endMs": 1725070
+   },
+   "lines": [
+    {
+     "text": "هذا ما قاله ابن أبي الحديد المعتزلي في مقدمة شرحه لنهج البلاغة، وقال: فهو رئيس الفضائل وينبوعها.",
+     "startMs": 464890,
+     "endMs": 474829
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s12_l01",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يحتكم",
+   "text": "فبالله عليكم، مع هذه الروايات في كتبكم، هل يجوز أن تقدّموا أحدًا على علي؟ وهل يجوز عند العقلاء تقديم المفضول على الفاضل؟",
+   "startMs": 475430,
+   "endMs": 487160,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1725560,
+    "endMs": 1737290
+   },
+   "lines": [
+    {
+     "text": "فبالله عليكم، مع هذه الروايات في كتبكم، هل يجوز أن تقدّموا أحدًا على علي؟ وهل يجوز عند العقلاء تقديم المفضول على الفاضل؟",
+     "startMs": 475430,
+     "endMs": 487159
+    }
+   ],
+   "timing": "estimated",
+   "alignment": {
+    "confidence": 0.97,
+    "flags": [
+     "no pause after this line — check the end"
+    ]
+   }
+  },
+  {
+   "id": "ep12_s12_l02",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "ولما ذا لم يستشيروه في أمر الخلافة؟!",
+   "startMs": 487510,
+   "endMs": 490665,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1736495,
+    "endMs": 1739650
+   },
+   "lines": [
+    {
+     "text": "ولما ذا لم يستشيروه في أمر الخلافة؟!",
+     "startMs": 487510,
+     "endMs": 490665
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.985,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s12_l03",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يرجو",
+   "text": "فأنصفوا ولا تتّبعوا التعصّب والعناد!",
+   "startMs": 491015,
+   "endMs": 494675,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1740080,
+    "endMs": 1743740
+   },
+   "lines": [
+    {
+     "text": "فأنصفوا ولا تتّبعوا التعصّب والعناد!",
+     "startMs": 491015,
+     "endMs": 494674
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s13_l01",
+   "scene": 13,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "واثق",
+   "text": "إنّ أقوى دليل على إثبات خلافة أبي بكر وصحّتها هو إجماع الأمّة على خلافته.",
+   "startMs": 495875,
+   "endMs": 503305,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 693040,
+    "endMs": 700470
+   },
+   "lines": [
+    {
+     "text": "إنّ أقوى دليل على إثبات خلافة أبي بكر وصحّتها هو إجماع الأمّة على خلافته.",
+     "startMs": 495875,
+     "endMs": 503305
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s13_l02",
+   "scene": 13,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يكمل",
+   "text": "وأضف إليه كبر السن. فعلي مع فضله وقربه من رسول الله، أخّره المسلمون لصغر سنه. ولا يجوز عقلًا أن يتقدم شاب حدث السن على شيوخ قومه.",
+   "startMs": 503655,
+   "endMs": 516935,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 700820,
+    "endMs": 714100
+   },
+   "lines": [
+    {
+     "text": "وأضف إليه كبر السن.",
+     "startMs": 503655,
+     "endMs": 505234
+    },
+    {
+     "text": "فعلي مع فضله وقربه من رسول الله، أخّره المسلمون لصغر سنه.",
+     "startMs": 505234,
+     "endMs": 511434
+    },
+    {
+     "text": "ولا يجوز عقلًا أن يتقدم شاب حدث السن على شيوخ قومه.",
+     "startMs": 511434,
+     "endMs": 516934
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s13_l03",
+   "scene": 13,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يكمل",
+   "text": "ثمّ إنّ المسلمين سمعوا حديثا رواه عمر بن الخطّاب، قال: لا تجتمع النبوّة والملك في أهل بيت واحد.",
+   "startMs": 517285,
+   "endMs": 526835,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 714550,
+    "endMs": 724100
+   },
+   "lines": [
+    {
+     "text": "ثمّ إنّ المسلمين سمعوا حديثا رواه عمر بن الخطّاب، قال: لا تجتمع النبوّة والملك في أهل بيت واحد.",
+     "startMs": 517285,
+     "endMs": 526835
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s13_l04",
+   "scene": 13,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "محتجّ",
+   "text": "أما قال رسول الله صلى الله عليه وآله وسلم: «لا تجتمع أمّتي على الخطأ؟",
+   "startMs": 527185,
+   "endMs": 533685,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 724440,
+    "endMs": 730940
+   },
+   "lines": [
+    {
+     "text": "أما قال رسول الله صلى الله عليه وآله وسلم: «لا تجتمع أمّتي على الخطأ؟",
+     "startMs": 527185,
+     "endMs": 533685
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s14_l01",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حادّ، مضبوط",
+   "text": "إنّ أدلّتكم هذه تضحك الثّكلى",
+   "startMs": 534885,
+   "endMs": 537820,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1744050,
+    "endMs": 1746985
+   },
+   "lines": [
+    {
+     "text": "إنّ أدلّتكم هذه تضحك الثّكلى",
+     "startMs": 534885,
+     "endMs": 537819
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.96,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s14_l02",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يتحدى",
+   "text": "فأي إجماع تقصدون؟ إجماع السقيفة؟ ومن كان فيها؟ وأين كان علي وبنو هاشم؟",
+   "startMs": 538170,
+   "endMs": 545340,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1747030,
+    "endMs": 1754200
+   },
+   "lines": [
+    {
+     "text": "فأي إجماع تقصدون؟",
+     "startMs": 538170,
+     "endMs": 540139
+    },
+    {
+     "text": "إجماع السقيفة؟",
+     "startMs": 540139,
+     "endMs": 541399
+    },
+    {
+     "text": "ومن كان فيها؟",
+     "startMs": 541399,
+     "endMs": 542799
+    },
+    {
+     "text": "وأين كان علي وبنو هاشم؟",
+     "startMs": 542799,
+     "endMs": 545339
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s14_l03",
+   "scene": 14,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "معلّق",
+   "text": "وهكذا انفتح باب السقيفة. وما كان أحد في القاعة يعلم أن هذا الباب سيقودهم إلى أشد ما في التاريخ ألمًا.",
+   "startMs": 545940,
+   "endMs": 556330,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 619700,
+    "endMs": 630090
+   },
+   "lines": [
+    {
+     "text": "وهكذا انفتح باب السقيفة.",
+     "startMs": 545940,
+     "endMs": 548139
+    },
+    {
+     "text": "وما كان أحد في القاعة يعلم أن هذا الباب سيقودهم إلى أشد ما في التاريخ ألمًا.",
+     "startMs": 548139,
+     "endMs": 556329
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.99,
+    "flags": []
+   }
+  }
+ ],
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "nostalgic",
+   "startMs": 0,
+   "endMs": 48140
+  },
+  {
+   "scene": 2,
+   "cue": "nostalgic",
+   "startMs": 46540,
+   "endMs": 69015
+  },
+  {
+   "scene": 3,
+   "cue": "reflective",
+   "startMs": 67415,
+   "endMs": 119845
+  },
+  {
+   "scene": 4,
+   "cue": "reflective",
+   "startMs": 118245,
+   "endMs": 156290
+  },
+  {
+   "scene": 5,
+   "cue": "reflective",
+   "startMs": 154690,
+   "endMs": 195030
+  },
+  {
+   "scene": 6,
+   "cue": "suspense",
+   "startMs": 193429,
+   "endMs": 249085
+  },
+  {
+   "scene": 7,
+   "cue": "reflective",
+   "startMs": 247484,
+   "endMs": 286525
+  },
+  {
+   "scene": 8,
+   "cue": "reflective",
+   "startMs": 284925,
+   "endMs": 295855
+  },
+  {
+   "scene": 9,
+   "cue": "reflective",
+   "startMs": 294255,
+   "endMs": 343075
+  },
+  {
+   "scene": 10,
+   "cue": "reflective",
+   "startMs": 341474,
+   "endMs": 432865
+  },
+  {
+   "scene": 11,
+   "cue": "reflective",
+   "startMs": 431265,
+   "endMs": 475930
+  },
+  {
+   "scene": 12,
+   "cue": "reflective",
+   "startMs": 474330,
+   "endMs": 496075
+  },
+  {
+   "scene": 13,
+   "cue": "nostalgic",
+   "startMs": 494474,
+   "endMs": 535084
+  },
+  {
+   "scene": 14,
+   "cue": "ending",
+   "startMs": 533485,
+   "endMs": 558630
+  }
+ ]
+}

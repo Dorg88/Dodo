@@ -1,0 +1,165 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "المؤلف يعود إلى موضوع الليلة الماضية",
+   "music": "nostalgic",
+   "sfx": [
+    "night"
+   ],
+   "level": 0.85,
+   "reason": "title: ليل"
+  },
+  {
+   "scene": 2,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 3,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 4,
+   "title": "عبد السلام يقول إن عليًّا لم يكن سياسيًّا",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: فقد; ambience of the episode's place"
+  },
+  {
+   "scene": 5,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 6,
+   "title": "المؤلف يتلو آية من القرآن",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "default; ambience of the episode's place"
+  },
+  {
+   "scene": 7,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 8,
+   "title": "لوحة رمزية",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "default; ambience of the episode's place"
+  },
+  {
+   "scene": 9,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 10,
+   "title": "الباخرة نفسها عند الغروب",
+   "music": "reflective",
+   "sfx": [
+    "sea"
+   ],
+   "level": 0.85,
+   "reason": "title: باخرة"
+  },
+  {
+   "scene": 11,
+   "title": "المجلس في بيشاور",
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "title: مجلس"
+  },
+  {
+   "scene": 12,
+   "title": "لوحة رمزية",
+   "music": "nostalgic",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: ليل; ambience of the episode's place"
+  },
+  {
+   "scene": 13,
+   "title": "المؤلف يرفع يديه نحو السماء",
+   "music": "nostalgic",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: ليل; ambience of the episode's place"
+  },
+  {
+   "scene": 14,
+   "title": "النواب ينهض واقفًا",
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: يقين; ambience of the episode's place"
+  },
+  {
+   "scene": 15,
+   "title": "العناق",
+   "music": "suspense",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: شك; ambience of the episode's place"
+  },
+  {
+   "scene": 16,
+   "title": "لوحة ختامية",
+   "music": "ending",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: حوار; ambience of the episode's place; last scene"
+  }
+ ]
+}

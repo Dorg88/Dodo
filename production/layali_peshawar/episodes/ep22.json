@@ -3,9 +3,12 @@
  "id": "ep22",
  "number": 22,
  "title": "سلوني قبل أن تفقدوني",
- "durationMs": 539525,
+ "durationMs": 574185,
  "audio": {
-  "mode": "clips"
+  "mode": "clips",
+  "music": "ep22/audio/score_music.m4a",
+  "sfx": "ep22/audio/score_sfx.m4a",
+  "musicLoop": false
  },
  "speakers": {
   "NARRATOR": {
@@ -83,87 +86,87 @@
    "title": "المؤلف يتلو آية من القرآن",
    "image": "ep22/images/scene_06.jpg",
    "startMs": 218605,
-   "endMs": 250815
+   "endMs": 259655
   },
   {
    "number": 7,
    "id": "s07",
    "title": "لوحة استعادية",
    "image": "ep22/images/scene_07.jpg",
-   "startMs": 250815,
-   "endMs": 279055
+   "startMs": 259655,
+   "endMs": 287895
   },
   {
    "number": 8,
    "id": "s08",
    "title": "لوحة رمزية",
    "image": "ep22/images/scene_08.jpg",
-   "startMs": 279055,
-   "endMs": 298525
+   "startMs": 287895,
+   "endMs": 307365
   },
   {
    "number": 9,
    "id": "s09",
    "title": "لوحة استعادية",
    "image": "ep22/images/scene_09.jpg",
-   "startMs": 298525,
-   "endMs": 330670
+   "startMs": 307365,
+   "endMs": 339510
   },
   {
    "number": 10,
    "id": "s10",
    "title": "الباخرة نفسها عند الغروب",
    "image": "ep22/images/scene_10.jpg",
-   "startMs": 330670,
-   "endMs": 365560
+   "startMs": 339510,
+   "endMs": 374400
   },
   {
    "number": 11,
    "id": "s11",
    "title": "المجلس في بيشاور",
    "image": "ep22/images/scene_11.jpg",
-   "startMs": 365560,
-   "endMs": 393105
+   "startMs": 374400,
+   "endMs": 401945
   },
   {
    "number": 12,
    "id": "s12",
    "title": "لوحة رمزية",
    "image": "ep22/images/scene_12.jpg",
-   "startMs": 393105,
-   "endMs": 415775
+   "startMs": 401945,
+   "endMs": 424615
   },
   {
    "number": 13,
    "id": "s13",
    "title": "المؤلف يرفع يديه نحو السماء",
    "image": "ep22/images/scene_13.jpg",
-   "startMs": 415775,
-   "endMs": 434295
+   "startMs": 424615,
+   "endMs": 443135
   },
   {
    "number": 14,
    "id": "s14",
    "title": "النواب ينهض واقفًا",
    "image": "ep22/images/scene_14.jpg",
-   "startMs": 434295,
-   "endMs": 477900
+   "startMs": 443135,
+   "endMs": 486740
   },
   {
    "number": 15,
    "id": "s15",
    "title": "العناق",
    "image": "ep22/images/scene_15.jpg",
-   "startMs": 477900,
-   "endMs": 529065
+   "startMs": 486740,
+   "endMs": 537905
   },
   {
    "number": 16,
    "id": "s16",
    "title": "لوحة ختامية",
    "image": "ep22/images/scene_16.jpg",
-   "startMs": 529065,
-   "endMs": 539525
+   "startMs": 537905,
+   "endMs": 574185
   }
  ],
  "segments": [
@@ -815,14 +818,41 @@
    }
   },
   {
+   "id": "ep22_s06_l02",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "ولا يجوز عندهم متابعة الأفضل للمفضول بل يجب انقياد الجاهل للعالم والمفضول للفاضل.",
+   "startMs": 233765,
+   "endMs": 242255,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2581250,
+    "endMs": 2589740
+   },
+   "lines": [
+    {
+     "text": "ولا يجوز عندهم متابعة الأفضل للمفضول بل يجب انقياد الجاهل للعالم والمفضول للفاضل.",
+     "startMs": 233765,
+     "endMs": 242254
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
    "id": "ep22_s06_l03",
    "scene": 6,
    "speakerId": "AUTHOR",
    "speakerName": "سلطان الواعظين",
    "direction": "يتلو",
    "text": "والله يقول: «أفمن يهدي إلى الحق أحق أن يُتّبع أمّن لا يهدّي إلا أن يُهدى، فما لكم كيف تحكمون؟». وقد قال النبي:",
-   "startMs": 233765,
-   "endMs": 245385,
+   "startMs": 242605,
+   "endMs": 254225,
    "clip": {
     "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
     "startMs": 1840260,
@@ -831,13 +861,13 @@
    "lines": [
     {
      "text": "والله يقول: «أفمن يهدي إلى الحق أحق أن يُتّبع أمّن لا يهدّي إلا أن يُهدى، فما لكم كيف تحكمون؟».",
-     "startMs": 233765,
-     "endMs": 243444
+     "startMs": 242605,
+     "endMs": 252284
     },
     {
      "text": "وقد قال النبي:",
-     "startMs": 243444,
-     "endMs": 245384
+     "startMs": 252284,
+     "endMs": 254224
     }
    ],
    "timing": "verified",
@@ -853,8 +883,8 @@
    "speakerName": "سلطان الواعظين",
    "direction": "يقرأ",
    "text": "«ومن أراد العلم فعليه بالباب، أو فليأت الباب».",
-   "startMs": 245735,
-   "endMs": 250515,
+   "startMs": 254575,
+   "endMs": 259355,
    "clip": {
     "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
     "startMs": 1852340,
@@ -863,8 +893,8 @@
    "lines": [
     {
      "text": "«ومن أراد العلم فعليه بالباب، أو فليأت الباب».",
-     "startMs": 245735,
-     "endMs": 250514
+     "startMs": 254575,
+     "endMs": 259354
     }
    ],
    "timing": "verified",
@@ -880,8 +910,8 @@
    "speakerName": "سلطان الواعظين",
    "direction": "راوٍ",
    "text": "وذكر ابن حجر أن ابن ملجم جاء عليًّا يطلب دابة فأعطاه، ثم قال: هذا والله قاتلي.",
-   "startMs": 251115,
-   "endMs": 259555,
+   "startMs": 259955,
+   "endMs": 268395,
    "clip": {
     "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
     "startMs": 1857580,
@@ -890,8 +920,8 @@
    "lines": [
     {
      "text": "وذكر ابن حجر أن ابن ملجم جاء عليًّا يطلب دابة فأعطاه، ثم قال: هذا والله قاتلي.",
-     "startMs": 251115,
-     "endMs": 259554
+     "startMs": 259955,
+     "endMs": 268394
     }
    ],
    "timing": "verified",
@@ -907,8 +937,8 @@
    "speakerName": "سلطان الواعظين",
    "direction": "يقرأ",
    "text": "فقيل له: ألا تقتله؟ فقال: فمن يقتلني». «انتهى».",
-   "startMs": 259905,
-   "endMs": 264795,
+   "startMs": 268745,
+   "endMs": 273635,
    "clip": {
     "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
     "startMs": 1866390,
@@ -917,18 +947,18 @@
    "lines": [
     {
      "text": "فقيل له: ألا تقتله؟",
-     "startMs": 259905,
-     "endMs": 261395
+     "startMs": 268745,
+     "endMs": 270235
     },
     {
      "text": "فقال: فمن يقتلني».",
-     "startMs": 261395,
-     "endMs": 263634
+     "startMs": 270235,
+     "endMs": 272474
     },
     {
      "text": "«انتهى».",
-     "startMs": 263634,
-     "endMs": 264794
+     "startMs": 272474,
+     "endMs": 273634
     }
    ],
    "timing": "verified",
@@ -944,8 +974,8 @@
    "speakerName": "سلطان الواعظين",
    "direction": "يشرح",
    "text": "لأنه كان مقيّدًا بالشرع، لا يعاقب أحدًا قبل أن يرتكب جرمًا. ويقول الكاتب الإنجليزي كارليل في كتابه «الأبطال»: إن علي بن أبي طالب قُتل لعدله.",
-   "startMs": 265145,
-   "endMs": 278755,
+   "startMs": 273985,
+   "endMs": 287595,
    "clip": {
     "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
     "startMs": 1871670,
@@ -954,13 +984,13 @@
    "lines": [
     {
      "text": "لأنه كان مقيّدًا بالشرع، لا يعاقب أحدًا قبل أن يرتكب جرمًا.",
-     "startMs": 265145,
-     "endMs": 270434
+     "startMs": 273985,
+     "endMs": 279274
     },
     {
      "text": "ويقول الكاتب الإنجليزي كارليل في كتابه «الأبطال»: إن علي بن أبي طالب قُتل لعدله.",
-     "startMs": 270434,
-     "endMs": 278754
+     "startMs": 279274,
+     "endMs": 287594
     }
    ],
    "timing": "verified",
@@ -976,8 +1006,8 @@
    "speakerName": "سلطان الواعظين",
    "direction": "يروي",
    "text": "ورُوي أنه سئل عن الكواكب في السماء فقال:",
-   "startMs": 279355,
-   "endMs": 283255,
+   "startMs": 288195,
+   "endMs": 292095,
    "clip": {
     "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
     "startMs": 1885700,
@@ -986,8 +1016,8 @@
    "lines": [
     {
      "text": "ورُوي أنه سئل عن الكواكب في السماء فقال:",
-     "startMs": 279355,
-     "endMs": 283254
+     "startMs": 288195,
+     "endMs": 292094
     }
    ],
    "timing": "verified",
@@ -1003,8 +1033,8 @@
    "speakerName": "سلطان الواعظين",
    "direction": "يقرأ",
    "text": "«هذه الكواكب مدائن مثل المدائن التي في الأرض. تربطها أعمدة من نور».",
-   "startMs": 283605,
-   "endMs": 290385,
+   "startMs": 292445,
+   "endMs": 299225,
    "clip": {
     "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
     "startMs": 1889960,
@@ -1013,13 +1043,13 @@
    "lines": [
     {
      "text": "«هذه الكواكب مدائن مثل المدائن التي في الأرض.",
-     "startMs": 283605,
-     "endMs": 287464
+     "startMs": 292445,
+     "endMs": 296304
     },
     {
      "text": "تربطها أعمدة من نور».",
-     "startMs": 287464,
-     "endMs": 290384
+     "startMs": 296304,
+     "endMs": 299224
     }
    ],
    "timing": "verified",
@@ -1035,8 +1065,8 @@
    "speakerName": "سلطان الواعظين",
    "direction": "يكمل",
    "text": "قال هذا في زمن لم تكن فيه آلات تكشف الكواكب، وعلى خلاف ما كان يعتقده الفلكيون في عصره.",
-   "startMs": 290735,
-   "endMs": 298225,
+   "startMs": 299575,
+   "endMs": 307065,
    "clip": {
     "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
     "startMs": 1897170,
@@ -1045,8 +1075,8 @@
    "lines": [
     {
      "text": "قال هذا في زمن لم تكن فيه آلات تكشف الكواكب، وعلى خلاف ما كان يعتقده الفلكيون في عصره.",
-     "startMs": 290735,
-     "endMs": 298225
+     "startMs": 299575,
+     "endMs": 307065
     }
    ],
    "timing": "verified",
@@ -1062,8 +1092,8 @@
    "speakerName": "سلطان الواعظين",
    "direction": "يروي ذكرى",
    "text": "ومن المناسب أن أحدّثكم بما جرى في سفري هذا. لما ركبت الباخرة من البصرة إلى الهند، رافقني في الغرفة المستشرق الفرنسي «مسيو جوئن»، وكان يجيد العربية والفارسية. فتصادقنا مدة السفر.",
-   "startMs": 298825,
-   "endMs": 314355,
+   "startMs": 307665,
+   "endMs": 323195,
    "clip": {
     "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
     "startMs": 1905170,
@@ -1072,18 +1102,18 @@
    "lines": [
     {
      "text": "ومن المناسب أن أحدّثكم بما جرى في سفري هذا.",
-     "startMs": 298825,
-     "endMs": 302114
+     "startMs": 307665,
+     "endMs": 310954
     },
     {
      "text": "لما ركبت الباخرة من البصرة إلى الهند، رافقني في الغرفة المستشرق الفرنسي «مسيو جوئن»، وكان يجيد العربية والفارسية.",
-     "startMs": 302114,
-     "endMs": 311094
+     "startMs": 310954,
+     "endMs": 319934
     },
     {
      "text": "فتصادقنا مدة السفر.",
-     "startMs": 311094,
-     "endMs": 314354
+     "startMs": 319934,
+     "endMs": 323194
     }
    ],
    "timing": "verified",
@@ -1099,8 +1129,8 @@
    "speakerName": "سلطان الواعظين",
    "direction": "يكمل",
    "text": "وفي يوم من الأيّام أقرّ الرجل وقال: إنّي أعترف بأنّ دين الاسلام يشتمل على تعاليم سامية، وعقائد عالية",
-   "startMs": 314705,
-   "endMs": 323680,
+   "startMs": 323545,
+   "endMs": 332520,
    "clip": {
     "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
     "startMs": 1920960,
@@ -1109,8 +1139,8 @@
    "lines": [
     {
      "text": "وفي يوم من الأيّام أقرّ الرجل وقال: إنّي أعترف بأنّ دين الاسلام يشتمل على تعاليم سامية، وعقائد عالية",
-     "startMs": 314705,
-     "endMs": 323679
+     "startMs": 323545,
+     "endMs": 332519
     }
    ],
    "timing": "verified",
@@ -1126,8 +1156,8 @@
    "speakerName": "سلطان الواعظين",
    "direction": "يكمل",
    "text": "ولكن، قال، إن أتباع المسيحية سبقوا إلى الاكتشافات العلمية والاختراعات.",
-   "startMs": 324030,
-   "endMs": 330370,
+   "startMs": 332870,
+   "endMs": 339210,
    "clip": {
     "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
     "startMs": 1929970,
@@ -1136,8 +1166,8 @@
    "lines": [
     {
      "text": "ولكن، قال، إن أتباع المسيحية سبقوا إلى الاكتشافات العلمية والاختراعات.",
-     "startMs": 324030,
-     "endMs": 330369
+     "startMs": 332870,
+     "endMs": 339209
     }
    ],
    "timing": "verified",
@@ -1153,8 +1183,8 @@
    "speakerName": "سلطان الواعظين",
    "direction": "يكمل الحكاية",
    "text": "فقلت له: أساس هذه العلوم كان من المسلمين. والتاريخ يشهد أن الغربيين كانوا إلى القرن الثامن الميلادي في جهل، والمسلمون يحملون راية العلم. وذكرت له كتاب «تاريخ تمدّن العرب» للدكتور غوستاف لوبون. فقال: نعم، قرأته في باريس.",
-   "startMs": 330970,
-   "endMs": 350930,
+   "startMs": 339810,
+   "endMs": 359770,
    "clip": {
     "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
     "startMs": 1936700,
@@ -1163,23 +1193,23 @@
    "lines": [
     {
      "text": "فقلت له: أساس هذه العلوم كان من المسلمين.",
-     "startMs": 330970,
-     "endMs": 335069
+     "startMs": 339810,
+     "endMs": 343909
     },
     {
      "text": "والتاريخ يشهد أن الغربيين كانوا إلى القرن الثامن الميلادي في جهل، والمسلمون يحملون راية العلم.",
-     "startMs": 335069,
-     "endMs": 342769
+     "startMs": 343909,
+     "endMs": 351609
     },
     {
      "text": "وذكرت له كتاب «تاريخ تمدّن العرب» للدكتور غوستاف لوبون.",
-     "startMs": 342769,
-     "endMs": 348150
+     "startMs": 351609,
+     "endMs": 356990
     },
     {
      "text": "فقال: نعم، قرأته في باريس.",
-     "startMs": 348150,
-     "endMs": 350930
+     "startMs": 356990,
+     "endMs": 359770
     }
    ],
    "timing": "verified",
@@ -1195,8 +1225,8 @@
    "speakerName": "سلطان الواعظين",
    "direction": "يقرأ",
    "text": "فانّ المؤلف الدكتور جوستاف لوبون زميلي ولقد أهدى لي كتابه بيده",
-   "startMs": 351280,
-   "endMs": 356770,
+   "startMs": 360120,
+   "endMs": 365610,
    "clip": {
     "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
     "startMs": 1956860,
@@ -1205,8 +1235,8 @@
    "lines": [
     {
      "text": "فانّ المؤلف الدكتور جوستاف لوبون زميلي ولقد أهدى لي كتابه بيده",
-     "startMs": 351280,
-     "endMs": 356769
+     "startMs": 360120,
+     "endMs": 365609
     }
    ],
    "timing": "verified",
@@ -1222,8 +1252,8 @@
    "speakerName": "سلطان الواعظين",
    "direction": "يكمل",
    "text": "ثم قرأت عليه خبر الكواكب وغيره، فسجّل المصادر القديمة، وقال: سأراجعها في مكتبات لندن وباريس.",
-   "startMs": 357120,
-   "endMs": 365260,
+   "startMs": 365960,
+   "endMs": 374100,
    "clip": {
     "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
     "startMs": 1962720,
@@ -1232,8 +1262,8 @@
    "lines": [
     {
      "text": "ثم قرأت عليه خبر الكواكب وغيره، فسجّل المصادر القديمة، وقال: سأراجعها في مكتبات لندن وباريس.",
-     "startMs": 357120,
-     "endMs": 365259
+     "startMs": 365960,
+     "endMs": 374099
     }
    ],
    "timing": "verified",
@@ -1249,8 +1279,8 @@
    "speakerName": "سلطان الواعظين",
    "direction": "يقرأ بإعجاب",
    "text": "وما أقول في رجل تعزى إليه كل فضيلة، وتنتهي إليه كلّ فرقة، وتتجاذبه كل طائفة",
-   "startMs": 365860,
-   "endMs": 374720,
+   "startMs": 374700,
+   "endMs": 383560,
    "clip": {
     "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
     "startMs": 1971380,
@@ -1259,8 +1289,8 @@
    "lines": [
     {
      "text": "وما أقول في رجل تعزى إليه كل فضيلة، وتنتهي إليه كلّ فرقة، وتتجاذبه كل طائفة",
-     "startMs": 365860,
-     "endMs": 374719
+     "startMs": 374700,
+     "endMs": 383559
     }
    ],
    "timing": "verified",
@@ -1276,8 +1306,8 @@
    "speakerName": "سلطان الواعظين",
    "direction": "يكمل",
    "text": "ثم ذكر ابن أبي الحديد أن عليًّا هو الذي وضع علم النحو وأملاه على أبي الأسود الدؤلي، وقال:",
-   "startMs": 375070,
-   "endMs": 383195,
+   "startMs": 383910,
+   "endMs": 392035,
    "clip": {
     "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
     "startMs": 1980860,
@@ -1286,8 +1316,8 @@
    "lines": [
     {
      "text": "ثم ذكر ابن أبي الحديد أن عليًّا هو الذي وضع علم النحو وأملاه على أبي الأسود الدؤلي، وقال:",
-     "startMs": 375070,
-     "endMs": 383195
+     "startMs": 383910,
+     "endMs": 392035
     }
    ],
    "timing": "verified",
@@ -1303,8 +1333,8 @@
    "speakerName": "سلطان الواعظين",
    "direction": "يقرأ",
    "text": "وهذا يكاد يلحق بالمعجزات، لأنّ القوّة البشريّة لا تفي بهذا الحصر، ولا تنهض بهذا الاستنباط.",
-   "startMs": 383545,
-   "endMs": 392805,
+   "startMs": 392385,
+   "endMs": 401645,
    "clip": {
     "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
     "startMs": 1989090,
@@ -1313,8 +1343,8 @@
    "lines": [
     {
      "text": "وهذا يكاد يلحق بالمعجزات، لأنّ القوّة البشريّة لا تفي بهذا الحصر، ولا تنهض بهذا الاستنباط.",
-     "startMs": 383545,
-     "endMs": 392804
+     "startMs": 392385,
+     "endMs": 401644
     }
    ],
    "timing": "verified",
@@ -1330,8 +1360,8 @@
    "speakerName": "سلطان الواعظين",
    "direction": "رقيق",
    "text": "هذه الليلة ليلة ميلاد أبي عبد الله الحسين، سبط رسول الله. وفي الخبر أن جبرئيل هبط على النبي فهنّأه بمولده وعزّاه، فقال النبي: أتقتله أمتي؟ قال: نعم. فقال:",
-   "startMs": 393405,
-   "endMs": 409185,
+   "startMs": 402245,
+   "endMs": 418025,
    "clip": {
     "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
     "startMs": 1999120,
@@ -1340,23 +1370,23 @@
    "lines": [
     {
      "text": "هذه الليلة ليلة ميلاد أبي عبد الله الحسين، سبط رسول الله.",
-     "startMs": 393405,
-     "endMs": 398044
+     "startMs": 402245,
+     "endMs": 406884
     },
     {
      "text": "وفي الخبر أن جبرئيل هبط على النبي فهنّأه بمولده وعزّاه، فقال النبي: أتقتله أمتي؟",
-     "startMs": 398044,
-     "endMs": 406624
+     "startMs": 406884,
+     "endMs": 415464
     },
     {
      "text": "قال: نعم.",
-     "startMs": 406624,
-     "endMs": 407824
+     "startMs": 415464,
+     "endMs": 416664
     },
     {
      "text": "فقال:",
-     "startMs": 407824,
-     "endMs": 409184
+     "startMs": 416664,
+     "endMs": 418024
     }
    ],
    "timing": "verified",
@@ -1372,8 +1402,8 @@
    "speakerName": "سلطان الواعظين",
    "direction": "يقرأ",
    "text": "ما هؤلاء بأمّتي، أنا بريء منهم، والله بريء منهم.",
-   "startMs": 409535,
-   "endMs": 415475,
+   "startMs": 418375,
+   "endMs": 424315,
    "clip": {
     "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
     "startMs": 2014900,
@@ -1382,8 +1412,8 @@
    "lines": [
     {
      "text": "ما هؤلاء بأمّتي، أنا بريء منهم، والله بريء منهم.",
-     "startMs": 409535,
-     "endMs": 415474
+     "startMs": 418375,
+     "endMs": 424314
     }
    ],
    "timing": "verified",
@@ -1399,8 +1429,8 @@
    "speakerName": "سلطان الواعظين",
    "direction": "يسأل",
    "text": "فيا إخواني، فكّروا وأنصفوا، بعد هذه المحاورات كلها.",
-   "startMs": 416075,
-   "endMs": 421255,
+   "startMs": 424915,
+   "endMs": 430095,
    "clip": {
     "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
     "startMs": 2021440,
@@ -1409,8 +1439,8 @@
    "lines": [
     {
      "text": "فيا إخواني، فكّروا وأنصفوا، بعد هذه المحاورات كلها.",
-     "startMs": 416075,
-     "endMs": 421254
+     "startMs": 424915,
+     "endMs": 430094
     }
    ],
    "timing": "verified",
@@ -1426,8 +1456,8 @@
    "speakerName": "الراوي",
    "direction": "يصف",
    "text": "ثم رفع المؤلف يديه إلى السماء وقال:",
-   "startMs": 421855,
-   "endMs": 424995,
+   "startMs": 430695,
+   "endMs": 433835,
    "clip": {
     "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
     "startMs": 869540,
@@ -1436,8 +1466,8 @@
    "lines": [
     {
      "text": "ثم رفع المؤلف يديه إلى السماء وقال:",
-     "startMs": 421855,
-     "endMs": 424994
+     "startMs": 430695,
+     "endMs": 433834
     }
    ],
    "timing": "verified",
@@ -1453,8 +1483,8 @@
    "speakerName": "سلطان الواعظين",
    "direction": "داعٍ",
    "text": "اللهم اشهد أنّي كشفت لهم الحقائق وأوضحت لهم طريق الحقّ من بين الطرائق بالدليل والاحتجاج",
-   "startMs": 425595,
-   "endMs": 433695,
+   "startMs": 434435,
+   "endMs": 442535,
    "clip": {
     "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
     "startMs": 2026690,
@@ -1463,8 +1493,8 @@
    "lines": [
     {
      "text": "اللهم اشهد أنّي كشفت لهم الحقائق وأوضحت لهم طريق الحقّ من بين الطرائق بالدليل والاحتجاج",
-     "startMs": 425595,
-     "endMs": 433694
+     "startMs": 434435,
+     "endMs": 442534
     }
    ],
    "timing": "verified",
@@ -1480,8 +1510,8 @@
    "speakerName": "النواب عبد القيوم خان",
    "direction": "مهيب، صادق",
    "text": "أيها السيد الجليل! أنا وجماعة من زملائي حضرنا كل مجالس البحث والحوار بكل ولع ولهفة",
-   "startMs": 434895,
-   "endMs": 443455,
+   "startMs": 443735,
+   "endMs": 452295,
    "clip": {
     "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
     "startMs": 348890,
@@ -1490,13 +1520,13 @@
    "lines": [
     {
      "text": "أيها السيد الجليل!",
-     "startMs": 434895,
-     "endMs": 436024
+     "startMs": 443735,
+     "endMs": 444864
     },
     {
      "text": "أنا وجماعة من زملائي حضرنا كل مجالس البحث والحوار بكل ولع ولهفة",
-     "startMs": 436024,
-     "endMs": 443455
+     "startMs": 444864,
+     "endMs": 452295
     }
    ],
    "timing": "verified",
@@ -1512,8 +1542,8 @@
    "speakerName": "النواب عبد القيوم خان",
    "direction": "يعلن",
    "text": "وقد ثبت عندنا وظهر لنا في كل ذلك بأنّ الحقّ معكم وفيكم. وكنّا نظنّ من قبل، عكس ذلك بل كنّا على يقين بأننا على حق وأنتم على باطل.",
-   "startMs": 443805,
-   "endMs": 456815,
+   "startMs": 452645,
+   "endMs": 465655,
    "clip": {
     "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
     "startMs": 357570,
@@ -1522,13 +1552,13 @@
    "lines": [
     {
      "text": "وقد ثبت عندنا وظهر لنا في كل ذلك بأنّ الحقّ معكم وفيكم.",
-     "startMs": 443805,
-     "endMs": 448975
+     "startMs": 452645,
+     "endMs": 457815
     },
     {
      "text": "وكنّا نظنّ من قبل، عكس ذلك بل كنّا على يقين بأننا على حق وأنتم على باطل.",
-     "startMs": 448975,
-     "endMs": 456814
+     "startMs": 457815,
+     "endMs": 465654
     }
    ],
    "timing": "verified",
@@ -1544,8 +1574,8 @@
    "speakerName": "النواب عبد القيوم خان",
    "direction": "يكمل",
    "text": "وأنا على يقين أن كثيرًا من الحاضرين، ومن الذين قرؤوا الصحف، سيعلنون ما نعلنه الآن. أما أنا فاسمي نواب عبد القيوم، وهؤلاء زملائي.",
-   "startMs": 457165,
-   "endMs": 470830,
+   "startMs": 466005,
+   "endMs": 479670,
    "clip": {
     "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
     "startMs": 371050,
@@ -1554,13 +1584,13 @@
    "lines": [
     {
      "text": "وأنا على يقين أن كثيرًا من الحاضرين، ومن الذين قرؤوا الصحف، سيعلنون ما نعلنه الآن.",
-     "startMs": 457165,
-     "endMs": 464394
+     "startMs": 466005,
+     "endMs": 473234
     },
     {
      "text": "أما أنا فاسمي نواب عبد القيوم، وهؤلاء زملائي.",
-     "startMs": 464394,
-     "endMs": 470829
+     "startMs": 473234,
+     "endMs": 479669
     }
    ],
    "timing": "verified",
@@ -1576,8 +1606,8 @@
    "speakerName": "سلطان الواعظين",
    "direction": "ممتنّ",
    "text": "الحمد لله الذي هدانا لهذا وما كنّا لنهتدي لو لا أن هدانا الله.",
-   "startMs": 471430,
-   "endMs": 477300,
+   "startMs": 480270,
+   "endMs": 486140,
    "clip": {
     "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
     "startMs": 2035030,
@@ -1586,8 +1616,8 @@
    "lines": [
     {
      "text": "الحمد لله الذي هدانا لهذا وما كنّا لنهتدي لو لا أن هدانا الله.",
-     "startMs": 471430,
-     "endMs": 477299
+     "startMs": 480270,
+     "endMs": 486139
     }
    ],
    "timing": "estimated",
@@ -1603,8 +1633,8 @@
    "speakerName": "الراوي",
    "direction": "دافئ",
    "text": "فقام المؤلف من مجلسه، وقام الجمع. وأقبل إليه النواب عبد القيوم وزملاؤه، فاحتضنهم وعانقهم.",
-   "startMs": 478500,
-   "endMs": 487650,
+   "startMs": 487340,
+   "endMs": 496490,
    "clip": {
     "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
     "startMs": 873120,
@@ -1613,13 +1643,13 @@
    "lines": [
     {
      "text": "فقام المؤلف من مجلسه، وقام الجمع.",
-     "startMs": 478500,
-     "endMs": 481620
+     "startMs": 487340,
+     "endMs": 490460
     },
     {
      "text": "وأقبل إليه النواب عبد القيوم وزملاؤه، فاحتضنهم وعانقهم.",
-     "startMs": 481620,
-     "endMs": 487649
+     "startMs": 490460,
+     "endMs": 496489
     }
    ],
    "timing": "verified",
@@ -1635,8 +1665,8 @@
    "speakerName": "الراوي",
    "direction": "يكمل",
    "text": "ثم تقدّم الحافظ، الذي لم يناقش منذ ليلة فدك، وقال مودّعًا:",
-   "startMs": 488000,
-   "endMs": 494180,
+   "startMs": 496840,
+   "endMs": 503020,
    "clip": {
     "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
     "startMs": 882440,
@@ -1645,8 +1675,8 @@
    "lines": [
     {
      "text": "ثم تقدّم الحافظ، الذي لم يناقش منذ ليلة فدك، وقال مودّعًا:",
-     "startMs": 488000,
-     "endMs": 494180
+     "startMs": 496840,
+     "endMs": 503020
     }
    ],
    "timing": "verified",
@@ -1662,8 +1692,8 @@
    "speakerName": "الحافظ محمد رشيد",
    "direction": "متأثر، هادئ",
    "text": "إنّا فتنّا بحسن بيانكم وقوّة احتجاجكم وطيب أخلاقكم، وإنّ فراقكم يعزّ علينا، ولو كانت مجالستكم تطول شهورا ما مللناها وكنّا نلتزم بالحضور.",
-   "startMs": 494780,
-   "endMs": 516265,
+   "startMs": 503620,
+   "endMs": 525105,
    "clip": {
     "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
     "startMs": 1042070,
@@ -1672,8 +1702,8 @@
    "lines": [
     {
      "text": "إنّا فتنّا بحسن بيانكم وقوّة احتجاجكم وطيب أخلاقكم، وإنّ فراقكم يعزّ علينا، ولو كانت مجالستكم تطول شهورا ما مللناها وكنّا نلتزم بالحضور.",
-     "startMs": 494780,
-     "endMs": 516264
+     "startMs": 503620,
+     "endMs": 525104
     }
    ],
    "timing": "verified",
@@ -1689,8 +1719,8 @@
    "speakerName": "سلطان الواعظين",
    "direction": "ودود",
    "text": "أشكر ألطافكم وحضوركم، وإنّ الأيّام بيننا كثيرة، وأنا أفارقكم وأسافر، على أمل الرجوع إليكم واللقاء معكم إن شاء الله تعالى.",
-   "startMs": 516865,
-   "endMs": 528465,
+   "startMs": 525705,
+   "endMs": 537305,
    "clip": {
     "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
     "startMs": 2041390,
@@ -1699,8 +1729,8 @@
    "lines": [
     {
      "text": "أشكر ألطافكم وحضوركم، وإنّ الأيّام بيننا كثيرة، وأنا أفارقكم وأسافر، على أمل الرجوع إليكم واللقاء معكم إن شاء الله تعالى.",
-     "startMs": 516865,
-     "endMs": 528464
+     "startMs": 525705,
+     "endMs": 537304
     }
    ],
    "timing": "verified",
@@ -1716,8 +1746,8 @@
    "speakerName": "الراوي",
    "direction": "ختامي",
    "text": "ثم تقدّم سائر العلماء والأعيان، وكلّ أبدى أسفه على انتهاء المجالس، ورغبته في استمرارها.",
-   "startMs": 529665,
-   "endMs": 538025,
+   "startMs": 538505,
+   "endMs": 546865,
    "clip": {
     "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
     "startMs": 888750,
@@ -1726,8 +1756,8 @@
    "lines": [
     {
      "text": "ثم تقدّم سائر العلماء والأعيان، وكلّ أبدى أسفه على انتهاء المجالس، ورغبته في استمرارها.",
-     "startMs": 529665,
-     "endMs": 538025
+     "startMs": 538505,
+     "endMs": 546865
     }
    ],
    "timing": "verified",
@@ -1735,6 +1765,158 @@
     "confidence": 0.982,
     "flags": []
    }
+  },
+  {
+   "id": "ep22_s16_l02",
+   "scene": 16,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ أخير",
+   "text": "وهكذا انتهت الليالي العشرة والمحاورات، وكلّ من الطرفين كان متلهّفا ومتعطّشا لاستمرارها.",
+   "startMs": 547465,
+   "endMs": 556935,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2589920,
+    "endMs": 2599390
+   },
+   "lines": [
+    {
+     "text": "وهكذا انتهت الليالي العشرة والمحاورات، وكلّ من الطرفين كان متلهّفا ومتعطّشا لاستمرارها.",
+     "startMs": 547465,
+     "endMs": 556935
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s16_l03",
+   "scene": 16,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "دعاء الختام",
+   "text": "أسأل الله تعالى أن يوفّق جميع المسلمين لقبول الحق وأن يفتحوا بينهم باب التفاهم والحوار السليم لمعرفة الحق والصراط المستقيم، والسلام علينا وعلى عباد الله الصالحين.",
+   "startMs": 557285,
+   "endMs": 572685,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2599490,
+    "endMs": 2614890
+   },
+   "lines": [
+    {
+     "text": "أسأل الله تعالى أن يوفّق جميع المسلمين لقبول الحق وأن يفتحوا بينهم باب التفاهم والحوار السليم لمعرفة الحق والصراط المستقيم، والسلام علينا وعلى عباد الله الصالحين.",
+     "startMs": 557285,
+     "endMs": 572684
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.994,
+    "flags": []
+   }
+  }
+ ],
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "nostalgic",
+   "startMs": 0,
+   "endMs": 31880
+  },
+  {
+   "scene": 2,
+   "cue": "reflective",
+   "startMs": 30279,
+   "endMs": 88380
+  },
+  {
+   "scene": 3,
+   "cue": "reflective",
+   "startMs": 86780,
+   "endMs": 124970
+  },
+  {
+   "scene": 4,
+   "cue": "reflective",
+   "startMs": 123370,
+   "endMs": 177815
+  },
+  {
+   "scene": 5,
+   "cue": "reflective",
+   "startMs": 176214,
+   "endMs": 219405
+  },
+  {
+   "scene": 6,
+   "cue": "reflective",
+   "startMs": 217804,
+   "endMs": 260454
+  },
+  {
+   "scene": 7,
+   "cue": "reflective",
+   "startMs": 258854,
+   "endMs": 288695
+  },
+  {
+   "scene": 8,
+   "cue": "reflective",
+   "startMs": 287094,
+   "endMs": 308165
+  },
+  {
+   "scene": 9,
+   "cue": "reflective",
+   "startMs": 306565,
+   "endMs": 340310
+  },
+  {
+   "scene": 10,
+   "cue": "reflective",
+   "startMs": 338710,
+   "endMs": 375200
+  },
+  {
+   "scene": 11,
+   "cue": "warm",
+   "startMs": 373599,
+   "endMs": 402745
+  },
+  {
+   "scene": 12,
+   "cue": "nostalgic",
+   "startMs": 401145,
+   "endMs": 425415
+  },
+  {
+   "scene": 13,
+   "cue": "nostalgic",
+   "startMs": 423815,
+   "endMs": 443935
+  },
+  {
+   "scene": 14,
+   "cue": "warm",
+   "startMs": 442335,
+   "endMs": 487540
+  },
+  {
+   "scene": 15,
+   "cue": "suspense",
+   "startMs": 485940,
+   "endMs": 538704
+  },
+  {
+   "scene": 16,
+   "cue": "ending",
+   "startMs": 537105,
+   "endMs": 574984
   }
  ]
 }

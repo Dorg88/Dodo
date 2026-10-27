@@ -1,0 +1,1819 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep14",
+ "number": 14,
+ "title": "مدينة العلم وبابها",
+ "durationMs": 613735,
+ "audio": {
+  "mode": "clips",
+  "music": "ep14/audio/score_music.m4a",
+  "sfx": "ep14/audio/score_sfx.m4a",
+  "musicLoop": false
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AUTHOR": {
+   "name": "سلطان الواعظين"
+  },
+  "MIRZA_YAQUB": {
+   "name": "الميرزا يعقوب علي خان"
+  },
+  "HAFIZ": {
+   "name": "الحافظ محمد رشيد"
+  },
+  "NAWWAB": {
+   "name": "النواب عبد القيوم خان"
+  },
+  "ABDULHAYY": {
+   "name": "السيد عبد الحي"
+  },
+  "ABDUSSALAM": {
+   "name": "الشيخ عبد السلام"
+  },
+  "ATTENDEES": {
+   "name": "الحاضرون"
+  },
+  "GHULAM": {
+   "name": "غلام إمامين"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "ليلة غرّة شعبان 1345",
+   "image": "ep14/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 50870
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "المؤلف يفتح مصحفًا صغيرًا",
+   "image": "ep14/images/scene_02.jpg",
+   "startMs": 50870,
+   "endMs": 103380
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "المؤلف يعدّ على أصابعه سبع خصال",
+   "image": "ep14/images/scene_03.jpg",
+   "startMs": 103380,
+   "endMs": 149545
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "المؤلف يميل إلى الأمام",
+   "image": "ep14/images/scene_04.jpg",
+   "startMs": 149545,
+   "endMs": 196985
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "لوحة رمزية",
+   "image": "ep14/images/scene_05.jpg",
+   "startMs": 196985,
+   "endMs": 237565
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "المؤلف يقرأ من كتاب «الصواعق المحرقة» والحاضرون…",
+   "image": "ep14/images/scene_06.jpg",
+   "startMs": 237565,
+   "endMs": 285245
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "المؤلف يطرح سؤالًا مباشرًا على عبد الحي",
+   "image": "ep14/images/scene_07.jpg",
+   "startMs": 285245,
+   "endMs": 319765
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "لوحة استعادية",
+   "image": "ep14/images/scene_08.jpg",
+   "startMs": 319765,
+   "endMs": 356000
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "المؤلف يتحدث بلهجة تحدٍّ هادئ",
+   "image": "ep14/images/scene_09.jpg",
+   "startMs": 356000,
+   "endMs": 383230
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "الحاضرون ينظرون إلى عبد الحي ينتظرون رده",
+   "image": "ep14/images/scene_10.jpg",
+   "startMs": 383230,
+   "endMs": 434540
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "المؤلف يعدّ المصادر على رفّ كتب في الغرفة",
+   "image": "ep14/images/scene_11.jpg",
+   "startMs": 434540,
+   "endMs": 468615
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "لوحة استعادية",
+   "image": "ep14/images/scene_12.jpg",
+   "startMs": 468615,
+   "endMs": 511075
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "النواب يرفع يده مستأذنًا بأدب",
+   "image": "ep14/images/scene_13.jpg",
+   "startMs": 511075,
+   "endMs": 531035
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "لوحة رمزية",
+   "image": "ep14/images/scene_14.jpg",
+   "startMs": 531035,
+   "endMs": 576685
+  },
+  {
+   "number": 15,
+   "id": "s15",
+   "title": "الحافظ يتكلم بعد صمت طويل",
+   "image": "ep14/images/scene_15.jpg",
+   "startMs": 576685,
+   "endMs": 613735
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep14_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "افتتاحي",
+   "text": "المجلس الثامن. ليلة الجمعة، غرّة شعبان المعظّم، سنة ألف وثلاثمائة وخمس وأربعين. أقبل القوم بعد صلاة العشاء، فجلسوا وشربوا الشاي. ثم تكلّم السيد عبد الحي، وفي صوته عتاب.",
+   "startMs": 500,
+   "endMs": 20150,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 658450,
+    "endMs": 678100
+   },
+   "lines": [
+    {
+     "text": "المجلس الثامن.",
+     "startMs": 500,
+     "endMs": 1909
+    },
+    {
+     "text": "ليلة الجمعة، غرّة شعبان المعظّم، سنة ألف وثلاثمائة وخمس وأربعين.",
+     "startMs": 1909,
+     "endMs": 11629
+    },
+    {
+     "text": "أقبل القوم بعد صلاة العشاء، فجلسوا وشربوا الشاي.",
+     "startMs": 11629,
+     "endMs": 17049
+    },
+    {
+     "text": "ثم تكلّم السيد عبد الحي، وفي صوته عتاب.",
+     "startMs": 17049,
+     "endMs": 20149
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.89,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s01_l02",
+   "scene": 1,
+   "speakerId": "ABDULHAYY",
+   "speakerName": "السيد عبد الحي",
+   "direction": "معاتب",
+   "text": "لقد صدرت منكم في البحث الماضي كلمة لا ينبغي لمثلكم أن يتفوّه بها. لانها تسبّب تفرقة المسلمين.",
+   "startMs": 20750,
+   "endMs": 28790,
+   "clip": {
+    "file": "audio/ABDULHAYY/Generated Audio October 27, 2026 - 2_56AM.wav",
+    "startMs": 68640,
+    "endMs": 76680
+   },
+   "lines": [
+    {
+     "text": "لقد صدرت منكم في البحث الماضي كلمة لا ينبغي لمثلكم أن يتفوّه بها.",
+     "startMs": 20750,
+     "endMs": 25909
+    },
+    {
+     "text": "لانها تسبّب تفرقة المسلمين.",
+     "startMs": 25909,
+     "endMs": 28790
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s01_l03",
+   "scene": 1,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "متواضع",
+   "text": "أرجو أن توضح ما هي تلك الكلمة؟! فربما صدرت مني في حال الغفلة.",
+   "startMs": 29390,
+   "endMs": 34940,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2104860,
+    "endMs": 2110410
+   },
+   "lines": [
+    {
+     "text": "أرجو أن توضح ما هي تلك الكلمة؟!",
+     "startMs": 29390,
+     "endMs": 32109
+    },
+    {
+     "text": "فربما صدرت مني في حال الغفلة.",
+     "startMs": 32109,
+     "endMs": 34939
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s01_l04",
+   "scene": 1,
+   "speakerId": "ABDULHAYY",
+   "speakerName": "السيد عبد الحي",
+   "direction": "يشرح",
+   "text": "قلتم إن زيارة مشاهد أهل البيت من علائم الإيمان، وقلتم: ليس كل مسلم بمؤمن! بينما المسلمون كلهم مؤمنون، والمؤمنون كلهم مسلمون. أليس هذا التقسيم يضرّ الإسلام؟",
+   "startMs": 35540,
+   "endMs": 50270,
+   "clip": {
+    "file": "audio/ABDULHAYY/Generated Audio October 27, 2026 - 2_56AM.wav",
+    "startMs": 77330,
+    "endMs": 92060
+   },
+   "lines": [
+    {
+     "text": "قلتم إن زيارة مشاهد أهل البيت من علائم الإيمان، وقلتم: ليس كل مسلم بمؤمن!",
+     "startMs": 35540,
+     "endMs": 41970
+    },
+    {
+     "text": "بينما المسلمون كلهم مؤمنون، والمؤمنون كلهم مسلمون.",
+     "startMs": 41970,
+     "endMs": 46869
+    },
+    {
+     "text": "أليس هذا التقسيم يضرّ الإسلام؟",
+     "startMs": 46869,
+     "endMs": 50270
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.993,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s02_l01",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "هادئ",
+   "text": "كلامي قائم على قوله تعالى: «قالت الأعراب آمنّا، قل لم تؤمنوا ولكن قولوا أسلمنا، ولمّا يدخل الإيمان في قلوبكم».",
+   "startMs": 51470,
+   "endMs": 64160,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2111090,
+    "endMs": 2123780
+   },
+   "lines": [
+    {
+     "text": "كلامي قائم على قوله تعالى: «قالت الأعراب آمنّا، قل لم تؤمنوا ولكن قولوا أسلمنا، ولمّا يدخل الإيمان في قلوبكم».",
+     "startMs": 51470,
+     "endMs": 64160
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s02_l02",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يشرح",
+   "text": "فالآية تنفي إيمان قوم وتثبت إسلامهم. الإسلام هو التسليم في الظاهر، والإيمان يرتبط بالقلب.",
+   "startMs": 64510,
+   "endMs": 74250,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2124160,
+    "endMs": 2133900
+   },
+   "lines": [
+    {
+     "text": "فالآية تنفي إيمان قوم وتثبت إسلامهم.",
+     "startMs": 64510,
+     "endMs": 68429
+    },
+    {
+     "text": "الإسلام هو التسليم في الظاهر، والإيمان يرتبط بالقلب.",
+     "startMs": 68429,
+     "endMs": 74249
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s02_l03",
+   "scene": 2,
+   "speakerId": "ABDULHAYY",
+   "speakerName": "السيد عبد الحي",
+   "direction": "يقبل",
+   "text": "نقبل بأنّ الإسلام غير الإيمان",
+   "startMs": 74850,
+   "endMs": 77520,
+   "clip": {
+    "file": "audio/ABDULHAYY/Generated Audio October 27, 2026 - 2_56AM.wav",
+    "startMs": 92570,
+    "endMs": 95240
+   },
+   "lines": [
+    {
+     "text": "نقبل بأنّ الإسلام غير الإيمان",
+     "startMs": 74850,
+     "endMs": 77520
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s02_l04",
+   "scene": 2,
+   "speakerId": "ABDULHAYY",
+   "speakerName": "السيد عبد الحي",
+   "direction": "يكمل",
+   "text": "لكن الله يقول: «ولا تقولوا لمن ألقى إليكم السلام لست مؤمنًا». فعلينا الالتزام بالظاهر.",
+   "startMs": 77870,
+   "endMs": 86300,
+   "clip": {
+    "file": "audio/ABDULHAYY/Generated Audio October 27, 2026 - 2_56AM.wav",
+    "startMs": 95470,
+    "endMs": 103900
+   },
+   "lines": [
+    {
+     "text": "لكن الله يقول: «ولا تقولوا لمن ألقى إليكم السلام لست مؤمنًا».",
+     "startMs": 77870,
+     "endMs": 83699
+    },
+    {
+     "text": "فعلينا الالتزام بالظاهر.",
+     "startMs": 83699,
+     "endMs": 86300
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.988,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s02_l05",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يوافق",
+   "text": "نعم، كل من نطق بالشهادتين، ولم يرتكب ما يوجب الكفر، ولم ينكر ضرورة من ضرورات الدين، فهو مسلم، نعاشره ونجالسه ونعامله معاملة الإسلام. فإن بواطن الناس لا يعلمها إلا الله.",
+   "startMs": 86900,
+   "endMs": 103080,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2134490,
+    "endMs": 2150670
+   },
+   "lines": [
+    {
+     "text": "نعم، كل من نطق بالشهادتين، ولم يرتكب ما يوجب الكفر، ولم ينكر ضرورة من ضرورات الدين، فهو مسلم، نعاشره ونجالسه ونعامله معاملة الإسلام.",
+     "startMs": 86900,
+     "endMs": 99229
+    },
+    {
+     "text": "فإن بواطن الناس لا يعلمها إلا الله.",
+     "startMs": 99229,
+     "endMs": 103079
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s03_l01",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي",
+   "text": "يا علي سبعة من كنّ فيه فقد استكمل حقيقة الإيمان، وأبواب الجنة مفتّحة له: من أسبغ وضوءه وأحسن صلاته، وأدّى زكاة ماله، وكفّ غضبه، وسجن لسانه، واستغفر لذنبه، وأدّى النصيحة لأهل بيت نبيه",
+   "startMs": 103680,
+   "endMs": 125330,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2151280,
+    "endMs": 2172930
+   },
+   "lines": [
+    {
+     "text": "يا علي سبعة من كنّ فيه فقد استكمل حقيقة الإيمان، وأبواب الجنة مفتّحة له: من أسبغ وضوءه وأحسن صلاته، وأدّى زكاة ماله، وكفّ غضبه، وسجن لسانه، واستغفر لذنبه، وأدّى النصيحة لأهل بيت نبيه",
+     "startMs": 103680,
+     "endMs": 125329
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s03_l02",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يشرح",
+   "text": "ونحن نعتقد أن زيارة مشاهد أهل البيت تدخل في الخصلة الأخيرة. فلا نفتّش عن بواطن الناس، ولكن نعاملهم على قدر أعمالهم، لقوله تعالى: «إن أكرمكم عند الله أتقاكم».",
+   "startMs": 125680,
+   "endMs": 141695,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2173350,
+    "endMs": 2189365
+   },
+   "lines": [
+    {
+     "text": "ونحن نعتقد أن زيارة مشاهد أهل البيت تدخل في الخصلة الأخيرة.",
+     "startMs": 125680,
+     "endMs": 130690
+    },
+    {
+     "text": "فلا نفتّش عن بواطن الناس، ولكن نعاملهم على قدر أعمالهم، لقوله تعالى: «إن أكرمكم عند الله أتقاكم».",
+     "startMs": 130690,
+     "endMs": 141694
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s03_l03",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "الإيمان هو الإقرار باللسان والعقد بالجنان والعمل بالأركان.",
+   "startMs": 142045,
+   "endMs": 149245,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2189450,
+    "endMs": 2196650
+   },
+   "lines": [
+    {
+     "text": "الإيمان هو الإقرار باللسان والعقد بالجنان والعمل بالأركان.",
+     "startMs": 142045,
+     "endMs": 149244
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s04_l01",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "عاتب بدوره",
+   "text": "فإذا كنتم تلتزمون بأن كل من نطق بالشهادتين مسلم وأخ في الدين، فلماذا ترفضون الشيعة ولا تحسبون مذهبهم من المذاهب الإسلامية؟",
+   "startMs": 149845,
+   "endMs": 161605,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2196820,
+    "endMs": 2208580
+   },
+   "lines": [
+    {
+     "text": "فإذا كنتم تلتزمون بأن كل من نطق بالشهادتين مسلم وأخ في الدين، فلماذا ترفضون الشيعة ولا تحسبون مذهبهم من المذاهب الإسلامية؟",
+     "startMs": 149845,
+     "endMs": 161604
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s04_l02",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "متألم",
+   "text": "فنحن معكم نعتقد بإله واحد ونبي واحد ودين واحد وكتاب واحد وقبلة واحدة. ومع ذلك نراكم ترموننا بالكفر والشرك!",
+   "startMs": 161955,
+   "endMs": 175575,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2209100,
+    "endMs": 2222720
+   },
+   "lines": [
+    {
+     "text": "فنحن معكم نعتقد بإله واحد ونبي واحد ودين واحد وكتاب واحد وقبلة واحدة.",
+     "startMs": 161955,
+     "endMs": 170775
+    },
+    {
+     "text": "ومع ذلك نراكم ترموننا بالكفر والشرك!",
+     "startMs": 170775,
+     "endMs": 175574
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s04_l03",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "فلما ذا هذا الظلم والجفاء وهذا التقوّل والافتراء علينا؟!!",
+   "startMs": 175925,
+   "endMs": 180885,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2223250,
+    "endMs": 2228210
+   },
+   "lines": [
+    {
+     "text": "فلما ذا هذا الظلم والجفاء وهذا التقوّل والافتراء علينا؟!!",
+     "startMs": 175925,
+     "endMs": 180885
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.99,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s04_l04",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "ليس للشيعة ذنب سوى أنهم سلكوا الطريق الذي رسمه النبي حين قال: إني تارك فيكم الثقلين، كتاب الله وعترتي أهل بيتي، ما إن تمسكتم بهما لن تضلّوا بعدي أبدًا.",
+   "startMs": 181235,
+   "endMs": 196685,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2228970,
+    "endMs": 2244420
+   },
+   "lines": [
+    {
+     "text": "ليس للشيعة ذنب سوى أنهم سلكوا الطريق الذي رسمه النبي حين قال: إني تارك فيكم الثقلين، كتاب الله وعترتي أهل بيتي، ما إن تمسكتم بهما لن تضلّوا بعدي أبدًا.",
+     "startMs": 181235,
+     "endMs": 196684
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.983,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s05_l01",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "واثق",
+   "text": "ونحن إنما نتّبع عليّا عليه السلام وأبناءه الأئمة المعصومين عليهم السلام لقول النبي صلى الله عليه وآله وسلم: «أنا مدينة العلم وعلي بابها فمن أراد المدينة فليأتها من بابها».",
+   "startMs": 197285,
+   "endMs": 213875,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2245230,
+    "endMs": 2261820
+   },
+   "lines": [
+    {
+     "text": "ونحن إنما نتّبع عليّا عليه السلام وأبناءه الأئمة المعصومين عليهم السلام لقول النبي صلى الله عليه وآله وسلم: «أنا مدينة العلم وعلي بابها فمن أراد المدينة فليأتها من بابها».",
+     "startMs": 197285,
+     "endMs": 213875
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s05_l02",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "لذلك دخلنا من الباب الذي فتحه رسول الله لأمته.",
+   "startMs": 214225,
+   "endMs": 219175,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2262490,
+    "endMs": 2267440
+   },
+   "lines": [
+    {
+     "text": "لذلك دخلنا من الباب الذي فتحه رسول الله لأمته.",
+     "startMs": 214225,
+     "endMs": 219174
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s05_l03",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يتساءل",
+   "text": "أما أنتم، فتريدون أن نكون أشاعرة أو معتزلة في الأصول، وأن نأخذ في الفروع برأي أحد الأئمة الأربعة. وليس عندكم حديث واحد عن النبي يأمر الأمة بذلك.",
+   "startMs": 219525,
+   "endMs": 233865,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2267560,
+    "endMs": 2281900
+   },
+   "lines": [
+    {
+     "text": "أما أنتم، فتريدون أن نكون أشاعرة أو معتزلة في الأصول، وأن نأخذ في الفروع برأي أحد الأئمة الأربعة.",
+     "startMs": 219525,
+     "endMs": 228505
+    },
+    {
+     "text": "وليس عندكم حديث واحد عن النبي يأمر الأمة بذلك.",
+     "startMs": 228505,
+     "endMs": 233865
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s05_l04",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "ليت شعري من أين جاء هذا الانحصار؟!",
+   "startMs": 234215,
+   "endMs": 237265,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2282270,
+    "endMs": 2285320
+   },
+   "lines": [
+    {
+     "text": "ليت شعري من أين جاء هذا الانحصار؟!",
+     "startMs": 234215,
+     "endMs": 237265
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s06_l01",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يحتج بالخصم",
+   "text": "وهذا ابن حجر الهيثمي، المعروف بتشدّده في مذهبه، يقول في «الصواعق المحرقة»: إن لحديث التمسك بالثقلين طرقًا كثيرة، وردت عن نيّف وعشرين صحابيًّا.",
+   "startMs": 237865,
+   "endMs": 251475,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2285990,
+    "endMs": 2299600
+   },
+   "lines": [
+    {
+     "text": "وهذا ابن حجر الهيثمي، المعروف بتشدّده في مذهبه، يقول في «الصواعق المحرقة»: إن لحديث التمسك بالثقلين طرقًا كثيرة، وردت عن نيّف وعشرين صحابيًّا.",
+     "startMs": 237865,
+     "endMs": 251475
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s06_l02",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل القراءة",
+   "text": "وفي أحاديث الحثّ على التمسّك بأهل البيت، إشارة إلى عدم انقطاع العالم عن التمسّك بهم الى يوم القيامة، كما انّ الكتاب العزيز كذلك، ولهذا كانوا أمانا لأهل الأرض",
+   "startMs": 251825,
+   "endMs": 267705,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2299700,
+    "endMs": 2315580
+   },
+   "lines": [
+    {
+     "text": "وفي أحاديث الحثّ على التمسّك بأهل البيت، إشارة إلى عدم انقطاع العالم عن التمسّك بهم الى يوم القيامة، كما انّ الكتاب العزيز كذلك، ولهذا كانوا أمانا لأهل الأرض",
+     "startMs": 251825,
+     "endMs": 267704
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s06_l03",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يواجه",
+   "text": "إنه موقف صعب واختيار الحق أصعب، لقد وقفتم على طريقين: طريق سلكه آباؤكم وأسلافكم، وطريق يدعوكم إليه نبيكم صلى الله عليه وآله وسلم وقرآنكم وعقولكم.",
+   "startMs": 268055,
+   "endMs": 284945,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2316170,
+    "endMs": 2333060
+   },
+   "lines": [
+    {
+     "text": "إنه موقف صعب واختيار الحق أصعب، لقد وقفتم على طريقين: طريق سلكه آباؤكم وأسلافكم، وطريق يدعوكم إليه نبيكم صلى الله عليه وآله وسلم وقرآنكم وعقولكم.",
+     "startMs": 268055,
+     "endMs": 284944
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s07_l01",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يسأل",
+   "text": "أسألكم أيها الحاضرون: هل كان الخلفاء الذين سبقوا عليًّا من أهل البيت والعترة؟ وهل تشملهم أحاديث الثقلين والسفينة وباب حطّة؟",
+   "startMs": 285545,
+   "endMs": 296885,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2333610,
+    "endMs": 2344950
+   },
+   "lines": [
+    {
+     "text": "أسألكم أيها الحاضرون: هل كان الخلفاء الذين سبقوا عليًّا من أهل البيت والعترة؟",
+     "startMs": 285545,
+     "endMs": 292195
+    },
+    {
+     "text": "وهل تشملهم أحاديث الثقلين والسفينة وباب حطّة؟",
+     "startMs": 292195,
+     "endMs": 296884
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s07_l02",
+   "scene": 7,
+   "speakerId": "ABDULHAYY",
+   "speakerName": "السيد عبد الحي",
+   "direction": "صادق",
+   "text": "لم يدّع أحد من المسلمين أنّ الخلفاء الثلاثة رضي الله عنهم كانوا من أهل البيت",
+   "startMs": 297485,
+   "endMs": 303745,
+   "clip": {
+    "file": "audio/ABDULHAYY/Generated Audio October 27, 2026 - 2_56AM.wav",
+    "startMs": 104250,
+    "endMs": 110510
+   },
+   "lines": [
+    {
+     "text": "لم يدّع أحد من المسلمين أنّ الخلفاء الثلاثة رضي الله عنهم كانوا من أهل البيت",
+     "startMs": 297485,
+     "endMs": 303745
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.993,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s07_l03",
+   "scene": 7,
+   "speakerId": "ABDULHAYY",
+   "speakerName": "السيد عبد الحي",
+   "direction": "يكمل",
+   "text": "ولكنهم كانوا من الصحابة الصالحين، ولهم فضيلة المصاهرة مع النبي.",
+   "startMs": 304095,
+   "endMs": 309755,
+   "clip": {
+    "file": "audio/ABDULHAYY/Generated Audio October 27, 2026 - 2_56AM.wav",
+    "startMs": 110660,
+    "endMs": 116320
+   },
+   "lines": [
+    {
+     "text": "ولكنهم كانوا من الصحابة الصالحين، ولهم فضيلة المصاهرة مع النبي.",
+     "startMs": 304095,
+     "endMs": 309754
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s07_l04",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "منطقي",
+   "text": "فإذا أمر رسول الله بطاعة قوم معيّنين وأكّد ذلك، فهل يجوز لطائفة من الأمة أن تُعرض عن أمره؟",
+   "startMs": 310355,
+   "endMs": 319465,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2345100,
+    "endMs": 2354210
+   },
+   "lines": [
+    {
+     "text": "فإذا أمر رسول الله بطاعة قوم معيّنين وأكّد ذلك، فهل يجوز لطائفة من الأمة أن تُعرض عن أمره؟",
+     "startMs": 310355,
+     "endMs": 319465
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s08_l01",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ",
+   "text": "نحن لا نتبع أحدًا بغير دليل. فرسول الله في أول دعوته جمع عشيرته وأطعمهم ثم قال: من منكم يؤازرني على هذا الأمر يكن أخي ووزيري وخليفتي من بعدي؟ فما أجابه إلا علي، وكان أصغرهم سنًّا.",
+   "startMs": 320065,
+   "endMs": 338765,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2354800,
+    "endMs": 2373500
+   },
+   "lines": [
+    {
+     "text": "نحن لا نتبع أحدًا بغير دليل.",
+     "startMs": 320065,
+     "endMs": 322644
+    },
+    {
+     "text": "فرسول الله في أول دعوته جمع عشيرته وأطعمهم ثم قال: من منكم يؤازرني على هذا الأمر يكن أخي ووزيري وخليفتي من بعدي؟",
+     "startMs": 322644,
+     "endMs": 334424
+    },
+    {
+     "text": "فما أجابه إلا علي، وكان أصغرهم سنًّا.",
+     "startMs": 334424,
+     "endMs": 338764
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s08_l02",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "وفي أواخر أيام حياته المباركة، وفي أكبر جمع من أمته، يوم الغدير، أخذ بيد علي بن أبي طالب عليه السلام",
+   "startMs": 339115,
+   "endMs": 349580,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2373650,
+    "endMs": 2384115
+   },
+   "lines": [
+    {
+     "text": "وفي أواخر أيام حياته المباركة، وفي أكبر جمع من أمته، يوم الغدير، أخذ بيد علي بن أبي طالب عليه السلام",
+     "startMs": 339115,
+     "endMs": 349579
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s08_l03",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "فقال: من كنت مولاه فهذا علي مولاه.",
+   "startMs": 349930,
+   "endMs": 355700,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2384200,
+    "endMs": 2389970
+   },
+   "lines": [
+    {
+     "text": "فقال: من كنت مولاه فهذا علي مولاه.",
+     "startMs": 349930,
+     "endMs": 355699
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s09_l01",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ودود",
+   "text": "أيها الحاضرون الكرام! نحن لا نعاديكم ولا نعادي أحدا من المسلمين، بل نحسب جميع المسلمين إخواننا في الدين",
+   "startMs": 356300,
+   "endMs": 366180,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2390480,
+    "endMs": 2400360
+   },
+   "lines": [
+    {
+     "text": "أيها الحاضرون الكرام!",
+     "startMs": 356300,
+     "endMs": 357740
+    },
+    {
+     "text": "نحن لا نعاديكم ولا نعادي أحدا من المسلمين، بل نحسب جميع المسلمين إخواننا في الدين",
+     "startMs": 357740,
+     "endMs": 366180
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s09_l02",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "ولكن خلافنا ناشئ من أننا لا نقلّد في ديننا تقليدًا أعمى، بل نطلب الدليل حتى يحصل اليقين، قال تعالى: «فبشّر عبادِ الذين يستمعون القول فيتبعون أحسنه».",
+   "startMs": 366530,
+   "endMs": 382930,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2400870,
+    "endMs": 2417270
+   },
+   "lines": [
+    {
+     "text": "ولكن خلافنا ناشئ من أننا لا نقلّد في ديننا تقليدًا أعمى، بل نطلب الدليل حتى يحصل اليقين، قال تعالى: «فبشّر عبادِ الذين يستمعون القول فيتبعون أحسنه».",
+     "startMs": 366530,
+     "endMs": 382930
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s10_l01",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يتحدى بأدب",
+   "text": "لو ذكرتم لنا حديثًا واحدًا عن النبي يقول فيه: خذوا أحكام ديني من أبي حنيفة أو مالك أو الشافعي أو أحمد، لقبلناه. ولكنكم لا تجدونه أبدًا.",
+   "startMs": 383530,
+   "endMs": 396170,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2417790,
+    "endMs": 2430430
+   },
+   "lines": [
+    {
+     "text": "لو ذكرتم لنا حديثًا واحدًا عن النبي يقول فيه: خذوا أحكام ديني من أبي حنيفة أو مالك أو الشافعي أو أحمد، لقبلناه.",
+     "startMs": 383530,
+     "endMs": 393200
+    },
+    {
+     "text": "ولكنكم لا تجدونه أبدًا.",
+     "startMs": 393200,
+     "endMs": 396169
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s10_l02",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي التاريخ",
+   "text": "نعم، كان الأئمة الأربعة من فقهاء الإسلام. لكن الملك الظاهر بيبرس، سنة ستمائة وست وستين للهجرة، أعلن رسمية المذاهب الأربعة، ومنع الفقهاء من إبداء آرائهم.",
+   "startMs": 396520,
+   "endMs": 410620,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2430590,
+    "endMs": 2444690
+   },
+   "lines": [
+    {
+     "text": "نعم، كان الأئمة الأربعة من فقهاء الإسلام.",
+     "startMs": 396520,
+     "endMs": 400009
+    },
+    {
+     "text": "لكن الملك الظاهر بيبرس، سنة ستمائة وست وستين للهجرة، أعلن رسمية المذاهب الأربعة، ومنع الفقهاء من إبداء آرائهم.",
+     "startMs": 400009,
+     "endMs": 410619
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.928,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s10_l03",
+   "scene": 10,
+   "speakerId": "ABDULHAYY",
+   "speakerName": "السيد عبد الحي",
+   "direction": "يعترض",
+   "text": "نحن نرى الحق في متابعة الأئمة الأربعة، كما أنكم ترون الحق في متابعة الأئمة الاثني عشر!!!",
+   "startMs": 411220,
+   "endMs": 417850,
+   "clip": {
+    "file": "audio/ABDULHAYY/Generated Audio October 27, 2026 - 2_56AM.wav",
+    "startMs": 116670,
+    "endMs": 123300
+   },
+   "lines": [
+    {
+     "text": "نحن نرى الحق في متابعة الأئمة الأربعة، كما أنكم ترون الحق في متابعة الأئمة الاثني عشر!!!",
+     "startMs": 411220,
+     "endMs": 417849
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s10_l04",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يصحّح",
+   "text": "هذا قياس باطل. فأنتم ترون الحق في متابعة أحد الأربعة، ونحن نرى الحق في متابعة الاثني عشر جميعًا، ولا يجوز عندنا ترك أحدهم. ثم إن تعيين الاثني عشر كان من النبي نفسه.",
+   "startMs": 418450,
+   "endMs": 434240,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2445190,
+    "endMs": 2460980
+   },
+   "lines": [
+    {
+     "text": "هذا قياس باطل.",
+     "startMs": 418450,
+     "endMs": 420140
+    },
+    {
+     "text": "فأنتم ترون الحق في متابعة أحد الأربعة، ونحن نرى الحق في متابعة الاثني عشر جميعًا، ولا يجوز عندنا ترك أحدهم.",
+     "startMs": 420140,
+     "endMs": 429919
+    },
+    {
+     "text": "ثم إن تعيين الاثني عشر كان من النبي نفسه.",
+     "startMs": 429919,
+     "endMs": 434239
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s11_l01",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "الباب السابع والسبعون: في تحقيق حديث بعدي اثنا عشر خليفة.",
+   "startMs": 434840,
+   "endMs": 441590,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2461480,
+    "endMs": 2468230
+   },
+   "lines": [
+    {
+     "text": "الباب السابع والسبعون: في تحقيق حديث بعدي اثنا عشر خليفة.",
+     "startMs": 434840,
+     "endMs": 441590
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.972,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s11_l02",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يشرح",
+   "text": "هذا عنوان باب في «ينابيع المودة» للقندوزي الحنفي، ذكر فيه أن الخلفاء بعد النبي اثنا عشر خليفة كلهم من قريش، وأشار إلى روايته في البخاري ومسلم والترمذي، ورواه غيرهم من علمائكم.",
+   "startMs": 441940,
+   "endMs": 457355,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2468470,
+    "endMs": 2483885
+   },
+   "lines": [
+    {
+     "text": "هذا عنوان باب في «ينابيع المودة» للقندوزي الحنفي، ذكر فيه أن الخلفاء بعد النبي اثنا عشر خليفة كلهم من قريش، وأشار إلى روايته في البخاري ومسلم والترمذي، ورواه غيرهم من علمائكم.",
+     "startMs": 441940,
+     "endMs": 457354
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.988,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s11_l03",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "ولا نجد حديثًا واحدًا عن النبي حول الأئمة الأربعة.",
+   "startMs": 457705,
+   "endMs": 461865,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2483970,
+    "endMs": 2488130
+   },
+   "lines": [
+    {
+     "text": "ولا نجد حديثًا واحدًا عن النبي حول الأئمة الأربعة.",
+     "startMs": 457705,
+     "endMs": 461864
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s11_l04",
+   "scene": 11,
+   "speakerId": "ABDULHAYY",
+   "speakerName": "السيد عبد الحي",
+   "direction": "يسأل",
+   "text": "وهل عندكم دليل على أنّ الأئمة الأربعة تتلمذوا عند أئمتكم؟",
+   "startMs": 462465,
+   "endMs": 468015,
+   "clip": {
+    "file": "audio/ABDULHAYY/Generated Audio October 27, 2026 - 2_56AM.wav",
+    "startMs": 123690,
+    "endMs": 129240
+   },
+   "lines": [
+    {
+     "text": "وهل عندكم دليل على أنّ الأئمة الأربعة تتلمذوا عند أئمتكم؟",
+     "startMs": 462465,
+     "endMs": 468015
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.981,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s12_l01",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي بإجلال",
+   "text": "دليلنا التاريخ الذي كتبه أعلامكم. فقد قال محمد بن طلحة الشافعي في «مطالب السؤول» عن جعفر بن محمد الصادق:",
+   "startMs": 469215,
+   "endMs": 480175,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2488570,
+    "endMs": 2499530
+   },
+   "lines": [
+    {
+     "text": "دليلنا التاريخ الذي كتبه أعلامكم.",
+     "startMs": 469215,
+     "endMs": 472445
+    },
+    {
+     "text": "فقد قال محمد بن طلحة الشافعي في «مطالب السؤول» عن جعفر بن محمد الصادق:",
+     "startMs": 472445,
+     "endMs": 480174
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s12_l02",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "هو من عظماء أهل البيت وساداتهم عليهم السلام ذو علوم جمّة، وعبادة موفرة، وأوراد متواصلة، وزهادة بيّنة، وتلاوة كثيرة",
+   "startMs": 480525,
+   "endMs": 492245,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2499620,
+    "endMs": 2511340
+   },
+   "lines": [
+    {
+     "text": "هو من عظماء أهل البيت وساداتهم عليهم السلام ذو علوم جمّة، وعبادة موفرة، وأوراد متواصلة، وزهادة بيّنة، وتلاوة كثيرة",
+     "startMs": 480525,
+     "endMs": 492245
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s12_l03",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "وذكر أنه نقل عنه الحديث واستفاد منه العلم جماعة من الأئمة، مثل يحيى بن سعيد الأنصاري، وابن جريج، ومالك بن أنس، والثوري، وابن عيينة، وشعبة، وعدّوا أخذهم عنه منقبة شرفوا بها.",
+   "startMs": 492595,
+   "endMs": 510475,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2511440,
+    "endMs": 2529320
+   },
+   "lines": [
+    {
+     "text": "وذكر أنه نقل عنه الحديث واستفاد منه العلم جماعة من الأئمة، مثل يحيى بن سعيد الأنصاري، وابن جريج، ومالك بن أنس، والثوري، وابن عيينة، وشعبة، وعدّوا أخذهم عنه منقبة شرفوا بها.",
+     "startMs": 492595,
+     "endMs": 510475
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s13_l01",
+   "scene": 13,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "فضولي",
+   "text": "هل تأذن لي بالسؤال؟",
+   "startMs": 511675,
+   "endMs": 513425,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 267200,
+    "endMs": 268950
+   },
+   "lines": [
+    {
+     "text": "هل تأذن لي بالسؤال؟",
+     "startMs": 511675,
+     "endMs": 513425
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s13_l02",
+   "scene": 13,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يبتسم",
+   "text": "أرجو أن يكون سؤالك فيما نحن فيه، وأن لا تخرجنا بسؤالك عن الموضوع.",
+   "startMs": 514025,
+   "endMs": 519785,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2529940,
+    "endMs": 2535700
+   },
+   "lines": [
+    {
+     "text": "أرجو أن يكون سؤالك فيما نحن فيه، وأن لا تخرجنا بسؤالك عن الموضوع.",
+     "startMs": 514025,
+     "endMs": 519784
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s13_l03",
+   "scene": 13,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "يسأل",
+   "text": "مذهبكم يُعرف بالاثني عشري لأنكم تتبعون اثني عشر إمامًا. فلماذا اشتهر باسم الإمام جعفر الصادق، فيقال لكم الجعفرية؟",
+   "startMs": 520385,
+   "endMs": 530435,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 270670,
+    "endMs": 280720
+   },
+   "lines": [
+    {
+     "text": "مذهبكم يُعرف بالاثني عشري لأنكم تتبعون اثني عشر إمامًا.",
+     "startMs": 520385,
+     "endMs": 524894
+    },
+    {
+     "text": "فلماذا اشتهر باسم الإمام جعفر الصادق، فيقال لكم الجعفرية؟",
+     "startMs": 524894,
+     "endMs": 530435
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.986,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s14_l01",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي",
+   "text": "لما آل الأمر إلى بني أمية، عاملوا أئمة أهل البيت بكل قسوة، ولم يأذنوا لهم بنشر علومهم. ثم انتهى حكمهم بقيام عامّ ضدّهم، وانتقل الحكم إلى بني العباس.",
+   "startMs": 531635,
+   "endMs": 546635,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2536380,
+    "endMs": 2551380
+   },
+   "lines": [
+    {
+     "text": "لما آل الأمر إلى بني أمية، عاملوا أئمة أهل البيت بكل قسوة، ولم يأذنوا لهم بنشر علومهم.",
+     "startMs": 531635,
+     "endMs": 540055
+    },
+    {
+     "text": "ثم انتهى حكمهم بقيام عامّ ضدّهم، وانتقل الحكم إلى بني العباس.",
+     "startMs": 540055,
+     "endMs": 546635
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s14_l02",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "وكان ذلك في عصر الإمام الصادق، فاغتنم تلك الفرصة القصيرة بين الدولتين، فنشر العلم، وألّف أصحابه رسائل اشتهرت بالأصول الأربعمائة. حتى إن جابر بن حيّان أخذ عنه علم الكيمياء.",
+   "startMs": 546985,
+   "endMs": 563495,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2551830,
+    "endMs": 2568340
+   },
+   "lines": [
+    {
+     "text": "وكان ذلك في عصر الإمام الصادق، فاغتنم تلك الفرصة القصيرة بين الدولتين، فنشر العلم، وألّف أصحابه رسائل اشتهرت بالأصول الأربعمائة.",
+     "startMs": 546985,
+     "endMs": 558175
+    },
+    {
+     "text": "حتى إن جابر بن حيّان أخذ عنه علم الكيمياء.",
+     "startMs": 558175,
+     "endMs": 563495
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s14_l03",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يختم",
+   "text": "ثم لما قويت شوكة بني العباس منعوه من التدريس، ودام المنع على أبنائه من بعده. فلذلك اشتهر المذهب باسمه، فقيل: المذهب الجعفري.",
+   "startMs": 563845,
+   "endMs": 576085,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2568520,
+    "endMs": 2580760
+   },
+   "lines": [
+    {
+     "text": "ثم لما قويت شوكة بني العباس منعوه من التدريس، ودام المنع على أبنائه من بعده.",
+     "startMs": 563845,
+     "endMs": 570785
+    },
+    {
+     "text": "فلذلك اشتهر المذهب باسمه، فقيل: المذهب الجعفري.",
+     "startMs": 570785,
+     "endMs": 576085
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s15_l01",
+   "scene": 15,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يعترف ويعاتب",
+   "text": "إنّي أؤيّد كثيرا من كلامك وأعترف بأنّ هناك بعض العصبيّات حاكمة على كثير من أهل السنة",
+   "startMs": 577285,
+   "endMs": 585675,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 825120,
+    "endMs": 833510
+   },
+   "lines": [
+    {
+     "text": "إنّي أؤيّد كثيرا من كلامك وأعترف بأنّ هناك بعض العصبيّات حاكمة على كثير من أهل السنة",
+     "startMs": 577285,
+     "endMs": 585674
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s15_l02",
+   "scene": 15,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يكمل",
+   "text": "ولكن لو تحققنا من الأسباب لوجدناها ترجع إليكم، فأنتم علماء الشيعة لا تنهون عوامّكم عن أقوال باطلة.",
+   "startMs": 586025,
+   "endMs": 596345,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 834130,
+    "endMs": 844450
+   },
+   "lines": [
+    {
+     "text": "ولكن لو تحققنا من الأسباب لوجدناها ترجع إليكم، فأنتم علماء الشيعة لا تنهون عوامّكم عن أقوال باطلة.",
+     "startMs": 586025,
+     "endMs": 596345
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s15_l03",
+   "scene": 15,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يطلب البيان",
+   "text": "أرجوك أن توضّح لي كلامك وتبيّن لي مثالا من كلام عوام الشيعة الذي ينتهي إلى الكفر!!",
+   "startMs": 596945,
+   "endMs": 603575,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 120,
+    "endMs": 6750
+   },
+   "lines": [
+    {
+     "text": "أرجوك أن توضّح لي كلامك وتبيّن لي مثالا من كلام عوام الشيعة الذي ينتهي إلى الكفر!!",
+     "startMs": 596945,
+     "endMs": 603575
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep14_s15_l04",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "ختامي",
+   "text": "وكان الحافظ يعدّ لجوابه موضوعًا هو الأشد حساسية في هذه الليالي كلها: الصحابة.",
+   "startMs": 604175,
+   "endMs": 612235,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 678540,
+    "endMs": 686600
+   },
+   "lines": [
+    {
+     "text": "وكان الحافظ يعدّ لجوابه موضوعًا هو الأشد حساسية في هذه الليالي كلها: الصحابة.",
+     "startMs": 604175,
+     "endMs": 612235
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  }
+ ],
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "nostalgic",
+   "startMs": 0,
+   "endMs": 51669
+  },
+  {
+   "scene": 2,
+   "cue": "reflective",
+   "startMs": 50070,
+   "endMs": 104179
+  },
+  {
+   "scene": 3,
+   "cue": "reverent",
+   "startMs": 102580,
+   "endMs": 150345
+  },
+  {
+   "scene": 4,
+   "cue": "reflective",
+   "startMs": 148744,
+   "endMs": 197785
+  },
+  {
+   "scene": 5,
+   "cue": "warm",
+   "startMs": 196185,
+   "endMs": 238365
+  },
+  {
+   "scene": 6,
+   "cue": "reflective",
+   "startMs": 236765,
+   "endMs": 286045
+  },
+  {
+   "scene": 7,
+   "cue": "suspense",
+   "startMs": 284445,
+   "endMs": 320565
+  },
+  {
+   "scene": 8,
+   "cue": "reflective",
+   "startMs": 318965,
+   "endMs": 356800
+  },
+  {
+   "scene": 9,
+   "cue": "warm",
+   "startMs": 355200,
+   "endMs": 384030
+  },
+  {
+   "scene": 10,
+   "cue": "reflective",
+   "startMs": 382430,
+   "endMs": 435340
+  },
+  {
+   "scene": 11,
+   "cue": "reflective",
+   "startMs": 433740,
+   "endMs": 469415
+  },
+  {
+   "scene": 12,
+   "cue": "reflective",
+   "startMs": 467815,
+   "endMs": 511875
+  },
+  {
+   "scene": 13,
+   "cue": "suspense",
+   "startMs": 510275,
+   "endMs": 531834
+  },
+  {
+   "scene": 14,
+   "cue": "warm",
+   "startMs": 530235,
+   "endMs": 577484
+  },
+  {
+   "scene": 15,
+   "cue": "ending",
+   "startMs": 575885,
+   "endMs": 614535
+  }
+ ]
+}

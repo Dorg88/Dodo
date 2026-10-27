@@ -1,0 +1,155 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "ليلة غرّة شعبان 1345",
+   "music": "nostalgic",
+   "sfx": [
+    "night"
+   ],
+   "level": 0.85,
+   "reason": "title: ليل"
+  },
+  {
+   "scene": 2,
+   "title": "المؤلف يفتح مصحفًا صغيرًا",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: الناس; ambience of the episode's place"
+  },
+  {
+   "scene": 3,
+   "title": "المؤلف يعدّ على أصابعه سبع خصال",
+   "music": "reverent",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: زيارة; ambience of the episode's place"
+  },
+  {
+   "scene": 4,
+   "title": "المؤلف يميل إلى الأمام",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: كتاب; ambience of the episode's place"
+  },
+  {
+   "scene": 5,
+   "title": "لوحة رمزية",
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: مدينة; ambience of the episode's place"
+  },
+  {
+   "scene": 6,
+   "title": "المؤلف يقرأ من كتاب «الصواعق المحرقة» والحاضرون…",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: يقرأ"
+  },
+  {
+   "scene": 7,
+   "title": "المؤلف يطرح سؤالًا مباشرًا على عبد الحي",
+   "music": "suspense",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: سؤال; ambience continues"
+  },
+  {
+   "scene": 8,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 9,
+   "title": "المؤلف يتحدث بلهجة تحدٍّ هادئ",
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: يقين; ambience of the episode's place"
+  },
+  {
+   "scene": 10,
+   "title": "الحاضرون ينظرون إلى عبد الحي ينتظرون رده",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "default; ambience of the episode's place"
+  },
+  {
+   "scene": 11,
+   "title": "المؤلف يعدّ المصادر على رفّ كتب في الغرفة",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: مصادر"
+  },
+  {
+   "scene": 12,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 13,
+   "title": "النواب يرفع يده مستأذنًا بأدب",
+   "music": "suspense",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: سؤال; ambience of the episode's place"
+  },
+  {
+   "scene": 14,
+   "title": "لوحة رمزية",
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: البيت; ambience of the episode's place"
+  },
+  {
+   "scene": 15,
+   "title": "الحافظ يتكلم بعد صمت طويل",
+   "music": "ending",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: أهل; ambience of the episode's place; last scene"
+  }
+ ]
+}

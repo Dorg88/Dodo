@@ -3,9 +3,12 @@
  "id": "ep06",
  "number": 6,
  "title": "منزلة هارون",
- "durationMs": 297745,
+ "durationMs": 523600,
  "audio": {
-  "mode": "clips"
+  "mode": "clips",
+  "music": "ep06/audio/score_music.m4a",
+  "sfx": "ep06/audio/score_sfx.m4a",
+  "musicLoop": false
  },
  "speakers": {
   "NARRATOR": {
@@ -75,71 +78,79 @@
    "title": "المؤلف يتكلم بثقة",
    "image": "ep06/images/scene_05.jpg",
    "startMs": 118430,
-   "endMs": 150875
+   "endMs": 160885
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "لوحة استعادية",
+   "image": "ep06/images/scene_06.jpg",
+   "startMs": 160885,
+   "endMs": 198825
   },
   {
    "number": 7,
    "id": "s07",
    "title": "الحافظ ينتفض واقفًا نصف وقفة",
    "image": "ep06/images/scene_07.jpg",
-   "startMs": 150875,
-   "endMs": 181515
+   "startMs": 198825,
+   "endMs": 243245
   },
   {
    "number": 8,
    "id": "s08",
    "title": "الشيخ عبد السلام يتكلم بنبرة الفقيه",
    "image": "ep06/images/scene_08.jpg",
-   "startMs": 181515,
-   "endMs": 188645
+   "startMs": 243245,
+   "endMs": 278450
   },
   {
    "number": 9,
    "id": "s09",
    "title": "لوحة رمزية",
    "image": "ep06/images/scene_09.jpg",
-   "startMs": 188645,
-   "endMs": 201615
+   "startMs": 278450,
+   "endMs": 320940
   },
   {
    "number": 10,
    "id": "s10",
    "title": "المؤلف يرفع يده بالحديث",
    "image": "ep06/images/scene_10.jpg",
-   "startMs": 201615,
-   "endMs": 225685
+   "startMs": 320940,
+   "endMs": 383600
   },
   {
    "number": 11,
    "id": "s11",
    "title": "الحافظ يبتسم ابتسامة نادرة",
    "image": "ep06/images/scene_11.jpg",
-   "startMs": 225685,
-   "endMs": 238845
+   "startMs": 383600,
+   "endMs": 402950
   },
   {
    "number": 12,
    "id": "s12",
    "title": "النواب يميل إلى الأمام بدهشة طفولية",
    "image": "ep06/images/scene_12.jpg",
-   "startMs": 238845,
-   "endMs": 249405
+   "startMs": 402950,
+   "endMs": 439690
   },
   {
    "number": 13,
    "id": "s13",
    "title": "همهمة بين صفوف أهل السنة",
    "image": "ep06/images/scene_13.jpg",
-   "startMs": 249405,
-   "endMs": 285125
+   "startMs": 439690,
+   "endMs": 479610
   },
   {
    "number": 14,
    "id": "s14",
    "title": "لوحة استعادية",
    "image": "ep06/images/scene_14.jpg",
-   "startMs": 285125,
-   "endMs": 297745
+   "startMs": 479610,
+   "endMs": 523600
   }
  ],
  "segments": [
@@ -633,14 +644,142 @@
    }
   },
   {
+   "id": "ep06_s05_l04",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حاسم",
+   "text": "هذه الصفات لا توجب حصر الدين في أقوالهم. وإلزام المسلمين بشيء يحتاج إلى نص من القرآن أو حديث النبي.",
+   "startMs": 150875,
+   "endMs": 160585,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 5560,
+    "endMs": 15270
+   },
+   "lines": [
+    {
+     "text": "هذه الصفات لا توجب حصر الدين في أقوالهم.",
+     "startMs": 150875,
+     "endMs": 154594
+    },
+    {
+     "text": "وإلزام المسلمين بشيء يحتاج إلى نص من القرآن أو حديث النبي.",
+     "startMs": 154594,
+     "endMs": 160585
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s06_l01",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "صريح، جريء",
+   "text": "والآن أقول بكلّ صراحة: إنّ مذاهبكم الأربعة هي مذاهب سياسية ليس لها أساس في الدين",
+   "startMs": 161185,
+   "endMs": 169085,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 15660,
+    "endMs": 23560
+   },
+   "lines": [
+    {
+     "text": "والآن أقول بكلّ صراحة: إنّ مذاهبكم الأربعة هي مذاهب سياسية ليس لها أساس في الدين",
+     "startMs": 161185,
+     "endMs": 169084
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s06_l02",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يشرح",
+   "text": "فقد كان الحكّام يرون أهل البيت منافسين لهم في السلطة الروحية على القلوب. فأصدروا قرارات رسمية تأمر الناس بالأخذ بقول أحد الأئمة الأربعة، وأمروا القضاة أن يحكموا بآرائهم وحدهم.",
+   "startMs": 169435,
+   "endMs": 185625,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 23690,
+    "endMs": 39880
+   },
+   "lines": [
+    {
+     "text": "فقد كان الحكّام يرون أهل البيت منافسين لهم في السلطة الروحية على القلوب.",
+     "startMs": 169435,
+     "endMs": 174885
+    },
+    {
+     "text": "فأصدروا قرارات رسمية تأمر الناس بالأخذ بقول أحد الأئمة الأربعة، وأمروا القضاة أن يحكموا بآرائهم وحدهم.",
+     "startMs": 174885,
+     "endMs": 185625
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.985,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s06_l03",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يحتكم",
+   "text": "أما قال النبي: إني تارك فيكم الثقلين؟ وقال: مثل أهل بيتي كسفينة نوح؟ فانظروا وفكروا: من المتمسك بالثقلين، نحن أم أنتم؟",
+   "startMs": 185975,
+   "endMs": 198225,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 40340,
+    "endMs": 52590
+   },
+   "lines": [
+    {
+     "text": "أما قال النبي: إني تارك فيكم الثقلين؟",
+     "startMs": 185975,
+     "endMs": 189534
+    },
+    {
+     "text": "وقال: مثل أهل بيتي كسفينة نوح؟",
+     "startMs": 189534,
+     "endMs": 193014
+    },
+    {
+     "text": "فانظروا وفكروا: من المتمسك بالثقلين، نحن أم أنتم؟",
+     "startMs": 193014,
+     "endMs": 198225
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.991,
+    "flags": []
+   }
+  },
+  {
    "id": "ep06_s07_l01",
    "scene": 7,
    "speakerId": "NARRATOR",
    "speakerName": "الراوي",
    "direction": "توتر",
    "text": "ولما ذكر المؤلف ما قاله علماء المذاهب بعضهم في بعض، تغيّر لون الحافظ، ولاح الغضب في وجهه، وصاح:",
-   "startMs": 151475,
-   "endMs": 161695,
+   "startMs": 199425,
+   "endMs": 209645,
    "clip": {
     "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
     "startMs": 393530,
@@ -649,8 +788,8 @@
    "lines": [
     {
      "text": "ولما ذكر المؤلف ما قاله علماء المذاهب بعضهم في بعض، تغيّر لون الحافظ، ولاح الغضب في وجهه، وصاح:",
-     "startMs": 151475,
-     "endMs": 161695
+     "startMs": 199425,
+     "endMs": 209645
     }
    ],
    "timing": "verified",
@@ -666,8 +805,8 @@
    "speakerName": "الحافظ محمد رشيد",
    "direction": "غاضب، صائح",
    "text": "لا نسمح لكم أن تتهجّموا على أئمّتنا وعلمائنا إلى هذا لحدّ",
-   "startMs": 162295,
-   "endMs": 167435,
+   "startMs": 210245,
+   "endMs": 215385,
    "clip": {
     "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
     "startMs": 504120,
@@ -676,13 +815,45 @@
    "lines": [
     {
      "text": "لا نسمح لكم أن تتهجّموا على أئمّتنا وعلمائنا إلى هذا لحدّ",
-     "startMs": 162295,
-     "endMs": 167434
+     "startMs": 210245,
+     "endMs": 215384
     }
    ],
    "timing": "verified",
    "alignment": {
     "confidence": 0.991,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s07_l03",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "هادئ رغم الصياح",
+   "text": "يظهر أن جنابك لا تطالع كتبكم المعتبرة. فهذا كله منقول فيها، لا من عندي.",
+   "startMs": 215985,
+   "endMs": 222375,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 53030,
+    "endMs": 59420
+   },
+   "lines": [
+    {
+     "text": "يظهر أن جنابك لا تطالع كتبكم المعتبرة.",
+     "startMs": 215985,
+     "endMs": 219114
+    },
+    {
+     "text": "فهذا كله منقول فيها، لا من عندي.",
+     "startMs": 219114,
+     "endMs": 222375
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
     "flags": []
    }
   },
@@ -693,8 +864,8 @@
    "speakerName": "الحافظ محمد رشيد",
    "direction": "متحدٍّ",
    "text": "نحن لا نقبل كلامك. فاذكر لنا أسماء العلماء وكتبهم.",
-   "startMs": 167785,
-   "endMs": 172705,
+   "startMs": 222975,
+   "endMs": 227895,
    "clip": {
     "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
     "startMs": 509650,
@@ -703,13 +874,40 @@
    "lines": [
     {
      "text": "نحن لا نقبل كلامك.",
-     "startMs": 167785,
-     "endMs": 169455
+     "startMs": 222975,
+     "endMs": 224645
     },
     {
      "text": "فاذكر لنا أسماء العلماء وكتبهم.",
-     "startMs": 169455,
-     "endMs": 172705
+     "startMs": 224645,
+     "endMs": 227895
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s07_l05",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يذكر بلا انفعال",
+   "text": "أصحاب أبي حنيفة وابن حزم وغيرهم يطعنون في الإمامين مالك والشافعي.",
+   "startMs": 228495,
+   "endMs": 234185,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 59790,
+    "endMs": 65480
+   },
+   "lines": [
+    {
+     "text": "أصحاب أبي حنيفة وابن حزم وغيرهم يطعنون في الإمامين مالك والشافعي.",
+     "startMs": 228495,
+     "endMs": 234185
     }
    ],
    "timing": "verified",
@@ -725,8 +923,8 @@
    "speakerName": "الحافظ محمد رشيد",
    "direction": "يتمسّك",
    "text": "إنّهم من كبار علمائنا وفقهائنا، وكلّهم ثقات عدول يعتمد عليهم ويصلّى خلفهم.",
-   "startMs": 173055,
-   "endMs": 180915,
+   "startMs": 234785,
+   "endMs": 242645,
    "clip": {
     "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
     "startMs": 514810,
@@ -735,8 +933,8 @@
    "lines": [
     {
      "text": "إنّهم من كبار علمائنا وفقهائنا، وكلّهم ثقات عدول يعتمد عليهم ويصلّى خلفهم.",
-     "startMs": 173055,
-     "endMs": 180915
+     "startMs": 234785,
+     "endMs": 242645
     }
    ],
    "timing": "verified",
@@ -752,8 +950,8 @@
    "speakerName": "الشيخ عبد السلام",
    "direction": "فقهي",
    "text": "الإمامة عند علمائنا لا تُعدّ من أصول الدين، بل من فروعه.",
-   "startMs": 182115,
-   "endMs": 188045,
+   "startMs": 243845,
+   "endMs": 249775,
    "clip": {
     "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
     "startMs": 55350,
@@ -762,8 +960,99 @@
    "lines": [
     {
      "text": "الإمامة عند علمائنا لا تُعدّ من أصول الدين، بل من فروعه.",
-     "startMs": 182115,
-     "endMs": 188045
+     "startMs": 243845,
+     "endMs": 249775
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s08_l02",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يرد بالمصادر",
+   "text": "كثير من علمائكم وافقونا، كالقوشجي في شرح التجريد. ثم لو كانت الإمامة فرعًا، فلماذا قال رسول الله فيما روته كتبكم:",
+   "startMs": 250375,
+   "endMs": 260990,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 66010,
+    "endMs": 76625
+   },
+   "lines": [
+    {
+     "text": "كثير من علمائكم وافقونا، كالقوشجي في شرح التجريد.",
+     "startMs": 250375,
+     "endMs": 254305
+    },
+    {
+     "text": "ثم لو كانت الإمامة فرعًا، فلماذا قال رسول الله فيما روته كتبكم:",
+     "startMs": 254305,
+     "endMs": 260990
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.995,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s08_l03",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "بوقار",
+   "text": "«من مات ولم يعرف إمام زمانه، مات ميتة جاهلية».",
+   "startMs": 261340,
+   "endMs": 265650,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 76710,
+    "endMs": 81020
+   },
+   "lines": [
+    {
+     "text": "«من مات ولم يعرف إمام زمانه، مات ميتة جاهلية».",
+     "startMs": 261340,
+     "endMs": 265650
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s08_l04",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "عميق",
+   "text": "فالإمامة عندنا مرتبة عظيمة نازلة منزلة النبوة. والإمام في كل زمان واحد، هو أفضل أهل زمانه علمًا وتقوى وشجاعة، معصوم.",
+   "startMs": 266000,
+   "endMs": 277850,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 81550,
+    "endMs": 93400
+   },
+   "lines": [
+    {
+     "text": "فالإمامة عندنا مرتبة عظيمة نازلة منزلة النبوة.",
+     "startMs": 266000,
+     "endMs": 270130
+    },
+    {
+     "text": "والإمام في كل زمان واحد، هو أفضل أهل زمانه علمًا وتقوى وشجاعة، معصوم.",
+     "startMs": 270130,
+     "endMs": 277850
     }
    ],
    "timing": "verified",
@@ -779,8 +1068,8 @@
    "speakerName": "الحافظ محمد رشيد",
    "direction": "مستنكر",
    "text": "الله أكبر! كنت تذم الغلاة، والآن ثبت أنكم مغالون في أئمتكم!",
-   "startMs": 189245,
-   "endMs": 195375,
+   "startMs": 279050,
+   "endMs": 285180,
    "clip": {
     "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
     "startMs": 522960,
@@ -789,18 +1078,55 @@
    "lines": [
     {
      "text": "الله أكبر!",
-     "startMs": 189245,
-     "endMs": 190164
+     "startMs": 279050,
+     "endMs": 279969
     },
     {
      "text": "كنت تذم الغلاة، والآن ثبت أنكم مغالون في أئمتكم!",
-     "startMs": 190164,
-     "endMs": 195374
+     "startMs": 279969,
+     "endMs": 285179
     }
    ],
    "timing": "verified",
    "alignment": {
     "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s09_l02",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يتلو بتأنٍّ",
+   "text": "مهلًا، لا تتسرع. إن الله تعالى، بعد أن امتحن إبراهيم الخليل في نفسه وماله وولده، فنجح في كل الامتحانات، قال له وهو نبي: «إني جاعلك للناس إمامًا». فالإمامة جاءت بعد النبوة، تتويجًا لها.",
+   "startMs": 285780,
+   "endMs": 303320,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 94190,
+    "endMs": 111730
+   },
+   "lines": [
+    {
+     "text": "مهلًا، لا تتسرع.",
+     "startMs": 285780,
+     "endMs": 287290
+    },
+    {
+     "text": "إن الله تعالى، بعد أن امتحن إبراهيم الخليل في نفسه وماله وولده، فنجح في كل الامتحانات، قال له وهو نبي: «إني جاعلك للناس إمامًا».",
+     "startMs": 287290,
+     "endMs": 300469
+    },
+    {
+     "text": "فالإمامة جاءت بعد النبوة، تتويجًا لها.",
+     "startMs": 300469,
+     "endMs": 303320
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.979,
     "flags": []
    }
   },
@@ -811,8 +1137,8 @@
    "speakerName": "الحافظ محمد رشيد",
    "direction": "يستدرك",
    "text": "فعلى هذا يكون مقام علي عندكم أعلى من مقام سيدنا محمد!",
-   "startMs": 195725,
-   "endMs": 201315,
+   "startMs": 303920,
+   "endMs": 309510,
    "clip": {
     "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
     "startMs": 529560,
@@ -821,8 +1147,99 @@
    "lines": [
     {
      "text": "فعلى هذا يكون مقام علي عندكم أعلى من مقام سيدنا محمد!",
-     "startMs": 195725,
-     "endMs": 201315
+     "startMs": 303920,
+     "endMs": 309510
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s09_l04",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حاسم",
+   "text": "ليس كذلك! وإنّما بين النبوّة العامّة والنبوّة الخاصة فرق كبير، والإمامة أعلى رتبة من النبوّة العامة ودون النبوّة الخاصة",
+   "startMs": 310110,
+   "endMs": 320640,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 112370,
+    "endMs": 122900
+   },
+   "lines": [
+    {
+     "text": "ليس كذلك!",
+     "startMs": 310110,
+     "endMs": 311140
+    },
+    {
+     "text": "وإنّما بين النبوّة العامّة والنبوّة الخاصة فرق كبير، والإمامة أعلى رتبة من النبوّة العامة ودون النبوّة الخاصة",
+     "startMs": 311140,
+     "endMs": 320640
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s10_l01",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "رصين، مهيب",
+   "text": "والدليل على أن عليًّا كان أهلًا لهذا المقام حديث المنزلة، الذي رواه كبار علمائكم، أن رسول الله قال له:",
+   "startMs": 321240,
+   "endMs": 329570,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 123590,
+    "endMs": 131920
+   },
+   "lines": [
+    {
+     "text": "والدليل على أن عليًّا كان أهلًا لهذا المقام حديث المنزلة، الذي رواه كبار علمائكم، أن رسول الله قال له:",
+     "startMs": 321240,
+     "endMs": 329570
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.995,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s10_l02",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "بخشوع",
+   "text": "«يا عليّ! أما ترضى أن تكون منّي بمنزلة هارون من موسى إلاّ أنّه لا نبيّ بعدي».",
+   "startMs": 329920,
+   "endMs": 336400,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 132030,
+    "endMs": 138510
+   },
+   "lines": [
+    {
+     "text": "«يا عليّ!",
+     "startMs": 329920,
+     "endMs": 330510
+    },
+    {
+     "text": "أما ترضى أن تكون منّي بمنزلة هارون من موسى إلاّ أنّه لا نبيّ بعدي».",
+     "startMs": 330510,
+     "endMs": 336399
     }
    ],
    "timing": "verified",
@@ -838,8 +1255,8 @@
    "speakerName": "الحافظ محمد رشيد",
    "direction": "مشكّك",
    "text": "لا نعلم صحّة هذا الحديث، وعلى فرض صحّته فهو خبر واحد لا يعتدّ به ولا يعتمد عليه.",
-   "startMs": 201915,
-   "endMs": 209735,
+   "startMs": 337000,
+   "endMs": 344820,
    "clip": {
     "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
     "startMs": 535530,
@@ -848,8 +1265,35 @@
    "lines": [
     {
      "text": "لا نعلم صحّة هذا الحديث، وعلى فرض صحّته فهو خبر واحد لا يعتدّ به ولا يعتمد عليه.",
-     "startMs": 201915,
-     "endMs": 209735
+     "startMs": 337000,
+     "endMs": 344820
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s10_l04",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يعدّد",
+   "text": "بل هو متواتر، رواه البخاري ومسلم وأحمد بن حنبل وغيرهم.",
+   "startMs": 345420,
+   "endMs": 350870,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 139570,
+    "endMs": 145020
+   },
+   "lines": [
+    {
+     "text": "بل هو متواتر، رواه البخاري ومسلم وأحمد بن حنبل وغيرهم.",
+     "startMs": 345420,
+     "endMs": 350870
     }
    ],
    "timing": "verified",
@@ -865,8 +1309,8 @@
    "speakerName": "الحافظ محمد رشيد",
    "direction": "يحتمي بعالم",
    "text": "أنا لست بلجوج ولا معاند، ولكن أدعوك إلى مطالعة كلام العالم الفقيه أبي الحسن الآمدي",
-   "startMs": 210085,
-   "endMs": 218145,
+   "startMs": 351470,
+   "endMs": 359530,
    "clip": {
     "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
     "startMs": 543720,
@@ -875,8 +1319,40 @@
    "lines": [
     {
      "text": "أنا لست بلجوج ولا معاند، ولكن أدعوك إلى مطالعة كلام العالم الفقيه أبي الحسن الآمدي",
-     "startMs": 210085,
-     "endMs": 218144
+     "startMs": 351470,
+     "endMs": 359529
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s10_l06",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "متعجب",
+   "text": "أتعجب منك! تعدل عن البخاري ومسلم إلى رجل ذكره علماؤكم أنفسهم بسوء العقيدة!",
+   "startMs": 360130,
+   "endMs": 367200,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 145770,
+    "endMs": 152840
+   },
+   "lines": [
+    {
+     "text": "أتعجب منك!",
+     "startMs": 360130,
+     "endMs": 361340
+    },
+    {
+     "text": "تعدل عن البخاري ومسلم إلى رجل ذكره علماؤكم أنفسهم بسوء العقيدة!",
+     "startMs": 361340,
+     "endMs": 367200
     }
    ],
    "timing": "verified",
@@ -892,8 +1368,8 @@
    "speakerName": "الشيخ عبد السلام",
    "direction": "يحتج بالحرية",
    "text": "الإنسان حرّ في بيان عقيدته، فلا يجوز أن يُتّهم من خالف المشهور.",
-   "startMs": 218745,
-   "endMs": 225085,
+   "startMs": 367800,
+   "endMs": 374140,
    "clip": {
     "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
     "startMs": 61690,
@@ -902,13 +1378,40 @@
    "lines": [
     {
      "text": "الإنسان حرّ في بيان عقيدته، فلا يجوز أن يُتّهم من خالف المشهور.",
-     "startMs": 218745,
-     "endMs": 225084
+     "startMs": 367800,
+     "endMs": 374139
     }
    ],
    "timing": "verified",
    "alignment": {
     "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s10_l08",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقلب الحجة",
+   "text": "أوّلا: إن كنتم تلتزمون بحرّيّة العقيدة، فلما ذا ترمون الشيعة بالكفر والشرك وتجوّزون قتلهم ونهب أموالهم؟!",
+   "startMs": 374740,
+   "endMs": 383000,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 153560,
+    "endMs": 161820
+   },
+   "lines": [
+    {
+     "text": "أوّلا: إن كنتم تلتزمون بحرّيّة العقيدة، فلما ذا ترمون الشيعة بالكفر والشرك وتجوّزون قتلهم ونهب أموالهم؟!",
+     "startMs": 374740,
+     "endMs": 382999
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.984,
     "flags": []
    }
   },
@@ -919,8 +1422,8 @@
    "speakerName": "الحافظ محمد رشيد",
    "direction": "معجب على مضض",
    "text": "لقد سررت جدّا من حسن بيانكم وسعة اطّلاعكم عن كتبنا",
-   "startMs": 226285,
-   "endMs": 231275,
+   "startMs": 384200,
+   "endMs": 389190,
    "clip": {
     "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
     "startMs": 552250,
@@ -929,8 +1432,8 @@
    "lines": [
     {
      "text": "لقد سررت جدّا من حسن بيانكم وسعة اطّلاعكم عن كتبنا",
-     "startMs": 226285,
-     "endMs": 231275
+     "startMs": 384200,
+     "endMs": 389190
     }
    ],
    "timing": "verified",
@@ -946,8 +1449,8 @@
    "speakerName": "الحافظ محمد رشيد",
    "direction": "صادق",
    "text": "وقد وجدتكم على خلاف ما كنت أسمع، أن علماء الشيعة لا يلمسون كتبنا.",
-   "startMs": 231625,
-   "endMs": 238245,
+   "startMs": 389540,
+   "endMs": 396160,
    "clip": {
     "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
     "startMs": 557700,
@@ -956,13 +1459,72 @@
    "lines": [
     {
      "text": "وقد وجدتكم على خلاف ما كنت أسمع، أن علماء الشيعة لا يلمسون كتبنا.",
-     "startMs": 231625,
-     "endMs": 238245
+     "startMs": 389540,
+     "endMs": 396160
     }
    ],
    "timing": "verified",
    "alignment": {
     "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s11_l03",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يبتسم",
+   "text": "هذه أقاويل وأباطيل أعداء الإسلام، فإنّهم يريدون أن يفرّقوا بين المسلمين",
+   "startMs": 396760,
+   "endMs": 402650,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 162330,
+    "endMs": 168220
+   },
+   "lines": [
+    {
+     "text": "هذه أقاويل وأباطيل أعداء الإسلام، فإنّهم يريدون أن يفرّقوا بين المسلمين",
+     "startMs": 396760,
+     "endMs": 402650
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s12_l01",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يشرح",
+   "text": "يثبت بهذا الحديث لعلي ثلاث خصائص: مقام النبوة، لولا أن محمدًا خاتم النبيين؛ ومقام الوزارة والخلافة؛ وأفضليته على جميع الصحابة. لأن هارون كان نبيًّا، ووزير موسى، وخليفته في قومه.",
+   "startMs": 403250,
+   "endMs": 420720,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 168820,
+    "endMs": 186290
+   },
+   "lines": [
+    {
+     "text": "يثبت بهذا الحديث لعلي ثلاث خصائص: مقام النبوة، لولا أن محمدًا خاتم النبيين؛ ومقام الوزارة والخلافة؛ وأفضليته على جميع الصحابة.",
+     "startMs": 403250,
+     "endMs": 416030
+    },
+    {
+     "text": "لأن هارون كان نبيًّا، ووزير موسى، وخليفته في قومه.",
+     "startMs": 416030,
+     "endMs": 420720
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.991,
     "flags": []
    }
   },
@@ -973,8 +1535,8 @@
    "speakerName": "النواب عبد القيوم خان",
    "direction": "مندهش",
    "text": "هل كان هارون نبيّا؟!",
-   "startMs": 239445,
-   "endMs": 241465,
+   "startMs": 421320,
+   "endMs": 423340,
    "clip": {
     "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
     "startMs": 78990,
@@ -983,8 +1545,8 @@
    "lines": [
     {
      "text": "هل كان هارون نبيّا؟!",
-     "startMs": 239445,
-     "endMs": 241465
+     "startMs": 421320,
+     "endMs": 423340
     }
    ],
    "timing": "verified",
@@ -994,14 +1556,43 @@
    }
   },
   {
+   "id": "ep06_s12_l03",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "بسيط",
+   "text": "نعم.",
+   "startMs": 423940,
+   "endMs": 424620,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 186620,
+    "endMs": 187300
+   },
+   "lines": [
+    {
+     "text": "نعم.",
+     "startMs": 423940,
+     "endMs": 424620
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": [
+     "start/end set by hand"
+    ]
+   }
+  },
+  {
    "id": "ep06_s12_l04",
    "scene": 12,
    "speakerId": "NAWWAB",
    "speakerName": "النواب عبد القيوم خان",
    "direction": "متعجب",
    "text": "عجبا! إنّي ما سمعت بهذا من قبل! فهل ذكر الله نبوّته في القرآن الحكيم؟!",
-   "startMs": 241815,
-   "endMs": 248805,
+   "startMs": 425220,
+   "endMs": 432210,
    "clip": {
     "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
     "startMs": 81190,
@@ -1010,18 +1601,45 @@
    "lines": [
     {
      "text": "عجبا!",
-     "startMs": 241815,
-     "endMs": 242485
+     "startMs": 425220,
+     "endMs": 425890
     },
     {
      "text": "إنّي ما سمعت بهذا من قبل!",
-     "startMs": 242485,
-     "endMs": 244944
+     "startMs": 425890,
+     "endMs": 428349
     },
     {
      "text": "فهل ذكر الله نبوّته في القرآن الحكيم؟!",
-     "startMs": 244944,
-     "endMs": 248805
+     "startMs": 428349,
+     "endMs": 432210
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s12_l05",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يتلو",
+   "text": "نعم، في سورة مريم: «ووهبنا له من رحمتنا أخاه هارون نبيًّا».",
+   "startMs": 432810,
+   "endMs": 439090,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_redo.wav",
+    "startMs": 12270,
+    "endMs": 18550
+   },
+   "lines": [
+    {
+     "text": "نعم، في سورة مريم: «ووهبنا له من رحمتنا أخاه هارون نبيًّا».",
+     "startMs": 432810,
+     "endMs": 439089
     }
    ],
    "timing": "verified",
@@ -1037,8 +1655,8 @@
    "speakerName": "الراوي",
    "direction": "توتر متصاعد",
    "text": "وعند هذا الموضع قامت همهمة بين الحاضرين من أهل السنة. فسأل المؤلف عن السبب، فأجاب النواب:",
-   "startMs": 250005,
-   "endMs": 258825,
+   "startMs": 440290,
+   "endMs": 449110,
    "clip": {
     "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
     "startMs": 404090,
@@ -1047,13 +1665,13 @@
    "lines": [
     {
      "text": "وعند هذا الموضع قامت همهمة بين الحاضرين من أهل السنة.",
-     "startMs": 250005,
-     "endMs": 254475
+     "startMs": 440290,
+     "endMs": 444760
     },
     {
      "text": "فسأل المؤلف عن السبب، فأجاب النواب:",
-     "startMs": 254475,
-     "endMs": 258825
+     "startMs": 444760,
+     "endMs": 449110
     }
    ],
    "timing": "verified",
@@ -1069,8 +1687,8 @@
    "speakerName": "النواب عبد القيوم خان",
    "direction": "محرَج، صريح",
    "text": "في خطبة يوم الجمعة في المسجد، نسب الحافظ هذه الفضيلة لسيّدنا أبي بكر (رض)، والآن جنابكم تنسبوه للإمام عليّ رضي الله عنه، لذلك تحيّر الحاضرون من هذا التناقض!",
-   "startMs": 259425,
-   "endMs": 274165,
+   "startMs": 449710,
+   "endMs": 464450,
    "clip": {
     "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
     "startMs": 88460,
@@ -1079,13 +1697,40 @@
    "lines": [
     {
      "text": "في خطبة يوم الجمعة في المسجد، نسب الحافظ هذه الفضيلة لسيّدنا أبي بكر (رض)، والآن جنابكم تنسبوه للإمام عليّ رضي الله عنه، لذلك تحيّر الحاضرون من هذا التناقض!",
-     "startMs": 259425,
-     "endMs": 274165
+     "startMs": 449710,
+     "endMs": 464450
     }
    ],
    "timing": "verified",
    "alignment": {
     "confidence": 0.964,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s13_l03",
+   "scene": 13,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يلتفت إلى الحافظ",
+   "text": "أصحيح أنك نسبت هذه الفضيلة للخليفة أبي بكر؟",
+   "startMs": 465050,
+   "endMs": 468650,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 194350,
+    "endMs": 197950
+   },
+   "lines": [
+    {
+     "text": "أصحيح أنك نسبت هذه الفضيلة للخليفة أبي بكر؟",
+     "startMs": 465050,
+     "endMs": 468649
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
     "flags": []
    }
   },
@@ -1096,8 +1741,8 @@
    "speakerName": "الحافظ محمد رشيد",
    "direction": "يتمسك",
    "text": "نعم، ورد عن أبي هريرة أن رسول الله أمر بسدّ أبواب الأصحاب التي تنفتح على المسجد إلا باب أبي بكر.",
-   "startMs": 274765,
-   "endMs": 284525,
+   "startMs": 469250,
+   "endMs": 479010,
    "clip": {
     "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
     "startMs": 564740,
@@ -1106,13 +1751,99 @@
    "lines": [
     {
      "text": "نعم، ورد عن أبي هريرة أن رسول الله أمر بسدّ أبواب الأصحاب التي تنفتح على المسجد إلا باب أبي بكر.",
-     "startMs": 274765,
-     "endMs": 284524
+     "startMs": 469250,
+     "endMs": 479009
     }
    ],
    "timing": "verified",
    "alignment": {
     "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s14_l01",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حاسم، هادئ",
+   "text": "لقد سعى بنو أمية في خلق فضائل لمن ناوأ عليًّا في مقابل فضائله. وقد كشف ذلك ابن أبي الحديد.",
+   "startMs": 480210,
+   "endMs": 487800,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 198860,
+    "endMs": 206450
+   },
+   "lines": [
+    {
+     "text": "لقد سعى بنو أمية في خلق فضائل لمن ناوأ عليًّا في مقابل فضائله.",
+     "startMs": 480210,
+     "endMs": 485230
+    },
+    {
+     "text": "وقد كشف ذلك ابن أبي الحديد.",
+     "startMs": 485230,
+     "endMs": 487800
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.977,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s14_l02",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ختامي، قوي",
+   "text": "أنّ رسول الله صلى الله عليه وآله وسلم أمر بسدّ جميع الأبواب التي كانت تنفتح على مسجده إلاّ باب بيته وباب بيت الإمام علي عليه السلام.",
+   "startMs": 488150,
+   "endMs": 501720,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 206540,
+    "endMs": 220110
+   },
+   "lines": [
+    {
+     "text": "أنّ رسول الله صلى الله عليه وآله وسلم أمر بسدّ جميع الأبواب التي كانت تنفتح على مسجده إلاّ باب بيته وباب بيت الإمام علي عليه السلام.",
+     "startMs": 488150,
+     "endMs": 501720
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep06_s14_l03",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يعدّد",
+   "text": "رواه أحمد في مسنده، والنسائي في سننه وخصائصه، والحاكم في المستدرك، وسبط ابن الجوزي في التذكرة.",
+   "startMs": 502070,
+   "endMs": 510980,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+    "startMs": 220320,
+    "endMs": 229230
+   },
+   "lines": [
+    {
+     "text": "رواه أحمد في مسنده، والنسائي في سننه وخصائصه، والحاكم في المستدرك، وسبط ابن الجوزي في التذكرة.",
+     "startMs": 502070,
+     "endMs": 510979
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.978,
     "flags": []
    }
   },
@@ -1123,8 +1854,8 @@
    "speakerName": "الراوي",
    "direction": "ختامي",
    "text": "وصمت الحافظ. ومشى الناس إلى بيوتهم تلك الليلة، وفي أذهانهم خطبة الجمعة، وبابان مفتوحان على مسجد رسول الله.",
-   "startMs": 285725,
-   "endMs": 296245,
+   "startMs": 511580,
+   "endMs": 522100,
    "clip": {
     "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
     "startMs": 413280,
@@ -1133,13 +1864,13 @@
    "lines": [
     {
      "text": "وصمت الحافظ.",
-     "startMs": 285725,
-     "endMs": 286885
+     "startMs": 511580,
+     "endMs": 512740
     },
     {
      "text": "ومشى الناس إلى بيوتهم تلك الليلة، وفي أذهانهم خطبة الجمعة، وبابان مفتوحان على مسجد رسول الله.",
-     "startMs": 286885,
-     "endMs": 296245
+     "startMs": 512740,
+     "endMs": 522100
     }
    ],
    "timing": "verified",
@@ -1147,6 +1878,86 @@
     "confidence": 1.0,
     "flags": []
    }
+  }
+ ],
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "nostalgic",
+   "startMs": 0,
+   "endMs": 27310
+  },
+  {
+   "scene": 2,
+   "cue": "nostalgic",
+   "startMs": 25710,
+   "endMs": 50980
+  },
+  {
+   "scene": 3,
+   "cue": "warm",
+   "startMs": 49380,
+   "endMs": 73850
+  },
+  {
+   "scene": 4,
+   "cue": "reverent",
+   "startMs": 72250,
+   "endMs": 119230
+  },
+  {
+   "scene": 5,
+   "cue": "reverent",
+   "startMs": 117630,
+   "endMs": 161685
+  },
+  {
+   "scene": 6,
+   "cue": "reflective",
+   "startMs": 160084,
+   "endMs": 199625
+  },
+  {
+   "scene": 7,
+   "cue": "reflective",
+   "startMs": 198024,
+   "endMs": 244045
+  },
+  {
+   "scene": 8,
+   "cue": "reflective",
+   "startMs": 242445,
+   "endMs": 279250
+  },
+  {
+   "scene": 10,
+   "cue": "reverent",
+   "startMs": 320140,
+   "endMs": 384400
+  },
+  {
+   "scene": 11,
+   "cue": "reflective",
+   "startMs": 382800,
+   "endMs": 403750
+  },
+  {
+   "scene": 12,
+   "cue": "reverent",
+   "startMs": 402150,
+   "endMs": 440490
+  },
+  {
+   "scene": 13,
+   "cue": "reflective",
+   "startMs": 438890,
+   "endMs": 480410
+  },
+  {
+   "scene": 14,
+   "cue": "ending",
+   "startMs": 478810,
+   "endMs": 524400
   }
  ]
 }

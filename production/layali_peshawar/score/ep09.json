@@ -1,0 +1,155 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "قبل الغروب",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: فقد; ambience of the episode's place"
+  },
+  {
+   "scene": 2,
+   "title": "صلاة المغرب جماعة في غرفة البيت",
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "title: غرفة"
+  },
+  {
+   "scene": 3,
+   "title": "المؤلف يتكلم بثبات",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "default; ambience of the episode's place"
+  },
+  {
+   "scene": 4,
+   "title": "رفوف مكتبة قديمة بمجلدات جلدية بنية (بلا عناوين…",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: مكتبة"
+  },
+  {
+   "scene": 5,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 6,
+   "title": "المؤلف يرفع إصبعين كمن يخيّر خصمه بين احتمالين",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: كتاب; ambience of the episode's place"
+  },
+  {
+   "scene": 7,
+   "title": "المؤلف يروي بهدوء",
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: البيت; ambience of the episode's place"
+  },
+  {
+   "scene": 8,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 9,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 10,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 11,
+   "title": "لوحة رمزية",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: الناس; ambience of the episode's place"
+  },
+  {
+   "scene": 12,
+   "title": "المؤلف يتكلم عن «الشدة» بإشارة يد قاطعة",
+   "music": "suspense",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: شك; ambience of the episode's place"
+  },
+  {
+   "scene": 13,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 14,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 15,
+   "title": "لوحة استعادية",
+   "music": "ending",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد; last scene"
+  }
+ ]
+}

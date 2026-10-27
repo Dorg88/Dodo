@@ -30,5 +30,23 @@
  ],
  "GHULAM": [
   "audio/GHULAM/Generated Audio October 27, 2026 - 3_01AM.wav"
- ]
+ ],
+ "_pickups": {
+  "AUTHOR": [
+   "audio/AUTHOR/pickups/AUTHOR_pickup_1.wav",
+   "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+   {
+    "file": "audio/AUTHOR/pickups/AUTHOR_redo.wav",
+    "lines": [
+     "EP03-L031",
+     "EP06-L051",
+     "EP15-L010",
+     "EP15-L011"
+    ]
+   }
+  ],
+  "HAFIZ": [
+   "audio/HAFIZ/pickups/HAFIZ_missing_01.wav"
+  ]
+ }
 }

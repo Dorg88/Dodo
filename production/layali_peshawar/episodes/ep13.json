@@ -1,0 +1,1793 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep13",
+ "number": 13,
+ "title": "ما بعد السقيفة",
+ "durationMs": 559250,
+ "audio": {
+  "mode": "clips",
+  "music": "ep13/audio/score_music.m4a",
+  "sfx": "ep13/audio/score_sfx.m4a",
+  "musicLoop": false
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AUTHOR": {
+   "name": "سلطان الواعظين"
+  },
+  "MIRZA_YAQUB": {
+   "name": "الميرزا يعقوب علي خان"
+  },
+  "HAFIZ": {
+   "name": "الحافظ محمد رشيد"
+  },
+  "NAWWAB": {
+   "name": "النواب عبد القيوم خان"
+  },
+  "ABDULHAYY": {
+   "name": "السيد عبد الحي"
+  },
+  "ABDUSSALAM": {
+   "name": "الشيخ عبد السلام"
+  },
+  "ATTENDEES": {
+   "name": "الحاضرون"
+  },
+  "GHULAM": {
+   "name": "غلام إمامين"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "المؤلف يتكلم بنبرة الواثق",
+   "image": "ep13/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 36165
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "المؤلف يحلل الحديث كلمة كلمة",
+   "image": "ep13/images/scene_02.jpg",
+   "startMs": 36165,
+   "endMs": 86305
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "لوحة استعادية",
+   "image": "ep13/images/scene_03.jpg",
+   "startMs": 86305,
+   "endMs": 106155
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "لوحة استعادية",
+   "image": "ep13/images/scene_04.jpg",
+   "startMs": 106155,
+   "endMs": 157700
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "المؤلف يعدّ أسماء على أصابعه",
+   "image": "ep13/images/scene_05.jpg",
+   "startMs": 157700,
+   "endMs": 203830
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "الشيخ عبد السلام يتكلم بنبرة مصالحة",
+   "image": "ep13/images/scene_06.jpg",
+   "startMs": 203830,
+   "endMs": 226650
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "بعد صلاة العشاء",
+   "image": "ep13/images/scene_07.jpg",
+   "startMs": 226650,
+   "endMs": 267520
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "لوحة استعادية",
+   "image": "ep13/images/scene_08.jpg",
+   "startMs": 267520,
+   "endMs": 300110
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "الحافظ يرفع يده محتجًّا",
+   "image": "ep13/images/scene_09.jpg",
+   "startMs": 300110,
+   "endMs": 359380
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "الحافظ يغيّر الموضوع بنبرة أخفّ",
+   "image": "ep13/images/scene_10.jpg",
+   "startMs": 359380,
+   "endMs": 411850
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "النواب يتكلم بصدق",
+   "image": "ep13/images/scene_11.jpg",
+   "startMs": 411850,
+   "endMs": 438620
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "لوحة استعادية",
+   "image": "ep13/images/scene_12.jpg",
+   "startMs": 438620,
+   "endMs": 464440
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "لوحة رمزية",
+   "image": "ep13/images/scene_13.jpg",
+   "startMs": 464440,
+   "endMs": 480660
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "لوحة استعادية",
+   "image": "ep13/images/scene_14.jpg",
+   "startMs": 480660,
+   "endMs": 502690
+  },
+  {
+   "number": 15,
+   "id": "s15",
+   "title": "النواب يتكلم والدمع في عينيه",
+   "image": "ep13/images/scene_15.jpg",
+   "startMs": 502690,
+   "endMs": 559250
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep13_s01_l01",
+   "scene": 1,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "صريح",
+   "text": "وإنّي أرجوكم أن تقرءوا كتبنا وتدقّقوا النظر في أدلتنا وتعمّقوا الفكر في عقائدنا.",
+   "startMs": 500,
+   "endMs": 8375,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1754580,
+    "endMs": 1762455
+   },
+   "lines": [
+    {
+     "text": "وإنّي أرجوكم أن تقرءوا كتبنا وتدقّقوا النظر في أدلتنا وتعمّقوا الفكر في عقائدنا.",
+     "startMs": 500,
+     "endMs": 8374
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.987,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s01_l02",
+   "scene": 1,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي تجربته",
+   "text": "فقد فتّشت أسواق الشام والقاهرة والحجاز، ودخلت بيوت كثير من علماء أهل السنة، فقلّما وجدت عندهم كتابًا من كتبنا. بينما لا تخلو مكتبة واحدة في النجف وكربلاء وقم ومشهد من صحاحكم ومسانيدكم وتفاسيركم.",
+   "startMs": 8725,
+   "endMs": 27935,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1762550,
+    "endMs": 1781760
+   },
+   "lines": [
+    {
+     "text": "فقد فتّشت أسواق الشام والقاهرة والحجاز، ودخلت بيوت كثير من علماء أهل السنة، فقلّما وجدت عندهم كتابًا من كتبنا.",
+     "startMs": 8725,
+     "endMs": 17994
+    },
+    {
+     "text": "بينما لا تخلو مكتبة واحدة في النجف وكربلاء وقم ومشهد من صحاحكم ومسانيدكم وتفاسيركم.",
+     "startMs": 17994,
+     "endMs": 27934
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s01_l03",
+   "scene": 1,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "لا لحاجة منا إليها، ولكن نريد أن نحاجّكم بكتبكم، ونصل معكم إلى التفاهم.",
+   "startMs": 28285,
+   "endMs": 35865,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1781830,
+    "endMs": 1789410
+   },
+   "lines": [
+    {
+     "text": "لا لحاجة منا إليها، ولكن نريد أن نحاجّكم بكتبكم، ونصل معكم إلى التفاهم.",
+     "startMs": 28285,
+     "endMs": 35864
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s02_l01",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "تحليلي",
+   "text": "احتججتم بحديث «لا تجتمع أمتي على ضلالة». و«أمتي» مضافة إلى ياء المتكلم فتفيد العموم: أمتي كلهم، لا بعضهم. فهل اجتمعت الأمة كلها على خلافة أبي بكر؟",
+   "startMs": 36465,
+   "endMs": 51815,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1789690,
+    "endMs": 1805040
+   },
+   "lines": [
+    {
+     "text": "احتججتم بحديث «لا تجتمع أمتي على ضلالة».",
+     "startMs": 36465,
+     "endMs": 40415
+    },
+    {
+     "text": "و«أمتي» مضافة إلى ياء المتكلم فتفيد العموم: أمتي كلهم، لا بعضهم.",
+     "startMs": 40415,
+     "endMs": 48594
+    },
+    {
+     "text": "فهل اجتمعت الأمة كلها على خلافة أبي بكر؟",
+     "startMs": 48594,
+     "endMs": 51814
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.989,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s02_l02",
+   "scene": 2,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "معترض",
+   "text": "نفي الإجماع أمر غريب! فقد حكم أكثر من سنتين من غير مخالف.",
+   "startMs": 52415,
+   "endMs": 58405,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 731260,
+    "endMs": 737250
+   },
+   "lines": [
+    {
+     "text": "نفي الإجماع أمر غريب!",
+     "startMs": 52415,
+     "endMs": 54235
+    },
+    {
+     "text": "فقد حكم أكثر من سنتين من غير مخالف.",
+     "startMs": 54235,
+     "endMs": 58405
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s02_l03",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يحدّد السؤال",
+   "text": "هذه مغالطة. سؤالي عن البداية، يوم السقيفة. هل اتفق رأي المسلمين في المدينة عليه آنذاك؟ وهل كان لرأي المسلمين خارجها أثر؟",
+   "startMs": 59005,
+   "endMs": 70115,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1806040,
+    "endMs": 1817150
+   },
+   "lines": [
+    {
+     "text": "هذه مغالطة.",
+     "startMs": 59005,
+     "endMs": 60344
+    },
+    {
+     "text": "سؤالي عن البداية، يوم السقيفة.",
+     "startMs": 60344,
+     "endMs": 63144
+    },
+    {
+     "text": "هل اتفق رأي المسلمين في المدينة عليه آنذاك؟",
+     "startMs": 63144,
+     "endMs": 67104
+    },
+    {
+     "text": "وهل كان لرأي المسلمين خارجها أثر؟",
+     "startMs": 67104,
+     "endMs": 70114
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s02_l04",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ساخر بلطف",
+   "text": "أم ليس لرأيهم محلّ من الإعراب؟!",
+   "startMs": 70465,
+   "endMs": 72985,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1817230,
+    "endMs": 1819750
+   },
+   "lines": [
+    {
+     "text": "أم ليس لرأيهم محلّ من الإعراب؟!",
+     "startMs": 70465,
+     "endMs": 72984
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s02_l05",
+   "scene": 2,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يقرّ جزئيًّا",
+   "text": "لا نقول إن السقيفة مثّلت جميع الأمة، لكن الحاضرين فيها اختاروا أبا بكر، وكانت الظروف خطيرة، فلو انتظروا رأي الجميع لوقع النزاع بين القبائل.",
+   "startMs": 73585,
+   "endMs": 85705,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 737680,
+    "endMs": 749800
+   },
+   "lines": [
+    {
+     "text": "لا نقول إن السقيفة مثّلت جميع الأمة، لكن الحاضرين فيها اختاروا أبا بكر، وكانت الظروف خطيرة، فلو انتظروا رأي الجميع لوقع النزاع بين القبائل.",
+     "startMs": 73585,
+     "endMs": 85705
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s03_l01",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ",
+   "text": "ما كان اجتماع الأنصار في السقيفة من أجل تعيين خليفة، بل كانوا بصدد تعيين أمير لأنفسهم",
+   "startMs": 86905,
+   "endMs": 94725,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1820200,
+    "endMs": 1828020
+   },
+   "lines": [
+    {
+     "text": "ما كان اجتماع الأنصار في السقيفة من أجل تعيين خليفة، بل كانوا بصدد تعيين أمير لأنفسهم",
+     "startMs": 86905,
+     "endMs": 94724
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s03_l02",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ",
+   "text": "وكاد التوافق يحصل على أن يكون للأوس أمير وللخزرج أمير. فتقدّم أبو بكر وتكلّم في أمر الخلافة، وتعجّل عمر في بيعته.",
+   "startMs": 95075,
+   "endMs": 105855,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1828270,
+    "endMs": 1839050
+   },
+   "lines": [
+    {
+     "text": "وكاد التوافق يحصل على أن يكون للأوس أمير وللخزرج أمير.",
+     "startMs": 95075,
+     "endMs": 99964
+    },
+    {
+     "text": "فتقدّم أبو بكر وتكلّم في أمر الخلافة، وتعجّل عمر في بيعته.",
+     "startMs": 99964,
+     "endMs": 105854
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s04_l01",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يطرح سؤالًا محرجًا",
+   "text": "ثم إن رسول الله في أواخر أيامه عقد راية لأسامة بن زيد، وأمر المسلمين بالانضمام تحتها، وكان الشيخان تحت إمرته.",
+   "startMs": 106455,
+   "endMs": 116430,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1839210,
+    "endMs": 1849185
+   },
+   "lines": [
+    {
+     "text": "ثم إن رسول الله في أواخر أيامه عقد راية لأسامة بن زيد، وأمر المسلمين بالانضمام تحتها، وكان الشيخان تحت إمرته.",
+     "startMs": 106455,
+     "endMs": 116429
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s04_l02",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يحاجّ",
+   "text": "أما أمركما رسول الله صلى الله عليه وآله وسلم بطاعتي؟! وأمركم أن تكونا تحت إمرتي؟! فكيف انعكس الأمر؟!!",
+   "startMs": 116780,
+   "endMs": 125710,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1849250,
+    "endMs": 1858180
+   },
+   "lines": [
+    {
+     "text": "أما أمركما رسول الله صلى الله عليه وآله وسلم بطاعتي؟!",
+     "startMs": 116780,
+     "endMs": 121170
+    },
+    {
+     "text": "وأمركم أن تكونا تحت إمرتي؟!",
+     "startMs": 121170,
+     "endMs": 123710
+    },
+    {
+     "text": "فكيف انعكس الأمر؟!!",
+     "startMs": 123710,
+     "endMs": 125710
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.995,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s04_l03",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "فإن قلتم إن المعسكر بعيد، فما تقولون في بني هاشم، وقد كانوا مجتمعين في بيت رسول الله يجهّزونه؟ لماذا لم يُستشر علي والعباس؟",
+   "startMs": 126060,
+   "endMs": 137870,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1858370,
+    "endMs": 1870180
+   },
+   "lines": [
+    {
+     "text": "فإن قلتم إن المعسكر بعيد، فما تقولون في بني هاشم، وقد كانوا مجتمعين في بيت رسول الله يجهّزونه؟",
+     "startMs": 126060,
+     "endMs": 134709
+    },
+    {
+     "text": "لماذا لم يُستشر علي والعباس؟",
+     "startMs": 134709,
+     "endMs": 137869
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s04_l04",
+   "scene": 4,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "مدافع",
+   "text": "أظنّ بأنّ الأمر كان خطيرا والخطر كبيرا بحيث لم يمكن للشيخين ترك السقيفة حتّى لحظة واحدة.",
+   "startMs": 138470,
+   "endMs": 147100,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 750150,
+    "endMs": 758780
+   },
+   "lines": [
+    {
+     "text": "أظنّ بأنّ الأمر كان خطيرا والخطر كبيرا بحيث لم يمكن للشيخين ترك السقيفة حتّى لحظة واحدة.",
+     "startMs": 138470,
+     "endMs": 147099
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.988,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s04_l05",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "منطقي",
+   "text": "أوّلا، كان بإمكانهما أن يراقبا الوضع في السقيفة ويبعثا أبا عبيدة الجرّاح، فيخبر بني هاشم وسائر الصحابة.",
+   "startMs": 147700,
+   "endMs": 157100,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1870460,
+    "endMs": 1879860
+   },
+   "lines": [
+    {
+     "text": "أوّلا، كان بإمكانهما أن يراقبا الوضع في السقيفة ويبعثا أبا عبيدة الجرّاح، فيخبر بني هاشم وسائر الصحابة.",
+     "startMs": 147700,
+     "endMs": 157099
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s05_l01",
+   "scene": 5,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يتراجع خطوة",
+   "text": "قلنا بأنّ الاجماع ما حصل في بادئ الأمر، بل حصل تدريجا بموافقة المخالفين واحدا بعد الآخر مع طول الزمن.",
+   "startMs": 158300,
+   "endMs": 167560,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 759200,
+    "endMs": 768460
+   },
+   "lines": [
+    {
+     "text": "قلنا بأنّ الاجماع ما حصل في بادئ الأمر، بل حصل تدريجا بموافقة المخالفين واحدا بعد الآخر مع طول الزمن.",
+     "startMs": 158300,
+     "endMs": 167559
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s05_l02",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حزين",
+   "text": "وحتى الإجماع التدريجي لم يحصل. فكثير من المخالفين بقوا على مخالفتهم حتى ماتوا، ومنهم سيدة نساء العالمين فاطمة، رفضت أن تبايع حتى ماتت وهي واجدة عليه.",
+   "startMs": 168160,
+   "endMs": 182700,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1880470,
+    "endMs": 1895010
+   },
+   "lines": [
+    {
+     "text": "وحتى الإجماع التدريجي لم يحصل.",
+     "startMs": 168160,
+     "endMs": 170209
+    },
+    {
+     "text": "فكثير من المخالفين بقوا على مخالفتهم حتى ماتوا، ومنهم سيدة نساء العالمين فاطمة، رفضت أن تبايع حتى ماتت وهي واجدة عليه.",
+     "startMs": 170209,
+     "endMs": 182699
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s05_l03",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يعدّد",
+   "text": "وسعد بن عبادة سيد الخزرج رفض البيعة حتى مات. وذكر ابن عبد البر والبلاذري واليعقوبي أن جماعة تخلّفوا ومالوا مع علي: سلمان، وأبو ذر، والمقداد، وعمار، وأبيّ بن كعب، وخالد بن سعيد، والعباس بن عبد المطلب، وغيرهم.",
+   "startMs": 183050,
+   "endMs": 203230,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1895440,
+    "endMs": 1915620
+   },
+   "lines": [
+    {
+     "text": "وسعد بن عبادة سيد الخزرج رفض البيعة حتى مات.",
+     "startMs": 183050,
+     "endMs": 187189
+    },
+    {
+     "text": "وذكر ابن عبد البر والبلاذري واليعقوبي أن جماعة تخلّفوا ومالوا مع علي: سلمان، وأبو ذر، والمقداد، وعمار، وأبيّ بن كعب، وخالد بن سعيد، والعباس بن عبد المطلب، وغيرهم.",
+     "startMs": 187189,
+     "endMs": 203229
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s06_l01",
+   "scene": 6,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "مصالح",
+   "text": "الكلام في هذا لا يزيد المسلمين إلا افتراقًا. فكيفما كان الأمر، نحن ما كنا في ذلك اليوم، ولا حضرنا السقيفة.",
+   "startMs": 204430,
+   "endMs": 213040,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 382190,
+    "endMs": 390800
+   },
+   "lines": [
+    {
+     "text": "الكلام في هذا لا يزيد المسلمين إلا افتراقًا.",
+     "startMs": 204430,
+     "endMs": 207720
+    },
+    {
+     "text": "فكيفما كان الأمر، نحن ما كنا في ذلك اليوم، ولا حضرنا السقيفة.",
+     "startMs": 207720,
+     "endMs": 213040
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.995,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s06_l02",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "جادّ",
+   "text": "أمّا نحن فنقول: لا يجوز لأحد من المسلمين أن يعتقد بشيء من غير دليل شرعي",
+   "startMs": 213640,
+   "endMs": 220210,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1916280,
+    "endMs": 1922850
+   },
+   "lines": [
+    {
+     "text": "أمّا نحن فنقول: لا يجوز لأحد من المسلمين أن يعتقد بشيء من غير دليل شرعي",
+     "startMs": 213640,
+     "endMs": 220209
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s06_l03",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "ويجب على كل مسلم أن يتّبع الحق، لا أن يستسلم للأمر الواقع.",
+   "startMs": 220560,
+   "endMs": 226050,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1923120,
+    "endMs": 1928610
+   },
+   "lines": [
+    {
+     "text": "ويجب على كل مسلم أن يتّبع الحق، لا أن يستسلم للأمر الواقع.",
+     "startMs": 220560,
+     "endMs": 226049
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s07_l01",
+   "scene": 7,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "انتقالي",
+   "text": "وعلا صوت المؤذن لصلاة العشاء. وبعد الصلاة والشاي، افتتح الحافظ الكلام:",
+   "startMs": 227250,
+   "endMs": 234710,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 630480,
+    "endMs": 637940
+   },
+   "lines": [
+    {
+     "text": "وعلا صوت المؤذن لصلاة العشاء.",
+     "startMs": 227250,
+     "endMs": 230149
+    },
+    {
+     "text": "وبعد الصلاة والشاي، افتتح الحافظ الكلام:",
+     "startMs": 230149,
+     "endMs": 234710
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.985,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s07_l02",
+   "scene": 7,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "معترض",
+   "text": "لقد كررتم أن عليًّا وبني هاشم لم يرضوا بخلافة أبي بكر. ونحن نرى في التواريخ أنهم بايعوا.",
+   "startMs": 235310,
+   "endMs": 244110,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 768710,
+    "endMs": 777510
+   },
+   "lines": [
+    {
+     "text": "لقد كررتم أن عليًّا وبني هاشم لم يرضوا بخلافة أبي بكر.",
+     "startMs": 235310,
+     "endMs": 240879
+    },
+    {
+     "text": "ونحن نرى في التواريخ أنهم بايعوا.",
+     "startMs": 240879,
+     "endMs": 244109
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.994,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s07_l03",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ثقيل",
+   "text": "نعم بايعوا... ولكن كيف تمّت البيعة؟!",
+   "startMs": 244710,
+   "endMs": 248480,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1929100,
+    "endMs": 1932870
+   },
+   "lines": [
+    {
+     "text": "نعم بايعوا...",
+     "startMs": 244710,
+     "endMs": 245789
+    },
+    {
+     "text": "ولكن كيف تمّت البيعة؟!",
+     "startMs": 245789,
+     "endMs": 248479
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s07_l04",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي من الصحيحين",
+   "text": "روى البخاري ومسلم عن عائشة أن فاطمة هجرت أبا بكر فلم تكلّمه حتى ماتت، فدفنها علي ليلًا. فقال رجل للزهري: فلم يبايعه علي ستة أشهر؟ قال: ولا أحد من بني هاشم، حتى بايعه علي.",
+   "startMs": 248830,
+   "endMs": 267220,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1933180,
+    "endMs": 1951570
+   },
+   "lines": [
+    {
+     "text": "روى البخاري ومسلم عن عائشة أن فاطمة هجرت أبا بكر فلم تكلّمه حتى ماتت، فدفنها علي ليلًا.",
+     "startMs": 248830,
+     "endMs": 257349
+    },
+    {
+     "text": "فقال رجل للزهري: فلم يبايعه علي ستة أشهر؟",
+     "startMs": 257349,
+     "endMs": 262189
+    },
+    {
+     "text": "قال: ولا أحد من بني هاشم، حتى بايعه علي.",
+     "startMs": 262189,
+     "endMs": 267219
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s08_l01",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ثقيل، حزين",
+   "text": "وذكر ابن قتيبة في «الإمامة والسياسة»: أن أبا بكر تفقّد قومًا تخلّفوا عن بيعته عند علي، فبعث إليهم عمر، فجاء بالحطب، وهدّد بإحراق الدار على من فيها. فقيل له: يا أبا حفص، إن فيها فاطمة!",
+   "startMs": 267820,
+   "endMs": 284630,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1952160,
+    "endMs": 1968970
+   },
+   "lines": [
+    {
+     "text": "وذكر ابن قتيبة في «الإمامة والسياسة»: أن أبا بكر تفقّد قومًا تخلّفوا عن بيعته عند علي، فبعث إليهم عمر، فجاء بالحطب، وهدّد بإحراق الدار على من فيها.",
+     "startMs": 267820,
+     "endMs": 280820
+    },
+    {
+     "text": "فقيل له: يا أبا حفص، إن فيها فاطمة!",
+     "startMs": 280820,
+     "endMs": 284629
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s08_l02",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "مكلوم",
+   "text": "فقال: وإن...",
+   "startMs": 284980,
+   "endMs": 286250,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1969470,
+    "endMs": 1970740
+   },
+   "lines": [
+    {
+     "text": "فقال: وإن...",
+     "startMs": 284980,
+     "endMs": 286249
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s08_l03",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ بصوت منخفض",
+   "text": "فدقّوا الباب فلمّا سمعت أصواتهم، نادت بأعلى صوتها: يا أبت يا رسول الله! ما ذا لقينا بعدك من ابن الخطّاب وابن أبي قحافة!",
+   "startMs": 286600,
+   "endMs": 299510,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1971110,
+    "endMs": 1984020
+   },
+   "lines": [
+    {
+     "text": "فدقّوا الباب فلمّا سمعت أصواتهم، نادت بأعلى صوتها: يا أبت يا رسول الله!",
+     "startMs": 286600,
+     "endMs": 294189
+    },
+    {
+     "text": "ما ذا لقينا بعدك من ابن الخطّاب وابن أبي قحافة!",
+     "startMs": 294189,
+     "endMs": 299509
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.987,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s09_l01",
+   "scene": 9,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "منكر",
+   "text": "هذه من أساطير الشيعة: الهجوم على بيت فاطمة، وحرق الباب، وإسقاط جنينها!",
+   "startMs": 300710,
+   "endMs": 309280,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 777960,
+    "endMs": 786530
+   },
+   "lines": [
+    {
+     "text": "هذه من أساطير الشيعة: الهجوم على بيت فاطمة، وحرق الباب، وإسقاط جنينها!",
+     "startMs": 300710,
+     "endMs": 309279
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s09_l02",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ثابت",
+   "text": "إمّا أنّ معلوماتكم التاريخية ومطالعتكم لهذه القضايا ضعيفة، وإما تعرفون وتحرّفون!",
+   "startMs": 309880,
+   "endMs": 317170,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1984400,
+    "endMs": 1991690
+   },
+   "lines": [
+    {
+     "text": "إمّا أنّ معلوماتكم التاريخية ومطالعتكم لهذه القضايا ضعيفة، وإما تعرفون وتحرّفون!",
+     "startMs": 309880,
+     "endMs": 317169
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.993,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s09_l03",
+   "scene": 9,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "يلتقط التحول",
+   "text": "ثم قرأ المؤلف من كتب أهل السنة ومؤرخيهم شيئًا كثيرًا. فلما انتهى، قال الحافظ، وقد تغيّرت نبرته:",
+   "startMs": 317770,
+   "endMs": 327650,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 638320,
+    "endMs": 648200
+   },
+   "lines": [
+    {
+     "text": "ثم قرأ المؤلف من كتب أهل السنة ومؤرخيهم شيئًا كثيرًا.",
+     "startMs": 317770,
+     "endMs": 322749
+    },
+    {
+     "text": "فلما انتهى، قال الحافظ، وقد تغيّرت نبرته:",
+     "startMs": 322749,
+     "endMs": 327649
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s09_l04",
+   "scene": 9,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يقرّ مضطرًّا",
+   "text": "هذه الأخبار كلّها تنبئ بأنّ عمر بن الخطّاب أمر بالحطب وجاء بالنار وهدّد بإحراق البيت على من فيه",
+   "startMs": 328250,
+   "endMs": 338060,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 787280,
+    "endMs": 797090
+   },
+   "lines": [
+    {
+     "text": "هذه الأخبار كلّها تنبئ بأنّ عمر بن الخطّاب أمر بالحطب وجاء بالنار وهدّد بإحراق البيت على من فيه",
+     "startMs": 328250,
+     "endMs": 338060
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s09_l05",
+   "scene": 9,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يتمسّك بما بقي",
+   "text": "ولكنكم زدتم ما لا أصل له، أنهم أحرقوا الباب وأسقطوا جنينها محسنًا.",
+   "startMs": 338410,
+   "endMs": 345130,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 797770,
+    "endMs": 804490
+   },
+   "lines": [
+    {
+     "text": "ولكنكم زدتم ما لا أصل له، أنهم أحرقوا الباب وأسقطوا جنينها محسنًا.",
+     "startMs": 338410,
+     "endMs": 345130
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.984,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s09_l06",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حزين، ثابت",
+   "text": "وقد ذكر ذلك المسعودي في «إثبات الوصية»، ونقل الشهرستاني في «الملل والنحل» والصفدي في «الوافي بالوفيات» قول النظّام فيه. فالأمر في كتبكم، وإن سكت عنه أكثر مؤرخيكم.",
+   "startMs": 345730,
+   "endMs": 358780,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 1991970,
+    "endMs": 2005020
+   },
+   "lines": [
+    {
+     "text": "وقد ذكر ذلك المسعودي في «إثبات الوصية»، ونقل الشهرستاني في «الملل والنحل» والصفدي في «الوافي بالوفيات» قول النظّام فيه.",
+     "startMs": 345730,
+     "endMs": 354559
+    },
+    {
+     "text": "فالأمر في كتبكم، وإن سكت عنه أكثر مؤرخيكم.",
+     "startMs": 354559,
+     "endMs": 358779
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.993,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s10_l01",
+   "scene": 10,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "معتدل",
+   "text": "أنا لا أوافق الّذين يرمون الشيعة بالكفر والشرك",
+   "startMs": 359980,
+   "endMs": 364520,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 805140,
+    "endMs": 809680
+   },
+   "lines": [
+    {
+     "text": "أنا لا أوافق الّذين يرمون الشيعة بالكفر والشرك",
+     "startMs": 359980,
+     "endMs": 364519
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s10_l02",
+   "scene": 10,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "ينتقد",
+   "text": "لكني لا أسكت على أخبار في كتبكم، كقولهم: حب علي حسنة لا تضرّ معها سيئة، ومن بكى على الحسين وجبت له الجنة. فهذه تفسد الأمة وتشجّع على المعاصي.",
+   "startMs": 364870,
+   "endMs": 378980,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 810400,
+    "endMs": 824510
+   },
+   "lines": [
+    {
+     "text": "لكني لا أسكت على أخبار في كتبكم، كقولهم: حب علي حسنة لا تضرّ معها سيئة، ومن بكى على الحسين وجبت له الجنة.",
+     "startMs": 364870,
+     "endMs": 375310
+    },
+    {
+     "text": "فهذه تفسد الأمة وتشجّع على المعاصي.",
+     "startMs": 375310,
+     "endMs": 378980
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s10_l03",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يشرح بالقرآن",
+   "text": "لا تعجل. الله يقسم الذنوب إلى صغائر وكبائر، ويقول: «إن تجتنبوا كبائر ما تُنهون عنه نكفّر عنكم سيئاتكم». فالحديث لا يقول أكثر من هذا: إن حب علي حسنة عظيمة لا تضرّ معها الصغائر.",
+   "startMs": 379580,
+   "endMs": 396930,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2005320,
+    "endMs": 2022670
+   },
+   "lines": [
+    {
+     "text": "لا تعجل.",
+     "startMs": 379580,
+     "endMs": 380419
+    },
+    {
+     "text": "الله يقسم الذنوب إلى صغائر وكبائر، ويقول: «إن تجتنبوا كبائر ما تُنهون عنه نكفّر عنكم سيئاتكم».",
+     "startMs": 380419,
+     "endMs": 389599
+    },
+    {
+     "text": "فالحديث لا يقول أكثر من هذا: إن حب علي حسنة عظيمة لا تضرّ معها الصغائر.",
+     "startMs": 389599,
+     "endMs": 396929
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s10_l04",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "والبكاء على الحسين لا ينفع إلا من عرف حقه. فكما لا تُقبل العبادة إلا بمعرفة الله، فكذلك الزيارة والبكاء. وفي الرواية: من بكى على الحسين عارفًا بحقه وجبت له الجنة.",
+   "startMs": 397280,
+   "endMs": 411250,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2023030,
+    "endMs": 2037000
+   },
+   "lines": [
+    {
+     "text": "والبكاء على الحسين لا ينفع إلا من عرف حقه.",
+     "startMs": 397280,
+     "endMs": 400869
+    },
+    {
+     "text": "فكما لا تُقبل العبادة إلا بمعرفة الله، فكذلك الزيارة والبكاء.",
+     "startMs": 400869,
+     "endMs": 405749
+    },
+    {
+     "text": "وفي الرواية: من بكى على الحسين عارفًا بحقه وجبت له الجنة.",
+     "startMs": 405749,
+     "endMs": 411249
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s11_l01",
+   "scene": 11,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "صريح",
+   "text": "نحن نعتقد أن الحسين نهض للحق وقُتل في سبيل الله. لكن بعض شبابنا الذين درسوا في المدارس الحديثة يقولون: إنما نهض لطلب الحكم.",
+   "startMs": 412450,
+   "endMs": 425340,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 202530,
+    "endMs": 215420
+   },
+   "lines": [
+    {
+     "text": "نحن نعتقد أن الحسين نهض للحق وقُتل في سبيل الله.",
+     "startMs": 412450,
+     "endMs": 417760
+    },
+    {
+     "text": "لكن بعض شبابنا الذين درسوا في المدارس الحديثة يقولون: إنما نهض لطلب الحكم.",
+     "startMs": 417760,
+     "endMs": 425339
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s11_l02",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "متعب",
+   "text": "الجواب حاضر، لكن الوقت لا يسمح أن نخوض في هذا الموضوع",
+   "startMs": 425940,
+   "endMs": 430500,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2037620,
+    "endMs": 2042180
+   },
+   "lines": [
+    {
+     "text": "الجواب حاضر، لكن الوقت لا يسمح أن نخوض في هذا الموضوع",
+     "startMs": 425940,
+     "endMs": 430499
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s11_l03",
+   "scene": 11,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "متحمس",
+   "text": "أنا أتكلّم نيابة عن أكثر الحاضرين، نحن ما تعبنا من مجالستكم والاستماع لحديثكم",
+   "startMs": 431100,
+   "endMs": 438020,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 215650,
+    "endMs": 222570
+   },
+   "lines": [
+    {
+     "text": "أنا أتكلّم نيابة عن أكثر الحاضرين، نحن ما تعبنا من مجالستكم والاستماع لحديثكم",
+     "startMs": 431100,
+     "endMs": 438019
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s12_l01",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ملحمي",
+   "text": "فأقول أوّلا: إذا كان الحسين عليه السلام نهض لطلب الحكم ولأجل الوصول إلى الرئاسة، فما معنى حمله العيال والأطفال معه؟!",
+   "startMs": 439220,
+   "endMs": 449310,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2042730,
+    "endMs": 2052820
+   },
+   "lines": [
+    {
+     "text": "فأقول أوّلا: إذا كان الحسين عليه السلام نهض لطلب الحكم ولأجل الوصول إلى الرئاسة، فما معنى حمله العيال والأطفال معه؟!",
+     "startMs": 439220,
+     "endMs": 449310
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s12_l02",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "والثائر الذي يطلب الدنيا يجمع الأنصار ويعدهم النصر. أما الحسين فقد كتب إلى بني هاشم:",
+   "startMs": 449660,
+   "endMs": 457240,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2052990,
+    "endMs": 2060570
+   },
+   "lines": [
+    {
+     "text": "والثائر الذي يطلب الدنيا يجمع الأنصار ويعدهم النصر.",
+     "startMs": 449660,
+     "endMs": 454129
+    },
+    {
+     "text": "أما الحسين فقد كتب إلى بني هاشم:",
+     "startMs": 454129,
+     "endMs": 457239
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s12_l03",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ الرسالة",
+   "text": "فإنّ من لحق بي استشهد! ومن لم يلحق بي لم يدرك الفتح، والسلام.",
+   "startMs": 457590,
+   "endMs": 464140,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2060570,
+    "endMs": 2067120
+   },
+   "lines": [
+    {
+     "text": "فإنّ من لحق بي استشهد!",
+     "startMs": 457590,
+     "endMs": 460260
+    },
+    {
+     "text": "ومن لم يلحق بي لم يدرك الفتح، والسلام.",
+     "startMs": 460260,
+     "endMs": 464140
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s13_l01",
+   "scene": 13,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "متأمل",
+   "text": "فالنصر تارة يكون بقتل العدو، وتارة بأن يكون المنتصر مظلومًا شهيدًا. ولما عارضه بعض أقربائه وسألوه: فما معنى حملك هؤلاء النسوة؟ قال: إن الله شاء أن يراهن سبايا.",
+   "startMs": 464740,
+   "endMs": 480360,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2067340,
+    "endMs": 2082960
+   },
+   "lines": [
+    {
+     "text": "فالنصر تارة يكون بقتل العدو، وتارة بأن يكون المنتصر مظلومًا شهيدًا.",
+     "startMs": 464740,
+     "endMs": 470339
+    },
+    {
+     "text": "ولما عارضه بعض أقربائه وسألوه: فما معنى حملك هؤلاء النسوة؟",
+     "startMs": 470339,
+     "endMs": 476099
+    },
+    {
+     "text": "قال: إن الله شاء أن يراهن سبايا.",
+     "startMs": 476099,
+     "endMs": 480359
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s14_l01",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "دافئ",
+   "text": "وزيارة القبور سنّة، فقد كان رسول الله يزور القبور، وزار قبر أمه آمنة. وإذا ذهبتم إلى مشاهد آل النبي رأيتم أنها مراكز لعبادة الله، لا تُغلق أبوابها ليلًا ولا نهارًا، والناس فيها يتلون القرآن ويدعون الله.",
+   "startMs": 480960,
+   "endMs": 502090,
+   "clip": {
+    "file": "audio/AUTHOR/pickups/AUTHOR_pickup_2.wav",
+    "startMs": 2083220,
+    "endMs": 2104350
+   },
+   "lines": [
+    {
+     "text": "وزيارة القبور سنّة، فقد كان رسول الله يزور القبور، وزار قبر أمه آمنة.",
+     "startMs": 480960,
+     "endMs": 488159
+    },
+    {
+     "text": "وإذا ذهبتم إلى مشاهد آل النبي رأيتم أنها مراكز لعبادة الله، لا تُغلق أبوابها ليلًا ولا نهارًا، والناس فيها يتلون القرآن ويدعون الله.",
+     "startMs": 488159,
+     "endMs": 502089
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s15_l01",
+   "scene": 15,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "متأثر جدًّا",
+   "text": "سيدنا الجليل، بفضل حديثك تعرّفنا على عظمة الحسين. وإني آسف جدًّا على ما فاتني من الأجر لعدم حضوري مجالس العزاء التي يقيمها إخواننا الشيعة في بلدنا.",
+   "startMs": 503290,
+   "endMs": 517600,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 222720,
+    "endMs": 237030
+   },
+   "lines": [
+    {
+     "text": "سيدنا الجليل، بفضل حديثك تعرّفنا على عظمة الحسين.",
+     "startMs": 503290,
+     "endMs": 508530
+    },
+    {
+     "text": "وإني آسف جدًّا على ما فاتني من الأجر لعدم حضوري مجالس العزاء التي يقيمها إخواننا الشيعة في بلدنا.",
+     "startMs": 508530,
+     "endMs": 517600
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s15_l02",
+   "scene": 15,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "يعترف",
+   "text": "قبل سنين سافرت مع قافلة إلى بغداد لزيارة قبر أبي حنيفة والشيخ عبد القادر، ولم نزر قبر الحسين وهو قريب. وأنا الآن أتعجّب من نفسي: لماذا تكون زيارتهما جائزة، وزيارة ريحانة رسول الله لا تجوز؟",
+   "startMs": 517950,
+   "endMs": 536770,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 237410,
+    "endMs": 256230
+   },
+   "lines": [
+    {
+     "text": "قبل سنين سافرت مع قافلة إلى بغداد لزيارة قبر أبي حنيفة والشيخ عبد القادر، ولم نزر قبر الحسين وهو قريب.",
+     "startMs": 517950,
+     "endMs": 528919
+    },
+    {
+     "text": "وأنا الآن أتعجّب من نفسي: لماذا تكون زيارتهما جائزة، وزيارة ريحانة رسول الله لا تجوز؟",
+     "startMs": 528919,
+     "endMs": 536770
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s15_l03",
+   "scene": 15,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "عازم",
+   "text": "ولقد نويت الآن وعزمت أن أذهب هذا العام إن شاء الله، فأتشرّف بزيارة سيدنا الحسين، قربة إلى الله تعالى.",
+   "startMs": 537120,
+   "endMs": 547710,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 256440,
+    "endMs": 267030
+   },
+   "lines": [
+    {
+     "text": "ولقد نويت الآن وعزمت أن أذهب هذا العام إن شاء الله، فأتشرّف بزيارة سيدنا الحسين، قربة إلى الله تعالى.",
+     "startMs": 537120,
+     "endMs": 547709
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep13_s15_l04",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "ختامي",
+   "text": "ثم قاموا وانصرفوا جميعًا، وشيّعهم المؤلف إلى باب البيت. وهكذا انتهى المجلس السابع.",
+   "startMs": 548310,
+   "endMs": 557750,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 648560,
+    "endMs": 658000
+   },
+   "lines": [
+    {
+     "text": "ثم قاموا وانصرفوا جميعًا، وشيّعهم المؤلف إلى باب البيت.",
+     "startMs": 548310,
+     "endMs": 553730
+    },
+    {
+     "text": "وهكذا انتهى المجلس السابع.",
+     "startMs": 553730,
+     "endMs": 557750
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  }
+ ],
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "reflective",
+   "startMs": 0,
+   "endMs": 36964
+  },
+  {
+   "scene": 2,
+   "cue": "suspense",
+   "startMs": 35365,
+   "endMs": 87105
+  },
+  {
+   "scene": 3,
+   "cue": "reflective",
+   "startMs": 85505,
+   "endMs": 106955
+  },
+  {
+   "scene": 4,
+   "cue": "reflective",
+   "startMs": 105355,
+   "endMs": 158500
+  },
+  {
+   "scene": 5,
+   "cue": "reflective",
+   "startMs": 156899,
+   "endMs": 204630
+  },
+  {
+   "scene": 6,
+   "cue": "nostalgic",
+   "startMs": 203030,
+   "endMs": 227450
+  },
+  {
+   "scene": 7,
+   "cue": "nostalgic",
+   "startMs": 225850,
+   "endMs": 268320
+  },
+  {
+   "scene": 8,
+   "cue": "reflective",
+   "startMs": 266719,
+   "endMs": 300910
+  },
+  {
+   "scene": 9,
+   "cue": "reflective",
+   "startMs": 299310,
+   "endMs": 360180
+  },
+  {
+   "scene": 10,
+   "cue": "reverent",
+   "startMs": 358580,
+   "endMs": 412650
+  },
+  {
+   "scene": 11,
+   "cue": "reflective",
+   "startMs": 411050,
+   "endMs": 439420
+  },
+  {
+   "scene": 12,
+   "cue": "reflective",
+   "startMs": 437820,
+   "endMs": 465240
+  },
+  {
+   "scene": 13,
+   "cue": "reflective",
+   "startMs": 463640,
+   "endMs": 481460
+  },
+  {
+   "scene": 14,
+   "cue": "reflective",
+   "startMs": 479860,
+   "endMs": 503490
+  },
+  {
+   "scene": 15,
+   "cue": "ending",
+   "startMs": 501890,
+   "endMs": 560050
+  }
+ ]
+}

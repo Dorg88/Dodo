@@ -53,15 +53,15 @@
 | ep02_s02_l03 | AUTHOR | Generated Audio October 27, 2026 - 1_47AM.wav 257.58–262.40 | 1.00 | verified |  |  |
 | ep02_s02_l04 | NAWWAB | Generated Audio October 27, 2026 - 2_49AM.wav 10.03–23.97 | 0.99 | verified |  |  |
 | ep02_s03_l01 | AUTHOR | Generated Audio October 27, 2026 - 1_47AM.wav 262.80–280.64 | 1.00 | verified |  |  |
-| ep02_s04_l01 | HAFIZ | — | 0.00 | unverified | line not found in the recording |  |
-| ep02_s04_l02 | HAFIZ | — | 0.00 | unverified | line not found in the recording |  |
+| ep02_s04_l01 | HAFIZ | HAFIZ_missing_01.wav 0.21–15.52 | 1.00 | verified |  | from a pickup recording |
+| ep02_s04_l02 | HAFIZ | HAFIZ_missing_01.wav 15.84–27.57 | 0.99 | verified |  | from a pickup recording |
 | ep02_s04_l03 | AUTHOR | Generated Audio October 27, 2026 - 1_47AM.wav 280.71–295.59 | 1.00 | verified |  |  |
-| ep02_s04_l04 | HAFIZ | — | 0.00 | unverified | line not found in the recording |  |
+| ep02_s04_l04 | HAFIZ | HAFIZ_missing_01.wav 27.95–34.20 | 1.00 | verified |  | from a pickup recording |
 | ep02_s04_l05 | AUTHOR | Generated Audio October 27, 2026 - 1_47AM.wav 296.26–310.16 | 1.00 | verified |  |  |
-| ep02_s04_l06 | HAFIZ | — | 0.00 | unverified | line not found in the recording |  |
+| ep02_s04_l06 | HAFIZ | HAFIZ_missing_01.wav 34.68–40.97 | 1.00 | verified |  | from a pickup recording |
 | ep02_s05_l01 | AUTHOR | Generated Audio October 27, 2026 - 1_47AM.wav 310.64–329.22 | 1.00 | verified |  |  |
 | ep02_s05_l02 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 224.83–234.41 | 1.00 | verified |  |  |
-| ep02_s05_l03 | HAFIZ | — | 0.00 | unverified | line not found in the recording |  |
+| ep02_s05_l03 | HAFIZ | HAFIZ_missing_01.wav 41.63–48.02 | 1.00 | verified |  | from a pickup recording |
 | ep02_s05_l04 | AUTHOR | Generated Audio October 27, 2026 - 1_47AM.wav 329.74–342.84 | 1.00 | verified |  |  |
 | ep02_s06_l01 | NAWWAB | Generated Audio October 27, 2026 - 2_49AM.wav 24.10–38.79 | 0.99 | verified |  |  |
 | ep02_s06_l02 | AUTHOR | Generated Audio October 27, 2026 - 1_47AM.wav 343.21–357.28 | 1.00 | verified |  |  |
@@ -81,7 +81,7 @@
 | ep02_s11_l03 | AUTHOR | Generated Audio October 27, 2026 - 1_47AM.wav 474.52–484.22 | 1.00 | verified |  |  |
 | ep02_s12_l01 | AUTHOR | Generated Audio October 27, 2026 - 1_47AM.wav 484.61–502.60 | 0.98 | verified |  |  |
 | ep02_s12_l02 | AUTHOR | Generated Audio October 27, 2026 - 1_47AM.wav 502.73–519.69 | 0.99 | verified |  |  |
-| ep02_s13_l01 | HAFIZ | — | 0.00 | unverified | line not found in the recording |  |
+| ep02_s13_l01 | HAFIZ | HAFIZ_missing_01.wav 48.46–71.55 | 0.99 | verified |  | from a pickup recording |
 | ep02_s13_l02 | AUTHOR | Generated Audio October 27, 2026 - 1_47AM.wav 519.88–526.26 | 1.00 | verified |  |  |
 | ep02_s13_l03 | AUTHOR | Generated Audio October 27, 2026 - 1_47AM.wav 526.59–534.26 | 1.00 | verified |  |  |
 | ep02_s14_l01 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 234.95–241.85 | 1.00 | verified |  |  |
@@ -117,7 +117,7 @@
 | ep03_s10_l03 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 315.09–317.56 | 1.00 | verified |  |  |
 | ep03_s10_l04 | AUTHOR | Generated Audio October 27, 2026 - 1_47AM.wav 711.31–717.86 | 1.00 | verified |  |  |
 | ep03_s10_l05 | AUTHOR | Generated Audio October 27, 2026 - 1_47AM.wav 718.30–731.25 | 1.00 | verified |  |  |
-| ep03_s10_l06 | AUTHOR | Generated Audio October 27, 2026 - 1_47AM.wav 731.25–737.40 | 0.75 | estimated |  |  |
+| ep03_s10_l06 | AUTHOR | AUTHOR_redo.wav 0.13–11.66 | 1.00 | verified |  | re-recorded |
 | ep03_s10_l07 | AUTHOR | Generated Audio October 27, 2026 - 1_47AM.wav 737.68–754.82 | 1.00 | verified |  |  |
 | ep03_s11_l01 | AUTHOR | Generated Audio October 27, 2026 - 1_47AM.wav 755.16–770.21 | 1.00 | verified |  |  |
 | ep03_s11_l02 | AUTHOR | Generated Audio October 27, 2026 - 1_47AM.wav 770.43–785.23 | 1.00 | verified |  |  |
@@ -206,7 +206,7 @@
 | ep05_s05_l03 | AUTHOR | Generated Audio October 27, 2026 - 1_52AM.wav 505.40–513.05 | 1.00 | verified |  |  |
 | ep05_s05_l04 | AUTHOR | Generated Audio October 27, 2026 - 1_52AM.wav 513.74–521.01 | 0.99 | verified |  |  |
 | ep05_s06_l01 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 458.96–467.67 | 1.00 | verified |  |  |
-| ep05_s06_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep05_s06_l02 | AUTHOR | AUTHOR_pickup_1.wav 0.09–5.36 | 1.00 | verified |  | from a pickup recording |
 | ep05_s07_l01 | AUTHOR | Generated Audio October 27, 2026 - 1_52AM.wav 521.12–538.81 | 1.00 | verified |  |  |
 | ep05_s07_l02 | AUTHOR | Generated Audio October 27, 2026 - 1_52AM.wav 538.86–544.92 | 0.99 | verified |  |  |
 | ep05_s07_l03 | AUTHOR | Generated Audio October 27, 2026 - 1_52AM.wav 545.26–549.96 | 1.00 | verified |  |  |
@@ -262,143 +262,143 @@
 | ep06_s05_l01 | AUTHOR | Generated Audio October 27, 2026 - 1_52AM.wav 868.16–882.41 | 1.00 | verified |  |  |
 | ep06_s05_l02 | AUTHOR | Generated Audio October 27, 2026 - 1_52AM.wav 882.61–889.27 | 1.00 | verified |  |  |
 | ep06_s05_l03 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 494.05–503.73 | 1.00 | verified |  |  |
-| ep06_s05_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep06_s06_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep06_s06_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep06_s06_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep06_s05_l04 | AUTHOR | AUTHOR_pickup_1.wav 5.56–15.27 | 1.00 | verified |  | from a pickup recording |
+| ep06_s06_l01 | AUTHOR | AUTHOR_pickup_1.wav 15.66–23.56 | 1.00 | verified |  | from a pickup recording |
+| ep06_s06_l02 | AUTHOR | AUTHOR_pickup_1.wav 23.69–39.88 | 0.98 | verified |  | from a pickup recording |
+| ep06_s06_l03 | AUTHOR | AUTHOR_pickup_1.wav 40.34–52.59 | 0.99 | verified |  | from a pickup recording |
 | ep06_s07_l01 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 393.53–403.75 | 1.00 | verified |  |  |
 | ep06_s07_l02 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 504.12–509.26 | 0.99 | verified |  |  |
-| ep06_s07_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep06_s07_l03 | AUTHOR | AUTHOR_pickup_1.wav 53.03–59.42 | 1.00 | verified |  | from a pickup recording |
 | ep06_s07_l04 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 509.65–514.57 | 1.00 | verified |  |  |
-| ep06_s07_l05 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep06_s07_l05 | AUTHOR | AUTHOR_pickup_1.wav 59.79–65.48 | 1.00 | verified |  | from a pickup recording |
 | ep06_s07_l06 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 514.81–522.67 | 1.00 | verified |  |  |
 | ep06_s08_l01 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 55.35–61.28 | 1.00 | verified |  |  |
-| ep06_s08_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep06_s08_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep06_s08_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep06_s08_l02 | AUTHOR | AUTHOR_pickup_1.wav 66.01–76.62 | 0.99 | verified |  | from a pickup recording |
+| ep06_s08_l03 | AUTHOR | AUTHOR_pickup_1.wav 76.71–81.02 | 1.00 | verified |  | from a pickup recording |
+| ep06_s08_l04 | AUTHOR | AUTHOR_pickup_1.wav 81.55–93.40 | 1.00 | verified |  | from a pickup recording |
 | ep06_s09_l01 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 522.96–529.09 | 1.00 | verified |  |  |
-| ep06_s09_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep06_s09_l02 | AUTHOR | AUTHOR_pickup_1.wav 94.19–111.73 | 0.98 | verified |  | from a pickup recording |
 | ep06_s09_l03 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 529.56–535.15 | 1.00 | verified |  |  |
-| ep06_s09_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep06_s10_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep06_s10_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep06_s09_l04 | AUTHOR | AUTHOR_pickup_1.wav 112.37–122.90 | 1.00 | verified |  | from a pickup recording |
+| ep06_s10_l01 | AUTHOR | AUTHOR_pickup_1.wav 123.59–131.92 | 0.99 | verified |  | from a pickup recording |
+| ep06_s10_l02 | AUTHOR | AUTHOR_pickup_1.wav 132.03–138.51 | 1.00 | verified |  | from a pickup recording |
 | ep06_s10_l03 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 535.53–543.35 | 1.00 | verified |  |  |
-| ep06_s10_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep06_s10_l04 | AUTHOR | AUTHOR_pickup_1.wav 139.57–145.02 | 1.00 | verified |  | from a pickup recording |
 | ep06_s10_l05 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 543.72–551.78 | 1.00 | verified |  |  |
-| ep06_s10_l06 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep06_s10_l06 | AUTHOR | AUTHOR_pickup_1.wav 145.77–152.84 | 1.00 | verified |  | from a pickup recording |
 | ep06_s10_l07 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 61.69–68.03 | 1.00 | verified |  |  |
-| ep06_s10_l08 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep06_s10_l08 | AUTHOR | AUTHOR_pickup_1.wav 153.56–161.82 | 0.98 | verified |  | from a pickup recording |
 | ep06_s11_l01 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 552.25–557.24 | 0.98 | verified |  |  |
 | ep06_s11_l02 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 557.70–564.32 | 1.00 | verified |  |  |
-| ep06_s11_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep06_s12_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep06_s11_l03 | AUTHOR | AUTHOR_pickup_1.wav 162.33–168.22 | 1.00 | verified |  | from a pickup recording |
+| ep06_s12_l01 | AUTHOR | AUTHOR_pickup_1.wav 168.82–186.29 | 0.99 | verified |  | from a pickup recording |
 | ep06_s12_l02 | NAWWAB | Generated Audio October 27, 2026 - 2_49AM.wav 78.99–81.01 | 0.97 | verified |  |  |
-| ep06_s12_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep06_s12_l03 | AUTHOR | AUTHOR_pickup_1.wav 186.62–187.30 | 1.00 | verified | start/end set by hand |  |
 | ep06_s12_l04 | NAWWAB | Generated Audio October 27, 2026 - 2_49AM.wav 81.19–88.18 | 1.00 | verified |  |  |
-| ep06_s12_l05 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep06_s12_l05 | AUTHOR | AUTHOR_redo.wav 12.27–18.55 | 1.00 | verified |  | re-recorded |
 | ep06_s13_l01 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 404.09–412.91 | 1.00 | verified |  |  |
 | ep06_s13_l02 | NAWWAB | Generated Audio October 27, 2026 - 2_49AM.wav 88.46–103.20 | 0.96 | verified |  |  |
-| ep06_s13_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep06_s13_l03 | AUTHOR | AUTHOR_pickup_1.wav 194.35–197.95 | 1.00 | verified |  | from a pickup recording |
 | ep06_s13_l04 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 564.74–574.50 | 1.00 | verified |  |  |
-| ep06_s14_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep06_s14_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep06_s14_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep06_s14_l01 | AUTHOR | AUTHOR_pickup_1.wav 198.86–206.45 | 0.98 | verified |  | from a pickup recording |
+| ep06_s14_l02 | AUTHOR | AUTHOR_pickup_1.wav 206.54–220.11 | 1.00 | verified |  | from a pickup recording |
+| ep06_s14_l03 | AUTHOR | AUTHOR_pickup_1.wav 220.32–229.23 | 0.98 | verified |  | from a pickup recording |
 | ep06_s14_l04 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 413.28–423.80 | 1.00 | verified |  |  |
 | ep07_s01_l01 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 424.40–438.47 | 1.00 | verified |  |  |
 | ep07_s01_l02 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 574.79–592.05 | 1.00 | verified |  |  |
-| ep07_s01_l03 | HAFIZ | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s02_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s02_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s02_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s02_l04 | HAFIZ | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s03_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s03_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s03_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s04_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s04_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s04_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep07_s01_l03 | HAFIZ | HAFIZ_missing_01.wav 71.84–85.67 | 1.00 | verified |  | from a pickup recording |
+| ep07_s02_l01 | AUTHOR | AUTHOR_pickup_1.wav 229.55–242.59 | 1.00 | verified |  | from a pickup recording |
+| ep07_s02_l02 | AUTHOR | AUTHOR_pickup_1.wav 242.74–255.48 | 1.00 | verified |  | from a pickup recording |
+| ep07_s02_l03 | AUTHOR | AUTHOR_pickup_1.wav 256.40–270.39 | 1.00 | verified |  | from a pickup recording |
+| ep07_s02_l04 | HAFIZ | HAFIZ_missing_01.wav 86.02–95.09 | 1.00 | verified |  | from a pickup recording |
+| ep07_s03_l01 | AUTHOR | AUTHOR_pickup_1.wav 271.16–283.89 | 1.00 | verified |  | from a pickup recording |
+| ep07_s03_l02 | AUTHOR | AUTHOR_pickup_1.wav 284.19–297.10 | 0.99 | verified |  | from a pickup recording |
+| ep07_s03_l03 | AUTHOR | AUTHOR_pickup_1.wav 297.22–307.11 | 1.00 | verified |  | from a pickup recording |
+| ep07_s04_l01 | AUTHOR | AUTHOR_pickup_1.wav 307.23–318.13 | 0.99 | verified |  | from a pickup recording |
+| ep07_s04_l02 | AUTHOR | AUTHOR_pickup_1.wav 318.16–328.32 | 1.00 | verified |  | from a pickup recording |
+| ep07_s04_l03 | AUTHOR | AUTHOR_pickup_1.wav 328.50–339.11 | 1.00 | verified |  | from a pickup recording |
 | ep07_s05_l01 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 438.75–441.12 | 1.00 | verified |  |  |
 | ep07_s05_l02 | NAWWAB | Generated Audio October 27, 2026 - 2_49AM.wav 103.83–117.23 | 1.00 | verified |  |  |
-| ep07_s05_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s05_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep07_s05_l03 | AUTHOR | AUTHOR_pickup_1.wav 339.11–344.97 | 1.00 | verified |  | from a pickup recording |
+| ep07_s05_l04 | AUTHOR | AUTHOR_pickup_1.wav 345.20–352.46 | 1.00 | verified |  | from a pickup recording |
 | ep07_s05_l05 | NAWWAB | Generated Audio October 27, 2026 - 2_49AM.wav 117.83–126.52 | 1.00 | verified |  |  |
-| ep07_s06_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s06_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s06_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s06_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s07_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s07_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s07_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s07_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep07_s06_l01 | AUTHOR | AUTHOR_pickup_1.wav 352.74–369.49 | 1.00 | verified |  | from a pickup recording |
+| ep07_s06_l02 | AUTHOR | AUTHOR_pickup_1.wav 369.62–381.00 | 1.00 | verified |  | from a pickup recording |
+| ep07_s06_l03 | AUTHOR | AUTHOR_pickup_1.wav 381.29–396.19 | 1.00 | verified |  | from a pickup recording |
+| ep07_s06_l04 | AUTHOR | AUTHOR_pickup_1.wav 396.19–405.67 | 1.00 | verified |  | from a pickup recording |
+| ep07_s07_l01 | AUTHOR | AUTHOR_pickup_1.wav 405.78–411.51 | 1.00 | verified |  | from a pickup recording |
+| ep07_s07_l02 | AUTHOR | AUTHOR_pickup_1.wav 411.80–420.19 | 0.98 | verified |  | from a pickup recording |
+| ep07_s07_l03 | AUTHOR | AUTHOR_pickup_1.wav 420.65–433.07 | 0.99 | verified |  | from a pickup recording |
+| ep07_s07_l04 | AUTHOR | AUTHOR_pickup_1.wav 433.84–439.72 | 1.00 | verified |  | from a pickup recording |
 | ep07_s08_l01 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 68.23–77.71 | 1.00 | verified |  |  |
 | ep07_s08_l02 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 78.12–87.25 | 1.00 | verified |  |  |
-| ep07_s08_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep07_s08_l03 | AUTHOR | AUTHOR_pickup_1.wav 440.61–456.58 | 1.00 | verified |  | from a pickup recording |
 | ep07_s09_l01 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 87.47–102.79 | 0.99 | verified |  |  |
-| ep07_s09_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s09_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep07_s09_l02 | AUTHOR | AUTHOR_pickup_1.wav 457.07–464.15 | 1.00 | verified |  | from a pickup recording |
+| ep07_s09_l03 | AUTHOR | AUTHOR_pickup_1.wav 464.56–480.97 | 1.00 | verified |  | from a pickup recording |
 | ep07_s09_l04 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 103.61–109.51 | 1.00 | verified |  |  |
-| ep07_s09_l05 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s10_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s10_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep07_s09_l05 | AUTHOR | AUTHOR_pickup_1.wav 481.43–498.72 | 0.99 | verified |  | from a pickup recording |
+| ep07_s10_l01 | AUTHOR | AUTHOR_pickup_1.wav 499.15–522.04 | 0.99 | verified |  | from a pickup recording |
+| ep07_s10_l02 | AUTHOR | AUTHOR_pickup_1.wav 522.88–528.10 | 0.99 | verified |  | from a pickup recording |
 | ep07_s11_l01 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 110.15–115.90 | 1.00 | verified |  |  |
-| ep07_s11_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep07_s11_l02 | AUTHOR | AUTHOR_pickup_1.wav 528.18–541.68 | 1.00 | verified |  | from a pickup recording |
 | ep07_s11_l03 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 116.78–122.96 | 1.00 | verified |  |  |
-| ep07_s12_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep07_s12_l01 | AUTHOR | AUTHOR_pickup_1.wav 541.68–557.22 | 0.99 | verified |  | from a pickup recording |
 | ep07_s12_l02 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 441.54–445.01 | 1.00 | verified |  |  |
-| ep07_s12_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s12_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s13_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep07_s12_l03 | AUTHOR | AUTHOR_pickup_1.wav 557.41–564.81 | 0.99 | verified |  | from a pickup recording |
+| ep07_s12_l04 | AUTHOR | AUTHOR_pickup_1.wav 564.99–576.88 | 0.99 | verified |  | from a pickup recording |
+| ep07_s13_l01 | AUTHOR | AUTHOR_pickup_1.wav 577.07–594.73 | 1.00 | verified |  | from a pickup recording |
 | ep07_s13_l02 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 445.43–449.04 | 1.00 | verified |  |  |
-| ep07_s13_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s14_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep07_s14_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep07_s13_l03 | AUTHOR | AUTHOR_pickup_1.wav 594.73–606.74 | 1.00 | verified |  | from a pickup recording |
+| ep07_s14_l01 | AUTHOR | AUTHOR_pickup_1.wav 606.93–617.95 | 0.99 | verified |  | from a pickup recording |
+| ep07_s14_l02 | AUTHOR | AUTHOR_pickup_1.wav 617.95–627.43 | 1.00 | verified |  | from a pickup recording |
 | ep07_s14_l03 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 449.37–459.72 | 0.99 | verified |  |  |
 | ep08_s01_l01 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 123.33–137.32 | 1.00 | verified |  |  |
 | ep08_s01_l02 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 137.58–152.44 | 0.99 | verified |  |  |
-| ep08_s01_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s01_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep08_s01_l03 | AUTHOR | AUTHOR_pickup_1.wav 627.63–632.26 | 1.00 | verified |  | from a pickup recording |
+| ep08_s01_l04 | AUTHOR | AUTHOR_pickup_1.wav 632.58–643.92 | 1.00 | verified |  | from a pickup recording |
 | ep08_s02_l01 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 152.91–158.54 | 0.97 | verified |  |  |
-| ep08_s02_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s02_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s03_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s03_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s03_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s03_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep08_s02_l02 | AUTHOR | AUTHOR_pickup_1.wav 644.15–649.39 | 1.00 | verified |  | from a pickup recording |
+| ep08_s02_l03 | AUTHOR | AUTHOR_pickup_1.wav 649.60–656.57 | 1.00 | verified |  | from a pickup recording |
+| ep08_s03_l01 | AUTHOR | AUTHOR_pickup_1.wav 656.64–669.59 | 0.99 | verified |  | from a pickup recording |
+| ep08_s03_l02 | AUTHOR | AUTHOR_pickup_1.wav 669.86–681.73 | 1.00 | verified |  | from a pickup recording |
+| ep08_s03_l03 | AUTHOR | AUTHOR_pickup_1.wav 681.94–686.86 | 1.00 | verified |  | from a pickup recording |
+| ep08_s03_l04 | AUTHOR | AUTHOR_pickup_1.wav 687.46–693.46 | 1.00 | verified |  | from a pickup recording |
 | ep08_s04_l01 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 159.39–167.57 | 1.00 | verified |  |  |
-| ep08_s04_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s04_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep08_s04_l02 | AUTHOR | AUTHOR_pickup_1.wav 695.07–701.60 | 0.96 | verified |  | the direction was read aloud; it is left out of the clip; from a pickup recording |
+| ep08_s04_l03 | AUTHOR | AUTHOR_pickup_1.wav 701.77–722.02 | 0.99 | verified |  | from a pickup recording |
 | ep08_s05_l01 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 168.43–187.59 | 1.00 | verified |  |  |
-| ep08_s05_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s05_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s06_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s06_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s06_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s06_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s07_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep08_s05_l02 | AUTHOR | AUTHOR_pickup_1.wav 722.19–732.49 | 1.00 | verified |  | from a pickup recording |
+| ep08_s05_l03 | AUTHOR | AUTHOR_pickup_1.wav 732.49–734.70 | 1.00 | verified |  | from a pickup recording |
+| ep08_s06_l01 | AUTHOR | AUTHOR_pickup_1.wav 734.70–750.66 | 1.00 | verified |  | from a pickup recording |
+| ep08_s06_l02 | AUTHOR | AUTHOR_pickup_2.wav 0.17–9.88 | 0.99 | verified |  | from a pickup recording |
+| ep08_s06_l03 | AUTHOR | AUTHOR_pickup_2.wav 10.29–16.23 | 1.00 | verified |  | from a pickup recording |
+| ep08_s06_l04 | AUTHOR | AUTHOR_pickup_2.wav 16.71–30.78 | 1.00 | verified |  | from a pickup recording |
+| ep08_s07_l01 | AUTHOR | AUTHOR_pickup_2.wav 31.37–40.70 | 1.00 | verified |  | from a pickup recording |
 | ep08_s07_l02 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 188.51–192.17 | 1.00 | verified |  |  |
-| ep08_s07_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep08_s07_l03 | AUTHOR | AUTHOR_pickup_2.wav 41.31–46.29 | 1.00 | verified |  | from a pickup recording |
 | ep08_s08_l01 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 193.77–211.13 | 1.00 | verified |  | the direction was read aloud; it is left out of the clip |
 | ep08_s08_l02 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 213.31–237.32 | 0.98 | verified |  | the direction was read aloud; it is left out of the clip |
-| ep08_s09_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s09_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s09_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s09_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s09_l05 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep08_s09_l01 | AUTHOR | AUTHOR_pickup_2.wav 47.00–52.61 | 1.00 | verified |  | from a pickup recording |
+| ep08_s09_l02 | AUTHOR | AUTHOR_pickup_2.wav 53.00–66.54 | 0.98 | verified |  | from a pickup recording |
+| ep08_s09_l03 | AUTHOR | AUTHOR_pickup_2.wav 66.63–71.16 | 1.00 | verified |  | from a pickup recording |
+| ep08_s09_l04 | AUTHOR | AUTHOR_pickup_2.wav 71.75–87.66 | 0.99 | verified |  | from a pickup recording |
+| ep08_s09_l05 | AUTHOR | AUTHOR_pickup_2.wav 88.44–97.68 | 1.00 | verified |  | from a pickup recording |
 | ep08_s10_l01 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 237.81–260.16 | 1.00 | verified |  |  |
-| ep08_s10_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s10_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s10_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s10_l05 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s10_l06 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s10_l07 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s11_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep08_s10_l02 | AUTHOR | AUTHOR_pickup_2.wav 98.15–106.32 | 1.00 | verified |  | from a pickup recording |
+| ep08_s10_l03 | AUTHOR | AUTHOR_pickup_2.wav 106.51–117.08 | 1.00 | verified |  | from a pickup recording |
+| ep08_s10_l04 | AUTHOR | AUTHOR_pickup_2.wav 117.08–121.17 | 1.00 | verified |  | from a pickup recording |
+| ep08_s10_l05 | AUTHOR | AUTHOR_pickup_2.wav 121.21–134.61 | 0.97 | estimated | no pause after this line — check the end | from a pickup recording |
+| ep08_s10_l06 | AUTHOR | AUTHOR_pickup_2.wav 133.64–143.51 | 0.99 | verified |  | from a pickup recording |
+| ep08_s10_l07 | AUTHOR | AUTHOR_pickup_2.wav 143.58–157.99 | 1.00 | verified |  | from a pickup recording |
+| ep08_s11_l01 | AUTHOR | AUTHOR_pickup_2.wav 158.01–182.26 | 1.00 | verified |  | from a pickup recording |
 | ep08_s11_l02 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 260.77–265.96 | 1.00 | verified |  |  |
-| ep08_s11_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s12_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep08_s11_l03 | AUTHOR | AUTHOR_pickup_2.wav 182.66–187.15 | 1.00 | verified |  | from a pickup recording |
+| ep08_s12_l01 | AUTHOR | AUTHOR_pickup_2.wav 187.18–197.95 | 1.00 | verified |  | from a pickup recording |
 | ep08_s12_l02 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 266.43–269.74 | 0.97 | verified |  |  |
-| ep08_s12_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s12_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep08_s12_l05 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep08_s12_l03 | AUTHOR | AUTHOR_pickup_2.wav 198.73–219.43 | 1.00 | verified |  | from a pickup recording |
+| ep08_s12_l04 | AUTHOR | AUTHOR_pickup_2.wav 219.49–235.55 | 1.00 | verified |  | from a pickup recording |
+| ep08_s12_l05 | AUTHOR | AUTHOR_pickup_2.wav 235.55–244.12 | 1.00 | verified |  | from a pickup recording |
 | ep08_s13_l01 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 460.06–471.39 | 0.99 | verified |  |  |
 | ep08_s13_l02 | NAWWAB | Generated Audio October 27, 2026 - 2_49AM.wav 127.07–136.65 | 1.00 | verified |  |  |
 | ep08_s13_l03 | ATTENDEES | Generated Audio October 27, 2026 - 2_35AM.wav 35.20–39.41 | 0.99 | verified |  |  |
@@ -410,127 +410,127 @@
 | ep09_s02_l01 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 498.10–514.64 | 1.00 | verified |  |  |
 | ep09_s02_l02 | NAWWAB | Generated Audio October 27, 2026 - 2_49AM.wav 137.07–143.31 | 1.00 | verified |  |  |
 | ep09_s02_l03 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 515.06–518.31 | 1.00 | verified |  |  |
-| ep09_s02_l04 | HAFIZ | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s03_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s03_l02 | HAFIZ | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s03_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s03_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s03_l05 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s04_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s04_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s05_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s05_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s05_l03 | HAFIZ | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s05_l04 | HAFIZ | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s06_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s06_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s07_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s07_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s07_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep09_s02_l04 | HAFIZ | HAFIZ_missing_01.wav 95.88–98.86 | 1.00 | verified |  | from a pickup recording |
+| ep09_s03_l01 | AUTHOR | AUTHOR_pickup_2.wav 244.50–254.69 | 1.00 | verified |  | from a pickup recording |
+| ep09_s03_l02 | HAFIZ | HAFIZ_missing_01.wav 99.36–108.02 | 1.00 | verified |  | from a pickup recording |
+| ep09_s03_l03 | AUTHOR | AUTHOR_pickup_2.wav 255.85–263.77 | 0.99 | verified |  | from a pickup recording |
+| ep09_s03_l04 | AUTHOR | AUTHOR_pickup_2.wav 264.20–266.54 | 1.00 | verified |  | from a pickup recording |
+| ep09_s03_l05 | AUTHOR | AUTHOR_pickup_2.wav 266.54–269.33 | 0.95 | verified |  | from a pickup recording |
+| ep09_s04_l01 | AUTHOR | AUTHOR_pickup_2.wav 270.12–286.79 | 0.99 | verified |  | from a pickup recording |
+| ep09_s04_l02 | AUTHOR | AUTHOR_pickup_2.wav 287.01–306.02 | 0.99 | verified |  | from a pickup recording |
+| ep09_s05_l01 | AUTHOR | AUTHOR_pickup_2.wav 306.24–318.00 | 1.00 | verified |  | from a pickup recording |
+| ep09_s05_l02 | AUTHOR | AUTHOR_pickup_2.wav 318.40–328.80 | 0.99 | verified |  | from a pickup recording |
+| ep09_s05_l03 | HAFIZ | HAFIZ_missing_01.wav 108.50–114.21 | 1.00 | verified |  | from a pickup recording |
+| ep09_s05_l04 | HAFIZ | HAFIZ_missing_01.wav 114.39–124.84 | 0.99 | verified |  | from a pickup recording |
+| ep09_s06_l01 | AUTHOR | AUTHOR_pickup_2.wav 329.07–344.39 | 0.99 | verified |  | from a pickup recording |
+| ep09_s06_l02 | AUTHOR | AUTHOR_pickup_2.wav 344.87–354.04 | 0.99 | verified |  | from a pickup recording |
+| ep09_s07_l01 | AUTHOR | AUTHOR_pickup_2.wav 354.45–366.25 | 0.98 | verified |  | from a pickup recording |
+| ep09_s07_l02 | AUTHOR | AUTHOR_pickup_2.wav 366.42–368.86 | 0.98 | verified |  | from a pickup recording |
+| ep09_s07_l03 | AUTHOR | AUTHOR_pickup_2.wav 369.12–373.36 | 1.00 | verified |  | from a pickup recording |
 | ep09_s07_l04 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 518.95–526.54 | 1.00 | verified |  |  |
-| ep09_s08_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s08_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s09_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s09_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s10_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s10_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s11_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s11_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s11_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s11_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s12_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s13_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep09_s08_l01 | AUTHOR | AUTHOR_pickup_2.wav 373.71–385.00 | 0.99 | verified |  | from a pickup recording |
+| ep09_s08_l02 | AUTHOR | AUTHOR_pickup_2.wav 385.29–400.45 | 1.00 | verified |  | from a pickup recording |
+| ep09_s09_l01 | AUTHOR | AUTHOR_pickup_2.wav 400.72–408.55 | 1.00 | verified |  | from a pickup recording |
+| ep09_s09_l02 | AUTHOR | AUTHOR_pickup_2.wav 408.62–420.20 | 1.00 | verified |  | from a pickup recording |
+| ep09_s10_l01 | AUTHOR | AUTHOR_pickup_2.wav 420.45–432.66 | 1.00 | verified |  | from a pickup recording |
+| ep09_s10_l02 | AUTHOR | AUTHOR_pickup_2.wav 432.91–447.97 | 1.00 | verified |  | from a pickup recording |
+| ep09_s11_l01 | AUTHOR | AUTHOR_pickup_2.wav 448.05–465.12 | 0.99 | verified |  | from a pickup recording |
+| ep09_s11_l02 | AUTHOR | AUTHOR_pickup_2.wav 465.16–482.85 | 0.99 | verified |  | from a pickup recording |
+| ep09_s11_l03 | AUTHOR | AUTHOR_pickup_2.wav 483.02–497.37 | 1.00 | verified |  | from a pickup recording |
+| ep09_s11_l04 | AUTHOR | AUTHOR_pickup_2.wav 498.01–504.60 | 1.00 | verified |  | from a pickup recording |
+| ep09_s12_l01 | AUTHOR | AUTHOR_pickup_2.wav 504.79–522.52 | 1.00 | verified |  | from a pickup recording |
+| ep09_s13_l01 | AUTHOR | AUTHOR_pickup_2.wav 522.59–533.91 | 0.99 | verified |  | from a pickup recording |
 | ep09_s13_l02 | NAWWAB | Generated Audio October 27, 2026 - 2_49AM.wav 143.70–148.85 | 0.99 | verified |  |  |
-| ep09_s14_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s14_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s14_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s14_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s15_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s15_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep09_s15_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep09_s14_l01 | AUTHOR | AUTHOR_pickup_2.wav 534.00–544.56 | 0.97 | verified |  | from a pickup recording |
+| ep09_s14_l02 | AUTHOR | AUTHOR_pickup_2.wav 544.67–560.04 | 1.00 | verified |  | from a pickup recording |
+| ep09_s14_l03 | AUTHOR | AUTHOR_pickup_2.wav 560.24–579.13 | 0.99 | verified |  | from a pickup recording |
+| ep09_s14_l04 | AUTHOR | AUTHOR_pickup_2.wav 579.52–584.82 | 0.98 | verified |  | from a pickup recording |
+| ep09_s15_l01 | AUTHOR | AUTHOR_pickup_2.wav 584.97–601.68 | 1.00 | verified |  | from a pickup recording |
+| ep09_s15_l02 | AUTHOR | AUTHOR_pickup_2.wav 601.94–618.44 | 1.00 | verified |  | from a pickup recording |
+| ep09_s15_l03 | AUTHOR | AUTHOR_pickup_2.wav 618.72–624.25 | 0.93 | verified |  | from a pickup recording |
 | ep09_s15_l04 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 527.06–539.76 | 0.99 | verified |  |  |
-| ep10_s01_l01 | HAFIZ | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s01_l02 | HAFIZ | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s01_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s01_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s02_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s02_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s02_l03 | HAFIZ | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s02_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s03_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s03_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s04_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s04_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s04_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s05_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s05_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s05_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s05_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s05_l05 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s06_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep10_s01_l01 | HAFIZ | HAFIZ_missing_01.wav 125.28–135.36 | 0.95 | verified |  | from a pickup recording |
+| ep10_s01_l02 | HAFIZ | HAFIZ_missing_01.wav 135.88–143.41 | 1.00 | verified |  | from a pickup recording |
+| ep10_s01_l03 | AUTHOR | AUTHOR_pickup_2.wav 624.47–631.53 | 1.00 | verified |  | from a pickup recording |
+| ep10_s01_l04 | AUTHOR | AUTHOR_pickup_2.wav 631.77–641.61 | 1.00 | verified |  | from a pickup recording |
+| ep10_s02_l01 | AUTHOR | AUTHOR_pickup_2.wav 642.11–652.47 | 1.00 | verified |  | from a pickup recording |
+| ep10_s02_l02 | AUTHOR | AUTHOR_pickup_2.wav 653.01–670.88 | 1.00 | verified |  | from a pickup recording |
+| ep10_s02_l03 | HAFIZ | HAFIZ_missing_01.wav 144.04–151.64 | 1.00 | verified |  | from a pickup recording |
+| ep10_s02_l04 | AUTHOR | AUTHOR_pickup_2.wav 671.27–675.64 | 1.00 | verified |  | from a pickup recording |
+| ep10_s03_l01 | AUTHOR | AUTHOR_pickup_2.wav 676.17–689.51 | 1.00 | verified |  | from a pickup recording |
+| ep10_s03_l02 | AUTHOR | AUTHOR_pickup_2.wav 689.88–704.34 | 0.99 | verified |  | from a pickup recording |
+| ep10_s04_l01 | AUTHOR | AUTHOR_pickup_2.wav 704.73–721.03 | 1.00 | verified |  | from a pickup recording |
+| ep10_s04_l02 | AUTHOR | AUTHOR_pickup_2.wav 721.38–736.34 | 0.99 | verified |  | from a pickup recording |
+| ep10_s04_l03 | AUTHOR | AUTHOR_pickup_2.wav 736.46–744.48 | 1.00 | verified |  | from a pickup recording |
+| ep10_s05_l01 | AUTHOR | AUTHOR_pickup_2.wav 744.61–749.68 | 1.00 | verified |  | from a pickup recording |
+| ep10_s05_l02 | AUTHOR | AUTHOR_pickup_2.wav 749.75–753.89 | 1.00 | verified |  | from a pickup recording |
+| ep10_s05_l03 | AUTHOR | AUTHOR_pickup_2.wav 754.01–763.72 | 0.98 | verified |  | from a pickup recording |
+| ep10_s05_l04 | AUTHOR | AUTHOR_pickup_2.wav 764.33–782.02 | 1.00 | verified |  | from a pickup recording |
+| ep10_s05_l05 | AUTHOR | AUTHOR_pickup_2.wav 782.15–789.74 | 1.00 | verified |  | from a pickup recording |
+| ep10_s06_l01 | AUTHOR | AUTHOR_pickup_2.wav 790.53–800.41 | 0.98 | verified |  | from a pickup recording |
 | ep10_s06_l02 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 592.66–601.17 | 0.98 | verified |  |  |
-| ep10_s06_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s06_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s07_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s07_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s07_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s08_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s08_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s09_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep10_s06_l03 | AUTHOR | AUTHOR_pickup_2.wav 801.66–808.22 | 1.00 | verified |  | from a pickup recording |
+| ep10_s06_l04 | AUTHOR | AUTHOR_pickup_2.wav 808.31–828.81 | 0.99 | verified |  | from a pickup recording |
+| ep10_s07_l01 | AUTHOR | AUTHOR_pickup_2.wav 829.04–838.24 | 0.98 | verified |  | from a pickup recording |
+| ep10_s07_l02 | AUTHOR | AUTHOR_pickup_2.wav 838.61–850.91 | 1.00 | verified |  | from a pickup recording |
+| ep10_s07_l03 | AUTHOR | AUTHOR_pickup_2.wav 851.16–862.12 | 0.99 | verified |  | from a pickup recording |
+| ep10_s08_l01 | AUTHOR | AUTHOR_pickup_2.wav 862.40–879.28 | 1.00 | verified |  | from a pickup recording |
+| ep10_s08_l02 | AUTHOR | AUTHOR_pickup_2.wav 879.49–892.84 | 0.99 | verified |  | from a pickup recording |
+| ep10_s09_l01 | AUTHOR | AUTHOR_pickup_2.wav 893.09–914.38 | 1.00 | verified |  | from a pickup recording |
 | ep10_s09_l02 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 602.48–608.79 | 0.98 | verified |  |  |
-| ep10_s09_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s09_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep10_s09_l03 | AUTHOR | AUTHOR_pickup_2.wav 914.65–918.87 | 1.00 | verified |  | from a pickup recording |
+| ep10_s09_l04 | AUTHOR | AUTHOR_pickup_2.wav 918.91–927.70 | 0.98 | verified |  | from a pickup recording |
 | ep10_s09_l05 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 609.56–619.62 | 1.00 | verified |  |  |
-| ep10_s09_l06 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s09_l07 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s10_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s10_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s11_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s11_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s12_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s12_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s12_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s13_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s13_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s14_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s15_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep10_s15_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep10_s09_l06 | AUTHOR | AUTHOR_pickup_2.wav 927.79–938.56 | 0.99 | verified |  | from a pickup recording |
+| ep10_s09_l07 | AUTHOR | AUTHOR_pickup_2.wav 938.82–941.37 | 0.95 | verified |  | from a pickup recording |
+| ep10_s10_l01 | AUTHOR | AUTHOR_pickup_2.wav 941.69–962.27 | 0.99 | verified |  | from a pickup recording |
+| ep10_s10_l02 | AUTHOR | AUTHOR_pickup_2.wav 962.38–975.10 | 1.00 | verified |  | from a pickup recording |
+| ep10_s11_l01 | AUTHOR | AUTHOR_pickup_2.wav 975.45–986.97 | 0.99 | verified |  | from a pickup recording |
+| ep10_s11_l02 | AUTHOR | AUTHOR_pickup_2.wav 987.12–993.44 | 0.98 | verified |  | from a pickup recording |
+| ep10_s12_l01 | AUTHOR | AUTHOR_pickup_2.wav 994.05–1008.83 | 0.98 | verified |  | from a pickup recording |
+| ep10_s12_l02 | AUTHOR | AUTHOR_pickup_2.wav 1009.32–1019.32 | 1.00 | verified |  | from a pickup recording |
+| ep10_s12_l03 | AUTHOR | AUTHOR_pickup_2.wav 1019.73–1027.20 | 1.00 | verified |  | from a pickup recording |
+| ep10_s13_l01 | AUTHOR | AUTHOR_pickup_2.wav 1027.28–1042.64 | 0.98 | verified |  | from a pickup recording |
+| ep10_s13_l02 | AUTHOR | AUTHOR_pickup_2.wav 1042.77–1060.41 | 1.00 | verified |  | from a pickup recording |
+| ep10_s14_l01 | AUTHOR | AUTHOR_pickup_2.wav 1060.60–1073.15 | 0.98 | verified |  | from a pickup recording |
+| ep10_s15_l01 | AUTHOR | AUTHOR_pickup_2.wav 1073.23–1081.13 | 1.00 | verified |  | from a pickup recording |
+| ep10_s15_l02 | AUTHOR | AUTHOR_pickup_2.wav 1081.21–1092.40 | 1.00 | verified |  | from a pickup recording |
 | ep10_s15_l03 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 540.23–549.93 | 1.00 | verified |  |  |
 | ep11_s01_l01 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 270.44–280.46 | 1.00 | verified |  |  |
-| ep11_s01_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep11_s02_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep11_s02_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep11_s01_l02 | AUTHOR | AUTHOR_pickup_2.wav 1092.55–1110.20 | 1.00 | verified |  | from a pickup recording |
+| ep11_s02_l01 | AUTHOR | AUTHOR_pickup_2.wav 1110.47–1121.99 | 1.00 | verified |  | from a pickup recording |
+| ep11_s02_l02 | AUTHOR | AUTHOR_pickup_2.wav 1122.10–1141.02 | 0.99 | verified |  | from a pickup recording |
 | ep11_s02_l03 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 281.03–289.65 | 1.00 | verified |  |  |
-| ep11_s02_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep11_s02_l04 | AUTHOR | AUTHOR_pickup_2.wav 1141.20–1156.22 | 1.00 | verified |  | from a pickup recording |
 | ep11_s03_l01 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 290.04–303.85 | 1.00 | verified |  |  |
-| ep11_s03_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep11_s03_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep11_s03_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep11_s03_l02 | AUTHOR | AUTHOR_pickup_2.wav 1156.34–1164.44 | 1.00 | verified |  | from a pickup recording |
+| ep11_s03_l03 | AUTHOR | AUTHOR_pickup_2.wav 1164.79–1176.22 | 1.00 | verified |  | from a pickup recording |
+| ep11_s03_l04 | AUTHOR | AUTHOR_pickup_2.wav 1176.39–1187.63 | 1.00 | verified |  | from a pickup recording |
 | ep11_s04_l01 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 304.66–311.84 | 0.99 | verified |  |  |
 | ep11_s04_l02 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 312.16–327.93 | 0.99 | verified |  |  |
 | ep11_s04_l03 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 328.09–337.53 | 1.00 | verified |  |  |
-| ep11_s05_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep11_s05_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep11_s05_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep11_s05_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep11_s05_l01 | AUTHOR | AUTHOR_pickup_2.wav 1187.93–1191.16 | 1.00 | verified |  | from a pickup recording |
+| ep11_s05_l02 | AUTHOR | AUTHOR_pickup_2.wav 1191.42–1205.02 | 1.00 | verified |  | from a pickup recording |
+| ep11_s05_l03 | AUTHOR | AUTHOR_pickup_2.wav 1205.29–1206.93 | 1.00 | verified |  | from a pickup recording |
+| ep11_s05_l04 | AUTHOR | AUTHOR_pickup_2.wav 1207.18–1222.97 | 1.00 | verified |  | from a pickup recording |
 | ep11_s06_l01 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 338.23–342.51 | 1.00 | verified |  |  |
 | ep11_s06_l02 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 342.65–353.76 | 0.99 | verified |  |  |
-| ep11_s06_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep11_s06_l03 | AUTHOR | AUTHOR_pickup_2.wav 1223.38–1231.97 | 1.00 | verified |  | from a pickup recording |
 | ep11_s06_l04 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 354.48–362.85 | 1.00 | verified |  |  |
-| ep11_s07_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep11_s07_l01 | AUTHOR | AUTHOR_pickup_2.wav 1232.11–1237.33 | 1.00 | verified |  | from a pickup recording |
 | ep11_s07_l02 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 363.41–373.81 | 1.00 | verified |  |  |
-| ep11_s07_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep11_s07_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep11_s07_l03 | AUTHOR | AUTHOR_pickup_2.wav 1237.78–1251.18 | 1.00 | verified |  | from a pickup recording |
+| ep11_s07_l04 | AUTHOR | AUTHOR_pickup_2.wav 1251.37–1254.86 | 1.00 | verified |  | from a pickup recording |
 | ep11_s07_l05 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 374.37–382.02 | 1.00 | verified |  |  |
-| ep11_s07_l06 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep11_s08_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep11_s07_l06 | AUTHOR | AUTHOR_pickup_2.wav 1255.53–1264.52 | 1.00 | verified |  | from a pickup recording |
+| ep11_s08_l01 | AUTHOR | AUTHOR_pickup_2.wav 1264.55–1281.30 | 1.00 | verified |  | from a pickup recording |
 | ep11_s08_l02 | NAWWAB | Generated Audio October 27, 2026 - 2_49AM.wav 149.20–152.49 | 0.97 | verified |  |  |
-| ep11_s08_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep11_s09_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep11_s09_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep11_s09_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep11_s09_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep11_s09_l05 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep11_s08_l03 | AUTHOR | AUTHOR_pickup_2.wav 1281.35–1291.50 | 1.00 | verified |  | from a pickup recording |
+| ep11_s09_l01 | AUTHOR | AUTHOR_pickup_2.wav 1291.54–1299.74 | 1.00 | verified |  | from a pickup recording |
+| ep11_s09_l02 | AUTHOR | AUTHOR_pickup_2.wav 1299.81–1307.82 | 1.00 | verified |  | from a pickup recording |
+| ep11_s09_l03 | AUTHOR | AUTHOR_pickup_2.wav 1308.01–1309.12 | 1.00 | verified |  | from a pickup recording |
+| ep11_s09_l04 | AUTHOR | AUTHOR_pickup_2.wav 1309.14–1321.33 | 1.00 | verified |  | from a pickup recording |
+| ep11_s09_l05 | AUTHOR | AUTHOR_pickup_2.wav 1321.33–1329.38 | 1.00 | verified |  | from a pickup recording |
 | ep11_s10_l01 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 550.34–561.48 | 1.00 | verified |  |  |
 | ep11_s11_l01 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 620.14–626.27 | 1.00 | verified |  |  |
 | ep11_s11_l02 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 626.94–641.06 | 1.00 | verified |  |  |
@@ -541,7 +541,7 @@
 | ep11_s12_l05 | NAWWAB | Generated Audio October 27, 2026 - 2_49AM.wav 181.00–192.30 | 1.00 | verified |  |  |
 | ep11_s13_l01 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 561.95–567.16 | 0.96 | verified |  |  |
 | ep11_s13_l02 | NAWWAB | Generated Audio October 27, 2026 - 2_49AM.wav 192.56–202.39 | 0.99 | verified |  |  |
-| ep11_s13_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep11_s13_l03 | AUTHOR | AUTHOR_pickup_2.wav 1329.73–1346.66 | 0.98 | verified |  | from a pickup recording |
 | ep11_s14_l01 | MIRZA_YAQUB | Generated Audio October 27, 2026 - 1_23AM.wav 9.41–23.04 | 1.00 | verified |  |  |
 | ep11_s14_l02 | ATTENDEES | Generated Audio October 27, 2026 - 2_35AM.wav 40.06–48.47 | 1.00 | verified |  |  |
 | ep11_s14_l03 | MIRZA_YAQUB | Generated Audio October 27, 2026 - 1_23AM.wav 23.80–34.98 | 0.98 | verified |  |  |
@@ -551,156 +551,156 @@
 | ep11_s14_l07 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 567.56–580.42 | 0.99 | verified |  |  |
 | ep12_s01_l01 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 580.68–595.89 | 0.99 | verified |  |  |
 | ep12_s01_l02 | ABDULHAYY | Generated Audio October 27, 2026 - 2_56AM.wav 40.10–51.40 | 1.00 | verified |  |  |
-| ep12_s01_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep12_s01_l03 | AUTHOR | AUTHOR_pickup_2.wav 1346.85–1352.52 | 1.00 | verified |  | from a pickup recording |
 | ep12_s01_l04 | ABDULHAYY | Generated Audio October 27, 2026 - 2_56AM.wav 51.86–59.45 | 0.99 | verified |  |  |
 | ep12_s01_l05 | ABDULHAYY | Generated Audio October 27, 2026 - 2_56AM.wav 59.80–64.12 | 1.00 | verified |  |  |
-| ep12_s02_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s02_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep12_s02_l01 | AUTHOR | AUTHOR_pickup_2.wav 1352.70–1360.80 | 0.97 | verified |  | from a pickup recording |
+| ep12_s02_l02 | AUTHOR | AUTHOR_pickup_2.wav 1360.92–1368.02 | 0.99 | verified |  | from a pickup recording |
 | ep12_s02_l03 | ABDULHAYY | Generated Audio October 27, 2026 - 2_56AM.wav 64.64–68.17 | 1.00 | verified |  |  |
-| ep12_s03_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s03_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s03_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep12_s03_l01 | AUTHOR | AUTHOR_pickup_2.wav 1368.25–1374.19 | 0.98 | verified |  | from a pickup recording |
+| ep12_s03_l02 | AUTHOR | AUTHOR_pickup_2.wav 1373.33–1387.08 | 0.98 | estimated | no pause before this line — check the start | from a pickup recording |
+| ep12_s03_l03 | AUTHOR | AUTHOR_pickup_2.wav 1387.12–1393.97 | 0.99 | verified |  | from a pickup recording |
 | ep12_s03_l04 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 667.32–673.86 | 0.99 | verified |  |  |
-| ep12_s03_l05 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s04_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s04_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep12_s03_l05 | AUTHOR | AUTHOR_pickup_2.wav 1394.09–1409.05 | 1.00 | verified |  | from a pickup recording |
+| ep12_s04_l01 | AUTHOR | AUTHOR_pickup_2.wav 1409.57–1420.83 | 0.99 | verified |  | from a pickup recording |
+| ep12_s04_l02 | AUTHOR | AUTHOR_pickup_2.wav 1420.88–1430.13 | 0.99 | verified |  | from a pickup recording |
 | ep12_s04_l03 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 596.50–610.58 | 1.00 | verified |  |  |
-| ep12_s05_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s05_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s05_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s05_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep12_s05_l01 | AUTHOR | AUTHOR_pickup_2.wav 1430.17–1436.83 | 1.00 | verified |  | from a pickup recording |
+| ep12_s05_l02 | AUTHOR | AUTHOR_pickup_2.wav 1436.92–1452.57 | 1.00 | verified |  | from a pickup recording |
+| ep12_s05_l03 | AUTHOR | AUTHOR_pickup_2.wav 1453.12–1462.53 | 1.00 | verified |  | from a pickup recording |
+| ep12_s05_l04 | AUTHOR | AUTHOR_pickup_2.wav 1463.16–1467.93 | 1.00 | verified |  | from a pickup recording |
 | ep12_s06_l01 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 674.19–681.20 | 0.99 | verified |  |  |
 | ep12_s06_l02 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 681.28–688.35 | 1.00 | verified |  |  |
-| ep12_s06_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s06_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep12_s06_l03 | AUTHOR | AUTHOR_pickup_2.wav 1468.97–1473.96 | 1.00 | verified |  | from a pickup recording |
+| ep12_s06_l04 | AUTHOR | AUTHOR_pickup_2.wav 1474.43–1489.22 | 1.00 | verified |  | from a pickup recording |
 | ep12_s06_l05 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 689.01–692.93 | 1.00 | verified |  |  |
-| ep12_s06_l06 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s07_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s07_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s07_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep12_s06_l06 | AUTHOR | AUTHOR_pickup_2.wav 1490.18–1503.05 | 1.00 | verified |  | from a pickup recording |
+| ep12_s07_l01 | AUTHOR | AUTHOR_pickup_2.wav 1503.84–1519.60 | 1.00 | verified |  | from a pickup recording |
+| ep12_s07_l02 | AUTHOR | AUTHOR_pickup_2.wav 1520.36–1525.92 | 1.00 | verified |  | from a pickup recording |
+| ep12_s07_l03 | AUTHOR | AUTHOR_pickup_2.wav 1526.24–1540.76 | 0.98 | verified |  | from a pickup recording |
 | ep12_s08_l01 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 611.09–619.22 | 1.00 | verified |  |  |
-| ep12_s09_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s09_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s09_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s10_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s10_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s10_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s10_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s10_l05 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s10_l06 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s11_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s11_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s11_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s11_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s12_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s12_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s12_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep12_s09_l01 | AUTHOR | AUTHOR_pickup_2.wav 1545.92–1562.43 | 1.00 | estimated | unscripted speech near this line at 1540.5–1544.7s: والانبياء يتصفون باحسن الفضايل | from a pickup recording |
+| ep12_s09_l02 | AUTHOR | AUTHOR_pickup_2.wav 1563.05–1578.26 | 1.00 | verified |  | from a pickup recording |
+| ep12_s09_l03 | AUTHOR | AUTHOR_pickup_2.wav 1578.95–1592.85 | 1.00 | verified |  | from a pickup recording |
+| ep12_s10_l01 | AUTHOR | AUTHOR_pickup_2.wav 1593.24–1613.11 | 1.00 | verified |  | from a pickup recording |
+| ep12_s10_l02 | AUTHOR | AUTHOR_pickup_2.wav 1613.23–1628.21 | 0.99 | verified |  | from a pickup recording |
+| ep12_s10_l03 | AUTHOR | AUTHOR_pickup_2.wav 1628.41–1631.93 | 0.92 | estimated |  | from a pickup recording |
+| ep12_s10_l04 | AUTHOR | AUTHOR_pickup_2.wav 1632.15–1646.21 | 0.99 | verified |  | from a pickup recording |
+| ep12_s10_l05 | AUTHOR | AUTHOR_pickup_2.wav 1646.48–1673.39 | 1.00 | verified |  | from a pickup recording |
+| ep12_s10_l06 | AUTHOR | AUTHOR_pickup_2.wav 1673.69–1681.79 | 1.00 | verified |  | from a pickup recording |
+| ep12_s11_l01 | AUTHOR | AUTHOR_pickup_2.wav 1682.87–1692.26 | 0.98 | verified |  | from a pickup recording |
+| ep12_s11_l02 | AUTHOR | AUTHOR_pickup_2.wav 1692.52–1705.33 | 1.00 | verified |  | from a pickup recording |
+| ep12_s11_l03 | AUTHOR | AUTHOR_pickup_2.wav 1705.75–1715.03 | 1.00 | verified |  | from a pickup recording |
+| ep12_s11_l04 | AUTHOR | AUTHOR_pickup_2.wav 1715.13–1725.07 | 1.00 | verified |  | from a pickup recording |
+| ep12_s12_l01 | AUTHOR | AUTHOR_pickup_2.wav 1725.56–1737.29 | 0.97 | estimated | no pause after this line — check the end | from a pickup recording |
+| ep12_s12_l02 | AUTHOR | AUTHOR_pickup_2.wav 1736.49–1739.65 | 0.98 | verified |  | from a pickup recording |
+| ep12_s12_l03 | AUTHOR | AUTHOR_pickup_2.wav 1740.08–1743.74 | 1.00 | verified |  | from a pickup recording |
 | ep12_s13_l01 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 693.04–700.47 | 1.00 | verified |  |  |
 | ep12_s13_l02 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 700.82–714.10 | 0.99 | verified |  |  |
 | ep12_s13_l03 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 714.55–724.10 | 1.00 | verified |  |  |
 | ep12_s13_l04 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 724.44–730.94 | 1.00 | verified |  |  |
-| ep12_s14_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep12_s14_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep12_s14_l01 | AUTHOR | AUTHOR_pickup_2.wav 1744.05–1746.99 | 0.96 | verified |  | from a pickup recording |
+| ep12_s14_l02 | AUTHOR | AUTHOR_pickup_2.wav 1747.03–1754.20 | 0.99 | verified |  | from a pickup recording |
 | ep12_s14_l03 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 619.70–630.09 | 0.99 | verified |  |  |
-| ep13_s01_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep13_s01_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep13_s01_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep13_s02_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep13_s01_l01 | AUTHOR | AUTHOR_pickup_2.wav 1754.58–1762.45 | 0.99 | verified |  | from a pickup recording |
+| ep13_s01_l02 | AUTHOR | AUTHOR_pickup_2.wav 1762.55–1781.76 | 1.00 | verified |  | from a pickup recording |
+| ep13_s01_l03 | AUTHOR | AUTHOR_pickup_2.wav 1781.83–1789.41 | 1.00 | verified |  | from a pickup recording |
+| ep13_s02_l01 | AUTHOR | AUTHOR_pickup_2.wav 1789.69–1805.04 | 0.99 | verified |  | from a pickup recording |
 | ep13_s02_l02 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 731.26–737.25 | 1.00 | verified |  |  |
-| ep13_s02_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep13_s02_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep13_s02_l03 | AUTHOR | AUTHOR_pickup_2.wav 1806.04–1817.15 | 1.00 | verified |  | from a pickup recording |
+| ep13_s02_l04 | AUTHOR | AUTHOR_pickup_2.wav 1817.23–1819.75 | 1.00 | verified |  | from a pickup recording |
 | ep13_s02_l05 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 737.68–749.80 | 1.00 | verified |  |  |
-| ep13_s03_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep13_s03_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep13_s04_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep13_s04_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep13_s04_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep13_s03_l01 | AUTHOR | AUTHOR_pickup_2.wav 1820.20–1828.02 | 1.00 | verified |  | from a pickup recording |
+| ep13_s03_l02 | AUTHOR | AUTHOR_pickup_2.wav 1828.27–1839.05 | 1.00 | verified |  | from a pickup recording |
+| ep13_s04_l01 | AUTHOR | AUTHOR_pickup_2.wav 1839.21–1849.18 | 1.00 | verified |  | from a pickup recording |
+| ep13_s04_l02 | AUTHOR | AUTHOR_pickup_2.wav 1849.25–1858.18 | 0.99 | verified |  | from a pickup recording |
+| ep13_s04_l03 | AUTHOR | AUTHOR_pickup_2.wav 1858.37–1870.18 | 1.00 | verified |  | from a pickup recording |
 | ep13_s04_l04 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 750.15–758.78 | 0.99 | verified |  |  |
-| ep13_s04_l05 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep13_s04_l05 | AUTHOR | AUTHOR_pickup_2.wav 1870.46–1879.86 | 1.00 | verified |  | from a pickup recording |
 | ep13_s05_l01 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 759.20–768.46 | 1.00 | verified |  |  |
-| ep13_s05_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep13_s05_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep13_s05_l02 | AUTHOR | AUTHOR_pickup_2.wav 1880.47–1895.01 | 1.00 | verified |  | from a pickup recording |
+| ep13_s05_l03 | AUTHOR | AUTHOR_pickup_2.wav 1895.44–1915.62 | 1.00 | verified |  | from a pickup recording |
 | ep13_s06_l01 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 382.19–390.80 | 0.99 | verified |  |  |
-| ep13_s06_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep13_s06_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep13_s06_l02 | AUTHOR | AUTHOR_pickup_2.wav 1916.28–1922.85 | 1.00 | verified |  | from a pickup recording |
+| ep13_s06_l03 | AUTHOR | AUTHOR_pickup_2.wav 1923.12–1928.61 | 1.00 | verified |  | from a pickup recording |
 | ep13_s07_l01 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 630.48–637.94 | 0.98 | verified |  |  |
 | ep13_s07_l02 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 768.71–777.51 | 0.99 | verified |  |  |
-| ep13_s07_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep13_s07_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep13_s08_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep13_s08_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep13_s08_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep13_s07_l03 | AUTHOR | AUTHOR_pickup_2.wav 1929.10–1932.87 | 1.00 | verified |  | from a pickup recording |
+| ep13_s07_l04 | AUTHOR | AUTHOR_pickup_2.wav 1933.18–1951.57 | 1.00 | verified |  | from a pickup recording |
+| ep13_s08_l01 | AUTHOR | AUTHOR_pickup_2.wav 1952.16–1968.97 | 1.00 | verified |  | from a pickup recording |
+| ep13_s08_l02 | AUTHOR | AUTHOR_pickup_2.wav 1969.47–1970.74 | 1.00 | verified |  | from a pickup recording |
+| ep13_s08_l03 | AUTHOR | AUTHOR_pickup_2.wav 1971.11–1984.02 | 0.99 | verified |  | from a pickup recording |
 | ep13_s09_l01 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 777.96–786.53 | 1.00 | verified |  |  |
-| ep13_s09_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep13_s09_l02 | AUTHOR | AUTHOR_pickup_2.wav 1984.40–1991.69 | 0.99 | verified |  | from a pickup recording |
 | ep13_s09_l03 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 638.32–648.20 | 1.00 | verified |  |  |
 | ep13_s09_l04 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 787.28–797.09 | 1.00 | verified |  |  |
 | ep13_s09_l05 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 797.77–804.49 | 0.98 | verified |  |  |
-| ep13_s09_l06 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep13_s09_l06 | AUTHOR | AUTHOR_pickup_2.wav 1991.97–2005.02 | 0.99 | verified |  | from a pickup recording |
 | ep13_s10_l01 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 805.14–809.68 | 1.00 | verified |  |  |
 | ep13_s10_l02 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 810.40–824.51 | 1.00 | verified |  |  |
-| ep13_s10_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep13_s10_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep13_s10_l03 | AUTHOR | AUTHOR_pickup_2.wav 2005.32–2022.67 | 1.00 | verified |  | from a pickup recording |
+| ep13_s10_l04 | AUTHOR | AUTHOR_pickup_2.wav 2023.03–2037.00 | 1.00 | verified |  | from a pickup recording |
 | ep13_s11_l01 | NAWWAB | Generated Audio October 27, 2026 - 2_49AM.wav 202.53–215.42 | 1.00 | verified |  |  |
-| ep13_s11_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep13_s11_l02 | AUTHOR | AUTHOR_pickup_2.wav 2037.62–2042.18 | 1.00 | verified |  | from a pickup recording |
 | ep13_s11_l03 | NAWWAB | Generated Audio October 27, 2026 - 2_49AM.wav 215.65–222.57 | 1.00 | verified |  |  |
-| ep13_s12_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep13_s12_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep13_s12_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep13_s13_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep13_s14_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep13_s12_l01 | AUTHOR | AUTHOR_pickup_2.wav 2042.73–2052.82 | 1.00 | verified |  | from a pickup recording |
+| ep13_s12_l02 | AUTHOR | AUTHOR_pickup_2.wav 2052.99–2060.57 | 1.00 | verified |  | from a pickup recording |
+| ep13_s12_l03 | AUTHOR | AUTHOR_pickup_2.wav 2060.57–2067.12 | 1.00 | verified |  | from a pickup recording |
+| ep13_s13_l01 | AUTHOR | AUTHOR_pickup_2.wav 2067.34–2082.96 | 1.00 | verified |  | from a pickup recording |
+| ep13_s14_l01 | AUTHOR | AUTHOR_pickup_2.wav 2083.22–2104.35 | 1.00 | verified |  | from a pickup recording |
 | ep13_s15_l01 | NAWWAB | Generated Audio October 27, 2026 - 2_49AM.wav 222.72–237.03 | 1.00 | verified |  |  |
 | ep13_s15_l02 | NAWWAB | Generated Audio October 27, 2026 - 2_49AM.wav 237.41–256.23 | 1.00 | verified |  |  |
 | ep13_s15_l03 | NAWWAB | Generated Audio October 27, 2026 - 2_49AM.wav 256.44–267.03 | 1.00 | verified |  |  |
 | ep13_s15_l04 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 648.56–658.00 | 1.00 | verified |  |  |
 | ep14_s01_l01 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 658.45–678.10 | 0.89 | verified |  |  |
 | ep14_s01_l02 | ABDULHAYY | Generated Audio October 27, 2026 - 2_56AM.wav 68.64–76.68 | 1.00 | verified |  |  |
-| ep14_s01_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep14_s01_l03 | AUTHOR | AUTHOR_pickup_2.wav 2104.86–2110.41 | 1.00 | verified |  | from a pickup recording |
 | ep14_s01_l04 | ABDULHAYY | Generated Audio October 27, 2026 - 2_56AM.wav 77.33–92.06 | 0.99 | verified |  |  |
-| ep14_s02_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s02_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep14_s02_l01 | AUTHOR | AUTHOR_pickup_2.wav 2111.09–2123.78 | 1.00 | verified |  | from a pickup recording |
+| ep14_s02_l02 | AUTHOR | AUTHOR_pickup_2.wav 2124.16–2133.90 | 1.00 | verified |  | from a pickup recording |
 | ep14_s02_l03 | ABDULHAYY | Generated Audio October 27, 2026 - 2_56AM.wav 92.57–95.24 | 1.00 | verified |  |  |
 | ep14_s02_l04 | ABDULHAYY | Generated Audio October 27, 2026 - 2_56AM.wav 95.47–103.90 | 0.99 | verified |  |  |
-| ep14_s02_l05 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s03_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s03_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s03_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s04_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s04_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s04_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s04_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s05_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s05_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s05_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s05_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s06_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s06_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s06_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s07_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep14_s02_l05 | AUTHOR | AUTHOR_pickup_2.wav 2134.49–2150.67 | 1.00 | verified |  | from a pickup recording |
+| ep14_s03_l01 | AUTHOR | AUTHOR_pickup_2.wav 2151.28–2172.93 | 1.00 | verified |  | from a pickup recording |
+| ep14_s03_l02 | AUTHOR | AUTHOR_pickup_2.wav 2173.35–2189.36 | 1.00 | verified |  | from a pickup recording |
+| ep14_s03_l03 | AUTHOR | AUTHOR_pickup_2.wav 2189.45–2196.65 | 1.00 | verified |  | from a pickup recording |
+| ep14_s04_l01 | AUTHOR | AUTHOR_pickup_2.wav 2196.82–2208.58 | 1.00 | verified |  | from a pickup recording |
+| ep14_s04_l02 | AUTHOR | AUTHOR_pickup_2.wav 2209.10–2222.72 | 1.00 | verified |  | from a pickup recording |
+| ep14_s04_l03 | AUTHOR | AUTHOR_pickup_2.wav 2223.25–2228.21 | 0.99 | verified |  | from a pickup recording |
+| ep14_s04_l04 | AUTHOR | AUTHOR_pickup_2.wav 2228.97–2244.42 | 0.98 | verified |  | from a pickup recording |
+| ep14_s05_l01 | AUTHOR | AUTHOR_pickup_2.wav 2245.23–2261.82 | 1.00 | verified |  | from a pickup recording |
+| ep14_s05_l02 | AUTHOR | AUTHOR_pickup_2.wav 2262.49–2267.44 | 1.00 | verified |  | from a pickup recording |
+| ep14_s05_l03 | AUTHOR | AUTHOR_pickup_2.wav 2267.56–2281.90 | 1.00 | verified |  | from a pickup recording |
+| ep14_s05_l04 | AUTHOR | AUTHOR_pickup_2.wav 2282.27–2285.32 | 1.00 | verified |  | from a pickup recording |
+| ep14_s06_l01 | AUTHOR | AUTHOR_pickup_2.wav 2285.99–2299.60 | 0.99 | verified |  | from a pickup recording |
+| ep14_s06_l02 | AUTHOR | AUTHOR_pickup_2.wav 2299.70–2315.58 | 1.00 | verified |  | from a pickup recording |
+| ep14_s06_l03 | AUTHOR | AUTHOR_pickup_2.wav 2316.17–2333.06 | 1.00 | verified |  | from a pickup recording |
+| ep14_s07_l01 | AUTHOR | AUTHOR_pickup_2.wav 2333.61–2344.95 | 1.00 | verified |  | from a pickup recording |
 | ep14_s07_l02 | ABDULHAYY | Generated Audio October 27, 2026 - 2_56AM.wav 104.25–110.51 | 0.99 | verified |  |  |
 | ep14_s07_l03 | ABDULHAYY | Generated Audio October 27, 2026 - 2_56AM.wav 110.66–116.32 | 1.00 | verified |  |  |
-| ep14_s07_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s08_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s08_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s08_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s09_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s09_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s10_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s10_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep14_s07_l04 | AUTHOR | AUTHOR_pickup_2.wav 2345.10–2354.21 | 1.00 | verified |  | from a pickup recording |
+| ep14_s08_l01 | AUTHOR | AUTHOR_pickup_2.wav 2354.80–2373.50 | 1.00 | verified |  | from a pickup recording |
+| ep14_s08_l02 | AUTHOR | AUTHOR_pickup_2.wav 2373.65–2384.11 | 1.00 | verified |  | from a pickup recording |
+| ep14_s08_l03 | AUTHOR | AUTHOR_pickup_2.wav 2384.20–2389.97 | 1.00 | verified |  | from a pickup recording |
+| ep14_s09_l01 | AUTHOR | AUTHOR_pickup_2.wav 2390.48–2400.36 | 1.00 | verified |  | from a pickup recording |
+| ep14_s09_l02 | AUTHOR | AUTHOR_pickup_2.wav 2400.87–2417.27 | 1.00 | verified |  | from a pickup recording |
+| ep14_s10_l01 | AUTHOR | AUTHOR_pickup_2.wav 2417.79–2430.43 | 1.00 | verified |  | from a pickup recording |
+| ep14_s10_l02 | AUTHOR | AUTHOR_pickup_2.wav 2430.59–2444.69 | 0.93 | verified |  | from a pickup recording |
 | ep14_s10_l03 | ABDULHAYY | Generated Audio October 27, 2026 - 2_56AM.wav 116.67–123.30 | 1.00 | verified |  |  |
-| ep14_s10_l04 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s11_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s11_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s11_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep14_s10_l04 | AUTHOR | AUTHOR_pickup_2.wav 2445.19–2460.98 | 1.00 | verified |  | from a pickup recording |
+| ep14_s11_l01 | AUTHOR | AUTHOR_pickup_2.wav 2461.48–2468.23 | 0.97 | verified |  | from a pickup recording |
+| ep14_s11_l02 | AUTHOR | AUTHOR_pickup_2.wav 2468.47–2483.89 | 0.99 | verified |  | from a pickup recording |
+| ep14_s11_l03 | AUTHOR | AUTHOR_pickup_2.wav 2483.97–2488.13 | 1.00 | verified |  | from a pickup recording |
 | ep14_s11_l04 | ABDULHAYY | Generated Audio October 27, 2026 - 2_56AM.wav 123.69–129.24 | 0.98 | verified |  |  |
-| ep14_s12_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s12_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s12_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep14_s12_l01 | AUTHOR | AUTHOR_pickup_2.wav 2488.57–2499.53 | 1.00 | verified |  | from a pickup recording |
+| ep14_s12_l02 | AUTHOR | AUTHOR_pickup_2.wav 2499.62–2511.34 | 1.00 | verified |  | from a pickup recording |
+| ep14_s12_l03 | AUTHOR | AUTHOR_pickup_2.wav 2511.44–2529.32 | 1.00 | verified |  | from a pickup recording |
 | ep14_s13_l01 | NAWWAB | Generated Audio October 27, 2026 - 2_49AM.wav 267.20–268.95 | 1.00 | verified |  |  |
-| ep14_s13_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep14_s13_l02 | AUTHOR | AUTHOR_pickup_2.wav 2529.94–2535.70 | 1.00 | verified |  | from a pickup recording |
 | ep14_s13_l03 | NAWWAB | Generated Audio October 27, 2026 - 2_49AM.wav 270.67–280.72 | 0.99 | verified |  | the direction was read aloud; it is left out of the clip |
-| ep14_s14_l01 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s14_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep14_s14_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep14_s14_l01 | AUTHOR | AUTHOR_pickup_2.wav 2536.38–2551.38 | 1.00 | verified |  | from a pickup recording |
+| ep14_s14_l02 | AUTHOR | AUTHOR_pickup_2.wav 2551.83–2568.34 | 1.00 | verified |  | from a pickup recording |
+| ep14_s14_l03 | AUTHOR | AUTHOR_pickup_2.wav 2568.52–2580.76 | 1.00 | verified |  | from a pickup recording |
 | ep14_s15_l01 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 825.12–833.51 | 1.00 | verified |  |  |
 | ep14_s15_l02 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 834.13–844.45 | 1.00 | verified |  |  |
 | ep14_s15_l03 | AUTHOR | Generated Audio October 27, 2026 - 2_02AM.wav 0.12–6.75 | 1.00 | verified |  |  |
@@ -714,8 +714,8 @@
 | ep15_s03_l01 | AUTHOR | Generated Audio October 27, 2026 - 2_02AM.wav 32.80–48.72 | 1.00 | verified |  |  |
 | ep15_s03_l02 | AUTHOR | Generated Audio October 27, 2026 - 2_02AM.wav 49.06–62.02 | 1.00 | verified |  |  |
 | ep15_s03_l03 | AUTHOR | Generated Audio October 27, 2026 - 2_02AM.wav 62.44–70.56 | 1.00 | verified |  |  |
-| ep15_s04_l01 | AUTHOR | Generated Audio October 27, 2026 - 2_02AM.wav 70.94–88.75 | 0.75 | verified |  |  |
-| ep15_s04_l02 | AUTHOR | Generated Audio October 27, 2026 - 2_02AM.wav 88.84–98.94 | 0.77 | estimated |  |  |
+| ep15_s04_l01 | AUTHOR | AUTHOR_redo.wav 18.98–32.27 | 0.95 | verified |  | re-recorded |
+| ep15_s04_l02 | AUTHOR | AUTHOR_redo.wav 32.69–48.12 | 1.00 | verified |  | re-recorded |
 | ep15_s05_l01 | AUTHOR | Generated Audio October 27, 2026 - 2_02AM.wav 99.42–110.66 | 1.00 | verified |  |  |
 | ep15_s05_l02 | AUTHOR | Generated Audio October 27, 2026 - 2_02AM.wav 110.98–126.05 | 1.00 | verified |  |  |
 | ep15_s06_l01 | AUTHOR | Generated Audio October 27, 2026 - 2_02AM.wav 126.41–134.89 | 0.99 | verified |  |  |
@@ -1091,7 +1091,7 @@
 | ep22_s05_l03 | ABDUSSALAM | Generated Audio October 27, 2026 - 2_28AM.wav 705.26–711.14 | 0.99 | verified |  | the direction was read aloud; it is left out of the clip |
 | ep22_s05_l04 | AUTHOR | Generated Audio October 27, 2026 - 2_08AM.wav 1810.89–1825.42 | 1.00 | verified |  |  |
 | ep22_s06_l01 | AUTHOR | Generated Audio October 27, 2026 - 2_08AM.wav 1825.61–1840.12 | 1.00 | verified |  |  |
-| ep22_s06_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep22_s06_l02 | AUTHOR | AUTHOR_pickup_2.wav 2581.25–2589.74 | 1.00 | verified |  | from a pickup recording |
 | ep22_s06_l03 | AUTHOR | Generated Audio October 27, 2026 - 2_08AM.wav 1840.26–1851.88 | 0.98 | verified |  |  |
 | ep22_s06_l04 | AUTHOR | Generated Audio October 27, 2026 - 2_08AM.wav 1852.34–1857.12 | 0.99 | verified |  |  |
 | ep22_s07_l01 | AUTHOR | Generated Audio October 27, 2026 - 2_08AM.wav 1857.58–1866.02 | 0.99 | verified |  |  |
@@ -1123,5 +1123,5 @@
 | ep22_s15_l03 | HAFIZ | Generated Audio October 26, 2026 - 2_36PM.wav 1042.07–1063.55 | 1.00 | verified |  |  |
 | ep22_s15_l04 | AUTHOR | Generated Audio October 27, 2026 - 2_08AM.wav 2041.39–2052.99 | 1.00 | verified |  |  |
 | ep22_s16_l01 | NARRATOR | Generated Audio October 27, 2026 - 2_19AM.wav 888.75–897.11 | 0.98 | verified |  |  |
-| ep22_s16_l02 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
-| ep22_s16_l03 | AUTHOR | — | 0.00 | unverified | line not found in the recording |  |
+| ep22_s16_l02 | AUTHOR | AUTHOR_pickup_2.wav 2589.92–2599.39 | 1.00 | verified |  | from a pickup recording |
+| ep22_s16_l03 | AUTHOR | AUTHOR_pickup_2.wav 2599.49–2614.89 | 0.99 | verified |  | from a pickup recording |

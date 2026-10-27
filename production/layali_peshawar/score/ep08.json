@@ -1,0 +1,135 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "الشيخ عبد السلام يعدّ الأحاديث على أصابعه",
+   "music": "reverent",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: مقام; ambience of the episode's place"
+  },
+  {
+   "scene": 2,
+   "title": "لوحة رمزية",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: أهل; ambience of the episode's place"
+  },
+  {
+   "scene": 3,
+   "title": "لوحة استعادية دافئة",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 4,
+   "title": "الشيخ عبد السلام يقرأ من كتاب",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: يقرأ"
+  },
+  {
+   "scene": 5,
+   "title": "الشيخ عبد السلام يقدّم ورقة أخرى بحماسة",
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: يقين; ambience of the episode's place"
+  },
+  {
+   "scene": 6,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 7,
+   "title": "المؤلف يلتفت مباشرة إلى الشيخ عبد السلام",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "default; ambience of the episode's place"
+  },
+  {
+   "scene": 8,
+   "title": "الشيخ عبد السلام يغيّر الموضوع بنبرة ودّية",
+   "music": "none",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: ركع; ambience of the episode's place"
+  },
+  {
+   "scene": 9,
+   "title": "المؤلف يفكر لحظة ثم يتكلم بتأنٍّ",
+   "music": "suspense",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: حيرة; ambience of the episode's place"
+  },
+  {
+   "scene": 10,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 11,
+   "title": "لوحة رمزية",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: صديق; ambience of the episode's place"
+  },
+  {
+   "scene": 12,
+   "title": "المؤلف يقرأ الآية من مصحف صغير بين يديه",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: يقرأ"
+  },
+  {
+   "scene": 13,
+   "title": "لقطة لساعة جيب مفتوحة في يد أحد العلماء",
+   "music": "ending",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: سؤال; ambience of the episode's place; last scene"
+  }
+ ]
+}
