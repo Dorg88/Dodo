@@ -35,6 +35,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.abspath(os.path.join(HERE, "..", "..", ".."))
 BRAND = os.path.join(REPO, "storybook", "assets", "brand")
 NAMES = {"section": "logo_section.png", "shrine": "logo_shrine.png", "hikaya": "logo_hikaya.png"}
+GILDED = {"shrine"}   # shown in gold in the intro (the producer's choice for the Holy Shrine)
 
 
 def find_original(folder, key):
@@ -87,6 +88,30 @@ def prepare_logo(src, dst, white=232, soft=110, pad=0.04, max_side=1200):
     return canvas.size
 
 
+def gild(path):
+    """Turn a one-colour logo into polished gold, keeping its shape and soft edges: a warm
+    gradient from light to deep gold, a fine sheen, and a darker gold rim so it stays crisp
+    on the paper."""
+    im = Image.open(path).convert("RGBA")
+    a = np.asarray(im).astype(np.float32)
+    alpha = a[..., 3] / 255.0
+    h, w = alpha.shape
+    y = np.linspace(0, 1, h)[:, None] * np.ones((1, w))
+    x = np.ones((h, 1)) * np.linspace(0, 1, w)[None, :]
+    stops = np.array([[0.00, 248, 222, 140], [0.35, 228, 182, 74], [0.62, 196, 142, 42], [1.00, 150, 102, 24]])
+    t = np.clip(0.85 * y + 0.15 * x, 0, 1)
+    rgb = np.stack([np.interp(t, stops[:, 0], stops[:, k]) for k in (1, 2, 3)], axis=-1)
+    # a diagonal sheen, as on worked metal
+    sheen = np.exp(-((x - y * 0.6 - 0.25) ** 2) / 0.004) * 0.35 + np.exp(-((x - y * 0.6 - 0.62) ** 2) / 0.002) * 0.2
+    rgb = rgb + (255 - rgb) * sheen[..., None]
+    # darker rim: where the shape thins out towards its edge
+    inner = ndimage.gaussian_filter(alpha, 2.0)
+    rim = np.clip((alpha - inner) * 3.0, 0, 1)[..., None]
+    rgb = rgb * (1 - 0.45 * rim) + np.array([110, 72, 14]) * 0.45 * rim
+    out = np.dstack([np.clip(rgb, 0, 255), a[..., 3]]).astype(np.uint8)
+    Image.fromarray(out, "RGBA").save(path, optimize=True)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--originals", default=os.path.join(HERE, "logos_original"))
@@ -104,6 +129,8 @@ def main():
     os.makedirs(os.path.join(project, "logos"), exist_ok=True)
     for key, name in NAMES.items():
         size = prepare_logo(find_original(args.originals, key), os.path.join(project, "logos", name))
+        if key in GILDED:
+            gild(os.path.join(project, "logos", name))
         print(f"prepared {key}: {size[0]}x{size[1]}")
 
     raw = os.path.join(project, "out", "intro_raw.mp4")

@@ -41,6 +41,13 @@
       .logo-box img { display: block; object-fit: contain; }
       #logo1 { width: 760px; height: 1000px; }
       #logo2 { width: 900px; height: 900px; }
+      /* the Holy Shrine in gold: a warm glow that follows the logo's own shape (no disc, no ring) */
+      #logo2 img { filter: drop-shadow(0 0 6px rgba(255, 214, 120, 0.9)) drop-shadow(0 0 26px rgba(222, 168, 58, 0.55)); }
+      /* a warm night behind the gold, only while the Holy Shrine is on screen */
+      #night { position: absolute; inset: 0; opacity: 0;
+        background: radial-gradient(circle at 50% 47%, #4a3018 0%, #2a1b0e 48%, #150e07 100%); }
+      #glow2 { position: absolute; inset: 0; opacity: 0;
+        filter: blur(22px) brightness(1.35) saturate(1.2); }
       #logo3 { width: 900px; height: 900px; }
       .shine {
         position: absolute; top: -20%; left: 0;
@@ -82,8 +89,10 @@
 
       <!-- 2. The Holy Shrine (main institution) -->
       <div id="s2" class="clip" data-start="2.4" data-duration="2.4" data-track-index="1">
+        <div id="night"></div>
         <div class="logo-box" id="logo2">
-          <img src="logos/logo_shrine.png" alt="الأمانة العامة للعتبة الحسينية المقدسة" style="width: 100%; height: 100%" />
+          <img id="glow2" src="logos/logo_shrine.png" alt="" style="width: 100%; height: 100%" />
+          <img src="logos/logo_shrine.png" alt="الأمانة العامة للعتبة الحسينية المقدسة" style="width: 100%; height: 100%; position: relative" />
           <div class="light"><div class="shine" id="shine2"></div></div>
         </div>
       </div>
@@ -110,11 +119,16 @@
       tl.to("#shine1", { opacity: 0, duration: 0.15 }, 1.6);
       tl.to("#logo1", { opacity: 0, scale: 1.04, y: -20, duration: 0.45, ease: "power2.in" }, 1.95);
 
-      // 2 — Holy Shrine: gentle turn into place, a sweep of light over the shrine
+      // 2 — Holy Shrine, in gold: gentle turn into place, the gold glows, a sweep of light over it
       tl.fromTo("#logo2", { opacity: 0, scale: 0.82, rotation: -4 }, { opacity: 1, scale: 1, rotation: 0, duration: 0.8, ease: "back.out(1.4)" }, 2.55);
+      // the gold breathes: its glow swells once and settles
+      tl.fromTo("#night", { opacity: 0 }, { opacity: 1, duration: 0.35, ease: "sine.inOut" }, 2.4);
+      tl.to("#night", { opacity: 0, duration: 0.45, ease: "sine.inOut" }, 4.35);
+      tl.fromTo("#glow2", { opacity: 0 }, { opacity: 0.7, duration: 0.7, ease: "sine.out" }, 2.9);
+      tl.to("#glow2", { opacity: 0.4, duration: 0.8, ease: "sine.inOut" }, 3.6);
       tl.fromTo("#shine2", { x: -300, opacity: 0 }, { x: 900, opacity: 1, duration: 0.8, ease: "power1.inOut" }, 3.3);
       tl.to("#shine2", { opacity: 0, duration: 0.15 }, 3.95);
-      tl.to("#logo2", { opacity: 0, scale: 1.04, duration: 0.45, ease: "power2.in" }, 4.35);
+      tl.to(["#logo2", "#glow2"], { opacity: 0, scale: 1.04, duration: 0.45, ease: "power2.in" }, 4.35);
 
       // 3 — HIKAYA: the book opens upward, light passes over it, the tagline settles
       tl.fromTo("#logo3", { opacity: 0, scaleY: 0.7, scaleX: 0.95, y: 40, transformOrigin: "50% 85%" },
