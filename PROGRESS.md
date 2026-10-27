@@ -52,4 +52,6 @@
 - [x] The producer's 52 ChatGPT pictures matched by content to 44 of the 45 scenes of the Prophet, Ahl al-Bayt and
       the prophets (`chatgpt_images.json`); v3 built and tested
 - [x] Ep08 scene 06 (the two roasted birds): an SVG drawn for it; v4 built and tested
-- [ ] **Producer:** confirm 4 closest matches; check background playback and lock-screen controls on the phone
+- [x] On the producer's phone: playback continues with the screen off; picture, text and voice stay together
+- [ ] **Producer:** confirm 4 closest matches; confirm that starting a second episode stops the first (needs the
+      app from release `apk-latest`, built after the fix of 2026-10-26)

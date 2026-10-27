@@ -97,7 +97,7 @@ These cannot be recovered from the supplied assets:
 | Storybook page turns | PASS | Swipe the picture or tap a page dot to turn the page; page-turn slide in reading direction; pictures never cropped or moved inside their frame |
 | Episodes awaiting approval marked | PASS | «قيد المراجعة» under the episode title (`status: review` in book.json) |
 | Arabic right-to-left rendering | PASS | Screenshots `storybook/screenshots/out/`, preview videos |
-| Background playback / lock-screen controls | NOT VERIFIED ON DEVICE | needs a phone |
+| Background playback / lock-screen controls | PASS (background) | Producer's phone, 2026-10-27: sound continues with the screen off; lock-screen controls and «one episode at a time» on the phone to be confirmed |
 | Launch intro | PASS | unchanged since the cloud session |
 
 ---
