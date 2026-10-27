@@ -49,5 +49,6 @@
 - [x] All 22 episodes scored, verified clip by clip (all PASS) and tested in the app (`layali_peshawar-v2.zip`)
 - [x] Launch intro remade: logos without any background (also between letters), no halos or ring; the
       producer's high-resolution shrine logo
-- [ ] **Producer:** regenerate the 45 pictures of the Prophet, Ahl al-Bayt and the prophets with ChatGPT
-      (prompts and page on the Desktop), then swap them in
+- [x] The producer's 52 ChatGPT pictures matched by content to 44 of the 45 scenes of the Prophet, Ahl al-Bayt and
+      the prophets (`chatgpt_images.json`); v3 built and tested
+- [ ] **Producer:** confirm 4 closest matches and give a picture for Ep08 scene 06 (the two roasted birds)

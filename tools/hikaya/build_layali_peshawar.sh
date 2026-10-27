@@ -95,7 +95,8 @@ PYEOF
       "import json;print(json.load(open('$BOOK/book.json'))['version'])").zip" ;;
   mirror)
     P=production/layali_peshawar; mkdir -p "$P"/{episodes,reports,recordings,scripts,score}
-    cp "$BOOK/book.json" "$BOOK/speakers.json" "$BOOK/clip_fixes.json" "$BOOK/alignment_overrides.json" "$P/"
+    cp "$BOOK/book.json" "$BOOK/speakers.json" "$BOOK/clip_fixes.json" "$BOOK/alignment_overrides.json" \
+      "$BOOK/chatgpt_images.json" "$P/"
     cp "$BOOK"/scripts/*.txt "$P/scripts/"; cp "$BOOK"/recordings/*.json "$P/recordings/"
     for d in "$BOOK"/ep*/; do
       e=$(basename "$d")

@@ -151,8 +151,13 @@ right picture, text and speaker at every line, 1,164 sentences highlighted at th
 4. Fifteen lines have estimated timing (the aligner was unsure of an edge word); each clip was transcribed on its
    own and holds exactly its line.
 
-## Open with the producer
+## Pictures of the Prophet, Ahl al-Bayt and the prophets
 
-- 45 pictures of the Prophet, Ahl al-Bayt and other prophets are to be regenerated with ChatGPT (the producer did
-  not like the current ones). Prompts — the production's own, word for word — on the Desktop:
-  `حكايا - للمراجعة/5 - ليالي بيشاور/صور أهل البيت والأنبياء — لإعادة التوليد/`.
+The producer replaced the 45 pictures with new ones made with ChatGPT (`imgs.zip`, 52 pictures, originals kept in
+`~/HIKAYA/assets/peshawar_images_chatgpt/`; the earlier pictures stay in `~/HIKAYA/assets/peshawar_images/`). The new
+pictures carry descriptive names, not scene numbers, so each was matched to its scene by its content
+(`chatgpt_images.json`): 44 scenes replaced, whole and uncropped. To confirm with the producer (review page on the
+Desktop, `مراجعة الصور الجديدة.html`): four closest matches (Ep10 s11 grief vs gesture, Ep14 s08 the boy seated,
+Ep15 s09 daylight for a night scene, Ep21 s06 the woman not visible); Ep08 s06 (the two roasted birds) has no new
+picture and keeps the earlier one; eight new pictures are unused variants. `layali_peshawar-v3.zip`: imported-book
+test passes for all 22 episodes; previews re-rendered.
