@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <!-- «ليالي بيشاور», Episode 08 scene 06 — flashback: the Prophet's house in Medina, a plate with two
+       roasted birds and two loaves, a hand knocking at the door from outside. The Prophet is seen
+       seated from behind only: no face, no halo, no writing. -->
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8f6a45"/>
+      <stop offset="0.55" stop-color="#b48a5c"/>
+      <stop offset="1" stop-color="#9a734b"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a6440"/>
+      <stop offset="1" stop-color="#4f3521"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8e6b8"/>
+      <stop offset="1" stop-color="#f3c77a"/>
+    </linearGradient>
+    <linearGradient id="outside" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff1c9"/>
+      <stop offset="1" stop-color="#f2c983"/>
+    </linearGradient>
+    <linearGradient id="shaft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe9b0" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffe9b0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="doorShaft" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff0c4" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#fff0c4" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5a3a22"/>
+      <stop offset="0.5" stop-color="#76502f"/>
+      <stop offset="1" stop-color="#4b301c"/>
+    </linearGradient>
+    <linearGradient id="robe" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d9cbb0"/>
+      <stop offset="0.45" stop-color="#f1e6cf"/>
+      <stop offset="1" stop-color="#c7b593"/>
+    </linearGradient>
+    <linearGradient id="cloak" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f6b3a"/>
+      <stop offset="0.5" stop-color="#3b5530"/>
+      <stop offset="1" stop-color="#2c4124"/>
+    </linearGradient>
+    <radialGradient id="bird" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#e3a35a"/>
+      <stop offset="0.6" stop-color="#b8692f"/>
+      <stop offset="1" stop-color="#7d3f1a"/>
+    </radialGradient>
+    <radialGradient id="bread" cx="0.45" cy="0.4" r="0.65">
+      <stop offset="0" stop-color="#f0cf92"/>
+      <stop offset="0.7" stop-color="#d4a160"/>
+      <stop offset="1" stop-color="#a8733c"/>
+    </radialGradient>
+    <radialGradient id="plate" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#c98d58"/>
+      <stop offset="1" stop-color="#8c4f2b"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0.55" stop-color="#2a1a0e" stop-opacity="0"/>
+      <stop offset="1" stop-color="#2a1a0e" stop-opacity="0.6"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="softer" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
+    <!-- hand-painted edges: a gentle wobble on every shape -->
+    <filter id="paint" x="-2%" y="-2%" width="104%" height="104%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="7" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <!-- textured paper and brush grain -->
+    <filter id="paper" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.35  0 0 0 0 0.25  0 0 0 0 0.15  0 0 0 0.55 -0.12"/>
+    </filter>
+    <filter id="wash" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.004 0.009" numOctaves="3" seed="11" result="w"/>
+      <feColorMatrix in="w" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.3  0 0 0 0 0.16  0 0 0 0.9 -0.35"/>
+    </filter>
+    <clipPath id="windowClip"><path d="M250 470 V300 Q250 210 355 210 Q460 210 460 300 V470 Z"/></clipPath>
+  </defs>
+
+  <g filter="url(#paint)">
+    <!-- mud-brick wall -->
+    <rect width="1920" height="780" fill="url(#wall)"/>
+    <g fill="#7a5636" opacity="0.18">
+      <rect x="40" y="520" width="150" height="46" rx="6"/><rect x="200" y="520" width="160" height="46" rx="6"/>
+      <rect x="520" y="560" width="150" height="46" rx="6"/><rect x="680" y="560" width="170" height="46" rx="6"/>
+      <rect x="980" y="300" width="160" height="46" rx="6"/><rect x="1150" y="300" width="150" height="46" rx="6"/>
+      <rect x="1060" y="356" width="150" height="46" rx="6"/><rect x="600" y="250" width="160" height="46" rx="6"/>
+      <rect x="770" y="250" width="150" height="46" rx="6"/><rect x="1760" y="420" width="150" height="46" rx="6"/>
+      <rect x="1780" y="640" width="130" height="46" rx="6"/><rect x="40" y="680" width="170" height="46" rx="6"/>
+    </g>
+    <!-- palm-trunk beams and frond ceiling -->
+    <rect y="0" width="1920" height="120" fill="#5a3d25"/>
+    <g stroke="#3e2816" stroke-width="5" opacity="0.6">
+      <path d="M0 40 H1920"/><path d="M0 80 H1920"/>
+    </g>
+    <g fill="#6d4a2c">
+      <rect x="120" y="100" width="1680" height="42" rx="20"/>
+    </g>
+    <g stroke="#8b6a3e" stroke-width="3" opacity="0.5">
+      <path d="M60 10 l40 30 M180 12 l40 30 M300 8 l40 30 M420 12 l40 30 M540 10 l40 30 M660 12 l40 30 M780 8 l40 30 M900 12 l40 30 M1020 10 l40 30 M1140 12 l40 30 M1260 8 l40 30 M1380 12 l40 30 M1500 10 l40 30 M1620 12 l40 30 M1740 8 l40 30 M1860 12 l40 30"/>
+    </g>
+
+    <!-- arched window with lattice, and its light -->
+    <path d="M232 488 V300 Q232 190 355 190 Q478 190 478 300 V488 Z" fill="#6b4a2d"/>
+    <g clip-path="url(#windowClip)">
+      <rect x="250" y="200" width="220" height="280" fill="url(#sky)"/>
+      <path d="M260 420 Q300 360 330 420 Z M330 470 Q380 330 420 470 Z" fill="#7d8a52" opacity="0.6"/>
+      <path d="M350 470 V360 M350 360 q-40 -20 -70 0 M350 360 q40 -30 75 -5 M350 362 q-10 -35 -45 -45 M350 362 q20 -40 55 -40" stroke="#5b6b3c" stroke-width="7" fill="none"/>
+      <g stroke="#6b4a2d" stroke-width="8">
+        <path d="M250 290 H470 M250 380 H470 M320 200 V480 M390 200 V480"/>
+      </g>
+    </g>
+    <path d="M250 470 L470 470 L1000 1080 L380 1080 Z" fill="url(#shaft)"/>
+
+    <!-- doorway on the right: the door stands slightly open onto the bright lane -->
+    <rect x="1370" y="230" width="380" height="640" fill="#4a301c"/>
+    <rect x="1400" y="262" width="320" height="600" fill="url(#outside)"/>
+    <path d="M1400 700 Q1500 660 1720 690 V862 H1400 Z" fill="#e2b46e" opacity="0.7"/>
+    <path d="M1600 262 V600 Q1640 560 1720 580 V262 Z" fill="#d9a86a" opacity="0.5"/>
+    <!-- the door leaf, opened a hand's width inward -->
+    <path d="M1478 262 L1720 240 L1720 884 L1478 862 Z" fill="url(#wood)"/>
+    <g stroke="#3b2414" stroke-width="5" opacity="0.7">
+      <path d="M1540 257 V868 M1600 252 V872 M1660 246 V878"/>
+      <path d="M1478 380 L1720 362 M1478 740 L1720 752"/>
+    </g>
+    <circle cx="1510" cy="560" r="10" fill="#2f1d10"/>
+    <!-- light spilling in through the opening -->
+    <path d="M1400 862 L1478 862 L1200 1080 L980 1080 Z" fill="url(#doorShaft)"/>
+
+    <!-- the knocking hand, from outside, at the edge of the door -->
+    <g>
+      <path d="M1400 520 Q1430 512 1452 522 L1456 572 Q1430 580 1400 574 Z" fill="#e9dcc3"/>
+      <path d="M1448 520 Q1478 512 1494 530 Q1504 546 1496 566 Q1484 584 1458 580 Q1446 552 1448 520 Z" fill="#a8714a"/>
+      <g stroke="#6e4428" stroke-width="3" fill="none" opacity="0.8">
+        <path d="M1470 524 q8 4 10 14 M1478 540 q8 4 9 14 M1474 556 q8 4 9 12"/>
+      </g>
+      <path d="M1452 520 L1456 580" stroke="#c9b48f" stroke-width="5"/>
+    </g>
+
+    <!-- floor and woven mat -->
+    <rect y="770" width="1920" height="310" fill="url(#floor)"/>
+    <path d="M300 860 Q960 790 1640 870 L1720 1080 L220 1080 Z" fill="#a8844f"/>
+    <g stroke="#7f5f33" stroke-width="4" opacity="0.55">
+      <path d="M330 900 Q960 830 1650 905 M300 950 Q960 880 1670 960 M270 1000 Q960 935 1690 1010 M250 1050 Q960 990 1705 1060"/>
+    </g>
+    <g stroke="#7f5f33" stroke-width="3" opacity="0.35">
+      <path d="M420 860 L380 1080 M560 850 L540 1080 M700 842 L700 1080 M840 838 L860 1080 M980 836 L1020 1080 M1120 840 L1180 1080 M1260 846 L1340 1080 M1400 852 L1500 1080"/>
+    </g>
+
+    <!-- low cloth with the plate, two roasted birds, two loaves, and a water jug -->
+    <ellipse cx="1110" cy="900" rx="260" ry="70" fill="#000" opacity="0.22" filter="url(#soft)"/>
+    <ellipse cx="1100" cy="880" rx="250" ry="64" fill="#8c3d2a"/>
+    <ellipse cx="1100" cy="872" rx="236" ry="56" fill="#a64b33"/>
+    <g stroke="#d7a85e" stroke-width="3" opacity="0.6" fill="none">
+      <ellipse cx="1100" cy="872" rx="210" ry="46"/>
+    </g>
+    <ellipse cx="1080" cy="862" rx="150" ry="40" fill="url(#plate)"/>
+    <ellipse cx="1080" cy="856" rx="128" ry="31" fill="#b47746"/>
+    <!-- bird one -->
+    <g>
+      <ellipse cx="1040" cy="840" rx="54" ry="30" fill="url(#bird)"/>
+      <path d="M1000 846 q-24 6 -30 -6 q4 -10 16 -6" fill="#9a5226"/>
+      <path d="M1080 846 q22 8 30 -4 q-4 -10 -16 -6" fill="#9a5226"/>
+      <path d="M1022 828 q18 -10 40 -2" stroke="#f0bd7a" stroke-width="5" fill="none" opacity="0.7"/>
+    </g>
+    <!-- bird two -->
+    <g>
+      <ellipse cx="1124" cy="852" rx="52" ry="28" fill="url(#bird)"/>
+      <path d="M1086 858 q-22 6 -28 -6 q4 -10 16 -6" fill="#9a5226"/>
+      <path d="M1164 858 q22 8 30 -4 q-4 -10 -16 -6" fill="#9a5226"/>
+      <path d="M1106 840 q18 -10 40 -2" stroke="#f0bd7a" stroke-width="5" fill="none" opacity="0.7"/>
+    </g>
+    <!-- two loaves -->
+    <ellipse cx="1262" cy="870" rx="58" ry="22" fill="url(#bread)"/>
+    <ellipse cx="1240" cy="890" rx="56" ry="20" fill="url(#bread)"/>
+    <path d="M1222 884 q18 -6 36 0 M1244 864 q18 -6 36 0" stroke="#a8733c" stroke-width="3" fill="none" opacity="0.7"/>
+    <!-- clay jug -->
+    <path d="M900 880 q-10 -46 14 -66 q-10 -12 2 -20 h24 q12 8 2 20 q24 20 14 66 q-28 14 -56 0 Z" fill="#9a5a34"/>
+    <path d="M912 816 q16 -6 32 0" stroke="#6e3c20" stroke-width="4" fill="none"/>
+    <path d="M920 834 q-8 22 0 40" stroke="#c98757" stroke-width="5" fill="none" opacity="0.6"/>
+
+    <!-- the Prophet, seated, seen only from behind, turned a little towards the door -->
+    <ellipse cx="700" cy="1040" rx="330" ry="60" fill="#000" opacity="0.28" filter="url(#soft)"/>
+    <!-- robe spreading on the mat -->
+    <path d="M430 1080 Q440 900 560 820 Q700 780 840 820 Q960 900 980 1080 Z" fill="url(#robe)"/>
+    <!-- green cloak over the shoulders and back -->
+    <path d="M520 1080 Q500 860 560 700 Q620 600 700 590 Q790 596 850 690 Q910 820 900 1080 Z" fill="url(#cloak)"/>
+    <g stroke="#2a3d22" stroke-width="6" fill="none" opacity="0.55">
+      <path d="M640 640 Q600 820 610 1070"/><path d="M720 610 Q720 820 730 1070"/><path d="M800 650 Q840 830 830 1070"/>
+    </g>
+    <g stroke="#6f8c55" stroke-width="5" fill="none" opacity="0.45">
+      <path d="M600 700 Q570 860 580 1060"/><path d="M760 640 Q780 840 780 1060"/>
+    </g>
+    <!-- white sleeve towards the meal -->
+    <path d="M860 760 Q930 790 990 840 Q1000 860 980 868 Q920 846 850 820 Z" fill="#efe3c9"/>
+    <!-- head wrapped in a green headcloth, from behind (no face) -->
+    <path d="M630 590 Q620 520 660 488 Q700 462 744 480 Q786 500 786 556 Q786 600 760 616 Q700 630 650 616 Z" fill="#3b5530"/>
+    <g stroke="#2c4124" stroke-width="6" fill="none" opacity="0.7">
+      <path d="M646 540 Q700 512 776 530"/><path d="M640 566 Q706 540 782 560"/><path d="M648 594 Q712 572 776 590"/>
+    </g>
+    <path d="M660 498 Q700 478 740 488" stroke="#6f8c55" stroke-width="6" fill="none" opacity="0.6"/>
+    <!-- white cloth falling from the headcloth to the shoulders -->
+    <path d="M640 610 Q700 640 770 612 Q800 660 790 700 Q700 690 620 700 Q610 650 640 610 Z" fill="#ece0c6"/>
+  </g>
+
+  <!-- softer, sepia-washed flashback palette, paper grain, vignette -->
+  <rect width="1920" height="1080" fill="#8a5a2b" opacity="0.10" style="mix-blend-mode:multiply"/>
+  <rect width="1920" height="1080" filter="url(#wash)" opacity="0.35"/>
+  <rect width="1920" height="1080" filter="url(#paper)" opacity="0.5"/>
+  <rect width="1920" height="1080" fill="url(#vignette)"/>
+</svg>

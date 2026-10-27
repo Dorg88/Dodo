@@ -96,7 +96,7 @@ PYEOF
   mirror)
     P=production/layali_peshawar; mkdir -p "$P"/{episodes,reports,recordings,scripts,score}
     cp "$BOOK/book.json" "$BOOK/speakers.json" "$BOOK/clip_fixes.json" "$BOOK/alignment_overrides.json" \
-      "$BOOK/chatgpt_images.json" "$P/"
+      "$BOOK/chatgpt_images.json" "$P/"; mkdir -p "$P/art"; cp "$BOOK"/art/*.svg "$P/art/"
     cp "$BOOK"/scripts/*.txt "$P/scripts/"; cp "$BOOK"/recordings/*.json "$P/recordings/"
     for d in "$BOOK"/ep*/; do
       e=$(basename "$d")

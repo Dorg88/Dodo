@@ -51,4 +51,5 @@
       producer's high-resolution shrine logo
 - [x] The producer's 52 ChatGPT pictures matched by content to 44 of the 45 scenes of the Prophet, Ahl al-Bayt and
       the prophets (`chatgpt_images.json`); v3 built and tested
-- [ ] **Producer:** confirm 4 closest matches and give a picture for Ep08 scene 06 (the two roasted birds)
+- [x] Ep08 scene 06 (the two roasted birds): an SVG drawn for it; v4 built and tested
+- [ ] **Producer:** confirm 4 closest matches; check background playback and lock-screen controls on the phone
