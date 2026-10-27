@@ -42,7 +42,7 @@ def find_original(folder, key):
     return hits[0] if hits else None
 
 
-def prepare_logo(src, dst, white=232, soft=110, pad=0.04):
+def prepare_logo(src, dst, white=232, soft=110, pad=0.04, max_side=1200):
     """Make the white background transparent everywhere, also the small pieces
     enclosed between and inside letters, with soft anti-aliased edges; trim and
     save as PNG. Only near-white, colourless pixels count as background: colours
@@ -77,6 +77,8 @@ def prepare_logo(src, dst, white=232, soft=110, pad=0.04):
     bbox = out.getbbox()
     if bbox:
         out = out.crop(bbox)
+    if max(out.size) > max_side:   # print-size originals: keep the app asset light
+        out.thumbnail((max_side, max_side), Image.LANCZOS)
     w, h = out.size
     p = int(max(w, h) * pad)
     canvas = Image.new("RGBA", (w + 2 * p, h + 2 * p), (0, 0, 0, 0))
