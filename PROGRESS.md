@@ -54,5 +54,4 @@
 - [x] Ep08 scene 06 (the two roasted birds): an SVG drawn for it; v4 built and tested
 - [x] On the producer's phone: playback continues with the screen off; picture, text and voice stay together
 - [x] The producer approved every new picture, the 4 closest matches included
-- [ ] **Producer:** confirm that starting a second episode stops the first (needs the
-      app from release `apk-latest`, built after the fix of 2026-10-26)
+- [x] On the producer's phone (app 13a1c9f): starting another episode stops the first
