@@ -1,0 +1,1723 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep15",
+ "number": 15,
+ "title": "أصحابي كالنجوم",
+ "durationMs": 525230,
+ "audio": {
+  "mode": "clips",
+  "music": "ep15/audio/score_music.m4a",
+  "sfx": "ep15/audio/score_sfx.m4a",
+  "musicLoop": false
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AUTHOR": {
+   "name": "سلطان الواعظين"
+  },
+  "MIRZA_YAQUB": {
+   "name": "الميرزا يعقوب علي خان"
+  },
+  "HAFIZ": {
+   "name": "الحافظ محمد رشيد"
+  },
+  "NAWWAB": {
+   "name": "النواب عبد القيوم خان"
+  },
+  "ABDULHAYY": {
+   "name": "السيد عبد الحي"
+  },
+  "ABDUSSALAM": {
+   "name": "الشيخ عبد السلام"
+  },
+  "ATTENDEES": {
+   "name": "الحاضرون"
+  },
+  "GHULAM": {
+   "name": "غلام إمامين"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "الحافظ يتكلم بحزم",
+   "image": "ep15/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 16530
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "المؤلف يتردد",
+   "image": "ep15/images/scene_02.jpg",
+   "startMs": 16530,
+   "endMs": 64520
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "المؤلف يتكلم بمنهجية العالم",
+   "image": "ep15/images/scene_03.jpg",
+   "startMs": 64520,
+   "endMs": 102820
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "لوحة استعادية",
+   "image": "ep15/images/scene_04.jpg",
+   "startMs": 102820,
+   "endMs": 131675
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "الحافظ يعيد حجته بصوت مرتفع",
+   "image": "ep15/images/scene_05.jpg",
+   "startMs": 131675,
+   "endMs": 158935
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "لوحة استعادية",
+   "image": "ep15/images/scene_06.jpg",
+   "startMs": 158935,
+   "endMs": 182235
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "لوحة استعادية",
+   "image": "ep15/images/scene_07.jpg",
+   "startMs": 182235,
+   "endMs": 221495
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "لوحة رمزية",
+   "image": "ep15/images/scene_08.jpg",
+   "startMs": 221495,
+   "endMs": 260485
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "لوحة استعادية",
+   "image": "ep15/images/scene_09.jpg",
+   "startMs": 260485,
+   "endMs": 309705
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "لوحة استعادية",
+   "image": "ep15/images/scene_10.jpg",
+   "startMs": 309705,
+   "endMs": 359265
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "المؤلف يتكلم عن ضعف السند",
+   "image": "ep15/images/scene_11.jpg",
+   "startMs": 359265,
+   "endMs": 381635
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "الحافظ يتراجع قليلًا في جلسته",
+   "image": "ep15/images/scene_12.jpg",
+   "startMs": 381635,
+   "endMs": 404615
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "الشيخ عبد السلام ينهض نصف نهضة غاضبًا",
+   "image": "ep15/images/scene_13.jpg",
+   "startMs": 404615,
+   "endMs": 451250
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "المؤلف يتكلم بنبرة مصالحة",
+   "image": "ep15/images/scene_14.jpg",
+   "startMs": 451250,
+   "endMs": 484300
+  },
+  {
+   "number": 15,
+   "id": "s15",
+   "title": "الحافظ يتحدى بثقة",
+   "image": "ep15/images/scene_15.jpg",
+   "startMs": 484300,
+   "endMs": 525230
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep15_s01_l01",
+   "scene": 1,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "حازم",
+   "text": "لا شك أن المطاعن التي تروونها في الصحابة المقرّبين وفي بعض زوجات النبي كفر صريح. فإن الله رضي عنهم، والنبي كان يكرمهم، فالطعن فيهم إنكار للقرآن والنبي.",
+   "startMs": 500,
+   "endMs": 15930,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 845040,
+    "endMs": 860470
+   },
+   "lines": [
+    {
+     "text": "لا شك أن المطاعن التي تروونها في الصحابة المقرّبين وفي بعض زوجات النبي كفر صريح.",
+     "startMs": 500,
+     "endMs": 7620
+    },
+    {
+     "text": "فإن الله رضي عنهم، والنبي كان يكرمهم، فالطعن فيهم إنكار للقرآن والنبي.",
+     "startMs": 7620,
+     "endMs": 15930
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s02_l01",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "متحفّظ",
+   "text": "إنّي لا أحب أن خوض في هكذا مسائل فالرجاء أن تترك هذا السؤال ولا تطالبني بالجواب في حضور هذا الجمع، بل أجتمع بك وحدك وأعطيك الجواب.",
+   "startMs": 17130,
+   "endMs": 29050,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 7140,
+    "endMs": 19060
+   },
+   "lines": [
+    {
+     "text": "إنّي لا أحب أن خوض في هكذا مسائل فالرجاء أن تترك هذا السؤال ولا تطالبني بالجواب في حضور هذا الجمع، بل أجتمع بك وحدك وأعطيك الجواب.",
+     "startMs": 17130,
+     "endMs": 29049
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s02_l02",
+   "scene": 2,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يوضح",
+   "text": "الحقيقة، إنّ هذا السؤال والموضوع مطروح من قبل الجماعة الذين معي",
+   "startMs": 29650,
+   "endMs": 36720,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 860740,
+    "endMs": 867810
+   },
+   "lines": [
+    {
+     "text": "الحقيقة، إنّ هذا السؤال والموضوع مطروح من قبل الجماعة الذين معي",
+     "startMs": 29650,
+     "endMs": 36719
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s02_l03",
+   "scene": 2,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يكمل",
+   "text": "لقد ألحّوا عليّ في الليلة الماضية، حين خرجنا إلى البيت، أن أطرحه، فكلهم يحبون أن يسمعوا جوابكم.",
+   "startMs": 37070,
+   "endMs": 45230,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 868330,
+    "endMs": 876490
+   },
+   "lines": [
+    {
+     "text": "لقد ألحّوا عليّ في الليلة الماضية، حين خرجنا إلى البيت، أن أطرحه، فكلهم يحبون أن يسمعوا جوابكم.",
+     "startMs": 37070,
+     "endMs": 45229
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s02_l04",
+   "scene": 2,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "يؤيد",
+   "text": "صحيح يا مولانا كلنا نحب أن نسمع جواب هذا السؤال",
+   "startMs": 45830,
+   "endMs": 50490,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 281150,
+    "endMs": 285810
+   },
+   "lines": [
+    {
+     "text": "صحيح يا مولانا كلنا نحب أن نسمع جواب هذا السؤال",
+     "startMs": 45830,
+     "endMs": 50490
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s02_l05",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يتنهّد",
+   "text": "إني أتعجّب، فقد بيّنا في الليالي الماضية معنى الكفر والشرك. لكن الموضوع ذو جهات، ولا بد أن أبسطه حتى يعرف الحاضرون حقيقة الأمر.",
+   "startMs": 51090,
+   "endMs": 64220,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 19290,
+    "endMs": 32420
+   },
+   "lines": [
+    {
+     "text": "إني أتعجّب، فقد بيّنا في الليالي الماضية معنى الكفر والشرك.",
+     "startMs": 51090,
+     "endMs": 57699
+    },
+    {
+     "text": "لكن الموضوع ذو جهات، ولا بد أن أبسطه حتى يعرف الحاضرون حقيقة الأمر.",
+     "startMs": 57699,
+     "endMs": 64220
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s03_l01",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "علمي",
+   "text": "أما أن نقد الصحابة يوجب الكفر، فليس كذلك. فإن كان النقد مستندًا إلى دليل فلا إشكال فيه، وإن كان بغير دليل فهو فسق لا كفر. وهذا رأي بعض أعلامكم كابن حزم في كتاب «الفصل».",
+   "startMs": 64820,
+   "endMs": 80740,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 32800,
+    "endMs": 48720
+   },
+   "lines": [
+    {
+     "text": "أما أن نقد الصحابة يوجب الكفر، فليس كذلك.",
+     "startMs": 64820,
+     "endMs": 69519
+    },
+    {
+     "text": "فإن كان النقد مستندًا إلى دليل فلا إشكال فيه، وإن كان بغير دليل فهو فسق لا كفر.",
+     "startMs": 69519,
+     "endMs": 76499
+    },
+    {
+     "text": "وهذا رأي بعض أعلامكم كابن حزم في كتاب «الفصل».",
+     "startMs": 76499,
+     "endMs": 80739
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s03_l02",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يعدد",
+   "text": "وقد ردّ كثير من علمائكم تكفير الشيعة: منهم القاضي الإيجي في «المواقف»، والغزالي الذي صرّح بأن سبّ الصحابة لا يوجب الكفر، والتفتازاني في «شرح العقائد النسفية».",
+   "startMs": 81090,
+   "endMs": 94050,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 49060,
+    "endMs": 62020
+   },
+   "lines": [
+    {
+     "text": "وقد ردّ كثير من علمائكم تكفير الشيعة: منهم القاضي الإيجي في «المواقف»، والغزالي الذي صرّح بأن سبّ الصحابة لا يوجب الكفر، والتفتازاني في «شرح العقائد النسفية».",
+     "startMs": 81090,
+     "endMs": 94050
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s03_l03",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "بل إن أكثر من كتب في الملل والنحل من أعلامكم، كابن الأثير والشهرستاني، عدّ الشيعة من المذاهب الإسلامية.",
+   "startMs": 94400,
+   "endMs": 102520,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 62440,
+    "endMs": 70560
+   },
+   "lines": [
+    {
+     "text": "بل إن أكثر من كتب في الملل والنحل من أعلامكم، كابن الأثير والشهرستاني، عدّ الشيعة من المذاهب الإسلامية.",
+     "startMs": 94400,
+     "endMs": 102519
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s04_l01",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ",
+   "text": "أغلظ رجل لأبي بكر الصديق (رض) فقلت: يا خليفة رسول الله ألا أقتله؟! فقال: ليس هذا إلاّ لمن شتم النبي صلى الله عليه وآله وسلم.",
+   "startMs": 103120,
+   "endMs": 120925,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 70940,
+    "endMs": 88745
+   },
+   "lines": [
+    {
+     "text": "أغلظ رجل لأبي بكر الصديق (رض) فقلت: يا خليفة رسول الله ألا أقتله؟!",
+     "startMs": 103120,
+     "endMs": 109540
+    },
+    {
+     "text": "فقال: ليس هذا إلاّ لمن شتم النبي صلى الله عليه وآله وسلم.",
+     "startMs": 109540,
+     "endMs": 120925
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.753,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s04_l02",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يشرح",
+   "text": "رواه الحاكم في «المستدرك» وأحمد في «المسند» عن أبي برزة الأسلمي. فإذا كان الخليفة نفسه يسمع الشتم ولا يحكم بكفر صاحبه ولا بقتله، فلماذا تكفّرون الشيعة وتُغرون العوام بهم؟",
+   "startMs": 121275,
+   "endMs": 131375,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 88840,
+    "endMs": 98940
+   },
+   "lines": [
+    {
+     "text": "رواه الحاكم في «المستدرك» وأحمد في «المسند» عن أبي برزة الأسلمي. فإذا كان الخليفة نفسه يسمع الشتم ولا يحكم بكفر صاحبه ولا بقتله، فلماذا تكفّرون الشيعة وتُغرون العوام بهم؟",
+     "startMs": 121275,
+     "endMs": 131375
+    }
+   ],
+   "timing": "estimated",
+   "alignment": {
+    "confidence": 0.771,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s05_l01",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يجيب",
+   "text": "وأما أن النبي كان يحترم أصحابه، فلا ننكر ذلك. لكن احترامه كان بسبب أعمالهم، حتى إنه كان يقدّر عدل كسرى وجود حاتم.",
+   "startMs": 131975,
+   "endMs": 143215,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 99420,
+    "endMs": 110660
+   },
+   "lines": [
+    {
+     "text": "وأما أن النبي كان يحترم أصحابه، فلا ننكر ذلك.",
+     "startMs": 131975,
+     "endMs": 136315
+    },
+    {
+     "text": "لكن احترامه كان بسبب أعمالهم، حتى إنه كان يقدّر عدل كسرى وجود حاتم.",
+     "startMs": 136315,
+     "endMs": 143214
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s05_l02",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "فكان رسول الله صلى الله عليه وآله وسلم يحترم أصحابه قبل أن يصدر منهم ذنبا أو خلافا لأن عقاب المجرم وأهانته قبل أن يرتكب جرما، يكون قبيحا وخلافا للعقل والشرع.",
+   "startMs": 143565,
+   "endMs": 158635,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 110980,
+    "endMs": 126050
+   },
+   "lines": [
+    {
+     "text": "فكان رسول الله صلى الله عليه وآله وسلم يحترم أصحابه قبل أن يصدر منهم ذنبا أو خلافا لأن عقاب المجرم وأهانته قبل أن يرتكب جرما، يكون قبيحا وخلافا للعقل والشرع.",
+     "startMs": 143565,
+     "endMs": 158635
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s06_l01",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ حزين",
+   "text": "وروى ابن حجر في «الصواعق» أن ابن ملجم جاء إلى علي يطلب منه دابّة يركبها، فأعطاه، ثم قال:",
+   "startMs": 159235,
+   "endMs": 167715,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 126410,
+    "endMs": 134890
+   },
+   "lines": [
+    {
+     "text": "وروى ابن حجر في «الصواعق» أن ابن ملجم جاء إلى علي يطلب منه دابّة يركبها، فأعطاه، ثم قال:",
+     "startMs": 159235,
+     "endMs": 167714
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.988,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s06_l02",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "اريد حياته ويريد قتلي عذيري من خليلي من مرادي ثم قال: هذا والله قاتلي!",
+   "startMs": 168065,
+   "endMs": 176295,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 135180,
+    "endMs": 143410
+   },
+   "lines": [
+    {
+     "text": "اريد حياته ويريد قتلي عذيري من خليلي من مرادي ثم قال: هذا والله قاتلي!",
+     "startMs": 168065,
+     "endMs": 176294
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s06_l03",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يشرح",
+   "text": "كان يعلم، ومع ذلك أحسن إليه، لأن العقاب قبل الجرم قبيح.",
+   "startMs": 176645,
+   "endMs": 181935,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 143650,
+    "endMs": 148940
+   },
+   "lines": [
+    {
+     "text": "كان يعلم، ومع ذلك أحسن إليه، لأن العقاب قبل الجرم قبيح.",
+     "startMs": 176645,
+     "endMs": 181934
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s07_l01",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يفسّر",
+   "text": "وأما رضا الله عن أصحاب بيعة الرضوان، فنحن لا ننكره، فقد قال تعالى: «لقد رضي الله عن المؤمنين إذ يبايعونك تحت الشجرة».",
+   "startMs": 182535,
+   "endMs": 192425,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 149260,
+    "endMs": 159150
+   },
+   "lines": [
+    {
+     "text": "وأما رضا الله عن أصحاب بيعة الرضوان، فنحن لا ننكره، فقد قال تعالى: «لقد رضي الله عن المؤمنين إذ يبايعونك تحت الشجرة».",
+     "startMs": 182535,
+     "endMs": 192425
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.991,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s07_l02",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "ولكن نقول ما قاله العلماء المحققون: بأنّ الآية الكريمة لا تتضمن رضا الله سبحانه عن المؤمنين ـ الذين اجتمعوا تحت الشجرة ـ على جميع أعمالهم إلى آخر حياتهم.",
+   "startMs": 192775,
+   "endMs": 205705,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 159390,
+    "endMs": 172320
+   },
+   "lines": [
+    {
+     "text": "ولكن نقول ما قاله العلماء المحققون: بأنّ الآية الكريمة لا تتضمن رضا الله سبحانه عن المؤمنين ـ الذين اجتمعوا تحت الشجرة ـ على جميع أعمالهم إلى آخر حياتهم.",
+     "startMs": 192775,
+     "endMs": 205705
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.993,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s07_l03",
+   "scene": 7,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "معترض",
+   "text": "هذا افتراء على الصحابة! نحن لا نعتقد بعصمتهم، لكن النبي قال: أصحابي كالنجوم بأيّهم اقتديتم اهتديتم. وقد أجمع المسلمون على صحته إلا أنتم.",
+   "startMs": 206305,
+   "endMs": 220895,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 877030,
+    "endMs": 891620
+   },
+   "lines": [
+    {
+     "text": "هذا افتراء على الصحابة!",
+     "startMs": 206305,
+     "endMs": 208495
+    },
+    {
+     "text": "نحن لا نعتقد بعصمتهم، لكن النبي قال: أصحابي كالنجوم بأيّهم اقتديتم اهتديتم.",
+     "startMs": 208495,
+     "endMs": 216715
+    },
+    {
+     "text": "وقد أجمع المسلمون على صحته إلا أنتم.",
+     "startMs": 216715,
+     "endMs": 220895
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s08_l01",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يحاور",
+   "text": "أترك سند الحديث جانبًا وأبدأ بمعناه. كل من أدرك رسول الله وسمع حديثه فهو صحابي، وفيهم منافقون بنص القرآن. فكيف نحسبهم كلهم هادين مهديين؟",
+   "startMs": 222095,
+   "endMs": 235485,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 172610,
+    "endMs": 186000
+   },
+   "lines": [
+    {
+     "text": "أترك سند الحديث جانبًا وأبدأ بمعناه.",
+     "startMs": 222095,
+     "endMs": 225285
+    },
+    {
+     "text": "كل من أدرك رسول الله وسمع حديثه فهو صحابي، وفيهم منافقون بنص القرآن.",
+     "startMs": 225285,
+     "endMs": 232065
+    },
+    {
+     "text": "فكيف نحسبهم كلهم هادين مهديين؟",
+     "startMs": 232065,
+     "endMs": 235485
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.985,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s08_l02",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يسأل",
+   "text": "ثم إذا اختلف صحابيان في حكم، أو اقتتلت طائفتان منهم، ففي اتّباع أيّ الفريقين تكون النجاة؟",
+   "startMs": 235835,
+   "endMs": 243535,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 186290,
+    "endMs": 193990
+   },
+   "lines": [
+    {
+     "text": "ثم إذا اختلف صحابيان في حكم، أو اقتتلت طائفتان منهم، ففي اتّباع أيّ الفريقين تكون النجاة؟",
+     "startMs": 235835,
+     "endMs": 243535
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.982,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s08_l03",
+   "scene": 8,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يجيب",
+   "text": "نستمع قول كل واحد منهما فمن كانت دلائله أقوى وحجته أعلى فنتبعه.",
+   "startMs": 244135,
+   "endMs": 250965,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 892010,
+    "endMs": 898840
+   },
+   "lines": [
+    {
+     "text": "نستمع قول كل واحد منهما فمن كانت دلائله أقوى وحجته أعلى فنتبعه.",
+     "startMs": 244135,
+     "endMs": 250965
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s08_l04",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يلتقط",
+   "text": "إذن صاحب الحجة القوية على الحق، ومخالفه على باطل. فلا اعتبار إذن لحديث «أصحابي كالنجوم».",
+   "startMs": 251565,
+   "endMs": 259885,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 194820,
+    "endMs": 203140
+   },
+   "lines": [
+    {
+     "text": "إذن صاحب الحجة القوية على الحق، ومخالفه على باطل.",
+     "startMs": 251565,
+     "endMs": 255784
+    },
+    {
+     "text": "فلا اعتبار إذن لحديث «أصحابي كالنجوم».",
+     "startMs": 255784,
+     "endMs": 259884
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.982,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s09_l01",
+   "scene": 9,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "يطلب",
+   "text": "أرجوك أن تبيّن لنا قضية العقبة وقصة المتآمرين على قتل النبي الاكرم ولو باختصار.",
+   "startMs": 261085,
+   "endMs": 267875,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 286240,
+    "endMs": 293030
+   },
+   "lines": [
+    {
+     "text": "أرجوك أن تبيّن لنا قضية العقبة وقصة المتآمرين على قتل النبي الاكرم ولو باختصار.",
+     "startMs": 261085,
+     "endMs": 267874
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s09_l02",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ متوتر",
+   "text": "ذكر علماء الفريقين: أن جماعة من المنافقين الذين كانوا حول النبي صلى الله عليه وآله وسلم تآمروا على قتله عند رجوعه من غزوة تبوك.",
+   "startMs": 268475,
+   "endMs": 279295,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 203710,
+    "endMs": 214530
+   },
+   "lines": [
+    {
+     "text": "ذكر علماء الفريقين: أن جماعة من المنافقين الذين كانوا حول النبي صلى الله عليه وآله وسلم تآمروا على قتله عند رجوعه من غزوة تبوك.",
+     "startMs": 268475,
+     "endMs": 279294
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s09_l03",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "فأعلمه الله بمكانهم، وكانت عقبة ضيّقة لا تسع إلا راكبًا واحدًا، فكمنوا فوقها ليدحرجوا الصخور فتنفر الناقة. فأمر النبي عمار بن ياسر أن يقود الناقة، وحذيفة بن اليمان أن يسوقها.",
+   "startMs": 279645,
+   "endMs": 295585,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 214670,
+    "endMs": 230610
+   },
+   "lines": [
+    {
+     "text": "فأعلمه الله بمكانهم، وكانت عقبة ضيّقة لا تسع إلا راكبًا واحدًا، فكمنوا فوقها ليدحرجوا الصخور فتنفر الناقة.",
+     "startMs": 279645,
+     "endMs": 289015
+    },
+    {
+     "text": "فأمر النبي عمار بن ياسر أن يقود الناقة، وحذيفة بن اليمان أن يسوقها.",
+     "startMs": 289015,
+     "endMs": 295585
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.994,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s09_l04",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "فلما دحرجوا الصخور وكادت الناقة تنفر، صاح بها النبي فسكنت، وانهزم المتآمرون. وأمر حذيفة بكتمان أسمائهم. وهؤلاء أيضًا كانوا يُعدّون من الصحابة!",
+   "startMs": 295935,
+   "endMs": 309405,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 231090,
+    "endMs": 244560
+   },
+   "lines": [
+    {
+     "text": "فلما دحرجوا الصخور وكادت الناقة تنفر، صاح بها النبي فسكنت، وانهزم المتآمرون.",
+     "startMs": 295935,
+     "endMs": 303685
+    },
+    {
+     "text": "وأمر حذيفة بكتمان أسمائهم.",
+     "startMs": 303685,
+     "endMs": 306564
+    },
+    {
+     "text": "وهؤلاء أيضًا كانوا يُعدّون من الصحابة!",
+     "startMs": 306564,
+     "endMs": 309404
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.989,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s10_l01",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يسأل",
+   "text": "ثم إذا كان الحديث صحيحًا، فهذا سعد بن عبادة، سيد الأنصار، لم يبايع أبا بكر ولا عمر. فهل يكون الاقتداء به في ذلك هدى؟",
+   "startMs": 310005,
+   "endMs": 320115,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 245320,
+    "endMs": 255430
+   },
+   "lines": [
+    {
+     "text": "ثم إذا كان الحديث صحيحًا، فهذا سعد بن عبادة، سيد الأنصار، لم يبايع أبا بكر ولا عمر.",
+     "startMs": 310005,
+     "endMs": 317104
+    },
+    {
+     "text": "فهل يكون الاقتداء به في ذلك هدى؟",
+     "startMs": 317104,
+     "endMs": 320115
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s10_l02",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حزين",
+   "text": "ولا يُنكر مؤمن انحراف بعض الصحابة عن الحق بقتالهم عليًّا، وهو عندكم الخليفة الرابع الذي بايعه أهل الحل والعقد. فهذا طلحة والزبير، وهما من أهل بيعة الرضوان، كانت بسببهما وقعة الجمل التي قُتل فيها ألوف المسلمين. وكانت صفّين بعدها.",
+   "startMs": 320465,
+   "endMs": 340765,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 256000,
+    "endMs": 276300
+   },
+   "lines": [
+    {
+     "text": "ولا يُنكر مؤمن انحراف بعض الصحابة عن الحق بقتالهم عليًّا، وهو عندكم الخليفة الرابع الذي بايعه أهل الحل والعقد.",
+     "startMs": 320465,
+     "endMs": 329645
+    },
+    {
+     "text": "فهذا طلحة والزبير، وهما من أهل بيعة الرضوان، كانت بسببهما وقعة الجمل التي قُتل فيها ألوف المسلمين.",
+     "startMs": 329645,
+     "endMs": 338565
+    },
+    {
+     "text": "وكانت صفّين بعدها.",
+     "startMs": 338565,
+     "endMs": 340765
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.991,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s10_l03",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يحسم",
+   "text": "وقد أجمع العلماء والمحققون وأئمة المسلمين على أنّ عليا عليه السلام مع الحق والحق مع علي وهو قول النبي صلى الله عليه وآله وسلم فيه",
+   "startMs": 341115,
+   "endMs": 353495,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 276300,
+    "endMs": 288680
+   },
+   "lines": [
+    {
+     "text": "وقد أجمع العلماء والمحققون وأئمة المسلمين على أنّ عليا عليه السلام مع الحق والحق مع علي وهو قول النبي صلى الله عليه وآله وسلم فيه",
+     "startMs": 341115,
+     "endMs": 353494
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s10_l04",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يسأل",
+   "text": "فهل يكون الاقتداء بالفريقين المتقاتلين هدى ونجاة معًا؟",
+   "startMs": 353845,
+   "endMs": 358965,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 288760,
+    "endMs": 293880
+   },
+   "lines": [
+    {
+     "text": "فهل يكون الاقتداء بالفريقين المتقاتلين هدى ونجاة معًا؟",
+     "startMs": 353845,
+     "endMs": 358965
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s11_l01",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يعدد",
+   "text": "ثم إن سند الحديث ضعيف عند أعلامكم. فقد ذكر القاضي عياض أن الدارقطني وابن عبد البر قالا بعدم حجية سنده.",
+   "startMs": 359565,
+   "endMs": 368920,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 294030,
+    "endMs": 303385
+   },
+   "lines": [
+    {
+     "text": "ثم إن سند الحديث ضعيف عند أعلامكم.",
+     "startMs": 359565,
+     "endMs": 362635
+    },
+    {
+     "text": "فقد ذكر القاضي عياض أن الدارقطني وابن عبد البر قالا بعدم حجية سنده.",
+     "startMs": 362635,
+     "endMs": 368920
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.99,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s11_l02",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "ونقل عن البيهقي أنه قال: سند الحديث ضعيف، وإن كان نصّه مشتهرا بين الناس.",
+   "startMs": 369270,
+   "endMs": 375545,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 303385,
+    "endMs": 309660
+   },
+   "lines": [
+    {
+     "text": "ونقل عن البيهقي أنه قال: سند الحديث ضعيف، وإن كان نصّه مشتهرا بين الناس.",
+     "startMs": 369270,
+     "endMs": 375544
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s11_l03",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "وابن حزم أيضا ردّ الحديث وقال فيه: إنّه موضوع وباطل.",
+   "startMs": 375895,
+   "endMs": 381035,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 309680,
+    "endMs": 314820
+   },
+   "lines": [
+    {
+     "text": "وابن حزم أيضا ردّ الحديث وقال فيه: إنّه موضوع وباطل.",
+     "startMs": 375895,
+     "endMs": 381034
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s12_l01",
+   "scene": 12,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يدافع بهدوء",
+   "text": "نحن لا نعتقد بعصمة الصحابة، ولكن نحسن الظن بهم، فنقول: كل ما صدر منهم كان عن اجتهاد ونية صالحة.",
+   "startMs": 382235,
+   "endMs": 392365,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 899160,
+    "endMs": 909290
+   },
+   "lines": [
+    {
+     "text": "نحن لا نعتقد بعصمة الصحابة، ولكن نحسن الظن بهم، فنقول: كل ما صدر منهم كان عن اجتهاد ونية صالحة.",
+     "startMs": 382235,
+     "endMs": 392364
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.989,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s12_l02",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يرد",
+   "text": "ولكن الأخبار التي نقلها أعلامكم تكشف أن بعضهم كانوا يعصون الله.",
+   "startMs": 392965,
+   "endMs": 398415,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 315050,
+    "endMs": 320500
+   },
+   "lines": [
+    {
+     "text": "ولكن الأخبار التي نقلها أعلامكم تكشف أن بعضهم كانوا يعصون الله.",
+     "startMs": 392965,
+     "endMs": 398414
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.984,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s12_l03",
+   "scene": 12,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "متحدٍّ",
+   "text": "لم نسمع بهذا القول قبل اليوم، فالرجاء بيّن لنا تلك الأخبار.",
+   "startMs": 399015,
+   "endMs": 404015,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 909780,
+    "endMs": 914780
+   },
+   "lines": [
+    {
+     "text": "لم نسمع بهذا القول قبل اليوم، فالرجاء بيّن لنا تلك الأخبار.",
+     "startMs": 399015,
+     "endMs": 404015
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.991,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s13_l01",
+   "scene": 13,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي بتحفّظ",
+   "text": "ذكر ابن حجر في «فتح الباري»، والبخاري ومسلم وأحمد وغيرهم، أن مجلس شراب عُقد في بيت أبي طلحة في المدينة، وحضره جماعة من الصحابة سمّاهم علماؤكم، قبل أن ينزل التحريم النهائي.",
+   "startMs": 405215,
+   "endMs": 419375,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 320690,
+    "endMs": 334850
+   },
+   "lines": [
+    {
+     "text": "ذكر ابن حجر في «فتح الباري»، والبخاري ومسلم وأحمد وغيرهم، أن مجلس شراب عُقد في بيت أبي طلحة في المدينة، وحضره جماعة من الصحابة سمّاهم علماؤكم، قبل أن ينزل التحريم النهائي.",
+     "startMs": 405215,
+     "endMs": 419375
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s13_l02",
+   "scene": 13,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "غاضب",
+   "text": "والله، هذا الخبر من مفتريات أعدائنا!",
+   "startMs": 419975,
+   "endMs": 424065,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 391170,
+    "endMs": 395260
+   },
+   "lines": [
+    {
+     "text": "والله، هذا الخبر من مفتريات أعدائنا!",
+     "startMs": 419975,
+     "endMs": 424064
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s13_l03",
+   "scene": 13,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "مراقب",
+   "text": "فابتسم المؤلف وقال:",
+   "startMs": 424665,
+   "endMs": 427055,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 686980,
+    "endMs": 689370
+   },
+   "lines": [
+    {
+     "text": "فابتسم المؤلف وقال:",
+     "startMs": 424665,
+     "endMs": 427054
+    }
+   ],
+   "timing": "estimated",
+   "alignment": {
+    "confidence": 0.971,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s13_l04",
+   "scene": 13,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "مبتسم",
+   "text": "لا تتّهم أحدا بالجعل والافتراء ولا تحلف بالله عزّ وجلّ، فإنّ كبار علمائكم كتبوا هذا الخبر في صحاحهم ومسانيدهم",
+   "startMs": 427655,
+   "endMs": 436945,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 335330,
+    "endMs": 344620
+   },
+   "lines": [
+    {
+     "text": "لا تتّهم أحدا بالجعل والافتراء ولا تحلف بالله عزّ وجلّ، فإنّ كبار علمائكم كتبوا هذا الخبر في صحاحهم ومسانيدهم",
+     "startMs": 427655,
+     "endMs": 436945
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s13_l05",
+   "scene": 13,
+   "speakerId": "ABDULHAYY",
+   "speakerName": "السيد عبد الحي",
+   "direction": "يلتمس العذر",
+   "text": "ربما كان ذلك قبل تحريم الخمر!",
+   "startMs": 437545,
+   "endMs": 440325,
+   "clip": {
+    "file": "audio/ABDULHAYY/Generated Audio October 27, 2026 - 2_56AM.wav",
+    "startMs": 129590,
+    "endMs": 132370
+   },
+   "lines": [
+    {
+     "text": "ربما كان ذلك قبل تحريم الخمر!",
+     "startMs": 437545,
+     "endMs": 440325
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s13_l06",
+   "scene": 13,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يشرح",
+   "text": "لقد نزل تحريمها على مراحل، فلم يترك بعض المسلمين الشراب حتى نزلت آية المائدة: «فهل أنتم منتهون». والمقصود أن الصحابة بشر.",
+   "startMs": 440925,
+   "endMs": 450950,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 344760,
+    "endMs": 354785
+   },
+   "lines": [
+    {
+     "text": "لقد نزل تحريمها على مراحل، فلم يترك بعض المسلمين الشراب حتى نزلت آية المائدة: «فهل أنتم منتهون».",
+     "startMs": 440925,
+     "endMs": 448465
+    },
+    {
+     "text": "والمقصود أن الصحابة بشر.",
+     "startMs": 448465,
+     "endMs": 450949
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s14_l01",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "منصف",
+   "text": "والحاصل: إنّ الصحابة كسائر الناس والأصناف، فيهم الطيب المحسن والعاصي المسيء",
+   "startMs": 451550,
+   "endMs": 458590,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 354800,
+    "endMs": 361840
+   },
+   "lines": [
+    {
+     "text": "والحاصل: إنّ الصحابة كسائر الناس والأصناف، فيهم الطيب المحسن والعاصي المسيء",
+     "startMs": 451550,
+     "endMs": 458589
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s14_l02",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "فنحن حين ننتقد أحدًا لا بد أن يكون لدينا دليل. وإذا سمعتم منّا ذلك فطالبونا بالشاهد.",
+   "startMs": 458940,
+   "endMs": 467000,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 361980,
+    "endMs": 370040
+   },
+   "lines": [
+    {
+     "text": "فنحن حين ننتقد أحدًا لا بد أن يكون لدينا دليل.",
+     "startMs": 458940,
+     "endMs": 463940
+    },
+    {
+     "text": "وإذا سمعتم منّا ذلك فطالبونا بالشاهد.",
+     "startMs": 463940,
+     "endMs": 466999
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.994,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s14_l03",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ الآية",
+   "text": "والشيعة تتبع الصادقين الذين أمر الله باتباعهم في قوله: «يا أيها الذين آمنوا اتقوا الله وكونوا مع الصادقين». وقد صرّح كثير من أعلامكم، كالثعلبي والسيوطي وأبي نعيم، بأن المقصود بهم محمد وعلي.",
+   "startMs": 467350,
+   "endMs": 484000,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 370160,
+    "endMs": 386810
+   },
+   "lines": [
+    {
+     "text": "والشيعة تتبع الصادقين الذين أمر الله باتباعهم في قوله: «يا أيها الذين آمنوا اتقوا الله وكونوا مع الصادقين».",
+     "startMs": 467350,
+     "endMs": 475850
+    },
+    {
+     "text": "وقد صرّح كثير من أعلامكم، كالثعلبي والسيوطي وأبي نعيم، بأن المقصود بهم محمد وعلي.",
+     "startMs": 475850,
+     "endMs": 484000
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.989,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s15_l01",
+   "scene": 15,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "جاد",
+   "text": "واتفق أعلام الفريقين على أن كثيرًا من الصحابة نقضوا عهدًا أخذه منهم النبي بأمر الله.",
+   "startMs": 484600,
+   "endMs": 491830,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 387040,
+    "endMs": 394270
+   },
+   "lines": [
+    {
+     "text": "واتفق أعلام الفريقين على أن كثيرًا من الصحابة نقضوا عهدًا أخذه منهم النبي بأمر الله.",
+     "startMs": 484600,
+     "endMs": 491829
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s15_l02",
+   "scene": 15,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "متحدٍّ",
+   "text": "أي عهد هذا؟ لم أعهد أحدًا من علمائنا كتب أن الصحابة نقضوا عهدًا أخذه النبي عليهم!",
+   "startMs": 492430,
+   "endMs": 499770,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 915340,
+    "endMs": 922680
+   },
+   "lines": [
+    {
+     "text": "أي عهد هذا؟",
+     "startMs": 492430,
+     "endMs": 493869
+    },
+    {
+     "text": "لم أعهد أحدًا من علمائنا كتب أن الصحابة نقضوا عهدًا أخذه النبي عليهم!",
+     "startMs": 493869,
+     "endMs": 499769
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s15_l03",
+   "scene": 15,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ثقيل",
+   "text": "لقد نقض بعض الصحابة عهودا أخذها منهم النبي صلى الله عليه وآله وسلم، ولكنّهم نقضوها في حياته أو بعد وفاته، وأهمها عهد الخلافة والولاية وبيعة يوم الغدير.",
+   "startMs": 500370,
+   "endMs": 514250,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 394640,
+    "endMs": 408520
+   },
+   "lines": [
+    {
+     "text": "لقد نقض بعض الصحابة عهودا أخذها منهم النبي صلى الله عليه وآله وسلم، ولكنّهم نقضوها في حياته أو بعد وفاته، وأهمها عهد الخلافة والولاية وبيعة يوم الغدير.",
+     "startMs": 500370,
+     "endMs": 514249
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep15_s15_l04",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "ختامي",
+   "text": "وساد صمت. فقد كانت كلمة «الغدير» وحدها كافية لتغيّر وجه المجلس.",
+   "startMs": 514850,
+   "endMs": 523730,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 689990,
+    "endMs": 698870
+   },
+   "lines": [
+    {
+     "text": "وساد صمت.",
+     "startMs": 514850,
+     "endMs": 516159
+    },
+    {
+     "text": "فقد كانت كلمة «الغدير» وحدها كافية لتغيّر وجه المجلس.",
+     "startMs": 516159,
+     "endMs": 523729
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  }
+ ],
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "suspense",
+   "startMs": 0,
+   "endMs": 17330
+  },
+  {
+   "scene": 2,
+   "cue": "warm",
+   "startMs": 15730,
+   "endMs": 65319
+  },
+  {
+   "scene": 3,
+   "cue": "suspense",
+   "startMs": 63720,
+   "endMs": 103619
+  },
+  {
+   "scene": 4,
+   "cue": "reflective",
+   "startMs": 102020,
+   "endMs": 132475
+  },
+  {
+   "scene": 5,
+   "cue": "reflective",
+   "startMs": 130875,
+   "endMs": 159735
+  },
+  {
+   "scene": 6,
+   "cue": "reflective",
+   "startMs": 158135,
+   "endMs": 183035
+  },
+  {
+   "scene": 7,
+   "cue": "reflective",
+   "startMs": 181435,
+   "endMs": 222295
+  },
+  {
+   "scene": 8,
+   "cue": "warm",
+   "startMs": 220695,
+   "endMs": 261285
+  },
+  {
+   "scene": 9,
+   "cue": "reflective",
+   "startMs": 259685,
+   "endMs": 310505
+  },
+  {
+   "scene": 10,
+   "cue": "reflective",
+   "startMs": 308905,
+   "endMs": 360065
+  },
+  {
+   "scene": 11,
+   "cue": "reflective",
+   "startMs": 358465,
+   "endMs": 382435
+  },
+  {
+   "scene": 12,
+   "cue": "nostalgic",
+   "startMs": 380835,
+   "endMs": 405415
+  },
+  {
+   "scene": 13,
+   "cue": "reflective",
+   "startMs": 403815,
+   "endMs": 452050
+  },
+  {
+   "scene": 14,
+   "cue": "nostalgic",
+   "startMs": 450450,
+   "endMs": 485100
+  },
+  {
+   "scene": 15,
+   "cue": "ending",
+   "startMs": 483500,
+   "endMs": 526030
+  }
+ ]
+}

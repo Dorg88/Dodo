@@ -1,0 +1,5 @@
+{
+ "_note": "Hand-measured cuts where the voice engine said words that are not in the script. Applied after alignment by build_layali_peshawar.sh fix. Times in ms inside the original recording.",
+ "ep21_s09_l02": {"endMs": 1448100, "why": "«يقول أبو طالب» spoken after the line (not in the script); silence 1447.95–1448.20 s"},
+ "ep21_s09_l03": {"startMs": 1449800, "why": "same words before the line; silence 1449.60–1450.00 s"}
+}

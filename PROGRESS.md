@@ -38,3 +38,14 @@
       scene changes in the pause; review badge; end-to-end imported-book test
 - [ ] Producer: approve or correct the proposed orders and the recovered texts (see `QA_REPORT.md` questions)
 - [ ] On-device check of background playback and lock-screen controls
+
+## 2026-10-27 — second book «ليالي بيشاور» (producer's Mac)
+- [x] Inputs: `~/Downloads/Peshawar_Cinematic` (manifest.csv with every line in play order, scenes.csv,
+      scripts, per-voice batch texts, 14 recordings for 9 voices) and 323 scene pictures (4 zips) = 323 scenes
+- [x] `hikaya_from_manifest.py`: play-order scripts straight from the manifest (text verbatim, tone kept as
+      metadata, one picture per scene); `build_layali_peshawar.sh` for scripts/align/score/pack/mirror
+- [x] Alignment: 810 of 1,123 lines found; aligner fix for a line whose words run into the next recording
+- [x] 10 complete episodes (01, 03, 04, 15–21) scored, verified and packed; the others shown «قريباً»
+- [ ] **Producer:** 313 lines were never recorded (AUTHOR batches 04–06 entirely, most of 03 and half of 07,
+      a few scattered lines; HAFIZ 15 lines). Ready-to-paste texts in the Desktop folder
+      `حكايا - للمراجعة/5 - ليالي بيشاور/التسجيلات الناقصة/`

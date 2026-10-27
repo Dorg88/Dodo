@@ -1,0 +1,145 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "ليل بيشاور",
+   "music": "nostalgic",
+   "sfx": [
+    "night"
+   ],
+   "level": 0.85,
+   "reason": "title: ليل"
+  },
+  {
+   "scene": 2,
+   "title": "الحافظ يتكلم بنبرة صادقة",
+   "music": "nostalgic",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: ليل; ambience of the episode's place"
+  },
+  {
+   "scene": 3,
+   "title": "استراحة الصلاة",
+   "music": "reverent",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: مقام; ambience of the episode's place"
+  },
+  {
+   "scene": 4,
+   "title": "الحافظ يرفع إصبعه محتجًّا",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: كتب; ambience of the episode's place"
+  },
+  {
+   "scene": 5,
+   "title": "المؤلف يفتح كتابًا كبيرًا ويقرأ",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: كتاب"
+  },
+  {
+   "scene": 6,
+   "title": "لوحة رمزية",
+   "music": "reverent",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: مقام; ambience of the episode's place"
+  },
+  {
+   "scene": 7,
+   "title": "الحاضرون يضحكون",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: الناس; ambience of the episode's place"
+  },
+  {
+   "scene": 8,
+   "title": "المؤلف يتكلم بوقار",
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: يقين; ambience of the episode's place"
+  },
+  {
+   "scene": 9,
+   "title": "الحافظ يقف نصف قيام وصوته يعلو بالاتهام",
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: الحقيقة; ambience of the episode's place"
+  },
+  {
+   "scene": 10,
+   "title": "النواب يرفع يده بأدب",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: فقد; ambience of the episode's place"
+  },
+  {
+   "scene": 11,
+   "title": "المؤلف يعدّ على أصابعه",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "default; ambience of the episode's place"
+  },
+  {
+   "scene": 12,
+   "title": "الحافظ يرد بإصبع مرفوع",
+   "music": "reverent",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: مرقد; ambience of the episode's place"
+  },
+  {
+   "scene": 13,
+   "title": "الشيخ عبد السلام يبتسم ابتسامة جانبية ويقلّب…",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: فقد; ambience of the episode's place"
+  },
+  {
+   "scene": 14,
+   "title": "لقطة قريبة على وجه المؤلف في ضوء القنديل",
+   "music": "ending",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: سؤال; ambience of the episode's place; last scene"
+  }
+ ]
+}

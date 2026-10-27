@@ -1,0 +1,579 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep12",
+ "number": 12,
+ "title": "وأنفسنا وأنفسكم",
+ "durationMs": 148705,
+ "audio": {
+  "mode": "clips"
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AUTHOR": {
+   "name": "سلطان الواعظين"
+  },
+  "MIRZA_YAQUB": {
+   "name": "الميرزا يعقوب علي خان"
+  },
+  "HAFIZ": {
+   "name": "الحافظ محمد رشيد"
+  },
+  "NAWWAB": {
+   "name": "النواب عبد القيوم خان"
+  },
+  "ABDULHAYY": {
+   "name": "السيد عبد الحي"
+  },
+  "ABDUSSALAM": {
+   "name": "الشيخ عبد السلام"
+  },
+  "ATTENDEES": {
+   "name": "الحاضرون"
+  },
+  "GHULAM": {
+   "name": "غلام إمامين"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "ليلة الخميس",
+   "image": "ep12/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 40520
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "المؤلف يرد بنبرة فيها عتاب رقيق",
+   "image": "ep12/images/scene_02.jpg",
+   "startMs": 40520,
+   "endMs": 44950
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "لوحة رمزية",
+   "image": "ep12/images/scene_03.jpg",
+   "startMs": 44950,
+   "endMs": 52690
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "لوحة استعادية",
+   "image": "ep12/images/scene_04.jpg",
+   "startMs": 52690,
+   "endMs": 67970
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "الحافظ يقرّ ثم يعترض",
+   "image": "ep12/images/scene_06.jpg",
+   "startMs": 67970,
+   "endMs": 87875
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "استراحة صلاة العشاء",
+   "image": "ep12/images/scene_08.jpg",
+   "startMs": 87875,
+   "endMs": 97205
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "الحافظ يعتدل في جلسته",
+   "image": "ep12/images/scene_13.jpg",
+   "startMs": 97205,
+   "endMs": 136215
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "المؤلف ينظر إلى الحافظ طويلًا",
+   "image": "ep12/images/scene_14.jpg",
+   "startMs": 136215,
+   "endMs": 148705
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep12_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "سينمائي",
+   "text": "ليلة الخميس، التاسع والعشرون من رجب. حضر القوم مع علمائهم، وشربوا الشاي، ثم افتتح الحديث هذه المرة السيد عبد الحي، إمام جماعة المسجد.",
+   "startMs": 500,
+   "endMs": 15710,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 580680,
+    "endMs": 595890
+   },
+   "lines": [
+    {
+     "text": "ليلة الخميس، التاسع والعشرون من رجب.",
+     "startMs": 500,
+     "endMs": 4480
+    },
+    {
+     "text": "حضر القوم مع علمائهم، وشربوا الشاي، ثم افتتح الحديث هذه المرة السيد عبد الحي، إمام جماعة المسجد.",
+     "startMs": 4480,
+     "endMs": 15710
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s01_l02",
+   "scene": 1,
+   "speakerId": "ABDULHAYY",
+   "speakerName": "السيد عبد الحي",
+   "direction": "عاتب",
+   "text": "سيدنا الجليل! في مجلس سابق تحدّثت عن موضوع، ولمّا طالبك فضيلة الحافظ محمد رشيد بالدليل، ذهبت بالكلام إلى موضوع آخر وتناسيت طلب الحافظ.",
+   "startMs": 16310,
+   "endMs": 27610,
+   "clip": {
+    "file": "audio/ABDULHAYY/Generated Audio October 27, 2026 - 2_56AM.wav",
+    "startMs": 40100,
+    "endMs": 51400
+   },
+   "lines": [
+    {
+     "text": "سيدنا الجليل!",
+     "startMs": 16310,
+     "endMs": 17349
+    },
+    {
+     "text": "في مجلس سابق تحدّثت عن موضوع، ولمّا طالبك فضيلة الحافظ محمد رشيد بالدليل، ذهبت بالكلام إلى موضوع آخر وتناسيت طلب الحافظ.",
+     "startMs": 17349,
+     "endMs": 27609
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s01_l04",
+   "scene": 1,
+   "speakerId": "ABDULHAYY",
+   "speakerName": "السيد عبد الحي",
+   "direction": "يسأل",
+   "text": "قلتم إن عليًّا كان في اتحاد نفسي مع رسول الله، ولذلك هو أفضل من الصحابة. فما دليلكم؟",
+   "startMs": 27960,
+   "endMs": 35550,
+   "clip": {
+    "file": "audio/ABDULHAYY/Generated Audio October 27, 2026 - 2_56AM.wav",
+    "startMs": 51860,
+    "endMs": 59450
+   },
+   "lines": [
+    {
+     "text": "قلتم إن عليًّا كان في اتحاد نفسي مع رسول الله، ولذلك هو أفضل من الصحابة.",
+     "startMs": 27960,
+     "endMs": 33999
+    },
+    {
+     "text": "فما دليلكم؟",
+     "startMs": 33999,
+     "endMs": 35550
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.994,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s01_l05",
+   "scene": 1,
+   "speakerId": "ABDULHAYY",
+   "speakerName": "السيد عبد الحي",
+   "direction": "متشكك",
+   "text": "وكيف يمكن اتّحاد شخصين حتى يصبحا نفسا واحدة؟!!",
+   "startMs": 35900,
+   "endMs": 40220,
+   "clip": {
+    "file": "audio/ABDULHAYY/Generated Audio October 27, 2026 - 2_56AM.wav",
+    "startMs": 59800,
+    "endMs": 64120
+   },
+   "lines": [
+    {
+     "text": "وكيف يمكن اتّحاد شخصين حتى يصبحا نفسا واحدة؟!!",
+     "startMs": 35900,
+     "endMs": 40220
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s02_l03",
+   "scene": 2,
+   "speakerId": "ABDULHAYY",
+   "speakerName": "السيد عبد الحي",
+   "direction": "معتذر",
+   "text": "إنّني أعتذر من سوء التعبير، وأرجو العفو والسماح.",
+   "startMs": 40820,
+   "endMs": 44350,
+   "clip": {
+    "file": "audio/ABDULHAYY/Generated Audio October 27, 2026 - 2_56AM.wav",
+    "startMs": 64640,
+    "endMs": 68170
+   },
+   "lines": [
+    {
+     "text": "إنّني أعتذر من سوء التعبير، وأرجو العفو والسماح.",
+     "startMs": 40820,
+     "endMs": 44350
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s03_l04",
+   "scene": 3,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "معترض",
+   "text": "فإذا كان علي يساوي رسول الله في جميع الفضائل، لزم أن يكون نبيًّا مثله!",
+   "startMs": 45550,
+   "endMs": 52090,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 667320,
+    "endMs": 673860
+   },
+   "lines": [
+    {
+     "text": "فإذا كان علي يساوي رسول الله في جميع الفضائل، لزم أن يكون نبيًّا مثله!",
+     "startMs": 45550,
+     "endMs": 52089
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s04_l03",
+   "scene": 4,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "ملحمي",
+   "text": "فلما رأى رسول الله لجاجهم دعاهم إلى المباهلة، أن يجتمع الفريقان فيبتهلوا إلى الله، فيجعلوا لعنته على الكاذبين. فقبلوا.",
+   "startMs": 53290,
+   "endMs": 67370,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 596500,
+    "endMs": 610580
+   },
+   "lines": [
+    {
+     "text": "فلما رأى رسول الله لجاجهم دعاهم إلى المباهلة، أن يجتمع الفريقان فيبتهلوا إلى الله، فيجعلوا لعنته على الكاذبين.",
+     "startMs": 53290,
+     "endMs": 65469
+    },
+    {
+     "text": "فقبلوا.",
+     "startMs": 65469,
+     "endMs": 67370
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s06_l01",
+   "scene": 6,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "مقرّ ثم مستفهم",
+   "text": "هذا الخبر صحيح، ومنقول في كتبنا المعتبرة، ولا منكر له بين علمائنا",
+   "startMs": 68570,
+   "endMs": 75585,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 674190,
+    "endMs": 681205
+   },
+   "lines": [
+    {
+     "text": "هذا الخبر صحيح، ومنقول في كتبنا المعتبرة، ولا منكر له بين علمائنا",
+     "startMs": 68570,
+     "endMs": 75584
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s06_l02",
+   "scene": 6,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يستفهم",
+   "text": "لكن ما ارتباطه بسؤالنا عن اتحاد نفس علي مع نفس رسول الله؟",
+   "startMs": 75935,
+   "endMs": 83005,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 681280,
+    "endMs": 688350
+   },
+   "lines": [
+    {
+     "text": "لكن ما ارتباطه بسؤالنا عن اتحاد نفس علي مع نفس رسول الله؟",
+     "startMs": 75935,
+     "endMs": 83005
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s06_l05",
+   "scene": 6,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يتمسك",
+   "text": "لنا أن نقول إن هذا تعبير مجازي!",
+   "startMs": 83355,
+   "endMs": 87275,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 689010,
+    "endMs": 692930
+   },
+   "lines": [
+    {
+     "text": "لنا أن نقول إن هذا تعبير مجازي!",
+     "startMs": 83355,
+     "endMs": 87275
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s08_l01",
+   "scene": 8,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "انتقالي",
+   "text": "وحلّ وقت العشاء. وبعد الصلاة عاد المجلس، فبدأ المؤلف الكلام في باب جديد.",
+   "startMs": 88475,
+   "endMs": 96605,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 611090,
+    "endMs": 619220
+   },
+   "lines": [
+    {
+     "text": "وحلّ وقت العشاء.",
+     "startMs": 88475,
+     "endMs": 89804
+    },
+    {
+     "text": "وبعد الصلاة عاد المجلس، فبدأ المؤلف الكلام في باب جديد.",
+     "startMs": 89804,
+     "endMs": 96604
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s13_l01",
+   "scene": 13,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "واثق",
+   "text": "إنّ أقوى دليل على إثبات خلافة أبي بكر وصحّتها هو إجماع الأمّة على خلافته.",
+   "startMs": 97805,
+   "endMs": 105235,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 693040,
+    "endMs": 700470
+   },
+   "lines": [
+    {
+     "text": "إنّ أقوى دليل على إثبات خلافة أبي بكر وصحّتها هو إجماع الأمّة على خلافته.",
+     "startMs": 97805,
+     "endMs": 105235
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s13_l02",
+   "scene": 13,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يكمل",
+   "text": "وأضف إليه كبر السن. فعلي مع فضله وقربه من رسول الله، أخّره المسلمون لصغر سنه. ولا يجوز عقلًا أن يتقدم شاب حدث السن على شيوخ قومه.",
+   "startMs": 105585,
+   "endMs": 118865,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 700820,
+    "endMs": 714100
+   },
+   "lines": [
+    {
+     "text": "وأضف إليه كبر السن.",
+     "startMs": 105585,
+     "endMs": 107164
+    },
+    {
+     "text": "فعلي مع فضله وقربه من رسول الله، أخّره المسلمون لصغر سنه.",
+     "startMs": 107164,
+     "endMs": 113364
+    },
+    {
+     "text": "ولا يجوز عقلًا أن يتقدم شاب حدث السن على شيوخ قومه.",
+     "startMs": 113364,
+     "endMs": 118864
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s13_l03",
+   "scene": 13,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يكمل",
+   "text": "ثمّ إنّ المسلمين سمعوا حديثا رواه عمر بن الخطّاب، قال: لا تجتمع النبوّة والملك في أهل بيت واحد.",
+   "startMs": 119215,
+   "endMs": 128765,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 714550,
+    "endMs": 724100
+   },
+   "lines": [
+    {
+     "text": "ثمّ إنّ المسلمين سمعوا حديثا رواه عمر بن الخطّاب، قال: لا تجتمع النبوّة والملك في أهل بيت واحد.",
+     "startMs": 119215,
+     "endMs": 128765
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s13_l04",
+   "scene": 13,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "محتجّ",
+   "text": "أما قال رسول الله صلى الله عليه وآله وسلم: «لا تجتمع أمّتي على الخطأ؟",
+   "startMs": 129115,
+   "endMs": 135615,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 724440,
+    "endMs": 730940
+   },
+   "lines": [
+    {
+     "text": "أما قال رسول الله صلى الله عليه وآله وسلم: «لا تجتمع أمّتي على الخطأ؟",
+     "startMs": 129115,
+     "endMs": 135615
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep12_s14_l03",
+   "scene": 14,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "معلّق",
+   "text": "وهكذا انفتح باب السقيفة. وما كان أحد في القاعة يعلم أن هذا الباب سيقودهم إلى أشد ما في التاريخ ألمًا.",
+   "startMs": 136815,
+   "endMs": 147205,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 619700,
+    "endMs": 630090
+   },
+   "lines": [
+    {
+     "text": "وهكذا انفتح باب السقيفة.",
+     "startMs": 136815,
+     "endMs": 139014
+    },
+    {
+     "text": "وما كان أحد في القاعة يعلم أن هذا الباب سيقودهم إلى أشد ما في التاريخ ألمًا.",
+     "startMs": 139014,
+     "endMs": 147204
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.99,
+    "flags": []
+   }
+  }
+ ]
+}

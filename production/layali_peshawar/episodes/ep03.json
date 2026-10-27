@@ -1,0 +1,1588 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep03",
+ "number": 3,
+ "title": "خير البريّة",
+ "durationMs": 558430,
+ "audio": {
+  "mode": "clips",
+  "music": "ep03/audio/score_music.m4a",
+  "sfx": "ep03/audio/score_sfx.m4a",
+  "musicLoop": false
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AUTHOR": {
+   "name": "سلطان الواعظين"
+  },
+  "MIRZA_YAQUB": {
+   "name": "الميرزا يعقوب علي خان"
+  },
+  "HAFIZ": {
+   "name": "الحافظ محمد رشيد"
+  },
+  "NAWWAB": {
+   "name": "النواب عبد القيوم خان"
+  },
+  "ABDULHAYY": {
+   "name": "السيد عبد الحي"
+  },
+  "ABDUSSALAM": {
+   "name": "الشيخ عبد السلام"
+  },
+  "ATTENDEES": {
+   "name": "الحاضرون"
+  },
+  "GHULAM": {
+   "name": "غلام إمامين"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "مدخل البيت بعد صلاة العشاء",
+   "image": "ep03/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 16930
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "الحافظ يتكلم بوجه بشوش",
+   "image": "ep03/images/scene_02.jpg",
+   "startMs": 16930,
+   "endMs": 75470
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "الحافظ يتكلم مسترسلًا بيده المرفوعة",
+   "image": "ep03/images/scene_03.jpg",
+   "startMs": 75470,
+   "endMs": 121410
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "لقطة عريضة",
+   "image": "ep03/images/scene_04.jpg",
+   "startMs": 121410,
+   "endMs": 139540
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "المؤلف يجيب",
+   "image": "ep03/images/scene_05.jpg",
+   "startMs": 139540,
+   "endMs": 210230
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "المؤلف يتلو آية بخشوع",
+   "image": "ep03/images/scene_06.jpg",
+   "startMs": 210230,
+   "endMs": 251950
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "المؤذّن من بعيد",
+   "image": "ep03/images/scene_07.jpg",
+   "startMs": 251950,
+   "endMs": 263370
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "السيد عبد الحي يعود حاملًا كومة من المجلّدات…",
+   "image": "ep03/images/scene_08.jpg",
+   "startMs": 263370,
+   "endMs": 325370
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "لوحة استعادية",
+   "image": "ep03/images/scene_09.jpg",
+   "startMs": 325370,
+   "endMs": 343470
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "الحافظ يقرأ من ورقة بيده بصوت عالٍ ساخر",
+   "image": "ep03/images/scene_10.jpg",
+   "startMs": 343470,
+   "endMs": 410680
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "لوحة استعادية سريعة",
+   "image": "ep03/images/scene_11.jpg",
+   "startMs": 410680,
+   "endMs": 453760
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "الحافظ يرفع كفّيه متسائلًا عن الصلاة على الآل",
+   "image": "ep03/images/scene_12.jpg",
+   "startMs": 453760,
+   "endMs": 485090
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "النواب يبتسم ويرفع يده كتلميذ",
+   "image": "ep03/images/scene_13.jpg",
+   "startMs": 485090,
+   "endMs": 527460
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "الحافظ يهز رأسه مستنكرًا",
+   "image": "ep03/images/scene_14.jpg",
+   "startMs": 527460,
+   "endMs": 558430
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep03_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "سينمائي",
+   "text": "ليلة السبت، الرابع والعشرون من رجب. بعد صلاة العشاء امتلأت القاعة أكثر من الليلة الماضية. فقد انتشر في المدينة خبر المجلس، وصار الناس يتساءلون: ماذا سيجري الليلة؟",
+   "startMs": 500,
+   "endMs": 16330,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 242420,
+    "endMs": 258250
+   },
+   "lines": [
+    {
+     "text": "ليلة السبت، الرابع والعشرون من رجب.",
+     "startMs": 500,
+     "endMs": 3540
+    },
+    {
+     "text": "بعد صلاة العشاء امتلأت القاعة أكثر من الليلة الماضية.",
+     "startMs": 3540,
+     "endMs": 8880
+    },
+    {
+     "text": "فقد انتشر في المدينة خبر المجلس، وصار الناس يتساءلون: ماذا سيجري الليلة؟",
+     "startMs": 8880,
+     "endMs": 16330
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s02_l01",
+   "scene": 2,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "ودود، مادح",
+   "text": "أقول حقيقة لا تملّقا: لقد استفدنا في الليلة السابقة من بيانكم الشيّق وكلامكم العذب",
+   "startMs": 17530,
+   "endMs": 25445,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 185870,
+    "endMs": 193785
+   },
+   "lines": [
+    {
+     "text": "أقول حقيقة لا تملّقا: لقد استفدنا في الليلة السابقة من بيانكم الشيّق وكلامكم العذب",
+     "startMs": 17530,
+     "endMs": 25444
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s02_l02",
+   "scene": 2,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "ودود",
+   "text": "وكنا نتحدث في الطريق عن أخلاقكم وعلمكم الغزير. بل إني راجعت اليوم كتب الأنساب حول بني هاشم، فوجدت نسبكم صحيحًا.",
+   "startMs": 25795,
+   "endMs": 37330,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 193785,
+    "endMs": 205320
+   },
+   "lines": [
+    {
+     "text": "وكنا نتحدث في الطريق عن أخلاقكم وعلمكم الغزير.",
+     "startMs": 25795,
+     "endMs": 29590
+    },
+    {
+     "text": "بل إني راجعت اليوم كتب الأنساب حول بني هاشم، فوجدت نسبكم صحيحًا.",
+     "startMs": 29590,
+     "endMs": 37329
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s02_l03",
+   "scene": 2,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "ينقلب إلى الحدّة",
+   "text": "ولكن استغربت وتعجّبت من شيء واحد، وهو: أنّ شخصا شريفا صحيح النسب كجنابكم مع حسن الصورة والسيرة، كيف تأثّرتم بالعادات الواهية والعقائد العاميّة",
+   "startMs": 37680,
+   "endMs": 53520,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 205470,
+    "endMs": 221310
+   },
+   "lines": [
+    {
+     "text": "ولكن استغربت وتعجّبت من شيء واحد، وهو: أنّ شخصا شريفا صحيح النسب كجنابكم مع حسن الصورة والسيرة، كيف تأثّرتم بالعادات الواهية والعقائد العاميّة",
+     "startMs": 37680,
+     "endMs": 53520
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s02_l04",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "هادئ، يستوضح",
+   "text": "أشكرك على أول كلامك وحسن ظنك بي. ولكن ما مرادك بالعادات الواهية والعقائد العامية؟ وضّح لي حتى أعرف ما الذي تأثرت به.",
+   "startMs": 54120,
+   "endMs": 65570,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 541110,
+    "endMs": 552560
+   },
+   "lines": [
+    {
+     "text": "أشكرك على أول كلامك وحسن ظنك بي.",
+     "startMs": 54120,
+     "endMs": 56909
+    },
+    {
+     "text": "ولكن ما مرادك بالعادات الواهية والعقائد العامية؟",
+     "startMs": 56909,
+     "endMs": 62009
+    },
+    {
+     "text": "وضّح لي حتى أعرف ما الذي تأثرت به.",
+     "startMs": 62009,
+     "endMs": 65569
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.991,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s02_l05",
+   "scene": 2,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "قاطع",
+   "text": "أقصد بالعادات الواهية والعقائد العاميّة: البدع المضلّة والتقاليد المخلّة، التي أدخلها اليهود في الإسلام.",
+   "startMs": 66170,
+   "endMs": 75170,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 221980,
+    "endMs": 230980
+   },
+   "lines": [
+    {
+     "text": "أقصد بالعادات الواهية والعقائد العاميّة: البدع المضلّة والتقاليد المخلّة، التي أدخلها اليهود في الإسلام.",
+     "startMs": 66170,
+     "endMs": 75170
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s03_l01",
+   "scene": 3,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "خطابي، مسترسل",
+   "text": "إن أعداء كل نبي حرّفوا كتابه بعد موته. فلما عجز أعداء الإسلام عن تحريف القرآن دخلوا من باب آخر. جماعة من اليهود، على رأسهم عبد الله بن سبأ، تظاهروا بالإسلام، ونشروا أن عليًّا هو خليفة رسول الله.",
+   "startMs": 75770,
+   "endMs": 94530,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 231780,
+    "endMs": 250540
+   },
+   "lines": [
+    {
+     "text": "إن أعداء كل نبي حرّفوا كتابه بعد موته.",
+     "startMs": 75770,
+     "endMs": 79629
+    },
+    {
+     "text": "فلما عجز أعداء الإسلام عن تحريف القرآن دخلوا من باب آخر.",
+     "startMs": 79629,
+     "endMs": 84989
+    },
+    {
+     "text": "جماعة من اليهود، على رأسهم عبد الله بن سبأ، تظاهروا بالإسلام، ونشروا أن عليًّا هو خليفة رسول الله.",
+     "startMs": 84989,
+     "endMs": 94529
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s03_l02",
+   "scene": 3,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "اتهامي",
+   "text": "ثم إن الإيرانيين كانوا حاقدين على العرب، لأن حكومتهم زالت بسيوفهم، فوجدوا في هذا الحزب مذهبًا يخالفون به دين العرب.",
+   "startMs": 94880,
+   "endMs": 105580,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 251430,
+    "endMs": 262130
+   },
+   "lines": [
+    {
+     "text": "ثم إن الإيرانيين كانوا حاقدين على العرب، لأن حكومتهم زالت بسيوفهم، فوجدوا في هذا الحزب مذهبًا يخالفون به دين العرب.",
+     "startMs": 94880,
+     "endMs": 105579
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s03_l03",
+   "scene": 3,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "حادّ، حاسم",
+   "text": "فالتشيّع مذهب سياسي حادث، ابتدعه عبد الله بن سبأ اليهودي، ولم يكن لهذا المذهب اسم في الإسلام.",
+   "startMs": 105930,
+   "endMs": 114970,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 262820,
+    "endMs": 271860
+   },
+   "lines": [
+    {
+     "text": "فالتشيّع مذهب سياسي حادث، ابتدعه عبد الله بن سبأ اليهودي، ولم يكن لهذا المذهب اسم في الإسلام.",
+     "startMs": 105930,
+     "endMs": 114970
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s03_l04",
+   "scene": 3,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "عاتب",
+   "text": "وأنت يا سيد أولى باتّباع جدّك، والعمل بالقرآن والسنة.",
+   "startMs": 115320,
+   "endMs": 120810,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 272480,
+    "endMs": 277970
+   },
+   "lines": [
+    {
+     "text": "وأنت يا سيد أولى باتّباع جدّك، والعمل بالقرآن والسنة.",
+     "startMs": 115320,
+     "endMs": 120810
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s04_l01",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "صوت داخلي، توتر شديد",
+   "text": "لما كان الحافظ يسترسل في كلامه ويتقوّل ما يريد، كنت اشاهد الشيعة الحاضرين في المجلس قد تغيّرت ألوانهم ولاح الغضب في وجوههم حتّى كادوا يهجمون عليه، ولكنّي أشرت إليهم بالهدوء والوقار.",
+   "startMs": 122010,
+   "endMs": 139240,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 553240,
+    "endMs": 570470
+   },
+   "lines": [
+    {
+     "text": "لما كان الحافظ يسترسل في كلامه ويتقوّل ما يريد، كنت اشاهد الشيعة الحاضرين في المجلس قد تغيّرت ألوانهم ولاح الغضب في وجوههم حتّى كادوا يهجمون عليه، ولكنّي أشرت إليهم بالهدوء والوقار.",
+     "startMs": 122010,
+     "endMs": 139240
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.994,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s05_l01",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "عاتب، رصين",
+   "text": "ما كنت أتوقّع منك ـ وأنت من أهل العلم ـ أن تتمسّك بكلام وهمي واه من أباطيل المنافقين وأكاذيب الخوارج وأقاويل النواصب، أشاعه الأمويّون وتقبّله العوامّ الجاهلون.",
+   "startMs": 139840,
+   "endMs": 154110,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 571410,
+    "endMs": 585680
+   },
+   "lines": [
+    {
+     "text": "ما كنت أتوقّع منك ـ وأنت من أهل العلم ـ أن تتمسّك بكلام وهمي واه من أباطيل المنافقين وأكاذيب الخوارج وأقاويل النواصب، أشاعه الأمويّون وتقبّله العوامّ الجاهلون.",
+     "startMs": 139840,
+     "endMs": 154109
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.993,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s05_l02",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "منطقي",
+   "text": "لقد خلطت بين أمرين متباينين. فالشيعة يذكرون ابن سبأ في كتبهم باللعن، ويعدّونه منافقًا كافرًا. ولو ادّعى أنه من محبي علي لغرض سياسي، فهل يُحسب عمله على شيعة آل محمد المخلصين؟",
+   "startMs": 154460,
+   "endMs": 170990,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 586130,
+    "endMs": 602660
+   },
+   "lines": [
+    {
+     "text": "لقد خلطت بين أمرين متباينين.",
+     "startMs": 154460,
+     "endMs": 157150
+    },
+    {
+     "text": "فالشيعة يذكرون ابن سبأ في كتبهم باللعن، ويعدّونه منافقًا كافرًا.",
+     "startMs": 157150,
+     "endMs": 162989
+    },
+    {
+     "text": "ولو ادّعى أنه من محبي علي لغرض سياسي، فهل يُحسب عمله على شيعة آل محمد المخلصين؟",
+     "startMs": 162989,
+     "endMs": 170989
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.994,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s05_l03",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "بمثال",
+   "text": "فلو ظهر لصّ في زيّ أهل العلم، وصعد المنبر وصلّى بالناس، ولمّا وثق به المسلمون خانهم وسرق أموالهم، فهل صحيح أن نقول: كلّ العلماء لصوص وسرّاق؟!",
+   "startMs": 171340,
+   "endMs": 184600,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 603160,
+    "endMs": 616420
+   },
+   "lines": [
+    {
+     "text": "فلو ظهر لصّ في زيّ أهل العلم، وصعد المنبر وصلّى بالناس، ولمّا وثق به المسلمون خانهم وسرق أموالهم، فهل صحيح أن نقول: كلّ العلماء لصوص وسرّاق؟!",
+     "startMs": 171340,
+     "endMs": 184599
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.989,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s05_l04",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "جادّ",
+   "text": "والآن، إن سمحتم ولم تتألموا من كلامي، أثبت لكم بالأدلة المقبولة عندكم أن الحق خلاف ما قلتم.",
+   "startMs": 184950,
+   "endMs": 193070,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 616720,
+    "endMs": 624840
+   },
+   "lines": [
+    {
+     "text": "والآن، إن سمحتم ولم تتألموا من كلامي، أثبت لكم بالأدلة المقبولة عندكم أن الحق خلاف ما قلتم.",
+     "startMs": 184950,
+     "endMs": 193070
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s05_l05",
+   "scene": 5,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "ينفي عن نفسه",
+   "text": "أشهد الله أنّي لا أتعصّب، ولا أماري، ولا أجادل، بل إذا اتّضح الحقّ تمسّكت به، وإذا عرفت الحقيقة قبلتها وأعلنتها.",
+   "startMs": 193670,
+   "endMs": 209630,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 278760,
+    "endMs": 294720
+   },
+   "lines": [
+    {
+     "text": "أشهد الله أنّي لا أتعصّب، ولا أماري، ولا أجادل، بل إذا اتّضح الحقّ تمسّكت به، وإذا عرفت الحقيقة قبلتها وأعلنتها.",
+     "startMs": 193670,
+     "endMs": 209630
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s06_l01",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "تلاوة ثم رواية",
+   "text": "إن اسم الشيعة لم يخترعه أحد بعد رسول الله، بل جرى على لسانه هو. روى الحافظ أبو نعيم في «حلية الأولياء» عن ابن عباس: لما نزلت الآية: «إن الذين آمنوا وعملوا الصالحات أولئك هم خير البرية»، قال رسول الله لعلي: هو أنت وشيعتك.",
+   "startMs": 210830,
+   "endMs": 232580,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 625350,
+    "endMs": 647100
+   },
+   "lines": [
+    {
+     "text": "إن اسم الشيعة لم يخترعه أحد بعد رسول الله، بل جرى على لسانه هو.",
+     "startMs": 210830,
+     "endMs": 216499
+    },
+    {
+     "text": "روى الحافظ أبو نعيم في «حلية الأولياء» عن ابن عباس: لما نزلت الآية: «إن الذين آمنوا وعملوا الصالحات أولئك هم خير البرية»، قال رسول الله لعلي: هو أنت وشيعتك.",
+     "startMs": 216499,
+     "endMs": 232580
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s06_l02",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يعدّد المصادر",
+   "text": "ورواه الحاكم الحسكاني في «شواهد التنزيل»، والخوارزمي في «المناقب» عن جابر بن عبد الله الأنصاري، وقال جابر: وكان أصحاب محمد إذا أقبل علي قالوا: قد جاء خير البرية. ونقله السيوطي في «الدر المنثور».",
+   "startMs": 232930,
+   "endMs": 251350,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 647490,
+    "endMs": 665910
+   },
+   "lines": [
+    {
+     "text": "ورواه الحاكم الحسكاني في «شواهد التنزيل»، والخوارزمي في «المناقب» عن جابر بن عبد الله الأنصاري، وقال جابر: وكان أصحاب محمد إذا أقبل علي قالوا: قد جاء خير البرية.",
+     "startMs": 232930,
+     "endMs": 247640
+    },
+    {
+     "text": "ونقله السيوطي في «الدر المنثور».",
+     "startMs": 247640,
+     "endMs": 251349
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s07_l01",
+   "scene": 7,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "انتقالي",
+   "text": "ووصل الحديث إلى هنا فارتفع صوت المؤذن لصلاة العشاء، فانقطع الكلام. وذهب السيد عبد الحي ليؤمّ الناس في المسجد.",
+   "startMs": 252550,
+   "endMs": 263070,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 258690,
+    "endMs": 269210
+   },
+   "lines": [
+    {
+     "text": "ووصل الحديث إلى هنا فارتفع صوت المؤذن لصلاة العشاء، فانقطع الكلام.",
+     "startMs": 252550,
+     "endMs": 258699
+    },
+    {
+     "text": "وذهب السيد عبد الحي ليؤمّ الناس في المسجد.",
+     "startMs": 258699,
+     "endMs": 263069
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.986,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s08_l01",
+   "scene": 8,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "مفاجأة",
+   "text": "ولما رجع السيد عبد الحي من المسجد، دخل يحمل بين يديه كتبًا: تفسير «الدر المنثور»، وكتاب «مودة القربى»، ومسند أحمد بن حنبل، ومناقب الخوارزمي.",
+   "startMs": 263670,
+   "endMs": 277190,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 269650,
+    "endMs": 283170
+   },
+   "lines": [
+    {
+     "text": "ولما رجع السيد عبد الحي من المسجد، دخل يحمل بين يديه كتبًا: تفسير «الدر المنثور»، وكتاب «مودة القربى»، ومسند أحمد بن حنبل، ومناقب الخوارزمي.",
+     "startMs": 263670,
+     "endMs": 277190
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.988,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s08_l02",
+   "scene": 8,
+   "speakerId": "ABDULHAYY",
+   "speakerName": "السيد عبد الحي",
+   "direction": "جادّ، فيه تحدٍّ خفي",
+   "text": "ذهبت بعد الصلاة إلى البيت وجئتكم بهذه الكتب التي تستندون إليها، حتى نراجعها عند الضرورة.",
+   "startMs": 277790,
+   "endMs": 285340,
+   "clip": {
+    "file": "audio/ABDULHAYY/Generated Audio October 27, 2026 - 2_56AM.wav",
+    "startMs": 10770,
+    "endMs": 18320
+   },
+   "lines": [
+    {
+     "text": "ذهبت بعد الصلاة إلى البيت وجئتكم بهذه الكتب التي تستندون إليها، حتى نراجعها عند الضرورة.",
+     "startMs": 277790,
+     "endMs": 285339
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.988,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s08_l03",
+   "scene": 8,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "متصاعد",
+   "text": "فتناولها السيد شاكرًا، وجعل يفتحها ويقرأ منها على الحاضرين ما نقله. فكلما قرأ خبرًا من كتابهم أخذوا الكتاب ونظروا فيه بأعينهم.",
+   "startMs": 285940,
+   "endMs": 297560,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 283640,
+    "endMs": 295260
+   },
+   "lines": [
+    {
+     "text": "فتناولها السيد شاكرًا، وجعل يفتحها ويقرأ منها على الحاضرين ما نقله.",
+     "startMs": 285940,
+     "endMs": 291560
+    },
+    {
+     "text": "فكلما قرأ خبرًا من كتابهم أخذوا الكتاب ونظروا فيه بأعينهم.",
+     "startMs": 291560,
+     "endMs": 297560
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s08_l04",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ من الكتاب",
+   "text": "روي أنّ رسول الله صلى الله عليه وآله وسلم قال: يا علي، ستقدم على الله أنت وشيعتك راضين مرضيّين، ويقدم عليه عدوّك غضابا مقمحين.",
+   "startMs": 298160,
+   "endMs": 311590,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 666740,
+    "endMs": 680170
+   },
+   "lines": [
+    {
+     "text": "روي أنّ رسول الله صلى الله عليه وآله وسلم قال: يا علي، ستقدم على الله أنت وشيعتك راضين مرضيّين، ويقدم عليه عدوّك غضابا مقمحين.",
+     "startMs": 298160,
+     "endMs": 311589
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s08_l05",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حاسم",
+   "text": "فأرجو بعد هذا ألا تكرروا الكلام الواهي بأن مؤسس مذهب الشيعة هو عبد الله بن سبأ. فقد اندفع هذا الاتهام بالقرآن الحكيم وحديث النبي العظيم.",
+   "startMs": 311940,
+   "endMs": 325070,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 680610,
+    "endMs": 693740
+   },
+   "lines": [
+    {
+     "text": "فأرجو بعد هذا ألا تكرروا الكلام الواهي بأن مؤسس مذهب الشيعة هو عبد الله بن سبأ.",
+     "startMs": 311940,
+     "endMs": 319109
+    },
+    {
+     "text": "فقد اندفع هذا الاتهام بالقرآن الحكيم وحديث النبي العظيم.",
+     "startMs": 319109,
+     "endMs": 325069
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.985,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s09_l01",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "متأمّل، دافئ",
+   "text": "وقد كان في عهد رسول الله رجال عُرفوا بأنهم شيعة علي: سلمان الفارسي، وأبو ذر الغفاري، والمقداد بن الأسود، وعمار بن ياسر. هؤلاء الأربعة أصحاب رسول الله، ومكانتهم في الإسلام معروفة عندكم.",
+   "startMs": 325670,
+   "endMs": 342870,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 693880,
+    "endMs": 711080
+   },
+   "lines": [
+    {
+     "text": "وقد كان في عهد رسول الله رجال عُرفوا بأنهم شيعة علي: سلمان الفارسي، وأبو ذر الغفاري، والمقداد بن الأسود، وعمار بن ياسر.",
+     "startMs": 325670,
+     "endMs": 336849
+    },
+    {
+     "text": "هؤلاء الأربعة أصحاب رسول الله، ومكانتهم في الإسلام معروفة عندكم.",
+     "startMs": 336849,
+     "endMs": 342870
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.983,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s10_l01",
+   "scene": 10,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "ساخر، متّهم",
+   "text": "إني أتعجب منك أيها السيد الحجازي، كيف نسيت أصلك وصرت مدافعًا عن الإيرانيين! وهم يؤلّهون عليًّا. واسمع ما قاله شعراؤهم.",
+   "startMs": 344070,
+   "endMs": 356590,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 294960,
+    "endMs": 307480
+   },
+   "lines": [
+    {
+     "text": "إني أتعجب منك أيها السيد الحجازي، كيف نسيت أصلك وصرت مدافعًا عن الإيرانيين!",
+     "startMs": 344070,
+     "endMs": 352030
+    },
+    {
+     "text": "وهم يؤلّهون عليًّا.",
+     "startMs": 352030,
+     "endMs": 353949
+    },
+    {
+     "text": "واسمع ما قاله شعراؤهم.",
+     "startMs": 353949,
+     "endMs": 356590
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s10_l02",
+   "scene": 10,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يقرأ الشعر",
+   "text": "في مذهب العرفاء العالمين الله علي، علي هو الله!",
+   "startMs": 356940,
+   "endMs": 363120,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 308060,
+    "endMs": 314240
+   },
+   "lines": [
+    {
+     "text": "في مذهب العرفاء العالمين الله علي، علي هو الله!",
+     "startMs": 356940,
+     "endMs": 363120
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s10_l03",
+   "scene": 10,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "منتصر",
+   "text": "فهل بعد هذا تشكّ في كفرهم؟!",
+   "startMs": 363470,
+   "endMs": 365940,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 315090,
+    "endMs": 317560
+   },
+   "lines": [
+    {
+     "text": "فهل بعد هذا تشكّ في كفرهم؟!",
+     "startMs": 363470,
+     "endMs": 365940
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s10_l04",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حازم، بلا تردد",
+   "text": "إنّي لا أشكّ، ولا كنت شاكّا، في كفر القائلين لهذه الأبيات وأمثالها",
+   "startMs": 366540,
+   "endMs": 373090,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 711310,
+    "endMs": 717860
+   },
+   "lines": [
+    {
+     "text": "إنّي لا أشكّ، ولا كنت شاكّا، في كفر القائلين لهذه الأبيات وأمثالها",
+     "startMs": 366540,
+     "endMs": 373090
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s10_l05",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "عاتب، حزين",
+   "text": "ولكن العجب منك، إذ تنسب هؤلاء الملاحدة الغلاة إلى الشيعة الموحّدين. فكم شبّت من فتن على أثر هذه الفتاوى، وكم قُتل من المؤمنين لأنهم شيعة!",
+   "startMs": 373440,
+   "endMs": 386385,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 718300,
+    "endMs": 731245
+   },
+   "lines": [
+    {
+     "text": "ولكن العجب منك، إذ تنسب هؤلاء الملاحدة الغلاة إلى الشيعة الموحّدين.",
+     "startMs": 373440,
+     "endMs": 379319
+    },
+    {
+     "text": "فكم شبّت من فتن على أثر هذه الفتاوى، وكم قُتل من المؤمنين لأنهم شيعة!",
+     "startMs": 379319,
+     "endMs": 386385
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s10_l06",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "منطقي",
+   "text": "ألم تكن في بلادكم أقلّيّات مشركة وطوائف كافرة؟! وهم يعدّون من الافغان، فهل صحيح أن نحكم على كلّ أفغاني بالكفر والشرك؟!",
+   "startMs": 386735,
+   "endMs": 392890,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 731245,
+    "endMs": 737400
+   },
+   "lines": [
+    {
+     "text": "ألم تكن في بلادكم أقلّيّات مشركة وطوائف كافرة؟! وهم يعدّون من الافغان، فهل صحيح أن نحكم على كلّ أفغاني بالكفر والشرك؟!",
+     "startMs": 386735,
+     "endMs": 392889
+    }
+   ],
+   "timing": "estimated",
+   "alignment": {
+    "confidence": 0.747,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s10_l07",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "واضح",
+   "text": "إن الشيعة الإمامية وعلماءهم يكفّرون الغلاة ويتبرّؤون منهم. وأنا أفتخر بنسبي إلى رسول الله وإلى مكة والمدينة، لكن الإسلام يرفض التعصب القومي، وإن أكرمكم عند الله أتقاكم.",
+   "startMs": 393240,
+   "endMs": 410380,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 737680,
+    "endMs": 754820
+   },
+   "lines": [
+    {
+     "text": "إن الشيعة الإمامية وعلماءهم يكفّرون الغلاة ويتبرّؤون منهم.",
+     "startMs": 393240,
+     "endMs": 398540
+    },
+    {
+     "text": "وأنا أفتخر بنسبي إلى رسول الله وإلى مكة والمدينة، لكن الإسلام يرفض التعصب القومي، وإن أكرمكم عند الله أتقاكم.",
+     "startMs": 398540,
+     "endMs": 410380
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s11_l01",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ",
+   "text": "وأما الإيرانيون فما تشيّعوا حقدًا على العرب، بل تشيّعوا بالدليل. فقد تشيّع كثير منهم في عهد آل بويه، ثم في عهد المغول حين أسلم غازان خان وتسمّى السلطان محمود، وكان يظهر الحب لأهل البيت.",
+   "startMs": 410980,
+   "endMs": 426030,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 755160,
+    "endMs": 770210
+   },
+   "lines": [
+    {
+     "text": "وأما الإيرانيون فما تشيّعوا حقدًا على العرب، بل تشيّعوا بالدليل.",
+     "startMs": 410980,
+     "endMs": 415980
+    },
+    {
+     "text": "فقد تشيّع كثير منهم في عهد آل بويه، ثم في عهد المغول حين أسلم غازان خان وتسمّى السلطان محمود، وكان يظهر الحب لأهل البيت.",
+     "startMs": 415980,
+     "endMs": 426030
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s11_l02",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "متصاعد",
+   "text": "ولما توفي خلفه أخوه خدابنده، فعقد في مجلسه مناظرة بين العلماء، فظهر الحق، وأعلن خدابنده وحاشيته تشيّعهم عن علم ودراية، وكتب بذلك إلى ولاته في البلاد.",
+   "startMs": 426380,
+   "endMs": 441180,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 770430,
+    "endMs": 785230
+   },
+   "lines": [
+    {
+     "text": "ولما توفي خلفه أخوه خدابنده، فعقد في مجلسه مناظرة بين العلماء، فظهر الحق، وأعلن خدابنده وحاشيته تشيّعهم عن علم ودراية، وكتب بذلك إلى ولاته في البلاد.",
+     "startMs": 426380,
+     "endMs": 441180
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s11_l03",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حاسم",
+   "text": "فالمذهب الرسمي في إيران مذهب الشيعة الإمامية منذ عهد آل بويه، قبل الصفويين بقرون. والمجوس فيها أقلية لا تُعدّ شيئًا بالنسبة إلى المسلمين.",
+   "startMs": 441530,
+   "endMs": 453160,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 785710,
+    "endMs": 797340
+   },
+   "lines": [
+    {
+     "text": "فالمذهب الرسمي في إيران مذهب الشيعة الإمامية منذ عهد آل بويه، قبل الصفويين بقرون.",
+     "startMs": 441530,
+     "endMs": 448619
+    },
+    {
+     "text": "والمجوس فيها أقلية لا تُعدّ شيئًا بالنسبة إلى المسلمين.",
+     "startMs": 448619,
+     "endMs": 453159
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s12_l01",
+   "scene": 12,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "معترض بأدب",
+   "text": "لقد خصّ الله نبيّه بالصلاة والسلام في قوله: «إن الله وملائكته يصلّون على النبي». فلماذا تصلّون معه على آله؟",
+   "startMs": 454360,
+   "endMs": 465600,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 318320,
+    "endMs": 329560
+   },
+   "lines": [
+    {
+     "text": "لقد خصّ الله نبيّه بالصلاة والسلام في قوله: «إن الله وملائكته يصلّون على النبي».",
+     "startMs": 454360,
+     "endMs": 462559
+    },
+    {
+     "text": "فلماذا تصلّون معه على آله؟",
+     "startMs": 462559,
+     "endMs": 465600
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s12_l02",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "هادئ",
+   "text": "الآية تأمر بالصلاة على النبي ولا تنهى عن الصلاة على غيره. والله تعالى قال في سورة الصافات: «سلام على نوح في العالمين»، و«سلام على إبراهيم»، و«سلام على موسى وهارون»، ثم قال: «سلام على إل ياسين».",
+   "startMs": 466200,
+   "endMs": 484490,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 797710,
+    "endMs": 816000
+   },
+   "lines": [
+    {
+     "text": "الآية تأمر بالصلاة على النبي ولا تنهى عن الصلاة على غيره.",
+     "startMs": 466200,
+     "endMs": 470649
+    },
+    {
+     "text": "والله تعالى قال في سورة الصافات: «سلام على نوح في العالمين»، و«سلام على إبراهيم»، و«سلام على موسى وهارون»، ثم قال: «سلام على إل ياسين».",
+     "startMs": 470649,
+     "endMs": 484489
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.994,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s13_l01",
+   "scene": 13,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "فضولي، بسيط",
+   "text": "ما هو سبب اختيار حرف «س» من بين الحروف؟!",
+   "startMs": 485690,
+   "endMs": 489890,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 39120,
+    "endMs": 43320
+   },
+   "lines": [
+    {
+     "text": "ما هو سبب اختيار حرف «س» من بين الحروف؟!",
+     "startMs": 485690,
+     "endMs": 489889
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.973,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s13_l02",
+   "scene": 13,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يشرح بمتعة",
+   "text": "لأن حرف السين وحده، عند أهل علم الحروف، يتساوى عدد ظاهره وباطنه. ولذلك خاطب الله نبيه: «يس»، الياء حرف نداء، والسين إشارة إلى اعتدال ظاهره وباطنه.",
+   "startMs": 490490,
+   "endMs": 505830,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 816510,
+    "endMs": 831850
+   },
+   "lines": [
+    {
+     "text": "لأن حرف السين وحده، عند أهل علم الحروف، يتساوى عدد ظاهره وباطنه.",
+     "startMs": 490490,
+     "endMs": 496300
+    },
+    {
+     "text": "ولذلك خاطب الله نبيه: «يس»، الياء حرف نداء، والسين إشارة إلى اعتدال ظاهره وباطنه.",
+     "startMs": 496300,
+     "endMs": 505830
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.982,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s13_l03",
+   "scene": 13,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "مبتسم",
+   "text": "عفوا يا سيّد، أرجو منك التوضيح بشكل نفهمه نحن العوام",
+   "startMs": 506430,
+   "endMs": 511900,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 43570,
+    "endMs": 49040
+   },
+   "lines": [
+    {
+     "text": "عفوا يا سيّد، أرجو منك التوضيح بشكل نفهمه نحن العوام",
+     "startMs": 506430,
+     "endMs": 511899
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s13_l04",
+   "scene": 13,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ودود",
+   "text": "الزبر هو رسم الحرف كما يُكتب: سين. فإذا نطقته صار ثلاثة أحرف: س، ي، ن. وما زاد في النطق على الرسم هو البيّنة. وفي السين يتساوى الأمران.",
+   "startMs": 512500,
+   "endMs": 526860,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 832180,
+    "endMs": 846540
+   },
+   "lines": [
+    {
+     "text": "الزبر هو رسم الحرف كما يُكتب: سين.",
+     "startMs": 512500,
+     "endMs": 515860
+    },
+    {
+     "text": "فإذا نطقته صار ثلاثة أحرف: س، ي، ن.",
+     "startMs": 515860,
+     "endMs": 520420
+    },
+    {
+     "text": "وما زاد في النطق على الرسم هو البيّنة.",
+     "startMs": 520420,
+     "endMs": 523879
+    },
+    {
+     "text": "وفي السين يتساوى الأمران.",
+     "startMs": 523879,
+     "endMs": 526860
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.977,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s14_l01",
+   "scene": 14,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "متشكّك",
+   "text": "إنّكم تريدون بسحر كلامكم أن تثبتوا شيئا لم يقله أحد من العلماء!",
+   "startMs": 528060,
+   "endMs": 534490,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 330130,
+    "endMs": 336560
+   },
+   "lines": [
+    {
+     "text": "إنّكم تريدون بسحر كلامكم أن تثبتوا شيئا لم يقله أحد من العلماء!",
+     "startMs": 528060,
+     "endMs": 534490
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s14_l02",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ناصح",
+   "text": "أرجوك أن لا تتسرّع في نفي ما أقول، بل فكّر وتدبّر ولا تعجل، فإنّ في العجلة ندامة",
+   "startMs": 535090,
+   "endMs": 542240,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 847050,
+    "endMs": 854200
+   },
+   "lines": [
+    {
+     "text": "أرجوك أن لا تتسرّع في نفي ما أقول، بل فكّر وتدبّر ولا تعجل، فإنّ في العجلة ندامة",
+     "startMs": 535090,
+     "endMs": 542240
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s14_l03",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "لطيف، يلاحظ التعب",
+   "text": "والآن أرى آثار التعب والنعاس على كثير من الإخوان، فأنهي المجلس، وأنتظر قدومكم في الليلة الآتية إن شاء الله.",
+   "startMs": 542590,
+   "endMs": 551950,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 854650,
+    "endMs": 864010
+   },
+   "lines": [
+    {
+     "text": "والآن أرى آثار التعب والنعاس على كثير من الإخوان، فأنهي المجلس، وأنتظر قدومكم في الليلة الآتية إن شاء الله.",
+     "startMs": 542590,
+     "endMs": 551950
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep03_s14_l04",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "صوت داخلي، ختامي",
+   "text": "فقام القوم وانصرفوا وشيّعتهم إلى باب الدار.",
+   "startMs": 552300,
+   "endMs": 556930,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 864510,
+    "endMs": 869140
+   },
+   "lines": [
+    {
+     "text": "فقام القوم وانصرفوا وشيّعتهم إلى باب الدار.",
+     "startMs": 552300,
+     "endMs": 556929
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  }
+ ],
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "warm",
+   "startMs": 0,
+   "endMs": 17730
+  },
+  {
+   "scene": 2,
+   "cue": "suspense",
+   "startMs": 16129,
+   "endMs": 76270
+  },
+  {
+   "scene": 3,
+   "cue": "reflective",
+   "startMs": 74670,
+   "endMs": 122210
+  },
+  {
+   "scene": 4,
+   "cue": "warm",
+   "startMs": 120610,
+   "endMs": 140340
+  },
+  {
+   "scene": 5,
+   "cue": "warm",
+   "startMs": 138739,
+   "endMs": 211030
+  },
+  {
+   "scene": 6,
+   "cue": "reflective",
+   "startMs": 209429,
+   "endMs": 252750
+  },
+  {
+   "scene": 7,
+   "cue": "reverent",
+   "startMs": 251149,
+   "endMs": 264170
+  },
+  {
+   "scene": 8,
+   "cue": "reverent",
+   "startMs": 262570,
+   "endMs": 326170
+  },
+  {
+   "scene": 9,
+   "cue": "reflective",
+   "startMs": 324570,
+   "endMs": 344270
+  },
+  {
+   "scene": 10,
+   "cue": "reflective",
+   "startMs": 342670,
+   "endMs": 411480
+  },
+  {
+   "scene": 11,
+   "cue": "reflective",
+   "startMs": 409880,
+   "endMs": 454560
+  },
+  {
+   "scene": 13,
+   "cue": "suspense",
+   "startMs": 484289,
+   "endMs": 528260
+  },
+  {
+   "scene": 14,
+   "cue": "ending",
+   "startMs": 526660,
+   "endMs": 559229
+  }
+ ]
+}

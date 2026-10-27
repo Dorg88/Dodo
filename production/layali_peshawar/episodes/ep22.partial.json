@@ -1,0 +1,1740 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep22",
+ "number": 22,
+ "title": "سلوني قبل أن تفقدوني",
+ "durationMs": 539525,
+ "audio": {
+  "mode": "clips"
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AUTHOR": {
+   "name": "سلطان الواعظين"
+  },
+  "MIRZA_YAQUB": {
+   "name": "الميرزا يعقوب علي خان"
+  },
+  "HAFIZ": {
+   "name": "الحافظ محمد رشيد"
+  },
+  "NAWWAB": {
+   "name": "النواب عبد القيوم خان"
+  },
+  "ABDULHAYY": {
+   "name": "السيد عبد الحي"
+  },
+  "ABDUSSALAM": {
+   "name": "الشيخ عبد السلام"
+  },
+  "ATTENDEES": {
+   "name": "الحاضرون"
+  },
+  "GHULAM": {
+   "name": "غلام إمامين"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "المؤلف يعود إلى موضوع الليلة الماضية",
+   "image": "ep22/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 31080
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "لوحة استعادية",
+   "image": "ep22/images/scene_02.jpg",
+   "startMs": 31080,
+   "endMs": 87580
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "لوحة استعادية",
+   "image": "ep22/images/scene_03.jpg",
+   "startMs": 87580,
+   "endMs": 124170
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "عبد السلام يقول إن عليًّا لم يكن سياسيًّا",
+   "image": "ep22/images/scene_04.jpg",
+   "startMs": 124170,
+   "endMs": 177015
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "لوحة استعادية",
+   "image": "ep22/images/scene_05.jpg",
+   "startMs": 177015,
+   "endMs": 218605
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "المؤلف يتلو آية من القرآن",
+   "image": "ep22/images/scene_06.jpg",
+   "startMs": 218605,
+   "endMs": 250815
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "لوحة استعادية",
+   "image": "ep22/images/scene_07.jpg",
+   "startMs": 250815,
+   "endMs": 279055
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "لوحة رمزية",
+   "image": "ep22/images/scene_08.jpg",
+   "startMs": 279055,
+   "endMs": 298525
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "لوحة استعادية",
+   "image": "ep22/images/scene_09.jpg",
+   "startMs": 298525,
+   "endMs": 330670
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "الباخرة نفسها عند الغروب",
+   "image": "ep22/images/scene_10.jpg",
+   "startMs": 330670,
+   "endMs": 365560
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "المجلس في بيشاور",
+   "image": "ep22/images/scene_11.jpg",
+   "startMs": 365560,
+   "endMs": 393105
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "لوحة رمزية",
+   "image": "ep22/images/scene_12.jpg",
+   "startMs": 393105,
+   "endMs": 415775
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "المؤلف يرفع يديه نحو السماء",
+   "image": "ep22/images/scene_13.jpg",
+   "startMs": 415775,
+   "endMs": 434295
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "النواب ينهض واقفًا",
+   "image": "ep22/images/scene_14.jpg",
+   "startMs": 434295,
+   "endMs": 477900
+  },
+  {
+   "number": 15,
+   "id": "s15",
+   "title": "العناق",
+   "image": "ep22/images/scene_15.jpg",
+   "startMs": 477900,
+   "endMs": 529065
+  },
+  {
+   "number": 16,
+   "id": "s16",
+   "title": "لوحة ختامية",
+   "image": "ep22/images/scene_16.jpg",
+   "startMs": 529065,
+   "endMs": 539525
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep22_s01_l01",
+   "scene": 1,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يعود إلى الموضوع",
+   "text": "نرجع إلى ما تركناه ناقصًا في الليلة الماضية. أما دعوى الإجماع فباطلة لمخالفة بني هاشم قاطبة. وأما أن أبا بكر كان أحقّ بالخلافة لأنه أكبر سنًّا، فمردود أيضًا.",
+   "startMs": 500,
+   "endMs": 17155,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1629620,
+    "endMs": 1646275
+   },
+   "lines": [
+    {
+     "text": "نرجع إلى ما تركناه ناقصًا في الليلة الماضية.",
+     "startMs": 500,
+     "endMs": 4379
+    },
+    {
+     "text": "أما دعوى الإجماع فباطلة لمخالفة بني هاشم قاطبة.",
+     "startMs": 4379,
+     "endMs": 10199
+    },
+    {
+     "text": "وأما أن أبا بكر كان أحقّ بالخلافة لأنه أكبر سنًّا، فمردود أيضًا.",
+     "startMs": 10199,
+     "endMs": 17154
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.99,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s01_l02",
+   "scene": 1,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "فالله ورسوله لم يجعلا السنّ ملاكًا في النيابة عن رسول الله. ومن أوضح الشواهد على ذلك قصة سورة براءة.",
+   "startMs": 17505,
+   "endMs": 27600,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1646275,
+    "endMs": 1656370
+   },
+   "lines": [
+    {
+     "text": "فالله ورسوله لم يجعلا السنّ ملاكًا في النيابة عن رسول الله.",
+     "startMs": 17505,
+     "endMs": 22829
+    },
+    {
+     "text": "ومن أوضح الشواهد على ذلك قصة سورة براءة.",
+     "startMs": 22829,
+     "endMs": 27599
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.968,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s01_l03",
+   "scene": 1,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "يطلب",
+   "text": "أرجو أن تبيّنوا لنا هذا الموضوع",
+   "startMs": 28200,
+   "endMs": 30480,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 338220,
+    "endMs": 340500
+   },
+   "lines": [
+    {
+     "text": "أرجو أن تبيّنوا لنا هذا الموضوع",
+     "startMs": 28200,
+     "endMs": 30480
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s02_l01",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ",
+   "text": "أجمع علماء المسلمين أن آيات أول سورة براءة لما نزلت، سنة تسع للهجرة، بعث رسول الله أبا بكر بها ليؤذّن بها في موسم الحج. فلما انطلق، دعا عليًّا وأمره أن يلحق به ويأخذ الآيات منه.",
+   "startMs": 31680,
+   "endMs": 49730,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1656890,
+    "endMs": 1674940
+   },
+   "lines": [
+    {
+     "text": "أجمع علماء المسلمين أن آيات أول سورة براءة لما نزلت، سنة تسع للهجرة، بعث رسول الله أبا بكر بها ليؤذّن بها في موسم الحج.",
+     "startMs": 31680,
+     "endMs": 43029
+    },
+    {
+     "text": "فلما انطلق، دعا عليًّا وأمره أن يلحق به ويأخذ الآيات منه.",
+     "startMs": 43029,
+     "endMs": 49729
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s02_l02",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "وأمّا عليّ عليه السلام فقد ذهب بالآيات وأذّن بها في الحج ويوم النحر وأسمعها كل من حضر من المشركين",
+   "startMs": 50080,
+   "endMs": 59590,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1675240,
+    "endMs": 1684750
+   },
+   "lines": [
+    {
+     "text": "وأمّا عليّ عليه السلام فقد ذهب بالآيات وأذّن بها في الحج ويوم النحر وأسمعها كل من حضر من المشركين",
+     "startMs": 50080,
+     "endMs": 59589
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s02_l03",
+   "scene": 2,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "يسأل",
+   "text": "هل ذكر أعلام العامّة وكبار علماء السنّة هذا العزل والنصب في كتبهم، أم أنّ الشيعة انفردوا بنقل هذا الخبر؟",
+   "startMs": 60190,
+   "endMs": 67930,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 340820,
+    "endMs": 348560
+   },
+   "lines": [
+    {
+     "text": "هل ذكر أعلام العامّة وكبار علماء السنّة هذا العزل والنصب في كتبهم، أم أنّ الشيعة انفردوا بنقل هذا الخبر؟",
+     "startMs": 60190,
+     "endMs": 67930
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s02_l04",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يعدّد",
+   "text": "رواه البخاري، والترمذي، وأبو داود، والبيهقي، وغيرهم. وفيها أن أبا بكر رجع فقال: يا رسول الله، هل نزل فيّ قرآن؟ فقال:",
+   "startMs": 68530,
+   "endMs": 82000,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1684850,
+    "endMs": 1698320
+   },
+   "lines": [
+    {
+     "text": "رواه البخاري، والترمذي، وأبو داود، والبيهقي، وغيرهم.",
+     "startMs": 68530,
+     "endMs": 73819
+    },
+    {
+     "text": "وفيها أن أبا بكر رجع فقال: يا رسول الله، هل نزل فيّ قرآن؟",
+     "startMs": 73819,
+     "endMs": 80599
+    },
+    {
+     "text": "فقال:",
+     "startMs": 80599,
+     "endMs": 81999
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.995,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s02_l05",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "«لا ولكن لا يبلّغ عني إلاّ أنا أو رجل منّي».",
+   "startMs": 82350,
+   "endMs": 87280,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1698510,
+    "endMs": 1703440
+   },
+   "lines": [
+    {
+     "text": "«لا ولكن لا يبلّغ عني إلاّ أنا أو رجل منّي».",
+     "startMs": 82350,
+     "endMs": 87279
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s03_l01",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ",
+   "text": "وروى النسائي في «الخصائص» ست روايات عن علي أنه قال: بعثني النبي إلى اليمن فقلت: إنك تبعثني وأنا شاب، إلى قوم هم أسنّ مني، فكيف أقضي بينهم؟ فقال له النبي:",
+   "startMs": 87880,
+   "endMs": 103010,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1703980,
+    "endMs": 1719110
+   },
+   "lines": [
+    {
+     "text": "وروى النسائي في «الخصائص» ست روايات عن علي أنه قال: بعثني النبي إلى اليمن فقلت: إنك تبعثني وأنا شاب، إلى قوم هم أسنّ مني، فكيف أقضي بينهم؟",
+     "startMs": 87880,
+     "endMs": 101080
+    },
+    {
+     "text": "فقال له النبي:",
+     "startMs": 101080,
+     "endMs": 103009
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s03_l02",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "إنّ الله سيهدي قلبك ويثبّت لسانك",
+   "startMs": 103360,
+   "endMs": 107100,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1719360,
+    "endMs": 1723100
+   },
+   "lines": [
+    {
+     "text": "إنّ الله سيهدي قلبك ويثبّت لسانك",
+     "startMs": 103360,
+     "endMs": 107099
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s03_l03",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "فالسنّ ليس ملحوظًا عند الله ورسوله. وقد نزل قوله تعالى: «إنما أنت منذر ولكل قوم هاد»، فقال النبي:",
+   "startMs": 107450,
+   "endMs": 118550,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1723340,
+    "endMs": 1734440
+   },
+   "lines": [
+    {
+     "text": "فالسنّ ليس ملحوظًا عند الله ورسوله.",
+     "startMs": 107450,
+     "endMs": 110749
+    },
+    {
+     "text": "وقد نزل قوله تعالى: «إنما أنت منذر ولكل قوم هاد»، فقال النبي:",
+     "startMs": 110749,
+     "endMs": 118549
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s03_l04",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "«أنا المنذر وأنت الهادي وبك يهتدي المهتدون».",
+   "startMs": 118900,
+   "endMs": 123870,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1734590,
+    "endMs": 1739560
+   },
+   "lines": [
+    {
+     "text": "«أنا المنذر وأنت الهادي وبك يهتدي المهتدون».",
+     "startMs": 118900,
+     "endMs": 123869
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s04_l01",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يرد",
+   "text": "وأما قول الشيخ إن عليًّا ما كان عارفًا بإدارة البلاد، فهذا تحريف. فقد أشار عليه ابن عباس والمغيرة أن يُبقي معاوية على ولايته شهرًا ثم يعزله، فقال:",
+   "startMs": 124470,
+   "endMs": 139525,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1739700,
+    "endMs": 1754755
+   },
+   "lines": [
+    {
+     "text": "وأما قول الشيخ إن عليًّا ما كان عارفًا بإدارة البلاد، فهذا تحريف.",
+     "startMs": 124470,
+     "endMs": 130769
+    },
+    {
+     "text": "فقد أشار عليه ابن عباس والمغيرة أن يُبقي معاوية على ولايته شهرًا ثم يعزله، فقال:",
+     "startMs": 130769,
+     "endMs": 139525
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s04_l02",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "لا والله لا أبقيه ساعة واحدة على ولايته، وما كنت أطلب النصر بالجور!",
+   "startMs": 139875,
+   "endMs": 147910,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1754755,
+    "endMs": 1762790
+   },
+   "lines": [
+    {
+     "text": "لا والله لا أبقيه ساعة واحدة على ولايته، وما كنت أطلب النصر بالجور!",
+     "startMs": 139875,
+     "endMs": 147909
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s04_l03",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "«لو لا التقوى لكنت أدهى العرب، والله ما معاوية بأدهى منّي ولكنّه يغدر ويمكر»",
+   "startMs": 148260,
+   "endMs": 157290,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1762870,
+    "endMs": 1771900
+   },
+   "lines": [
+    {
+     "text": "«لو لا التقوى لكنت أدهى العرب، والله ما معاوية بأدهى منّي ولكنّه يغدر ويمكر»",
+     "startMs": 148260,
+     "endMs": 157289
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.993,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s04_l04",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يشرح",
+   "text": "فالفرق بين سياسة الدين وسياسة الدنيا. وأسباب الجمل دنيوية لا دينية، إذ أراد طلحة والزبير ولاية البصرة والكوفة. ولقد قال: ما ترك لي الحق من صديق. كان يعمل بالعدل، فلم يتحمّله الطامعون في بيت المال.",
+   "startMs": 157640,
+   "endMs": 176715,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1772470,
+    "endMs": 1791545
+   },
+   "lines": [
+    {
+     "text": "فالفرق بين سياسة الدين وسياسة الدنيا.",
+     "startMs": 157640,
+     "endMs": 161209
+    },
+    {
+     "text": "وأسباب الجمل دنيوية لا دينية، إذ أراد طلحة والزبير ولاية البصرة والكوفة.",
+     "startMs": 161209,
+     "endMs": 168590
+    },
+    {
+     "text": "ولقد قال: ما ترك لي الحق من صديق.",
+     "startMs": 168590,
+     "endMs": 172130
+    },
+    {
+     "text": "كان يعمل بالعدل، فلم يتحمّله الطامعون في بيت المال.",
+     "startMs": 172130,
+     "endMs": 176715
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s05_l01",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي",
+   "text": "ثم إن الحروب في خلافته أخبر بها النبي نفسه، إذ أمره بقتال الناكثين والقاسطين والمارقين. وأما علمه فقد روى أحمد وابن حجر وغيرهما عن سعيد بن المسيّب:",
+   "startMs": 177315,
+   "endMs": 191055,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1791560,
+    "endMs": 1805300
+   },
+   "lines": [
+    {
+     "text": "ثم إن الحروب في خلافته أخبر بها النبي نفسه، إذ أمره بقتال الناكثين والقاسطين والمارقين.",
+     "startMs": 177315,
+     "endMs": 184694
+    },
+    {
+     "text": "وأما علمه فقد روى أحمد وابن حجر وغيرهما عن سعيد بن المسيّب:",
+     "startMs": 184694,
+     "endMs": 191054
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.993,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s05_l02",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "لم يكن من الصحابة يقول: سلوني، إلاّ عليّ بن أبي طالب.",
+   "startMs": 191405,
+   "endMs": 196695,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1805300,
+    "endMs": 1810590
+   },
+   "lines": [
+    {
+     "text": "لم يكن من الصحابة يقول: سلوني، إلاّ عليّ بن أبي طالب.",
+     "startMs": 191405,
+     "endMs": 196694
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s05_l03",
+   "scene": 5,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "يتهم",
+   "text": "ما كنت أتوقع منكم كلام الغلاة، حين تقولون إن عليًّا كان يعلم الغيب!",
+   "startMs": 197295,
+   "endMs": 203175,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 705260,
+    "endMs": 711140
+   },
+   "lines": [
+    {
+     "text": "ما كنت أتوقع منكم كلام الغلاة، حين تقولون إن عليًّا كان يعلم الغيب!",
+     "startMs": 197295,
+     "endMs": 203174
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s05_l04",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يوضح",
+   "text": "لا يعلم الغيب بالذات إلا الله. لكن الله يفيض من علمه على من يشاء من عباده، كما قال: «عالم الغيب فلا يظهر على غيبه أحدًا، إلا من ارتضى من رسول».",
+   "startMs": 203775,
+   "endMs": 218305,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1810890,
+    "endMs": 1825420
+   },
+   "lines": [
+    {
+     "text": "لا يعلم الغيب بالذات إلا الله.",
+     "startMs": 203775,
+     "endMs": 206904
+    },
+    {
+     "text": "لكن الله يفيض من علمه على من يشاء من عباده، كما قال: «عالم الغيب فلا يظهر على غيبه أحدًا، إلا من ارتضى من رسول».",
+     "startMs": 206904,
+     "endMs": 218304
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s06_l01",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "فالشيخ تلا أول الآية وترك آخرها. وفي القرآن: «تلك من أنباء الغيب نوحيها إليك». ثم إن العقلاء في كل زمان لا يقدّمون الجاهل على العالم:",
+   "startMs": 218905,
+   "endMs": 233415,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1825610,
+    "endMs": 1840120
+   },
+   "lines": [
+    {
+     "text": "فالشيخ تلا أول الآية وترك آخرها.",
+     "startMs": 218905,
+     "endMs": 222374
+    },
+    {
+     "text": "وفي القرآن: «تلك من أنباء الغيب نوحيها إليك».",
+     "startMs": 222374,
+     "endMs": 227334
+    },
+    {
+     "text": "ثم إن العقلاء في كل زمان لا يقدّمون الجاهل على العالم:",
+     "startMs": 227334,
+     "endMs": 233414
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s06_l03",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يتلو",
+   "text": "والله يقول: «أفمن يهدي إلى الحق أحق أن يُتّبع أمّن لا يهدّي إلا أن يُهدى، فما لكم كيف تحكمون؟». وقد قال النبي:",
+   "startMs": 233765,
+   "endMs": 245385,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1840260,
+    "endMs": 1851880
+   },
+   "lines": [
+    {
+     "text": "والله يقول: «أفمن يهدي إلى الحق أحق أن يُتّبع أمّن لا يهدّي إلا أن يُهدى، فما لكم كيف تحكمون؟».",
+     "startMs": 233765,
+     "endMs": 243444
+    },
+    {
+     "text": "وقد قال النبي:",
+     "startMs": 243444,
+     "endMs": 245384
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.985,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s06_l04",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "«ومن أراد العلم فعليه بالباب، أو فليأت الباب».",
+   "startMs": 245735,
+   "endMs": 250515,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1852340,
+    "endMs": 1857120
+   },
+   "lines": [
+    {
+     "text": "«ومن أراد العلم فعليه بالباب، أو فليأت الباب».",
+     "startMs": 245735,
+     "endMs": 250514
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.988,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s07_l01",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ",
+   "text": "وذكر ابن حجر أن ابن ملجم جاء عليًّا يطلب دابة فأعطاه، ثم قال: هذا والله قاتلي.",
+   "startMs": 251115,
+   "endMs": 259555,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1857580,
+    "endMs": 1866020
+   },
+   "lines": [
+    {
+     "text": "وذكر ابن حجر أن ابن ملجم جاء عليًّا يطلب دابة فأعطاه، ثم قال: هذا والله قاتلي.",
+     "startMs": 251115,
+     "endMs": 259554
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.993,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s07_l02",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "فقيل له: ألا تقتله؟ فقال: فمن يقتلني». «انتهى».",
+   "startMs": 259905,
+   "endMs": 264795,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1866390,
+    "endMs": 1871280
+   },
+   "lines": [
+    {
+     "text": "فقيل له: ألا تقتله؟",
+     "startMs": 259905,
+     "endMs": 261395
+    },
+    {
+     "text": "فقال: فمن يقتلني».",
+     "startMs": 261395,
+     "endMs": 263634
+    },
+    {
+     "text": "«انتهى».",
+     "startMs": 263634,
+     "endMs": 264794
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s07_l03",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يشرح",
+   "text": "لأنه كان مقيّدًا بالشرع، لا يعاقب أحدًا قبل أن يرتكب جرمًا. ويقول الكاتب الإنجليزي كارليل في كتابه «الأبطال»: إن علي بن أبي طالب قُتل لعدله.",
+   "startMs": 265145,
+   "endMs": 278755,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1871670,
+    "endMs": 1885280
+   },
+   "lines": [
+    {
+     "text": "لأنه كان مقيّدًا بالشرع، لا يعاقب أحدًا قبل أن يرتكب جرمًا.",
+     "startMs": 265145,
+     "endMs": 270434
+    },
+    {
+     "text": "ويقول الكاتب الإنجليزي كارليل في كتابه «الأبطال»: إن علي بن أبي طالب قُتل لعدله.",
+     "startMs": 270434,
+     "endMs": 278754
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s08_l01",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي",
+   "text": "ورُوي أنه سئل عن الكواكب في السماء فقال:",
+   "startMs": 279355,
+   "endMs": 283255,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1885700,
+    "endMs": 1889600
+   },
+   "lines": [
+    {
+     "text": "ورُوي أنه سئل عن الكواكب في السماء فقال:",
+     "startMs": 279355,
+     "endMs": 283254
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s08_l02",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "«هذه الكواكب مدائن مثل المدائن التي في الأرض. تربطها أعمدة من نور».",
+   "startMs": 283605,
+   "endMs": 290385,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1889960,
+    "endMs": 1896740
+   },
+   "lines": [
+    {
+     "text": "«هذه الكواكب مدائن مثل المدائن التي في الأرض.",
+     "startMs": 283605,
+     "endMs": 287464
+    },
+    {
+     "text": "تربطها أعمدة من نور».",
+     "startMs": 287464,
+     "endMs": 290384
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s08_l03",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "قال هذا في زمن لم تكن فيه آلات تكشف الكواكب، وعلى خلاف ما كان يعتقده الفلكيون في عصره.",
+   "startMs": 290735,
+   "endMs": 298225,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1897170,
+    "endMs": 1904660
+   },
+   "lines": [
+    {
+     "text": "قال هذا في زمن لم تكن فيه آلات تكشف الكواكب، وعلى خلاف ما كان يعتقده الفلكيون في عصره.",
+     "startMs": 290735,
+     "endMs": 298225
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s09_l01",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي ذكرى",
+   "text": "ومن المناسب أن أحدّثكم بما جرى في سفري هذا. لما ركبت الباخرة من البصرة إلى الهند، رافقني في الغرفة المستشرق الفرنسي «مسيو جوئن»، وكان يجيد العربية والفارسية. فتصادقنا مدة السفر.",
+   "startMs": 298825,
+   "endMs": 314355,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1905170,
+    "endMs": 1920700
+   },
+   "lines": [
+    {
+     "text": "ومن المناسب أن أحدّثكم بما جرى في سفري هذا.",
+     "startMs": 298825,
+     "endMs": 302114
+    },
+    {
+     "text": "لما ركبت الباخرة من البصرة إلى الهند، رافقني في الغرفة المستشرق الفرنسي «مسيو جوئن»، وكان يجيد العربية والفارسية.",
+     "startMs": 302114,
+     "endMs": 311094
+    },
+    {
+     "text": "فتصادقنا مدة السفر.",
+     "startMs": 311094,
+     "endMs": 314354
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.988,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s09_l02",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "وفي يوم من الأيّام أقرّ الرجل وقال: إنّي أعترف بأنّ دين الاسلام يشتمل على تعاليم سامية، وعقائد عالية",
+   "startMs": 314705,
+   "endMs": 323680,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1920960,
+    "endMs": 1929935
+   },
+   "lines": [
+    {
+     "text": "وفي يوم من الأيّام أقرّ الرجل وقال: إنّي أعترف بأنّ دين الاسلام يشتمل على تعاليم سامية، وعقائد عالية",
+     "startMs": 314705,
+     "endMs": 323679
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s09_l03",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "ولكن، قال، إن أتباع المسيحية سبقوا إلى الاكتشافات العلمية والاختراعات.",
+   "startMs": 324030,
+   "endMs": 330370,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1929970,
+    "endMs": 1936310
+   },
+   "lines": [
+    {
+     "text": "ولكن، قال، إن أتباع المسيحية سبقوا إلى الاكتشافات العلمية والاختراعات.",
+     "startMs": 324030,
+     "endMs": 330369
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s10_l01",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل الحكاية",
+   "text": "فقلت له: أساس هذه العلوم كان من المسلمين. والتاريخ يشهد أن الغربيين كانوا إلى القرن الثامن الميلادي في جهل، والمسلمون يحملون راية العلم. وذكرت له كتاب «تاريخ تمدّن العرب» للدكتور غوستاف لوبون. فقال: نعم، قرأته في باريس.",
+   "startMs": 330970,
+   "endMs": 350930,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1936700,
+    "endMs": 1956660
+   },
+   "lines": [
+    {
+     "text": "فقلت له: أساس هذه العلوم كان من المسلمين.",
+     "startMs": 330970,
+     "endMs": 335069
+    },
+    {
+     "text": "والتاريخ يشهد أن الغربيين كانوا إلى القرن الثامن الميلادي في جهل، والمسلمون يحملون راية العلم.",
+     "startMs": 335069,
+     "endMs": 342769
+    },
+    {
+     "text": "وذكرت له كتاب «تاريخ تمدّن العرب» للدكتور غوستاف لوبون.",
+     "startMs": 342769,
+     "endMs": 348150
+    },
+    {
+     "text": "فقال: نعم، قرأته في باريس.",
+     "startMs": 348150,
+     "endMs": 350930
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s10_l02",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "فانّ المؤلف الدكتور جوستاف لوبون زميلي ولقد أهدى لي كتابه بيده",
+   "startMs": 351280,
+   "endMs": 356770,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1956860,
+    "endMs": 1962350
+   },
+   "lines": [
+    {
+     "text": "فانّ المؤلف الدكتور جوستاف لوبون زميلي ولقد أهدى لي كتابه بيده",
+     "startMs": 351280,
+     "endMs": 356769
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.984,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s10_l03",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "ثم قرأت عليه خبر الكواكب وغيره، فسجّل المصادر القديمة، وقال: سأراجعها في مكتبات لندن وباريس.",
+   "startMs": 357120,
+   "endMs": 365260,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1962720,
+    "endMs": 1970860
+   },
+   "lines": [
+    {
+     "text": "ثم قرأت عليه خبر الكواكب وغيره، فسجّل المصادر القديمة، وقال: سأراجعها في مكتبات لندن وباريس.",
+     "startMs": 357120,
+     "endMs": 365259
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s11_l01",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ بإعجاب",
+   "text": "وما أقول في رجل تعزى إليه كل فضيلة، وتنتهي إليه كلّ فرقة، وتتجاذبه كل طائفة",
+   "startMs": 365860,
+   "endMs": 374720,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1971380,
+    "endMs": 1980240
+   },
+   "lines": [
+    {
+     "text": "وما أقول في رجل تعزى إليه كل فضيلة، وتنتهي إليه كلّ فرقة، وتتجاذبه كل طائفة",
+     "startMs": 365860,
+     "endMs": 374719
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s11_l02",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "ثم ذكر ابن أبي الحديد أن عليًّا هو الذي وضع علم النحو وأملاه على أبي الأسود الدؤلي، وقال:",
+   "startMs": 375070,
+   "endMs": 383195,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1980860,
+    "endMs": 1988985
+   },
+   "lines": [
+    {
+     "text": "ثم ذكر ابن أبي الحديد أن عليًّا هو الذي وضع علم النحو وأملاه على أبي الأسود الدؤلي، وقال:",
+     "startMs": 375070,
+     "endMs": 383195
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.976,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s11_l03",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "وهذا يكاد يلحق بالمعجزات، لأنّ القوّة البشريّة لا تفي بهذا الحصر، ولا تنهض بهذا الاستنباط.",
+   "startMs": 383545,
+   "endMs": 392805,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1989090,
+    "endMs": 1998350
+   },
+   "lines": [
+    {
+     "text": "وهذا يكاد يلحق بالمعجزات، لأنّ القوّة البشريّة لا تفي بهذا الحصر، ولا تنهض بهذا الاستنباط.",
+     "startMs": 383545,
+     "endMs": 392804
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s12_l01",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "رقيق",
+   "text": "هذه الليلة ليلة ميلاد أبي عبد الله الحسين، سبط رسول الله. وفي الخبر أن جبرئيل هبط على النبي فهنّأه بمولده وعزّاه، فقال النبي: أتقتله أمتي؟ قال: نعم. فقال:",
+   "startMs": 393405,
+   "endMs": 409185,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 1999120,
+    "endMs": 2014900
+   },
+   "lines": [
+    {
+     "text": "هذه الليلة ليلة ميلاد أبي عبد الله الحسين، سبط رسول الله.",
+     "startMs": 393405,
+     "endMs": 398044
+    },
+    {
+     "text": "وفي الخبر أن جبرئيل هبط على النبي فهنّأه بمولده وعزّاه، فقال النبي: أتقتله أمتي؟",
+     "startMs": 398044,
+     "endMs": 406624
+    },
+    {
+     "text": "قال: نعم.",
+     "startMs": 406624,
+     "endMs": 407824
+    },
+    {
+     "text": "فقال:",
+     "startMs": 407824,
+     "endMs": 409184
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.99,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s12_l02",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "ما هؤلاء بأمّتي، أنا بريء منهم، والله بريء منهم.",
+   "startMs": 409535,
+   "endMs": 415475,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 2014900,
+    "endMs": 2020840
+   },
+   "lines": [
+    {
+     "text": "ما هؤلاء بأمّتي، أنا بريء منهم، والله بريء منهم.",
+     "startMs": 409535,
+     "endMs": 415474
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s13_l01",
+   "scene": 13,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يسأل",
+   "text": "فيا إخواني، فكّروا وأنصفوا، بعد هذه المحاورات كلها.",
+   "startMs": 416075,
+   "endMs": 421255,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 2021440,
+    "endMs": 2026620
+   },
+   "lines": [
+    {
+     "text": "فيا إخواني، فكّروا وأنصفوا، بعد هذه المحاورات كلها.",
+     "startMs": 416075,
+     "endMs": 421254
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s13_l02",
+   "scene": 13,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "يصف",
+   "text": "ثم رفع المؤلف يديه إلى السماء وقال:",
+   "startMs": 421855,
+   "endMs": 424995,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 869540,
+    "endMs": 872680
+   },
+   "lines": [
+    {
+     "text": "ثم رفع المؤلف يديه إلى السماء وقال:",
+     "startMs": 421855,
+     "endMs": 424994
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s13_l03",
+   "scene": 13,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "داعٍ",
+   "text": "اللهم اشهد أنّي كشفت لهم الحقائق وأوضحت لهم طريق الحقّ من بين الطرائق بالدليل والاحتجاج",
+   "startMs": 425595,
+   "endMs": 433695,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 2026690,
+    "endMs": 2034790
+   },
+   "lines": [
+    {
+     "text": "اللهم اشهد أنّي كشفت لهم الحقائق وأوضحت لهم طريق الحقّ من بين الطرائق بالدليل والاحتجاج",
+     "startMs": 425595,
+     "endMs": 433694
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s14_l01",
+   "scene": 14,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "مهيب، صادق",
+   "text": "أيها السيد الجليل! أنا وجماعة من زملائي حضرنا كل مجالس البحث والحوار بكل ولع ولهفة",
+   "startMs": 434895,
+   "endMs": 443455,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 348890,
+    "endMs": 357450
+   },
+   "lines": [
+    {
+     "text": "أيها السيد الجليل!",
+     "startMs": 434895,
+     "endMs": 436024
+    },
+    {
+     "text": "أنا وجماعة من زملائي حضرنا كل مجالس البحث والحوار بكل ولع ولهفة",
+     "startMs": 436024,
+     "endMs": 443455
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s14_l02",
+   "scene": 14,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "يعلن",
+   "text": "وقد ثبت عندنا وظهر لنا في كل ذلك بأنّ الحقّ معكم وفيكم. وكنّا نظنّ من قبل، عكس ذلك بل كنّا على يقين بأننا على حق وأنتم على باطل.",
+   "startMs": 443805,
+   "endMs": 456815,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 357570,
+    "endMs": 370580
+   },
+   "lines": [
+    {
+     "text": "وقد ثبت عندنا وظهر لنا في كل ذلك بأنّ الحقّ معكم وفيكم.",
+     "startMs": 443805,
+     "endMs": 448975
+    },
+    {
+     "text": "وكنّا نظنّ من قبل، عكس ذلك بل كنّا على يقين بأننا على حق وأنتم على باطل.",
+     "startMs": 448975,
+     "endMs": 456814
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s14_l03",
+   "scene": 14,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "يكمل",
+   "text": "وأنا على يقين أن كثيرًا من الحاضرين، ومن الذين قرؤوا الصحف، سيعلنون ما نعلنه الآن. أما أنا فاسمي نواب عبد القيوم، وهؤلاء زملائي.",
+   "startMs": 457165,
+   "endMs": 470830,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 371050,
+    "endMs": 384715
+   },
+   "lines": [
+    {
+     "text": "وأنا على يقين أن كثيرًا من الحاضرين، ومن الذين قرؤوا الصحف، سيعلنون ما نعلنه الآن.",
+     "startMs": 457165,
+     "endMs": 464394
+    },
+    {
+     "text": "أما أنا فاسمي نواب عبد القيوم، وهؤلاء زملائي.",
+     "startMs": 464394,
+     "endMs": 470829
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s14_l04",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ممتنّ",
+   "text": "الحمد لله الذي هدانا لهذا وما كنّا لنهتدي لو لا أن هدانا الله.",
+   "startMs": 471430,
+   "endMs": 477300,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 2035030,
+    "endMs": 2040900
+   },
+   "lines": [
+    {
+     "text": "الحمد لله الذي هدانا لهذا وما كنّا لنهتدي لو لا أن هدانا الله.",
+     "startMs": 471430,
+     "endMs": 477299
+    }
+   ],
+   "timing": "estimated",
+   "alignment": {
+    "confidence": 0.974,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s15_l01",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "دافئ",
+   "text": "فقام المؤلف من مجلسه، وقام الجمع. وأقبل إليه النواب عبد القيوم وزملاؤه، فاحتضنهم وعانقهم.",
+   "startMs": 478500,
+   "endMs": 487650,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 873120,
+    "endMs": 882270
+   },
+   "lines": [
+    {
+     "text": "فقام المؤلف من مجلسه، وقام الجمع.",
+     "startMs": 478500,
+     "endMs": 481620
+    },
+    {
+     "text": "وأقبل إليه النواب عبد القيوم وزملاؤه، فاحتضنهم وعانقهم.",
+     "startMs": 481620,
+     "endMs": 487649
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.982,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s15_l02",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "يكمل",
+   "text": "ثم تقدّم الحافظ، الذي لم يناقش منذ ليلة فدك، وقال مودّعًا:",
+   "startMs": 488000,
+   "endMs": 494180,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 882440,
+    "endMs": 888620
+   },
+   "lines": [
+    {
+     "text": "ثم تقدّم الحافظ، الذي لم يناقش منذ ليلة فدك، وقال مودّعًا:",
+     "startMs": 488000,
+     "endMs": 494180
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s15_l03",
+   "scene": 15,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "متأثر، هادئ",
+   "text": "إنّا فتنّا بحسن بيانكم وقوّة احتجاجكم وطيب أخلاقكم، وإنّ فراقكم يعزّ علينا، ولو كانت مجالستكم تطول شهورا ما مللناها وكنّا نلتزم بالحضور.",
+   "startMs": 494780,
+   "endMs": 516265,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 1042070,
+    "endMs": 1063555
+   },
+   "lines": [
+    {
+     "text": "إنّا فتنّا بحسن بيانكم وقوّة احتجاجكم وطيب أخلاقكم، وإنّ فراقكم يعزّ علينا، ولو كانت مجالستكم تطول شهورا ما مللناها وكنّا نلتزم بالحضور.",
+     "startMs": 494780,
+     "endMs": 516264
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s15_l04",
+   "scene": 15,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ودود",
+   "text": "أشكر ألطافكم وحضوركم، وإنّ الأيّام بيننا كثيرة، وأنا أفارقكم وأسافر، على أمل الرجوع إليكم واللقاء معكم إن شاء الله تعالى.",
+   "startMs": 516865,
+   "endMs": 528465,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_08AM.wav",
+    "startMs": 2041390,
+    "endMs": 2052990
+   },
+   "lines": [
+    {
+     "text": "أشكر ألطافكم وحضوركم، وإنّ الأيّام بيننا كثيرة، وأنا أفارقكم وأسافر، على أمل الرجوع إليكم واللقاء معكم إن شاء الله تعالى.",
+     "startMs": 516865,
+     "endMs": 528464
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep22_s16_l01",
+   "scene": 16,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "ختامي",
+   "text": "ثم تقدّم سائر العلماء والأعيان، وكلّ أبدى أسفه على انتهاء المجالس، ورغبته في استمرارها.",
+   "startMs": 529665,
+   "endMs": 538025,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 888750,
+    "endMs": 897110
+   },
+   "lines": [
+    {
+     "text": "ثم تقدّم سائر العلماء والأعيان، وكلّ أبدى أسفه على انتهاء المجالس، ورغبته في استمرارها.",
+     "startMs": 529665,
+     "endMs": 538025
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.982,
+    "flags": []
+   }
+  }
+ ]
+}

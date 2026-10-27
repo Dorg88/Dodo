@@ -146,8 +146,9 @@ def cmd_init(a):
 def cmd_refresh(a):
     """Bring book.json's episode list up to date with the episode folders: an
     episode with an episode.json becomes playable (manifest, duration); one whose
-    play order is only proposed (order/epNN.json) or whose text was recovered
-    from the recording is marked status «review»."""
+    play order is only proposed (order/epNN.json), whose text was recovered
+    from the recording, or whose playback check found a clip that differs from its
+    text is marked status «review»."""
     bp = os.path.join(a.folder, "book.json")
     book = load(bp)
     for e in book.get("episodes", []):
@@ -164,9 +165,13 @@ def cmd_refresh(a):
                 e["summary"] = (first.get("lines") or [{"text": first["text"]}])[0]["text"]
         spec = os.path.join(a.folder, "order", f"{e['id']}.json")
         state = str(load(spec).get("status", "")) if os.path.exists(spec) else ""
-        if state.startswith("approved"):
+        check = os.path.join(a.folder, "reports", e["id"], "PLAYBACK_CHECK.md")
+        m = re.search(r"\*\*(\d+) of (\d+) clips hold exactly their line",
+                      open(check, encoding="utf-8").read()) if os.path.exists(check) else None
+        clip_mismatch = bool(m) and m.group(1) != m.group(2)
+        if state.startswith("approved") and not clip_mismatch:
             e.pop("status", None)
-        elif state.startswith("proposed") or ep.get("textStatus") == "recovered-transcript":
+        elif state.startswith("proposed") or ep.get("textStatus") == "recovered-transcript" or clip_mismatch:
             e["status"] = "review"
         else:
             e.pop("status", None)

@@ -1,0 +1,1855 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep04",
+ "number": 4,
+ "title": "الشرك والوسيلة",
+ "durationMs": 592660,
+ "audio": {
+  "mode": "clips",
+  "music": "ep04/audio/score_music.m4a",
+  "sfx": "ep04/audio/score_sfx.m4a",
+  "musicLoop": false
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AUTHOR": {
+   "name": "سلطان الواعظين"
+  },
+  "MIRZA_YAQUB": {
+   "name": "الميرزا يعقوب علي خان"
+  },
+  "HAFIZ": {
+   "name": "الحافظ محمد رشيد"
+  },
+  "NAWWAB": {
+   "name": "النواب عبد القيوم خان"
+  },
+  "ABDULHAYY": {
+   "name": "السيد عبد الحي"
+  },
+  "ABDUSSALAM": {
+   "name": "الشيخ عبد السلام"
+  },
+  "ATTENDEES": {
+   "name": "الحاضرون"
+  },
+  "GHULAM": {
+   "name": "غلام إمامين"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "ليل بيشاور",
+   "image": "ep04/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 16050
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "الحافظ يتكلم بنبرة صادقة",
+   "image": "ep04/images/scene_02.jpg",
+   "startMs": 16050,
+   "endMs": 62140
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "استراحة الصلاة",
+   "image": "ep04/images/scene_03.jpg",
+   "startMs": 62140,
+   "endMs": 119850
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "الحافظ يرفع إصبعه محتجًّا",
+   "image": "ep04/images/scene_04.jpg",
+   "startMs": 119850,
+   "endMs": 148965
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "المؤلف يفتح كتابًا كبيرًا ويقرأ",
+   "image": "ep04/images/scene_05.jpg",
+   "startMs": 148965,
+   "endMs": 214405
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "لوحة رمزية",
+   "image": "ep04/images/scene_06.jpg",
+   "startMs": 214405,
+   "endMs": 280655
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "الحاضرون يضحكون",
+   "image": "ep04/images/scene_07.jpg",
+   "startMs": 280655,
+   "endMs": 308870
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "المؤلف يتكلم بوقار",
+   "image": "ep04/images/scene_08.jpg",
+   "startMs": 308870,
+   "endMs": 336210
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "الحافظ يقف نصف قيام وصوته يعلو بالاتهام",
+   "image": "ep04/images/scene_09.jpg",
+   "startMs": 336210,
+   "endMs": 375540
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "النواب يرفع يده بأدب",
+   "image": "ep04/images/scene_10.jpg",
+   "startMs": 375540,
+   "endMs": 396430
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "المؤلف يعدّ على أصابعه",
+   "image": "ep04/images/scene_11.jpg",
+   "startMs": 396430,
+   "endMs": 432290
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "الحافظ يرد بإصبع مرفوع",
+   "image": "ep04/images/scene_12.jpg",
+   "startMs": 432290,
+   "endMs": 513850
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "الشيخ عبد السلام يبتسم ابتسامة جانبية ويقلّب…",
+   "image": "ep04/images/scene_13.jpg",
+   "startMs": 513850,
+   "endMs": 543500
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "لقطة قريبة على وجه المؤلف في ضوء القنديل",
+   "image": "ep04/images/scene_14.jpg",
+   "startMs": 543500,
+   "endMs": 592660
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep04_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "سينمائي",
+   "text": "ليلة الأحد، الخامس والعشرون من رجب. جاء الحافظ محمد رشيد ومعه ثلّة من المشايخ والعلماء، وجمع كبير من أتباعهم. لقد صار المجلس حديث بيشاور كلها.",
+   "startMs": 500,
+   "endMs": 15450,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 295610,
+    "endMs": 310560
+   },
+   "lines": [
+    {
+     "text": "ليلة الأحد، الخامس والعشرون من رجب.",
+     "startMs": 500,
+     "endMs": 4269
+    },
+    {
+     "text": "جاء الحافظ محمد رشيد ومعه ثلّة من المشايخ والعلماء، وجمع كبير من أتباعهم.",
+     "startMs": 4269,
+     "endMs": 11930
+    },
+    {
+     "text": "لقد صار المجلس حديث بيشاور كلها.",
+     "startMs": 11930,
+     "endMs": 15449
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.982,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s02_l01",
+   "scene": 2,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "صادق، فيه اعتراف",
+   "text": "في الليلة البارحة، لما ذهبت إلى البيت، لمت نفسي كثيرًا لقلّة تحقيقي ومطالعتي في المذاهب الأخرى وعقائدها.",
+   "startMs": 16650,
+   "endMs": 27210,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 337090,
+    "endMs": 347650
+   },
+   "lines": [
+    {
+     "text": "في الليلة البارحة، لما ذهبت إلى البيت، لمت نفسي كثيرًا لقلّة تحقيقي ومطالعتي في المذاهب الأخرى وعقائدها.",
+     "startMs": 16650,
+     "endMs": 27210
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s02_l02",
+   "scene": 2,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "مستفهم",
+   "text": "وقد فهمنا من كلامكم أن الشيعة يفترقون على مذاهب شتى. فأي مذاهب الشيعة على حق عندكم؟",
+   "startMs": 27560,
+   "endMs": 35700,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 348220,
+    "endMs": 356360
+   },
+   "lines": [
+    {
+     "text": "وقد فهمنا من كلامكم أن الشيعة يفترقون على مذاهب شتى.",
+     "startMs": 27560,
+     "endMs": 32200
+    },
+    {
+     "text": "فأي مذاهب الشيعة على حق عندكم؟",
+     "startMs": 32200,
+     "endMs": 35700
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.975,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s02_l03",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "واضح، حاسم",
+   "text": "إنّي لم أذكر في الليلة الماضية أنّ الشيعة على مذاهب، وإنّما الشيعة مذهب واحد، وهم المطيعون لله وللرسول محمّد صلى الله عليه وآله وسلم والائمة الاثني عشر عليهم السلام.",
+   "startMs": 36300,
+   "endMs": 50940,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 869520,
+    "endMs": 884160
+   },
+   "lines": [
+    {
+     "text": "إنّي لم أذكر في الليلة الماضية أنّ الشيعة على مذاهب، وإنّما الشيعة مذهب واحد، وهم المطيعون لله وللرسول محمّد صلى الله عليه وآله وسلم والائمة الاثني عشر عليهم السلام.",
+     "startMs": 36300,
+     "endMs": 50939
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s02_l04",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "شارح",
+   "text": "أما الزيدية والكيسانية والقدّاحية والغلاة، فهي فرق انشعبت وانحرفت، ولا تعدّ من الشيعة الإمامية، وأكثرها قد انقرض.",
+   "startMs": 51290,
+   "endMs": 61540,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 884570,
+    "endMs": 894820
+   },
+   "lines": [
+    {
+     "text": "أما الزيدية والكيسانية والقدّاحية والغلاة، فهي فرق انشعبت وانحرفت، ولا تعدّ من الشيعة الإمامية، وأكثرها قد انقرض.",
+     "startMs": 51290,
+     "endMs": 61539
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.995,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s03_l01",
+   "scene": 3,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "انتقالي، دافئ",
+   "text": "ثم ارتفع صوت المؤذن لصلاة العشاء. وبعد الصلاة شربوا الشاي وتناولوا شيئًا من الحلوى، ثم افتتح الحافظ الكلام من جديد.",
+   "startMs": 62740,
+   "endMs": 73420,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 311150,
+    "endMs": 321830
+   },
+   "lines": [
+    {
+     "text": "ثم ارتفع صوت المؤذن لصلاة العشاء.",
+     "startMs": 62740,
+     "endMs": 65450
+    },
+    {
+     "text": "وبعد الصلاة شربوا الشاي وتناولوا شيئًا من الحلوى، ثم افتتح الحافظ الكلام من جديد.",
+     "startMs": 65450,
+     "endMs": 73420
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.991,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s03_l02",
+   "scene": 3,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "ناقد",
+   "text": "قرأت في «تفسير الصافي» خبرًا عن الحسين بن علي: أن رجلًا سأله عن معرفة الله، فقال: معرفة أهل كل زمان إمامهم الذي تجب عليهم طاعته. أليس هذا جعلًا للإمام في مقام الله؟",
+   "startMs": 74020,
+   "endMs": 89890,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 356650,
+    "endMs": 372520
+   },
+   "lines": [
+    {
+     "text": "قرأت في «تفسير الصافي» خبرًا عن الحسين بن علي: أن رجلًا سأله عن معرفة الله، فقال: معرفة أهل كل زمان إمامهم الذي تجب عليهم طاعته.",
+     "startMs": 74020,
+     "endMs": 87490
+    },
+    {
+     "text": "أليس هذا جعلًا للإمام في مقام الله؟",
+     "startMs": 87490,
+     "endMs": 89890
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.98,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s03_l03",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "علمي، متأنٍّ",
+   "text": "أولا: يجب أن ننظر إلى سند الرواية، هل كان صحيحا أو موثّقا، قويّا أو ضعيفا، معتبرا أو مردودا.",
+   "startMs": 90490,
+   "endMs": 101280,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 160,
+    "endMs": 10950
+   },
+   "lines": [
+    {
+     "text": "أولا: يجب أن ننظر إلى سند الرواية، هل كان صحيحا أو موثّقا، قويّا أو ضعيفا، معتبرا أو مردودا.",
+     "startMs": 90490,
+     "endMs": 101280
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s03_l04",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "بمثال",
+   "text": "ثم إن الخبر يحتمل معنى صحيحًا: فمن عرف إمام زمانه توصّل عن طريقه إلى معرفة ربه. كما ورد عنهم: بنا عُرف الله، وبنا عُبد الله. أي بهدايتنا عرفه الناس فعبدوه.",
+   "startMs": 101630,
+   "endMs": 119250,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 11350,
+    "endMs": 28970
+   },
+   "lines": [
+    {
+     "text": "ثم إن الخبر يحتمل معنى صحيحًا: فمن عرف إمام زمانه توصّل عن طريقه إلى معرفة ربه.",
+     "startMs": 101630,
+     "endMs": 110519
+    },
+    {
+     "text": "كما ورد عنهم: بنا عُرف الله، وبنا عُبد الله.",
+     "startMs": 110519,
+     "endMs": 115859
+    },
+    {
+     "text": "أي بهدايتنا عرفه الناس فعبدوه.",
+     "startMs": 115859,
+     "endMs": 119249
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.99,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s04_l01",
+   "scene": 4,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "ساخر",
+   "text": "إن المضحك المخجل هو تخطئتكم لكتب عظيمة لم يُؤلَّف مثلها في الإسلام، وخاصة صحيح البخاري وصحيح مسلم!",
+   "startMs": 120450,
+   "endMs": 130330,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 372930,
+    "endMs": 382810
+   },
+   "lines": [
+    {
+     "text": "إن المضحك المخجل هو تخطئتكم لكتب عظيمة لم يُؤلَّف مثلها في الإسلام، وخاصة صحيح البخاري وصحيح مسلم!",
+     "startMs": 120450,
+     "endMs": 130329
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.995,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s04_l02",
+   "scene": 4,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "متحدٍّ",
+   "text": "بيّنوا لنا من خرافات الصحيحين كما تزعمون حتّى نترك التحكيم في ذلك للحاضرين.",
+   "startMs": 130680,
+   "endMs": 136975,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 383170,
+    "endMs": 389465
+   },
+   "lines": [
+    {
+     "text": "بيّنوا لنا من خرافات الصحيحين كما تزعمون حتّى نترك التحكيم في ذلك للحاضرين.",
+     "startMs": 130680,
+     "endMs": 136974
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s04_l03",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "متحفّظ",
+   "text": "أنا لا أحبّ أن أخوض في هذا البحث، ولكن تلبية لطلبكم، ولكي تعرفوا أنّي لا أتكلّم إلاّ عن علم وإنصاف",
+   "startMs": 137575,
+   "endMs": 148665,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 29170,
+    "endMs": 40260
+   },
+   "lines": [
+    {
+     "text": "أنا لا أحبّ أن أخوض في هذا البحث، ولكن تلبية لطلبكم، ولكي تعرفوا أنّي لا أتكلّم إلاّ عن علم وإنصاف",
+     "startMs": 137575,
+     "endMs": 148665
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s05_l01",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ناقد، رصين",
+   "text": "في الصحيحين أخبار عن رؤية الله في الآخرة كما تُرى الشمس في الظهيرة، وأخبار تنسب إليه القدم والمكان. وقد ردّ كثير من علمائكم هذه الأخبار، والقرآن صريح: «لا تدركه الأبصار وهو يدرك الأبصار».",
+   "startMs": 149265,
+   "endMs": 167765,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 40550,
+    "endMs": 59050
+   },
+   "lines": [
+    {
+     "text": "في الصحيحين أخبار عن رؤية الله في الآخرة كما تُرى الشمس في الظهيرة، وأخبار تنسب إليه القدم والمكان.",
+     "startMs": 149265,
+     "endMs": 158634
+    },
+    {
+     "text": "وقد ردّ كثير من علمائكم هذه الأخبار، والقرآن صريح: «لا تدركه الأبصار وهو يدرك الأبصار».",
+     "startMs": 158634,
+     "endMs": 167764
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s05_l02",
+   "scene": 5,
+   "speakerId": "ABDULHAYY",
+   "speakerName": "السيد عبد الحي",
+   "direction": "معترض",
+   "text": "ألم ترووا عن عليّ كرّم الله وجهه أنّه قال: لم أكن أعبد ربّا لم أره؟!",
+   "startMs": 168365,
+   "endMs": 174335,
+   "clip": {
+    "file": "audio/ABDULHAYY/Generated Audio October 27, 2026 - 2_56AM.wav",
+    "startMs": 18880,
+    "endMs": 24850
+   },
+   "lines": [
+    {
+     "text": "ألم ترووا عن عليّ كرّم الله وجهه أنّه قال: لم أكن أعبد ربّا لم أره؟!",
+     "startMs": 168365,
+     "endMs": 174335
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.984,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s05_l03",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "مبتسم، مستدرك",
+   "text": "حفظت شيئا وغابت عنك أشياء، إنّك ذكرت شطرا من الخبر، ولكنّي أذكر لك الخبر كلّه",
+   "startMs": 174935,
+   "endMs": 184545,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 59350,
+    "endMs": 68960
+   },
+   "lines": [
+    {
+     "text": "حفظت شيئا وغابت عنك أشياء، إنّك ذكرت شطرا من الخبر، ولكنّي أذكر لك الخبر كلّه",
+     "startMs": 174935,
+     "endMs": 184544
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s05_l04",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي بخشوع",
+   "text": "فقد سُئل أمير المؤمنين: هل رأيت ربك؟ فقال: ما كنت أعبد ربًّا لم أره. قيل: وكيف رأيته؟ قال: لا تدركه العيون بمشاهدة العيان، ولكن رأته القلوب بحقائق الإيمان.",
+   "startMs": 184895,
+   "endMs": 203595,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 69320,
+    "endMs": 88020
+   },
+   "lines": [
+    {
+     "text": "فقد سُئل أمير المؤمنين: هل رأيت ربك؟",
+     "startMs": 184895,
+     "endMs": 189275
+    },
+    {
+     "text": "فقال: ما كنت أعبد ربًّا لم أره.",
+     "startMs": 189275,
+     "endMs": 192795
+    },
+    {
+     "text": "قيل: وكيف رأيته؟",
+     "startMs": 192795,
+     "endMs": 195415
+    },
+    {
+     "text": "قال: لا تدركه العيون بمشاهدة العيان، ولكن رأته القلوب بحقائق الإيمان.",
+     "startMs": 195415,
+     "endMs": 203595
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s05_l05",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حاسم",
+   "text": "فكلام أمير المؤمنين عليه السلام صريح في نفي رؤيته سبحانه بالبصر، بل يدرك بالبصيرة وبنور الإيمان.",
+   "startMs": 203945,
+   "endMs": 214105,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 88500,
+    "endMs": 98660
+   },
+   "lines": [
+    {
+     "text": "فكلام أمير المؤمنين عليه السلام صريح في نفي رؤيته سبحانه بالبصر، بل يدرك بالبصيرة وبنور الإيمان.",
+     "startMs": 203945,
+     "endMs": 214104
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s06_l01",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "مستنكر",
+   "text": "وفي الصحيحين عن أبي هريرة: أن موسى وضع ثوبه على حجر ليغتسل، ففرّ الحجر بثوبه، فجعل موسى يجري خلفه وينادي: ثوبي حجر! ثوبي حجر!",
+   "startMs": 214705,
+   "endMs": 227625,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 99050,
+    "endMs": 111970
+   },
+   "lines": [
+    {
+     "text": "وفي الصحيحين عن أبي هريرة: أن موسى وضع ثوبه على حجر ليغتسل، ففرّ الحجر بثوبه، فجعل موسى يجري خلفه وينادي: ثوبي حجر!",
+     "startMs": 214705,
+     "endMs": 226474
+    },
+    {
+     "text": "ثوبي حجر!",
+     "startMs": 226474,
+     "endMs": 227625
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s06_l02",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يحتكم إلى الحاضرين",
+   "text": "بالله عليكم أنصفوا.. هل يرضى أحدكم أن تنسب إليه هذه النسبة الموهنة الشنيعة؟!",
+   "startMs": 227975,
+   "endMs": 234695,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 112350,
+    "endMs": 119070
+   },
+   "lines": [
+    {
+     "text": "بالله عليكم أنصفوا..",
+     "startMs": 227975,
+     "endMs": 229345
+    },
+    {
+     "text": "هل يرضى أحدكم أن تنسب إليه هذه النسبة الموهنة الشنيعة؟!",
+     "startMs": 229345,
+     "endMs": 234694
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.986,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s06_l03",
+   "scene": 6,
+   "speakerId": "ABDULHAYY",
+   "speakerName": "السيد عبد الحي",
+   "direction": "مدافع",
+   "text": "وهل حركة الحجر أعجب من انقلاب عصا موسى ثعبانًا؟ أتنكرون معجزات موسى وقد نطق بها القرآن؟",
+   "startMs": 235295,
+   "endMs": 243145,
+   "clip": {
+    "file": "audio/ABDULHAYY/Generated Audio October 27, 2026 - 2_56AM.wav",
+    "startMs": 25230,
+    "endMs": 33080
+   },
+   "lines": [
+    {
+     "text": "وهل حركة الحجر أعجب من انقلاب عصا موسى ثعبانًا؟",
+     "startMs": 235295,
+     "endMs": 239485
+    },
+    {
+     "text": "أتنكرون معجزات موسى وقد نطق بها القرآن؟",
+     "startMs": 239485,
+     "endMs": 243144
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.988,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s06_l04",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "هادئ",
+   "text": "نحن نؤمن بمعجزات الأنبياء كلها. لكن المعجزة تكون في مقام التحدّي، لإحقاق الحق ودحض الباطل، لا لهتك ستر نبي الله وكشفه أمام قومه.",
+   "startMs": 243745,
+   "endMs": 256375,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 119490,
+    "endMs": 132120
+   },
+   "lines": [
+    {
+     "text": "نحن نؤمن بمعجزات الأنبياء كلها.",
+     "startMs": 243745,
+     "endMs": 246455
+    },
+    {
+     "text": "لكن المعجزة تكون في مقام التحدّي، لإحقاق الحق ودحض الباطل، لا لهتك ستر نبي الله وكشفه أمام قومه.",
+     "startMs": 246455,
+     "endMs": 256375
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s06_l05",
+   "scene": 6,
+   "speakerId": "ABDULHAYY",
+   "speakerName": "السيد عبد الحي",
+   "direction": "يتشبّث",
+   "text": "أيّ حقّ أعلى من إبراء نبيّ الله؟! فالناس عرفوا بذلك أن ليس به فتق!",
+   "startMs": 256975,
+   "endMs": 263185,
+   "clip": {
+    "file": "audio/ABDULHAYY/Generated Audio October 27, 2026 - 2_56AM.wav",
+    "startMs": 33470,
+    "endMs": 39680
+   },
+   "lines": [
+    {
+     "text": "أيّ حقّ أعلى من إبراء نبيّ الله؟!",
+     "startMs": 256975,
+     "endMs": 259824
+    },
+    {
+     "text": "فالناس عرفوا بذلك أن ليس به فتق!",
+     "startMs": 259824,
+     "endMs": 263184
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s06_l06",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "منطقي",
+   "text": "على فرض أنّ موسى كان ذا أدرة، فما تأثير هذا المرض على مقامه ونبوّته؟!",
+   "startMs": 263785,
+   "endMs": 269725,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 132320,
+    "endMs": 138260
+   },
+   "lines": [
+    {
+     "text": "على فرض أنّ موسى كان ذا أدرة، فما تأثير هذا المرض على مقامه ونبوّته؟!",
+     "startMs": 263785,
+     "endMs": 269724
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s06_l07",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "فالمرض لا يقدح في النبوة. أما أن يُكشف نبي الله عريانًا أمام قومه، فذلك هو الهتك الذي لا يرضاه عاقل لنفسه.",
+   "startMs": 270075,
+   "endMs": 280355,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 138440,
+    "endMs": 148720
+   },
+   "lines": [
+    {
+     "text": "فالمرض لا يقدح في النبوة.",
+     "startMs": 270075,
+     "endMs": 272255
+    },
+    {
+     "text": "أما أن يُكشف نبي الله عريانًا أمام قومه، فذلك هو الهتك الذي لا يرضاه عاقل لنفسه.",
+     "startMs": 272255,
+     "endMs": 280355
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.99,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s07_l01",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ساخر بلطف",
+   "text": "وروى الطبري وغيره أن ملك الموت كان يأتي الناس عيانًا، حتى أتى موسى فلطمه ففقأ عينه، فصار يأتي الناس بعد ذلك خفية.",
+   "startMs": 280955,
+   "endMs": 292385,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 148800,
+    "endMs": 160230
+   },
+   "lines": [
+    {
+     "text": "وروى الطبري وغيره أن ملك الموت كان يأتي الناس عيانًا، حتى أتى موسى فلطمه ففقأ عينه، فصار يأتي الناس بعد ذلك خفية.",
+     "startMs": 280955,
+     "endMs": 292385
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.991,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s07_l02",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "دعابة جافة",
+   "text": "وقد علّقت فقلت: لأنّه يخاف من الجهّال أن يفقئوا عينه الأخرى.",
+   "startMs": 292735,
+   "endMs": 297735,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 160330,
+    "endMs": 165330
+   },
+   "lines": [
+    {
+     "text": "وقد علّقت فقلت: لأنّه يخاف من الجهّال أن يفقئوا عينه الأخرى.",
+     "startMs": 292735,
+     "endMs": 297735
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.981,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s07_l03",
+   "scene": 7,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "خفيف",
+   "text": "فضحك جمع من الحاضرين بصوت عال.",
+   "startMs": 298335,
+   "endMs": 301545,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 322240,
+    "endMs": 325450
+   },
+   "lines": [
+    {
+     "text": "فضحك جمع من الحاضرين بصوت عال.",
+     "startMs": 298335,
+     "endMs": 301544
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s07_l04",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "جادّ من جديد",
+   "text": "تعالى الله، وجلّت أنبياؤه وملائكته عن كلّ ذلك وعمّا يقول المخرفون.",
+   "startMs": 302145,
+   "endMs": 308570,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 167530,
+    "endMs": 173955
+   },
+   "lines": [
+    {
+     "text": "تعالى الله، وجلّت أنبياؤه وملائكته عن كلّ ذلك وعمّا يقول المخرفون.",
+     "startMs": 302145,
+     "endMs": 308569
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s08_l01",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "مهيب",
+   "text": "إن أهل البيت هم الطريق إلى الله والأدلّاء عليه. ولذا جاء في الحديث المتفق عليه بين الفريقين، أن رسول الله قال:",
+   "startMs": 309170,
+   "endMs": 319930,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 174020,
+    "endMs": 184780
+   },
+   "lines": [
+    {
+     "text": "إن أهل البيت هم الطريق إلى الله والأدلّاء عليه.",
+     "startMs": 309170,
+     "endMs": 313930
+    },
+    {
+     "text": "ولذا جاء في الحديث المتفق عليه بين الفريقين، أن رسول الله قال:",
+     "startMs": 313930,
+     "endMs": 319930
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s08_l02",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "تلاوة الحديث بوقار",
+   "text": "أيّها الناس! إنّي تارك فيكم ما إن تمسّكتم بهما لن تضلّوا بعدي أبدا: كتاب الله، وعترتي أهل بيتي، وهما لن يفترقا حتّى يردا عليّ الحوض.",
+   "startMs": 320280,
+   "endMs": 335610,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 185210,
+    "endMs": 200540
+   },
+   "lines": [
+    {
+     "text": "أيّها الناس!",
+     "startMs": 320280,
+     "endMs": 321150
+    },
+    {
+     "text": "إنّي تارك فيكم ما إن تمسّكتم بهما لن تضلّوا بعدي أبدا: كتاب الله، وعترتي أهل بيتي، وهما لن يفترقا حتّى يردا عليّ الحوض.",
+     "startMs": 321150,
+     "endMs": 335609
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s09_l01",
+   "scene": 9,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "حادّ، اتهامي",
+   "text": "لا ينحصر الدليل على شرككم في هذه الرواية. ففي أدعيتكم كلها أثر الشرك. والشيعة لا يتوجّهون إلى الله أبدًا، بل يطلبون حوائجهم من أئمتهم!",
+   "startMs": 336810,
+   "endMs": 350520,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 389470,
+    "endMs": 403180
+   },
+   "lines": [
+    {
+     "text": "لا ينحصر الدليل على شرككم في هذه الرواية.",
+     "startMs": 336810,
+     "endMs": 340580
+    },
+    {
+     "text": "ففي أدعيتكم كلها أثر الشرك.",
+     "startMs": 340580,
+     "endMs": 344000
+    },
+    {
+     "text": "والشيعة لا يتوجّهون إلى الله أبدًا، بل يطلبون حوائجهم من أئمتهم!",
+     "startMs": 344000,
+     "endMs": 350520
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s09_l02",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "جرح هادئ",
+   "text": "لا أدري... هل أنت جاهل بالحقيقة ولا تعرف مذهب الشيعة؟!",
+   "startMs": 351120,
+   "endMs": 357090,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 200930,
+    "endMs": 206900
+   },
+   "lines": [
+    {
+     "text": "لا أدري...",
+     "startMs": 351120,
+     "endMs": 351729
+    },
+    {
+     "text": "هل أنت جاهل بالحقيقة ولا تعرف مذهب الشيعة؟!",
+     "startMs": 351729,
+     "endMs": 357089
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s09_l03",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكبح نفسه",
+   "text": "لكن أرجو أن لا تكون كذلك، فإنّ من شرائط العالم العامل: الإنصاف.",
+   "startMs": 357440,
+   "endMs": 363850,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 207410,
+    "endMs": 213820
+   },
+   "lines": [
+    {
+     "text": "لكن أرجو أن لا تكون كذلك، فإنّ من شرائط العالم العامل: الإنصاف.",
+     "startMs": 357440,
+     "endMs": 363849
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s09_l04",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "تحذير",
+   "text": "واعلم أن أعداء الإسلام الذين يريدون تفريق المسلمين للاستيلاء على ثرواتهم وأراضيهم، يفرحون بمثل هذه التهم بين الإخوة.",
+   "startMs": 364200,
+   "endMs": 374940,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 214100,
+    "endMs": 224840
+   },
+   "lines": [
+    {
+     "text": "واعلم أن أعداء الإسلام الذين يريدون تفريق المسلمين للاستيلاء على ثرواتهم وأراضيهم، يفرحون بمثل هذه التهم بين الإخوة.",
+     "startMs": 364200,
+     "endMs": 374940
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s10_l01",
+   "scene": 10,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "راجٍ، بسيط",
+   "text": "إن هذا المجلس انعقد لتفهيم العوام. فأرجوكم أن تراعوا جانبنا وتتكلموا بكلام نفهمه.",
+   "startMs": 376140,
+   "endMs": 383720,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 49450,
+    "endMs": 57030
+   },
+   "lines": [
+    {
+     "text": "إن هذا المجلس انعقد لتفهيم العوام.",
+     "startMs": 376140,
+     "endMs": 378989
+    },
+    {
+     "text": "فأرجوكم أن تراعوا جانبنا وتتكلموا بكلام نفهمه.",
+     "startMs": 378989,
+     "endMs": 383719
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s10_l02",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ودود",
+   "text": "فقد روي عن خاتم الأنبياء وسيّدهم صلى الله عليه وآله وسلم أنّه قال: إنّا معاشر الأنبياء امرنا أن نكلّم الناس على قدر عقولهم.",
+   "startMs": 384320,
+   "endMs": 396130,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 225210,
+    "endMs": 237020
+   },
+   "lines": [
+    {
+     "text": "فقد روي عن خاتم الأنبياء وسيّدهم صلى الله عليه وآله وسلم أنّه قال: إنّا معاشر الأنبياء امرنا أن نكلّم الناس على قدر عقولهم.",
+     "startMs": 384320,
+     "endMs": 396130
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s11_l01",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "تعليمي",
+   "text": "الشرك قسمان: جليّ ظاهر، وخفيّ مستتر. والجليّ أن يتخذ الإنسان لله شريكًا في ذاته، أو في صفاته، أو في أفعاله، أو في عبادته.",
+   "startMs": 396730,
+   "endMs": 410050,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 237500,
+    "endMs": 250820
+   },
+   "lines": [
+    {
+     "text": "الشرك قسمان: جليّ ظاهر، وخفيّ مستتر.",
+     "startMs": 396730,
+     "endMs": 401910
+    },
+    {
+     "text": "والجليّ أن يتخذ الإنسان لله شريكًا في ذاته، أو في صفاته، أو في أفعاله، أو في عبادته.",
+     "startMs": 401910,
+     "endMs": 410049
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s11_l02",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "بمثال لطيف",
+   "text": "وصفات الله عين ذاته. هل حلاوة السكر شيء غير السكر؟ وهل دهنية السمن شيء غير السمن؟ كذلك علم الله وقدرته وحياته ليست أشياء زائدة على ذاته.",
+   "startMs": 410400,
+   "endMs": 424400,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 251170,
+    "endMs": 265170
+   },
+   "lines": [
+    {
+     "text": "وصفات الله عين ذاته.",
+     "startMs": 410400,
+     "endMs": 413270
+    },
+    {
+     "text": "هل حلاوة السكر شيء غير السكر؟",
+     "startMs": 413270,
+     "endMs": 416410
+    },
+    {
+     "text": "وهل دهنية السمن شيء غير السمن؟",
+     "startMs": 416410,
+     "endMs": 419270
+    },
+    {
+     "text": "كذلك علم الله وقدرته وحياته ليست أشياء زائدة على ذاته.",
+     "startMs": 419270,
+     "endMs": 424400
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s11_l03",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يسأل الحضور",
+   "text": "بعد أن بيّنّا أقسام الشرك وأنواعه، فأسألكم: أيّ أقسام الشرك تنسبوه إلى الشيعة؟!",
+   "startMs": 424750,
+   "endMs": 431690,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 265670,
+    "endMs": 272610
+   },
+   "lines": [
+    {
+     "text": "بعد أن بيّنّا أقسام الشرك وأنواعه، فأسألكم: أيّ أقسام الشرك تنسبوه إلى الشيعة؟!",
+     "startMs": 424750,
+     "endMs": 431689
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.993,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s12_l01",
+   "scene": 12,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يظن أنه أمسكه",
+   "text": "استنادًا إلى كلامكم أنتم مشركون! فقد قلتم: من نذر لغير الله فهو مشرك، والشيعة ينذرون لأئمتهم!",
+   "startMs": 432890,
+   "endMs": 443710,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 403630,
+    "endMs": 414450
+   },
+   "lines": [
+    {
+     "text": "استنادًا إلى كلامكم أنتم مشركون!",
+     "startMs": 432890,
+     "endMs": 436320
+    },
+    {
+     "text": "فقد قلتم: من نذر لغير الله فهو مشرك، والشيعة ينذرون لأئمتهم!",
+     "startMs": 436320,
+     "endMs": 443709
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s12_l02",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "منهجي",
+   "text": "من أراد أن يعرف عقائد قوم فلينظر في كتب علمائهم، لا في أفعال جهّالهم. راجعوا «باب النذر» في كتب فقهائنا، تجدوا إجماعهم أن النذر عبادة يشترط فيها أمران:",
+   "startMs": 444310,
+   "endMs": 459710,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 273350,
+    "endMs": 288750
+   },
+   "lines": [
+    {
+     "text": "من أراد أن يعرف عقائد قوم فلينظر في كتب علمائهم، لا في أفعال جهّالهم.",
+     "startMs": 444310,
+     "endMs": 450439
+    },
+    {
+     "text": "راجعوا «باب النذر» في كتب فقهائنا، تجدوا إجماعهم أن النذر عبادة يشترط فيها أمران:",
+     "startMs": 450439,
+     "endMs": 459709
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s12_l03",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "واضح",
+   "text": "نيّة القربة لله خالصة، وأن يقول: «لله عليّ أن أفعل كذا». فإن نوى النذر لغير الله، أو أشرك معه نبيًّا أو إمامًا، فالنذر باطل، ومن فعله عالمًا فعمله حرام وشرك.",
+   "startMs": 460060,
+   "endMs": 476065,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 288830,
+    "endMs": 304835
+   },
+   "lines": [
+    {
+     "text": "نيّة القربة لله خالصة، وأن يقول: «لله عليّ أن أفعل كذا».",
+     "startMs": 460060,
+     "endMs": 465810
+    },
+    {
+     "text": "فإن نوى النذر لغير الله، أو أشرك معه نبيًّا أو إمامًا، فالنذر باطل، ومن فعله عالمًا فعمله حرام وشرك.",
+     "startMs": 465810,
+     "endMs": 476065
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.982,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s12_l04",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يشرح للعوام",
+   "text": "لكن الناذر مخيّر في مصرف نذره. فله أن يقول: لله عليّ أن أذبح شاة عند مرقد النبي أو مرقد الإمام علي وأطعم لحمها الفقراء. فهذا نذر لله، والمكان مصرف له.",
+   "startMs": 476415,
+   "endMs": 491635,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 304920,
+    "endMs": 320140
+   },
+   "lines": [
+    {
+     "text": "لكن الناذر مخيّر في مصرف نذره.",
+     "startMs": 476415,
+     "endMs": 479934
+    },
+    {
+     "text": "فله أن يقول: لله عليّ أن أذبح شاة عند مرقد النبي أو مرقد الإمام علي وأطعم لحمها الفقراء.",
+     "startMs": 479934,
+     "endMs": 488035
+    },
+    {
+     "text": "فهذا نذر لله، والمكان مصرف له.",
+     "startMs": 488035,
+     "endMs": 491634
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.993,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s12_l05",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حاسم",
+   "text": "ولكن إذا لم يذكر الله كأن يقول: نذرت للنبيّ أو الإمام أو الفقيه أو الفقير أو اليتيم... إلى آخره، كلّ هذه الصيغ باطلة غير صحيحة.",
+   "startMs": 491985,
+   "endMs": 504420,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 320230,
+    "endMs": 332665
+   },
+   "lines": [
+    {
+     "text": "ولكن إذا لم يذكر الله كأن يقول: نذرت للنبيّ أو الإمام أو الفقيه أو الفقير أو اليتيم...",
+     "startMs": 491985,
+     "endMs": 500054
+    },
+    {
+     "text": "إلى آخره، كلّ هذه الصيغ باطلة غير صحيحة.",
+     "startMs": 500054,
+     "endMs": 504420
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s12_l06",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ناصح",
+   "text": "فإن رأيتم من عوامّنا من يخطئ في ذلك، فالواجب على العلماء أن يعلّموا الجاهلين، لا أن يكفّروهم.",
+   "startMs": 504770,
+   "endMs": 513250,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 332790,
+    "endMs": 341270
+   },
+   "lines": [
+    {
+     "text": "فإن رأيتم من عوامّنا من يخطئ في ذلك، فالواجب على العلماء أن يعلّموا الجاهلين، لا أن يكفّروهم.",
+     "startMs": 504770,
+     "endMs": 513249
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s13_l01",
+   "scene": 13,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "فيه طرافة",
+   "text": "فتبسّم الشيخ عبد السلام ضاحكًا وقال:",
+   "startMs": 514450,
+   "endMs": 517710,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 326190,
+    "endMs": 329450
+   },
+   "lines": [
+    {
+     "text": "فتبسّم الشيخ عبد السلام ضاحكًا وقال:",
+     "startMs": 514450,
+     "endMs": 517709
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s13_l02",
+   "scene": 13,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "ساخر بلطف",
+   "text": "وهل بقي عندكم شيء في هذا المضمار، فاكتفيتم بهذا المقدار؟!",
+   "startMs": 518310,
+   "endMs": 523850,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 130,
+    "endMs": 5670
+   },
+   "lines": [
+    {
+     "text": "وهل بقي عندكم شيء في هذا المضمار، فاكتفيتم بهذا المقدار؟!",
+     "startMs": 518310,
+     "endMs": 523850
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s13_l03",
+   "scene": 13,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يبتسم بدوره",
+   "text": "بقي قسم جعلوه من الشرك، وهو مغفور: الشرك في الأسباب. فمن اعتقد أن الشمس تنضج الثمار بنفسها مستقلة عن الله فقد أخطأ. ومن اعتقد أن الله هو المؤثّر والشمس سبب، فذلك عين التوحيد.",
+   "startMs": 524450,
+   "endMs": 542900,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 341450,
+    "endMs": 359900
+   },
+   "lines": [
+    {
+     "text": "بقي قسم جعلوه من الشرك، وهو مغفور: الشرك في الأسباب.",
+     "startMs": 524450,
+     "endMs": 529779
+    },
+    {
+     "text": "فمن اعتقد أن الشمس تنضج الثمار بنفسها مستقلة عن الله فقد أخطأ.",
+     "startMs": 529779,
+     "endMs": 536600
+    },
+    {
+     "text": "ومن اعتقد أن الله هو المؤثّر والشمس سبب، فذلك عين التوحيد.",
+     "startMs": 536600,
+     "endMs": 542899
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s14_l01",
+   "scene": 14,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "سؤال أخير",
+   "text": "لما ذا لا تطلبون حوائجكم من الله تعالى بغير واسطة؟!",
+   "startMs": 544100,
+   "endMs": 548750,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 414740,
+    "endMs": 419390
+   },
+   "lines": [
+    {
+     "text": "لما ذا لا تطلبون حوائجكم من الله تعالى بغير واسطة؟!",
+     "startMs": 544100,
+     "endMs": 548749
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.99,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s14_l02",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "عميق، مطمئن",
+   "text": "إنّ توجّهنا إلى الله عزّ وجلّ في طلب الحوائج ودفع الهموم والغموم هو بالاستقلال، ولكنّا نتوسّل بالنبيّ وآله الطيّبين صلوات الله عليهم أجمعين ليشفعوا لنا عند الله سبحانه في قضاء حوائجنا",
+   "startMs": 549350,
+   "endMs": 566870,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 360380,
+    "endMs": 377900
+   },
+   "lines": [
+    {
+     "text": "إنّ توجّهنا إلى الله عزّ وجلّ في طلب الحوائج ودفع الهموم والغموم هو بالاستقلال، ولكنّا نتوسّل بالنبيّ وآله الطيّبين صلوات الله عليهم أجمعين ليشفعوا لنا عند الله سبحانه في قضاء حوائجنا",
+     "startMs": 549350,
+     "endMs": 566869
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s14_l03",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يتلو",
+   "text": "ومستندنا القرآن الحكيم إذ يقول: «يا أيها الذين آمنوا اتقوا الله وابتغوا إليه الوسيلة».",
+   "startMs": 567220,
+   "endMs": 575060,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 378090,
+    "endMs": 385930
+   },
+   "lines": [
+    {
+     "text": "ومستندنا القرآن الحكيم إذ يقول: «يا أيها الذين آمنوا اتقوا الله وابتغوا إليه الوسيلة».",
+     "startMs": 567220,
+     "endMs": 575060
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s14_l04",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ختامي، مهيب",
+   "text": "فهم واسطة الفيض، والفيّاض هو الله ربّ العالمين.",
+   "startMs": 575410,
+   "endMs": 580510,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 386300,
+    "endMs": 391400
+   },
+   "lines": [
+    {
+     "text": "فهم واسطة الفيض، والفيّاض هو الله ربّ العالمين.",
+     "startMs": 575410,
+     "endMs": 580509
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep04_s14_l05",
+   "scene": 14,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "معلّق، يمهّد",
+   "text": "ولكن الحافظ لم يسلّم. فقد كان في جعبته سؤال آخر عن البخاري وحديث الثقلين، وسيشتعل به المجلس من جديد.",
+   "startMs": 581110,
+   "endMs": 591160,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 329930,
+    "endMs": 339980
+   },
+   "lines": [
+    {
+     "text": "ولكن الحافظ لم يسلّم.",
+     "startMs": 581110,
+     "endMs": 582780
+    },
+    {
+     "text": "فقد كان في جعبته سؤال آخر عن البخاري وحديث الثقلين، وسيشتعل به المجلس من جديد.",
+     "startMs": 582780,
+     "endMs": 591160
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  }
+ ],
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "nostalgic",
+   "startMs": 0,
+   "endMs": 16850
+  },
+  {
+   "scene": 2,
+   "cue": "nostalgic",
+   "startMs": 15250,
+   "endMs": 62940
+  },
+  {
+   "scene": 3,
+   "cue": "reverent",
+   "startMs": 61340,
+   "endMs": 120649
+  },
+  {
+   "scene": 4,
+   "cue": "reflective",
+   "startMs": 119050,
+   "endMs": 149765
+  },
+  {
+   "scene": 5,
+   "cue": "reflective",
+   "startMs": 148165,
+   "endMs": 215205
+  },
+  {
+   "scene": 6,
+   "cue": "reverent",
+   "startMs": 213605,
+   "endMs": 281455
+  },
+  {
+   "scene": 7,
+   "cue": "reflective",
+   "startMs": 279854,
+   "endMs": 309670
+  },
+  {
+   "scene": 8,
+   "cue": "warm",
+   "startMs": 308070,
+   "endMs": 337010
+  },
+  {
+   "scene": 9,
+   "cue": "warm",
+   "startMs": 335409,
+   "endMs": 376340
+  },
+  {
+   "scene": 10,
+   "cue": "reflective",
+   "startMs": 374740,
+   "endMs": 397230
+  },
+  {
+   "scene": 11,
+   "cue": "reflective",
+   "startMs": 395630,
+   "endMs": 433090
+  },
+  {
+   "scene": 12,
+   "cue": "reverent",
+   "startMs": 431490,
+   "endMs": 514650
+  },
+  {
+   "scene": 13,
+   "cue": "reflective",
+   "startMs": 513050,
+   "endMs": 544300
+  },
+  {
+   "scene": 14,
+   "cue": "ending",
+   "startMs": 542700,
+   "endMs": 593459
+  }
+ ]
+}

@@ -1,0 +1,155 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "ميناء بومبي سنة 1345 هـ",
+   "music": "reflective",
+   "sfx": [
+    "sea"
+   ],
+   "level": 0.85,
+   "reason": "title: ميناء"
+  },
+  {
+   "scene": 2,
+   "title": "مجلس حوار في دهلي",
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "title: مجلس"
+  },
+  {
+   "scene": 3,
+   "title": "سيالكوت",
+   "music": "warm",
+   "sfx": [
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "text: مدينة; ambience of the episode's place"
+  },
+  {
+   "scene": 4,
+   "title": "بيشاور عند الغروب",
+   "music": "warm",
+   "sfx": [
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "text: مدينة; ambience of the episode's place"
+  },
+  {
+   "scene": 5,
+   "title": "الحسينية الكبيرة وقت العصر",
+   "music": "reflective",
+   "sfx": [
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "text: أهل; ambience of the episode's place"
+  },
+  {
+   "scene": 6,
+   "title": "المؤلف ينزل من المنبر",
+   "music": "reflective",
+   "sfx": [
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "text: أهل; ambience of the episode's place"
+  },
+  {
+   "scene": 7,
+   "title": "بيت الميرزا يعقوب علي خان قزلباش ليلًا",
+   "music": "nostalgic",
+   "sfx": [
+    "night"
+   ],
+   "level": 0.85,
+   "reason": "title: ليل"
+  },
+  {
+   "scene": 8,
+   "title": "الجانبان متقابلان",
+   "music": "reflective",
+   "sfx": [
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "text: فقد; ambience of the episode's place"
+  },
+  {
+   "scene": 9,
+   "title": "الحافظ يرفع إصبعه مشترطًا",
+   "music": "reflective",
+   "sfx": [
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "text: حوار; ambience of the episode's place"
+  },
+  {
+   "scene": 10,
+   "title": "لقطة قريبة للحافظ يضيّق عينيه وهو يسأل",
+   "music": "reverent",
+   "sfx": [
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "text: الكاظم; ambience of the episode's place"
+  },
+  {
+   "scene": 11,
+   "title": "الحافظ يضرب كفًّا بكفّ متعجبًا",
+   "music": "reverent",
+   "sfx": [
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "text: مقام; ambience of the episode's place"
+  },
+  {
+   "scene": 12,
+   "title": "المؤلف يفتح كتابًا قديمًا ويقرأ",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: كتاب"
+  },
+  {
+   "scene": 13,
+   "title": "المؤلف يرفع يده مشيرًا إلى السماء وهو يتلو",
+   "music": "reflective",
+   "sfx": [
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "text: كتاب; ambience of the episode's place"
+  },
+  {
+   "scene": 14,
+   "title": "الحافظ يخفض رأسه ثم يرفعه مبتسمًا ابتسامة المنصف",
+   "music": "suspense",
+   "sfx": [
+    "murmur"
+   ],
+   "level": 0.85,
+   "reason": "text: شك; ambience of the episode's place"
+  },
+  {
+   "scene": 15,
+   "title": "نافذة البيت مفتوحة على مئذنة طينية بسيطة تحت…",
+   "music": "ending",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "title: البيت; last scene"
+  }
+ ]
+}

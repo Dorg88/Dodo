@@ -1,0 +1,520 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep07",
+ "number": 7,
+ "title": "يوم الإنذار",
+ "durationMs": 135580,
+ "audio": {
+  "mode": "clips"
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AUTHOR": {
+   "name": "سلطان الواعظين"
+  },
+  "MIRZA_YAQUB": {
+   "name": "الميرزا يعقوب علي خان"
+  },
+  "HAFIZ": {
+   "name": "الحافظ محمد رشيد"
+  },
+  "NAWWAB": {
+   "name": "النواب عبد القيوم خان"
+  },
+  "ABDULHAYY": {
+   "name": "السيد عبد الحي"
+  },
+  "ABDUSSALAM": {
+   "name": "الشيخ عبد السلام"
+  },
+  "ATTENDEES": {
+   "name": "الحاضرون"
+  },
+  "GHULAM": {
+   "name": "غلام إمامين"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "الحافظ يدخل مع جماعة كبيرة",
+   "image": "ep07/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 33030
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "النواب يرفع رأسه ببطء",
+   "image": "ep07/images/scene_05.jpg",
+   "startMs": 33030,
+   "endMs": 59640
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "الشيخ عبد السلام يعتدل في جلسته",
+   "image": "ep07/images/scene_08.jpg",
+   "startMs": 59640,
+   "endMs": 79500
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "الشيخ عبد السلام يقرأ من كتاب بخشوع",
+   "image": "ep07/images/scene_09.jpg",
+   "startMs": 79500,
+   "endMs": 101670
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "الشيخ عبد السلام يشير بإصبعه إلى المؤلف",
+   "image": "ep07/images/scene_11.jpg",
+   "startMs": 101670,
+   "endMs": 114850
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "المؤلف يفتح كتابًا ويقرأ بصوت ساخر خفيف",
+   "image": "ep07/images/scene_12.jpg",
+   "startMs": 114850,
+   "endMs": 119220
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "المؤلف يعدّ على أصابعه",
+   "image": "ep07/images/scene_13.jpg",
+   "startMs": 119220,
+   "endMs": 123430
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "المؤلف يخاطب الشيخ عبد السلام بصوت هادئ",
+   "image": "ep07/images/scene_14.jpg",
+   "startMs": 123430,
+   "endMs": 135580
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep07_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "سينمائي",
+   "text": "ليلة الثلاثاء، السابع والعشرون من رجب. أقبل الحافظ وسائر العلماء من أول الليل مع جماعة كبيرة. وبعد الشاي والحلوى، بدأ الحافظ بما لم يتوقعه أحد.",
+   "startMs": 500,
+   "endMs": 14570,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 424400,
+    "endMs": 438470
+   },
+   "lines": [
+    {
+     "text": "ليلة الثلاثاء، السابع والعشرون من رجب.",
+     "startMs": 500,
+     "endMs": 4160
+    },
+    {
+     "text": "أقبل الحافظ وسائر العلماء من أول الليل مع جماعة كبيرة.",
+     "startMs": 4160,
+     "endMs": 9300
+    },
+    {
+     "text": "وبعد الشاي والحلوى، بدأ الحافظ بما لم يتوقعه أحد.",
+     "startMs": 9300,
+     "endMs": 14570
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s01_l02",
+   "scene": 1,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "صادق، متأنٍّ",
+   "text": "لقد فكّرت كثيرا في حديثكم وكلامكم حول حديث المنزلة، وراجعت كتبنا فرأيته كما ذكرتم أنّه من الأحاديث الصحيحة المتواترة بإجماع علمائنا وأهل الحديث الموثّقين عندنا",
+   "startMs": 15170,
+   "endMs": 32430,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 574790,
+    "endMs": 592050
+   },
+   "lines": [
+    {
+     "text": "لقد فكّرت كثيرا في حديثكم وكلامكم حول حديث المنزلة، وراجعت كتبنا فرأيته كما ذكرتم أنّه من الأحاديث الصحيحة المتواترة بإجماع علمائنا وأهل الحديث الموثّقين عندنا",
+     "startMs": 15170,
+     "endMs": 32429
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s05_l01",
+   "scene": 5,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "يمهّد",
+   "text": "فرفع النواب رأسه وقال:",
+   "startMs": 33630,
+   "endMs": 36000,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 438750,
+    "endMs": 441120
+   },
+   "lines": [
+    {
+     "text": "فرفع النواب رأسه وقال:",
+     "startMs": 33630,
+     "endMs": 36000
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s05_l02",
+   "scene": 5,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "صريح، بسيط",
+   "text": "إذا كانت الخلافة حق علي بعد النبي مباشرة بأمر الله، فلماذا لم يصرّح به رسول الله؟ لو قال صراحة: إن علي بن أبي طالب خليفتي فيكم، لما بقي للأمة عذر.",
+   "startMs": 36600,
+   "endMs": 50000,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 103830,
+    "endMs": 117230
+   },
+   "lines": [
+    {
+     "text": "إذا كانت الخلافة حق علي بعد النبي مباشرة بأمر الله، فلماذا لم يصرّح به رسول الله؟",
+     "startMs": 36600,
+     "endMs": 43890
+    },
+    {
+     "text": "لو قال صراحة: إن علي بن أبي طالب خليفتي فيكم، لما بقي للأمة عذر.",
+     "startMs": 43890,
+     "endMs": 50000
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s05_l05",
+   "scene": 5,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "معتذر، فضولي",
+   "text": "هل يمكن أن تبيّنوا لنا تلك التصريحات؟ وأعتذر، فعلماؤنا يقولون لنا إنه لا يوجد نص في خلافة علي.",
+   "startMs": 50350,
+   "endMs": 59040,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 117830,
+    "endMs": 126520
+   },
+   "lines": [
+    {
+     "text": "هل يمكن أن تبيّنوا لنا تلك التصريحات؟",
+     "startMs": 50350,
+     "endMs": 53039
+    },
+    {
+     "text": "وأعتذر، فعلماؤنا يقولون لنا إنه لا يوجد نص في خلافة علي.",
+     "startMs": 53039,
+     "endMs": 59039
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s08_l01",
+   "scene": 8,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "متوازن",
+   "text": "نحن لا ننكر فضائل ومناقب مولانا عليّ كرم الله وجهه، ولكن انحصار الفضائل فيه غير معقول",
+   "startMs": 60240,
+   "endMs": 69720,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 68230,
+    "endMs": 77710
+   },
+   "lines": [
+    {
+     "text": "نحن لا ننكر فضائل ومناقب مولانا عليّ كرم الله وجهه، ولكن انحصار الفضائل فيه غير معقول",
+     "startMs": 60240,
+     "endMs": 69720
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s08_l02",
+   "scene": 8,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "معترض",
+   "text": "لكنكم تنحازون إلى علي وحده. وكيف أنقل لكم فضائل الخلفاء، وكتبكم لا تحوي شيئًا منها؟",
+   "startMs": 70070,
+   "endMs": 79200,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 78120,
+    "endMs": 87250
+   },
+   "lines": [
+    {
+     "text": "لكنكم تنحازون إلى علي وحده.",
+     "startMs": 70070,
+     "endMs": 73490
+    },
+    {
+     "text": "وكيف أنقل لكم فضائل الخلفاء، وكتبكم لا تحوي شيئًا منها؟",
+     "startMs": 73490,
+     "endMs": 79200
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s09_l01",
+   "scene": 9,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "بخشوع",
+   "text": "فما تقول في حديث رواه أبو هريرة: أن جبرئيل نزل على النبي فقال: إن الله يقرئك السلام ويقول: إني راضٍ عن أبي بكر، فاسأله هل هو راضٍ عني؟",
+   "startMs": 79800,
+   "endMs": 95120,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 87470,
+    "endMs": 102790
+   },
+   "lines": [
+    {
+     "text": "فما تقول في حديث رواه أبو هريرة: أن جبرئيل نزل على النبي فقال: إن الله يقرئك السلام ويقول: إني راضٍ عن أبي بكر، فاسأله هل هو راضٍ عني؟",
+     "startMs": 79800,
+     "endMs": 95120
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s09_l04",
+   "scene": 9,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "منزعج",
+   "text": "لا نتوقع منك أن تردّ صحابيًّا جليلًا مثل أبي هريرة!",
+   "startMs": 95470,
+   "endMs": 101370,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 103610,
+    "endMs": 109510
+   },
+   "lines": [
+    {
+     "text": "لا نتوقع منك أن تردّ صحابيًّا جليلًا مثل أبي هريرة!",
+     "startMs": 95470,
+     "endMs": 101370
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s11_l01",
+   "scene": 11,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "اتهامي",
+   "text": "إنما أنتم الشيعة كذلك! لا تتورّعون في مجلسنا هذا عن الطعن في الصحابة.",
+   "startMs": 101970,
+   "endMs": 107720,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 110150,
+    "endMs": 115900
+   },
+   "lines": [
+    {
+     "text": "إنما أنتم الشيعة كذلك!",
+     "startMs": 101970,
+     "endMs": 103820
+    },
+    {
+     "text": "لا تتورّعون في مجلسنا هذا عن الطعن في الصحابة.",
+     "startMs": 103820,
+     "endMs": 107720
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s11_l03",
+   "scene": 11,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "مدافع",
+   "text": "إن علماءنا الأعلام لم ينسبوا إليكم ما ليس فيكم، وإنما كشفوا أعمالكم.",
+   "startMs": 108070,
+   "endMs": 114250,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 116780,
+    "endMs": 122960
+   },
+   "lines": [
+    {
+     "text": "إن علماءنا الأعلام لم ينسبوا إليكم ما ليس فيكم، وإنما كشفوا أعمالكم.",
+     "startMs": 108070,
+     "endMs": 114249
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s12_l02",
+   "scene": 12,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "خفيف",
+   "text": "«الشيعة الحاضرون كلّهم ضحكوا من هذا الكلام».",
+   "startMs": 115450,
+   "endMs": 118920,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 441540,
+    "endMs": 445010
+   },
+   "lines": [
+    {
+     "text": "«الشيعة الحاضرون كلّهم ضحكوا من هذا الكلام».",
+     "startMs": 115450,
+     "endMs": 118919
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s13_l02",
+   "scene": 13,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "خفيف",
+   "text": "«ضحك الشيعة من هذا الكلام ضحكا عاليا».",
+   "startMs": 119520,
+   "endMs": 123130,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 445430,
+    "endMs": 449040
+   },
+   "lines": [
+    {
+     "text": "«ضحك الشيعة من هذا الكلام ضحكا عاليا».",
+     "startMs": 119520,
+     "endMs": 123130
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep07_s14_l03",
+   "scene": 14,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "معلّق",
+   "text": "لكن الشيخ عبد السلام لم يرمِ سلاحه. فقد كان يحمل في جعبته أحاديث في فضل الشيخين، وأراد أن يعرضها واحدًا واحدًا.",
+   "startMs": 123730,
+   "endMs": 134080,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 449370,
+    "endMs": 459720
+   },
+   "lines": [
+    {
+     "text": "لكن الشيخ عبد السلام لم يرمِ سلاحه.",
+     "startMs": 123730,
+     "endMs": 126859
+    },
+    {
+     "text": "فقد كان يحمل في جعبته أحاديث في فضل الشيخين، وأراد أن يعرضها واحدًا واحدًا.",
+     "startMs": 126859,
+     "endMs": 134080
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.995,
+    "flags": []
+   }
+  }
+ ]
+}

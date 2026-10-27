@@ -1,0 +1,145 @@
+{
+ "_comment": "Edit freely: music = nostalgic|suspense|reverent|warm|reflective|ending|none; sfx = list of city, crowd, door, footsteps, murmur, night, roomtone, rustle, sea, study; level 0..1.",
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "مدخل البيت بعد صلاة العشاء",
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "title: البيت"
+  },
+  {
+   "scene": 2,
+   "title": "الحافظ يتكلم بوجه بشوش",
+   "music": "suspense",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: شك; ambience of the episode's place"
+  },
+  {
+   "scene": 3,
+   "title": "الحافظ يتكلم مسترسلًا بيده المرفوعة",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: كتاب; ambience of the episode's place"
+  },
+  {
+   "scene": 4,
+   "title": "لقطة عريضة",
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: مجلس; ambience of the episode's place"
+  },
+  {
+   "scene": 5,
+   "title": "المؤلف يجيب",
+   "music": "warm",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: الحقيقة; ambience of the episode's place"
+  },
+  {
+   "scene": 6,
+   "title": "المؤلف يتلو آية بخشوع",
+   "music": "reflective",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "default; ambience of the episode's place"
+  },
+  {
+   "scene": 7,
+   "title": "المؤذّن من بعيد",
+   "music": "reverent",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: مسجد; ambience of the episode's place"
+  },
+  {
+   "scene": 8,
+   "title": "السيد عبد الحي يعود حاملًا كومة من المجلّدات…",
+   "music": "reverent",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: مسجد; ambience of the episode's place"
+  },
+  {
+   "scene": 9,
+   "title": "لوحة استعادية",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 10,
+   "title": "الحافظ يقرأ من ورقة بيده بصوت عالٍ ساخر",
+   "music": "reflective",
+   "sfx": [
+    "study"
+   ],
+   "level": 0.85,
+   "reason": "title: يقرأ"
+  },
+  {
+   "scene": 11,
+   "title": "لوحة استعادية سريعة",
+   "music": "reflective",
+   "sfx": [
+    "city"
+   ],
+   "level": 0.85,
+   "reason": "title: عاد"
+  },
+  {
+   "scene": 12,
+   "title": "الحافظ يرفع كفّيه متسائلًا عن الصلاة على الآل",
+   "music": "none",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: يصلّون; ambience of the episode's place"
+  },
+  {
+   "scene": 13,
+   "title": "النواب يبتسم ويرفع يده كتلميذ",
+   "music": "suspense",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: شك; ambience of the episode's place"
+  },
+  {
+   "scene": 14,
+   "title": "الحافظ يهز رأسه مستنكرًا",
+   "music": "ending",
+   "sfx": [
+    "roomtone"
+   ],
+   "level": 0.85,
+   "reason": "text: ليل; ambience of the episode's place; last scene"
+  }
+ ]
+}

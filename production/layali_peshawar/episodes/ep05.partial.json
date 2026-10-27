@@ -1,0 +1,1939 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep05",
+ "number": 5,
+ "title": "السفينة والدماء",
+ "durationMs": 608630,
+ "audio": {
+  "mode": "clips"
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AUTHOR": {
+   "name": "سلطان الواعظين"
+  },
+  "MIRZA_YAQUB": {
+   "name": "الميرزا يعقوب علي خان"
+  },
+  "HAFIZ": {
+   "name": "الحافظ محمد رشيد"
+  },
+  "NAWWAB": {
+   "name": "النواب عبد القيوم خان"
+  },
+  "ABDULHAYY": {
+   "name": "السيد عبد الحي"
+  },
+  "ABDUSSALAM": {
+   "name": "الشيخ عبد السلام"
+  },
+  "ATTENDEES": {
+   "name": "الحاضرون"
+  },
+  "GHULAM": {
+   "name": "غلام إمامين"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "الحافظ يدافع بحرارة",
+   "image": "ep05/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 65700
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "لوحة رمزية",
+   "image": "ep05/images/scene_02.jpg",
+   "startMs": 65700,
+   "endMs": 90870
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "الحافظ ينتفض مستنكرًا",
+   "image": "ep05/images/scene_03.jpg",
+   "startMs": 90870,
+   "endMs": 115420
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "لوحة استعادية",
+   "image": "ep05/images/scene_04.jpg",
+   "startMs": 115420,
+   "endMs": 152890
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "السيد عبد الحي ينكبّ على كتاب أدعية بين يديه…",
+   "image": "ep05/images/scene_05.jpg",
+   "startMs": 152890,
+   "endMs": 187650
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "الحافظ يلوّح بيده رافضًا",
+   "image": "ep05/images/scene_06.jpg",
+   "startMs": 187650,
+   "endMs": 197560
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "لوحة استعادية قاتمة",
+   "image": "ep05/images/scene_07.jpg",
+   "startMs": 197560,
+   "endMs": 227610
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "لوحة استعادية",
+   "image": "ep05/images/scene_08.jpg",
+   "startMs": 227610,
+   "endMs": 256690
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "لوحة استعادية",
+   "image": "ep05/images/scene_09.jpg",
+   "startMs": 256690,
+   "endMs": 306160
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "لوحة استعادية",
+   "image": "ep05/images/scene_10.jpg",
+   "startMs": 306160,
+   "endMs": 323020
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "الحافظ يرفع صوته",
+   "image": "ep05/images/scene_11.jpg",
+   "startMs": 323020,
+   "endMs": 363000
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "المؤلف ينظر مباشرة في عيني الشيخ عبد السلام",
+   "image": "ep05/images/scene_12.jpg",
+   "startMs": 363000,
+   "endMs": 438180
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "الشيخ عبد السلام يتكلم بلهجة الحقوقي المدافع",
+   "image": "ep05/images/scene_13.jpg",
+   "startMs": 438180,
+   "endMs": 490010
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "لوحة استعادية",
+   "image": "ep05/images/scene_14.jpg",
+   "startMs": 490010,
+   "endMs": 537770
+  },
+  {
+   "number": 15,
+   "id": "s15",
+   "title": "لوحة استعادية حزينة",
+   "image": "ep05/images/scene_15.jpg",
+   "startMs": 537770,
+   "endMs": 572570
+  },
+  {
+   "number": 16,
+   "id": "s16",
+   "title": "الحافظ يتكلم بصوت أخفض",
+   "image": "ep05/images/scene_16.jpg",
+   "startMs": 572570,
+   "endMs": 608630
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep05_s01_l01",
+   "scene": 1,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "معتدّ",
+   "text": "إن حديث الثقلين غير معتبر عند كبار علمائنا، فشيخنا محمد بن إسماعيل البخاري لم يروه في صحيحه.",
+   "startMs": 500,
+   "endMs": 9560,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 419650,
+    "endMs": 428710
+   },
+   "lines": [
+    {
+     "text": "إن حديث الثقلين غير معتبر عند كبار علمائنا، فشيخنا محمد بن إسماعيل البخاري لم يروه في صحيحه.",
+     "startMs": 500,
+     "endMs": 9560
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s01_l02",
+   "scene": 1,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "هادئ",
+   "text": "إنّ عدم ذكر البخاري لحديث الثقلين لا يدلّ على ضعفه.",
+   "startMs": 10160,
+   "endMs": 14990,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 391800,
+    "endMs": 396630
+   },
+   "lines": [
+    {
+     "text": "إنّ عدم ذكر البخاري لحديث الثقلين لا يدلّ على ضعفه.",
+     "startMs": 10160,
+     "endMs": 14989
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s01_l03",
+   "scene": 1,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يعدّد",
+   "text": "فالبخاري واحد، والذين رووه وصحّحوه عشرات من علمائكم. وابن حجر المكي، مع شدة تعصبه، يقول في الصواعق: إن لحديث التمسك بالثقلين طرقًا كثيرة عن نيّف وعشرين صحابيًّا. ورواه الترمذي وأحمد بن حنبل وغيرهما.",
+   "startMs": 15340,
+   "endMs": 35500,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 396670,
+    "endMs": 416830
+   },
+   "lines": [
+    {
+     "text": "فالبخاري واحد، والذين رووه وصحّحوه عشرات من علمائكم.",
+     "startMs": 15340,
+     "endMs": 20949
+    },
+    {
+     "text": "وابن حجر المكي، مع شدة تعصبه، يقول في الصواعق: إن لحديث التمسك بالثقلين طرقًا كثيرة عن نيّف وعشرين صحابيًّا.",
+     "startMs": 20949,
+     "endMs": 31330
+    },
+    {
+     "text": "ورواه الترمذي وأحمد بن حنبل وغيرهما.",
+     "startMs": 31330,
+     "endMs": 35499
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s01_l04",
+   "scene": 1,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "مدافع",
+   "text": "البخاري لم يترك خبرًا إلا لأنه كان كثير الاحتياط دقيقًا في النقل.",
+   "startMs": 36100,
+   "endMs": 42640,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 428980,
+    "endMs": 435520
+   },
+   "lines": [
+    {
+     "text": "البخاري لم يترك خبرًا إلا لأنه كان كثير الاحتياط دقيقًا في النقل.",
+     "startMs": 36100,
+     "endMs": 42639
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s01_l05",
+   "scene": 1,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "مبتسم",
+   "text": "قديما قالوا: حبّ الشيء يعمي ويصمّ!",
+   "startMs": 43240,
+   "endMs": 47230,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 417020,
+    "endMs": 421010
+   },
+   "lines": [
+    {
+     "text": "قديما قالوا: حبّ الشيء يعمي ويصمّ!",
+     "startMs": 43240,
+     "endMs": 47230
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s01_l06",
+   "scene": 1,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "غاضب",
+   "text": "إن كلامكم هذا إهانة لمقام العلم ورجال الحديث، وتحامل بغيض!",
+   "startMs": 47830,
+   "endMs": 53930,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 435880,
+    "endMs": 441980
+   },
+   "lines": [
+    {
+     "text": "إن كلامكم هذا إهانة لمقام العلم ورجال الحديث، وتحامل بغيض!",
+     "startMs": 47830,
+     "endMs": 53930
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.982,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s01_l07",
+   "scene": 1,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ثابت",
+   "text": "إن كنتم تحسبون الانتقاد العلمي تحاملا بغيضا وإهانة، فكثير من كبار علمائكم، أهانوكم وأهانوا أهل مذهبهم، قبلنا!",
+   "startMs": 54530,
+   "endMs": 65400,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 421240,
+    "endMs": 432110
+   },
+   "lines": [
+    {
+     "text": "إن كنتم تحسبون الانتقاد العلمي تحاملا بغيضا وإهانة، فكثير من كبار علمائكم، أهانوكم وأهانوا أهل مذهبهم، قبلنا!",
+     "startMs": 54530,
+     "endMs": 65400
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.99,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s02_l01",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ملحمي",
+   "text": "ومن دلائلنا في التمسك بأهل البيت الحديث النبوي الذي رواه مسلم وأحمد بن حنبل وغيرهما:",
+   "startMs": 66000,
+   "endMs": 73960,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 432470,
+    "endMs": 440430
+   },
+   "lines": [
+    {
+     "text": "ومن دلائلنا في التمسك بأهل البيت الحديث النبوي الذي رواه مسلم وأحمد بن حنبل وغيرهما:",
+     "startMs": 66000,
+     "endMs": 73960
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s02_l02",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "بوقار",
+   "text": "«مثل أهل بيتي كسفينة نوح، من ركبها نجا، ومن تخلّف عنها هلك»",
+   "startMs": 74310,
+   "endMs": 81380,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 441320,
+    "endMs": 448390
+   },
+   "lines": [
+    {
+     "text": "«مثل أهل بيتي كسفينة نوح، من ركبها نجا، ومن تخلّف عنها هلك»",
+     "startMs": 74310,
+     "endMs": 81379
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s02_l03",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يسأل",
+   "text": "فلما ذا كان عمر بن الخطّاب ـ وهو الفاروق عندكم ـ يتوسّل ببعض الناس إلى الله سبحانه في حالات الشدّة والاضطرار؟!",
+   "startMs": 81730,
+   "endMs": 90270,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 448790,
+    "endMs": 457330
+   },
+   "lines": [
+    {
+     "text": "فلما ذا كان عمر بن الخطّاب ـ وهو الفاروق عندكم ـ يتوسّل ببعض الناس إلى الله سبحانه في حالات الشدّة والاضطرار؟!",
+     "startMs": 81730,
+     "endMs": 90269
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.995,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s03_l01",
+   "scene": 3,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "مستنكر بشدة",
+   "text": "حاشا الفاروق عمر رضي الله عنه من هذا العمل، إنّه غير ممكن!!",
+   "startMs": 91470,
+   "endMs": 96580,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 442290,
+    "endMs": 447400
+   },
+   "lines": [
+    {
+     "text": "حاشا الفاروق عمر رضي الله عنه من هذا العمل، إنّه غير ممكن!!",
+     "startMs": 91470,
+     "endMs": 96579
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.991,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s03_l02",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ من المصدر",
+   "text": "نقل ابن حجر في الصواعق: وأخرج البخاري أن عمر بن الخطاب كان إذا قحطوا استسقى بالعباس بن عبد المطلب، فيقول: اللهم إنا كنا نتوسل إليك بنبينا فتسقينا، وإنا نتوسل إليك بعم نبينا فاسقنا.",
+   "startMs": 97180,
+   "endMs": 115120,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 458060,
+    "endMs": 476000
+   },
+   "lines": [
+    {
+     "text": "نقل ابن حجر في الصواعق: وأخرج البخاري أن عمر بن الخطاب كان إذا قحطوا استسقى بالعباس بن عبد المطلب، فيقول: اللهم إنا كنا نتوسل إليك بنبينا فتسقينا، وإنا نتوسل إليك بعم نبينا فاسقنا.",
+     "startMs": 97180,
+     "endMs": 115119
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s04_l01",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يحتكم إلى الحاضرين",
+   "text": "أيها الحاضرون والعلماء الأعلام! إذا كان عمر مع مقامه عندكم يتوسل بأهل بيت النبي، فآل محمد في كل زمان هم وسائل التقرب إلى الله، وبشفاعتهم ودعائهم يرحم الله عباده.",
+   "startMs": 115720,
+   "endMs": 131850,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 476780,
+    "endMs": 492910
+   },
+   "lines": [
+    {
+     "text": "أيها الحاضرون والعلماء الأعلام!",
+     "startMs": 115720,
+     "endMs": 117960
+    },
+    {
+     "text": "إذا كان عمر مع مقامه عندكم يتوسل بأهل بيت النبي، فآل محمد في كل زمان هم وسائل التقرب إلى الله، وبشفاعتهم ودعائهم يرحم الله عباده.",
+     "startMs": 117960,
+     "endMs": 131850
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s04_l02",
+   "scene": 4,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "متردد",
+   "text": "لكن ما بيّنتموه من اعتقادكم مخالف لما سمعناه وقرأناه عنكم في كتب علمائنا.",
+   "startMs": 132450,
+   "endMs": 139980,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 447710,
+    "endMs": 455240
+   },
+   "lines": [
+    {
+     "text": "لكن ما بيّنتموه من اعتقادكم مخالف لما سمعناه وقرأناه عنكم في كتب علمائنا.",
+     "startMs": 132450,
+     "endMs": 139980
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s04_l03",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ناصح",
+   "text": "دعوا ما سمعتموه عنا، واعتمدوا على ما تشاهدونه منا وتقرؤونه في كتبنا. فهل طالعتم كتبنا؟",
+   "startMs": 140580,
+   "endMs": 148640,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 493650,
+    "endMs": 501710
+   },
+   "lines": [
+    {
+     "text": "دعوا ما سمعتموه عنا، واعتمدوا على ما تشاهدونه منا وتقرؤونه في كتبنا.",
+     "startMs": 140580,
+     "endMs": 146410
+    },
+    {
+     "text": "فهل طالعتم كتبنا؟",
+     "startMs": 146410,
+     "endMs": 148640
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.988,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s04_l04",
+   "scene": 4,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "صريح",
+   "text": "ما وصلت يدي حتّى الآن إلى كتبكم.",
+   "startMs": 149240,
+   "endMs": 152290,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 455570,
+    "endMs": 458620
+   },
+   "lines": [
+    {
+     "text": "ما وصلت يدي حتّى الآن إلى كتبكم.",
+     "startMs": 149240,
+     "endMs": 152290
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s05_l01",
+   "scene": 5,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "سينمائي",
+   "text": "فجاؤوا بكتابي أدعية، وأخذوا يتصفحونهما بدقة، كلمة كلمة. فإذا بالسيد عبد الحي يصل إلى دعاء التوسل، فكأنه وجد بغيته، فقرأه على الجميع.",
+   "startMs": 153490,
+   "endMs": 167950,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 340640,
+    "endMs": 355100
+   },
+   "lines": [
+    {
+     "text": "فجاؤوا بكتابي أدعية، وأخذوا يتصفحونهما بدقة، كلمة كلمة.",
+     "startMs": 153490,
+     "endMs": 158990
+    },
+    {
+     "text": "فإذا بالسيد عبد الحي يصل إلى دعاء التوسل، فكأنه وجد بغيته، فقرأه على الجميع.",
+     "startMs": 158990,
+     "endMs": 167950
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s05_l02",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يحتكم بحرارة",
+   "text": "أيّها الإخوة! بالله عليكم أنصفوا!!!",
+   "startMs": 168550,
+   "endMs": 171430,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 502280,
+    "endMs": 505160
+   },
+   "lines": [
+    {
+     "text": "أيّها الإخوة!",
+     "startMs": 168550,
+     "endMs": 169410
+    },
+    {
+     "text": "بالله عليكم أنصفوا!!!",
+     "startMs": 169410,
+     "endMs": 171430
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s05_l03",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "متصاعد",
+   "text": "في أيّة كلمة أو عبارة من هذا الدعاء شممتم رائحة الشرك أو الغلوّ، أيّها العلماء أجيبوني؟!",
+   "startMs": 171780,
+   "endMs": 179430,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 505400,
+    "endMs": 513050
+   },
+   "lines": [
+    {
+     "text": "في أيّة كلمة أو عبارة من هذا الدعاء شممتم رائحة الشرك أو الغلوّ، أيّها العلماء أجيبوني؟!",
+     "startMs": 171780,
+     "endMs": 179429
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s05_l04",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حزين، عاتب",
+   "text": "لما ذا تزرعون بذر العداء والبغضاء بين المسلمين الّذين جعل الله سبحانه بينهم المودّة والإخاء؟!",
+   "startMs": 179780,
+   "endMs": 187050,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 513740,
+    "endMs": 521010
+   },
+   "lines": [
+    {
+     "text": "لما ذا تزرعون بذر العداء والبغضاء بين المسلمين الّذين جعل الله سبحانه بينهم المودّة والإخاء؟!",
+     "startMs": 179780,
+     "endMs": 187049
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.994,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s06_l01",
+   "scene": 6,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "متحدٍّ",
+   "text": "إنك تريد إثارة العواطف. فأيّ عالم من الشيعة قُتل بفتوى علمائنا؟ وأيّ عالم منا يلعن الشيعة؟",
+   "startMs": 188250,
+   "endMs": 196960,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 458960,
+    "endMs": 467670
+   },
+   "lines": [
+    {
+     "text": "إنك تريد إثارة العواطف.",
+     "startMs": 188250,
+     "endMs": 190030
+    },
+    {
+     "text": "فأيّ عالم من الشيعة قُتل بفتوى علمائنا؟",
+     "startMs": 190030,
+     "endMs": 193870
+    },
+    {
+     "text": "وأيّ عالم منا يلعن الشيعة؟",
+     "startMs": 193870,
+     "endMs": 196960
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s07_l01",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ حزين",
+   "text": "محمد بن مكي العاملي، المعروف بالشهيد الأول، أفقه علماء عصره، صاحب كتاب «اللمعة» الذي يُدرّس حتى اليوم. بقي سنة كاملة سجينًا في قلعة الشام يعاني التجويع والتعذيب.",
+   "startMs": 198160,
+   "endMs": 215850,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 521120,
+    "endMs": 538810
+   },
+   "lines": [
+    {
+     "text": "محمد بن مكي العاملي، المعروف بالشهيد الأول، أفقه علماء عصره، صاحب كتاب «اللمعة» الذي يُدرّس حتى اليوم.",
+     "startMs": 198160,
+     "endMs": 208439
+    },
+    {
+     "text": "بقي سنة كاملة سجينًا في قلعة الشام يعاني التجويع والتعذيب.",
+     "startMs": 208439,
+     "endMs": 215849
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s07_l02",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ثقيل",
+   "text": "ثم حكم قاضيان بإعدامه، فقُتل بالسيف سنة ست وثمانين وسبعمئة.",
+   "startMs": 216200,
+   "endMs": 222260,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 538860,
+    "endMs": 544920
+   },
+   "lines": [
+    {
+     "text": "ثم حكم قاضيان بإعدامه، فقُتل بالسيف سنة ست وثمانين وسبعمئة.",
+     "startMs": 216200,
+     "endMs": 222259
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.991,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s07_l03",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "مكلوم",
+   "text": "أمروا بحرق جسده الشريف، وذرّوا رماده في الفضاء.",
+   "startMs": 222610,
+   "endMs": 227310,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 545260,
+    "endMs": 549960
+   },
+   "lines": [
+    {
+     "text": "أمروا بحرق جسده الشريف، وذرّوا رماده في الفضاء.",
+     "startMs": 222610,
+     "endMs": 227310
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s08_l01",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ",
+   "text": "والشيخ زين الدين، الشهيد الثاني، كان يعيش في عزلة يؤلف ويحقق، فحسده بعض علماء عصره، وكتبوا فيه إلى السلطان العثماني، فقبضوا عليه وهو في الحج.",
+   "startMs": 227910,
+   "endMs": 241990,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 550230,
+    "endMs": 564310
+   },
+   "lines": [
+    {
+     "text": "والشيخ زين الدين، الشهيد الثاني، كان يعيش في عزلة يؤلف ويحقق، فحسده بعض علماء عصره، وكتبوا فيه إلى السلطان العثماني، فقبضوا عليه وهو في الحج.",
+     "startMs": 227910,
+     "endMs": 241989
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s08_l02",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "مكلوم",
+   "text": "ولمّا وصل إليها ونزل في الساحل، ضربوا عنقه وقطعوا رأسه قبل أن يحاكموه",
+   "startMs": 242340,
+   "endMs": 249670,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 564420,
+    "endMs": 571750
+   },
+   "lines": [
+    {
+     "text": "ولمّا وصل إليها ونزل في الساحل، ضربوا عنقه وقطعوا رأسه قبل أن يحاكموه",
+     "startMs": 242340,
+     "endMs": 249670
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s08_l03",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يحتكم",
+   "text": "بالله عليكم! هل إنّ عدم الانتماء إلى المذاهب الأربعة ذنب يستوجب القتل؟!",
+   "startMs": 250020,
+   "endMs": 256390,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 572170,
+    "endMs": 578540
+   },
+   "lines": [
+    {
+     "text": "بالله عليكم!",
+     "startMs": 250020,
+     "endMs": 251130
+    },
+    {
+     "text": "هل إنّ عدم الانتماء إلى المذاهب الأربعة ذنب يستوجب القتل؟!",
+     "startMs": 251130,
+     "endMs": 256390
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s09_l01",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ",
+   "text": "وفي عهد ناصر الدين شاه هجم خان خيوه على خراسان فقتل ونهب وسبى. فأرسلت الدولة إليه سفيرًا هو رضا قلي خان، فقال له: إن الدول الكافرة تعامل الإيرانيين معاملة حسنة، وأنتم تعاملونهم معاملة الكفار!",
+   "startMs": 256990,
+   "endMs": 275830,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 578900,
+    "endMs": 597740
+   },
+   "lines": [
+    {
+     "text": "وفي عهد ناصر الدين شاه هجم خان خيوه على خراسان فقتل ونهب وسبى.",
+     "startMs": 256990,
+     "endMs": 263509
+    },
+    {
+     "text": "فأرسلت الدولة إليه سفيرًا هو رضا قلي خان، فقال له: إن الدول الكافرة تعامل الإيرانيين معاملة حسنة، وأنتم تعاملونهم معاملة الكفار!",
+     "startMs": 263509,
+     "endMs": 275830
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s09_l02",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ثقيل",
+   "text": "فأجابه خان خيوه: إن علماءنا وقضاتنا في بخارى وخوارزم يفتون بأن الشيعة كفار، وجزاؤهم القتل ونهب الأموال.",
+   "startMs": 276180,
+   "endMs": 287010,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 598060,
+    "endMs": 608890
+   },
+   "lines": [
+    {
+     "text": "فأجابه خان خيوه: إن علماءنا وقضاتنا في بخارى وخوارزم يفتون بأن الشيعة كفار، وجزاؤهم القتل ونهب الأموال.",
+     "startMs": 276180,
+     "endMs": 287010
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.99,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s09_l03",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "مكلوم، يلتفت إلى الحافظ",
+   "text": "وفي بلادكم أفغانستان، يوم عاشوراء من سنة سبع وستين ومئتين وألف، كان الشيعة في الحسينيات بقندهار يقيمون العزاء، فهُجم عليهم بالسلاح وهم عُزّل. والأعجب أن أحدًا من العلماء لم يندّد بذلك.",
+   "startMs": 287360,
+   "endMs": 305860,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 609070,
+    "endMs": 627570
+   },
+   "lines": [
+    {
+     "text": "وفي بلادكم أفغانستان، يوم عاشوراء من سنة سبع وستين ومئتين وألف، كان الشيعة في الحسينيات بقندهار يقيمون العزاء، فهُجم عليهم بالسلاح وهم عُزّل.",
+     "startMs": 287360,
+     "endMs": 302329
+    },
+    {
+     "text": "والأعجب أن أحدًا من العلماء لم يندّد بذلك.",
+     "startMs": 302329,
+     "endMs": 305860
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.968,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s10_l01",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "شجيّ",
+   "text": "وفي سفري هذا زرت في آگره قبر الشهيد الثالث، القاضي نور الله التستري. قُتل سنة تسع عشرة وألف بسعاية علماء العامة عند ملك مغولي متعصب، وقد تجاوز السبعين.",
+   "startMs": 306460,
+   "endMs": 322420,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 627830,
+    "endMs": 643790
+   },
+   "lines": [
+    {
+     "text": "وفي سفري هذا زرت في آگره قبر الشهيد الثالث، القاضي نور الله التستري.",
+     "startMs": 306460,
+     "endMs": 313869
+    },
+    {
+     "text": "قُتل سنة تسع عشرة وألف بسعاية علماء العامة عند ملك مغولي متعصب، وقد تجاوز السبعين.",
+     "startMs": 313869,
+     "endMs": 322419
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.983,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s11_l01",
+   "scene": 11,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "هجومي",
+   "text": "إنكم تبالغون! ونحن لا نرضى بأعمال جهالنا. لكن الشيعة بأعمالهم يسببون تلك الفجائع. ألا يقف آلاف منهم أمام قبور الأموات يطلبون الحاجات ويسجدون لها؟",
+   "startMs": 323620,
+   "endMs": 338690,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 468070,
+    "endMs": 483140
+   },
+   "lines": [
+    {
+     "text": "إنكم تبالغون!",
+     "startMs": 323620,
+     "endMs": 324930
+    },
+    {
+     "text": "ونحن لا نرضى بأعمال جهالنا.",
+     "startMs": 324930,
+     "endMs": 327990
+    },
+    {
+     "text": "لكن الشيعة بأعمالهم يسببون تلك الفجائع.",
+     "startMs": 327990,
+     "endMs": 332249
+    },
+    {
+     "text": "ألا يقف آلاف منهم أمام قبور الأموات يطلبون الحاجات ويسجدون لها؟",
+     "startMs": 332249,
+     "endMs": 338689
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.993,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s11_l02",
+   "scene": 11,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "يلفت النظر",
+   "text": "وبينما كان الحافظ يتكلم، كان الشيخ عبد السلام، الفقيه الحنفي، يتصفح كتاب «هدية الزائرين»، ثم مدّه إلى المؤلف.",
+   "startMs": 339290,
+   "endMs": 349870,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 355610,
+    "endMs": 366190
+   },
+   "lines": [
+    {
+     "text": "وبينما كان الحافظ يتكلم، كان الشيخ عبد السلام، الفقيه الحنفي، يتصفح كتاب «هدية الزائرين»، ثم مدّه إلى المؤلف.",
+     "startMs": 339290,
+     "endMs": 349869
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s11_l03",
+   "scene": 11,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "واثق",
+   "text": "تفضّل واقرأ هذه الصفحة حتّى تعرف ما يقول الحافظ.",
+   "startMs": 350470,
+   "endMs": 355730,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 6180,
+    "endMs": 11440
+   },
+   "lines": [
+    {
+     "text": "تفضّل واقرأ هذه الصفحة حتّى تعرف ما يقول الحافظ.",
+     "startMs": 350470,
+     "endMs": 355730
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.989,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s11_l04",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "هادئ",
+   "text": "اقرأ أنت ونحن نستمع.",
+   "startMs": 356330,
+   "endMs": 358520,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 644070,
+    "endMs": 646260
+   },
+   "lines": [
+    {
+     "text": "اقرأ أنت ونحن نستمع.",
+     "startMs": 356330,
+     "endMs": 358519
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s11_l05",
+   "scene": 11,
+   "speakerId": "ATTENDEES",
+   "speakerName": "الحاضرون",
+   "direction": "جماعي، متحمس",
+   "text": "نحن مستعدّون أن نبقى حتّى الصباح لنسمع جوابكم.",
+   "startMs": 359120,
+   "endMs": 362400,
+   "clip": {
+    "file": "audio/ATTENDEES/Generated Audio October 27, 2026 - 2_35AM.wav",
+    "startMs": 130,
+    "endMs": 3410
+   },
+   "lines": [
+    {
+     "text": "نحن مستعدّون أن نبقى حتّى الصباح لنسمع جوابكم.",
+     "startMs": 359120,
+     "endMs": 362400
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s12_l01",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "سؤال صريح",
+   "text": "أسألك يا شيخ عبد السلام: هل ذهبت إلى زيارة أحد أئمة أهل البيت، ورأيت بعينك أعمال الشيعة هناك؟",
+   "startMs": 363600,
+   "endMs": 372940,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 646520,
+    "endMs": 655860
+   },
+   "lines": [
+    {
+     "text": "أسألك يا شيخ عبد السلام: هل ذهبت إلى زيارة أحد أئمة أهل البيت، ورأيت بعينك أعمال الشيعة هناك؟",
+     "startMs": 363600,
+     "endMs": 372940
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s12_l02",
+   "scene": 12,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "يتراجع قليلًا",
+   "text": "لا... إنّي لم أذهب إلى مزارات الأئمّة، ولم اشاهد أعمال الشيعة هناك.",
+   "startMs": 373540,
+   "endMs": 380060,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 12110,
+    "endMs": 18630
+   },
+   "lines": [
+    {
+     "text": "لا...",
+     "startMs": 373540,
+     "endMs": 373949
+    },
+    {
+     "text": "إنّي لم أذهب إلى مزارات الأئمّة، ولم اشاهد أعمال الشيعة هناك.",
+     "startMs": 373949,
+     "endMs": 380059
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s12_l03",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حازم بلطف",
+   "text": "إذا كيف تقول: بأنّ الشيعة يصلّون متوجّهين لقبور الأئمّة؟! وتستدلّ به على كفر الشيعة! ثبّت العرش ثمّ انقش.",
+   "startMs": 380660,
+   "endMs": 389890,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 656090,
+    "endMs": 665320
+   },
+   "lines": [
+    {
+     "text": "إذا كيف تقول: بأنّ الشيعة يصلّون متوجّهين لقبور الأئمّة؟!",
+     "startMs": 380660,
+     "endMs": 385270
+    },
+    {
+     "text": "وتستدلّ به على كفر الشيعة!",
+     "startMs": 385270,
+     "endMs": 387609
+    },
+    {
+     "text": "ثبّت العرش ثمّ انقش.",
+     "startMs": 387609,
+     "endMs": 389890
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.984,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s12_l04",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ من الكتاب",
+   "text": "فالعبارة ليست أن يصلي إلى القبر، بل أن يقف مستقبل القبلة مما يلي رأس الإمام، فيكون القبر عن يساره، ثم يصلي لله ويهدي ثوابها. فأيّ شرك في هذا؟",
+   "startMs": 390240,
+   "endMs": 404110,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 665660,
+    "endMs": 679530
+   },
+   "lines": [
+    {
+     "text": "فالعبارة ليست أن يصلي إلى القبر، بل أن يقف مستقبل القبلة مما يلي رأس الإمام، فيكون القبر عن يساره، ثم يصلي لله ويهدي ثوابها.",
+     "startMs": 390240,
+     "endMs": 402080
+    },
+    {
+     "text": "فأيّ شرك في هذا؟",
+     "startMs": 402080,
+     "endMs": 404110
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s12_l05",
+   "scene": 12,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "يتشبّث",
+   "text": "لكن العبارة تقول: قبّل العتبة وادخل الحرم. أليس هذا سجودًا لصاحب القبر؟ والسجود لغير الله شرك.",
+   "startMs": 404710,
+   "endMs": 414540,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 18980,
+    "endMs": 28810
+   },
+   "lines": [
+    {
+     "text": "لكن العبارة تقول: قبّل العتبة وادخل الحرم.",
+     "startMs": 404710,
+     "endMs": 409129
+    },
+    {
+     "text": "أليس هذا سجودًا لصاحب القبر؟",
+     "startMs": 409129,
+     "endMs": 412230
+    },
+    {
+     "text": "والسجود لغير الله شرك.",
+     "startMs": 412230,
+     "endMs": 414539
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s12_l06",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "واضح",
+   "text": "الكتاب يقول: يقبّل العتبة تأدبًا. فبأي دليل تفسّرون القُبلة بالسجود؟ ولقد رأيت بعيني في بغداد جماعة من أهل السنة الهنود يسقطون على الأرض عند قبر أبي حنيفة، فلم أكفّرهم، لأني أعلم أنهم فعلوا ذلك حبًّا لا عبادة.",
+   "startMs": 415140,
+   "endMs": 435050,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 679770,
+    "endMs": 699680
+   },
+   "lines": [
+    {
+     "text": "الكتاب يقول: يقبّل العتبة تأدبًا.",
+     "startMs": 415140,
+     "endMs": 418870
+    },
+    {
+     "text": "فبأي دليل تفسّرون القُبلة بالسجود؟",
+     "startMs": 418870,
+     "endMs": 422409
+    },
+    {
+     "text": "ولقد رأيت بعيني في بغداد جماعة من أهل السنة الهنود يسقطون على الأرض عند قبر أبي حنيفة، فلم أكفّرهم، لأني أعلم أنهم فعلوا ذلك حبًّا لا عبادة.",
+     "startMs": 422409,
+     "endMs": 435050
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s12_l07",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حاسم",
+   "text": "لأنّ الأعمال بالنيّات",
+   "startMs": 435400,
+   "endMs": 437580,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 699800,
+    "endMs": 701980
+   },
+   "lines": [
+    {
+     "text": "لأنّ الأعمال بالنيّات",
+     "startMs": 435400,
+     "endMs": 437580
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s13_l01",
+   "scene": 13,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "مدافع، رسمي",
+   "text": "إني أتعجب منك إذ تصرّح بكفر يزيد، وهو خليفة المسلمين نصبه معاوية، وقد بايعه المسلمون. وقد برّأه الغزالي والدميري من دم الحسين. ولو فرضنا أنه أمر بذلك فقد تاب بعدها.",
+   "startMs": 438780,
+   "endMs": 457060,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 29120,
+    "endMs": 47400
+   },
+   "lines": [
+    {
+     "text": "إني أتعجب منك إذ تصرّح بكفر يزيد، وهو خليفة المسلمين نصبه معاوية، وقد بايعه المسلمون.",
+     "startMs": 438780,
+     "endMs": 448020
+    },
+    {
+     "text": "وقد برّأه الغزالي والدميري من دم الحسين.",
+     "startMs": 448020,
+     "endMs": 452440
+    },
+    {
+     "text": "ولو فرضنا أنه أمر بذلك فقد تاب بعدها.",
+     "startMs": 452440,
+     "endMs": 457060
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.987,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s13_l02",
+   "scene": 13,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "مذهول",
+   "text": "ما كنت أظنّ أنّ التعصّب يبلغ بك إلى حدّ الدفاع عن يزيد العنيد!",
+   "startMs": 457660,
+   "endMs": 462580,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 702490,
+    "endMs": 707410
+   },
+   "lines": [
+    {
+     "text": "ما كنت أظنّ أنّ التعصّب يبلغ بك إلى حدّ الدفاع عن يزيد العنيد!",
+     "startMs": 457660,
+     "endMs": 462579
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s13_l03",
+   "scene": 13,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "جادّ",
+   "text": "أرجوك أن تبيّن لنا دلائلكم على كفر يزيد حتّى نعرف الحقيقة ونتّبع الحقّ.",
+   "startMs": 463180,
+   "endMs": 469840,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 57340,
+    "endMs": 64000
+   },
+   "lines": [
+    {
+     "text": "أرجوك أن تبيّن لنا دلائلكم على كفر يزيد حتّى نعرف الحقيقة ونتّبع الحقّ.",
+     "startMs": 463180,
+     "endMs": 469839
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.978,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s13_l04",
+   "scene": 13,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يعدّد",
+   "text": "من الدلائل مجاهرته بشرب الخمر وتفاخره بذلك في أشعاره، وفيها ما يدل على إنكاره للبعث والمعاد. وقد ذكرها سبط ابن الجوزي وغيره.",
+   "startMs": 470440,
+   "endMs": 483510,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 707440,
+    "endMs": 720510
+   },
+   "lines": [
+    {
+     "text": "من الدلائل مجاهرته بشرب الخمر وتفاخره بذلك في أشعاره، وفيها ما يدل على إنكاره للبعث والمعاد.",
+     "startMs": 470440,
+     "endMs": 480620
+    },
+    {
+     "text": "وقد ذكرها سبط ابن الجوزي وغيره.",
+     "startMs": 480620,
+     "endMs": 483510
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.975,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s13_l05",
+   "scene": 13,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "مستفهم",
+   "text": "ما هي وقعة الحرّة؟ وما معنى إباحة المدينة المنوّرة بأمر يزيد؟؟!",
+   "startMs": 484110,
+   "endMs": 489410,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 64210,
+    "endMs": 69510
+   },
+   "lines": [
+    {
+     "text": "ما هي وقعة الحرّة؟",
+     "startMs": 484110,
+     "endMs": 485540
+    },
+    {
+     "text": "وما معنى إباحة المدينة المنوّرة بأمر يزيد؟؟!",
+     "startMs": 485540,
+     "endMs": 489410
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.982,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s14_l01",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ثقيل، حزين",
+   "text": "ذكر المؤرخون أن جماعة من أهل المدينة سنة اثنتين وستين وفدوا على يزيد، فلما رجعوا أخبروا أنه رجل لا دين له، يشرب الخمر ويدع الصلاة. فنقض الناس بيعته وأخرجوا عامله.",
+   "startMs": 490610,
+   "endMs": 506560,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 721060,
+    "endMs": 737010
+   },
+   "lines": [
+    {
+     "text": "ذكر المؤرخون أن جماعة من أهل المدينة سنة اثنتين وستين وفدوا على يزيد، فلما رجعوا أخبروا أنه رجل لا دين له، يشرب الخمر ويدع الصلاة.",
+     "startMs": 490610,
+     "endMs": 504210
+    },
+    {
+     "text": "فنقض الناس بيعته وأخرجوا عامله.",
+     "startMs": 504210,
+     "endMs": 506560
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.951,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s14_l02",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "مكلوم",
+   "text": "فبعث يزيد مسلم بن عقبة بجيش من الشام، وأمرهم أن يدخلوا مدينة رسول الله. فقتلوا كل من وجدوه فيها، وأباحوها ثلاثة أيام.",
+   "startMs": 506910,
+   "endMs": 518780,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 737540,
+    "endMs": 749410
+   },
+   "lines": [
+    {
+     "text": "فبعث يزيد مسلم بن عقبة بجيش من الشام، وأمرهم أن يدخلوا مدينة رسول الله.",
+     "startMs": 506910,
+     "endMs": 513610
+    },
+    {
+     "text": "فقتلوا كل من وجدوه فيها، وأباحوها ثلاثة أيام.",
+     "startMs": 513610,
+     "endMs": 518780
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s14_l03",
+   "scene": 14,
+   "speakerId": "ABDUSSALAM",
+   "speakerName": "الشيخ عبد السلام",
+   "direction": "يتراجع إلى الدفاع الأخير",
+   "text": "كل هذا يدل على فسقه لا على كفره، والفاسق يغفر الله له إذا تاب.",
+   "startMs": 519380,
+   "endMs": 526620,
+   "clip": {
+    "file": "audio/ABDUSSALAM/Generated Audio October 27, 2026 - 2_28AM.wav",
+    "startMs": 47870,
+    "endMs": 55110
+   },
+   "lines": [
+    {
+     "text": "كل هذا يدل على فسقه لا على كفره، والفاسق يغفر الله له إذا تاب.",
+     "startMs": 519380,
+     "endMs": 526619
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s14_l04",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حادّ",
+   "text": "هل جئت من عند الباري عزّ وجلّ فتخبر بأنّه غفر ليزيد المجرم العنيد؟!",
+   "startMs": 527220,
+   "endMs": 532890,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 749830,
+    "endMs": 755500
+   },
+   "lines": [
+    {
+     "text": "هل جئت من عند الباري عزّ وجلّ فتخبر بأنّه غفر ليزيد المجرم العنيد؟!",
+     "startMs": 527220,
+     "endMs": 532889
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s14_l05",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حاسم",
+   "text": "من أين تقول إنّه تاب؟! وليس لك دليل إلاّ ظنّك",
+   "startMs": 533240,
+   "endMs": 537470,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 756010,
+    "endMs": 760240
+   },
+   "lines": [
+    {
+     "text": "من أين تقول إنّه تاب؟!",
+     "startMs": 533240,
+     "endMs": 535110
+    },
+    {
+     "text": "وليس لك دليل إلاّ ظنّك",
+     "startMs": 535110,
+     "endMs": 537470
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s15_l01",
+   "scene": 15,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حزين، متأمل",
+   "text": "إن الأمم المتمدنة تبني قبور عظمائها وتحافظ عليها، حتى إنها تكرّم قبر الجندي المجهول. وأنتم تنكرون على الشيعة وقوفهم عند قبور شهداء العترة، والله يقول: «ولا تحسبنّ الذين قُتلوا في سبيل الله أمواتًا بل أحياء».",
+   "startMs": 538070,
+   "endMs": 558400,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 760690,
+    "endMs": 781020
+   },
+   "lines": [
+    {
+     "text": "إن الأمم المتمدنة تبني قبور عظمائها وتحافظ عليها، حتى إنها تكرّم قبر الجندي المجهول.",
+     "startMs": 538070,
+     "endMs": 546020
+    },
+    {
+     "text": "وأنتم تنكرون على الشيعة وقوفهم عند قبور شهداء العترة، والله يقول: «ولا تحسبنّ الذين قُتلوا في سبيل الله أمواتًا بل أحياء».",
+     "startMs": 546020,
+     "endMs": 558400
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.99,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s15_l02",
+   "scene": 15,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "مكلوم",
+   "text": "وطائفة أخرى تهدم تلك المراقد وتخرّب قبابها. فتلك قبور أبناء رسول الله وعترته في البقيع، وقبور شهداء أحد وسيدهم حمزة، قد سُوّيت بالأرض.",
+   "startMs": 558750,
+   "endMs": 571970,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 781530,
+    "endMs": 794750
+   },
+   "lines": [
+    {
+     "text": "وطائفة أخرى تهدم تلك المراقد وتخرّب قبابها.",
+     "startMs": 558750,
+     "endMs": 562820
+    },
+    {
+     "text": "فتلك قبور أبناء رسول الله وعترته في البقيع، وقبور شهداء أحد وسيدهم حمزة، قد سُوّيت بالأرض.",
+     "startMs": 562820,
+     "endMs": 571970
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s16_l01",
+   "scene": 16,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "معترض بهدوء",
+   "text": "إنكم تغالون في أئمتكم. ما الفرق بينهم وبين سائر أئمة المسلمين، إلا انتسابهم إلى النبي؟",
+   "startMs": 573170,
+   "endMs": 581320,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 483410,
+    "endMs": 491560
+   },
+   "lines": [
+    {
+     "text": "إنكم تغالون في أئمتكم.",
+     "startMs": 573170,
+     "endMs": 575440
+    },
+    {
+     "text": "ما الفرق بينهم وبين سائر أئمة المسلمين، إلا انتسابهم إلى النبي؟",
+     "startMs": 575440,
+     "endMs": 581320
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s16_l02",
+   "scene": 16,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "عميق",
+   "text": "هذا مقال من يجهل قدرهم ولا يعرف شأنهم ومقامهم!",
+   "startMs": 581920,
+   "endMs": 586920,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 795090,
+    "endMs": 800090
+   },
+   "lines": [
+    {
+     "text": "هذا مقال من يجهل قدرهم ولا يعرف شأنهم ومقامهم!",
+     "startMs": 581920,
+     "endMs": 586920
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s16_l03",
+   "scene": 16,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ختامي",
+   "text": "وبما أنّ الوقت لا يتّسع لخوض هذا البحث أختم حديثي وأدع هذا المبحث الهامّ إلى مجلس آخر إن شاء الله تعالى.",
+   "startMs": 587270,
+   "endMs": 596880,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_52AM.wav",
+    "startMs": 800700,
+    "endMs": 810310
+   },
+   "lines": [
+    {
+     "text": "وبما أنّ الوقت لا يتّسع لخوض هذا البحث أختم حديثي وأدع هذا المبحث الهامّ إلى مجلس آخر إن شاء الله تعالى.",
+     "startMs": 587270,
+     "endMs": 596879
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.995,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep05_s16_l04",
+   "scene": 16,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "معلّق",
+   "text": "وخرج القوم في ليل بيشاور، وسؤال الحافظ معلّق فوق رؤوسهم: ما معنى الإمام؟ ولماذا هؤلاء دون غيرهم؟",
+   "startMs": 597480,
+   "endMs": 607130,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 366690,
+    "endMs": 376340
+   },
+   "lines": [
+    {
+     "text": "وخرج القوم في ليل بيشاور، وسؤال الحافظ معلّق فوق رؤوسهم: ما معنى الإمام؟",
+     "startMs": 597480,
+     "endMs": 604489
+    },
+    {
+     "text": "ولماذا هؤلاء دون غيرهم؟",
+     "startMs": 604489,
+     "endMs": 607129
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  }
+ ]
+}

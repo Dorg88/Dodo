@@ -1,0 +1,1596 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep01",
+ "number": 1,
+ "title": "الطريق إلى بيشاور",
+ "durationMs": 581230,
+ "audio": {
+  "mode": "clips",
+  "music": "ep01/audio/score_music.m4a",
+  "sfx": "ep01/audio/score_sfx.m4a",
+  "musicLoop": false
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AUTHOR": {
+   "name": "سلطان الواعظين"
+  },
+  "MIRZA_YAQUB": {
+   "name": "الميرزا يعقوب علي خان"
+  },
+  "HAFIZ": {
+   "name": "الحافظ محمد رشيد"
+  },
+  "NAWWAB": {
+   "name": "النواب عبد القيوم خان"
+  },
+  "ABDULHAYY": {
+   "name": "السيد عبد الحي"
+  },
+  "ABDUSSALAM": {
+   "name": "الشيخ عبد السلام"
+  },
+  "ATTENDEES": {
+   "name": "الحاضرون"
+  },
+  "GHULAM": {
+   "name": "غلام إمامين"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "ميناء بومبي سنة 1345 هـ",
+   "image": "ep01/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 50915
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "مجلس حوار في دهلي",
+   "image": "ep01/images/scene_02.jpg",
+   "startMs": 50915,
+   "endMs": 65185
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "سيالكوت",
+   "image": "ep01/images/scene_03.jpg",
+   "startMs": 65185,
+   "endMs": 96415
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "بيشاور عند الغروب",
+   "image": "ep01/images/scene_04.jpg",
+   "startMs": 96415,
+   "endMs": 111785
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "الحسينية الكبيرة وقت العصر",
+   "image": "ep01/images/scene_05.jpg",
+   "startMs": 111785,
+   "endMs": 131565
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "المؤلف ينزل من المنبر",
+   "image": "ep01/images/scene_06.jpg",
+   "startMs": 131565,
+   "endMs": 159075
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "بيت الميرزا يعقوب علي خان قزلباش ليلًا",
+   "image": "ep01/images/scene_07.jpg",
+   "startMs": 159075,
+   "endMs": 230495
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "الجانبان متقابلان",
+   "image": "ep01/images/scene_08.jpg",
+   "startMs": 230495,
+   "endMs": 283735
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "الحافظ يرفع إصبعه مشترطًا",
+   "image": "ep01/images/scene_09.jpg",
+   "startMs": 283735,
+   "endMs": 324820
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "لقطة قريبة للحافظ يضيّق عينيه وهو يسأل",
+   "image": "ep01/images/scene_10.jpg",
+   "startMs": 324820,
+   "endMs": 367220
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "الحافظ يضرب كفًّا بكفّ متعجبًا",
+   "image": "ep01/images/scene_11.jpg",
+   "startMs": 367220,
+   "endMs": 427970
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "المؤلف يفتح كتابًا قديمًا ويقرأ",
+   "image": "ep01/images/scene_12.jpg",
+   "startMs": 427970,
+   "endMs": 488330
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "المؤلف يرفع يده مشيرًا إلى السماء وهو يتلو",
+   "image": "ep01/images/scene_13.jpg",
+   "startMs": 488330,
+   "endMs": 547230
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "الحافظ يخفض رأسه ثم يرفعه مبتسمًا ابتسامة المنصف",
+   "image": "ep01/images/scene_14.jpg",
+   "startMs": 547230,
+   "endMs": 563880
+  },
+  {
+   "number": 15,
+   "id": "s15",
+   "title": "نافذة البيت مفتوحة على مئذنة طينية بسيطة تحت…",
+   "image": "ep01/images/scene_15.jpg",
+   "startMs": 563880,
+   "endMs": 581230
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep01_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "هادئ، افتتاحي",
+   "text": "في ربيع الأول من سنة ألف وثلاثمئة وخمس وأربعين للهجرة، خرج عالم شاب من إيران قاصدًا زيارة العتبات المقدسة، ثم شدّ الرحال إلى الهند. كان اسمه السيد محمد الموسوي، ويلقّبه الناس: سلطان الواعظين الشيرازي.",
+   "startMs": 500,
+   "endMs": 21800,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 150,
+    "endMs": 21450
+   },
+   "lines": [
+    {
+     "text": "في ربيع الأول من سنة ألف وثلاثمئة وخمس وأربعين للهجرة، خرج عالم شاب من إيران قاصدًا زيارة العتبات المقدسة، ثم شدّ الرحال إلى الهند.",
+     "startMs": 500,
+     "endMs": 16150
+    },
+    {
+     "text": "كان اسمه السيد محمد الموسوي، ويلقّبه الناس: سلطان الواعظين الشيرازي.",
+     "startMs": 16150,
+     "endMs": 21800
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.914,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s01_l02",
+   "scene": 1,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "صوت داخلي، يستعيد الذكرى",
+   "text": "سافرت إلى العتبات المقدّسة في شهر ربيع الأوّل عام 1345 ه‍، وكان لي من العمر ثلاثون سنة",
+   "startMs": 22400,
+   "endMs": 33445,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 105,
+    "endMs": 11150
+   },
+   "lines": [
+    {
+     "text": "سافرت إلى العتبات المقدّسة في شهر ربيع الأوّل عام 1345 ه‍، وكان لي من العمر ثلاثون سنة",
+     "startMs": 22400,
+     "endMs": 33445
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.97,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s01_l03",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "سردي، دافئ",
+   "text": "ما إن وطئت قدماه أرض الهند حتى نشرت الصحف خبر وصوله، فتتابعت الدعوات من الإخوة والأصدقاء، فمضى من مدينة إلى مدينة: بومبي، ثم دهلي ولاهور وكشمير وحيدرآباد وكويته.",
+   "startMs": 34045,
+   "endMs": 50615,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 22380,
+    "endMs": 38950
+   },
+   "lines": [
+    {
+     "text": "ما إن وطئت قدماه أرض الهند حتى نشرت الصحف خبر وصوله، فتتابعت الدعوات من الإخوة والأصدقاء، فمضى من مدينة إلى مدينة: بومبي، ثم دهلي ولاهور وكشمير وحيدرآباد وكويته.",
+     "startMs": 34045,
+     "endMs": 50615
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.987,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s02_l01",
+   "scene": 2,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "سردي",
+   "text": "وفي تلك المدن كان العلماء من مختلف المذاهب والأديان يزورونه في منزله ويزورهم، فتدور بينهم مناقشات طويلة، وكانت الصحف تنشر ما يدور فيها بالتفصيل.",
+   "startMs": 51215,
+   "endMs": 64885,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 39640,
+    "endMs": 53310
+   },
+   "lines": [
+    {
+     "text": "وفي تلك المدن كان العلماء من مختلف المذاهب والأديان يزورونه في منزله ويزورهم، فتدور بينهم مناقشات طويلة، وكانت الصحف تنشر ما يدور فيها بالتفصيل.",
+     "startMs": 51215,
+     "endMs": 64885
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s03_l01",
+   "scene": 3,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "دافئ",
+   "text": "ثم دعته الجمعية الاثنا عشرية إلى مدينة سيالكوت، فوجد بين المستقبلين صديقًا قديمًا عرفه في كربلاء: محمد سرور خان، رئيس شرطة المدينة، فضمّه إلى صدره وأنزله ضيفًا في بيته.",
+   "startMs": 65485,
+   "endMs": 82125,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 53700,
+    "endMs": 70340
+   },
+   "lines": [
+    {
+     "text": "ثم دعته الجمعية الاثنا عشرية إلى مدينة سيالكوت، فوجد بين المستقبلين صديقًا قديمًا عرفه في كربلاء: محمد سرور خان، رئيس شرطة المدينة، فضمّه إلى صدره وأنزله ضيفًا في بيته.",
+     "startMs": 65485,
+     "endMs": 82125
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.994,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s03_l02",
+   "scene": 3,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "سردي، فيه ترقّب",
+   "text": "وهناك وصلته دعوة من رجال أسرة قزلباش، وجهاء الشيعة في البنجاب، يرجونه أن يزور مدينة بيشاور. وألحّ عليه مضيفه ألّا يردّ دعوة أهله وقومه.",
+   "startMs": 82475,
+   "endMs": 95815,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 71350,
+    "endMs": 84690
+   },
+   "lines": [
+    {
+     "text": "وهناك وصلته دعوة من رجال أسرة قزلباش، وجهاء الشيعة في البنجاب، يرجونه أن يزور مدينة بيشاور.",
+     "startMs": 82475,
+     "endMs": 90345
+    },
+    {
+     "text": "وألحّ عليه مضيفه ألّا يردّ دعوة أهله وقومه.",
+     "startMs": 90345,
+     "endMs": 95815
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.985,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s04_l01",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "صوت داخلي، سينمائي، متصاعد",
+   "text": "ثمّ إنّي عزمت على الذهاب إلى بيشاور، فسافرت إليها في اليوم الرابع عشر من شهر رجب الحرام، وحين وردتها استقبلني أهلها استقبالا حافلا قلّ نظيره في تلك المدينة",
+   "startMs": 97015,
+   "endMs": 111185,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 11400,
+    "endMs": 25570
+   },
+   "lines": [
+    {
+     "text": "ثمّ إنّي عزمت على الذهاب إلى بيشاور، فسافرت إليها في اليوم الرابع عشر من شهر رجب الحرام، وحين وردتها استقبلني أهلها استقبالا حافلا قلّ نظيره في تلك المدينة",
+     "startMs": 97015,
+     "endMs": 111185
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s05_l01",
+   "scene": 5,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "سردي",
+   "text": "ولأن أهل بيشاور كانوا يتكلمون الفارسية، قبل أن يرتقي المنبر في الحسينية وقت العصر. وكانت القاعة تمتلئ كل يوم، شيعةً وسنةً وعلماءَ ومشايخ، فجعل موضوع حديثه: الإمامة، وعقائد الشيعة.",
+   "startMs": 112385,
+   "endMs": 131265,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 85510,
+    "endMs": 104390
+   },
+   "lines": [
+    {
+     "text": "ولأن أهل بيشاور كانوا يتكلمون الفارسية، قبل أن يرتقي المنبر في الحسينية وقت العصر.",
+     "startMs": 112385,
+     "endMs": 119395
+    },
+    {
+     "text": "وكانت القاعة تمتلئ كل يوم، شيعةً وسنةً وعلماءَ ومشايخ، فجعل موضوع حديثه: الإمامة، وعقائد الشيعة.",
+     "startMs": 119395,
+     "endMs": 131265
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s06_l01",
+   "scene": 6,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "توتر خفيف",
+   "text": "وذات يوم، وهو ينزل من المنبر، أخبره بعض أصدقائه أن عالمين كبيرين من مشايخ أهل السنة قد قدما من كابل: الحافظ محمد رشيد، والشيخ عبد السلام، وأنهما يطلبان لقاءه والمناظرة معه.",
+   "startMs": 131865,
+   "endMs": 151345,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 104510,
+    "endMs": 123990
+   },
+   "lines": [
+    {
+     "text": "وذات يوم، وهو ينزل من المنبر، أخبره بعض أصدقائه أن عالمين كبيرين من مشايخ أهل السنة قد قدما من كابل: الحافظ محمد رشيد، والشيخ عبد السلام، وأنهما يطلبان لقاءه والمناظرة معه.",
+     "startMs": 131865,
+     "endMs": 151345
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s06_l02",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "مرحّب، منشرح الصدر",
+   "text": "أهلًا بهما وسهلًا. فليأتيا متى شاءا، فما أردنا إلا أن يظهر الحق.",
+   "startMs": 151945,
+   "endMs": 158475,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 26140,
+    "endMs": 32670
+   },
+   "lines": [
+    {
+     "text": "أهلًا بهما وسهلًا.",
+     "startMs": 151945,
+     "endMs": 153464
+    },
+    {
+     "text": "فليأتيا متى شاءا، فما أردنا إلا أن يظهر الحق.",
+     "startMs": 153464,
+     "endMs": 158475
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.991,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s07_l01",
+   "scene": 7,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "سينمائي، هادئ",
+   "text": "ليلة الجمعة، الثالث والعشرون من رجب. في بيت الوجيه الميرزا يعقوب علي خان قزلباش، بعد صلاة المغرب. جاء الحافظ محمد رشيد، والشيخ عبد السلام، والسيد عبد الحي، ومعهم جمع كبير من الناس.",
+   "startMs": 159675,
+   "endMs": 177585,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 124640,
+    "endMs": 142550
+   },
+   "lines": [
+    {
+     "text": "ليلة الجمعة، الثالث والعشرون من رجب.",
+     "startMs": 159675,
+     "endMs": 162994
+    },
+    {
+     "text": "في بيت الوجيه الميرزا يعقوب علي خان قزلباش، بعد صلاة المغرب.",
+     "startMs": 162994,
+     "endMs": 168395
+    },
+    {
+     "text": "جاء الحافظ محمد رشيد، والشيخ عبد السلام، والسيد عبد الحي، ومعهم جمع كبير من الناس.",
+     "startMs": 168395,
+     "endMs": 177585
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.994,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s07_l02",
+   "scene": 7,
+   "speakerId": "MIRZA_YAQUB",
+   "speakerName": "الميرزا يعقوب علي خان",
+   "direction": "كريم، مرحّب",
+   "text": "تفضّلوا يا مشايخنا، البيت بيتكم. قدّموا الشاي والفواكه للضيوف.",
+   "startMs": 178185,
+   "endMs": 186795,
+   "clip": {
+    "file": "audio/MIRZA_YAQUB/Generated Audio October 27, 2026 - 1_23AM.wav",
+    "startMs": 150,
+    "endMs": 8760
+   },
+   "lines": [
+    {
+     "text": "تفضّلوا يا مشايخنا، البيت بيتكم.",
+     "startMs": 178185,
+     "endMs": 183015
+    },
+    {
+     "text": "قدّموا الشاي والفواكه للضيوف.",
+     "startMs": 183015,
+     "endMs": 186795
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s07_l03",
+   "scene": 7,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "سينمائي",
+   "text": "وفي أطراف القاعة جلس نحو مئتي كاتب من الفريقين يدوّنون كل كلمة، ومعهم أربعة من الصحفيين، لتنشر الصحف في صباح اليوم التالي ما دار في المجلس بكل جزئياته.",
+   "startMs": 187395,
+   "endMs": 202235,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 143170,
+    "endMs": 158010
+   },
+   "lines": [
+    {
+     "text": "وفي أطراف القاعة جلس نحو مئتي كاتب من الفريقين يدوّنون كل كلمة، ومعهم أربعة من الصحفيين، لتنشر الصحف في صباح اليوم التالي ما دار في المجلس بكل جزئياته.",
+     "startMs": 187395,
+     "endMs": 202235
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s07_l04",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "صوت داخلي، توتر",
+   "text": "هذا، ولكنّ مشايخ القوم كانوا على عكس ما كنّا معهم، فقد رأينا الغضب في وجوههم، إذ إنّهم واجهونا في البداية بوجوه مقطّبة مكفهرّة، وكأنّهم جاءونا للمعاتبة لا للتفاهم والمناظرة.",
+   "startMs": 202835,
+   "endMs": 219005,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 33270,
+    "endMs": 49440
+   },
+   "lines": [
+    {
+     "text": "هذا، ولكنّ مشايخ القوم كانوا على عكس ما كنّا معهم، فقد رأينا الغضب في وجوههم، إذ إنّهم واجهونا في البداية بوجوه مقطّبة مكفهرّة، وكأنّهم جاءونا للمعاتبة لا للتفاهم والمناظرة.",
+     "startMs": 202835,
+     "endMs": 219004
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.988,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s07_l05",
+   "scene": 7,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "هادئ",
+   "text": "لكن الضيف قابلهم بالبِشر والابتسامة، واشترط أن يتكلم عنهم رجل واحد حتى لا يضيع الوقت. فاختاروا الحافظ محمد رشيد.",
+   "startMs": 219605,
+   "endMs": 229895,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 158520,
+    "endMs": 168810
+   },
+   "lines": [
+    {
+     "text": "لكن الضيف قابلهم بالبِشر والابتسامة، واشترط أن يتكلم عنهم رجل واحد حتى لا يضيع الوقت.",
+     "startMs": 219605,
+     "endMs": 227145
+    },
+    {
+     "text": "فاختاروا الحافظ محمد رشيد.",
+     "startMs": 227145,
+     "endMs": 229895
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s08_l01",
+   "scene": 8,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "حادّ، معاتب",
+   "text": "منذ نزولكم هذا البلد، شرّفتم مسامع الناس بمحاضراتكم، وخطبكم، ولكن بدل أن تكون محاضراتكم منشأ الالفة والإخاء فقد سبّبت الفرقة والعداء، ونشرت الاختلاف بين أهالي البلد",
+   "startMs": 231095,
+   "endMs": 246025,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 150,
+    "endMs": 15080
+   },
+   "lines": [
+    {
+     "text": "منذ نزولكم هذا البلد، شرّفتم مسامع الناس بمحاضراتكم، وخطبكم، ولكن بدل أن تكون محاضراتكم منشأ الالفة والإخاء فقد سبّبت الفرقة والعداء، ونشرت الاختلاف بين أهالي البلد",
+     "startMs": 231095,
+     "endMs": 246025
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s08_l02",
+   "scene": 8,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "حازم",
+   "text": "ولذلك قطعت مسافة بعيدة مع الشيخ عبد السلام وجئنا إلى بيشاور، لندفع الشبهات التي أثرتموها بين الناس. فإن كنتم موافقين، تحدّثنا معكم بجدّ في المسائل الأساسية.",
+   "startMs": 246375,
+   "endMs": 260305,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 15430,
+    "endMs": 29360
+   },
+   "lines": [
+    {
+     "text": "ولذلك قطعت مسافة بعيدة مع الشيخ عبد السلام وجئنا إلى بيشاور، لندفع الشبهات التي أثرتموها بين الناس.",
+     "startMs": 246375,
+     "endMs": 255144
+    },
+    {
+     "text": "فإن كنتم موافقين، تحدّثنا معكم بجدّ في المسائل الأساسية.",
+     "startMs": 255144,
+     "endMs": 260304
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s08_l03",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "هادئ، واثق",
+   "text": "على الرحب والسعة، قولوا ما بدا لكم، فاني استمع لكم بلهفة، وأصغي لكلامكم بكلّ شوق ورغبة",
+   "startMs": 260905,
+   "endMs": 268845,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 50110,
+    "endMs": 58050
+   },
+   "lines": [
+    {
+     "text": "على الرحب والسعة، قولوا ما بدا لكم، فاني استمع لكم بلهفة، وأصغي لكلامكم بكلّ شوق ورغبة",
+     "startMs": 260905,
+     "endMs": 268844
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s08_l04",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "جادّ، ناصح",
+   "text": "ولكني أرجو من الحاضرين جميعًا، وأنا معكم، أن نترك التعصب وعادات الآباء، فلا نرفض الحق بعد أن يظهر لنا، ولا نقول كما قال الجاهلون: حسبنا ما وجدنا عليه آباءنا.",
+   "startMs": 269195,
+   "endMs": 283135,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 58590,
+    "endMs": 72530
+   },
+   "lines": [
+    {
+     "text": "ولكني أرجو من الحاضرين جميعًا، وأنا معكم، أن نترك التعصب وعادات الآباء، فلا نرفض الحق بعد أن يظهر لنا، ولا نقول كما قال الجاهلون: حسبنا ما وجدنا عليه آباءنا.",
+     "startMs": 269195,
+     "endMs": 283134
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s09_l01",
+   "scene": 9,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "متحدٍّ",
+   "text": "إنّ كلامكم مقبول على شرط أن يكون حديثكم مستندا إلى القرآن الكريم فقط.",
+   "startMs": 284335,
+   "endMs": 290655,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 30060,
+    "endMs": 36380
+   },
+   "lines": [
+    {
+     "text": "إنّ كلامكم مقبول على شرط أن يكون حديثكم مستندا إلى القرآن الكريم فقط.",
+     "startMs": 284335,
+     "endMs": 290655
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s09_l02",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "واثق، منطقي",
+   "text": "هذا شرط لا يقبله العلماء ولا العقلاء. فالقرآن الكريم شرّع الأحكام بإيجاز واختصار، ويحتاج إلى من يبيّنه، والسنة الشريفة هي المبيّنة. فلا بد أن نرجع إلى الأحاديث المعتبرة.",
+   "startMs": 291255,
+   "endMs": 306470,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 73190,
+    "endMs": 88405
+   },
+   "lines": [
+    {
+     "text": "هذا شرط لا يقبله العلماء ولا العقلاء.",
+     "startMs": 291255,
+     "endMs": 294205
+    },
+    {
+     "text": "فالقرآن الكريم شرّع الأحكام بإيجاز واختصار، ويحتاج إلى من يبيّنه، والسنة الشريفة هي المبيّنة.",
+     "startMs": 294205,
+     "endMs": 303045
+    },
+    {
+     "text": "فلا بد أن نرجع إلى الأحاديث المعتبرة.",
+     "startMs": 303045,
+     "endMs": 306470
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.994,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s09_l03",
+   "scene": 9,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "متراجع، يشترط من جديد",
+   "text": "كلامكم صحيح ومتين. ولكن استندوا إلى الأحاديث المقبولة عندنا وعندكم، لا إلى كلام العوامّ، وليكن الحوار هادئًا بعيدًا عن الضوضاء.",
+   "startMs": 307070,
+   "endMs": 318450,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 37110,
+    "endMs": 48490
+   },
+   "lines": [
+    {
+     "text": "كلامكم صحيح ومتين.",
+     "startMs": 307070,
+     "endMs": 309700
+    },
+    {
+     "text": "ولكن استندوا إلى الأحاديث المقبولة عندنا وعندكم، لا إلى كلام العوامّ، وليكن الحوار هادئًا بعيدًا عن الضوضاء.",
+     "startMs": 309700,
+     "endMs": 318450
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s09_l04",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "مبتسم",
+   "text": "هذا كلام مقبول، وأنا ملتزم به قبل أن تطلبوه.",
+   "startMs": 319050,
+   "endMs": 324220,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 88420,
+    "endMs": 93590
+   },
+   "lines": [
+    {
+     "text": "هذا كلام مقبول، وأنا ملتزم به قبل أن تطلبوه.",
+     "startMs": 319050,
+     "endMs": 324220
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s10_l01",
+   "scene": 10,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "فضولي، فيه مكر",
+   "text": "ذكرتَ أنك منتسب إلى رسول الله صلى الله عليه وآله وسلم، وهذا مشهور بين الناس. فبيّن لنا طريق انتسابك إليه.",
+   "startMs": 325420,
+   "endMs": 334450,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 49050,
+    "endMs": 58080
+   },
+   "lines": [
+    {
+     "text": "ذكرتَ أنك منتسب إلى رسول الله صلى الله عليه وآله وسلم، وهذا مشهور بين الناس.",
+     "startMs": 325420,
+     "endMs": 331549
+    },
+    {
+     "text": "فبيّن لنا طريق انتسابك إليه.",
+     "startMs": 331549,
+     "endMs": 334449
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s10_l02",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "هادئ",
+   "text": "نعم، يصل نسبي عن طريق الإمام موسى بن جعفر الكاظم عليه السلام إلى رسول الله صلى الله عليه وآله وسلم.",
+   "startMs": 335050,
+   "endMs": 343980,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 95020,
+    "endMs": 103950
+   },
+   "lines": [
+    {
+     "text": "نعم، يصل نسبي عن طريق الإمام موسى بن جعفر الكاظم عليه السلام إلى رسول الله صلى الله عليه وآله وسلم.",
+     "startMs": 335050,
+     "endMs": 343980
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s10_l03",
+   "scene": 10,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "مستدرك",
+   "text": "جيّد. لكن نسبك ينتهي إلى علي بن أبي طالب، فأنت من أقرباء النبي لا من أولاده.",
+   "startMs": 344580,
+   "endMs": 351220,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 58510,
+    "endMs": 65150
+   },
+   "lines": [
+    {
+     "text": "جيّد.",
+     "startMs": 344580,
+     "endMs": 345049
+    },
+    {
+     "text": "لكن نسبك ينتهي إلى علي بن أبي طالب، فأنت من أقرباء النبي لا من أولاده.",
+     "startMs": 345049,
+     "endMs": 351220
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s10_l04",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "واضح",
+   "text": "إنّ انتسابنا إلى النبيّ الأكرم صلى الله عليه وآله وسلم إنّما يكون عن طريق فاطمة الزهراء عليها السلام بنت رسول الله صلى الله عليه وآله وسلم، لأنّها أمّ الإمام الحسين الشهيد عليه السلام.",
+   "startMs": 351820,
+   "endMs": 366620,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 104600,
+    "endMs": 119400
+   },
+   "lines": [
+    {
+     "text": "إنّ انتسابنا إلى النبيّ الأكرم صلى الله عليه وآله وسلم إنّما يكون عن طريق فاطمة الزهراء عليها السلام بنت رسول الله صلى الله عليه وآله وسلم، لأنّها أمّ الإمام الحسين الشهيد عليه السلام.",
+     "startMs": 351820,
+     "endMs": 366620
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s11_l01",
+   "scene": 11,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "متعجّب، مستنكر",
+   "text": "العجب كلّ العجب منك ومن كلامك! إذ كيف تتفوّه بهذا الكلام وأنت من أهل العلم والأدب؟!",
+   "startMs": 367820,
+   "endMs": 374810,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 65630,
+    "endMs": 72620
+   },
+   "lines": [
+    {
+     "text": "العجب كلّ العجب منك ومن كلامك!",
+     "startMs": 367820,
+     "endMs": 370550
+    },
+    {
+     "text": "إذ كيف تتفوّه بهذا الكلام وأنت من أهل العلم والأدب؟!",
+     "startMs": 370550,
+     "endMs": 374810
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s11_l02",
+   "scene": 11,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "محتجّ",
+   "text": "ألست تعلم أنّ نسل الإنسان وعقبه إنّما يكون عن طريق الأولاد الذكور لا الإناث؟! ورسول الله صلى الله عليه وآله وسلم لم يكن له عقب من أولاده الذكور!! فإذن أنتم أسباطه وأبناء بنته، لا أولاده وذرّيّته!!",
+   "startMs": 375160,
+   "endMs": 393320,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 73070,
+    "endMs": 91230
+   },
+   "lines": [
+    {
+     "text": "ألست تعلم أنّ نسل الإنسان وعقبه إنّما يكون عن طريق الأولاد الذكور لا الإناث؟!",
+     "startMs": 375160,
+     "endMs": 382050
+    },
+    {
+     "text": "ورسول الله صلى الله عليه وآله وسلم لم يكن له عقب من أولاده الذكور!!",
+     "startMs": 382050,
+     "endMs": 387690
+    },
+    {
+     "text": "فإذن أنتم أسباطه وأبناء بنته، لا أولاده وذرّيّته!!",
+     "startMs": 387690,
+     "endMs": 393320
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.986,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s11_l03",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حازم، فيه عتاب",
+   "text": "ما كنت أحسبك معاندا أو لجوجا، وإلاّ لما قمت مقام المجيب على سؤالكم، ولما قبلت الحوار معكم!",
+   "startMs": 393920,
+   "endMs": 402330,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 120430,
+    "endMs": 128840
+   },
+   "lines": [
+    {
+     "text": "ما كنت أحسبك معاندا أو لجوجا، وإلاّ لما قمت مقام المجيب على سؤالكم، ولما قبلت الحوار معكم!",
+     "startMs": 393920,
+     "endMs": 402330
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s11_l04",
+   "scene": 11,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يلطّف لهجته",
+   "text": "لا يا صاحبي! لا يلتبس الأمر عليك، فإنّا لا نريد المراء واللّجاج وإنّما نريد أن نعرف الحقيقة",
+   "startMs": 402930,
+   "endMs": 411810,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 91780,
+    "endMs": 100660
+   },
+   "lines": [
+    {
+     "text": "لا يا صاحبي!",
+     "startMs": 402930,
+     "endMs": 403990
+    },
+    {
+     "text": "لا يلتبس الأمر عليك، فإنّا لا نريد المراء واللّجاج وإنّما نريد أن نعرف الحقيقة",
+     "startMs": 403990,
+     "endMs": 411809
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s11_l05",
+   "scene": 11,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يلقي بيت الشعر بثقة",
+   "text": "بنونا بنو أبنائنا، وبناتنا بنوهنّ أبناء الرجال الأباعد",
+   "startMs": 412160,
+   "endMs": 419510,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 100970,
+    "endMs": 108320
+   },
+   "lines": [
+    {
+     "text": "بنونا بنو أبنائنا، وبناتنا بنوهنّ أبناء الرجال الأباعد",
+     "startMs": 412160,
+     "endMs": 419509
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.981,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s11_l06",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "واثق",
+   "text": "إنّ الدلائل من كتاب الله (عزّ وجلّ) والروايات المعتبرة لدى الفريقين على ذلك قويّة جدّا.",
+   "startMs": 420110,
+   "endMs": 427670,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 129910,
+    "endMs": 137470
+   },
+   "lines": [
+    {
+     "text": "إنّ الدلائل من كتاب الله (عزّ وجلّ) والروايات المعتبرة لدى الفريقين على ذلك قويّة جدّا.",
+     "startMs": 420110,
+     "endMs": 427670
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s12_l01",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ، متأنٍّ",
+   "text": "إنّي وفي أثناء كلامكم تذكرت مناظرة حول الموضوع، جرت بين الخليفة العبّاسي هارون، وبين: الإمام أبي إبراهيم موسى بن جعفر الكاظم عليه السلام",
+   "startMs": 428270,
+   "endMs": 440730,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 138380,
+    "endMs": 150840
+   },
+   "lines": [
+    {
+     "text": "إنّي وفي أثناء كلامكم تذكرت مناظرة حول الموضوع، جرت بين الخليفة العبّاسي هارون، وبين: الإمام أبي إبراهيم موسى بن جعفر الكاظم عليه السلام",
+     "startMs": 428270,
+     "endMs": 440730
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s12_l02",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ الرواية",
+   "text": "رواها الشيخ الصدوق في «عيون أخبار الرضا»، والطبرسي في «الاحتجاج». قال هارون للإمام: كيف جوّزتم للناس أن يقولوا لكم: يا أولاد رسول الله، وأنتم بنو علي، وإنما يُنسب المرء إلى أبيه؟",
+   "startMs": 441080,
+   "endMs": 457220,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 151320,
+    "endMs": 167460
+   },
+   "lines": [
+    {
+     "text": "رواها الشيخ الصدوق في «عيون أخبار الرضا»، والطبرسي في «الاحتجاج».",
+     "startMs": 441080,
+     "endMs": 445880
+    },
+    {
+     "text": "قال هارون للإمام: كيف جوّزتم للناس أن يقولوا لكم: يا أولاد رسول الله، وأنتم بنو علي، وإنما يُنسب المرء إلى أبيه؟",
+     "startMs": 445880,
+     "endMs": 457220
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.982,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s12_l03",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ الرواية، بإجلال",
+   "text": "فقال الإمام عليه السلام: لو أن النبي صلى الله عليه وآله وسلم نُشر فخطب إليك كريمتك، هل كنت تجيبه؟ قال هارون: سبحان الله! ولِمَ لا أجيبه، وأفتخر على العرب والعجم وقريش بذلك؟",
+   "startMs": 457570,
+   "endMs": 474440,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 167920,
+    "endMs": 184790
+   },
+   "lines": [
+    {
+     "text": "فقال الإمام عليه السلام: لو أن النبي صلى الله عليه وآله وسلم نُشر فخطب إليك كريمتك، هل كنت تجيبه؟",
+     "startMs": 457570,
+     "endMs": 466370
+    },
+    {
+     "text": "قال هارون: سبحان الله!",
+     "startMs": 466370,
+     "endMs": 469090
+    },
+    {
+     "text": "ولِمَ لا أجيبه، وأفتخر على العرب والعجم وقريش بذلك؟",
+     "startMs": 469090,
+     "endMs": 474440
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s12_l04",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ببطء، يبرز الحجة",
+   "text": "فقال عليه السلام: لكنه لا يخطب إليّ، ولا أزوّجه. قال هارون: ولِمَ؟ قال: لأنه ولدني ولم يلدك. فقال هارون: أحسنت!",
+   "startMs": 474790,
+   "endMs": 488030,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 185470,
+    "endMs": 198710
+   },
+   "lines": [
+    {
+     "text": "فقال عليه السلام: لكنه لا يخطب إليّ، ولا أزوّجه.",
+     "startMs": 474790,
+     "endMs": 479160
+    },
+    {
+     "text": "قال هارون: ولِمَ؟",
+     "startMs": 479160,
+     "endMs": 481139
+    },
+    {
+     "text": "قال: لأنه ولدني ولم يلدك.",
+     "startMs": 481139,
+     "endMs": 484660
+    },
+    {
+     "text": "فقال هارون: أحسنت!",
+     "startMs": 484660,
+     "endMs": 488030
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.995,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s13_l01",
+   "scene": 13,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "تلاوة، خاشع",
+   "text": "ثم سأله هارون عن الحجة من كتاب الله، فتلا الإمام آيات سورة الأنعام في ذرية إبراهيم عليه السلام، وفيها يُذكر عيسى بين الأنبياء من ذريته. ثم سأله: من أبو عيسى؟ قال هارون: ليس لعيسى أب.",
+   "startMs": 488630,
+   "endMs": 505220,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 199280,
+    "endMs": 215870
+   },
+   "lines": [
+    {
+     "text": "ثم سأله هارون عن الحجة من كتاب الله، فتلا الإمام آيات سورة الأنعام في ذرية إبراهيم عليه السلام، وفيها يُذكر عيسى بين الأنبياء من ذريته.",
+     "startMs": 488630,
+     "endMs": 499930
+    },
+    {
+     "text": "ثم سأله: من أبو عيسى؟",
+     "startMs": 499930,
+     "endMs": 502489
+    },
+    {
+     "text": "قال هارون: ليس لعيسى أب.",
+     "startMs": 502489,
+     "endMs": 505220
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s13_l02",
+   "scene": 13,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حاسم",
+   "text": "فقال عليه السلام: فالله عز وجل ألحقه بذراري الأنبياء عن طريق أمه مريم، وكذلك ألحقنا بذراري النبي من قبل أمّنا فاطمة.",
+   "startMs": 505570,
+   "endMs": 516310,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 216150,
+    "endMs": 226890
+   },
+   "lines": [
+    {
+     "text": "فقال عليه السلام: فالله عز وجل ألحقه بذراري الأنبياء عن طريق أمه مريم، وكذلك ألحقنا بذراري النبي من قبل أمّنا فاطمة.",
+     "startMs": 505570,
+     "endMs": 516309
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.991,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s13_l03",
+   "scene": 13,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "متصاعد",
+   "text": "ثم زاده بآية المباهلة: «فقل تعالوا ندع أبناءنا وأبناءكم ونساءنا ونساءكم وأنفسنا وأنفسكم». واتفق المسلمون أن الأبناء هنا هما الحسن والحسين، وأن النساء فاطمة، وأن الأنفس علي بن أبي طالب.",
+   "startMs": 516660,
+   "endMs": 536840,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 227130,
+    "endMs": 247310
+   },
+   "lines": [
+    {
+     "text": "ثم زاده بآية المباهلة: «فقل تعالوا ندع أبناءنا وأبناءكم ونساءنا ونساءكم وأنفسنا وأنفسكم».",
+     "startMs": 516660,
+     "endMs": 527430
+    },
+    {
+     "text": "واتفق المسلمون أن الأبناء هنا هما الحسن والحسين، وأن النساء فاطمة، وأن الأنفس علي بن أبي طالب.",
+     "startMs": 527430,
+     "endMs": 536840
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s13_l04",
+   "scene": 13,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ختام المرويّة",
+   "text": "فقال هارون: أحسنت يا موسى! ارفع إلينا حوائجك. ثم ذكرتُ لكم ما رواه علماؤكم أنفسهم في هذا المعنى من كتبهم.",
+   "startMs": 537190,
+   "endMs": 546630,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 247680,
+    "endMs": 257120
+   },
+   "lines": [
+    {
+     "text": "فقال هارون: أحسنت يا موسى!",
+     "startMs": 537190,
+     "endMs": 539549
+    },
+    {
+     "text": "ارفع إلينا حوائجك.",
+     "startMs": 539549,
+     "endMs": 541349
+    },
+    {
+     "text": "ثم ذكرتُ لكم ما رواه علماؤكم أنفسهم في هذا المعنى من كتبهم.",
+     "startMs": 541349,
+     "endMs": 546629
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s14_l01",
+   "scene": 14,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "منصف، فيه دهشة",
+   "text": "إنّي اقرّ وأعترف بأنّ دلائلكم كانت قاطعة، وبراهينكم ساطعة، ولا ينكرها إلاّ الجاهل العنود ؛ كما وأشكركم كثيرا على هذه التوضيحات",
+   "startMs": 547830,
+   "endMs": 563280,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 109520,
+    "endMs": 124970
+   },
+   "lines": [
+    {
+     "text": "إنّي اقرّ وأعترف بأنّ دلائلكم كانت قاطعة، وبراهينكم ساطعة، ولا ينكرها إلاّ الجاهل العنود ؛ كما وأشكركم كثيرا على هذه التوضيحات",
+     "startMs": 547830,
+     "endMs": 563280
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s15_l01",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "ختامي، مشوّق",
+   "text": "وهنا علا صوت المؤذّن في المسجد وهو يعلن وقت صلاة النساء",
+   "startMs": 564480,
+   "endMs": 570260,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 169140,
+    "endMs": 174920
+   },
+   "lines": [
+    {
+     "text": "وهنا علا صوت المؤذّن في المسجد وهو يعلن وقت صلاة النساء",
+     "startMs": 564480,
+     "endMs": 570260
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.981,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep01_s15_l02",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "ختامي",
+   "text": "نهض الجمع للصلاة، لكن الليلة لم تنتهِ بعد. فما زال في صدور القوم أسئلة كثيرة تنتظر الجواب.",
+   "startMs": 570610,
+   "endMs": 579730,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 175580,
+    "endMs": 184700
+   },
+   "lines": [
+    {
+     "text": "نهض الجمع للصلاة، لكن الليلة لم تنتهِ بعد.",
+     "startMs": 570610,
+     "endMs": 574290
+    },
+    {
+     "text": "فما زال في صدور القوم أسئلة كثيرة تنتظر الجواب.",
+     "startMs": 574290,
+     "endMs": 579730
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.994,
+    "flags": []
+   }
+  }
+ ],
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "reflective",
+   "startMs": 0,
+   "endMs": 51714
+  },
+  {
+   "scene": 2,
+   "cue": "warm",
+   "startMs": 50115,
+   "endMs": 65985
+  },
+  {
+   "scene": 3,
+   "cue": "warm",
+   "startMs": 64385,
+   "endMs": 97215
+  },
+  {
+   "scene": 4,
+   "cue": "warm",
+   "startMs": 95615,
+   "endMs": 112585
+  },
+  {
+   "scene": 5,
+   "cue": "reflective",
+   "startMs": 110985,
+   "endMs": 132365
+  },
+  {
+   "scene": 6,
+   "cue": "reflective",
+   "startMs": 130764,
+   "endMs": 159875
+  },
+  {
+   "scene": 7,
+   "cue": "nostalgic",
+   "startMs": 158274,
+   "endMs": 231295
+  },
+  {
+   "scene": 8,
+   "cue": "reflective",
+   "startMs": 229695,
+   "endMs": 284535
+  },
+  {
+   "scene": 9,
+   "cue": "reflective",
+   "startMs": 282935,
+   "endMs": 325620
+  },
+  {
+   "scene": 10,
+   "cue": "reverent",
+   "startMs": 324020,
+   "endMs": 368020
+  },
+  {
+   "scene": 11,
+   "cue": "reverent",
+   "startMs": 366420,
+   "endMs": 428770
+  },
+  {
+   "scene": 12,
+   "cue": "reflective",
+   "startMs": 427170,
+   "endMs": 489130
+  },
+  {
+   "scene": 13,
+   "cue": "reflective",
+   "startMs": 487530,
+   "endMs": 548030
+  },
+  {
+   "scene": 14,
+   "cue": "suspense",
+   "startMs": 546430,
+   "endMs": 564680
+  },
+  {
+   "scene": 15,
+   "cue": "ending",
+   "startMs": 563080,
+   "endMs": 582030
+  }
+ ]
+}

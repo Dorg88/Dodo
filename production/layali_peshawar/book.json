@@ -1,0 +1,168 @@
+{
+ "schema": "hikaya.book.v1",
+ "id": "layali_peshawar",
+ "title": "ليالي بيشاور",
+ "subtitle": "عشر ليالٍ من الحوار",
+ "author": "سلطان الواعظين الشيرازي",
+ "language": "ar",
+ "version": 1,
+ "description": "حوارات السيد محمد الموسوي الشيرازي مع علماء بيشاور سنة 1345 هـ، في اثنتين وعشرين حلقة مصوّرة ومسموعة على الليالي العشر.",
+ "cover": "ep01/images/scene_01.jpg",
+ "plannedEpisodes": 22,
+ "episodes": [
+  {
+   "id": "ep01",
+   "number": 1,
+   "title": "الطريق إلى بيشاور",
+   "summary": "المقدمة + المجلس الأول (الجزء الأول)",
+   "manifest": "ep01/episode.json",
+   "durationMs": 581230
+  },
+  {
+   "id": "ep02",
+   "number": 2,
+   "title": "الصلاتان والقبر المخفيّ",
+   "summary": "المجلس الأول (الجزء الثاني)"
+  },
+  {
+   "id": "ep03",
+   "number": 3,
+   "title": "خير البريّة",
+   "summary": "المجلس الثاني كاملًا",
+   "manifest": "ep03/episode.json",
+   "durationMs": 558430,
+   "status": "review"
+  },
+  {
+   "id": "ep04",
+   "number": 4,
+   "title": "الشرك والوسيلة",
+   "summary": "المجلس الثالث (الجزء الأول)",
+   "manifest": "ep04/episode.json",
+   "durationMs": 592660
+  },
+  {
+   "id": "ep05",
+   "number": 5,
+   "title": "السفينة والدماء",
+   "summary": "المجلس الثالث (الجزء الثاني)"
+  },
+  {
+   "id": "ep06",
+   "number": 6,
+   "title": "منزلة هارون",
+   "summary": "المجلس الرابع كاملًا"
+  },
+  {
+   "id": "ep07",
+   "number": 7,
+   "title": "يوم الإنذار",
+   "summary": "المجلس الخامس (الجزء الأول)"
+  },
+  {
+   "id": "ep08",
+   "number": 8,
+   "title": "الطائر المشويّ",
+   "summary": "المجلس الخامس (الجزء الثاني)"
+  },
+  {
+   "id": "ep09",
+   "number": 9,
+   "title": "الفتى الذي نام على الفراش",
+   "summary": "المجلس السادس (الجزء الأول)"
+  },
+  {
+   "id": "ep10",
+   "number": 10,
+   "title": "الراية والربذة",
+   "summary": "المجلس السادس (الجزء الثاني)"
+  },
+  {
+   "id": "ep11",
+   "number": 11,
+   "title": "الخاتم في الركوع",
+   "summary": "المجلس السادس (الجزء الثالث والأخير)"
+  },
+  {
+   "id": "ep12",
+   "number": 12,
+   "title": "وأنفسنا وأنفسكم",
+   "summary": "المجلس السابع (الجزء الأول)"
+  },
+  {
+   "id": "ep13",
+   "number": 13,
+   "title": "ما بعد السقيفة",
+   "summary": "المجلس السابع (الجزء الثاني)"
+  },
+  {
+   "id": "ep14",
+   "number": 14,
+   "title": "مدينة العلم وبابها",
+   "summary": "المجلس الثامن (الجزء الأول)"
+  },
+  {
+   "id": "ep15",
+   "number": 15,
+   "title": "أصحابي كالنجوم",
+   "summary": "المجلس الثامن (الجزء الثاني)",
+   "manifest": "ep15/episode.json",
+   "durationMs": 525230,
+   "status": "review"
+  },
+  {
+   "id": "ep16",
+   "number": 16,
+   "title": "غدير خمّ",
+   "summary": "المجلس الثامن (الجزء الثالث)",
+   "manifest": "ep16/episode.json",
+   "durationMs": 582290
+  },
+  {
+   "id": "ep17",
+   "number": 17,
+   "title": "فدك… حتى الفجر",
+   "summary": "المجلس الثامن (الجزء الرابع والأخير)",
+   "manifest": "ep17/episode.json",
+   "durationMs": 558135
+  },
+  {
+   "id": "ep18",
+   "number": 18,
+   "title": "يوم الجمل وما بعده",
+   "summary": "المجلس التاسع (الجزء الأول)",
+   "manifest": "ep18/episode.json",
+   "durationMs": 512520
+  },
+  {
+   "id": "ep19",
+   "number": 19,
+   "title": "حامي الرسول",
+   "summary": "المجلس التاسع (الجزء الثاني)",
+   "manifest": "ep19/episode.json",
+   "durationMs": 528705
+  },
+  {
+   "id": "ep20",
+   "number": 20,
+   "title": "الصبر وفي العين قذى",
+   "summary": "المجلس التاسع (الجزء الثالث والأخير)",
+   "manifest": "ep20/episode.json",
+   "durationMs": 526380
+  },
+  {
+   "id": "ep21",
+   "number": 21,
+   "title": "سؤال ابن النواب",
+   "summary": "المجلس العاشر (الجزء الأول)",
+   "manifest": "ep21/episode.json",
+   "durationMs": 563210
+  },
+  {
+   "id": "ep22",
+   "number": 22,
+   "title": "سلوني قبل أن تفقدوني",
+   "summary": "المجلس العاشر (الجزء الثاني والأخير)"
+  }
+ ]
+}

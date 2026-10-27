@@ -25,6 +25,8 @@ def read(path):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--book-dir", required=True)
+    ap.add_argument("--production-order", action="store_true",
+                    help="the play order and text are the production's own (manifest.csv), not proposed")
     a = ap.parse_args()
     b = os.path.expanduser(a.book_dir)
     book = json.load(open(os.path.join(b, "book.json"), encoding="utf-8"))
@@ -34,7 +36,13 @@ def main():
         n, eid = e["number"], e["id"]
         ep_path = os.path.join(b, eid, "episode.json")
         if not os.path.exists(ep_path):
-            rows.append(f"| {n:02d} | {e['title']} | **FAIL** | — | — | — | — | — | not built |")
+            part = os.path.join(b, eid, "episode.partial.json")
+            if os.path.exists(part):   # lines never recorded: not playable yet
+                got = len(json.load(open(part, encoding="utf-8"))["segments"])
+                rows.append(f"| {n:02d} | {e['title']} | **INCOMPLETE** | {got} recorded, lines missing | — | — | — | — | "
+                            f"waiting for recordings |")
+            else:
+                rows.append(f"| {n:02d} | {e['title']} | **FAIL** | — | — | — | — | — | not built |")
             continue
         ep = json.load(open(ep_path, encoding="utf-8"))
         segs = ep["segments"]
@@ -57,11 +65,13 @@ def main():
         status_note = str(spec.get("status", ""))
         proposed = status_note.startswith("proposed")
         failed = (clips_ok is None or clips_ok != clips or not structure_ok or margin is None or margin < 15)
-        approved = status_note.startswith("approved")
+        approved = status_note.startswith("approved") or a.production_order
         status = "FAIL" if failed else ("PASS" if approved else
                                         "WARNING" if (proposed or recovered or verified < len(segs)) else "PASS")
-        text = "recovered from the recording" if recovered else ("original script" if n == 1 else "delivered draft (verbatim)")
-        order = ("approved by the producer" if status_note.startswith("approved") else
+        text = ("recovered from the recording" if recovered else "production script (verbatim)" if a.production_order
+                else "original script" if n == 1 else "delivered draft (verbatim)")
+        order = ("production's play order and pictures" if a.production_order else
+                 "approved by the producer" if status_note.startswith("approved") else
                  "original order; pictures proposed" if status_note.startswith("order verified") else
                  "proposed" + (" — pictures out of numeric order" if spec.get("out_of_order_images") else "") +
                  (f" — {len(spec['unused_images'])} unused" if spec.get("unused_images") else ""))

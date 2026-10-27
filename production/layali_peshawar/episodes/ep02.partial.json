@@ -1,0 +1,1165 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep02",
+ "number": 2,
+ "title": "الصلاتان والقبر المخفيّ",
+ "durationMs": 459960,
+ "audio": {
+  "mode": "clips"
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AUTHOR": {
+   "name": "سلطان الواعظين"
+  },
+  "MIRZA_YAQUB": {
+   "name": "الميرزا يعقوب علي خان"
+  },
+  "HAFIZ": {
+   "name": "الحافظ محمد رشيد"
+  },
+  "NAWWAB": {
+   "name": "النواب عبد القيوم خان"
+  },
+  "ABDULHAYY": {
+   "name": "السيد عبد الحي"
+  },
+  "ABDUSSALAM": {
+   "name": "الشيخ عبد السلام"
+  },
+  "ATTENDEES": {
+   "name": "الحاضرون"
+  },
+  "GHULAM": {
+   "name": "غلام إمامين"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "ساحة البيت",
+   "image": "ep02/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 24905
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "القاعة بعد الصلاة",
+   "image": "ep02/images/scene_02.jpg",
+   "startMs": 24905,
+   "endMs": 70570
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "المؤلف يشير بيده إلى صف العلماء المقابل",
+   "image": "ep02/images/scene_03.jpg",
+   "startMs": 70570,
+   "endMs": 89310
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "الحافظ يلتفت إلى النواب بثقة",
+   "image": "ep02/images/scene_04.jpg",
+   "startMs": 89310,
+   "endMs": 119040
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "المؤلف يعدّ على أصابعه وهو يذكر المصادر",
+   "image": "ep02/images/scene_05.jpg",
+   "startMs": 119040,
+   "endMs": 162400
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "النواب يقف قليلًا ويتكلم بأسى",
+   "image": "ep02/images/scene_06.jpg",
+   "startMs": 162400,
+   "endMs": 206010
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "الحافظ يبتسم لأول مرة ابتسامة ودّ",
+   "image": "ep02/images/scene_07.jpg",
+   "startMs": 206010,
+   "endMs": 230250
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "لوحة استعادية",
+   "image": "ep02/images/scene_08.jpg",
+   "startMs": 230250,
+   "endMs": 264150
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "الحافظ ينحني إلى الأمام مستغربًا",
+   "image": "ep02/images/scene_09.jpg",
+   "startMs": 264150,
+   "endMs": 283420
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "لوحة استعادية ليلية",
+   "image": "ep02/images/scene_10.jpg",
+   "startMs": 283420,
+   "endMs": 337420
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "لوحة استعادية",
+   "image": "ep02/images/scene_11.jpg",
+   "startMs": 337420,
+   "endMs": 382155
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "لوحة استعادية",
+   "image": "ep02/images/scene_12.jpg",
+   "startMs": 382155,
+   "endMs": 418055
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "الحافظ يشير بيده نحو الشمال كأنه يشير إلى…",
+   "image": "ep02/images/scene_13.jpg",
+   "startMs": 418055,
+   "endMs": 433355
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "السيد عبد الحي ينظر إلى ساعة جيب فضية",
+   "image": "ep02/images/scene_14.jpg",
+   "startMs": 433355,
+   "endMs": 459960
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep02_s01_l01",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "هادئ",
+   "text": "تهيّأ القوم للصلاة. ولأنهم أرادوا الرجوع لمتابعة الحديث، اقترح بعضهم أن تقام جماعة في المسجد وجماعة في البيت، حتى لا يتفرق الجمع ولا يضيع الوقت.",
+   "startMs": 500,
+   "endMs": 12825,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 185170,
+    "endMs": 197495
+   },
+   "lines": [
+    {
+     "text": "تهيّأ القوم للصلاة.",
+     "startMs": 500,
+     "endMs": 2290
+    },
+    {
+     "text": "ولأنهم أرادوا الرجوع لمتابعة الحديث، اقترح بعضهم أن تقام جماعة في المسجد وجماعة في البيت، حتى لا يتفرق الجمع ولا يضيع الوقت.",
+     "startMs": 2290,
+     "endMs": 12825
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.993,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s01_l02",
+   "scene": 1,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "سردي",
+   "text": "فذهب السيد عبد الحي، إمام المسجد، ليصلي بالناس هناك، وصلى الآخرون في القاعة نفسها. وصار ذلك عادتهم في الليالي التالية.",
+   "startMs": 13175,
+   "endMs": 24605,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 197620,
+    "endMs": 209050
+   },
+   "lines": [
+    {
+     "text": "فذهب السيد عبد الحي، إمام المسجد، ليصلي بالناس هناك، وصلى الآخرون في القاعة نفسها.",
+     "startMs": 13175,
+     "endMs": 20534
+    },
+    {
+     "text": "وصار ذلك عادتهم في الليالي التالية.",
+     "startMs": 20534,
+     "endMs": 24605
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s02_l01",
+   "scene": 2,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "تقديمي",
+   "text": "ولما استقر المجلس بعد الصلاة، خاطبه أحد الحاضرين: النواب عبد القيوم خان، من أعيان أهل السنة وأشرافهم، رجل مثقف يحب العلم والمعرفة.",
+   "startMs": 25205,
+   "endMs": 39615,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 209790,
+    "endMs": 224200
+   },
+   "lines": [
+    {
+     "text": "ولما استقر المجلس بعد الصلاة، خاطبه أحد الحاضرين: النواب عبد القيوم خان، من أعيان أهل السنة وأشرافهم، رجل مثقف يحب العلم والمعرفة.",
+     "startMs": 25205,
+     "endMs": 39614
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s02_l02",
+   "scene": 2,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "مهذّب، فضولي",
+   "text": "في هذه الفرصة المناسبة التي يتناول العلماء فيها الشاي أستأذنكم لأطرح سؤالا خارجا عن الموضوع الّذي كنّا فيه",
+   "startMs": 40215,
+   "endMs": 50010,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 110,
+    "endMs": 9905
+   },
+   "lines": [
+    {
+     "text": "في هذه الفرصة المناسبة التي يتناول العلماء فيها الشاي أستأذنكم لأطرح سؤالا خارجا عن الموضوع الّذي كنّا فيه",
+     "startMs": 40215,
+     "endMs": 50010
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s02_l03",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ودود",
+   "text": "تفضّل واسأل، فإنّي مستعدّ للاستماع إليك.",
+   "startMs": 50610,
+   "endMs": 55430,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 257580,
+    "endMs": 262400
+   },
+   "lines": [
+    {
+     "text": "تفضّل واسأل، فإنّي مستعدّ للاستماع إليك.",
+     "startMs": 50610,
+     "endMs": 55429
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s02_l04",
+   "scene": 2,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "صريح",
+   "text": "كنت أحبّ كثيرا أن ألتقي بأحد علماء الشيعة حتّى أسأله: أنّه لما ذا تسير الشيعة على خلاف السنّة النبوية حين يجمعون بين صلاتي الظهر والعصر، وكذلك المغرب والعشاء؟!",
+   "startMs": 56030,
+   "endMs": 69970,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 10030,
+    "endMs": 23970
+   },
+   "lines": [
+    {
+     "text": "كنت أحبّ كثيرا أن ألتقي بأحد علماء الشيعة حتّى أسأله: أنّه لما ذا تسير الشيعة على خلاف السنّة النبوية حين يجمعون بين صلاتي الظهر والعصر، وكذلك المغرب والعشاء؟!",
+     "startMs": 56030,
+     "endMs": 69969
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.99,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s03_l01",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "هادئ، منطقي",
+   "text": "أولًا: السادة العلماء هنا يعلمون أن آراء الفقهاء تختلف في كثير من المسائل الفرعية، وأن الأئمة الأربعة أنفسهم يختلفون فيما بينهم كثيرًا. فليس اختلافنا في مثل هذه المسألة شيئًا مستغربًا.",
+   "startMs": 71170,
+   "endMs": 89010,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 262800,
+    "endMs": 280640
+   },
+   "lines": [
+    {
+     "text": "أولًا: السادة العلماء هنا يعلمون أن آراء الفقهاء تختلف في كثير من المسائل الفرعية، وأن الأئمة الأربعة أنفسهم يختلفون فيما بينهم كثيرًا.",
+     "startMs": 71170,
+     "endMs": 84030
+    },
+    {
+     "text": "فليس اختلافنا في مثل هذه المسألة شيئًا مستغربًا.",
+     "startMs": 84030,
+     "endMs": 89009
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s04_l03",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حازم",
+   "text": "كلاّ، ما التبس عليّ ذلك، بل أنا على يقين من الأمر، وحتّى أنّه جاء في الروايات الصحيحة عندكم: بأنّ رسول الله صلى الله عليه وآله وسلم كان يجمع بين الصلاتين في الحضر من غير عذر.",
+   "startMs": 89610,
+   "endMs": 104490,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 280710,
+    "endMs": 295590
+   },
+   "lines": [
+    {
+     "text": "كلاّ، ما التبس عليّ ذلك، بل أنا على يقين من الأمر، وحتّى أنّه جاء في الروايات الصحيحة عندكم: بأنّ رسول الله صلى الله عليه وآله وسلم كان يجمع بين الصلاتين في الحضر من غير عذر.",
+     "startMs": 89610,
+     "endMs": 104489
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s04_l05",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "واثق",
+   "text": "لا، ليس كذلك. فرواة الشيعة مجمعون على جواز الجمع، وإنما النقاش يدور بين رواتكم أنتم، وقد نقلت صحاحكم ومسانيدكم في هذا الباب أخبارًا صريحة كثيرة.",
+   "startMs": 104840,
+   "endMs": 118740,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 296260,
+    "endMs": 310160
+   },
+   "lines": [
+    {
+     "text": "لا، ليس كذلك.",
+     "startMs": 104840,
+     "endMs": 106320
+    },
+    {
+     "text": "فرواة الشيعة مجمعون على جواز الجمع، وإنما النقاش يدور بين رواتكم أنتم، وقد نقلت صحاحكم ومسانيدكم في هذا الباب أخبارًا صريحة كثيرة.",
+     "startMs": 106320,
+     "endMs": 118740
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s05_l01",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ، بوضوح",
+   "text": "نعم، هذا مسلم بن الحجّاج، روى في صحيحه في باب «الجمع بين الصلاتين في الحضر» بسنده عن ابن عبّاس، أنّه قال: صلّى رسول الله (صلّى الله عليه وآله وسلّم) الظهر والعصر جمعا، والمغرب والعشاء جمعا، في غير خوف ولا سفر.",
+   "startMs": 119340,
+   "endMs": 137920,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 310640,
+    "endMs": 329220
+   },
+   "lines": [
+    {
+     "text": "نعم، هذا مسلم بن الحجّاج، روى في صحيحه في باب «الجمع بين الصلاتين في الحضر» بسنده عن ابن عبّاس، أنّه قال: صلّى رسول الله (صلّى الله عليه وآله وسلّم) الظهر والعصر جمعا، والمغرب والعشاء جمعا، في غير خوف ولا سفر.",
+     "startMs": 119340,
+     "endMs": 137920
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s05_l02",
+   "scene": 5,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "سردي",
+   "text": "ثم مضى يسرد روايات أخرى في المعنى نفسه من صحاح القوم ومسانيدهم، والحافظ يصغي وقد قطّب جبينه.",
+   "startMs": 138520,
+   "endMs": 148100,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 224830,
+    "endMs": 234410
+   },
+   "lines": [
+    {
+     "text": "ثم مضى يسرد روايات أخرى في المعنى نفسه من صحاح القوم ومسانيدهم، والحافظ يصغي وقد قطّب جبينه.",
+     "startMs": 138520,
+     "endMs": 148100
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s05_l04",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "هادئ، حاسم",
+   "text": "إذا روى أصحاب الصحاح غير البخاري، كمسلم والترمذي والنسائي وأحمد بن حنبل، وشرّاح الصحيحين، حديثًا وأقروا بصحته، أفلا تكفي روايتهم لإثبات المطلب؟",
+   "startMs": 148700,
+   "endMs": 161800,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 329740,
+    "endMs": 342840
+   },
+   "lines": [
+    {
+     "text": "إذا روى أصحاب الصحاح غير البخاري، كمسلم والترمذي والنسائي وأحمد بن حنبل، وشرّاح الصحيحين، حديثًا وأقروا بصحته، أفلا تكفي روايتهم لإثبات المطلب؟",
+     "startMs": 148700,
+     "endMs": 161799
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s06_l01",
+   "scene": 6,
+   "speakerId": "NAWWAB",
+   "speakerName": "النواب عبد القيوم خان",
+   "direction": "متألّم، صادق",
+   "text": "إذن فمن أين جاء هذا الاختلاف الذي فرّق بين الإخوة المسلمين إلى فرقتين متخاصمتين، ينظر بعضهم إلى الآخر بنظر البغض والعداء، ويقدح بعضهم في عبادة البعض الآخر؟!",
+   "startMs": 163000,
+   "endMs": 177690,
+   "clip": {
+    "file": "audio/NAWWAB/Generated Audio October 27, 2026 - 2_49AM.wav",
+    "startMs": 24100,
+    "endMs": 38790
+   },
+   "lines": [
+    {
+     "text": "إذن فمن أين جاء هذا الاختلاف الذي فرّق بين الإخوة المسلمين إلى فرقتين متخاصمتين، ينظر بعضهم إلى الآخر بنظر البغض والعداء، ويقدح بعضهم في عبادة البعض الآخر؟!",
+     "startMs": 163000,
+     "endMs": 177690
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.993,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s06_l02",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "متأمّل",
+   "text": "بما أنّك قلت: بأنّ المسلمين صاروا فريقين متعاديين، أوجب عليّ الوقوف قليلا عند كلمة: متعاديين، لنرى معا هل العداء ـ كما قلت ـ كان من الطرفين، أو من طرف واحد؟!",
+   "startMs": 178290,
+   "endMs": 192360,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 343210,
+    "endMs": 357280
+   },
+   "lines": [
+    {
+     "text": "بما أنّك قلت: بأنّ المسلمين صاروا فريقين متعاديين، أوجب عليّ الوقوف قليلا عند كلمة: متعاديين، لنرى معا هل العداء ـ كما قلت ـ كان من الطرفين، أو من طرف واحد؟!",
+     "startMs": 178290,
+     "endMs": 192359
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s06_l03",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "عاتب بلطف",
+   "text": "فالشيعة لا يعادون إخوانهم، ولا يكفّرون من يصلي إلى القبلة. وإنما الاختلاف في الفروع أمر طبيعي بين العلماء، ولا ينبغي أن يكون سببًا للبغضاء.",
+   "startMs": 192710,
+   "endMs": 205410,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 357640,
+    "endMs": 370340
+   },
+   "lines": [
+    {
+     "text": "فالشيعة لا يعادون إخوانهم، ولا يكفّرون من يصلي إلى القبلة.",
+     "startMs": 192710,
+     "endMs": 197510
+    },
+    {
+     "text": "وإنما الاختلاف في الفروع أمر طبيعي بين العلماء، ولا ينبغي أن يكون سببًا للبغضاء.",
+     "startMs": 197510,
+     "endMs": 205409
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s07_l01",
+   "scene": 7,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "ودود، فيه إعجاب",
+   "text": "إنّني فرح بمجالسة عالم فاضل ومفكّر نبيل، ومحادثة متفكّر، ذي اطّلاع وافر على كتبنا ورواياتنا مثل جنابكم",
+   "startMs": 206610,
+   "endMs": 218490,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 125490,
+    "endMs": 137370
+   },
+   "lines": [
+    {
+     "text": "إنّني فرح بمجالسة عالم فاضل ومفكّر نبيل، ومحادثة متفكّر، ذي اطّلاع وافر على كتبنا ورواياتنا مثل جنابكم",
+     "startMs": 206610,
+     "endMs": 218490
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.995,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s07_l02",
+   "scene": 7,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "فضولي",
+   "text": "لكني أحب أن أعرف: أنتم من بني هاشم، وأصلكم من الحجاز، فما الذي دفع آباءكم إلى الهجرة من مدينة جدّكم إلى إيران؟",
+   "startMs": 218840,
+   "endMs": 229650,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 138210,
+    "endMs": 149020
+   },
+   "lines": [
+    {
+     "text": "لكني أحب أن أعرف: أنتم من بني هاشم، وأصلكم من الحجاز، فما الذي دفع آباءكم إلى الهجرة من مدينة جدّكم إلى إيران؟",
+     "startMs": 218840,
+     "endMs": 229650
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s08_l01",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ، فيه حنين",
+   "text": "إنّ أوّل من هاجر من آبائي إلى إيران هو الأمير السيّد محمد العابد ابن الإمام موسى بن جعفر (عليه الصلاة والسّلام)، وكان فاضلا تقيّا، عابدا زاهدا",
+   "startMs": 230850,
+   "endMs": 245210,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 371500,
+    "endMs": 385860
+   },
+   "lines": [
+    {
+     "text": "إنّ أوّل من هاجر من آبائي إلى إيران هو الأمير السيّد محمد العابد ابن الإمام موسى بن جعفر (عليه الصلاة والسّلام)، وكان فاضلا تقيّا، عابدا زاهدا",
+     "startMs": 230850,
+     "endMs": 245210
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s08_l02",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "سردي",
+   "text": "ولما أجبر المأمون الإمام علي بن موسى الرضا على الرحيل من المدينة إلى خراسان، وفرض عليه ولاية العهد كرهًا، خرج إخوته وأبناء عمومته في أثره. وقد استقر الأمير محمد العابد في شيراز، ومرقده هناك إلى اليوم.",
+   "startMs": 245560,
+   "endMs": 263550,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 386410,
+    "endMs": 404400
+   },
+   "lines": [
+    {
+     "text": "ولما أجبر المأمون الإمام علي بن موسى الرضا على الرحيل من المدينة إلى خراسان، وفرض عليه ولاية العهد كرهًا، خرج إخوته وأبناء عمومته في أثره.",
+     "startMs": 245560,
+     "endMs": 257210
+    },
+    {
+     "text": "وقد استقر الأمير محمد العابد في شيراز، ومرقده هناك إلى اليوم.",
+     "startMs": 257210,
+     "endMs": 263550
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s09_l01",
+   "scene": 9,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "متعجّب",
+   "text": "عجيب! في أيّ حال كان مرقد أمير المؤمنين عليّ كرّم الله وجهه منذ دفنه إلى ذلك الزمان، حتّى اكتشف بعد مائة وخمسين سنة، هل كان مخفيّا على المسلمين طيلة هذه المدّة؟! ولما ذا اخفي عنهم؟؟!",
+   "startMs": 264750,
+   "endMs": 282820,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 149810,
+    "endMs": 167880
+   },
+   "lines": [
+    {
+     "text": "عجيب!",
+     "startMs": 264750,
+     "endMs": 265780
+    },
+    {
+     "text": "في أيّ حال كان مرقد أمير المؤمنين عليّ كرّم الله وجهه منذ دفنه إلى ذلك الزمان، حتّى اكتشف بعد مائة وخمسين سنة، هل كان مخفيّا على المسلمين طيلة هذه المدّة؟!",
+     "startMs": 265780,
+     "endMs": 281579
+    },
+    {
+     "text": "ولما ذا اخفي عنهم؟؟!",
+     "startMs": 281579,
+     "endMs": 282819
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.954,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s10_l01",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "خافت، مهيب",
+   "text": "لمّا استشهد أمير المؤمنين علي عليه السلام كان ذلك في زمن طغى فيه بنو أميّة، ولمّا كان عليه السلام يرى بنور الله أن ستمتدّ حكومة معاوية بعده من الشام إلى الكوفة، أوصى أن يدفن ليلا بلا علم من أحد",
+   "startMs": 284020,
+   "endMs": 301760,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 404800,
+    "endMs": 422540
+   },
+   "lines": [
+    {
+     "text": "لمّا استشهد أمير المؤمنين علي عليه السلام كان ذلك في زمن طغى فيه بنو أميّة، ولمّا كان عليه السلام يرى بنور الله أن ستمتدّ حكومة معاوية بعده من الشام إلى الكوفة، أوصى أن يدفن ليلا بلا علم من أحد",
+     "startMs": 284020,
+     "endMs": 301760
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s10_l02",
+   "scene": 10,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يلحّ",
+   "text": "هل يمكنك أن تخبرني ما هو سبب هذه الوصية؟ وما الحكمة في الإصرار على إخفاء القبر؟!",
+   "startMs": 302360,
+   "endMs": 309410,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 168330,
+    "endMs": 175380
+   },
+   "lines": [
+    {
+     "text": "هل يمكنك أن تخبرني ما هو سبب هذه الوصية؟",
+     "startMs": 302360,
+     "endMs": 306090
+    },
+    {
+     "text": "وما الحكمة في الإصرار على إخفاء القبر؟!",
+     "startMs": 306090,
+     "endMs": 309410
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s10_l03",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "جادّ",
+   "text": "لا نعلم الحكمة بالضبط، لكن ربما كان ذلك لما يعلمه من حقد بني أمية على بني هاشم، فقد كان محتملًا أن ينبشوا القبر الشريف ويسيئوا الأدب مع الجسد الطاهر.",
+   "startMs": 310010,
+   "endMs": 323420,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 422990,
+    "endMs": 436400
+   },
+   "lines": [
+    {
+     "text": "لا نعلم الحكمة بالضبط، لكن ربما كان ذلك لما يعلمه من حقد بني أمية على بني هاشم، فقد كان محتملًا أن ينبشوا القبر الشريف ويسيئوا الأدب مع الجسد الطاهر.",
+     "startMs": 310010,
+     "endMs": 323419
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.979,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s10_l04",
+   "scene": 10,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "مستنكر",
+   "text": "هذا الكلام غريب منكم وبعيد جدّا، كيف يمكن لإنسان أن يتعدّى على قبر مسلم بعد موته ودفنه",
+   "startMs": 324020,
+   "endMs": 333420,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 175830,
+    "endMs": 185230
+   },
+   "lines": [
+    {
+     "text": "هذا الكلام غريب منكم وبعيد جدّا، كيف يمكن لإنسان أن يتعدّى على قبر مسلم بعد موته ودفنه",
+     "startMs": 324020,
+     "endMs": 333420
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s10_l05",
+   "scene": 10,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "بنبرة ثقيلة",
+   "text": "ولكن ذلك ليس ببعيد من بني أمّيّة!!",
+   "startMs": 334020,
+   "endMs": 337120,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 436740,
+    "endMs": 439840
+   },
+   "lines": [
+    {
+     "text": "ولكن ذلك ليس ببعيد من بني أمّيّة!!",
+     "startMs": 334020,
+     "endMs": 337119
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s11_l01",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حزين، مؤثّر",
+   "text": "ثم ذكر لهم شاهدًا من التاريخ: زيد بن علي بن الحسين، لما قُتل في الكوفة حمله ابنه يحيى مع نفر من أنصاره، فدفنه في ساقية وردمها وأجرى عليها الماء لكي لا يُعرف مدفنه.",
+   "startMs": 337720,
+   "endMs": 354565,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 440270,
+    "endMs": 457115
+   },
+   "lines": [
+    {
+     "text": "ثم ذكر لهم شاهدًا من التاريخ: زيد بن علي بن الحسين، لما قُتل في الكوفة حمله ابنه يحيى مع نفر من أنصاره، فدفنه في ساقية وردمها وأجرى عليها الماء لكي لا يُعرف مدفنه.",
+     "startMs": 337720,
+     "endMs": 354565
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.994,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s11_l02",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ثقيل، متهدّج",
+   "text": "لكن الخبر تسرّب إلى يوسف بن عمر والي الكوفة، فأخرج الجسد وصلبه، فبقي مصلوبًا أكثر من أربع سنين، حتى كتب الوليد بن يزيد: أحرق زيدًا بخشبته وأذرِ رماده.",
+   "startMs": 354915,
+   "endMs": 371805,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 457130,
+    "endMs": 474020
+   },
+   "lines": [
+    {
+     "text": "لكن الخبر تسرّب إلى يوسف بن عمر والي الكوفة، فأخرج الجسد وصلبه، فبقي مصلوبًا أكثر من أربع سنين، حتى كتب الوليد بن يزيد: أحرق زيدًا بخشبته وأذرِ رماده.",
+     "startMs": 354915,
+     "endMs": 371804
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s11_l03",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يلتفت إلى الحافظ",
+   "text": "فهل ترى بعد هذا أن نبش القبور بعيد عن بني أمية؟ لقد كان أمير المؤمنين أبعد نظرًا حين أوصى بإخفاء قبره.",
+   "startMs": 372155,
+   "endMs": 381855,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 474520,
+    "endMs": 484220
+   },
+   "lines": [
+    {
+     "text": "فهل ترى بعد هذا أن نبش القبور بعيد عن بني أمية؟",
+     "startMs": 372155,
+     "endMs": 376215
+    },
+    {
+     "text": "لقد كان أمير المؤمنين أبعد نظرًا حين أوصى بإخفاء قبره.",
+     "startMs": 376215,
+     "endMs": 381855
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s12_l01",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ، مشوّق",
+   "text": "ثم ذكر لهم ما جرى لزيد بن علي وابنه يحيى، وكيف نُبش قبر زيد وصُلب جسده. ثم روى كيف اكتُشف القبر: خرج هارون الرشيد يومًا إلى الصيد في ظهر الكوفة، فلجأت الظباء إلى أكمة هناك، فتراجعت عنها الصقور والكلاب، ثلاث مرات.",
+   "startMs": 382455,
+   "endMs": 400445,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 484610,
+    "endMs": 502600
+   },
+   "lines": [
+    {
+     "text": "ثم ذكر لهم ما جرى لزيد بن علي وابنه يحيى، وكيف نُبش قبر زيد وصُلب جسده.",
+     "startMs": 382455,
+     "endMs": 388505
+    },
+    {
+     "text": "ثم روى كيف اكتُشف القبر: خرج هارون الرشيد يومًا إلى الصيد في ظهر الكوفة، فلجأت الظباء إلى أكمة هناك، فتراجعت عنها الصقور والكلاب، ثلاث مرات.",
+     "startMs": 388505,
+     "endMs": 400445
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.985,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s12_l02",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ",
+   "text": "فسأل هارون شيخًا من بني أسد عن المكان، فأخبره أنه زاره مع أبيه، وأن الإمام جعفر الصادق قال لأبيه: هذا قبر جدّنا علي بن أبي طالب. فنزل هارون فتوضأ وصلى عنده، وأمر ببناء قبة عليه.",
+   "startMs": 400795,
+   "endMs": 417755,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 502730,
+    "endMs": 519690
+   },
+   "lines": [
+    {
+     "text": "فسأل هارون شيخًا من بني أسد عن المكان، فأخبره أنه زاره مع أبيه، وأن الإمام جعفر الصادق قال لأبيه: هذا قبر جدّنا علي بن أبي طالب.",
+     "startMs": 400795,
+     "endMs": 411864
+    },
+    {
+     "text": "فنزل هارون فتوضأ وصلى عنده، وأمر ببناء قبة عليه.",
+     "startMs": 411864,
+     "endMs": 417755
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.994,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s13_l02",
+   "scene": 13,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "مبتسم",
+   "text": "هذا الخبر مضحك جدّا، فربّ مشهور لا أصل له، وهو للاسطورة أقرب.",
+   "startMs": 418355,
+   "endMs": 424735,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 519880,
+    "endMs": 526260
+   },
+   "lines": [
+    {
+     "text": "هذا الخبر مضحك جدّا، فربّ مشهور لا أصل له، وهو للاسطورة أقرب.",
+     "startMs": 418355,
+     "endMs": 424734
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s13_l03",
+   "scene": 13,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "جادّ",
+   "text": "فأهل بيت الرجل أعلم بقبر أبيهم، وقد زار أئمة أهل البيت قبره في النجف، وأرشدوا شيعتهم إليه.",
+   "startMs": 425085,
+   "endMs": 432755,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 526590,
+    "endMs": 534260
+   },
+   "lines": [
+    {
+     "text": "فأهل بيت الرجل أعلم بقبر أبيهم، وقد زار أئمة أهل البيت قبره في النجف، وأرشدوا شيعتهم إليه.",
+     "startMs": 425085,
+     "endMs": 432754
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s14_l01",
+   "scene": 14,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "ختامي",
+   "text": "وطال الحديث حتى ذهب كثير من الليل. فنظر السيد عبد الحي إلى ساعته وقال:",
+   "startMs": 433955,
+   "endMs": 440855,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 234950,
+    "endMs": 241850
+   },
+   "lines": [
+    {
+     "text": "وطال الحديث حتى ذهب كثير من الليل.",
+     "startMs": 433955,
+     "endMs": 437045
+    },
+    {
+     "text": "فنظر السيد عبد الحي إلى ساعته وقال:",
+     "startMs": 437045,
+     "endMs": 440855
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s14_l02",
+   "scene": 14,
+   "speakerId": "ABDULHAYY",
+   "speakerName": "السيد عبد الحي",
+   "direction": "مؤدّب، متعب",
+   "text": "لقد مضى كثير من الليل، فلو تسمحون أن نؤجّل الكلام إلى الليلة الآتية، فنأتيكم إن شاء الله تعالى من أوّل الليل ونواصل الحديث.",
+   "startMs": 441455,
+   "endMs": 451640,
+   "clip": {
+    "file": "audio/ABDULHAYY/Generated Audio October 27, 2026 - 2_56AM.wav",
+    "startMs": 95,
+    "endMs": 10280
+   },
+   "lines": [
+    {
+     "text": "لقد مضى كثير من الليل، فلو تسمحون أن نؤجّل الكلام إلى الليلة الآتية، فنأتيكم إن شاء الله تعالى من أوّل الليل ونواصل الحديث.",
+     "startMs": 441455,
+     "endMs": 451639
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep02_s14_l03",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "صوت داخلي، ختامي، مشوّق",
+   "text": "فابتسمت وأبديت موافقتي، فانصرفوا وشيّعتهم إلى باب الدار.",
+   "startMs": 452240,
+   "endMs": 458460,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 1_47AM.wav",
+    "startMs": 534600,
+    "endMs": 540820
+   },
+   "lines": [
+    {
+     "text": "فابتسمت وأبديت موافقتي، فانصرفوا وشيّعتهم إلى باب الدار.",
+     "startMs": 452240,
+     "endMs": 458460
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  }
+ ]
+}

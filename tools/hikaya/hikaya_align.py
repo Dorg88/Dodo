@@ -273,6 +273,9 @@ def align_speaker(lines, files, model, book_dir, cache, transcribe_cached=None):
             first -= 1
         if len({words[j]["file"] for j in range(first, last + 1)}) > 1:
             res["flags"].append("line spans two recordings")
+            # keep the clip inside the recording where the line starts
+            while words[last]["file"] != words[first]["file"]:
+                last -= 1
         f = words[first]["file"]
         heard_words = words[first:last + 1]
         heard = [t for w in heard_words for t in norm(w["w"])]

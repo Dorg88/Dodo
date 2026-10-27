@@ -1,0 +1,1852 @@
+{
+ "schema": "hikaya.episode.v1",
+ "id": "ep17",
+ "number": 17,
+ "title": "فدك… حتى الفجر",
+ "durationMs": 558135,
+ "audio": {
+  "mode": "clips",
+  "music": "ep17/audio/score_music.m4a",
+  "sfx": "ep17/audio/score_sfx.m4a",
+  "musicLoop": false
+ },
+ "speakers": {
+  "NARRATOR": {
+   "name": "الراوي"
+  },
+  "AUTHOR": {
+   "name": "سلطان الواعظين"
+  },
+  "MIRZA_YAQUB": {
+   "name": "الميرزا يعقوب علي خان"
+  },
+  "HAFIZ": {
+   "name": "الحافظ محمد رشيد"
+  },
+  "NAWWAB": {
+   "name": "النواب عبد القيوم خان"
+  },
+  "ABDULHAYY": {
+   "name": "السيد عبد الحي"
+  },
+  "ABDUSSALAM": {
+   "name": "الشيخ عبد السلام"
+  },
+  "ATTENDEES": {
+   "name": "الحاضرون"
+  },
+  "GHULAM": {
+   "name": "غلام إمامين"
+  }
+ },
+ "scenes": [
+  {
+   "number": 1,
+   "id": "s01",
+   "title": "لوحة استعادية",
+   "image": "ep17/images/scene_01.jpg",
+   "startMs": 0,
+   "endMs": 46520
+  },
+  {
+   "number": 2,
+   "id": "s02",
+   "title": "المجلس في بيشاور",
+   "image": "ep17/images/scene_02.jpg",
+   "startMs": 46520,
+   "endMs": 90200
+  },
+  {
+   "number": 3,
+   "id": "s03",
+   "title": "لوحة استعادية",
+   "image": "ep17/images/scene_03.jpg",
+   "startMs": 90200,
+   "endMs": 122070
+  },
+  {
+   "number": 4,
+   "id": "s04",
+   "title": "لوحة استعادية",
+   "image": "ep17/images/scene_04.jpg",
+   "startMs": 122070,
+   "endMs": 165240
+  },
+  {
+   "number": 5,
+   "id": "s05",
+   "title": "الحافظ يقرّ بصوت منخفض",
+   "image": "ep17/images/scene_05.jpg",
+   "startMs": 165240,
+   "endMs": 205355
+  },
+  {
+   "number": 6,
+   "id": "s06",
+   "title": "لوحة استعادية",
+   "image": "ep17/images/scene_06.jpg",
+   "startMs": 205355,
+   "endMs": 237685
+  },
+  {
+   "number": 7,
+   "id": "s07",
+   "title": "لوحة استعادية",
+   "image": "ep17/images/scene_07.jpg",
+   "startMs": 237685,
+   "endMs": 292735
+  },
+  {
+   "number": 8,
+   "id": "s08",
+   "title": "المؤلف يقرأ من كتاب «وفاء الوفاء»",
+   "image": "ep17/images/scene_08.jpg",
+   "startMs": 292735,
+   "endMs": 354060
+  },
+  {
+   "number": 9,
+   "id": "s09",
+   "title": "المؤلف يقترح التأجيل",
+   "image": "ep17/images/scene_09.jpg",
+   "startMs": 354060,
+   "endMs": 369440
+  },
+  {
+   "number": 10,
+   "id": "s10",
+   "title": "الحافظ يتكلم بصوت مختلف",
+   "image": "ep17/images/scene_10.jpg",
+   "startMs": 369440,
+   "endMs": 398230
+  },
+  {
+   "number": 11,
+   "id": "s11",
+   "title": "المؤلف يتكلم بصوت يرتجف",
+   "image": "ep17/images/scene_11.jpg",
+   "startMs": 398230,
+   "endMs": 442970
+  },
+  {
+   "number": 12,
+   "id": "s12",
+   "title": "لوحة استعادية",
+   "image": "ep17/images/scene_12.jpg",
+   "startMs": 442970,
+   "endMs": 481250
+  },
+  {
+   "number": 13,
+   "id": "s13",
+   "title": "لوحة استعادية",
+   "image": "ep17/images/scene_13.jpg",
+   "startMs": 481250,
+   "endMs": 501370
+  },
+  {
+   "number": 14,
+   "id": "s14",
+   "title": "لوحة استعادية",
+   "image": "ep17/images/scene_14.jpg",
+   "startMs": 501370,
+   "endMs": 522485
+  },
+  {
+   "number": 15,
+   "id": "s15",
+   "title": "المجلس في بيشاور",
+   "image": "ep17/images/scene_15.jpg",
+   "startMs": 522485,
+   "endMs": 558135
+  }
+ ],
+ "segments": [
+  {
+   "id": "ep17_s01_l01",
+   "scene": 1,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ",
+   "text": "فدك وعوالي سبع قرى زراعيّة حوالي المدينة المنورة",
+   "startMs": 500,
+   "endMs": 6430,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 886950,
+    "endMs": 892880
+   },
+   "lines": [
+    {
+     "text": "فدك وعوالي سبع قرى زراعيّة حوالي المدينة المنورة",
+     "startMs": 500,
+     "endMs": 6429
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s01_l02",
+   "scene": 1,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "روى ابن إسحاق أن رسول الله لما فرغ من خيبر، بعث إليه أهل فدك فصالحوه عليها، فكانت له خالصة، لأنه لم يُوجَف عليها بخيل ولا ركاب.",
+   "startMs": 6780,
+   "endMs": 18830,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 893400,
+    "endMs": 905450
+   },
+   "lines": [
+    {
+     "text": "روى ابن إسحاق أن رسول الله لما فرغ من خيبر، بعث إليه أهل فدك فصالحوه عليها، فكانت له خالصة، لأنه لم يُوجَف عليها بخيل ولا ركاب.",
+     "startMs": 6780,
+     "endMs": 18830
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s01_l03",
+   "scene": 1,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "فلما رجع إلى المدينة نزل قوله تعالى: «وآتِ ذا القربى حقه». فأُمر أن يعطي فدكًا لفاطمة، فدعاها وأعطاها إياها. وقد صرّح بهذا من مفسريكم الثعلبي، والسيوطي عن ابن مردويه.",
+   "startMs": 19180,
+   "endMs": 35260,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 905890,
+    "endMs": 921970
+   },
+   "lines": [
+    {
+     "text": "فلما رجع إلى المدينة نزل قوله تعالى: «وآتِ ذا القربى حقه».",
+     "startMs": 19180,
+     "endMs": 24569
+    },
+    {
+     "text": "فأُمر أن يعطي فدكًا لفاطمة، فدعاها وأعطاها إياها.",
+     "startMs": 24569,
+     "endMs": 29890
+    },
+    {
+     "text": "وقد صرّح بهذا من مفسريكم الثعلبي، والسيوطي عن ابن مردويه.",
+     "startMs": 29890,
+     "endMs": 35260
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.994,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s01_l04",
+   "scene": 1,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "فكانت فدك في يد فاطمة عليها السلام يعمل عليها عمّالها، ويأتون إليها بحاصلها في حياة النبي صلى الله عليه وآله وسلم",
+   "startMs": 35610,
+   "endMs": 46220,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 922440,
+    "endMs": 933050
+   },
+   "lines": [
+    {
+     "text": "فكانت فدك في يد فاطمة عليها السلام يعمل عليها عمّالها، ويأتون إليها بحاصلها في حياة النبي صلى الله عليه وآله وسلم",
+     "startMs": 35610,
+     "endMs": 46220
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s02_l01",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ثقيل",
+   "text": "ولكن بعد وفاة رسول الله أُخرج عمّال فاطمة من فدك.",
+   "startMs": 46820,
+   "endMs": 52650,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 933510,
+    "endMs": 939340
+   },
+   "lines": [
+    {
+     "text": "ولكن بعد وفاة رسول الله أُخرج عمّال فاطمة من فدك.",
+     "startMs": 46820,
+     "endMs": 52650
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s02_l02",
+   "scene": 2,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "مدافع",
+   "text": "حاشا أبا بكر أن يتصرف في ملك فاطمة عدوانًا. وإنما سمع من النبي قوله: «نحن معاشر الأنبياء لا نورّث، ما تركناه صدقة»، فاستند إليه.",
+   "startMs": 53250,
+   "endMs": 66760,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 977210,
+    "endMs": 990720
+   },
+   "lines": [
+    {
+     "text": "حاشا أبا بكر أن يتصرف في ملك فاطمة عدوانًا.",
+     "startMs": 53250,
+     "endMs": 57559
+    },
+    {
+     "text": "وإنما سمع من النبي قوله: «نحن معاشر الأنبياء لا نورّث، ما تركناه صدقة»، فاستند إليه.",
+     "startMs": 57559,
+     "endMs": 66759
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s02_l03",
+   "scene": 2,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يحاجّ",
+   "text": "أولًا: فدك كانت نحلة وهبة من النبي في حياته، لا ميراثًا. وثانيًا: هذا الحديث يعارض آيات القرآن في توريث الأنبياء. فقد قال تعالى: «وورث سليمان داود»، وقال عن زكريا: «فهب لي من لدنك وليًّا يرثني ويرث من آل يعقوب».",
+   "startMs": 67360,
+   "endMs": 89900,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 939990,
+    "endMs": 962530
+   },
+   "lines": [
+    {
+     "text": "أولًا: فدك كانت نحلة وهبة من النبي في حياته، لا ميراثًا.",
+     "startMs": 67360,
+     "endMs": 72509
+    },
+    {
+     "text": "وثانيًا: هذا الحديث يعارض آيات القرآن في توريث الأنبياء.",
+     "startMs": 72509,
+     "endMs": 78409
+    },
+    {
+     "text": "فقد قال تعالى: «وورث سليمان داود»، وقال عن زكريا: «فهب لي من لدنك وليًّا يرثني ويرث من آل يعقوب».",
+     "startMs": 78409,
+     "endMs": 89899
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s03_l01",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي بخشوع",
+   "text": "وبهذه الآيات احتجّت فاطمة نفسها في خطبتها في المسجد، كما نقل ابن أبي الحديد عن الجوهري. ومما قالت:",
+   "startMs": 90500,
+   "endMs": 99640,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 962780,
+    "endMs": 971920
+   },
+   "lines": [
+    {
+     "text": "وبهذه الآيات احتجّت فاطمة نفسها في خطبتها في المسجد، كما نقل ابن أبي الحديد عن الجوهري.",
+     "startMs": 90500,
+     "endMs": 98040
+    },
+    {
+     "text": "ومما قالت:",
+     "startMs": 98040,
+     "endMs": 99639
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s03_l02",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "أفي كتاب الله أن ترث أباك ولا أرث أبي!! لقد جئت شيئا فريّا!!",
+   "startMs": 99990,
+   "endMs": 106730,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 972130,
+    "endMs": 978870
+   },
+   "lines": [
+    {
+     "text": "أفي كتاب الله أن ترث أباك ولا أرث أبي!!",
+     "startMs": 99990,
+     "endMs": 104060
+    },
+    {
+     "text": "لقد جئت شيئا فريّا!!",
+     "startMs": 104060,
+     "endMs": 106730
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.982,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s03_l03",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "أم تقولون أهل ملتين لا يتوارثان؟ ـ أو لست أنا وأبي من أهل ملّة واحدة؟! ـ.",
+   "startMs": 107080,
+   "endMs": 114350,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 978930,
+    "endMs": 986200
+   },
+   "lines": [
+    {
+     "text": "أم تقولون أهل ملتين لا يتوارثان؟",
+     "startMs": 107080,
+     "endMs": 110430
+    },
+    {
+     "text": "ـ أو لست أنا وأبي من أهل ملّة واحدة؟!",
+     "startMs": 110430,
+     "endMs": 114110
+    },
+    {
+     "text": "ـ.",
+     "startMs": 114110,
+     "endMs": 114350
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s03_l04",
+   "scene": 3,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "أم أنتم أعلم بخصوص القرآن وعمومه من أبي صلى الله عليه وآله وسلم؟",
+   "startMs": 114700,
+   "endMs": 121770,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 986330,
+    "endMs": 993400
+   },
+   "lines": [
+    {
+     "text": "أم أنتم أعلم بخصوص القرآن وعمومه من أبي صلى الله عليه وآله وسلم؟",
+     "startMs": 114700,
+     "endMs": 121769
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.984,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s04_l01",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ",
+   "text": "وجاء علي إلى أبي بكر في المسجد، وحوله المهاجرون والأنصار، فقال: لمَ منعت فاطمة نحلتها وقد ملكتها في حياة رسول الله؟ فقال: إن أقامت شهودًا فلها.",
+   "startMs": 122370,
+   "endMs": 137780,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 993690,
+    "endMs": 1009100
+   },
+   "lines": [
+    {
+     "text": "وجاء علي إلى أبي بكر في المسجد، وحوله المهاجرون والأنصار، فقال: لمَ منعت فاطمة نحلتها وقد ملكتها في حياة رسول الله؟",
+     "startMs": 122370,
+     "endMs": 134160
+    },
+    {
+     "text": "فقال: إن أقامت شهودًا فلها.",
+     "startMs": 134160,
+     "endMs": 137780
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.993,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s04_l02",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يروي الحوار",
+   "text": "قال عليه السلام: فإن كان في يد المسلمين شيء يملكونه، فادّعيت أنا فيه، من تسأل البينة؟",
+   "startMs": 138130,
+   "endMs": 146070,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1009260,
+    "endMs": 1017200
+   },
+   "lines": [
+    {
+     "text": "قال عليه السلام: فإن كان في يد المسلمين شيء يملكونه، فادّعيت أنا فيه، من تسأل البينة؟",
+     "startMs": 138130,
+     "endMs": 146070
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s04_l03",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "قال: إيّاك أسأل.",
+   "startMs": 146420,
+   "endMs": 147950,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1017430,
+    "endMs": 1018960
+   },
+   "lines": [
+    {
+     "text": "قال: إيّاك أسأل.",
+     "startMs": 146420,
+     "endMs": 147950
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s04_l04",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "قال عليه السلام: فما بال فاطمة سألتها البيّنة منها على ما في يديها!",
+   "startMs": 148300,
+   "endMs": 154080,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1019040,
+    "endMs": 1024820
+   },
+   "lines": [
+    {
+     "text": "قال عليه السلام: فما بال فاطمة سألتها البيّنة منها على ما في يديها!",
+     "startMs": 148300,
+     "endMs": 154079
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s04_l05",
+   "scene": 4,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "ثم ذكّره بآية التطهير، وأن الله شهد بطهارتها. فتكلّم الناس فيما بينهم وقالوا: صدق والله علي.",
+   "startMs": 154430,
+   "endMs": 164640,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1024970,
+    "endMs": 1035180
+   },
+   "lines": [
+    {
+     "text": "ثم ذكّره بآية التطهير، وأن الله شهد بطهارتها.",
+     "startMs": 154430,
+     "endMs": 159019
+    },
+    {
+     "text": "فتكلّم الناس فيما بينهم وقالوا: صدق والله علي.",
+     "startMs": 159019,
+     "endMs": 164640
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s05_l01",
+   "scene": 5,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يقرّ ويدافع",
+   "text": "نحن نعلم أن أبا بكر أسخط فاطمة، وماتت بنت رسول الله وهي واجدة عليه. لكنه عمل بحكم الله، فطالبها بشاهدين، ولم تكمل الشهود.",
+   "startMs": 165840,
+   "endMs": 179810,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 991180,
+    "endMs": 1005150
+   },
+   "lines": [
+    {
+     "text": "نحن نعلم أن أبا بكر أسخط فاطمة، وماتت بنت رسول الله وهي واجدة عليه.",
+     "startMs": 165840,
+     "endMs": 173160
+    },
+    {
+     "text": "لكنه عمل بحكم الله، فطالبها بشاهدين، ولم تكمل الشهود.",
+     "startMs": 173160,
+     "endMs": 179810
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s05_l02",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "قانوني",
+   "text": "لقد كانت فاطمة عليها السلام متصرّفة في فدك، وكانت في يدها، فبأي شرع وقانون يطالب ذو اليد بإقامة الشهود على إثبات حقه فيما يكون تحت تصرّفه وفي يده؟!",
+   "startMs": 180410,
+   "endMs": 194740,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1035350,
+    "endMs": 1049680
+   },
+   "lines": [
+    {
+     "text": "لقد كانت فاطمة عليها السلام متصرّفة في فدك، وكانت في يدها، فبأي شرع وقانون يطالب ذو اليد بإقامة الشهود على إثبات حقه فيما يكون تحت تصرّفه وفي يده؟!",
+     "startMs": 180410,
+     "endMs": 194739
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s05_l03",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "فالأصل المجمع عليه أن البيّنة على المدّعي، لا على صاحب اليد.",
+   "startMs": 195090,
+   "endMs": 200425,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1049990,
+    "endMs": 1055325
+   },
+   "lines": [
+    {
+     "text": "فالأصل المجمع عليه أن البيّنة على المدّعي، لا على صاحب اليد.",
+     "startMs": 195090,
+     "endMs": 200424
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.991,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s05_l04",
+   "scene": 5,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "بمرارة",
+   "text": "ولكن... اذا كان خصمي حاكمي فكيف أصنع؟!",
+   "startMs": 200775,
+   "endMs": 205055,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1055450,
+    "endMs": 1059730
+   },
+   "lines": [
+    {
+     "text": "ولكن...",
+     "startMs": 200775,
+     "endMs": 201284
+    },
+    {
+     "text": "اذا كان خصمي حاكمي فكيف أصنع؟!",
+     "startMs": 201284,
+     "endMs": 205054
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s06_l01",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ",
+   "text": "ثم إن الحكم العام يُخصَّص. فقد روى ابن الأثير أن النبي اشترى فرسًا من أعرابي فجحده، فشهد خزيمة بن ثابت للنبي ولم يكن حاضرًا. فسأله النبي، فقال:",
+   "startMs": 205655,
+   "endMs": 218195,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1060590,
+    "endMs": 1073130
+   },
+   "lines": [
+    {
+     "text": "ثم إن الحكم العام يُخصَّص.",
+     "startMs": 205655,
+     "endMs": 207824
+    },
+    {
+     "text": "فقد روى ابن الأثير أن النبي اشترى فرسًا من أعرابي فجحده، فشهد خزيمة بن ثابت للنبي ولم يكن حاضرًا.",
+     "startMs": 207824,
+     "endMs": 215964
+    },
+    {
+     "text": "فسأله النبي، فقال:",
+     "startMs": 215964,
+     "endMs": 218194
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s06_l02",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "صدّقتك بما جئت به، وعلمت أنّك لا تقول إلاّ حقا.",
+   "startMs": 218545,
+   "endMs": 223785,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1073320,
+    "endMs": 1078560
+   },
+   "lines": [
+    {
+     "text": "صدّقتك بما جئت به، وعلمت أنّك لا تقول إلاّ حقا.",
+     "startMs": 218545,
+     "endMs": 223784
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s06_l03",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "فقال رسول الله صلى الله عليه وآله وسلم: من شهد له خزيمة أو عليه فهو حسبه.",
+   "startMs": 224135,
+   "endMs": 230775,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1078830,
+    "endMs": 1085470
+   },
+   "lines": [
+    {
+     "text": "فقال رسول الله صلى الله عليه وآله وسلم: من شهد له خزيمة أو عليه فهو حسبه.",
+     "startMs": 224135,
+     "endMs": 230774
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s06_l04",
+   "scene": 6,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يسأل",
+   "text": "فما ظنّك برسول الله لو كان علي يشهد عنده؟ هل كان يصدّقه أم يردّه؟",
+   "startMs": 231125,
+   "endMs": 237385,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1085910,
+    "endMs": 1092170
+   },
+   "lines": [
+    {
+     "text": "فما ظنّك برسول الله لو كان علي يشهد عنده؟",
+     "startMs": 231125,
+     "endMs": 234734
+    },
+    {
+     "text": "هل كان يصدّقه أم يردّه؟",
+     "startMs": 234734,
+     "endMs": 237384
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s07_l01",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ثقيل",
+   "text": "«ايتوني بورق ودوات لأكتب لكم ما إن تمسّكتم به لن تضلّوا بعدي!!».",
+   "startMs": 237985,
+   "endMs": 245625,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1092510,
+    "endMs": 1100150
+   },
+   "lines": [
+    {
+     "text": "«ايتوني بورق ودوات لأكتب لكم ما إن تمسّكتم به لن تضلّوا بعدي!!».",
+     "startMs": 237985,
+     "endMs": 245624
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s07_l02",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "اتفق المحدّثون أن النبي قال ذلك في مرضه الأخير. فاختلف الحاضرون، فقال أحدهم: إن الرجل ليهجر، حسبنا كتاب الله. فكثر اللغط، فقال: قوموا عني، فإنه لا ينبغي عند نبي تنازع.",
+   "startMs": 245975,
+   "endMs": 261925,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1100900,
+    "endMs": 1116850
+   },
+   "lines": [
+    {
+     "text": "اتفق المحدّثون أن النبي قال ذلك في مرضه الأخير.",
+     "startMs": 245975,
+     "endMs": 249794
+    },
+    {
+     "text": "فاختلف الحاضرون، فقال أحدهم: إن الرجل ليهجر، حسبنا كتاب الله.",
+     "startMs": 249794,
+     "endMs": 255174
+    },
+    {
+     "text": "فكثر اللغط، فقال: قوموا عني، فإنه لا ينبغي عند نبي تنازع.",
+     "startMs": 255174,
+     "endMs": 261924
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.994,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s07_l03",
+   "scene": 7,
+   "speakerId": "ABDULHAYY",
+   "speakerName": "السيد عبد الحي",
+   "direction": "مصدوم",
+   "text": "أكاد لا أصدّق هذا الخبر! من كان يجرؤ من الصحابة أن يعارض رسول الله، وهم يتلون: «وما ينطق عن الهوى»؟",
+   "startMs": 262525,
+   "endMs": 271205,
+   "clip": {
+    "file": "audio/ABDULHAYY/Generated Audio October 27, 2026 - 2_56AM.wav",
+    "startMs": 141460,
+    "endMs": 150140
+   },
+   "lines": [
+    {
+     "text": "أكاد لا أصدّق هذا الخبر!",
+     "startMs": 262525,
+     "endMs": 264264
+    },
+    {
+     "text": "من كان يجرؤ من الصحابة أن يعارض رسول الله، وهم يتلون: «وما ينطق عن الهوى»؟",
+     "startMs": 264264,
+     "endMs": 271204
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.995,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s07_l04",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "حزين",
+   "text": "نعم، إنه خبر ثقيل على مسامع المؤمنين. وقد رواه البخاري ومسلم وأحمد. وكان ابن عباس يتأسف ويقول:",
+   "startMs": 271805,
+   "endMs": 281605,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1117380,
+    "endMs": 1127180
+   },
+   "lines": [
+    {
+     "text": "نعم، إنه خبر ثقيل على مسامع المؤمنين.",
+     "startMs": 271805,
+     "endMs": 276004
+    },
+    {
+     "text": "وقد رواه البخاري ومسلم وأحمد.",
+     "startMs": 276004,
+     "endMs": 278784
+    },
+    {
+     "text": "وكان ابن عباس يتأسف ويقول:",
+     "startMs": 278784,
+     "endMs": 281604
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.983,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s07_l05",
+   "scene": 7,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "إنّ الرّزيّة كلّ الرّزيّة: ما حال بين رسول الله صلى الله عليه وآله وسلم وبين أن يكتب لكم ذلك الكتاب.",
+   "startMs": 281955,
+   "endMs": 292435,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1127340,
+    "endMs": 1137820
+   },
+   "lines": [
+    {
+     "text": "إنّ الرّزيّة كلّ الرّزيّة: ما حال بين رسول الله صلى الله عليه وآله وسلم وبين أن يكتب لكم ذلك الكتاب.",
+     "startMs": 281955,
+     "endMs": 292434
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s08_l01",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكشف",
+   "text": "والعجيب أن فدكًا رُدّت بعد ذلك. فقد روى السمهودي أن عمر في خلافته ردّها على علي والعباس. فإن كانت فيئًا للمسلمين، فلماذا ردّها؟",
+   "startMs": 293035,
+   "endMs": 305705,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1138790,
+    "endMs": 1151460
+   },
+   "lines": [
+    {
+     "text": "والعجيب أن فدكًا رُدّت بعد ذلك.",
+     "startMs": 293035,
+     "endMs": 296044
+    },
+    {
+     "text": "فقد روى السمهودي أن عمر في خلافته ردّها على علي والعباس.",
+     "startMs": 296044,
+     "endMs": 301184
+    },
+    {
+     "text": "فإن كانت فيئًا للمسلمين، فلماذا ردّها؟",
+     "startMs": 301184,
+     "endMs": 305704
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.996,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s08_l02",
+   "scene": 8,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "حائر",
+   "text": "إنّ هذا الخبر من أعجب الأخبار لتناقضه، وإنّي حائر في تصديقه وردّه!",
+   "startMs": 306305,
+   "endMs": 314565,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 1005540,
+    "endMs": 1013800
+   },
+   "lines": [
+    {
+     "text": "إنّ هذا الخبر من أعجب الأخبار لتناقضه، وإنّي حائر في تصديقه وردّه!",
+     "startMs": 306305,
+     "endMs": 314564
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s08_l03",
+   "scene": 8,
+   "speakerId": "ABDULHAYY",
+   "speakerName": "السيد عبد الحي",
+   "direction": "يحاول",
+   "text": "لعلّ مراد المؤرخين من عمر هو عمر بن عبد العزيز!",
+   "startMs": 315165,
+   "endMs": 319500,
+   "clip": {
+    "file": "audio/ABDULHAYY/Generated Audio October 27, 2026 - 2_56AM.wav",
+    "startMs": 150400,
+    "endMs": 154735
+   },
+   "lines": [
+    {
+     "text": "لعلّ مراد المؤرخين من عمر هو عمر بن عبد العزيز!",
+     "startMs": 315165,
+     "endMs": 319500
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s08_l04",
+   "scene": 8,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "خفيف",
+   "text": "فتبسّم المؤلف وقال:",
+   "startMs": 320100,
+   "endMs": 322490,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 729650,
+    "endMs": 732040
+   },
+   "lines": [
+    {
+     "text": "فتبسّم المؤلف وقال:",
+     "startMs": 320100,
+     "endMs": 322489
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s08_l05",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "مبتسم",
+   "text": "علي والعباس لم يكونا في زمن عمر بن عبد العزيز! وردّ عمر بن عبد العزيز فدكًا على أولاد فاطمة خبر آخر، كانت أول ظلامة ردّها. ثم قبضها من بعده، ثم ردّها السفّاح، ثم قبضها المنصور، ثم ردّها المهدي... حتى ردّها المأمون، فقال الشاعر:",
+   "startMs": 323090,
+   "endMs": 346850,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1151670,
+    "endMs": 1175430
+   },
+   "lines": [
+    {
+     "text": "علي والعباس لم يكونا في زمن عمر بن عبد العزيز!",
+     "startMs": 323090,
+     "endMs": 328320
+    },
+    {
+     "text": "وردّ عمر بن عبد العزيز فدكًا على أولاد فاطمة خبر آخر، كانت أول ظلامة ردّها.",
+     "startMs": 328320,
+     "endMs": 335939
+    },
+    {
+     "text": "ثم قبضها من بعده، ثم ردّها السفّاح، ثم قبضها المنصور، ثم ردّها المهدي...",
+     "startMs": 335939,
+     "endMs": 343300
+    },
+    {
+     "text": "حتى ردّها المأمون، فقال الشاعر:",
+     "startMs": 343300,
+     "endMs": 346849
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s08_l06",
+   "scene": 8,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ينشد",
+   "text": "أصبح وجه الزمان قد ضحكا بردّ مأمون هاشم فدكا",
+   "startMs": 347200,
+   "endMs": 353760,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1175600,
+    "endMs": 1182160
+   },
+   "lines": [
+    {
+     "text": "أصبح وجه الزمان قد ضحكا بردّ مأمون هاشم فدكا",
+     "startMs": 347200,
+     "endMs": 353759
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.976,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s09_l01",
+   "scene": 9,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "متعب",
+   "text": "لقد طال مجلسنا، وأخشى أن يتعب الحاضرون. فلو أجّلنا الحديث إلى الغد؟",
+   "startMs": 354360,
+   "endMs": 361310,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1182670,
+    "endMs": 1189620
+   },
+   "lines": [
+    {
+     "text": "لقد طال مجلسنا، وأخشى أن يتعب الحاضرون.",
+     "startMs": 354360,
+     "endMs": 359129
+    },
+    {
+     "text": "فلو أجّلنا الحديث إلى الغد؟",
+     "startMs": 359129,
+     "endMs": 361309
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s09_l02",
+   "scene": 9,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "يصف",
+   "text": "فأجابوا جميعًا: ما تعبنا ولا مللنا، بل كلّنا شوق لنعرف نتيجة البحث.",
+   "startMs": 361910,
+   "endMs": 368840,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 732490,
+    "endMs": 739420
+   },
+   "lines": [
+    {
+     "text": "فأجابوا جميعًا: ما تعبنا ولا مللنا، بل كلّنا شوق لنعرف نتيجة البحث.",
+     "startMs": 361910,
+     "endMs": 368839
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s10_l01",
+   "scene": 10,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يعترف",
+   "text": "هذه الأخبار صحيحة، بل في مصادرنا أكثر تفصيلًا. وقد كان في قلبي شيء على علي بسبب خبر الكرابيسي في خطبته ابنة أبي جهل، فزال والحمد لله. وأنا أشكركم.",
+   "startMs": 370040,
+   "endMs": 385850,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 1014130,
+    "endMs": 1029940
+   },
+   "lines": [
+    {
+     "text": "هذه الأخبار صحيحة، بل في مصادرنا أكثر تفصيلًا.",
+     "startMs": 370040,
+     "endMs": 374809
+    },
+    {
+     "text": "وقد كان في قلبي شيء على علي بسبب خبر الكرابيسي في خطبته ابنة أبي جهل، فزال والحمد لله.",
+     "startMs": 374809,
+     "endMs": 384029
+    },
+    {
+     "text": "وأنا أشكركم.",
+     "startMs": 384029,
+     "endMs": 385850
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s10_l02",
+   "scene": 10,
+   "speakerId": "HAFIZ",
+   "speakerName": "الحافظ محمد رشيد",
+   "direction": "يسأل بصدق",
+   "text": "لكن بقي أمر يختلج في قلبي: أحاديث «من أغضبها فقد أغضب رسول الله» إنما تصحّ إذا كان غضبها لأمر ديني لا دنيوي.",
+   "startMs": 386200,
+   "endMs": 397630,
+   "clip": {
+    "file": "audio/HAFIZ/Generated Audio October 26, 2026 - 2_36PM.wav",
+    "startMs": 1030300,
+    "endMs": 1041730
+   },
+   "lines": [
+    {
+     "text": "لكن بقي أمر يختلج في قلبي: أحاديث «من أغضبها فقد أغضب رسول الله» إنما تصحّ إذا كان غضبها لأمر ديني لا دنيوي.",
+     "startMs": 386200,
+     "endMs": 397629
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s11_l01",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "متأثر",
+   "text": "الأحاديث مطلقة، لا تفرّق بين دين ودنيا. وقد أجمع المسلمون على أنها كانت في أعلى مراتب الإيمان، شملتها آية التطهير وآية المباهلة وسورة الدهر.",
+   "startMs": 398830,
+   "endMs": 415030,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1190450,
+    "endMs": 1206650
+   },
+   "lines": [
+    {
+     "text": "الأحاديث مطلقة، لا تفرّق بين دين ودنيا.",
+     "startMs": 398830,
+     "endMs": 404499
+    },
+    {
+     "text": "وقد أجمع المسلمون على أنها كانت في أعلى مراتب الإيمان، شملتها آية التطهير وآية المباهلة وسورة الدهر.",
+     "startMs": 404499,
+     "endMs": 415030
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s11_l02",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يكمل",
+   "text": "وأما أنها سكتت فرضيت، فلا والله ما رضيت. ولكن حين رأت أن خصومها لا يسمعون دلائلها، سكتت، وأبدت سخطها بأن أوصت ألّا يحضر جنازتها من آذاها.",
+   "startMs": 415380,
+   "endMs": 429120,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1207110,
+    "endMs": 1220850
+   },
+   "lines": [
+    {
+     "text": "وأما أنها سكتت فرضيت، فلا والله ما رضيت.",
+     "startMs": 415380,
+     "endMs": 419249
+    },
+    {
+     "text": "ولكن حين رأت أن خصومها لا يسمعون دلائلها، سكتت، وأبدت سخطها بأن أوصت ألّا يحضر جنازتها من آذاها.",
+     "startMs": 419249,
+     "endMs": 429119
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.992,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s11_l03",
+   "scene": 11,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "فإنّي أشهد الله وملائكته أنكما أسخطتماني فما أرضيتماني، ولئن لقيت النبي صلى الله عليه وآله وسلم لأشكونّكما إليه",
+   "startMs": 429470,
+   "endMs": 442670,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1221050,
+    "endMs": 1234250
+   },
+   "lines": [
+    {
+     "text": "فإنّي أشهد الله وملائكته أنكما أسخطتماني فما أرضيتماني، ولئن لقيت النبي صلى الله عليه وآله وسلم لأشكونّكما إليه",
+     "startMs": 429470,
+     "endMs": 442669
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.968,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s12_l01",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يجيب",
+   "text": "وأما أن عليًّا لم يردّ فدكًا في خلافته، فلأنه كان مغلوبًا على أمره، والمناوئون يتربصون به ليكبّروا كل خلاف. لكنه فوّض حكمها إلى الله، فكتب إلى عامله على البصرة عثمان بن حنيف:",
+   "startMs": 443270,
+   "endMs": 461570,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1234540,
+    "endMs": 1252840
+   },
+   "lines": [
+    {
+     "text": "وأما أن عليًّا لم يردّ فدكًا في خلافته، فلأنه كان مغلوبًا على أمره، والمناوئون يتربصون به ليكبّروا كل خلاف.",
+     "startMs": 443270,
+     "endMs": 454289
+    },
+    {
+     "text": "لكنه فوّض حكمها إلى الله، فكتب إلى عامله على البصرة عثمان بن حنيف:",
+     "startMs": 454289,
+     "endMs": 461569
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.997,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s12_l02",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ",
+   "text": "بلى كانت في أيدينا فدك من كلّ ما أظلّته السماء، فشحّت عليها نفوس قوم، وسخت عنها نفوس قوم آخرين، ونعم الحكم الله",
+   "startMs": 461920,
+   "endMs": 474650,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1254390,
+    "endMs": 1267120
+   },
+   "lines": [
+    {
+     "text": "بلى كانت في أيدينا فدك من كلّ ما أظلّته السماء، فشحّت عليها نفوس قوم، وسخت عنها نفوس قوم آخرين، ونعم الحكم الله",
+     "startMs": 461920,
+     "endMs": 474649
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s12_l03",
+   "scene": 12,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يشرح",
+   "text": "ومعناه: سأطالب بحقي يوم الحساب، يوم لا تُظلم نفس شيئًا.",
+   "startMs": 475000,
+   "endMs": 480950,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1268110,
+    "endMs": 1274060
+   },
+   "lines": [
+    {
+     "text": "ومعناه: سأطالب بحقي يوم الحساب، يوم لا تُظلم نفس شيئًا.",
+     "startMs": 475000,
+     "endMs": 480949
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 0.99,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s13_l01",
+   "scene": 13,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ حزين",
+   "text": "وكانت في أواخر أيامها تخرج إلى قبر أبيها، فتشكو وتقول: أبتاه، أمسينا بعدك من المستضعفين. ثم تأخذ من تراب القبر فتشمّه وتنشد:",
+   "startMs": 481550,
+   "endMs": 494960,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1275140,
+    "endMs": 1288550
+   },
+   "lines": [
+    {
+     "text": "وكانت في أواخر أيامها تخرج إلى قبر أبيها، فتشكو وتقول: أبتاه، أمسينا بعدك من المستضعفين.",
+     "startMs": 481550,
+     "endMs": 490749
+    },
+    {
+     "text": "ثم تأخذ من تراب القبر فتشمّه وتنشد:",
+     "startMs": 490749,
+     "endMs": 494959
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s13_l02",
+   "scene": 13,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "ينشد",
+   "text": "ما ذا على من شمّ تربة أحمد أن لا يشمّ مدى الزمان غواليا",
+   "startMs": 495310,
+   "endMs": 501070,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1289410,
+    "endMs": 1295170
+   },
+   "lines": [
+    {
+     "text": "ما ذا على من شمّ تربة أحمد أن لا يشمّ مدى الزمان غواليا",
+     "startMs": 495310,
+     "endMs": 501069
+    }
+   ],
+   "timing": "estimated",
+   "alignment": {
+    "confidence": 0.971,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s14_l01",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "راوٍ",
+   "text": "ودفنها علي ليلًا كما أوصت. فلما وضعها في لحدها وأهال عليها التراب، هاج به الحزن، فتوجّه إلى قبر رسول الله وقال:",
+   "startMs": 501670,
+   "endMs": 513450,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1296330,
+    "endMs": 1308110
+   },
+   "lines": [
+    {
+     "text": "ودفنها علي ليلًا كما أوصت.",
+     "startMs": 501670,
+     "endMs": 504019
+    },
+    {
+     "text": "فلما وضعها في لحدها وأهال عليها التراب، هاج به الحزن، فتوجّه إلى قبر رسول الله وقال:",
+     "startMs": 504019,
+     "endMs": 513449
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s14_l02",
+   "scene": 14,
+   "speakerId": "AUTHOR",
+   "speakerName": "سلطان الواعظين",
+   "direction": "يقرأ بصوت مخنوق",
+   "text": "فلقد استرجعت الوديعة، وأخذت الرّهينة! أمّا حزني فسرمد، وأمّا ليلي فمسهّد",
+   "startMs": 513800,
+   "endMs": 521885,
+   "clip": {
+    "file": "audio/AUTHOR/Generated Audio October 27, 2026 - 2_02AM.wav",
+    "startMs": 1308930,
+    "endMs": 1317015
+   },
+   "lines": [
+    {
+     "text": "فلقد استرجعت الوديعة، وأخذت الرّهينة!",
+     "startMs": 513800,
+     "endMs": 517469
+    },
+    {
+     "text": "أمّا حزني فسرمد، وأمّا ليلي فمسهّد",
+     "startMs": 517469,
+     "endMs": 521884
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s15_l01",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "خافت جدًّا",
+   "text": "كان المؤلف في آخر حديثه يبكي، وكذلك أهل المجلس كلهم. وكان الحافظ منكّسًا رأسه إلى الأرض، ودموعه تجري، يستغفر الله ويردّد: إنا لله وإنا إليه راجعون.",
+   "startMs": 523085,
+   "endMs": 539385,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 739900,
+    "endMs": 756200
+   },
+   "lines": [
+    {
+     "text": "كان المؤلف في آخر حديثه يبكي، وكذلك أهل المجلس كلهم.",
+     "startMs": 523085,
+     "endMs": 528864
+    },
+    {
+     "text": "وكان الحافظ منكّسًا رأسه إلى الأرض، ودموعه تجري، يستغفر الله ويردّد: إنا لله وإنا إليه راجعون.",
+     "startMs": 528864,
+     "endMs": 539385
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s15_l02",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "ثقيل",
+   "text": "وبعد ذلك المجلس، لم يتكلم الحافظ أبدًا. حضر المجالس التالية مستمعًا لا مناقشًا، فكأنه أنصف واقتنع.",
+   "startMs": 539735,
+   "endMs": 550045,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 756480,
+    "endMs": 766790
+   },
+   "lines": [
+    {
+     "text": "وبعد ذلك المجلس، لم يتكلم الحافظ أبدًا.",
+     "startMs": 539735,
+     "endMs": 543355
+    },
+    {
+     "text": "حضر المجالس التالية مستمعًا لا مناقشًا، فكأنه أنصف واقتنع.",
+     "startMs": 543355,
+     "endMs": 550044
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  },
+  {
+   "id": "ep17_s15_l03",
+   "scene": 15,
+   "speakerId": "NARRATOR",
+   "speakerName": "الراوي",
+   "direction": "ختامي",
+   "text": "وبعد لحظات، ارتفع صوت المؤذن يعلن طلوع الفجر. فافترق الجمع.",
+   "startMs": 550395,
+   "endMs": 556635,
+   "clip": {
+    "file": "audio/NARRATOR/Generated Audio October 27, 2026 - 2_19AM.wav",
+    "startMs": 767110,
+    "endMs": 773350
+   },
+   "lines": [
+    {
+     "text": "وبعد لحظات، ارتفع صوت المؤذن يعلن طلوع الفجر.",
+     "startMs": 550395,
+     "endMs": 554745
+    },
+    {
+     "text": "فافترق الجمع.",
+     "startMs": 554745,
+     "endMs": 556635
+    }
+   ],
+   "timing": "verified",
+   "alignment": {
+    "confidence": 1.0,
+    "flags": []
+   }
+  }
+ ],
+ "musicCues": [
+  {
+   "scene": 1,
+   "cue": "reflective",
+   "startMs": 0,
+   "endMs": 47320
+  },
+  {
+   "scene": 2,
+   "cue": "warm",
+   "startMs": 45720,
+   "endMs": 91000
+  },
+  {
+   "scene": 3,
+   "cue": "reflective",
+   "startMs": 89400,
+   "endMs": 122869
+  },
+  {
+   "scene": 4,
+   "cue": "reflective",
+   "startMs": 121270,
+   "endMs": 166040
+  },
+  {
+   "scene": 5,
+   "cue": "reflective",
+   "startMs": 164440,
+   "endMs": 206155
+  },
+  {
+   "scene": 6,
+   "cue": "reflective",
+   "startMs": 204554,
+   "endMs": 238485
+  },
+  {
+   "scene": 7,
+   "cue": "reflective",
+   "startMs": 236885,
+   "endMs": 293535
+  },
+  {
+   "scene": 8,
+   "cue": "reflective",
+   "startMs": 291935,
+   "endMs": 354860
+  },
+  {
+   "scene": 9,
+   "cue": "warm",
+   "startMs": 353260,
+   "endMs": 370240
+  },
+  {
+   "scene": 10,
+   "cue": "suspense",
+   "startMs": 368640,
+   "endMs": 399030
+  },
+  {
+   "scene": 11,
+   "cue": "suspense",
+   "startMs": 397430,
+   "endMs": 443770
+  },
+  {
+   "scene": 12,
+   "cue": "reflective",
+   "startMs": 442170,
+   "endMs": 482050
+  },
+  {
+   "scene": 13,
+   "cue": "reflective",
+   "startMs": 480450,
+   "endMs": 502170
+  },
+  {
+   "scene": 14,
+   "cue": "reflective",
+   "startMs": 500570,
+   "endMs": 523284
+  },
+  {
+   "scene": 15,
+   "cue": "ending",
+   "startMs": 521685,
+   "endMs": 558935
+  }
+ ]
+}
