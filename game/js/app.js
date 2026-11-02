@@ -543,10 +543,12 @@
     document.querySelectorAll('.ico-points').forEach((e) => (e.outerHTML = ICON.points));
     document.querySelectorAll('.ico-star').forEach((e) => (e.outerHTML = ICON.star));
     renderHome();
+    N.runIntro();
   }
 
   /** زر الرجوع في أندرويد: يعيد true إذا تعاملت معه اللعبة، وfalse للخروج من التطبيق */
   function onBack() {
+    if (document.getElementById('intro')) return true; // أثناء المقدمة
     const modal = $('#modal');
     if (!modal.classList.contains('hidden')) {
       const card = modal.querySelector('.modal-card');

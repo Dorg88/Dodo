@@ -9,6 +9,25 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <!-- ===== المقدمة: الشعارات ثم بطاقة العنوان ===== -->
+  <div id="intro" class="intro" aria-live="polite">
+    <div class="intro-slide logo-slide">
+      <img src="img/logo-husseini-shrine.png" alt="الأمانة العامة للعتبة الحسينية المقدسة">
+      <span class="skip-hint">اضغط للتخطي</span>
+    </div>
+    <div class="intro-slide logo-slide">
+      <img src="img/logo-research-division.png" alt="شعبة البحوث والدراسات — قسم الشؤون الدينية">
+      <span class="skip-hint">اضغط للتخطي</span>
+    </div>
+    <div class="intro-slide title-slide">
+      <p class="basmala">بسم الله الرحمن الرحيم</p>
+      <div class="intro-star" id="intro-star"></div>
+      <h1 class="logo intro-title">نور المعرفة</h1>
+      <p class="tagline">العب وتعلّم على نهج أهل البيت (عليهم السلام)</p>
+      <button class="btn-play intro-start" id="intro-start">ابدأ</button>
+    </div>
+  </div>
+
   <main id="app">
     <!-- ===== الشاشة الرئيسية: الصحن ===== -->
     <section id="screen-home" class="screen">
@@ -74,6 +93,7 @@
   <script src="js/quiz.js"></script>
   <script src="js/board.js"></script>
   <script src="js/courtyard.js"></script>
+  <script src="js/intro.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
