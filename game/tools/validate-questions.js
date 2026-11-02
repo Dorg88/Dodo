@@ -36,8 +36,9 @@ bank.forEach((q, i) => {
   if (!['draft', 'approved', 'rejected'].includes(q.status)) errors.push(`${where}: الحالة يجب أن تكون draft أو approved أو rejected`);
   if (!q.explanation) warnings.push(`${where}: لا يوجد شرح`);
   if (!q.source) warnings.push(`${where}: لا يوجد مصدر`);
-  const t = norm(q.question);
-  if (texts.has(t)) warnings.push(`${where}: نص السؤال مكرر مع ${texts.get(t)}`);
+  // المكرر = نفس نص السؤال مع نفس الإجابة الصحيحة (أسئلة «أيّ مما يلي…» تتكرر صياغتها بإجابات مختلفة)
+  const t = norm(q.question) + '|' + norm(Array.isArray(q.options) ? q.options[q.answer] : '');
+  if (texts.has(t)) warnings.push(`${where}: سؤال مكرر مع ${texts.get(t)}`);
   texts.set(t, q.id);
 });
 
