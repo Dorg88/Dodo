@@ -8,12 +8,10 @@
     if (!intro) return done && done();
     const slides = [...intro.querySelectorAll('.intro-slide')];
     const S = N.starPoints;
-    document.getElementById('intro-star').innerHTML = `<svg viewBox="0 0 200 200" aria-hidden="true">
-      <polygon points="${S(100, 100, 96, 73.5)}" fill="none" stroke="#f5c542" stroke-opacity=".35" stroke-width="2"/>
-      <polygon points="${S(100, 100, 80, 61.2)}" fill="url(#gGold)" stroke="#8a5a00" stroke-width="4" stroke-linejoin="round"/>
-      <polygon points="${S(100, 100, 36, 27.5)}" fill="#fff6d0" stroke="#8a5a00" stroke-width="3" stroke-linejoin="round"/>
-      <circle cx="100" cy="100" r="9" fill="#f5c542"/>
-    </svg>`;
+    document.getElementById('intro-star').innerHTML = `<svg class="burst-star" viewBox="0 0 200 200" aria-hidden="true">
+      <polygon points="${S(100, 100, 98, 62, 12)}" fill="#fff6b0" opacity=".85"/>
+      <polygon points="${S(100, 100, 80, 50, 12)}" fill="#ffd23f"/>
+    </svg><div class="intro-dove">${N.MASCOT_SVG}</div>`;
 
     let i = -1;
     let timer;

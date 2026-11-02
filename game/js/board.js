@@ -40,8 +40,8 @@
 
     build() {
       const availW = Math.min(this.host.clientWidth || 360, 480) - 12;
-      const availH = Math.max(260, window.innerHeight - 290);
-      this.s = Math.floor(Math.min(availW / this.cols, availH / this.rows, 60));
+      const availH = Math.max(260, window.innerHeight - 330);
+      this.s = Math.floor(Math.min((availW - 24) / this.cols, availH / this.rows, 64));
       const el = document.createElement('div');
       el.className = 'board';
       el.dir = 'ltr';
@@ -86,6 +86,7 @@
       if (t.knowledge) html += '<div class="know-badge">؟</div>';
       t.el.className = 'tile' + (t.special ? ' sp sp-' + t.special : '') + (t.knowledge ? ' know' : '');
       t.el.innerHTML = html;
+      t.el.style.setProperty('--blink', (Math.random() * 5).toFixed(2) + 's'); // رمش العيون في أوقات مختلفة
     }
 
     setPos(t, r, c, ms = 0, ease = 'ease') {
@@ -345,9 +346,9 @@
           if (sp) creates.push({ k: this.specialPos(g, combo === 1 ? swapKeys : null), type: sp === 'noor' ? 0 : g.type, special: sp });
         }
         N.sfx.match(combo);
-        if (combo === 3) this.praise('أحسنت!');
-        if (combo === 5) this.praise('ما شاء الله!');
-        if (combo === 7) this.praise('تبارك الله!');
+        const words = { 2: 'رائع!', 3: 'ممتاز!', 4: 'مذهل!', 5: 'ما شاء الله!', 7: 'تبارك الله!' };
+        if (words[combo]) this.praise(words[combo]);
+        if (combo >= 4) this.shake();
         await this.clearCells(clear, creates, combo);
         await this.gravity();
         groups = this.findGroups();
@@ -400,6 +401,7 @@
       if (sp) {
         N.sfx.special();
         N.vibrate(25);
+        if (fired.size - preFired.size >= 2 || all.size >= 14) this.shake();
       }
       const removed = [];
       for (const k of all) {
@@ -420,6 +422,7 @@
         if (t.knowledge) this.pendingKnowledge++;
         t.el.classList.add('pop');
         removed.push(t);
+        if (removed.length <= 24) this.particles(r, c, t.special === 'noor' ? '#ffffff' : N.TILE_COLORS[t.type]);
         this.grid[r][c] = null;
       }
       this.update();
@@ -672,6 +675,30 @@
       } else return;
       this.fxEl.appendChild(d);
       setTimeout(() => d.remove(), 650);
+    }
+
+    /** جزيئات ملوّنة تتطاير من القطعة عند فرقعتها */
+    particles(r, c, color) {
+      const s = this.s;
+      for (let i = 0; i < 6; i++) {
+        const p = document.createElement('i');
+        p.className = 'particle' + (i % 2 ? ' star' : '');
+        const a = Math.random() * Math.PI * 2;
+        const d = s * (0.6 + Math.random() * 0.8);
+        p.style.left = (c + 0.5) * s + 'px';
+        p.style.top = (r + 0.5) * s + 'px';
+        p.style.setProperty('--dx', Math.cos(a) * d + 'px');
+        p.style.setProperty('--dy', Math.sin(a) * d + 'px');
+        p.style.background = color;
+        this.fxEl.appendChild(p);
+        setTimeout(() => p.remove(), 650);
+      }
+    }
+
+    shake() {
+      this.el.classList.remove('shake');
+      void this.el.offsetWidth;
+      this.el.classList.add('shake');
     }
 
     praise(text) {

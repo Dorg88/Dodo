@@ -1,145 +1,177 @@
-/* الصحن: مشهد يرمّمه اللاعب بالنجوم (عمارة فقط — بدون أي تصوير لأشخاص) */
+/* الصحن: مشهد نهاري مرح يرمّمه اللاعب بالنجوم (عمارة وحمام فقط — بدون أي تصوير لأشخاص) */
 (function () {
   const N = (window.Noor = window.Noor || {});
+  const INK = '#2b2250';
 
   N.COURTYARD_ITEMS = [
-    { id: 'floor', name: 'بلاط الصحن', cost: 2, desc: 'بلاط بنقوش النجمة الثمانية' },
-    { id: 'fountain', name: 'النافورة', cost: 2, desc: 'نافورة الوضوء في وسط الصحن' },
-    { id: 'garden', name: 'الحديقة', cost: 3, desc: 'نخيل وأزهار حول الصحن' },
-    { id: 'lanterns', name: 'الفوانيس', cost: 3, desc: 'فوانيس تضيء الأروقة ليلاً' },
-    { id: 'tiles', name: 'الزخارف القاشانية', cost: 3, desc: 'كاشي أزرق يزيّن الجدران' },
-    { id: 'iwan', name: 'الإيوان', cost: 4, desc: 'البوابة الكبرى بمقرنصاتها الذهبية' },
-    { id: 'minarets', name: 'المئذنتان', cost: 4, desc: 'مئذنتان شامختان' },
-    { id: 'dome', name: 'القبّة الذهبية', cost: 5, desc: 'تاج الصحن المتلألئ' },
+    { id: 'floor', name: 'بلاط الصحن', cost: 2, desc: 'بلاط ملوّن بنقوش النجمة', emoji: '🟦' },
+    { id: 'fountain', name: 'النافورة', cost: 2, desc: 'نافورة ماء في وسط الصحن', emoji: '⛲' },
+    { id: 'garden', name: 'الحديقة', cost: 3, desc: 'نخيل وأزهار ملوّنة', emoji: '🌴' },
+    { id: 'lanterns', name: 'الفوانيس', cost: 3, desc: 'فوانيس مضيئة', emoji: '🏮' },
+    { id: 'tiles', name: 'الزخارف', cost: 3, desc: 'كاشي أزرق جميل على الجدران', emoji: '✨' },
+    { id: 'iwan', name: 'البوابة الذهبية', cost: 4, desc: 'الإيوان الكبير', emoji: '🚪' },
+    { id: 'minarets', name: 'المئذنتان', cost: 4, desc: 'مئذنتان عاليتان', emoji: '🗼' },
+    { id: 'dome', name: 'القبّة الذهبية', cost: 5, desc: 'القبّة اللامعة', emoji: '🌟' },
   ];
 
-  const S = N.starPoints;
+  const S = (cx, cy, R, r, n = 8) => N.starPoints(cx, cy, R, r, n);
+
+  function cloud(x, y, s, cls = '') {
+    return `<g class="cloud ${cls}" transform="translate(${x} ${y}) scale(${s})">
+      <path d="M0 20 Q-2 6 12 6 Q16 -6 30 -2 Q40 -10 50 2 Q64 0 62 14 Q70 22 58 26 H6 Q-6 26 0 20 Z" fill="#fff" stroke="#bfe3f7" stroke-width="2"/>
+    </g>`;
+  }
+
+  function dove(x, y, s = 1, flip = 1, cls = '') {
+    return `<g class="dove ${cls}" transform="translate(${x} ${y}) scale(${s * flip} ${s})">
+      <path d="M-12 2 L-20 -2 L-18 6 Z" fill="#dfe6f2" stroke="${INK}" stroke-width="1.6" stroke-linejoin="round"/>
+      <ellipse cx="0" cy="2" rx="12" ry="7.5" fill="#f7f9ff" stroke="${INK}" stroke-width="1.8"/>
+      <circle cx="9" cy="-6" r="6.5" fill="#f7f9ff" stroke="${INK}" stroke-width="1.8"/>
+      <path class="dwing" d="M-6 0 Q2 -4 8 2 Q2 8 -6 4 Z" fill="#cfd9ea" stroke="${INK}" stroke-width="1.5"/>
+      <circle cx="11" cy="-7" r="1.4" fill="${INK}"/>
+      <path d="M15 -6 L19 -4.5 L15 -3.5 Z" fill="#ff8a7a"/>
+    </g>`;
+  }
 
   function palm(x, flip = 1) {
     const f = (dx, dy) => `${x + dx * flip},${dy}`;
     return `<g>
-      <path d="M${x} 262 Q${x + 6 * flip} 210 ${x - 2 * flip} 165" stroke="#7a5230" stroke-width="7" fill="none" stroke-linecap="round"/>
-      <g fill="#1f8f4e" stroke="#0f5c30" stroke-width="1.5">
-        <path d="M${f(-2, 165)} Q${f(-35, 150)} ${f(-48, 180)} Q${f(-28, 160)} ${f(-2, 168)}Z"/>
-        <path d="M${f(-2, 165)} Q${f(30, 145)} ${f(46, 172)} Q${f(26, 156)} ${f(-2, 168)}Z"/>
-        <path d="M${f(-2, 165)} Q${f(-22, 132)} ${f(-46, 140)} Q${f(-22, 142)} ${f(-2, 166)}Z"/>
-        <path d="M${f(-2, 165)} Q${f(20, 130)} ${f(42, 134)} Q${f(20, 140)} ${f(-2, 166)}Z"/>
-        <path d="M${f(-2, 165)} Q${f(0, 135)} ${f(-6, 124)} Q${f(4, 138)} ${f(0, 165)}Z"/>
+      <path d="M${x} 270 Q${x + 8 * flip} 215 ${x - 2 * flip} 166" stroke="${INK}" stroke-width="11" fill="none" stroke-linecap="round"/>
+      <path d="M${x} 270 Q${x + 8 * flip} 215 ${x - 2 * flip} 166" stroke="#c98a4b" stroke-width="7" fill="none" stroke-linecap="round"/>
+      <g fill="#4cd964" stroke="${INK}" stroke-width="2.2" stroke-linejoin="round">
+        <path d="M${f(-2, 165)} Q${f(-36, 148)} ${f(-50, 182)} Q${f(-28, 162)} ${f(-2, 170)}Z"/>
+        <path d="M${f(-2, 165)} Q${f(32, 142)} ${f(48, 174)} Q${f(26, 158)} ${f(-2, 170)}Z"/>
+        <path d="M${f(-2, 165)} Q${f(-24, 130)} ${f(-48, 138)} Q${f(-22, 144)} ${f(-2, 168)}Z"/>
+        <path d="M${f(-2, 165)} Q${f(20, 126)} ${f(44, 132)} Q${f(20, 142)} ${f(-2, 168)}Z"/>
       </g>
-      <g fill="#c56a1b"><circle cx="${x - 6 * flip}" cy="170" r="3"/><circle cx="${x + 1 * flip}" cy="172" r="3"/></g>
+      <g fill="#ff9f43" stroke="${INK}" stroke-width="1.5"><circle cx="${x - 7 * flip}" cy="172" r="4"/><circle cx="${x + 2 * flip}" cy="174" r="4"/></g>
     </g>`;
   }
 
   function lantern(x, y) {
-    return `<g>
-      <line x1="${x}" y1="${y - 18}" x2="${x}" y2="${y - 8}" stroke="#6b4a1a" stroke-width="1.5"/>
-      <circle class="glow" cx="${x}" cy="${y + 4}" r="14" fill="#ffd66b" opacity=".35"/>
-      <path d="M${x - 5} ${y - 6} L${x} ${y - 10} L${x + 5} ${y - 6}Z" fill="#e0a91f"/>
-      <path d="M${x - 6} ${y - 5} H${x + 6} L${x + 8} ${y + 4} L${x + 5} ${y + 13} H${x - 5} L${x - 8} ${y + 4}Z" fill="#ffcf4d" stroke="#8a5a00" stroke-width="1.5"/>
+    return `<g class="lantern">
+      <line x1="${x}" y1="${y - 18}" x2="${x}" y2="${y - 9}" stroke="${INK}" stroke-width="1.8"/>
+      <circle class="glow" cx="${x}" cy="${y + 3}" r="15" fill="#ffe066" opacity=".45"/>
+      <path d="M${x - 6} ${y - 6} L${x} ${y - 11} L${x + 6} ${y - 6}Z" fill="#ff6b81" stroke="${INK}" stroke-width="1.6" stroke-linejoin="round"/>
+      <path d="M${x - 7} ${y - 5} H${x + 7} L${x + 9} ${y + 4} L${x + 6} ${y + 14} H${x - 6} L${x - 9} ${y + 4}Z" fill="#ffd23f" stroke="${INK}" stroke-width="1.8" stroke-linejoin="round"/>
     </g>`;
   }
 
   function minaret(x) {
     return `<g>
-      <rect x="${x - 8}" y="60" width="16" height="152" fill="#efe3c6" stroke="#8b7355" stroke-width="1.5"/>
-      <rect x="${x - 8}" y="120" width="16" height="8" fill="#1f8fb0"/>
-      <rect x="${x - 8}" y="160" width="16" height="8" fill="#1f8fb0"/>
-      <rect x="${x - 13}" y="88" width="26" height="7" rx="2" fill="#e0a91f" stroke="#8a5a00" stroke-width="1"/>
-      <rect x="${x - 6}" y="68" width="12" height="20" fill="#1f8fb0" opacity=".85"/>
-      <path d="M${x - 9} 60 Q${x - 9} 40 ${x} 28 Q${x + 9} 40 ${x + 9} 60Z" fill="url(#cyGold)" stroke="#8a5a00" stroke-width="1.2"/>
-      <line x1="${x}" y1="28" x2="${x}" y2="16" stroke="#c99a1a" stroke-width="2"/>
-      <circle cx="${x}" cy="18" r="2.5" fill="#f5c542"/>
+      <rect x="${x - 9}" y="62" width="18" height="150" rx="2" fill="#fff4dc" stroke="${INK}" stroke-width="2.5"/>
+      <rect x="${x - 9}" y="120" width="18" height="9" fill="#3db8f5" stroke="${INK}" stroke-width="2"/>
+      <rect x="${x - 9}" y="162" width="18" height="9" fill="#3db8f5" stroke="${INK}" stroke-width="2"/>
+      <rect x="${x - 15}" y="90" width="30" height="8" rx="4" fill="#ffc21a" stroke="${INK}" stroke-width="2"/>
+      <path d="M${x - 10} 62 Q${x - 10} 40 ${x} 26 Q${x + 10} 40 ${x + 10} 62Z" fill="url(#cyGold)" stroke="${INK}" stroke-width="2.5" stroke-linejoin="round"/>
+      <line x1="${x}" y1="26" x2="${x}" y2="13" stroke="${INK}" stroke-width="2.5"/>
+      <circle cx="${x}" cy="13" r="3.5" fill="#ffc21a" stroke="${INK}" stroke-width="1.5"/>
     </g>`;
   }
 
   N.courtyardSVG = function () {
-    const niches = [30, 75, 120, 280, 325, 370]
-      .map((x) => `<path d="M${x - 14} 212 V172 Q${x - 14} 156 ${x} 150 Q${x + 14} 156 ${x + 14} 172 V212Z" fill="#b89d6e"/>`)
+    const xs = [30, 75, 120, 280, 325, 370];
+    const niches = xs
+      .map((x) => `<path d="M${x - 14} 214 V174 Q${x - 14} 158 ${x} 151 Q${x + 14} 158 ${x + 14} 174 V214Z" fill="#7fd0f5" stroke="${INK}" stroke-width="2"/>`)
       .join('');
-    const nicheFrames = [30, 75, 120, 280, 325, 370]
-      .map((x) => `<path d="M${x - 17} 212 V172 Q${x - 17} 153 ${x} 146 Q${x + 17} 153 ${x + 17} 172 V212" fill="none" stroke="#1f8fb0" stroke-width="4"/>`)
+    const nicheFrames = xs
+      .map((x) => `<path d="M${x - 18} 214 V173 Q${x - 18} 153 ${x} 145 Q${x + 18} 153 ${x + 18} 173 V214" fill="none" stroke="#2f7fe0" stroke-width="5"/>`)
       .join('');
     return `<svg class="courtyard" viewBox="0 0 400 300" role="img" aria-label="صحن المقام">
       <defs>
         <linearGradient id="cySky" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stop-color="#14245a"/><stop offset=".55" stop-color="#3b4f9a"/><stop offset="1" stop-color="#f2b06a"/>
+          <stop offset="0" stop-color="#4fc3ff"/><stop offset=".6" stop-color="#a6e6ff"/><stop offset="1" stop-color="#fff2c9"/>
         </linearGradient>
         <linearGradient id="cyGold" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stop-color="#fff0a8"/><stop offset=".5" stop-color="#f2c234"/><stop offset="1" stop-color="#b9820f"/>
+          <stop offset="0" stop-color="#fff3a8"/><stop offset=".5" stop-color="#ffc21a"/><stop offset="1" stop-color="#e09200"/>
         </linearGradient>
         <linearGradient id="cyWater" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stop-color="#8ff0ff"/><stop offset="1" stop-color="#1b9fc0"/>
+          <stop offset="0" stop-color="#9ff0ff"/><stop offset="1" stop-color="#2b9cf0"/>
         </linearGradient>
-        <pattern id="cyFloor" width="26" height="26" patternUnits="userSpaceOnUse">
-          <rect width="26" height="26" fill="#f2e6cb"/>
-          <polygon points="${S(13, 13, 11, 8.4)}" fill="#2a9fb8" opacity=".8"/>
-          <polygon points="${S(13, 13, 4.5, 3.4)}" fill="#f5c542"/>
+        <pattern id="cyFloor" width="28" height="28" patternUnits="userSpaceOnUse">
+          <rect width="28" height="28" fill="#fff6e3"/>
+          <polygon points="${S(14, 14, 12, 9.2)}" fill="#3db8f5" stroke="#1f6fbf" stroke-width="1"/>
+          <polygon points="${S(14, 14, 5, 3.8)}" fill="#ffc21a"/>
+          <circle cx="0" cy="0" r="3" fill="#ff6b81"/><circle cx="28" cy="0" r="3" fill="#ff6b81"/><circle cx="0" cy="28" r="3" fill="#ff6b81"/><circle cx="28" cy="28" r="3" fill="#ff6b81"/>
         </pattern>
-        <pattern id="cyKashi" width="14" height="14" patternUnits="userSpaceOnUse">
-          <rect width="14" height="14" fill="#1e6fa8"/>
-          <polygon points="7,1 13,7 7,13 1,7" fill="#5fc4e0"/>
-          <circle cx="7" cy="7" r="2" fill="#fff"/>
+        <pattern id="cyKashi" width="16" height="16" patternUnits="userSpaceOnUse">
+          <rect width="16" height="16" fill="#2f7fe0"/>
+          <polygon points="8,1 15,8 8,15 1,8" fill="#7fe0ff"/>
+          <circle cx="8" cy="8" r="2.4" fill="#fff"/>
         </pattern>
       </defs>
 
-      <!-- السماء والأساس (دائماً ظاهر) -->
+      <!-- السماء والشمس والغيوم (دائماً ظاهرة) -->
       <rect width="400" height="300" fill="url(#cySky)"/>
-      <g fill="#fff" opacity=".8"><circle cx="40" cy="30" r="1.2"/><circle cx="90" cy="18" r="1"/><circle cx="330" cy="26" r="1.3"/><circle cx="372" cy="58" r="1"/><circle cx="250" cy="14" r="1"/></g>
-      <path d="M352 40 A16 16 0 1 0 366 64 A13 13 0 1 1 352 40Z" fill="#fff6d0"/>
+      <g class="sun">
+        <g class="rays" stroke="#ffc21a" stroke-width="5" stroke-linecap="round">
+          ${Array.from({ length: 10 }, (_, i) => {
+            const a = (i * Math.PI) / 5;
+            return `<line x1="${352 + 30 * Math.cos(a)}" y1="${48 + 30 * Math.sin(a)}" x2="${352 + 40 * Math.cos(a)}" y2="${48 + 40 * Math.sin(a)}"/>`;
+          }).join('')}
+        </g>
+        <circle cx="352" cy="48" r="23" fill="#ffd23f" stroke="${INK}" stroke-width="2.5"/>
+        <circle cx="344" cy="45" r="2.6" fill="${INK}"/><circle cx="360" cy="45" r="2.6" fill="${INK}"/>
+        <path d="M344 54 Q352 61 360 54" stroke="${INK}" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        <ellipse cx="338" cy="52" rx="4" ry="2.4" fill="#ff8fa3" opacity=".7"/><ellipse cx="366" cy="52" rx="4" ry="2.4" fill="#ff8fa3" opacity=".7"/>
+      </g>
+      ${cloud(20, 30, 0.9, 'c1')}${cloud(150, 12, 0.6, 'c2')}${cloud(250, 70, 0.55, 'c3')}
 
       <g data-item="dome">
-        <rect x="160" y="96" width="80" height="44" fill="#efe3c6" stroke="#8b7355" stroke-width="1.5"/>
-        <g fill="#1f8fb0">${[170, 186, 202, 218].map((x) => `<path d="M${x} 132 V116 Q${x + 6} 106 ${x + 12} 116 V132Z"/>`).join('')}</g>
-        <path d="M156 98 C148 70 172 52 200 30 C228 52 252 70 244 98Z" fill="url(#cyGold)" stroke="#8a5a00" stroke-width="1.5"/>
-        <path d="M178 90 C176 70 188 56 200 44" stroke="#fff6c0" stroke-width="3" fill="none" opacity=".6"/>
-        <line x1="200" y1="30" x2="200" y2="8" stroke="#c99a1a" stroke-width="3"/>
-        <circle cx="200" cy="14" r="4" fill="#f5c542"/>
+        <rect x="158" y="96" width="84" height="46" fill="#fff4dc" stroke="${INK}" stroke-width="2.5"/>
+        <g fill="#3db8f5" stroke="${INK}" stroke-width="1.8">${[168, 185, 202, 219].map((x) => `<path d="M${x} 134 V117 Q${x + 6.5} 106 ${x + 13} 117 V134Z"/>`).join('')}</g>
+        <path d="M154 98 C146 70 172 50 200 28 C228 50 254 70 246 98Z" fill="url(#cyGold)" stroke="${INK}" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M176 88 C174 70 186 56 199 44" stroke="#fffbe0" stroke-width="5" fill="none" stroke-linecap="round" opacity=".8"/>
+        <line x1="200" y1="28" x2="200" y2="8" stroke="${INK}" stroke-width="3"/>
+        <circle cx="200" cy="12" r="5" fill="#ffc21a" stroke="${INK}" stroke-width="2"/>
       </g>
 
-      <g data-item="minarets">${minaret(112)}${minaret(288)}</g>
+      <g data-item="minarets">${minaret(110)}${minaret(290)}</g>
 
       <!-- الجدار -->
-      <rect x="0" y="140" width="400" height="74" fill="#d9c49a" stroke="#8b7355" stroke-width="1"/>
-      <path d="M60 160 L66 176 L62 190 M340 170 L334 184" stroke="#8b7355" stroke-width="1" fill="none" opacity=".6"/>
+      <rect x="-4" y="140" width="408" height="76" fill="#ffe2b0" stroke="${INK}" stroke-width="2.5"/>
       ${niches}
 
       <g data-item="tiles">
-        <rect x="0" y="140" width="400" height="10" fill="url(#cyKashi)"/>
-        <rect x="0" y="206" width="400" height="8" fill="url(#cyKashi)"/>
+        <rect x="-4" y="140" width="408" height="11" fill="url(#cyKashi)" stroke="${INK}" stroke-width="2"/>
+        <rect x="-4" y="206" width="408" height="9" fill="url(#cyKashi)" stroke="${INK}" stroke-width="2"/>
         ${nicheFrames}
       </g>
 
       <g data-item="iwan">
-        <rect x="158" y="112" width="84" height="102" fill="url(#cyKashi)" stroke="#8a5a00" stroke-width="2"/>
-        <rect x="158" y="112" width="84" height="102" fill="none" stroke="url(#cyGold)" stroke-width="5"/>
-        <path d="M172 214 V160 Q172 132 200 122 Q228 132 228 160 V214Z" fill="url(#cyGold)" stroke="#8a5a00" stroke-width="1.5"/>
-        <path d="M180 214 V162 Q180 140 200 132 Q220 140 220 162 V214Z" fill="#14306b"/>
-        <g stroke="#f5c542" stroke-width="1.2" fill="none" opacity=".9">
-          <path d="M184 150 Q200 136 216 150"/><path d="M188 142 Q200 132 212 142"/><path d="M186 158 Q200 146 214 158"/>
-        </g>
-        <polygon points="${S(200, 182, 9, 6.9)}" fill="#f5c542"/>
+        <rect x="156" y="110" width="88" height="106" rx="3" fill="url(#cyKashi)" stroke="${INK}" stroke-width="3"/>
+        <path d="M170 216 V160 Q170 130 200 119 Q230 130 230 160 V216Z" fill="url(#cyGold)" stroke="${INK}" stroke-width="2.5"/>
+        <path d="M179 216 V162 Q179 140 200 131 Q221 140 221 162 V216Z" fill="#7a5cff" stroke="${INK}" stroke-width="2"/>
+        <polygon points="${S(200, 175, 11, 8.4)}" fill="#ffd23f" stroke="${INK}" stroke-width="1.5"/>
       </g>
 
-      <g data-item="lanterns">${[30, 75, 120, 280, 325, 370].map((x) => lantern(x, 178)).join('')}${lantern(200, 166)}</g>
+      <g data-item="lanterns">${xs.map((x) => lantern(x, 180)).join('')}${lantern(200, 168)}</g>
 
       <!-- الأرضية -->
-      <rect x="0" y="214" width="400" height="86" fill="#cbb48a"/>
-      <g data-item="floor"><rect x="0" y="214" width="400" height="86" fill="url(#cyFloor)"/></g>
+      <rect x="-4" y="214" width="408" height="90" fill="#f4dcae" stroke="${INK}" stroke-width="2.5"/>
+      <g data-item="floor"><rect x="-4" y="214" width="408" height="90" fill="url(#cyFloor)" stroke="${INK}" stroke-width="2.5"/></g>
 
       <g data-item="garden">
         ${palm(26, 1)}${palm(374, -1)}
-        <g>${[52, 76, 324, 348].map((x) => `<ellipse cx="${x}" cy="262" rx="13" ry="8" fill="#2a9a55"/><circle cx="${x - 5}" cy="258" r="2.5" fill="#ff7aa2"/><circle cx="${x + 4}" cy="257" r="2.5" fill="#fff"/><circle cx="${x}" cy="262" r="2.5" fill="#ffd34d"/>`).join('')}</g>
+        <g>${[54, 80, 320, 346].map((x, i) => `<ellipse cx="${x}" cy="266" rx="15" ry="9" fill="#4cd964" stroke="${INK}" stroke-width="2"/>
+          <circle cx="${x - 6}" cy="261" r="4" fill="${['#ff6b81', '#ffd23f', '#a66cff', '#ff9f43'][i]}" stroke="${INK}" stroke-width="1.4"/>
+          <circle cx="${x + 5}" cy="259" r="4" fill="#fff" stroke="${INK}" stroke-width="1.4"/>
+          <circle cx="${x}" cy="266" r="3.4" fill="${['#ffd23f', '#ff6b81', '#3db8f5', '#ff6b81'][i]}" stroke="${INK}" stroke-width="1.4"/>`).join('')}</g>
       </g>
 
       <g data-item="fountain">
-        <ellipse cx="200" cy="266" rx="58" ry="16" fill="#e8dcc0" stroke="#8b7355" stroke-width="2"/>
-        <ellipse cx="200" cy="264" rx="50" ry="12" fill="url(#cyWater)"/>
-        <rect x="194" y="238" width="12" height="24" fill="#e8dcc0" stroke="#8b7355" stroke-width="1.5"/>
-        <ellipse cx="200" cy="238" rx="18" ry="5" fill="#e8dcc0" stroke="#8b7355" stroke-width="1.5"/>
-        <g class="jet" stroke="#bff6ff" stroke-width="2.5" fill="none" stroke-linecap="round">
-          <path d="M200 236 Q200 214 200 212"/><path d="M200 222 Q188 220 184 236"/><path d="M200 222 Q212 220 216 236"/>
+        <ellipse cx="200" cy="268" rx="60" ry="17" fill="#fff4dc" stroke="${INK}" stroke-width="3"/>
+        <ellipse cx="200" cy="266" rx="51" ry="12" fill="url(#cyWater)"/>
+        <rect x="193" y="238" width="14" height="26" fill="#fff4dc" stroke="${INK}" stroke-width="2.2"/>
+        <ellipse cx="200" cy="238" rx="20" ry="6" fill="#fff4dc" stroke="${INK}" stroke-width="2.2"/>
+        <g class="jet" stroke="#4fc3ff" stroke-width="3.5" fill="none" stroke-linecap="round">
+          <path d="M200 234 Q200 212 200 210"/><path d="M200 220 Q186 218 182 236"/><path d="M200 220 Q214 218 218 236"/>
         </g>
       </g>
+
+      <!-- الحمام (دائماً ظاهر) -->
+      ${dove(62, 133, 1, 1, 'd1')}${dove(338, 133, 1, -1, 'd2')}
+      ${dove(0, 0, 0.8, 1, 'flying')}
     </svg>`;
   };
 

@@ -4,13 +4,50 @@
   const $ = (s) => document.querySelector(s);
   const ar = N.ar;
 
-  const ICON = {
-    star: `<svg class="ico" viewBox="0 0 24 24"><polygon points="${N.starPoints(12, 12.5, 11, 4.8, 5)}" fill="#f5c542" stroke="#9a6a00" stroke-width="1.2" stroke-linejoin="round"/></svg>`,
-    points: `<svg class="ico" viewBox="0 0 24 24"><path d="M12 12.5 Q8.5 8 12 2 Q15.5 8 12 12.5Z" fill="#ff9d2e" stroke="#b5530a" stroke-width=".8"/><path d="M3 15 H21 Q19 21 12 21 Q5 21 3 15Z" fill="#f5c542" stroke="#9a6a00" stroke-width="1.2"/><path d="M21 15 Q23.5 13 22 11" stroke="#9a6a00" stroke-width="1.4" fill="none"/></svg>`,
-    hammer: `<svg class="ico" viewBox="0 0 24 24"><rect x="10.5" y="9" width="3" height="13" rx="1.2" fill="#a0672e"/><rect x="4" y="3" width="16" height="7" rx="2" fill="#c9ced8" stroke="#5b6170" stroke-width="1.2"/></svg>`,
-    arrow: `<svg class="ico" viewBox="0 0 24 24"><path d="M2 12 L7 7 V10 H17 V7 L22 12 L17 17 V14 H7 V17Z" fill="#5fd0ff" stroke="#0b5f8a" stroke-width="1.2" stroke-linejoin="round"/></svg>`,
-    shuffle: `<svg class="ico" viewBox="0 0 24 24"><path d="M3 7 H8 L16 17 H20 M3 17 H8 L10.5 14 M13.5 10 L16 7 H20" stroke="#c39bff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M18 4 L21 7 L18 10 M18 14 L21 17 L18 20" stroke="#c39bff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+  const ICON = N.ICON;
+  // لون ورمز لكل قسم في بنك الأسئلة
+  const CAT_STYLE = {
+    quran: ['📖', '#3d9bff'], prophet: ['🌙', '#2fbf71'], masumeen: ['✨', '#a66cff'], aqeedah: ['💡', '#ffa41b'],
+    fiqh: ['🕋', '#ff5c7a'], akhlaq: ['💖', '#ff7ab6'], duas: ['🤲', '#22b8a5'], history: ['📜', '#ff8a3d'],
+    places: ['🕌', '#5b7cff'], occasions: ['🎉', '#e8559a'],
   };
+  const CHAPTER_COLORS = ['#3d9bff', '#2fbf71', '#a66cff', '#ffa41b', '#ff5c7a', '#22b8a5'];
+
+  /** الحمامة «نوري» مع فقاعة كلام اختيارية */
+  function mascot(mood = 'happy', text = '', cls = '') {
+    return `<div class="mascot-wrap ${cls}">${text ? `<div class="speech">${text}</div>` : ''}<div class="mascot ${mood}">${N.MASCOT_SVG}</div></div>`;
+  }
+
+  /** قصاصات ملوّنة تتساقط احتفالاً */
+  function confetti(n = 70) {
+    const box = document.createElement('div');
+    box.className = 'confetti';
+    const cols = N.TILE_COLORS.concat(['#ffffff', '#ff7ab6']);
+    for (let i = 0; i < n; i++) {
+      const p = document.createElement('i');
+      p.style.left = Math.random() * 100 + '%';
+      p.style.background = cols[i % cols.length];
+      p.style.animationDelay = Math.random() * 0.5 + 's';
+      p.style.animationDuration = 1.6 + Math.random() * 1.4 + 's';
+      p.style.setProperty('--dx', Math.random() * 160 - 80 + 'px');
+      p.style.setProperty('--r', Math.random() * 900 - 450 + 'deg');
+      if (i % 3 === 0) p.classList.add('round');
+      box.appendChild(p);
+    }
+    document.body.appendChild(box);
+    setTimeout(() => box.remove(), 3600);
+  }
+
+  /** عبارة تشجيع كبيرة فوق اللوحة */
+  function praise(text) {
+    const host = $('#screen-game');
+    const el = document.createElement('div');
+    el.className = 'praise-pop';
+    el.textContent = text;
+    host.appendChild(el);
+    setTimeout(() => el.remove(), 1300);
+  }
+
   const BOOSTERS = [
     { id: 'hammer', name: 'المطرقة', desc: 'تزيل قطعة واحدة تختارها' },
     { id: 'arrow', name: 'السهم', desc: 'يمسح صفاً كاملاً تختاره' },
@@ -72,7 +109,7 @@
          ${subtitle ? `<p class="q-sub">${subtitle}</p>` : ''}
          <p class="q-text">${q.question}</p>
          <div class="q-options">${options
-           .map((o, i) => `<button class="opt" data-i="${i}"><span class="letter">${LETTERS[i]}</span><span>${o.text}</span></button>`)
+           .map((o, i) => `<button class="opt c${i}" data-i="${i}"><span class="letter">${LETTERS[i]}</span><span>${o.text}</span></button>`)
            .join('')}</div>
          <div class="q-feedback"></div>
          <div class="q-actions"></div>`,
@@ -90,15 +127,18 @@
             b.disabled = true;
             if (options[i].correct) b.classList.add('right');
             else if (b === btn) b.classList.add('wrong');
+            else b.classList.add('dim');
           });
           if (correct) {
             N.sfx.correct();
             N.vibrate(20);
+            confetti(45);
           } else N.sfx.wrong();
           const gain = correct && award ? `<span class="gain">${ICON.points} +${ar(result.points)}${result.bonus ? ` – مكافأة السلسلة +${ar(result.bonus)}` : ''}</span>` : '';
           card.querySelector('.q-feedback').innerHTML = `
             <div class="fb ${correct ? 'ok' : 'no'}">
-              <b>${correct ? 'أحسنت! إجابة صحيحة' : 'إجابة غير صحيحة'}</b> ${gain}
+              ${mascot(correct ? 'happy' : 'sad', correct ? 'أحسنت! 🎉' : 'لا بأس، هكذا نتعلّم! 💪', 'mini')}
+              <b>${correct ? 'إجابة صحيحة!' : 'الإجابة الصحيحة باللون الأخضر'}</b> ${gain}
               <p>${q.explanation || ''}</p>
               ${q.source ? `<small>المصدر: ${q.source}</small>` : ''}
             </div>`;
@@ -128,12 +168,13 @@
     const done = N.save.restored.length;
     const card = $('#restore-card');
     if (!next) {
-      card.innerHTML = `<div class="rc-text"><b>اكتمل ترميم الصحن — ما شاء الله!</b><small>تم ترميم ${ar(done)} من ${ar(items.length)} – مراحل جديدة قريباً</small></div>`;
+      card.innerHTML = `${mascot('happy', '', 'tiny')}<div class="rc-text"><b>اكتمل الصحن — ما شاء الله! 🎉</b><small>رمّمت ${ar(done)} من ${ar(items.length)} – مراحل جديدة قريباً</small></div>`;
     } else {
       const can = N.save.stars >= next.cost;
       card.innerHTML = `
-        <div class="rc-text"><b>رمّم: ${next.name}</b><small>${next.desc} – ${ar(done)} من ${ar(items.length)}</small></div>
-        <button class="btn ${can ? 'gold' : 'disabled'}" id="btn-restore">${ICON.star} ${ar(next.cost)}</button>`;
+        ${mascot('happy', '', 'tiny')}
+        <div class="rc-text"><b>${can ? 'هيا نرمّم' : 'اجمع النجوم لترميم'} ${next.name} ${next.emoji}</b><small>${can ? 'عندك نجوم كافية!' : 'العب المستويات لتكسب النجوم ⭐'} – ${ar(done)} من ${ar(items.length)}</small></div>
+        <button class="btn ${can ? 'gold pulse' : 'disabled'}" id="btn-restore">${ICON.star} ${ar(next.cost)}</button>`;
       $('#btn-restore').onclick = () => {
         if (N.save.stars < next.cost) return toast('تحتاج نجوماً أكثر — العب المستويات لتكسبها');
         N.save.stars -= next.cost;
@@ -142,12 +183,13 @@
         N.sfx.win();
         renderHome(next.id);
         toast(`تم ترميم ${next.name} ✨`);
+        confetti(60);
       };
     }
 
     const cur = Math.min(N.save.unlocked, N.LEVELS.length);
     const allDone = N.save.unlocked > N.LEVELS.length;
-    $('#btn-play').innerHTML = allDone ? 'أتممت جميع المستويات' : `المستوى ${ar(cur)}`;
+    $('#btn-play').innerHTML = allDone ? 'أتممت كل المستويات! 🏆' : `<small>العب</small> المستوى ${ar(cur)}`;
     $('#btn-play').onclick = () => (allDone ? renderMap() : startLevel(cur));
     $('#daily-dot').classList.toggle('hidden', N.save.daily.last === N.todayKey());
     show('home');
@@ -155,25 +197,40 @@
 
   /* ---------- الخريطة ---------- */
   function renderMap() {
-    const html = N.CHAPTERS.map((ch) => {
+    const ROW = 96;
+    const XS = [50, 76, 50, 24];
+    const html = N.CHAPTERS.map((ch, ci) => {
       const levels = N.LEVELS.filter((l) => l.chapter === ch.id);
-      return `<div class="chapter">
-        <div class="ch-head"><b>الفصل ${ar(ch.id)}: ${ch.name}</b><small>${ch.categories.map((c) => N.CATEGORIES[c]).join(' – ')}</small></div>
-        <div class="ch-levels">${levels
-          .map((l) => {
-            const locked = l.id > N.save.unlocked;
-            const st = N.save.levelStars[l.id] || 0;
-            return `<button class="lvl ${locked ? 'locked' : ''} ${l.id === N.save.unlocked ? 'current' : ''}" data-l="${l.id}" ${locked ? 'disabled' : ''}>
-              <span>${locked ? '🔒' : ar(l.id)}</span>
-              <i>${[1, 2, 3].map((i) => `<em class="${i <= st ? 'on' : ''}">★</em>`).join('')}</i>
+      const pts = levels.map((l, i) => [XS[i % XS.length], i * ROW + ROW / 2]);
+      const d = pts.map(([x, y], i) => (i ? `C${pts[i - 1][0]} ${y - ROW / 2}, ${x} ${pts[i - 1][1] + ROW / 2}, ${x} ${y}` : `M${x} ${y}`)).join(' ');
+      const nodes = levels
+        .map((l, i) => {
+          const locked = l.id > N.save.unlocked;
+          const current = l.id === N.save.unlocked;
+          const st = N.save.levelStars[l.id] || 0;
+          const cls = locked ? 'locked' : current ? 'current' : 'done';
+          return `<button class="node ${cls}" data-l="${l.id}" style="left:${pts[i][0]}%;top:${pts[i][1]}px" ${locked ? 'disabled' : ''}>
+              <span class="num">${locked ? '🔒' : ar(l.id)}</span>
+              ${locked ? '' : `<i class="nstars">${[1, 2, 3].map((k) => `<em class="${k <= st ? 'on' : ''}">★</em>`).join('')}</i>`}
+              ${current ? mascot('happy', '', 'here') : ''}
             </button>`;
-          })
-          .join('')}</div>
-      </div>`;
+        })
+        .join('');
+      return `<section class="chapter" style="--chc:${CHAPTER_COLORS[ci % CHAPTER_COLORS.length]}">
+        <div class="ch-banner"><small>الفصل ${ar(ch.id)}</small><b>${ch.name}</b></div>
+        <div class="path" style="height:${levels.length * ROW}px">
+          <svg viewBox="0 0 100 ${levels.length * ROW}" preserveAspectRatio="none" aria-hidden="true">
+            <path d="${d}" fill="none" stroke="rgba(255,255,255,.9)" stroke-width="10" stroke-linecap="round" stroke-dasharray="2 16" vector-effect="non-scaling-stroke"/>
+          </svg>
+          ${nodes}
+        </div>
+      </section>`;
     }).join('');
     $('#map-list').innerHTML = html;
-    $('#map-list').querySelectorAll('.lvl:not(.locked)').forEach((b) => (b.onclick = () => startLevel(+b.dataset.l)));
+    $('#map-list').querySelectorAll('.node:not(.locked)').forEach((b) => (b.onclick = () => startLevel(+b.dataset.l)));
     show('map');
+    const cur = $('#map-list .node.current');
+    if (cur) cur.scrollIntoView({ block: 'center' });
   }
 
   /* ---------- بنك الأسئلة ---------- */
@@ -198,13 +255,14 @@
     $('#bank-streak').innerHTML = `سلسلة الإجابات الصحيحة: <b>${ar(N.save.answerStreak)}</b> — كل ٣ إجابات متتالية تمنحك نقطة إضافية`;
 
     const cards = [
-      `<button class="cat special" data-c="mixed"><b>أسئلة متنوعة</b><small>من جميع الأقسام</small></button>`,
-      `<button class="cat special ${due ? '' : 'muted'}" data-c="review"><b>مراجعة أخطائي</b><small>${due ? ar(due) + ' سؤال للمراجعة' : 'لا توجد أخطاء بعد'}</small></button>`,
+      `<button class="cat special" data-c="mixed" style="--cc:#ff5c7a"><span class="cat-emoji">🎲</span><b>أسئلة متنوعة</b><small>من جميع الأقسام</small></button>`,
+      `<button class="cat special ${due ? '' : 'muted'}" data-c="review" style="--cc:#ffa41b"><span class="cat-emoji">🔁</span><b>مراجعة أخطائي</b><small>${due ? ar(due) + ' سؤال للمراجعة' : 'لا توجد أخطاء بعد'}</small></button>`,
       ...Object.entries(N.CATEGORIES).map(([id, name]) => {
         const s = stats[id] || { total: 0, learned: 0 };
         const pct = s.total ? Math.round((s.learned / s.total) * 100) : 0;
-        return `<button class="cat" data-c="${id}" ${s.total ? '' : 'disabled'}>
-          <b>${name}</b><small>تعلّمت ${ar(s.learned)} من ${ar(s.total)}</small>
+        const [emo, col] = CAT_STYLE[id] || ['⭐', '#3d9bff'];
+        return `<button class="cat" data-c="${id}" style="--cc:${col}" ${s.total ? '' : 'disabled'}>
+          <span class="cat-emoji">${emo}</span><b>${name}</b><small>تعلّمت ${ar(s.learned)} من ${ar(s.total)}</small>
           <span class="bar"><span style="width:${pct}%"></span></span></button>`;
       }),
     ];
@@ -319,19 +377,22 @@
     const tutorial =
       id <= 2
         ? `<div class="tips">
-            <p>اسحب أي قطعة نحو جارتها لتكوّن ٣ قطع متشابهة أو أكثر.</p>
-            <p>٤ في خط = <b>سهم</b> – شكل L أو T = <b>انفجار</b> – ٥ في خط = <b>نور</b> يمسح لوناً كاملاً.</p>
-            <p>القطعة التي عليها <b class="qmark">؟</b> تطرح سؤالاً: أجب صحيحاً لتحصل على شعاع نور وحركة إضافية.</p>
-            <p>علِقت؟ اذهب إلى <b>بنك الأسئلة</b> واكسب نقاطاً بدلاً من الشراء.</p>
+            <p>👆 اسحب القطعة نحو جارتها لتجمع <b>٣ قطع متشابهة</b> أو أكثر.</p>
+            <p>🚀 ٤ قطع في خط = <b>سهم</b></p>
+            <p>💥 قطع على شكل زاوية = <b>انفجار</b></p>
+            <p>🌈 ٥ قطع في خط = <b>كرة النور</b></p>
+            <p>❓ القطعة التي عليها <b class="qmark">؟</b> تسألك سؤالاً، وإذا أجبت صحيحاً تربح هدية!</p>
+            <p>💡 علِقت؟ اذهب إلى <b>بنك الأسئلة</b> واجمع النقاط.</p>
           </div>`
         : dust
-          ? `<div class="tips"><p>امسح طبقات <b>الغبار</b> بمطابقة القطع فوقها.</p></div>`
+          ? `<div class="tips"><p>🫧 فرقِع <b>الفقاعات</b> بمطابقة القطع فوقها!</p></div>`
           : '';
     const card = openModal(
-      `<div class="lvl-head"><small>الفصل ${ar(ch.id)} – ${ch.name}</small><h2>المستوى ${ar(id)}</h2></div>
-       <p class="lbl">الأهداف</p>
+      `${mascot('happy', id === 1 ? 'أهلاً! أنا نوري 🕊️ هيا نلعب!' : 'هل أنت مستعد؟ 😄', 'top')}
+       <div class="lvl-head"><small>الفصل ${ar(ch.id)} – ${ch.name}</small><h2>المستوى ${ar(id)}</h2></div>
+       <p class="lbl">اجمع:</p>
        <div class="goals big">${goals.map((g) => goalHTML(g, true)).join('')}</div>
-       <p class="lbl">${ar(level.moves)} حركة</p>
+       <p class="lbl moves-lbl">في ${ar(level.moves)} حركة</p>
        ${tutorial}
        <div class="q-actions"><button class="btn play" id="lvl-go">ابدأ</button><button class="btn ghost" id="lvl-cancel">رجوع</button></div>`,
       'lvlcard'
@@ -350,7 +411,7 @@
     const ch = N.chapterOf(level);
     const board = new N.Board($('#board-host'), level, {
       onUpdate: renderHUD,
-      onPraise: (t) => toast(`<b class="praise">${t}</b>`, 1100),
+      onPraise: praise,
       askKnowledge: async () => {
         const r = await askQuestion({
           categories: ch.categories,
@@ -423,7 +484,7 @@
   }
 
   function needPoints(cost) {
-    const card = openModal(`<h3>نقاط المعرفة غير كافية</h3>
+    const card = openModal(`${mascot('sad', 'نحتاج نقاطاً أكثر! 💡', 'top')}<h3>النقاط لا تكفي</h3>
       <p>تحتاج ${ICON.points}${ar(cost)} — رصيدك ${ICON.points}${ar(N.save.points)}</p>
       <p>أجب عن أسئلة في بنك الأسئلة لتكسب النقاط، ثم عُد لإكمال المستوى من حيث توقفت.</p>
       <div class="q-actions"><button class="btn primary" id="m-bank">اذهب إلى بنك الأسئلة</button><button class="btn ghost" id="m-cancel">إلغاء</button></div>`);
@@ -438,10 +499,11 @@
     const b = G.board;
     const cost = N.COSTS.moves;
     const can = N.save.points >= cost;
-    const card = openModal(`<h3>نفدت الحركات!</h3>
-      <p>بقي عليك:</p>
+    const card = openModal(`${mascot('sad', 'لا تقلق! يمكنك أن تكمل 💪', 'top')}
+      <h3>انتهت الحركات!</h3>
+      <p class="center">بقي عليك:</p>
       <div class="goals big">${b.goals.filter((g) => g.left > 0).map((g) => goalHTML(g)).join('')}</div>
-      <p class="hint-text">بدلاً من الشراء: استخدم نقاط المعرفة لتكمل، أو اكسبها من بنك الأسئلة.</p>
+      <p class="hint-text">استخدم نقاط المعرفة 💡 لتكمل، أو اجمعها من بنك الأسئلة.</p>
       <div class="q-actions col">
         <button class="btn ${can ? 'play' : 'disabled'}" id="oom-buy">+${ar(N.EXTRA_MOVES)} حركات مقابل ${ICON.points}${ar(cost)}</button>
         <button class="btn primary" id="oom-bank">اكسب نقاطاً من بنك الأسئلة (رصيدك ${ar(N.save.points)})</button>
@@ -486,7 +548,12 @@
     G.earned = 1 + movesBonus + (G.bonusOk ? 1 : 0);
     commitStars(level, G.earned);
     const line = (ok, text) => `<li class="${ok ? 'ok' : ''}">${ok ? '✓' : '○'} ${text}</li>`;
-    const card = openModal(`<h2 class="win-title">أحسنت! أتممت المستوى ${ar(level.id)}</h2>
+    if (!G.celebrated) {
+      G.celebrated = true;
+      confetti(110);
+    }
+    const card = openModal(`${mascot('happy', 'رائع! أنت بطل! 🏆', 'top jump')}
+      <h2 class="win-title">أحسنت! فزت في المستوى ${ar(level.id)}</h2>
       <div class="win-stars">${[1, 2, 3].map((i) => `<span class="${i <= G.earned ? 'on' : ''}">${ICON.star}</span>`).join('')}</div>
       <ul class="win-list">
         ${line(true, 'إتمام المستوى')}
