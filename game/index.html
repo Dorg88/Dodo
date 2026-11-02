@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#0c1f3f">
+  <title>نور المعرفة</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main id="app">
+    <!-- ===== الشاشة الرئيسية: الصحن ===== -->
+    <section id="screen-home" class="screen">
+      <header class="topbar">
+        <span class="pill stars"><i class="ico-star"></i><b data-stars>٠</b></span>
+        <h1 class="logo">نور المعرفة</h1>
+        <span class="pill points"><i class="ico-points"></i><b data-points>٠</b></span>
+      </header>
+      <div class="scene-frame"><div id="courtyard"></div></div>
+      <div id="restore-card" class="restore-card"></div>
+      <button id="btn-play" class="btn-play">المستوى ١</button>
+      <nav class="home-nav">
+        <button data-go="map"><span class="nav-ico">🗺️</span>الخريطة</button>
+        <button data-go="bank" class="bank-btn"><span class="nav-ico">📚</span>بنك الأسئلة</button>
+        <button data-go="daily"><span class="nav-ico">🌙</span>سؤال اليوم<i id="daily-dot" class="dot"></i></button>
+        <button data-go="settings"><span class="nav-ico">⚙️</span>الإعدادات</button>
+      </nav>
+    </section>
+
+    <!-- ===== الخريطة ===== -->
+    <section id="screen-map" class="screen">
+      <header class="topbar">
+        <button class="back" data-go="home">رجوع ←</button>
+        <h2>خريطة المستويات</h2>
+        <span class="pill stars"><i class="ico-star"></i><b data-stars>٠</b></span>
+      </header>
+      <div id="map-list" class="map-list"></div>
+    </section>
+
+    <!-- ===== بنك الأسئلة ===== -->
+    <section id="screen-bank" class="screen">
+      <header class="topbar">
+        <button class="back" id="bank-back">رجوع ←</button>
+        <h2>بنك الأسئلة</h2>
+        <span class="pill points"><i class="ico-points"></i><b data-points>٠</b></span>
+      </header>
+      <p class="bank-intro">أجب عن الأسئلة لتكسب <b>نقاط المعرفة</b>، واستبدلها بحركات إضافية ومعزّزات — بدلاً من الشراء.</p>
+      <div id="bank-prices" class="prices"></div>
+      <div id="bank-diff" class="segmented"></div>
+      <p id="bank-streak" class="streak"></p>
+      <div id="bank-cats" class="cat-grid"></div>
+    </section>
+
+    <!-- ===== اللعب ===== -->
+    <section id="screen-game" class="screen">
+      <div class="hud">
+        <button id="btn-exit" class="icon-btn" aria-label="خروج">✕</button>
+        <div class="moves"><small>الحركات</small><b id="hud-moves">٠</b></div>
+        <div class="goals-wrap"><small id="hud-level">المستوى</small><div id="hud-goals" class="goals"></div></div>
+      </div>
+      <div id="board-host" class="board-host"></div>
+      <div id="boosters" class="boosters"></div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast"></div>
+  <div id="modal" class="modal hidden"><div class="modal-card"></div></div>
+
+  <script src="js/util.js"></script>
+  <script src="js/tiles.js"></script>
+  <script src="js/levels.js"></script>
+  <script src="data/questions.js"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/board.js"></script>
+  <script src="js/courtyard.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
