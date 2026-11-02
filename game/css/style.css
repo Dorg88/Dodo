@@ -324,6 +324,7 @@ button { font-family: inherit; cursor: pointer; border: 0; color: inherit; }
 .row-set { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; font-weight: 800; border-bottom: 1px solid #e2d6b8; }
 .row-set input { width: 22px; height: 22px; }
 .about { margin-top: 10px; font-size: .9rem; }
+.credit { background: #e8f3f1; border-radius: 10px; padding: 6px 10px; color: #0b5f57; }
 .warn { color: #9a3a00; background: #fff1e0; padding: 6px 10px; border-radius: 10px; }
 .big { text-align: center; font-size: 1.4rem; font-weight: 800; }
 
