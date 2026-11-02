@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- نجمة ثمانية ذهبية (زخرفة إسلامية) — الشعار -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#F5C542" android:strokeColor="#8A5A00" android:strokeWidth="2.2" android:strokeLineJoin="round"
+        android:pathData="M54.00,24.00 L62.79,32.79 L75.21,32.79 L75.21,45.21 L84.00,54.00 L75.21,62.79 L75.21,75.21 L62.79,75.21 L54.00,84.00 L45.21,75.21 L32.79,75.21 L32.79,62.79 L24.00,54.00 L32.79,45.21 L32.79,32.79 L45.21,32.79 Z" />
+    <path android:fillColor="#FFF6D0" android:strokeColor="#8A5A00" android:strokeWidth="1.6" android:strokeLineJoin="round"
+        android:pathData="M54.00,41.00 L57.81,44.81 L63.19,44.81 L63.19,50.19 L67.00,54.00 L63.19,57.81 L63.19,63.19 L57.81,63.19 L54.00,67.00 L50.19,63.19 L44.81,63.19 L44.81,57.81 L41.00,54.00 L44.81,50.19 L44.81,44.81 L50.19,44.81 Z" />
+</vector>

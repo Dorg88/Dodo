@@ -545,6 +545,27 @@
     renderHome();
   }
 
-  N.App = { startLevel, openBank, renderHome, askQuestion, current: () => G };
+  /** زر الرجوع في أندرويد: يعيد true إذا تعاملت معه اللعبة، وfalse للخروج من التطبيق */
+  function onBack() {
+    const modal = $('#modal');
+    if (!modal.classList.contains('hidden')) {
+      const card = modal.querySelector('.modal-card');
+      const btn =
+        card.querySelector('.q-actions [data-a="back"]') ||
+        card.querySelector('.q-actions [data-a]') ||
+        card.querySelector('#lvl-cancel, #m-cancel, #ex-no, #set-close, #m-ok');
+      if (btn) btn.click(); // السؤال الذي لم يُجب عنه بعد، ونوافذ الفوز والخسارة، لا تُغلق بالرجوع
+      return true;
+    }
+    const active = document.querySelector('.screen.active');
+    const id = active ? active.id : 'screen-home';
+    if (id === 'screen-game') $('#btn-exit').click();
+    else if (id === 'screen-bank') leaveBank();
+    else if (id !== 'screen-home') renderHome();
+    else return false;
+    return true;
+  }
+
+  N.App = { startLevel, openBank, renderHome, askQuestion, onBack, current: () => G };
   document.addEventListener('DOMContentLoaded', init);
 })();

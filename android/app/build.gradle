@@ -1,0 +1,57 @@
+plugins {
+    id 'com.android.application'
+}
+
+// مفتاح التوقيع: يُقرأ من متغيرات البيئة (مفتاح النشر الحقيقي في أسرار GitHub)،
+// وإلا يُستخدم مفتاح الاختبار المرفق حتى تُثبَّت التحديثات فوق النسخة السابقة دون فقدان التقدم.
+def env = System.getenv()
+def ks = env['NOOR_KEYSTORE_FILE'] ? file(env['NOOR_KEYSTORE_FILE']) : file('noor-test.keystore')
+
+android {
+    namespace 'com.noormarifa.game'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.noormarifa.game'
+        minSdk 24
+        targetSdk 35
+        versionCode Integer.parseInt(env['NOOR_VERSION_CODE'] ?: '1')
+        versionName '0.1.0'
+    }
+
+    signingConfigs {
+        noor {
+            storeFile ks
+            storePassword env['NOOR_KEYSTORE_PASSWORD'] ?: 'noor-test-123'
+            keyAlias env['NOOR_KEY_ALIAS'] ?: 'noor-test'
+            keyPassword env['NOOR_KEY_PASSWORD'] ?: 'noor-test-123'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.noor
+        }
+        debug {
+            signingConfig signingConfigs.noor
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    // ملفات اللعبة (HTML/CSS/JS/الخطوط/الأسئلة) تُضمَّن مباشرة من مجلد game/
+    sourceSets {
+        main {
+            assets.srcDirs = ['../../game']
+        }
+    }
+
+    androidResources {
+        // استبعاد أدوات التطوير والجدول من التطبيق (مع إبقاء الاستثناءات الافتراضية)
+        ignoreAssetsPattern '!.svn:!.git:!.ds_store:!*.scc:.*:<dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~:!<dir>tools:!README.md:!*.csv'
+    }
+}

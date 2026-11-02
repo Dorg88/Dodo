@@ -14,6 +14,17 @@ python3 -m http.server 8000
 # ثم افتح http://localhost:8000 على الهاتف أو الحاسوب
 ```
 
+## تطبيق أندرويد (APK)
+
+يُبنى ملف APK تلقائياً على خوادم GitHub عند كل تعديل في `game/` أو `android/` (ملف `.github/workflows/android-apk.yml`)، ويُنشر في صفحة **Releases** للمستودع باسم `apk-latest`:
+
+1. افتح صفحة Releases في المستودع من هاتفك ونزّل `noor-almarifa.apk`.
+2. افتح الملف واسمح بالتثبيت من هذا المصدر عند السؤال.
+
+مشروع أندرويد في مجلد `android/`: تطبيق WebView خفيف بدون مكتبات إضافية، يعمل **دون إنترنت** (لا يطلب إذن الإنترنت)، والخطوط مضمّنة في `game/fonts/`. للبناء محلياً عبر Android Studio أو: `cd android && ./gradlew assembleRelease`.
+
+**التوقيع:** النسخ التجريبية موقّعة بمفتاح اختبار مرفق (`android/app/noor-test.keystore`) حتى تُثبَّت التحديثات فوق النسخة السابقة دون فقدان التقدم. **قبل النشر في Google Play** أنشئ مفتاحك الخاص وأضفه في أسرار المستودع: `NOOR_KEYSTORE_BASE64` و`NOOR_KEYSTORE_PASSWORD` و`NOOR_KEY_ALIAS` و`NOOR_KEY_PASSWORD`، وغيّر معرّف التطبيق `com.noormarifa.game` في `android/app/build.gradle` إذا أردت.
+
 ## فكرة اللعبة
 
 | العنصر | الوصف |

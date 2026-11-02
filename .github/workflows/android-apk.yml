@@ -1,0 +1,72 @@
+name: Build Android APK
+
+on:
+  push:
+    paths:
+      - 'game/**'
+      - 'android/**'
+      - '.github/workflows/android-apk.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apk-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate question bank
+        run: node game/tools/validate-questions.js
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Build APK
+        working-directory: android
+        env:
+          NOOR_VERSION_CODE: ${{ github.run_number }}
+          # Optional real signing key for Play Store: add these as repository secrets
+          NOOR_KEYSTORE_BASE64: ${{ secrets.NOOR_KEYSTORE_BASE64 }}
+          NOOR_KEYSTORE_PASSWORD: ${{ secrets.NOOR_KEYSTORE_PASSWORD }}
+          NOOR_KEY_ALIAS: ${{ secrets.NOOR_KEY_ALIAS }}
+          NOOR_KEY_PASSWORD: ${{ secrets.NOOR_KEY_PASSWORD }}
+        run: |
+          if [ -n "$NOOR_KEYSTORE_BASE64" ]; then
+            echo "$NOOR_KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/release.keystore"
+            export NOOR_KEYSTORE_FILE="$RUNNER_TEMP/release.keystore"
+          fi
+          chmod +x gradlew
+          ./gradlew --no-daemon assembleRelease
+          cp app/build/outputs/apk/release/app-release.apk "$GITHUB_WORKSPACE/noor-almarifa.apk"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: noor-almarifa-apk
+          path: noor-almarifa.apk
+
+      - name: Publish APK to Releases (download link for phones)
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete apk-latest --yes --cleanup-tag || true
+          gh release create apk-latest noor-almarifa.apk \
+            --prerelease \
+            --target "$GITHUB_SHA" \
+            --title "نور المعرفة — نسخة تجريبية (APK)" \
+            --notes "نسخة تجريبية مبنية تلقائياً من الفرع ${GITHUB_REF_NAME} (${GITHUB_SHA::7}).
+
+          **التثبيت على أندرويد:** نزّل الملف noor-almarifa.apk من الأسفل على هاتفك، ثم افتحه واسمح بالتثبيت من هذا المصدر عند السؤال.
+
+          ⚠️ الأسئلة مسودة تحتاج مراجعة علمية قبل النشر العام."
