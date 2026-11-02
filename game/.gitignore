@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 # صور وسيطة لأداة الرسم (تُحوَّل إلى WebP)
 img/sprites/*.png
+
+# مخرجات وسيطة لأدوات الرسم
+tools/art/out/

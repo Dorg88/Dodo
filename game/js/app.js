@@ -234,41 +234,131 @@
 
   /* ================= الشاشة الرئيسية ================= */
   function renderHome(justRestored) {
-    $('#courtyard').innerHTML || ($('#courtyard').innerHTML = N.courtyardSVG());
-    N.applyCourtyard($('#courtyard svg'), N.save.restored, justRestored);
+    const scene = $('#courtyard');
+    if (!scene.firstChild) scene.innerHTML = N.sceneHTML();
+    N.applyCourtyard(scene, N.save.restored, justRestored);
     refreshStars();
+    const face = $('#av-face');
+    if (!face.firstChild) face.innerHTML = N.MASCOT_SVG;
+    const cur = Math.min(N.save.unlocked, N.LEVELS.length);
+    $('#av-level').textContent = ar(cur);
+    $('#av-bar').style.width = Math.round(((N.save.unlocked - 1) / N.LEVELS.length) * 100) + '%';
+    const next = N.COURTYARD_ITEMS.find((it) => !N.save.restored.includes(it.id));
+    $('#restore-badge').classList.toggle('hidden', !next || N.save.stars < next.cost);
+    $('#daily-dot').classList.toggle('hidden', N.save.daily.last === N.todayKey());
+    const due = N.Quiz.dueCount();
+    const rb = $('#review-badge');
+    rb.textContent = ar(Math.min(due, 99));
+    rb.classList.toggle('hidden', !due);
+    renderPath();
+    show('home');
+    N.music.play('menu');
+  }
+
+  /** مسار المراحل على أرضية الصحن: المرحلة الحالية في الوسط بإكليل ونجوم */
+  const SLOTS = [[15, 86.5], [33, 83], [53, 80.5], [73, 76.5], [86, 71.5]];
+  function renderPath() {
+    const total = N.LEVELS.length;
+    const cur = Math.min(N.save.unlocked, total);
+    const allDone = N.save.unlocked > total;
+    const start = Math.max(1, Math.min(cur - 2, total - SLOTS.length + 1));
+    const pts = SLOTS.map(([x, y], i) => ({ x, y, id: start + i })).filter((p) => p.id <= total);
+    const d = pts.map((p, i) => (i ? `Q${(pts[i - 1].x + p.x) / 2} ${Math.max(pts[i - 1].y, p.y) + 1.2} ${p.x} ${p.y}` : `M${p.x} ${p.y}`)).join(' ');
+    const nodes = pts
+      .map((p) => {
+        const locked = p.id > N.save.unlocked;
+        const current = p.id === cur && !allDone;
+        const st = N.save.levelStars[p.id] || 0;
+        const kind = locked ? 'lock' : current ? 'cur' : 'done';
+        return `<button class="lnode ${kind}" data-l="${p.id}" style="left:${p.x}%;top:${p.y}%" ${locked ? 'disabled' : ''}>
+          ${current ? `<img class="ln-laurel" src="${N.UIART.laurel}" alt="">` : ''}
+          <img class="ln-base" src="${N.UIART.node[kind]}" alt="">
+          <b class="ln-num">${locked ? `<img src="${N.UIART.icon.lock}" alt="">` : ar(p.id)}</b>
+          ${locked ? '' : `<span class="ln-stars">${[1, 2, 3].map((k) => `<i class="${k <= st || current ? 'on' : ''}"></i>`).join('')}</span>`}
+          ${current ? '<span class="ln-go">العب!</span>' : ''}
+        </button>`;
+      })
+      .join('');
+    const lp = $('#level-path');
+    lp.innerHTML = `<svg class="lp-line" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <path d="${d}" class="lp-glow"/><path d="${d}" class="lp-dots"/></svg>${nodes}`;
+    lp.querySelectorAll('.lnode:not(.lock)').forEach((b) => (b.onclick = () => startLevel(+b.dataset.l)));
+  }
+
+  /** نافذة الترميم: العنصر التالي وثمنه بالنجوم */
+  function restorePopup() {
     const items = N.COURTYARD_ITEMS;
     const next = items.find((it) => !N.save.restored.includes(it.id));
     const done = N.save.restored.length;
-    const card = $('#restore-card');
+    const bar = `<div class="rs-progress"><span class="rs-bar"><i style="width:${Math.round((done / items.length) * 100)}%"></i></span><b>${ar(done)} / ${ar(items.length)}</b></div>`;
     if (!next) {
-      card.innerHTML = `${mascot('happy', '', 'tiny')}<div class="rc-text"><b>اكتمل الصحن — ما شاء الله! 🎉</b><small>رمّمت ${ar(done)} من ${ar(items.length)} – مراحل جديدة قريباً</small></div>`;
-    } else {
-      const can = N.save.stars >= next.cost;
-      card.innerHTML = `
-        ${mascot('happy', '', 'tiny')}
-        <div class="rc-text"><b>${can ? 'هيا نرمّم' : 'اجمع النجوم لترميم'} ${next.name} ${next.emoji}</b>
-          <small>${can ? 'عندك نجوم كافية!' : 'العب المستويات لتكسب النجوم'}</small>
-          <span class="rc-bar"><span style="width:${Math.round((done / items.length) * 100)}%"></span></span></div>
-        <button class="btn ${can ? 'gold pulse' : 'disabled'}" id="btn-restore">${ICON.star}<b>${ar(next.cost)}</b></button>`;
-      $('#btn-restore').onclick = () => {
-        if (N.save.stars < next.cost) return toast('تحتاج نجوماً أكثر — العب المستويات لتكسبها ⭐');
-        N.save.stars -= next.cost;
-        N.save.restored.push(next.id);
-        N.persist();
-        N.sfx.star();
-        renderHome(next.id);
-        toast(`تم ترميم ${next.name} ✨`);
-        confetti(60);
-      };
+      openModal(`${mascot('happy', 'اكتمل الصحن — ما شاء الله! 🎉', 'top jump')}${bar}
+        <p class="center">رمّمت كل عناصر الصحن. مراحل وترميمات جديدة قريباً بإذن الله.</p>
+        <div class="q-actions"><button class="btn play" id="m-ok">حسناً</button></div>`, 'restorecard', { title: 'ترميم الصحن', ribbon: 'gold', onClose: closeModal });
+      $('#m-ok').onclick = closeModal;
+      return;
     }
-    const cur = Math.min(N.save.unlocked, N.LEVELS.length);
-    const allDone = N.save.unlocked > N.LEVELS.length;
-    $('#btn-play').innerHTML = allDone ? '<span>أتممت كل المستويات! 🏆</span>' : `<span>المستوى ${ar(cur)}</span>`;
-    $('#btn-play').onclick = () => (allDone ? renderMap() : startLevel(cur));
-    $('#daily-dot').classList.toggle('hidden', N.save.daily.last === N.todayKey());
-    show('home');
-    N.music.play('menu');
+    const can = N.save.stars >= next.cost;
+    const card = openModal(
+      `<div class="rs-item"><img src="${N.UIART.icon.dome}" alt=""><div><small>العنصر التالي</small><b>${next.name} ${next.emoji}</b></div></div>
+       ${bar}
+       <p class="center rs-hint">${can ? 'عندك نجوم كافية — هيا نرمّم!' : `تحتاج ${ar(next.cost)} نجوم، ومعك ${ar(N.save.stars)}. العب المراحل لتكسب النجوم ⭐`}</p>
+       <div class="q-actions col">
+         <button class="btn ${can ? 'gold big pulse' : 'disabled big'}" id="rs-go">${ICON.star}<b>${ar(next.cost)}</b><span>رمّم</span></button>
+         ${can ? '' : '<button class="btn play" id="rs-play">العب المرحلة التالية</button>'}
+       </div>`,
+      'restorecard',
+      { title: 'ترميم الصحن', ribbon: 'gold', onClose: closeModal }
+    );
+    card.querySelector('#rs-go').onclick = () => {
+      if (N.save.stars < next.cost) return toast('تحتاج نجوماً أكثر — العب المراحل لتكسبها ⭐');
+      N.save.stars -= next.cost;
+      N.save.restored.push(next.id);
+      N.persist();
+      N.sfx.star();
+      closeModal();
+      renderHome(next.id);
+      toast(`تم ترميم ${next.name} ✨`);
+      confetti(70);
+    };
+    const pl = card.querySelector('#rs-play');
+    if (pl) pl.onclick = () => (closeModal(), startLevel(Math.min(N.save.unlocked, N.LEVELS.length)));
+  }
+
+  function howTo() {
+    const t = (i) => N.img(N.SPRITES.tiles[i], 'ht-tile');
+    openModal(
+      `<div class="howto">
+        <p>${t(2)}${t(2)}${t(2)} <b>اسحب</b> القطعة نحو جارتها لتجمع ٣ قطع متشابهة أو أكثر.</p>
+        <p>${N.img(N.SPRITES.ov.row, 'ht-tile')} ٤ في خط = <b>سهم</b> يمسح صفاً أو عموداً · شكل زاوية = <b>انفجار</b> · ٥ قطع = ${N.img(N.SPRITES.noor, 'ht-tile')} <b>كرة النور</b>.</p>
+        <p>${N.tileIcon('dust')} أنجز <b>الأهداف</b> قبل أن تنفد الحركات.</p>
+        <p>${ICON.q} <b>ادفع بالمعرفة:</b> بدلاً من الشراء بالمال، أجب عن الأسئلة لتحصل على المساعدة: المطرقة ١ · السهم ٢ · الخلط ١ · +٥ حركات = ٣ إجابات صحيحة.</p>
+        <p>${ICON.star} النجوم التي تكسبها <b>ترمّم الصحن</b> عنصراً بعد عنصر.</p>
+      </div>
+      <div class="q-actions"><button class="btn play" id="m-ok">فهمت!</button></div>`,
+      '',
+      { title: 'كيف ألعب', onClose: closeModal }
+    );
+    $('#m-ok').onclick = closeModal;
+  }
+
+  function about() {
+    openModal(
+      `<div class="about">
+        <p>«نور المعرفة» لعبة مطابقة تعليمية على نهج أهل البيت (عليهم السلام). لا توجد فيها أي مشتريات: كل مساعدة تُدفع بالمعرفة، أي بالإجابة عن الأسئلة.</p>
+        <p class="credit">إصدار: <b>شعبة البحوث والدراسات — قسم الشؤون الدينية</b><br>الأمانة العامة للعتبة الحسينية المقدسة</p>
+        <p class="warn">الأسئلة الحالية نسخة أولية (${ar(N.Quiz.bank.length)} سؤالاً) وتحتاج إلى مراجعة علمية قبل النشر.</p>
+      </div>
+      <div class="q-actions"><button class="btn play" id="m-ok">حسناً</button></div>`,
+      '',
+      { title: 'عن اللعبة', onClose: closeModal }
+    );
+    $('#m-ok').onclick = closeModal;
+  }
+
+  function review() {
+    if (!N.Quiz.dueCount()) return toast('لا توجد أخطاء للمراجعة — أحسنت! 🌟');
+    runLearn('review');
   }
 
   /* ================= الخريطة ================= */
@@ -397,12 +487,7 @@
     const card = openModal(`
       <label class="row-set"><span>🎵 الموسيقى</span><input type="checkbox" id="set-music" ${N.save.music ? 'checked' : ''}></label>
       <label class="row-set"><span>🔊 المؤثرات الصوتية</span><input type="checkbox" id="set-sound" ${N.save.sound ? 'checked' : ''}></label>
-      <div class="about">
-        <b>عن اللعبة</b>
-        <p>«نور المعرفة» لعبة مطابقة تعليمية على نهج أهل البيت (ع). لا توجد مشتريات: كل مساعدة تُدفع بالمعرفة، أي بالإجابة عن الأسئلة.</p>
-        <p class="credit">إصدار: <b>شعبة البحوث والدراسات — قسم الشؤون الدينية</b><br>الأمانة العامة للعتبة الحسينية المقدسة</p>
-        <p class="warn">الأسئلة الحالية نسخة أولية (${ar(N.Quiz.bank.length)} سؤالاً) وتحتاج إلى مراجعة علمية قبل النشر.</p>
-      </div>
+      <p class="credit">إصدار: <b>شعبة البحوث والدراسات — قسم الشؤون الدينية</b> — الأمانة العامة للعتبة الحسينية المقدسة</p>
       <div class="q-actions"><button class="btn danger" id="set-reset">مسح التقدم</button></div>`, '', { title: 'الإعدادات', onClose: closeModal });
     card.querySelector('#set-sound').onchange = (e) => {
       N.save.sound = e.target.checked;
@@ -455,7 +540,7 @@
        ${tutorial}
        <div class="q-actions"><button class="btn play big" id="lvl-go">العب</button></div>`,
       'lvlcard',
-      { title: `المستوى ${ar(id)}`, onClose: closeModal }
+      { title: `المرحلة ${ar(id)}`, onClose: closeModal }
     );
     card.querySelector('#lvl-go').onclick = () => {
       closeModal();
@@ -468,8 +553,7 @@
     if (G) G.board.destroy();
     show('game');
     N.music.play('game');
-    $('#hud-level').textContent = 'المستوى ' + ar(level.id);
-    $('#hud-mascot').innerHTML = `<div class="mascot">${N.MASCOT_SVG}</div>`;
+    $('#hud-level').textContent = ar(level.id);
     const ch = N.chapterOf(level);
     G = { level, chapter: ch, bonusTried: false, paid: {} };
     lastMoves = null;
@@ -495,7 +579,7 @@
   function goalBanner(level, goals) {
     const el = document.createElement('div');
     el.className = 'goal-banner';
-    el.innerHTML = `<div class="ribbon gold"><span>المستوى ${ar(level.id)}</span></div>
+    el.innerHTML = `<div class="ribbon gold"><span>المرحلة ${ar(level.id)}</span></div>
       <div class="gb-in"><div class="goals big">${goals.map((g) => goalHTML(g, true)).join('')}</div></div>`;
     $('#screen-game').appendChild(el);
     setTimeout(() => el.remove(), 2100);
@@ -614,7 +698,7 @@
        <div class="goals big">${b.goals.filter((g) => g.left > 0).map((g) => goalHTML(g)).join('')}</div>
        <button class="btn play big buy" id="oom-buy"><span class="bl">+${ar(N.EXTRA_MOVES)} حركات</span>
          <small>${ICON.q} أجب عن ${ar(N.QPRICE.moves)} أسئلة بدلاً من الدفع</small></button>
-       <div class="q-actions"><button class="btn ghost" id="oom-retry">إعادة المستوى</button><button class="btn danger" id="oom-exit">خروج</button></div>`,
+       <div class="q-actions"><button class="btn ghost" id="oom-retry">إعادة المرحلة</button><button class="btn danger" id="oom-exit">خروج</button></div>`,
       'lvlcard',
       { title: 'انتهت الحركات!', ribbon: 'red' }
     );
@@ -667,10 +751,10 @@
     const card = openModal(
       `<div class="win-stars"><i class="rays big"></i>${[1, 2, 3].map((i) => `<span class="${i <= G.earned ? 'on' : ''}">${ICON.star}</span>`).join('')}</div>
        ${mascot('happy', 'رائع! أنت بطل! 🏆', 'top jump')}
-       <h3 class="win-title">أتممت المستوى ${ar(level.id)}</h3>
+       <h3 class="win-title">أتممت المرحلة ${ar(level.id)}</h3>
        <ul class="win-list">
-         ${line(true, 'إتمام المستوى')}
-         ${line(movesBonus, `إنهاء المستوى ومعك ${ar(Math.ceil(level.moves * 0.2))} حركات أو أكثر`)}
+         ${line(true, 'إتمام المرحلة')}
+         ${line(movesBonus, `إنهاء المرحلة ومعك ${ar(Math.ceil(level.moves * 0.2))} حركات أو أكثر`)}
          ${line(G.bonusOk, 'الإجابة عن سؤال المكافأة')}
        </ul>
        <div class="q-actions col">
@@ -701,7 +785,7 @@
       `${mascot('happy', 'خذ استراحة قصيرة ☕', 'top')}
        <label class="row-set"><span>🎵 الموسيقى</span><input type="checkbox" id="p-music" ${N.save.music ? 'checked' : ''}></label>
        <label class="row-set"><span>🔊 المؤثرات الصوتية</span><input type="checkbox" id="p-sound" ${N.save.sound ? 'checked' : ''}></label>
-       <div class="q-actions col"><button class="btn play big" id="ex-no">متابعة اللعب</button><button class="btn danger" id="ex-yes">الخروج من المستوى</button></div>`,
+       <div class="q-actions col"><button class="btn play big" id="ex-no">متابعة اللعب</button><button class="btn danger" id="ex-yes">الخروج من المرحلة</button></div>`,
       '',
       { title: 'إيقاف مؤقت', onClose: closeModal }
     );
@@ -729,15 +813,21 @@
     document.querySelectorAll('[data-go]').forEach((b) =>
       b.addEventListener('click', () => {
         const go = b.dataset.go;
+        N.sfx.tap();
         if (go === 'map') renderMap();
         else if (go === 'learn') openLearn();
         else if (go === 'daily') daily();
         else if (go === 'settings') settings();
         else if (go === 'home') renderHome();
+        else if (go === 'restore') restorePopup();
+        else if (go === 'howto') howTo();
+        else if (go === 'about') about();
+        else if (go === 'review') review();
       })
     );
     $('#btn-exit').onclick = pauseMenu;
     document.querySelectorAll('.ico-star').forEach((e) => (e.outerHTML = ICON.star));
+    document.querySelectorAll('[data-ic]').forEach((e) => (e.innerHTML = N.img(N.UIART.icon[e.dataset.ic])));
     renderHome();
     N.runIntro();
   }

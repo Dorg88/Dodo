@@ -3,57 +3,60 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
-  <meta name="theme-color" content="#0c1f3f">
+  <meta name="theme-color" content="#0a1847">
   <title>نور المعرفة</title>
   <link rel="stylesheet" href="fonts/fonts.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- ===== المقدمة: الشعارات ثم بطاقة العنوان ===== -->
+  <!-- ===== شاشة البداية ===== -->
   <div id="intro" class="intro" aria-live="polite">
-    <div class="intro-slide logo-slide">
-      <img src="img/logo-husseini-shrine.png" alt="الأمانة العامة للعتبة الحسينية المقدسة">
-      <span class="skip-hint">اضغط للتخطي</span>
-    </div>
-    <div class="intro-slide logo-slide">
-      <img src="img/logo-research-division.png" alt="شعبة البحوث والدراسات — قسم الشؤون الدينية">
-      <span class="skip-hint">اضغط للتخطي</span>
-    </div>
-    <div class="intro-slide title-slide">
-      <p class="basmala">بسم الله الرحمن الرحيم</p>
-      <div class="intro-star" id="intro-star"></div>
-      <h1 class="logo intro-title">نور المعرفة</h1>
-      <p class="tagline">العب وتعلّم مع نوري 🕊️<br>على نهج أهل البيت (عليهم السلام)</p>
-      <button class="btn-play intro-start" id="intro-start">ابدأ</button>
+    <div class="intro-bg"></div>
+    <div class="intro-glow"></div>
+    <p class="basmala">بسم الله الرحمن الرحيم</p>
+    <div class="intro-center">
+      <img class="intro-logo" src="img/ui/logo.webp" alt="نور المعرفة">
+      <p class="tagline">رحلة إيمانية مليئة بالمغامرات<br>إلى عالم من العلم والقيم</p>
+      <button class="btn-start" id="intro-start"><span class="bs-ico">▶</span><span>ابدأ اللعب</span></button>
     </div>
   </div>
 
   <main id="app">
     <!-- ===== الشاشة الرئيسية: الصحن ===== -->
     <section id="screen-home" class="screen">
-      <div class="home-scene"><div id="courtyard"></div><div class="scene-fade"></div></div>
-      <header class="topbar home-top">
+      <div class="scene-wrap"><div id="courtyard" class="scene"></div><div class="scene-shade"></div></div>
+      <header class="home-top">
+        <button class="avatar" data-go="map" aria-label="المراحل">
+          <span class="av-ring"><span class="av-face" id="av-face"></span></span>
+          <span class="av-star"><b id="av-level">١</b></span>
+          <span class="av-bar"><i id="av-bar"></i></span>
+        </button>
+        <div class="title-cart"><span>نور المعرفة</span></div>
         <span class="pill stars"><i class="ico-star"></i><b data-stars>٠</b></span>
-        <h1 class="logo">نور المعرفة</h1>
-        <button class="round-btn" data-go="settings" aria-label="الإعدادات">⚙️</button>
       </header>
-      <div class="home-bottom">
-        <div id="restore-card" class="restore-card"></div>
-        <button id="btn-play" class="btn-play"><span>المستوى ١</span></button>
-        <nav class="tabbar">
-          <button data-go="map"><span class="tab-ico">🗺️</span><span>الخريطة</span></button>
-          <button data-go="learn"><span class="tab-ico">📚</span><span>تعلّم</span></button>
-          <button data-go="daily"><span class="tab-ico">🎁</span><span>سؤال اليوم</span><i id="daily-dot" class="dot"></i></button>
-          <button data-go="settings"><span class="tab-ico">⚙️</span><span>الإعدادات</span></button>
-        </nav>
+      <div class="side side-r">
+        <button class="side-btn" data-go="daily"><span class="sb-ico" data-ic="gift"></span><span class="sb-lbl">سؤال اليوم</span><i id="daily-dot" class="badge">!</i></button>
+        <button class="side-btn" data-go="review"><span class="sb-ico" data-ic="review"></span><span class="sb-lbl">مراجعة أخطائي</span><i id="review-badge" class="badge hidden"></i></button>
       </div>
+      <div class="side side-l">
+        <button class="side-btn" data-go="howto"><span class="sb-ico" data-ic="scroll"></span><span class="sb-lbl">كيف ألعب</span></button>
+        <button class="side-btn" data-go="about"><span class="sb-ico" data-ic="about"></span><span class="sb-lbl">عن اللعبة</span></button>
+      </div>
+      <div id="level-path" class="level-path"></div>
+      <nav class="navbar">
+        <button data-go="map"><span class="nv-ico" data-ic="map"></span><span>المراحل</span></button>
+        <button data-go="learn"><span class="nv-ico" data-ic="book"></span><span>تعلّم</span></button>
+        <button data-go="home" class="nv-home on"><span class="nv-ico" data-ic="home"></span><span>الرئيسية</span></button>
+        <button data-go="restore"><span class="nv-ico" data-ic="dome"></span><span>الترميم</span><i id="restore-badge" class="badge hidden">!</i></button>
+        <button data-go="settings"><span class="nv-ico" data-ic="gear"></span><span>الإعدادات</span></button>
+      </nav>
     </section>
 
-    <!-- ===== الخريطة ===== -->
+    <!-- ===== المراحل ===== -->
     <section id="screen-map" class="screen">
       <header class="topbar">
         <button class="round-btn back" data-go="home" aria-label="رجوع">➜</button>
-        <h2>خريطة المستويات</h2>
+        <h2>المراحل</h2>
         <span class="pill stars"><i class="ico-star"></i><b data-stars>٠</b></span>
       </header>
       <div id="map-list" class="map-list"></div>
@@ -63,10 +66,10 @@
     <section id="screen-learn" class="screen">
       <header class="topbar">
         <button class="round-btn back" data-go="home" aria-label="رجوع">➜</button>
-        <h2>تعلّم واختبر نفسك</h2>
+        <h2>مكتبة المعرفة</h2>
         <span class="pill stars"><i class="ico-star"></i><b data-stars>٠</b></span>
       </header>
-      <p class="learn-intro">تدرّب على الأسئلة في أي وقت. وحين تعلق في المستوى، تدفع بالمعرفة: تجيب عن أسئلة بدلاً من الشراء!</p>
+      <p class="learn-intro">تدرّب على الأسئلة في أي وقت. وحين تعلق في المرحلة، تدفع بالمعرفة: تجيب عن أسئلة بدلاً من الشراء!</p>
       <div id="learn-diff" class="segmented"></div>
       <div id="learn-cats" class="cat-grid"></div>
     </section>
@@ -76,12 +79,9 @@
       <div class="game-bg"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
       <div class="hud2">
         <div class="hud-panel">
+          <div class="hp-plaque hp-level"><span class="hp-title">المرحلة</span><b id="hud-level">١</b></div>
           <div class="hp-goals"><span class="hp-title">الأهداف</span><div id="hud-goals" class="goals"></div></div>
-          <div class="hp-moves"><span class="hp-title">الحركات</span><b id="hud-moves">٠</b></div>
-          <div class="hp-side">
-            <div class="hud-mascot" id="hud-mascot"></div>
-            <div class="level-ribbon"><span id="hud-level">المستوى ١</span></div>
-          </div>
+          <div class="hp-plaque hp-moves"><span class="hp-title">الحركات</span><b id="hud-moves">٠</b></div>
         </div>
       </div>
       <div id="board-host" class="board-host"></div>
@@ -102,6 +102,7 @@
   <script src="data/questions.js"></script>
   <script src="js/quiz.js"></script>
   <script src="js/board.js"></script>
+  <script src="img/art/home-layers.js"></script>
   <script src="js/courtyard.js"></script>
   <script src="js/intro.js"></script>
   <script src="js/app.js"></script>
