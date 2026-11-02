@@ -17,7 +17,7 @@ const vm = require('vm');
 const root = path.join(__dirname, '..');
 const JS_FILE = path.join(root, 'data/questions.js');
 const COLS = ['id', 'category', 'difficulty', 'question', 'correct', 'wrong1', 'wrong2', 'wrong3', 'explanation', 'source', 'status', 'reviewer'];
-const PREFIX = { quran: 'QUR', prophet: 'PRO', masumeen: 'IMM', aqeedah: 'AQD', fiqh: 'FQH', akhlaq: 'AKH', duas: 'DUA', history: 'HIS', places: 'PLC', occasions: 'OCC', prophets: 'NBI' };
+const PREFIX = { quran: 'QUR', prophet: 'PRO', masumeen: 'IMM', aqeedah: 'AQD', fiqh: 'FQH', akhlaq: 'AKH', duas: 'DUA', history: 'HIS', places: 'PLC', occasions: 'OCC', prophets: 'NBI', karbala: 'KRB', science: 'SCI', social: 'SOC', general: 'GEN' };
 
 function loadBank() {
   const ctx = { window: {} };

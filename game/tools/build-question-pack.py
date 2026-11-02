@@ -25,7 +25,8 @@ def ar(n):
 
 
 PREFIX = {'quran': 'QUR', 'prophet': 'PRO', 'masumeen': 'IMM', 'aqeedah': 'AQD', 'fiqh': 'FQH', 'akhlaq': 'AKH',
-          'duas': 'DUA', 'history': 'HIS', 'places': 'PLC', 'occasions': 'OCC', 'prophets': 'NBI'}
+          'duas': 'DUA', 'history': 'HIS', 'places': 'PLC', 'occasions': 'OCC', 'prophets': 'NBI',
+          'karbala': 'KRB', 'science': 'SCI', 'social': 'SOC', 'general': 'GEN'}
 counters = {}
 out = []
 
@@ -579,6 +580,10 @@ qpack2.build(add, others, near, ar, SURAHS)
 qpack2.build3(add, others, near, ar, EVENTS)
 qpack2.build4(add, others, near, ar, SURAHS)
 qpack2.build5(add, others)
+
+# الحزمة الثالثة: العلوم، الثقافة العامة، المجتمع والأسرة، كربلاء والعتبة الحسينية، الحضارة (tools/qpack3.py)
+import qpack3  # noqa: E402
+qpack3.build(add, others, near, ar)
 
 # =====================================================================================
 # الدمج مع الأسئلة اليدوية الأصلية وكتابة الملفات

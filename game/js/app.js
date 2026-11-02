@@ -10,6 +10,7 @@
     quran: ['📖', '#3d9bff'], prophet: ['🌙', '#2fbf71'], prophets: ['⛵', '#0ea5e9'], masumeen: ['✨', '#a66cff'], aqeedah: ['💡', '#ffa41b'],
     fiqh: ['🕋', '#ff5c7a'], akhlaq: ['💖', '#ff7ab6'], duas: ['🤲', '#22b8a5'], history: ['📜', '#ff8a3d'],
     places: ['🕌', '#5b7cff'], occasions: ['🎉', '#e8559a'],
+    karbala: ['🚩', '#c0262d'], science: ['🔬', '#0f9f8f'], social: ['🤝', '#f97316'], general: ['🌍', '#6366f1'],
   };
   const CHAPTER_COLORS = ['#3d9bff', '#2fbf71', '#a66cff', '#ffa41b', '#ff5c7a', '#22b8a5'];
 

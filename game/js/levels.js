@@ -16,15 +16,19 @@
     history: 'التاريخ الإسلامي',
     places: 'المشاهد المشرّفة',
     occasions: 'المناسبات الإسلامية',
+    karbala: 'كربلاء والعتبة الحسينية',
+    science: 'العلوم والطبيعة',
+    social: 'المجتمع والأسرة والآداب',
+    general: 'ثقافة عامة',
   };
 
   N.CHAPTERS = [
     { id: 1, name: 'نور القرآن', categories: ['quran'], maxDifficulty: 1 },
     { id: 2, name: 'السيرة النبوية', categories: ['prophet', 'prophets'], maxDifficulty: 2 },
-    { id: 3, name: 'أهل البيت (ع)', categories: ['masumeen', 'occasions'], maxDifficulty: 2 },
-    { id: 4, name: 'العقيدة والأحكام', categories: ['aqeedah', 'fiqh'], maxDifficulty: 2 },
-    { id: 5, name: 'الدعاء والأخلاق', categories: ['duas', 'akhlaq'], maxDifficulty: 3 },
-    { id: 6, name: 'التاريخ والمشاهد', categories: ['history', 'places', 'occasions'], maxDifficulty: 3 },
+    { id: 3, name: 'أهل البيت (ع)', categories: ['masumeen', 'occasions', 'karbala'], maxDifficulty: 2 },
+    { id: 4, name: 'العقيدة والأحكام', categories: ['aqeedah', 'fiqh', 'social'], maxDifficulty: 2 },
+    { id: 5, name: 'الدعاء والأخلاق', categories: ['duas', 'akhlaq', 'science'], maxDifficulty: 3 },
+    { id: 6, name: 'التاريخ والمشاهد', categories: ['history', 'places', 'karbala', 'general'], maxDifficulty: 3 },
   ];
 
   const full = (rows = 8, cols = 8) => Array(rows).fill('.'.repeat(cols));
