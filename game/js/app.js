@@ -7,7 +7,7 @@
   const ICON = N.ICON;
   // لون ورمز لكل قسم في بنك الأسئلة
   const CAT_STYLE = {
-    quran: ['📖', '#3d9bff'], prophet: ['🌙', '#2fbf71'], masumeen: ['✨', '#a66cff'], aqeedah: ['💡', '#ffa41b'],
+    quran: ['📖', '#3d9bff'], prophet: ['🌙', '#2fbf71'], prophets: ['⛵', '#0ea5e9'], masumeen: ['✨', '#a66cff'], aqeedah: ['💡', '#ffa41b'],
     fiqh: ['🕋', '#ff5c7a'], akhlaq: ['💖', '#ff7ab6'], duas: ['🤲', '#22b8a5'], history: ['📜', '#ff8a3d'],
     places: ['🕌', '#5b7cff'], occasions: ['🎉', '#e8559a'],
   };

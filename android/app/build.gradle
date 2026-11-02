@@ -52,6 +52,6 @@ android {
 
     androidResources {
         // استبعاد أدوات التطوير والجدول من التطبيق (مع إبقاء الاستثناءات الافتراضية)
-        ignoreAssetsPattern '!.svn:!.git:!.ds_store:!*.scc:.*:<dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~:!<dir>tools:!README.md:!*.csv'
+        ignoreAssetsPattern '!.svn:!.git:!.ds_store:!*.scc:.*:<dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~:!<dir>tools:!README.md:!*.csv:!*.mp3'
     }
 }

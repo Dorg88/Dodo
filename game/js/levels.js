@@ -7,6 +7,7 @@
   N.CATEGORIES = {
     quran: 'القرآن الكريم',
     prophet: 'النبي ﷺ والسيرة',
+    prophets: 'قصص الأنبياء (ع)',
     masumeen: 'المعصومون الأربعة عشر (ع)',
     aqeedah: 'أصول الدين',
     fiqh: 'فروع الدين والأحكام',
@@ -19,7 +20,7 @@
 
   N.CHAPTERS = [
     { id: 1, name: 'نور القرآن', categories: ['quran'], maxDifficulty: 1 },
-    { id: 2, name: 'السيرة النبوية', categories: ['prophet', 'quran'], maxDifficulty: 2 },
+    { id: 2, name: 'السيرة النبوية', categories: ['prophet', 'prophets'], maxDifficulty: 2 },
     { id: 3, name: 'أهل البيت (ع)', categories: ['masumeen', 'occasions'], maxDifficulty: 2 },
     { id: 4, name: 'العقيدة والأحكام', categories: ['aqeedah', 'fiqh'], maxDifficulty: 2 },
     { id: 5, name: 'الدعاء والأخلاق', categories: ['duas', 'akhlaq'], maxDifficulty: 3 },
