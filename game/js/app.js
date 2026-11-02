@@ -80,6 +80,7 @@
     m.querySelector('.modal-card').className = 'modal-card ' + cls;
     m.querySelector('.modal-card').innerHTML = html;
     m.classList.remove('hidden');
+    N.sfx.popup();
     return m.querySelector('.modal-card');
   }
   function closeModal() {
@@ -133,6 +134,7 @@
             N.sfx.correct();
             N.vibrate(20);
             confetti(45);
+            if (award && result.points) setTimeout(() => N.sfx.coin(), 350);
           } else N.sfx.wrong();
           const gain = correct && award ? `<span class="gain">${ICON.points} +${ar(result.points)}${result.bonus ? ` – مكافأة السلسلة +${ar(result.bonus)}` : ''}</span>` : '';
           card.querySelector('.q-feedback').innerHTML = `
@@ -180,7 +182,7 @@
         N.save.stars -= next.cost;
         N.save.restored.push(next.id);
         N.persist();
-        N.sfx.win();
+        N.sfx.star();
         renderHome(next.id);
         toast(`تم ترميم ${next.name} ✨`);
         confetti(60);
@@ -193,6 +195,7 @@
     $('#btn-play').onclick = () => (allDone ? renderMap() : startLevel(cur));
     $('#daily-dot').classList.toggle('hidden', N.save.daily.last === N.todayKey());
     show('home');
+    N.music.play('menu');
   }
 
   /* ---------- الخريطة ---------- */
@@ -229,6 +232,7 @@
     $('#map-list').innerHTML = html;
     $('#map-list').querySelectorAll('.node:not(.locked)').forEach((b) => (b.onclick = () => startLevel(+b.dataset.l)));
     show('map');
+    N.music.play('menu');
     const cur = $('#map-list .node.current');
     if (cur) cur.scrollIntoView({ block: 'center' });
   }
@@ -239,6 +243,7 @@
     $('#bank-back').textContent = fromGame ? 'العودة إلى اللعب ←' : 'رجوع ←';
     renderBank();
     show('bank');
+    if (!fromGame) N.music.play('menu');
   }
 
   function renderBank() {
@@ -337,7 +342,8 @@
   /* ---------- الإعدادات ---------- */
   function settings() {
     const card = openModal(`<h3>الإعدادات</h3>
-      <label class="row-set"><span>المؤثرات الصوتية</span><input type="checkbox" id="set-sound" ${N.save.sound ? 'checked' : ''}></label>
+      <label class="row-set"><span>🎵 الموسيقى</span><input type="checkbox" id="set-music" ${N.save.music ? 'checked' : ''}></label>
+      <label class="row-set"><span>🔊 المؤثرات الصوتية</span><input type="checkbox" id="set-sound" ${N.save.sound ? 'checked' : ''}></label>
       <div class="about">
         <b>عن اللعبة</b>
         <p>«نور المعرفة» لعبة مطابقة تعليمية على نهج أهل البيت (ع). لا توجد مشتريات داخل اللعبة: كل المساعدات تُكسب بالإجابة عن الأسئلة.</p>
@@ -351,7 +357,9 @@
     card.querySelector('#set-sound').onchange = (e) => {
       N.save.sound = e.target.checked;
       N.persist();
+      N.sfx.tap();
     };
+    card.querySelector('#set-music').onchange = (e) => N.music.setEnabled(e.target.checked);
     card.querySelector('#set-close').onclick = closeModal;
     card.querySelector('#set-reset').onclick = () => {
       if (!confirm('هل تريد مسح كل التقدم؟')) return;
@@ -400,6 +408,7 @@
     card.querySelector('#lvl-cancel').onclick = closeModal;
     card.querySelector('#lvl-go').onclick = () => {
       closeModal();
+      N.sfx.start();
       playLevel(level);
     };
   }
@@ -407,6 +416,7 @@
   function playLevel(level) {
     if (G) G.board.destroy();
     show('game');
+    N.music.play('game');
     $('#hud-level').textContent = 'المستوى ' + ar(level.id);
     const ch = N.chapterOf(level);
     const board = new N.Board($('#board-host'), level, {
@@ -497,6 +507,7 @@
 
   function showOutOfMoves() {
     const b = G.board;
+    N.sfx.lose();
     const cost = N.COSTS.moves;
     const can = N.save.points >= cost;
     const card = openModal(`${mascot('sad', 'لا تقلق! يمكنك أن تكمل 💪', 'top')}
@@ -516,6 +527,7 @@
       N.persist();
       closeModal();
       b.addMoves(N.EXTRA_MOVES);
+      N.sfx.coin();
       refreshPoints();
       toast(`+${ar(N.EXTRA_MOVES)} حركات — بالتوفيق!`);
     };

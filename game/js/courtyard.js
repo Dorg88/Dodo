@@ -111,9 +111,7 @@
           }).join('')}
         </g>
         <circle cx="352" cy="48" r="23" fill="#ffd23f" stroke="${INK}" stroke-width="2.5"/>
-        <circle cx="344" cy="45" r="2.6" fill="${INK}"/><circle cx="360" cy="45" r="2.6" fill="${INK}"/>
-        <path d="M344 54 Q352 61 360 54" stroke="${INK}" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-        <ellipse cx="338" cy="52" rx="4" ry="2.4" fill="#ff8fa3" opacity=".7"/><ellipse cx="366" cy="52" rx="4" ry="2.4" fill="#ff8fa3" opacity=".7"/>
+        <circle cx="345" cy="41" r="7" fill="#fff6c2" opacity=".8"/>
       </g>
       ${cloud(20, 30, 0.9, 'c1')}${cloud(150, 12, 0.6, 'c2')}${cloud(250, 70, 0.55, 'c3')}
 

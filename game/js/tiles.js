@@ -18,16 +18,16 @@
   // تدرّجات لونية مشتركة (تُحقن مرة واحدة في الصفحة)
   N.injectDefs = function () {
     if (document.getElementById('noor-defs')) return;
-    const grad = (id, a, b) =>
-      `<radialGradient id="${id}" cx="35%" cy="28%" r="80%"><stop offset="0" stop-color="${a}"/><stop offset="1" stop-color="${b}"/></radialGradient>`;
+    const grad = (id, a, b, c) =>
+      `<radialGradient id="${id}" cx="38%" cy="30%" r="78%" fx="32%" fy="22%"><stop offset="0" stop-color="${a}"/><stop offset=".55" stop-color="${b}"/><stop offset="1" stop-color="${c || b}"/></radialGradient>`;
     const div = document.createElement('div');
     div.innerHTML = `<svg id="noor-defs" width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
-      ${grad('tStar', '#fff7b0', '#ffc21a')}
-      ${grad('tDate', '#ffc98a', '#d9701f')}
-      ${grad('tPom', '#ff9aa9', '#e0294d')}
-      ${grad('tGrape', '#d9b8ff', '#8a4ff0')}
-      ${grad('tOlive', '#d2f7a1', '#4cb83a')}
-      ${grad('tDrop', '#c4f1ff', '#2b9cf0')}
+      ${grad('tStar', '#fffbd1', '#ffc61a', '#d98a00')}
+      ${grad('tDate', '#ffd9a8', '#e07a24', '#8f420c')}
+      ${grad('tPom', '#ffc2cb', '#ec2f55', '#9c0f2d')}
+      ${grad('tGrape', '#ecdcff', '#9558f5', '#5420b8')}
+      ${grad('tOlive', '#e6ffc2', '#56c23e', '#23752a')}
+      ${grad('tDrop', '#e3f9ff', '#33a8f5', '#0d5cb3')}
       ${grad('gGold', '#fff1b8', '#f2b51f')}
       ${grad('gBubble', '#ffffff', '#9fdcff')}
       <filter id="ruin"><feColorMatrix type="saturate" values="0.05"/></filter>
@@ -37,52 +37,46 @@
 
   const svg = (inner, vb = '0 0 100 100') => `<svg viewBox="${vb}" aria-hidden="true">${inner}</svg>`;
 
-  // وجه مبتسم بعينين لامعتين (العينان ترمشان عبر CSS)
-  const face = (cx, cy, s = 1) => `<g transform="translate(${cx} ${cy}) scale(${s})">
-      <ellipse cx="-15" cy="7" rx="5.5" ry="3.4" fill="#ff6f9f" opacity=".55"/>
-      <ellipse cx="15" cy="7" rx="5.5" ry="3.4" fill="#ff6f9f" opacity=".55"/>
-      <g class="eyes">
-        <ellipse cx="-9" cy="-4" rx="5.6" ry="6.8" fill="#fff" stroke="${INK}" stroke-width="1.6"/>
-        <ellipse cx="9" cy="-4" rx="5.6" ry="6.8" fill="#fff" stroke="${INK}" stroke-width="1.6"/>
-        <circle cx="-8" cy="-3" r="3.7" fill="${INK}"/><circle cx="10" cy="-3" r="3.7" fill="${INK}"/>
-        <circle cx="-6.8" cy="-4.8" r="1.4" fill="#fff"/><circle cx="11.2" cy="-4.8" r="1.4" fill="#fff"/>
-      </g>
-      <path d="M-6 6 Q0 12.5 6 6" fill="none" stroke="${INK}" stroke-width="2.8" stroke-linecap="round"/>
-    </g>`;
   const gloss = (cx, cy, rx, ry, rot = -30) =>
     `<ellipse cx="${cx}" cy="${cy}" rx="${rx}" ry="${ry}" fill="#fff" opacity=".6" transform="rotate(${rot} ${cx} ${cy})"/>`;
+
+  const sparkle = (x, y, r = 6) =>
+    `<path d="M${x} ${y - r} Q${x} ${y} ${x + r} ${y} Q${x} ${y} ${x} ${y + r} Q${x} ${y} ${x - r} ${y} Q${x} ${y} ${x} ${y - r} Z" fill="#fff"/>`;
 
   // ٦ قطع بألوان قوس قزح: نجمة، تمرة، رمّانة، عنب، زيتونة، قطرة ماء
   N.TILE_NAMES = ['النجمة', 'التمرة', 'الرمّانة', 'العنب', 'الزيتونة', 'قطرة الماء'];
   N.TILE_COLORS = ['#ffc21a', '#ff9f43', '#ff4d6d', '#a66cff', '#6fcf4a', '#3db8f5'];
   N.TILE_SVG = [
-    // 0 نجمة صفراء
-    svg(`<polygon points="${starPoints(50, 55, 47, 23, 5)}" fill="url(#tStar)" stroke="#c77800" stroke-width="5" stroke-linejoin="round"/>
-         ${gloss(36, 38, 7, 4)}${face(50, 60, 0.82)}`),
-    // 1 تمرة
-    svg(`<ellipse cx="50" cy="57" rx="30" ry="37" fill="url(#tDate)" stroke="#7a3a0a" stroke-width="4.5"/>
-         <ellipse cx="50" cy="20" rx="11" ry="6" fill="#ffd56b" stroke="#7a3a0a" stroke-width="3.5"/>
-         ${gloss(36, 38, 7, 12, 20)}${face(50, 60, 0.9)}`),
+    // 0 نجمة ذهبية بحواف مشطوفة
+    svg(`<polygon points="${starPoints(50, 54, 47, 22, 5)}" fill="url(#tStar)" stroke="#9a5a00" stroke-width="4" stroke-linejoin="round"/>
+         <polygon points="${starPoints(50, 54, 27, 12.5, 5)}" fill="#fff6b8" opacity=".55"/>
+         ${gloss(37, 38, 7, 3.5, -35)}${sparkle(70, 30, 6)}`),
+    // 1 تمرة لامعة
+    svg(`<ellipse cx="50" cy="57" rx="29" ry="37" fill="url(#tDate)" stroke="#6b2f06" stroke-width="4"/>
+         <path d="M36 40 Q38 28 50 24" stroke="#fff" stroke-width="5" stroke-linecap="round" fill="none" opacity=".55"/>
+         <ellipse cx="50" cy="20" rx="12" ry="6.5" fill="#ffcf5c" stroke="#6b2f06" stroke-width="3.5"/>
+         ${gloss(39, 48, 4, 10, 15)}${sparkle(64, 74, 4)}`),
     // 2 رمّانة
-    svg(`<path d="M37 27 L35 11 L43 18 L50 8 L57 18 L65 11 L63 27 Z" fill="#e8344f" stroke="#8a0f28" stroke-width="4" stroke-linejoin="round"/>
-         <circle cx="50" cy="59" r="35" fill="url(#tPom)" stroke="#8a0f28" stroke-width="4.5"/>
-         ${gloss(35, 44, 8, 11, 30)}${face(50, 62, 0.95)}`),
+    svg(`<path d="M37 27 L35 11 L43 18 L50 8 L57 18 L65 11 L63 27 Z" fill="#c8173d" stroke="#6e0a20" stroke-width="3.5" stroke-linejoin="round"/>
+         <circle cx="50" cy="59" r="35" fill="url(#tPom)" stroke="#6e0a20" stroke-width="4"/>
+         ${gloss(36, 44, 9, 13, 30)}${sparkle(66, 40, 6)}`),
     // 3 عنقود عنب
-    svg(`<path d="M50 22 Q52 12 58 8" stroke="#7a4a1e" stroke-width="4" fill="none" stroke-linecap="round"/>
-         <path d="M54 16 Q70 4 82 14 Q72 28 54 16 Z" fill="#5fc24a" stroke="#2c6e1f" stroke-width="3" stroke-linejoin="round"/>
-         <g fill="url(#tGrape)" stroke="#4b1f99" stroke-width="3.5">
+    svg(`<path d="M50 22 Q52 12 58 8" stroke="#6b3d14" stroke-width="4" fill="none" stroke-linecap="round"/>
+         <path d="M54 16 Q70 4 82 14 Q72 28 54 16 Z" fill="#5fc24a" stroke="#235e18" stroke-width="3" stroke-linejoin="round"/>
+         <g fill="url(#tGrape)" stroke="#3d128c" stroke-width="3.2">
            <circle cx="31" cy="36" r="15"/><circle cx="50" cy="32" r="15"/><circle cx="69" cy="36" r="15"/>
            <circle cx="39" cy="56" r="16"/><circle cx="61" cy="56" r="16"/><circle cx="50" cy="76" r="16"/>
          </g>
-         ${gloss(26, 30, 4, 6, 30)}${gloss(45, 26, 4, 6, 30)}${face(50, 58, 0.85)}`),
+         <g fill="#fff" opacity=".75"><circle cx="26" cy="30" r="3.5"/><circle cx="45" cy="26" r="3.5"/><circle cx="64" cy="30" r="3.5"/><circle cx="34" cy="50" r="3.5"/><circle cx="56" cy="50" r="3.5"/><circle cx="45" cy="70" r="3.5"/></g>`),
     // 4 زيتونة
     svg(`<path d="M58 20 Q60 10 66 6" stroke="#5b3a1a" stroke-width="4" fill="none" stroke-linecap="round"/>
-         <path d="M62 12 Q80 2 92 12 Q78 24 62 12 Z" fill="#3e9b2f" stroke="#1f5e1a" stroke-width="3" stroke-linejoin="round"/>
-         <ellipse cx="50" cy="58" rx="31" ry="37" fill="url(#tOlive)" stroke="#1f5e1a" stroke-width="4.5" transform="rotate(-12 50 58)"/>
-         ${gloss(36, 40, 7, 12, 10)}${face(49, 61, 0.92)}`),
+         <path d="M62 12 Q80 2 92 12 Q78 24 62 12 Z" fill="#3e9b2f" stroke="#1a4f16" stroke-width="3" stroke-linejoin="round"/>
+         <ellipse cx="50" cy="58" rx="30" ry="37" fill="url(#tOlive)" stroke="#1a4f16" stroke-width="4" transform="rotate(-12 50 58)"/>
+         ${gloss(38, 42, 6, 13, 8)}${sparkle(64, 76, 4.5)}`),
     // 5 قطرة ماء
-    svg(`<path d="M50 6 C50 6 84 44 84 64 A34 33 0 0 1 16 64 C16 44 50 6 50 6 Z" fill="url(#tDrop)" stroke="#0d4f9a" stroke-width="4.5" stroke-linejoin="round"/>
-         ${gloss(36, 50, 6, 12, 25)}${face(50, 66, 0.92)}`),
+    svg(`<path d="M50 6 C50 6 84 44 84 64 A34 33 0 0 1 16 64 C16 44 50 6 50 6 Z" fill="url(#tDrop)" stroke="#0a4a99" stroke-width="4" stroke-linejoin="round"/>
+         <path d="M28 66 Q30 82 46 86" stroke="#fff" stroke-width="5" stroke-linecap="round" fill="none" opacity=".6"/>
+         ${gloss(38, 46, 5, 12, 25)}${sparkle(62, 54, 5.5)}`),
   ];
 
   // كرة «النور» بألوان قوس قزح (تمسح لوناً كاملاً)

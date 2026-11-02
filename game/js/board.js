@@ -399,7 +399,6 @@
           }
       }
       if (sp) {
-        N.sfx.special();
         N.vibrate(25);
         if (fired.size - preFired.size >= 2 || all.size >= 14) this.shake();
       }
@@ -413,13 +412,17 @@
           if (g && g.left > 0) g.left--;
           const d = this.cellEls[r][c].firstChild;
           d.className = 'dust d' + this.dust[r][c] + ' hit';
+          N.sfx.bubble();
         }
         if (!t) continue;
         if (t.special !== 'noor') {
           const g = this.goals.find((g) => g.type === t.type && g.left > 0);
           if (g) g.left--;
         }
-        if (t.knowledge) this.pendingKnowledge++;
+        if (t.knowledge) {
+          this.pendingKnowledge++;
+          N.sfx.magic();
+        }
         t.el.classList.add('pop');
         removed.push(t);
         if (removed.length <= 24) this.particles(r, c, t.special === 'noor' ? '#ffffff' : N.TILE_COLORS[t.type]);
@@ -428,6 +431,7 @@
       this.update();
       await N.wait(POP_MS);
       removed.forEach((t) => t.el.remove());
+      if (creates.length) N.sfx.create();
       for (const cr of creates) {
         const [r, c] = unkey(cr.k);
         if (this.grid[r][c]) continue;
@@ -519,7 +523,6 @@
           }
         }
       }
-      N.sfx.special();
       await this.clearCells(keys, [], 1, preFired);
       await this.gravity();
     }
@@ -573,7 +576,6 @@
       const keys = new Set();
       for (let c = 0; c < this.cols; c++) this.inBounds(best, c) && keys.add(key(best, c));
       this.fx('row', best, 0);
-      N.sfx.special();
       await this.clearCells(keys, [], 1);
       await this.gravity();
       await this.cascade(this.findGroups());
@@ -638,7 +640,6 @@
         for (let x = 0; x < this.cols; x++) this.inBounds(r, x) && keys.add(key(r, x));
         this.fx('row', r, c);
       }
-      N.sfx.special();
       await this.clearCells(keys, [], 1);
       await this.gravity();
       await this.cascade(this.findGroups());
@@ -660,6 +661,9 @@
     fx(kind, r = 0, c = 0) {
       const d = document.createElement('div');
       const s = this.s;
+      if (kind === 'row' || kind === 'col') N.sfx.rocket();
+      else if (kind === 'bomb') N.sfx.bomb();
+      else if (kind === 'noor' || kind === 'flash') N.sfx.noor();
       if (kind === 'row') {
         d.className = 'beam h';
         d.style.top = r * s + 'px';
@@ -758,7 +762,7 @@
         this.select(null);
         return this.activateSpecial(r, c);
       }
-      N.sfx.tap();
+      N.sfx.select();
       this.select([r, c]);
     }
 

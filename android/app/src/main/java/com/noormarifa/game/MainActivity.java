@@ -103,6 +103,8 @@ public class MainActivity extends Activity {
 
     @Override
     protected void onPause() {
+        // إيقاف الموسيقى والمؤثرات عند مغادرة التطبيق أو قفل الشاشة
+        web.evaluateJavascript("window.Noor && Noor.music && Noor.music.pauseAll()", null);
         web.onPause();
         super.onPause();
     }
@@ -111,6 +113,7 @@ public class MainActivity extends Activity {
     protected void onResume() {
         super.onResume();
         web.onResume();
+        web.evaluateJavascript("window.Noor && Noor.music && Noor.music.resumeAll()", null);
     }
 
     @Override

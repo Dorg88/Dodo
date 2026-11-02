@@ -22,13 +22,15 @@
       slides.forEach((s, k) => s.classList.toggle('show', k === n));
       i = n;
       if (n < slides.length - 1) timer = setTimeout(() => show(n + 1), LOGO_MS);
+      else N.music.play('menu'); // بطاقة العنوان: تبدأ الموسيقى
     }
 
     function finish() {
       if (finished) return;
       finished = true;
       clearTimeout(timer);
-      N.sfx.win();
+      N.sfx.start();
+      N.music.play('menu');
       intro.classList.add('leaving');
       setTimeout(() => {
         intro.remove();
