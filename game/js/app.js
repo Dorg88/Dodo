@@ -1,11 +1,11 @@
-/* واجهة اللعبة: الشاشات، بنك الأسئلة، المساعدات، الفوز والخسارة */
+/* واجهة اللعبة: الشاشات، «الدفع بالمعرفة» (أسئلة بدلاً من الشراء)، المعزّزات، الفوز والخسارة */
 (function () {
   const N = window.Noor;
   const $ = (s) => document.querySelector(s);
   const ar = N.ar;
-
   const ICON = N.ICON;
-  // لون ورمز لكل قسم في بنك الأسئلة
+
+  // لون ورمز لكل قسم
   const CAT_STYLE = {
     quran: ['📖', '#3d9bff'], prophet: ['🌙', '#2fbf71'], prophets: ['⛵', '#0ea5e9'], masumeen: ['✨', '#a66cff'], aqeedah: ['💡', '#ffa41b'],
     fiqh: ['🕋', '#ff5c7a'], akhlaq: ['💖', '#ff7ab6'], duas: ['🤲', '#22b8a5'], history: ['📜', '#ff8a3d'],
@@ -14,16 +14,28 @@
   };
   const CHAPTER_COLORS = ['#3d9bff', '#2fbf71', '#a66cff', '#ffa41b', '#ff5c7a', '#22b8a5'];
 
-  /** الحمامة «نوري» مع فقاعة كلام اختيارية */
+  // المعزّزات وأسعارها بالأسئلة (N.QPRICE)
+  const BOOSTERS = [
+    { id: 'hammer', name: 'المطرقة', hint: 'اضغط على القطعة التي تريد إزالتها' },
+    { id: 'row', name: 'سهم أفقي', hint: 'اضغط على قطعة في الصف الذي تريد مسحه' },
+    { id: 'col', name: 'سهم عمودي', hint: 'اضغط على قطعة في العمود الذي تريد مسحه' },
+    { id: 'shuffle', name: 'الخلط', hint: '' },
+  ];
+  const DIFF_NAMES = { 1: 'سهل', 2: 'متوسط', 3: 'صعب' };
+  const LETTERS = ['أ', 'ب', 'ج', 'د'];
+
+  let G = null; // حالة المستوى الجاري
+  let learnDifficulty = 1;
+
+  /* ================= أدوات عامة ================= */
   function mascot(mood = 'happy', text = '', cls = '') {
     return `<div class="mascot-wrap ${cls}">${text ? `<div class="speech">${text}</div>` : ''}<div class="mascot ${mood}">${N.MASCOT_SVG}</div></div>`;
   }
 
-  /** قصاصات ملوّنة تتساقط احتفالاً */
   function confetti(n = 70) {
     const box = document.createElement('div');
     box.className = 'confetti';
-    const cols = N.TILE_COLORS.concat(['#ffffff', '#ff7ab6']);
+    const cols = N.TILE_COLORS.concat(['#ffffff', '#ff7ab6', '#ffe14d']);
     for (let i = 0; i < n; i++) {
       const p = document.createElement('i');
       p.style.left = Math.random() * 100 + '%';
@@ -39,36 +51,24 @@
     setTimeout(() => box.remove(), 3600);
   }
 
-  /** عبارة تشجيع كبيرة فوق اللوحة */
+  /** عبارة تشجيع كبيرة مع أشعة خلفها */
   function praise(text) {
     const host = $('#screen-game');
     const el = document.createElement('div');
     el.className = 'praise-pop';
-    el.textContent = text;
+    el.innerHTML = `<i class="rays"></i><span>${text}</span>`;
     host.appendChild(el);
-    setTimeout(() => el.remove(), 1300);
+    setTimeout(() => el.remove(), 1400);
+    react('cheer');
   }
 
-  const BOOSTERS = [
-    { id: 'hammer', name: 'المطرقة', desc: 'تزيل قطعة واحدة تختارها' },
-    { id: 'arrow', name: 'السهم', desc: 'يمسح صفاً كاملاً تختاره' },
-    { id: 'shuffle', name: 'الخلط', desc: 'يعيد ترتيب القطع' },
-  ];
-  const DIFF_NAMES = { 1: 'سهل', 2: 'متوسط', 3: 'صعب' };
-  const LETTERS = ['أ', 'ب', 'ج', 'د'];
-
-  let G = null; // حالة المستوى الجاري
-  let bankReturn = null; // إلى أين نعود من بنك الأسئلة
-  let bankDifficulty = 1;
-
-  /* ---------- أدوات الواجهة ---------- */
   function show(name) {
     document.querySelectorAll('.screen').forEach((s) => s.classList.toggle('active', s.id === 'screen-' + name));
     window.scrollTo(0, 0);
   }
 
   let toastTimer;
-  function toast(html, ms = 1700) {
+  function toast(html, ms = 1800) {
     const t = $('#toast');
     t.innerHTML = html;
     t.classList.add('show');
@@ -76,96 +76,167 @@
     toastTimer = setTimeout(() => t.classList.remove('show'), ms);
   }
 
-  function openModal(html, cls = '') {
+  /** نافذة منبثقة بشريط عنوان (ribbon) وزر إغلاق اختياري */
+  function openModal(html, cls = '', { title = '', ribbon = 'blue', onClose = null } = {}) {
     const m = $('#modal');
-    m.querySelector('.modal-card').className = 'modal-card ' + cls;
-    m.querySelector('.modal-card').innerHTML = html;
+    const card = m.querySelector('.modal-card');
+    card.className = 'modal-card ' + cls;
+    card.innerHTML =
+      (title ? `<div class="ribbon ${ribbon}"><span>${title}</span></div>` : '') +
+      (onClose ? `<button class="x-close" aria-label="إغلاق">✕</button>` : '') +
+      `<div class="mc-body">${html}</div>`;
+    if (onClose) card.querySelector('.x-close').onclick = () => onClose();
     m.classList.remove('hidden');
     N.sfx.popup();
-    return m.querySelector('.modal-card');
+    return card;
   }
   function closeModal() {
     $('#modal').classList.add('hidden');
   }
 
-  function refreshPoints() {
-    document.querySelectorAll('[data-points]').forEach((e) => (e.textContent = ar(N.save.points)));
+  function refreshStars() {
     document.querySelectorAll('[data-stars]').forEach((e) => (e.textContent = ar(N.save.stars)));
-    if (G) renderBoosters();
   }
 
-  /* ---------- نافذة السؤال ---------- */
-  /** يعرض سؤالاً ويعيد {correct, points, bonus, action} */
-  function askQuestion({ q, categories, maxDifficulty = 3, title = '', subtitle = '', award = true, buttons = null }) {
-    q = q || N.Quiz.pick({ categories, maxDifficulty });
-    if (!q) return Promise.resolve({ correct: false, points: 0, bonus: 0, action: 'none' });
-    buttons = buttons || [{ id: 'ok', label: 'متابعة', primary: true }];
+  /* ================= بطاقة السؤال (مشتركة) ================= */
+  /** يرسم سؤالاً داخل حاوية، ويستدعي onAnswered(correct, setActions) بعد الإجابة */
+  function renderQuestion(box, q, { header = '' } = {}, onAnswered) {
     const options = N.Quiz.options(q);
+    box.innerHTML = `
+      <div class="q-top">
+        <span class="chip">${(CAT_STYLE[q.category] || ['⭐'])[0]} ${N.CATEGORIES[q.category] || ''}</span>
+        ${header ? `<span class="q-num">${header}</span>` : `<span class="diff d${q.difficulty}">${DIFF_NAMES[q.difficulty] || ''}</span>`}
+      </div>
+      <p class="q-text">${q.question}</p>
+      <div class="q-options">${options
+        .map((o, i) => `<button class="opt c${i}" data-i="${i}"><span class="letter">${LETTERS[i]}</span><span class="ot">${o.text}</span></button>`)
+        .join('')}</div>
+      <div class="q-feedback"></div>
+      <div class="q-actions"></div>`;
+    box.classList.remove('q-in');
+    void box.offsetWidth;
+    box.classList.add('q-in');
+    let done = false;
+    box.querySelectorAll('.opt').forEach((btn) =>
+      btn.addEventListener('click', () => {
+        if (done) return;
+        done = true;
+        const correct = options[+btn.dataset.i].correct;
+        box.querySelectorAll('.opt').forEach((b, i) => {
+          b.disabled = true;
+          if (options[i].correct) b.classList.add('right');
+          else if (b === btn) b.classList.add('wrong');
+          else b.classList.add('dim');
+        });
+        if (correct) {
+          N.sfx.correct();
+          N.vibrate(20);
+          burstAt(btn);
+        } else N.sfx.wrong();
+        box.querySelector('.q-feedback').innerHTML = `
+          <div class="fb ${correct ? 'ok' : 'no'}">
+            ${mascot(correct ? 'happy' : 'sad', correct ? 'أحسنت! 🎉' : 'لا بأس، هكذا نتعلّم! 💪', 'mini')}
+            <p>${q.explanation || ''}</p>
+            ${q.source ? `<small>المصدر: ${q.source}</small>` : ''}
+          </div>`;
+        const setActions = (list) => {
+          const acts = box.querySelector('.q-actions');
+          acts.innerHTML = list.map((a, i) => `<button class="btn ${a.cls || (a.primary ? 'play' : 'ghost')}" data-k="${i}">${a.label}</button>`).join('');
+          acts.querySelectorAll('button').forEach((b) => (b.onclick = () => list[+b.dataset.k].cb()));
+          acts.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+        };
+        onAnswered(correct, setActions);
+      })
+    );
+  }
+
+  /** نجوم صغيرة تتطاير من عنصر (عند الإجابة الصحيحة) */
+  function burstAt(el) {
+    const r = el.getBoundingClientRect();
+    for (let i = 0; i < 12; i++) {
+      const p = document.createElement('i');
+      p.className = 'ui-spark';
+      const a = (i / 12) * Math.PI * 2;
+      p.style.left = r.left + r.width / 2 + 'px';
+      p.style.top = r.top + r.height / 2 + 'px';
+      p.style.setProperty('--dx', Math.cos(a) * (60 + Math.random() * 50) + 'px');
+      p.style.setProperty('--dy', Math.sin(a) * (40 + Math.random() * 40) + 'px');
+      document.body.appendChild(p);
+      setTimeout(() => p.remove(), 800);
+    }
+  }
+
+  /** سؤال واحد (سؤال اليوم، سؤال المكافأة، التدرّب) → {correct, action} */
+  function askQuestion({ q, categories, maxDifficulty = 3, title = 'سؤال', subtitle = '', buttons = null }) {
+    q = q || N.Quiz.pick({ categories, maxDifficulty });
+    if (!q) return Promise.resolve({ correct: false, action: 'none' });
+    buttons = buttons || [{ id: 'ok', label: 'متابعة', primary: true }];
     return new Promise((resolve) => {
-      const card = openModal(
-        `<div class="q-top">
-           <span class="chip">${N.CATEGORIES[q.category] || ''}</span>
-           <span class="diff d${q.difficulty}">${DIFF_NAMES[q.difficulty] || ''} (+${ar(N.POINTS_BY_DIFFICULTY[q.difficulty] || 1)})</span>
-         </div>
-         ${title ? `<h3 class="q-title">${title}</h3>` : ''}
-         ${subtitle ? `<p class="q-sub">${subtitle}</p>` : ''}
-         <p class="q-text">${q.question}</p>
-         <div class="q-options">${options
-           .map((o, i) => `<button class="opt c${i}" data-i="${i}"><span class="letter">${LETTERS[i]}</span><span>${o.text}</span></button>`)
-           .join('')}</div>
-         <div class="q-feedback"></div>
-         <div class="q-actions"></div>`,
-        'qcard'
-      );
-      let result = null;
-      card.querySelectorAll('.opt').forEach((btn) =>
-        btn.addEventListener('click', () => {
-          if (result) return;
-          const chosen = options[+btn.dataset.i];
-          const correct = chosen.correct;
-          result = award ? N.Quiz.answerForPoints(q, correct) : (N.Quiz.record(q, correct), { points: 0, bonus: 0 });
-          result.correct = correct;
-          card.querySelectorAll('.opt').forEach((b, i) => {
-            b.disabled = true;
-            if (options[i].correct) b.classList.add('right');
-            else if (b === btn) b.classList.add('wrong');
-            else b.classList.add('dim');
-          });
-          if (correct) {
-            N.sfx.correct();
-            N.vibrate(20);
-            confetti(45);
-            if (award && result.points) setTimeout(() => N.sfx.coin(), 350);
-          } else N.sfx.wrong();
-          const gain = correct && award ? `<span class="gain">${ICON.points} +${ar(result.points)}${result.bonus ? ` – مكافأة السلسلة +${ar(result.bonus)}` : ''}</span>` : '';
-          card.querySelector('.q-feedback').innerHTML = `
-            <div class="fb ${correct ? 'ok' : 'no'}">
-              ${mascot(correct ? 'happy' : 'sad', correct ? 'أحسنت! 🎉' : 'لا بأس، هكذا نتعلّم! 💪', 'mini')}
-              <b>${correct ? 'إجابة صحيحة!' : 'الإجابة الصحيحة باللون الأخضر'}</b> ${gain}
-              <p>${q.explanation || ''}</p>
-              ${q.source ? `<small>المصدر: ${q.source}</small>` : ''}
-            </div>`;
-          const acts = card.querySelector('.q-actions');
-          acts.innerHTML = buttons.map((b) => `<button class="btn ${b.primary ? 'primary' : 'ghost'}" data-a="${b.id}">${b.label}</button>`).join('');
-          acts.querySelectorAll('button').forEach((b) =>
-            b.addEventListener('click', () => {
-              closeModal();
-              refreshPoints();
-              resolve(Object.assign({ action: b.dataset.a }, result));
-            })
-          );
-          card.querySelector('.q-feedback').scrollIntoView({ block: 'nearest', behavior: 'smooth' });
-        })
-      );
+      const card = openModal(`${subtitle ? `<p class="q-sub">${subtitle}</p>` : ''}<div class="qbox"></div>`, 'qcard', { title });
+      renderQuestion(card.querySelector('.qbox'), q, {}, (correct, setActions) => {
+        N.Quiz.record(q, correct);
+        setActions(buttons.map((b) => ({ label: b.label, primary: b.primary, cb: () => (closeModal(), resolve({ correct, action: b.id })) })));
+      });
     });
   }
 
-  /* ---------- الشاشة الرئيسية (الصحن) ---------- */
+  /* ================= «الدفع بالمعرفة» ================= */
+  /** بدلاً من الشراء: أسئلة متتالية حتى يبلغ عدد الإجابات الصحيحة السعر المطلوب. يعيد true عند النجاح. */
+  function payWithQuestions({ price, rewardIcon, rewardLabel, categories = null, maxDifficulty = 2 }) {
+    return new Promise((resolve) => {
+      let correct = 0;
+      const asked = new Set();
+      const finish = (ok) => {
+        closeModal();
+        resolve(ok);
+      };
+      const card = openModal(
+        `<div class="pay-head">
+           <div class="pay-reward">${rewardIcon}<b>${rewardLabel}</b></div>
+           <div class="pay-price">${ICON.q}<span>الثمن: <b>${price === 1 ? 'إجابة صحيحة واحدة' : price === 2 ? 'إجابتان صحيحتان' : ar(price) + ' إجابات صحيحة'}</b></span></div>
+           <small class="pay-note">بدلاً من الشراء بالمال… ادفع بالمعرفة!</small>
+           <div class="pay-dots">${Array.from({ length: price }, () => '<i></i>').join('')}</div>
+         </div>
+         <div class="qbox"></div>`,
+        'paycard',
+        { title: 'ادفع بالمعرفة', ribbon: 'gold', onClose: () => finish(false) }
+      );
+      const box = card.querySelector('.qbox');
+      const dots = [...card.querySelectorAll('.pay-dots i')];
+      const next = () => {
+        const fresh = (x) => !asked.has(x.id);
+        const q = N.Quiz.pick({ categories, maxDifficulty, only: fresh }) || N.Quiz.pick({ only: fresh });
+        asked.add(q.id);
+        renderQuestion(box, q, { header: `السؤال ${ar(Math.min(correct + 1, price))} من ${ar(price)}` }, (ok, setActions) => {
+          N.Quiz.record(q, ok);
+          if (ok) {
+            dots[correct].classList.add('on');
+            correct++;
+          }
+          if (correct >= price) setActions([{ label: 'استلم المكافأة 🎁', primary: true, cb: success }]);
+          else setActions([{ label: ok ? 'السؤال التالي ←' : 'جرّب سؤالاً آخر ←', primary: true, cb: next }]);
+        });
+      };
+      const success = () => {
+        box.innerHTML = `<div class="pay-success">
+            <i class="rays big"></i>
+            ${mascot('happy', 'أحسنت! دفعت بالمعرفة 🎉', 'top jump')}
+            <div class="reward-big">${rewardIcon}<b>${rewardLabel}</b></div>
+          </div>
+          <div class="q-actions"><button class="btn play big" id="pay-ok">تابع اللعب</button></div>`;
+        confetti(80);
+        N.sfx.win();
+        box.querySelector('#pay-ok').onclick = () => finish(true);
+      };
+      next();
+    });
+  }
+
+  /* ================= الشاشة الرئيسية ================= */
   function renderHome(justRestored) {
     $('#courtyard').innerHTML || ($('#courtyard').innerHTML = N.courtyardSVG());
     N.applyCourtyard($('#courtyard svg'), N.save.restored, justRestored);
-    refreshPoints();
-
+    refreshStars();
     const items = N.COURTYARD_ITEMS;
     const next = items.find((it) => !N.save.restored.includes(it.id));
     const done = N.save.restored.length;
@@ -176,10 +247,12 @@
       const can = N.save.stars >= next.cost;
       card.innerHTML = `
         ${mascot('happy', '', 'tiny')}
-        <div class="rc-text"><b>${can ? 'هيا نرمّم' : 'اجمع النجوم لترميم'} ${next.name} ${next.emoji}</b><small>${can ? 'عندك نجوم كافية!' : 'العب المستويات لتكسب النجوم ⭐'} – ${ar(done)} من ${ar(items.length)}</small></div>
-        <button class="btn ${can ? 'gold pulse' : 'disabled'}" id="btn-restore">${ICON.star} ${ar(next.cost)}</button>`;
+        <div class="rc-text"><b>${can ? 'هيا نرمّم' : 'اجمع النجوم لترميم'} ${next.name} ${next.emoji}</b>
+          <small>${can ? 'عندك نجوم كافية!' : 'العب المستويات لتكسب النجوم'}</small>
+          <span class="rc-bar"><span style="width:${Math.round((done / items.length) * 100)}%"></span></span></div>
+        <button class="btn ${can ? 'gold pulse' : 'disabled'}" id="btn-restore">${ICON.star}<b>${ar(next.cost)}</b></button>`;
       $('#btn-restore').onclick = () => {
-        if (N.save.stars < next.cost) return toast('تحتاج نجوماً أكثر — العب المستويات لتكسبها');
+        if (N.save.stars < next.cost) return toast('تحتاج نجوماً أكثر — العب المستويات لتكسبها ⭐');
         N.save.stars -= next.cost;
         N.save.restored.push(next.id);
         N.persist();
@@ -189,20 +262,19 @@
         confetti(60);
       };
     }
-
     const cur = Math.min(N.save.unlocked, N.LEVELS.length);
     const allDone = N.save.unlocked > N.LEVELS.length;
-    $('#btn-play').innerHTML = allDone ? 'أتممت كل المستويات! 🏆' : `<small>العب</small> المستوى ${ar(cur)}`;
+    $('#btn-play').innerHTML = allDone ? '<span>أتممت كل المستويات! 🏆</span>' : `<span>المستوى ${ar(cur)}</span>`;
     $('#btn-play').onclick = () => (allDone ? renderMap() : startLevel(cur));
     $('#daily-dot').classList.toggle('hidden', N.save.daily.last === N.todayKey());
     show('home');
     N.music.play('menu');
   }
 
-  /* ---------- الخريطة ---------- */
+  /* ================= الخريطة ================= */
   function renderMap() {
-    const ROW = 96;
-    const XS = [50, 76, 50, 24];
+    const ROW = 100;
+    const XS = [50, 77, 50, 23];
     const html = N.CHAPTERS.map((ch, ci) => {
       const levels = N.LEVELS.filter((l) => l.chapter === ch.id);
       const pts = levels.map((l, i) => [XS[i % XS.length], i * ROW + ROW / 2]);
@@ -232,34 +304,26 @@
     }).join('');
     $('#map-list').innerHTML = html;
     $('#map-list').querySelectorAll('.node:not(.locked)').forEach((b) => (b.onclick = () => startLevel(+b.dataset.l)));
+    refreshStars();
     show('map');
     N.music.play('menu');
     const cur = $('#map-list .node.current');
     if (cur) cur.scrollIntoView({ block: 'center' });
   }
 
-  /* ---------- بنك الأسئلة ---------- */
-  function openBank(fromGame = false) {
-    bankReturn = fromGame ? 'game' : 'home';
-    $('#bank-back').textContent = fromGame ? 'العودة إلى اللعب ←' : 'رجوع ←';
-    renderBank();
-    show('bank');
-    if (!fromGame) N.music.play('menu');
+  /* ================= تعلّم (تدرّب حرّ على الأسئلة) ================= */
+  function openLearn() {
+    renderLearn();
+    show('learn');
+    N.music.play('menu');
   }
 
-  function renderBank() {
-    refreshPoints();
+  function renderLearn() {
+    refreshStars();
     const stats = N.Quiz.categoryStats();
     const due = N.Quiz.dueCount();
-    $('#bank-prices').innerHTML = `
-      <span class="price">+${ar(N.EXTRA_MOVES)} حركات = ${ICON.points}${ar(N.COSTS.moves)}</span>
-      ${BOOSTERS.map((b) => `<span class="price">${ICON[b.id]} ${b.name} = ${ICON.points}${ar(N.COSTS[b.id])}</span>`).join('')}`;
-    $('#bank-diff').innerHTML = [1, 2, 3]
-      .map((d) => `<button class="seg ${d === bankDifficulty ? 'on' : ''}" data-d="${d}">${DIFF_NAMES[d]} <small>+${ar(N.POINTS_BY_DIFFICULTY[d])}</small></button>`)
-      .join('');
-    $('#bank-diff').querySelectorAll('.seg').forEach((b) => (b.onclick = () => ((bankDifficulty = +b.dataset.d), renderBank())));
-    $('#bank-streak').innerHTML = `سلسلة الإجابات الصحيحة: <b>${ar(N.save.answerStreak)}</b> — كل ٣ إجابات متتالية تمنحك نقطة إضافية`;
-
+    $('#learn-diff').innerHTML = [1, 2, 3].map((d) => `<button class="seg ${d === learnDifficulty ? 'on' : ''}" data-d="${d}">${DIFF_NAMES[d]}</button>`).join('');
+    $('#learn-diff').querySelectorAll('.seg').forEach((b) => (b.onclick = () => ((learnDifficulty = +b.dataset.d), renderLearn())));
     const cards = [
       `<button class="cat special" data-c="mixed" style="--cc:#ff5c7a"><span class="cat-emoji">🎲</span><b>أسئلة متنوعة</b><small>من جميع الأقسام</small></button>`,
       `<button class="cat special ${due ? '' : 'muted'}" data-c="review" style="--cc:#ffa41b"><span class="cat-emoji">🔁</span><b>مراجعة أخطائي</b><small>${due ? ar(due) + ' سؤال للمراجعة' : 'لا توجد أخطاء بعد'}</small></button>`,
@@ -272,11 +336,11 @@
           <span class="bar"><span style="width:${pct}%"></span></span></button>`;
       }),
     ];
-    $('#bank-cats').innerHTML = cards.join('');
-    $('#bank-cats').querySelectorAll('.cat:not([disabled])').forEach((b) => (b.onclick = () => runBank(b.dataset.c)));
+    $('#learn-cats').innerHTML = cards.join('');
+    $('#learn-cats').querySelectorAll('.cat:not([disabled])').forEach((b) => (b.onclick = () => runLearn(b.dataset.c)));
   }
 
-  async function runBank(cat) {
+  async function runLearn(cat) {
     while (true) {
       let q;
       if (cat === 'review') {
@@ -287,34 +351,23 @@
         }
       } else {
         const categories = cat === 'mixed' ? null : [cat];
-        q = N.Quiz.pick({ categories, only: (x) => x.difficulty === bankDifficulty }) || N.Quiz.pick({ categories });
+        q = N.Quiz.pick({ categories, only: (x) => x.difficulty === learnDifficulty }) || N.Quiz.pick({ categories });
       }
       if (!q) break;
-      const backLabel = bankReturn === 'game' ? 'العودة إلى اللعب' : 'رجوع';
       const res = await askQuestion({
         q,
+        title: 'تعلّم',
         buttons: [
-          { id: 'next', label: 'سؤال آخر', primary: true },
-          { id: 'back', label: backLabel },
+          { id: 'next', label: 'سؤال آخر ←', primary: true },
+          { id: 'back', label: 'رجوع' },
         ],
       });
-      renderBank();
-      if (res.action === 'back') {
-        if (bankReturn === 'game') return leaveBank();
-        break;
-      }
+      renderLearn();
+      if (res.action === 'back') break;
     }
   }
 
-  function leaveBank() {
-    if (bankReturn === 'game' && G) {
-      show('game');
-      refreshPoints();
-      if (G.board.moves <= 0 && !G.board.ended) showOutOfMoves();
-    } else renderHome();
-  }
-
-  /* ---------- سؤال اليوم ---------- */
+  /* ================= سؤال اليوم ================= */
   function dayKey(offset) {
     const d = new Date();
     d.setDate(d.getDate() + offset);
@@ -325,43 +378,38 @@
     const today = N.todayKey();
     const dd = N.save.daily;
     if (dd.last === today) {
-      openModal(`<h3>سؤال اليوم</h3><p>أجبت عن سؤال اليوم. عُد غداً لسؤال جديد!</p>
-        <p class="big">🔥 ${ar(dd.streak)} ${dd.streak > 2 ? 'أيام' : 'يوم'} متتالية</p>
-        <div class="q-actions"><button class="btn primary" id="m-ok">حسناً</button></div>`);
+      openModal(`${mascot('happy', 'عُد غداً لسؤال جديد!', 'top')}<p class="big">🔥 ${ar(dd.streak)} ${dd.streak > 2 ? 'أيام' : 'يوم'} متتالية</p>
+        <div class="q-actions"><button class="btn play" id="m-ok">حسناً</button></div>`, '', { title: 'سؤال اليوم', onClose: closeModal });
       $('#m-ok').onclick = closeModal;
       return;
     }
-    const res = await askQuestion({ q: N.Quiz.dailyQuestion(), title: 'سؤال اليوم', subtitle: 'إجابة صحيحة = نقاط السؤال + ٢ نقطة مكافأة يومية' });
+    const res = await askQuestion({ q: N.Quiz.dailyQuestion(), title: 'سؤال اليوم', subtitle: 'أجب صحيحاً لتربح نجمة للترميم ⭐' });
     dd.streak = dd.last === dayKey(-1) ? dd.streak + 1 : 1;
     dd.last = today;
-    if (res.correct) N.save.points += 2;
+    if (res.correct) N.save.stars += 1;
     N.persist();
-    toast(res.correct ? `${ICON.points} +٢ مكافأة سؤال اليوم – 🔥 ${ar(dd.streak)}` : `🔥 ${ar(dd.streak)} — حاول غداً`);
+    toast(res.correct ? `${ICON.star} +١ نجمة — 🔥 ${ar(dd.streak)}` : `🔥 ${ar(dd.streak)} — حاول غداً`);
     renderHome();
   }
 
-  /* ---------- الإعدادات ---------- */
+  /* ================= الإعدادات ================= */
   function settings() {
-    const card = openModal(`<h3>الإعدادات</h3>
+    const card = openModal(`
       <label class="row-set"><span>🎵 الموسيقى</span><input type="checkbox" id="set-music" ${N.save.music ? 'checked' : ''}></label>
       <label class="row-set"><span>🔊 المؤثرات الصوتية</span><input type="checkbox" id="set-sound" ${N.save.sound ? 'checked' : ''}></label>
       <div class="about">
         <b>عن اللعبة</b>
-        <p>«نور المعرفة» لعبة مطابقة تعليمية على نهج أهل البيت (ع). لا توجد مشتريات داخل اللعبة: كل المساعدات تُكسب بالإجابة عن الأسئلة.</p>
+        <p>«نور المعرفة» لعبة مطابقة تعليمية على نهج أهل البيت (ع). لا توجد مشتريات: كل مساعدة تُدفع بالمعرفة، أي بالإجابة عن الأسئلة.</p>
         <p class="credit">إصدار: <b>شعبة البحوث والدراسات — قسم الشؤون الدينية</b><br>الأمانة العامة للعتبة الحسينية المقدسة</p>
         <p class="warn">الأسئلة الحالية نسخة أولية (${ar(N.Quiz.bank.length)} سؤالاً) وتحتاج إلى مراجعة علمية قبل النشر.</p>
       </div>
-      <div class="q-actions">
-        <button class="btn primary" id="set-close">إغلاق</button>
-        <button class="btn danger" id="set-reset">مسح التقدم</button>
-      </div>`);
+      <div class="q-actions"><button class="btn danger" id="set-reset">مسح التقدم</button></div>`, '', { title: 'الإعدادات', onClose: closeModal });
     card.querySelector('#set-sound').onchange = (e) => {
       N.save.sound = e.target.checked;
       N.persist();
       N.sfx.tap();
     };
     card.querySelector('#set-music').onchange = (e) => N.music.setEnabled(e.target.checked);
-    card.querySelector('#set-close').onclick = closeModal;
     card.querySelector('#set-reset').onclick = () => {
       if (!confirm('هل تريد مسح كل التقدم؟')) return;
       N.resetSave();
@@ -370,43 +418,45 @@
     };
   }
 
-  /* ---------- المستوى ---------- */
+  /* ================= المستوى ================= */
   function goalHTML(g, withNeed = false) {
     const done = g.left <= 0;
-    return `<div class="goal ${done ? 'done' : ''}"><span class="gi">${N.tileIcon(g.type)}</span><b>${done ? '✓' : ar(withNeed ? g.need : g.left)}</b></div>`;
+    return `<div class="goal ${done ? 'done' : ''}" data-goal="${g.type}"><span class="gi">${N.tileIcon(g.type)}</span>
+      ${done ? `<span class="gcheck">${ICON.check}</span>` : `<b>${ar(withNeed ? g.need : g.left)}</b>`}</div>`;
+  }
+
+  function levelGoals(level) {
+    const goals = level.goals.map((g) => ({ type: g.type, need: g.count, left: g.count }));
+    const dust = level.layout.join('').split('').reduce((a, ch2) => a + (ch2 === 'd' ? 1 : ch2 === 'D' ? 2 : 0), 0);
+    if (dust) goals.push({ type: 'dust', need: dust, left: dust });
+    return goals;
   }
 
   function startLevel(id) {
     const level = N.levelById(id);
     if (!level) return;
     const ch = N.chapterOf(level);
-    const goals = level.goals.map((g) => ({ type: g.type, need: g.count, left: g.count }));
-    const dust = level.layout.join('').split('').reduce((a, ch2) => a + (ch2 === 'd' ? 1 : ch2 === 'D' ? 2 : 0), 0);
-    if (dust) goals.push({ type: 'dust', need: dust, left: dust });
+    const goals = levelGoals(level);
     const tutorial =
       id <= 2
         ? `<div class="tips">
             <p>👆 اسحب القطعة نحو جارتها لتجمع <b>٣ قطع متشابهة</b> أو أكثر.</p>
-            <p>🚀 ٤ قطع في خط = <b>سهم</b></p>
-            <p>💥 قطع على شكل زاوية = <b>انفجار</b></p>
-            <p>🌈 ٥ قطع في خط = <b>كرة النور</b></p>
-            <p>❓ القطعة التي عليها <b class="qmark">؟</b> تسألك سؤالاً، وإذا أجبت صحيحاً تربح هدية!</p>
-            <p>💡 علِقت؟ اذهب إلى <b>بنك الأسئلة</b> واجمع النقاط.</p>
+            <p>🚀 ٤ قطع في خط = <b>سهم</b> &nbsp; 💥 شكل زاوية = <b>انفجار</b> &nbsp; 🌈 ٥ قطع = <b>كرة النور</b></p>
+            <p>🎁 علِقت؟ ادفع بالمعرفة: أجب عن أسئلة بدلاً من الشراء!</p>
           </div>`
-        : dust
+        : goals.some((g) => g.type === 'dust')
           ? `<div class="tips"><p>🫧 فرقِع <b>الفقاعات</b> بمطابقة القطع فوقها!</p></div>`
           : '';
     const card = openModal(
       `${mascot('happy', id === 1 ? 'أهلاً! أنا نوري 🕊️ هيا نلعب!' : 'هل أنت مستعد؟ 😄', 'top')}
-       <div class="lvl-head"><small>الفصل ${ar(ch.id)} – ${ch.name}</small><h2>المستوى ${ar(id)}</h2></div>
-       <p class="lbl">اجمع:</p>
-       <div class="goals big">${goals.map((g) => goalHTML(g, true)).join('')}</div>
-       <p class="lbl moves-lbl">في ${ar(level.moves)} حركة</p>
+       <small class="lvl-ch">الفصل ${ar(ch.id)} – ${ch.name}</small>
+       <div class="goal-board"><span class="gb-title">اجمع</span><div class="goals big">${goals.map((g) => goalHTML(g, true)).join('')}</div>
+         <span class="gb-moves">${ICON.moves} ${ar(level.moves)} حركة</span></div>
        ${tutorial}
-       <div class="q-actions"><button class="btn play" id="lvl-go">ابدأ</button><button class="btn ghost" id="lvl-cancel">رجوع</button></div>`,
-      'lvlcard'
+       <div class="q-actions"><button class="btn play big" id="lvl-go">العب</button></div>`,
+      'lvlcard',
+      { title: `المستوى ${ar(id)}`, onClose: closeModal }
     );
-    card.querySelector('#lvl-cancel').onclick = closeModal;
     card.querySelector('#lvl-go').onclick = () => {
       closeModal();
       N.sfx.start();
@@ -419,122 +469,170 @@
     show('game');
     N.music.play('game');
     $('#hud-level').textContent = 'المستوى ' + ar(level.id);
+    $('#hud-mascot').innerHTML = `<div class="mascot">${N.MASCOT_SVG}</div>`;
     const ch = N.chapterOf(level);
+    G = { level, chapter: ch, bonusTried: false, paid: {} };
+    lastMoves = null;
+    renderBoosters(); // قبل إنشاء اللوحة ليُحسب ارتفاع الشريط
     const board = new N.Board($('#board-host'), level, {
       onUpdate: renderHUD,
       onPraise: praise,
-      askKnowledge: async () => {
-        const r = await askQuestion({
-          categories: ch.categories,
-          maxDifficulty: ch.maxDifficulty,
-          title: 'قطعة المعرفة!',
-          subtitle: 'أجب صحيحاً لتحصل على شعاع نور يمسح صفاً + حركة إضافية',
-        });
-        return r.correct;
-      },
+      onCollect: flyToGoal,
       onWin: (info) => showWin(level, info),
       onOutOfMoves: showOutOfMoves,
-      onBoosterUsed: renderBoosters,
+      onBoosterUsed: (kind) => {
+        if (G) G.paid[kind] = false;
+        renderBoosters();
+      },
     });
-    G = { board, level, chapter: ch, bonusTried: false, earned: 0 };
+    G.board = board;
     renderHUD(board);
     renderBoosters();
+    goalBanner(level, board.goals);
   }
 
+  /** شريط افتتاحي يعرض الأهداف ثم يطير إلى الأعلى */
+  function goalBanner(level, goals) {
+    const el = document.createElement('div');
+    el.className = 'goal-banner';
+    el.innerHTML = `<div class="ribbon gold"><span>المستوى ${ar(level.id)}</span></div>
+      <div class="gb-in"><div class="goals big">${goals.map((g) => goalHTML(g, true)).join('')}</div></div>`;
+    $('#screen-game').appendChild(el);
+    setTimeout(() => el.remove(), 2100);
+  }
+
+  let lastMoves = null;
   function renderHUD(board) {
-    $('#hud-moves').textContent = ar(Math.max(0, board.moves));
-    $('#hud-moves').parentElement.classList.toggle('low', board.moves <= 3);
+    const mv = $('#hud-moves');
+    const moves = Math.max(0, board.moves);
+    if (moves !== lastMoves) {
+      mv.textContent = ar(moves);
+      if (lastMoves !== null) {
+        mv.classList.remove('tick');
+        void mv.offsetWidth;
+        mv.classList.add('tick');
+      }
+      lastMoves = moves;
+    }
+    const low = board.moves <= 3 && !board.ended;
+    $('#hud-moves').parentElement.classList.toggle('low', low);
     $('#hud-goals').innerHTML = board.goals.map((g) => goalHTML(g)).join('');
+    react(low ? 'worry' : null);
+  }
+
+  /** ردود فعل الحمامة في لوحة الأهداف */
+  let reactTimer;
+  function react(kind) {
+    const m = $('#hud-mascot');
+    if (!m) return;
+    if (kind === 'cheer') {
+      m.classList.remove('cheer');
+      void m.offsetWidth;
+      m.classList.add('cheer');
+      clearTimeout(reactTimer);
+      reactTimer = setTimeout(() => m.classList.remove('cheer'), 1200);
+    } else m.classList.toggle('worry', kind === 'worry');
+  }
+
+  /** القطعة المجموعة تطير إلى عدّاد الهدف */
+  function flyToGoal(type, rect) {
+    const target = document.querySelector(`#hud-goals .goal[data-goal="${type}"] .gi`);
+    if (!target || !rect) return;
+    const to = target.getBoundingClientRect();
+    const el = document.createElement('div');
+    el.className = 'flyer';
+    el.innerHTML = N.tileIcon(type);
+    const size = Math.min(rect.width, 56);
+    Object.assign(el.style, { left: rect.left + rect.width / 2 - size / 2 + 'px', top: rect.top + rect.height / 2 - size / 2 + 'px', width: size + 'px', height: size + 'px' });
+    el.style.setProperty('--tx', to.left + to.width / 2 - (rect.left + rect.width / 2) + 'px');
+    el.style.setProperty('--ty', to.top + to.height / 2 - (rect.top + rect.height / 2) + 'px');
+    document.body.appendChild(el);
+    setTimeout(() => {
+      el.remove();
+      const goal = target.closest('.goal');
+      if (goal) {
+        goal.classList.remove('bump');
+        void goal.offsetWidth;
+        goal.classList.add('bump');
+      }
+    }, 620);
   }
 
   function renderBoosters() {
     if (!G) return;
-    $('#boosters').innerHTML =
-      BOOSTERS.map(
-        (b) => `<button class="booster ${G.board.mode === b.id ? 'active' : ''} ${N.save.points < N.COSTS[b.id] ? 'poor' : ''}" data-b="${b.id}" title="${b.desc}">
-          ${ICON[b.id]}<span>${b.name}</span><small>${ICON.points}${ar(N.COSTS[b.id])}</small></button>`
-      ).join('') +
-      `<button class="booster bank" id="btn-bank-game">${ICON.points}<span>بنك الأسئلة</span><small data-points>${ar(N.save.points)}</small></button>`;
-    $('#boosters').querySelectorAll('[data-b]').forEach((b) => (b.onclick = () => useBooster(b.dataset.b)));
-    $('#btn-bank-game').onclick = () => {
-      if (G.board.busy) return;
-      if (G.board.mode) refundMode();
-      openBank(true);
-    };
+    const mode = G.board && G.board.mode;
+    $('#boosters').innerHTML = BOOSTERS.map((b) => {
+      const ready = G.paid[b.id];
+      return `<button class="booster ${mode === b.id ? 'active' : ''} ${ready ? 'ready' : ''}" data-b="${b.id}">
+          <span class="bmed">${ICON[b.id]}</span>
+          <span class="bname">${b.name}</span>
+          <span class="bprice">${ready ? '✓ جاهز' : `${ICON.q}<b>${ar(N.QPRICE[b.id])}</b>`}</span>
+        </button>`;
+    }).join('');
+    $('#boosters').querySelectorAll('[data-b]').forEach((btn) => (btn.onclick = () => useBooster(btn.dataset.b)));
   }
 
-  function refundMode() {
-    const kind = G.board.cancelMode();
-    if (kind) {
-      N.save.points += N.COSTS[kind];
-      N.persist();
-    }
-  }
-
-  function useBooster(kind) {
-    const b = G.board;
-    if (b.busy || b.ended || b.moves <= 0) return;
+  async function useBooster(kind) {
+    const b = G && G.board;
+    if (!b || b.busy || b.ended || b.moves <= 0) return;
     if (b.mode === kind) {
-      refundMode();
+      b.cancelMode(); // يبقى المعزّز مدفوعاً وجاهزاً
       renderBoosters();
-      return toast('أُلغي المعزّز');
+      return toast('أُلغي المعزّز — ما زال جاهزاً للاستخدام');
     }
-    if (b.mode) refundMode();
-    const cost = N.COSTS[kind];
-    if (N.save.points < cost) return needPoints(cost);
-    N.save.points -= cost;
-    N.persist();
+    if (b.mode) b.cancelMode();
+    const info = BOOSTERS.find((x) => x.id === kind);
+    if (!G.paid[kind]) {
+      const ok = await payWithQuestions({
+        price: N.QPRICE[kind],
+        rewardIcon: ICON[kind],
+        rewardLabel: info.name,
+        categories: G.chapter.categories,
+        maxDifficulty: G.chapter.maxDifficulty,
+      });
+      if (!ok || !G || G.board !== b) return renderBoosters();
+      G.paid[kind] = true;
+    }
     if (kind === 'shuffle') {
-      b.boosterShuffle();
-      refreshPoints();
+      G.paid.shuffle = false;
+      await b.boosterShuffle();
+      renderBoosters();
       return;
     }
     b.enterMode(kind);
-    refreshPoints();
-    toast(kind === 'hammer' ? 'اختر القطعة التي تريد إزالتها' : 'اختر قطعة في الصف الذي تريد مسحه');
-  }
-
-  function needPoints(cost) {
-    const card = openModal(`${mascot('sad', 'نحتاج نقاطاً أكثر! 💡', 'top')}<h3>النقاط لا تكفي</h3>
-      <p>تحتاج ${ICON.points}${ar(cost)} — رصيدك ${ICON.points}${ar(N.save.points)}</p>
-      <p>أجب عن أسئلة في بنك الأسئلة لتكسب النقاط، ثم عُد لإكمال المستوى من حيث توقفت.</p>
-      <div class="q-actions"><button class="btn primary" id="m-bank">اذهب إلى بنك الأسئلة</button><button class="btn ghost" id="m-cancel">إلغاء</button></div>`);
-    card.querySelector('#m-bank').onclick = () => {
-      closeModal();
-      openBank(true);
-    };
-    card.querySelector('#m-cancel').onclick = closeModal;
+    renderBoosters();
+    toast(info.hint);
   }
 
   function showOutOfMoves() {
     const b = G.board;
     N.sfx.lose();
-    const cost = N.COSTS.moves;
-    const can = N.save.points >= cost;
-    const card = openModal(`${mascot('sad', 'لا تقلق! يمكنك أن تكمل 💪', 'top')}
-      <h3>انتهت الحركات!</h3>
-      <p class="center">بقي عليك:</p>
-      <div class="goals big">${b.goals.filter((g) => g.left > 0).map((g) => goalHTML(g)).join('')}</div>
-      <p class="hint-text">استخدم نقاط المعرفة 💡 لتكمل، أو اجمعها من بنك الأسئلة.</p>
-      <div class="q-actions col">
-        <button class="btn ${can ? 'play' : 'disabled'}" id="oom-buy">+${ar(N.EXTRA_MOVES)} حركات مقابل ${ICON.points}${ar(cost)}</button>
-        <button class="btn primary" id="oom-bank">اكسب نقاطاً من بنك الأسئلة (رصيدك ${ar(N.save.points)})</button>
-        <button class="btn ghost" id="oom-retry">أعد المحاولة</button>
-        <button class="btn ghost" id="oom-exit">الخروج</button>
-      </div>`);
-    card.querySelector('#oom-buy').onclick = () => {
-      if (N.save.points < cost) return toast('رصيدك لا يكفي — اذهب إلى بنك الأسئلة');
-      N.save.points -= cost;
-      N.persist();
+    react('worry');
+    const card = openModal(
+      `${mascot('sad', 'لا تقلق! أجب واستمر في اللعب 💪', 'top')}
+       <p class="center">بقي عليك:</p>
+       <div class="goals big">${b.goals.filter((g) => g.left > 0).map((g) => goalHTML(g)).join('')}</div>
+       <button class="btn play big buy" id="oom-buy"><span class="bl">+${ar(N.EXTRA_MOVES)} حركات</span>
+         <small>${ICON.q} أجب عن ${ar(N.QPRICE.moves)} أسئلة بدلاً من الدفع</small></button>
+       <div class="q-actions"><button class="btn ghost" id="oom-retry">إعادة المستوى</button><button class="btn danger" id="oom-exit">خروج</button></div>`,
+      'lvlcard',
+      { title: 'انتهت الحركات!', ribbon: 'red' }
+    );
+    card.querySelector('#oom-buy').onclick = async () => {
       closeModal();
+      const ok = await payWithQuestions({
+        price: N.QPRICE.moves,
+        rewardIcon: ICON.moves,
+        rewardLabel: `+${ar(N.EXTRA_MOVES)} حركات`,
+        categories: G.chapter.categories,
+        maxDifficulty: G.chapter.maxDifficulty,
+      });
+      if (!G || G.board !== b) return;
+      if (!ok) return showOutOfMoves();
       b.addMoves(N.EXTRA_MOVES);
       N.sfx.coin();
-      refreshPoints();
+      react(null);
       toast(`+${ar(N.EXTRA_MOVES)} حركات — بالتوفيق!`);
-    };
-    card.querySelector('#oom-bank').onclick = () => {
-      closeModal();
-      openBank(true);
     };
     card.querySelector('#oom-retry').onclick = () => {
       closeModal();
@@ -560,23 +658,28 @@
     const movesBonus = movesLeft >= Math.ceil(level.moves * 0.2) ? 1 : 0;
     G.earned = 1 + movesBonus + (G.bonusOk ? 1 : 0);
     commitStars(level, G.earned);
-    const line = (ok, text) => `<li class="${ok ? 'ok' : ''}">${ok ? '✓' : '○'} ${text}</li>`;
     if (!G.celebrated) {
       G.celebrated = true;
-      confetti(110);
+      confetti(120);
     }
-    const card = openModal(`${mascot('happy', 'رائع! أنت بطل! 🏆', 'top jump')}
-      <h2 class="win-title">أحسنت! فزت في المستوى ${ar(level.id)}</h2>
-      <div class="win-stars">${[1, 2, 3].map((i) => `<span class="${i <= G.earned ? 'on' : ''}">${ICON.star}</span>`).join('')}</div>
-      <ul class="win-list">
-        ${line(true, 'إتمام المستوى')}
-        ${line(movesBonus, `إنهاء المستوى ومعك ${ar(Math.ceil(level.moves * 0.2))} حركات أو أكثر`)}
-        ${line(G.bonusOk, 'الإجابة عن سؤال المكافأة')}
-      </ul>
-      <div class="q-actions col">
-        ${G.bonusTried ? '' : `<button class="btn gold" id="win-bonus">سؤال المكافأة: نجمة إضافية</button>`}
-        <button class="btn play" id="win-next">متابعة</button>
-      </div>`);
+    react('cheer');
+    const line = (ok, text) => `<li class="${ok ? 'ok' : ''}">${ok ? '✓' : '○'} ${text}</li>`;
+    const card = openModal(
+      `<div class="win-stars"><i class="rays big"></i>${[1, 2, 3].map((i) => `<span class="${i <= G.earned ? 'on' : ''}">${ICON.star}</span>`).join('')}</div>
+       ${mascot('happy', 'رائع! أنت بطل! 🏆', 'top jump')}
+       <h3 class="win-title">أتممت المستوى ${ar(level.id)}</h3>
+       <ul class="win-list">
+         ${line(true, 'إتمام المستوى')}
+         ${line(movesBonus, `إنهاء المستوى ومعك ${ar(Math.ceil(level.moves * 0.2))} حركات أو أكثر`)}
+         ${line(G.bonusOk, 'الإجابة عن سؤال المكافأة')}
+       </ul>
+       <div class="q-actions col">
+         ${G.bonusTried ? '' : `<button class="btn gold" id="win-bonus">${ICON.q} سؤال المكافأة: نجمة إضافية</button>`}
+         <button class="btn play big" id="win-next">تابع</button>
+       </div>`,
+      'wincard',
+      { title: 'أحسنت!', ribbon: 'gold' }
+    );
     const bonus = card.querySelector('#win-bonus');
     if (bonus)
       bonus.onclick = async () => {
@@ -592,36 +695,48 @@
     };
   }
 
+  function pauseMenu() {
+    if (!G || G.board.busy) return;
+    const card = openModal(
+      `${mascot('happy', 'خذ استراحة قصيرة ☕', 'top')}
+       <label class="row-set"><span>🎵 الموسيقى</span><input type="checkbox" id="p-music" ${N.save.music ? 'checked' : ''}></label>
+       <label class="row-set"><span>🔊 المؤثرات الصوتية</span><input type="checkbox" id="p-sound" ${N.save.sound ? 'checked' : ''}></label>
+       <div class="q-actions col"><button class="btn play big" id="ex-no">متابعة اللعب</button><button class="btn danger" id="ex-yes">الخروج من المستوى</button></div>`,
+      '',
+      { title: 'إيقاف مؤقت', onClose: closeModal }
+    );
+    card.querySelector('#p-music').onchange = (e) => N.music.setEnabled(e.target.checked);
+    card.querySelector('#p-sound').onchange = (e) => {
+      N.save.sound = e.target.checked;
+      N.persist();
+    };
+    card.querySelector('#ex-yes').onclick = () => (closeModal(), exitLevel());
+    card.querySelector('#ex-no').onclick = closeModal;
+  }
+
   function exitLevel() {
-    if (G) G.board.destroy();
+    if (G && G.board) G.board.destroy();
     G = null;
     renderHome();
   }
 
-  /* ---------- التشغيل ---------- */
+  /* ================= التشغيل ================= */
   function init() {
     N.injectDefs();
     N.loadSave();
     N.Quiz.init();
+    N.preloadSprites();
     document.querySelectorAll('[data-go]').forEach((b) =>
       b.addEventListener('click', () => {
         const go = b.dataset.go;
         if (go === 'map') renderMap();
-        else if (go === 'bank') openBank(false);
+        else if (go === 'learn') openLearn();
         else if (go === 'daily') daily();
         else if (go === 'settings') settings();
         else if (go === 'home') renderHome();
       })
     );
-    $('#bank-back').onclick = leaveBank;
-    $('#btn-exit').onclick = () => {
-      if (!G || G.board.busy) return;
-      const card = openModal(`<h3>الخروج من المستوى؟</h3><p>سيضيع تقدمك في هذا المستوى.</p>
-        <div class="q-actions"><button class="btn danger" id="ex-yes">خروج</button><button class="btn ghost" id="ex-no">متابعة اللعب</button></div>`);
-      card.querySelector('#ex-yes').onclick = () => (closeModal(), exitLevel());
-      card.querySelector('#ex-no').onclick = closeModal;
-    };
-    document.querySelectorAll('.ico-points').forEach((e) => (e.outerHTML = ICON.points));
+    $('#btn-exit').onclick = pauseMenu;
     document.querySelectorAll('.ico-star').forEach((e) => (e.outerHTML = ICON.star));
     renderHome();
     N.runIntro();
@@ -629,26 +744,22 @@
 
   /** زر الرجوع في أندرويد: يعيد true إذا تعاملت معه اللعبة، وfalse للخروج من التطبيق */
   function onBack() {
-    if (document.getElementById('intro')) return true; // أثناء المقدمة
+    if (document.getElementById('intro')) return true;
     const modal = $('#modal');
     if (!modal.classList.contains('hidden')) {
       const card = modal.querySelector('.modal-card');
-      const btn =
-        card.querySelector('.q-actions [data-a="back"]') ||
-        card.querySelector('.q-actions [data-a]') ||
-        card.querySelector('#lvl-cancel, #m-cancel, #ex-no, #set-close, #m-ok');
-      if (btn) btn.click(); // السؤال الذي لم يُجب عنه بعد، ونوافذ الفوز والخسارة، لا تُغلق بالرجوع
+      const btn = card.querySelector('.x-close') || card.querySelector('.q-actions [data-k="1"]') || card.querySelector('#ex-no, #m-ok');
+      if (btn) btn.click(); // السؤال الذي لم يُجب عنه ونوافذ الفوز والخسارة لا تُغلق بالرجوع
       return true;
     }
     const active = document.querySelector('.screen.active');
     const id = active ? active.id : 'screen-home';
-    if (id === 'screen-game') $('#btn-exit').click();
-    else if (id === 'screen-bank') leaveBank();
+    if (id === 'screen-game') pauseMenu();
     else if (id !== 'screen-home') renderHome();
     else return false;
     return true;
   }
 
-  N.App = { startLevel, openBank, renderHome, askQuestion, onBack, current: () => G };
+  N.App = { startLevel, renderHome, askQuestion, payWithQuestions, onBack, current: () => G };
   document.addEventListener('DOMContentLoaded', init);
 })();

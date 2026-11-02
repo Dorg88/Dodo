@@ -61,27 +61,6 @@
       N.persist();
     },
 
-    /** إجابة في بنك الأسئلة: تسجيل + منح نقاط المعرفة.
-        سؤال جديد أو خطأ سابق صحّحه اللاعب = نقاط حسب الصعوبة، سؤال سبق حلّه = نقطة واحدة،
-        وكل ٣ إجابات صحيحة متتالية = نقطة إضافية. الخطأ يكسر السلسلة (يمنع التخمين العشوائي). */
-    answerForPoints(q, correct) {
-      const before = this.stat(q.id);
-      const solvedBefore = before && before.c > 0 && !before.due;
-      this.record(q, correct);
-      const save = N.save;
-      if (!correct) {
-        save.answerStreak = 0;
-        N.persist();
-        return { points: 0, bonus: 0 };
-      }
-      save.answerStreak++;
-      const points = solvedBefore ? 1 : N.POINTS_BY_DIFFICULTY[q.difficulty] || 1;
-      const bonus = save.answerStreak % 3 === 0 ? 1 : 0;
-      save.points += points + bonus;
-      N.persist();
-      return { points, bonus };
-    },
-
     dailyQuestion() {
       const day = N.todayKey();
       let h = 0;

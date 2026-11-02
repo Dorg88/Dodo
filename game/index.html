@@ -31,55 +31,64 @@
   <main id="app">
     <!-- ===== الشاشة الرئيسية: الصحن ===== -->
     <section id="screen-home" class="screen">
-      <header class="topbar">
+      <div class="home-scene"><div id="courtyard"></div><div class="scene-fade"></div></div>
+      <header class="topbar home-top">
         <span class="pill stars"><i class="ico-star"></i><b data-stars>٠</b></span>
         <h1 class="logo">نور المعرفة</h1>
-        <span class="pill points"><i class="ico-points"></i><b data-points>٠</b></span>
+        <button class="round-btn" data-go="settings" aria-label="الإعدادات">⚙️</button>
       </header>
-      <div class="scene-frame"><div id="courtyard"></div></div>
-      <div id="restore-card" class="restore-card"></div>
-      <button id="btn-play" class="btn-play">المستوى ١</button>
-      <nav class="home-nav">
-        <button data-go="map" class="nb-map"><span class="nav-ico">🗺️</span>الخريطة</button>
-        <button data-go="bank" class="nb-bank"><span class="nav-ico">📚</span>بنك الأسئلة</button>
-        <button data-go="daily" class="nb-daily"><span class="nav-ico">🎁</span>سؤال اليوم<i id="daily-dot" class="dot"></i></button>
-        <button data-go="settings" class="nb-settings"><span class="nav-ico">⚙️</span>الإعدادات</button>
-      </nav>
+      <div class="home-bottom">
+        <div id="restore-card" class="restore-card"></div>
+        <button id="btn-play" class="btn-play"><span>المستوى ١</span></button>
+        <nav class="tabbar">
+          <button data-go="map"><span class="tab-ico">🗺️</span><span>الخريطة</span></button>
+          <button data-go="learn"><span class="tab-ico">📚</span><span>تعلّم</span></button>
+          <button data-go="daily"><span class="tab-ico">🎁</span><span>سؤال اليوم</span><i id="daily-dot" class="dot"></i></button>
+          <button data-go="settings"><span class="tab-ico">⚙️</span><span>الإعدادات</span></button>
+        </nav>
+      </div>
     </section>
 
     <!-- ===== الخريطة ===== -->
     <section id="screen-map" class="screen">
       <header class="topbar">
-        <button class="back" data-go="home">رجوع ←</button>
+        <button class="round-btn back" data-go="home" aria-label="رجوع">➜</button>
         <h2>خريطة المستويات</h2>
         <span class="pill stars"><i class="ico-star"></i><b data-stars>٠</b></span>
       </header>
       <div id="map-list" class="map-list"></div>
     </section>
 
-    <!-- ===== بنك الأسئلة ===== -->
-    <section id="screen-bank" class="screen">
+    <!-- ===== تعلّم: التدرّب على الأسئلة ===== -->
+    <section id="screen-learn" class="screen">
       <header class="topbar">
-        <button class="back" id="bank-back">رجوع ←</button>
-        <h2>بنك الأسئلة</h2>
-        <span class="pill points"><i class="ico-points"></i><b data-points>٠</b></span>
+        <button class="round-btn back" data-go="home" aria-label="رجوع">➜</button>
+        <h2>تعلّم واختبر نفسك</h2>
+        <span class="pill stars"><i class="ico-star"></i><b data-stars>٠</b></span>
       </header>
-      <p class="bank-intro">أجب عن الأسئلة واجمع <b>نقاط المعرفة 💡</b>، ثم استعملها لتحصل على حركات ومساعدات في اللعب!</p>
-      <div id="bank-prices" class="prices"></div>
-      <div id="bank-diff" class="segmented"></div>
-      <p id="bank-streak" class="streak"></p>
-      <div id="bank-cats" class="cat-grid"></div>
+      <p class="learn-intro">تدرّب على الأسئلة في أي وقت. وحين تعلق في المستوى، تدفع بالمعرفة: تجيب عن أسئلة بدلاً من الشراء!</p>
+      <div id="learn-diff" class="segmented"></div>
+      <div id="learn-cats" class="cat-grid"></div>
     </section>
 
     <!-- ===== اللعب ===== -->
     <section id="screen-game" class="screen">
-      <div class="hud">
-        <button id="btn-exit" class="icon-btn" aria-label="خروج">✕</button>
-        <div class="moves"><small>الحركات</small><b id="hud-moves">٠</b></div>
-        <div class="goals-wrap"><small id="hud-level">المستوى</small><div id="hud-goals" class="goals"></div></div>
+      <div class="game-bg"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="hud2">
+        <div class="hud-panel">
+          <div class="hp-goals"><span class="hp-title">الأهداف</span><div id="hud-goals" class="goals"></div></div>
+          <div class="hp-moves"><span class="hp-title">الحركات</span><b id="hud-moves">٠</b></div>
+          <div class="hp-side">
+            <div class="hud-mascot" id="hud-mascot"></div>
+            <div class="level-ribbon"><span id="hud-level">المستوى ١</span></div>
+          </div>
+        </div>
       </div>
       <div id="board-host" class="board-host"></div>
-      <div id="boosters" class="boosters"></div>
+      <div class="tray">
+        <div id="boosters" class="boosters"></div>
+        <button id="btn-exit" class="round-btn pause" aria-label="إيقاف مؤقت"><b>❚❚</b></button>
+      </div>
     </section>
   </main>
 

@@ -35,90 +35,90 @@
 
   N.LEVELS = [
     // ---------- الفصل الأول ----------
-    { id: 1, chapter: 1, moves: 20, colors: 5, layout: full(7, 7), goals: [{ type: 0, count: 12 }], knowledgeRate: 0.05 },
-    { id: 2, chapter: 1, moves: 22, colors: 5, layout: full(7, 7), goals: [{ type: 1, count: 14 }, { type: 3, count: 14 }], knowledgeRate: 0.05 },
+    { id: 1, chapter: 1, moves: 20, colors: 5, layout: full(7, 7), goals: [{ type: 0, count: 12 }] },
+    { id: 2, chapter: 1, moves: 22, colors: 5, layout: full(7, 7), goals: [{ type: 1, count: 14 }, { type: 3, count: 14 }] },
     {
-      id: 3, chapter: 1, moves: 22, colors: 5, goals: [], knowledgeRate: 0.05,
+      id: 3, chapter: 1, moves: 22, colors: 5, goals: [],
       layout: ['........', '........', '..dddd..', '..dddd..', '..dddd..', '..dddd..', '........', '........'],
     },
     {
-      id: 4, chapter: 1, moves: 24, colors: 5, goals: [{ type: 4, count: 18 }], knowledgeRate: 0.05,
+      id: 4, chapter: 1, moves: 24, colors: 5, goals: [{ type: 4, count: 18 }],
       layout: ['x......x', '........', '........', 'dddddddd', '........', '........', '........', 'x......x'],
     },
     // ---------- الفصل الثاني ----------
-    { id: 5, chapter: 2, moves: 24, colors: 5, layout: full(), goals: [{ type: 0, count: 20 }, { type: 2, count: 20 }], knowledgeRate: 0.05 },
+    { id: 5, chapter: 2, moves: 24, colors: 5, layout: full(), goals: [{ type: 0, count: 20 }, { type: 2, count: 20 }] },
     {
-      id: 6, chapter: 2, moves: 22, colors: 5, goals: [{ type: 3, count: 18 }], knowledgeRate: 0.05,
+      id: 6, chapter: 2, moves: 22, colors: 5, goals: [{ type: 3, count: 18 }],
       layout: ['xxx..xxx', 'xx....xx', 'x......x', '........', '........', 'x......x', 'xx....xx', 'xxx..xxx'],
     },
     {
-      id: 7, chapter: 2, moves: 28, colors: 5, goals: [], knowledgeRate: 0.05,
+      id: 7, chapter: 2, moves: 28, colors: 5, goals: [],
       layout: ['........', '........', '........', '........', '........', '........', 'DDDDDDDD', 'DDDDDDDD'],
     },
     {
-      id: 8, chapter: 2, moves: 26, colors: 5, layout: full(9, 8), knowledgeRate: 0.05,
+      id: 8, chapter: 2, moves: 26, colors: 5, layout: full(9, 8),
       goals: [{ type: 1, count: 15 }, { type: 4, count: 15 }, { type: 5, count: 15 }],
     },
     // ---------- الفصل الثالث ----------
     {
-      id: 9, chapter: 3, moves: 28, colors: 5, goals: [], knowledgeRate: 0.06,
+      id: 9, chapter: 3, moves: 28, colors: 5, goals: [],
       layout: ['xx....xx', 'xx.dd.xx', '..dddd..', '.dddddd.', '.dddddd.', '..dddd..', 'xx.dd.xx', 'xx....xx'],
     },
-    { id: 10, chapter: 3, moves: 26, colors: 5, layout: full(), goals: [{ type: 1, count: 25 }, { type: 0, count: 25 }], knowledgeRate: 0.06 },
+    { id: 10, chapter: 3, moves: 26, colors: 5, layout: full(), goals: [{ type: 1, count: 25 }, { type: 0, count: 25 }] },
     {
-      id: 11, chapter: 3, moves: 30, colors: 5, goals: [], knowledgeRate: 0.06,
+      id: 11, chapter: 3, moves: 30, colors: 5, goals: [],
       layout: ['........', '........', 'DDDDDDDD', 'd......d', 'd......d', 'DDDDDDDD', '........', '........'],
     },
     {
-      id: 12, chapter: 3, moves: 26, colors: 5, goals: [{ type: 4, count: 20 }], knowledgeRate: 0.06,
+      id: 12, chapter: 3, moves: 26, colors: 5, goals: [{ type: 4, count: 20 }],
       layout: ['........', '...xx...', '........', 'dd....dd', 'dd....dd', '........', '...xx...', '........'],
     },
     // ---------- الفصل الرابع ----------
-    { id: 13, chapter: 4, moves: 30, colors: 6, layout: full(), goals: [{ type: 5, count: 20 }], knowledgeRate: 0.06 },
+    { id: 13, chapter: 4, moves: 30, colors: 6, layout: full(), goals: [{ type: 5, count: 20 }] },
     {
-      id: 14, chapter: 4, moves: 24, colors: 5, goals: [], knowledgeRate: 0.06,
+      id: 14, chapter: 4, moves: 24, colors: 5, goals: [],
       layout: ['d.d.d.d.', '.d.d.d.d', 'd.d.d.d.', '.d.d.d.d', 'd.d.d.d.', '.d.d.d.d', 'd.d.d.d.', '.d.d.d.d'],
     },
     {
-      id: 15, chapter: 4, moves: 28, colors: 6, goals: [{ type: 2, count: 18 }, { type: 3, count: 18 }], knowledgeRate: 0.06,
+      id: 15, chapter: 4, moves: 28, colors: 6, goals: [{ type: 2, count: 18 }, { type: 3, count: 18 }],
       layout: ['xx....xx', 'x......x', '........', '........', '...xx...', '...xx...', '...xx...', '........'],
     },
     {
-      id: 16, chapter: 4, moves: 32, colors: 5, goals: [], knowledgeRate: 0.06,
+      id: 16, chapter: 4, moves: 32, colors: 5, goals: [],
       layout: ['........', '.dddddd.', '.dDDDDd.', '.dDDDDd.', '.dDDDDd.', '.dDDDDd.', '.dddddd.', '........'],
     },
     // ---------- الفصل الخامس ----------
     {
-      id: 17, chapter: 5, moves: 28, colors: 6, layout: full(9, 8), knowledgeRate: 0.07,
+      id: 17, chapter: 5, moves: 28, colors: 6, layout: full(9, 8),
       goals: [{ type: 0, count: 20 }, { type: 4, count: 20 }],
     },
     {
-      id: 18, chapter: 5, moves: 30, colors: 5, goals: [{ type: 1, count: 15 }], knowledgeRate: 0.07,
+      id: 18, chapter: 5, moves: 30, colors: 5, goals: [{ type: 1, count: 15 }],
       layout: ['x..xx..x', '........', 'DD....DD', 'DD....DD', 'DD....DD', 'DD....DD', '........', 'x..xx..x'],
     },
     {
-      id: 19, chapter: 5, moves: 30, colors: 6, goals: [{ type: 5, count: 22 }, { type: 2, count: 22 }], knowledgeRate: 0.07,
+      id: 19, chapter: 5, moves: 30, colors: 6, goals: [{ type: 5, count: 22 }, { type: 2, count: 22 }],
       layout: ['xxx..xxx', 'xx....xx', 'x......x', '........', '........', '........', '........', '........'],
     },
     {
-      id: 20, chapter: 5, moves: 34, colors: 5, goals: [], knowledgeRate: 0.07,
+      id: 20, chapter: 5, moves: 34, colors: 5, goals: [],
       layout: ['DDDDDDDD', 'D......D', 'D......D', 'D..dd..D', 'D..dd..D', 'D......D', 'D......D', 'DDDDDDDD'],
     },
     // ---------- الفصل السادس ----------
     {
-      id: 21, chapter: 6, moves: 30, colors: 6, layout: full(), knowledgeRate: 0.07,
+      id: 21, chapter: 6, moves: 30, colors: 6, layout: full(),
       goals: [{ type: 0, count: 18 }, { type: 1, count: 18 }, { type: 3, count: 18 }],
     },
     {
-      id: 22, chapter: 6, moves: 32, colors: 6, goals: [], knowledgeRate: 0.07,
+      id: 22, chapter: 6, moves: 32, colors: 6, goals: [],
       layout: ['........', '........', 'dd.dd.dd', 'dd.dd.dd', 'dd.dd.dd', 'dd.dd.dd', 'dddddddd', 'dddddddd'],
     },
     {
-      id: 23, chapter: 6, moves: 30, colors: 6, goals: [{ type: 4, count: 24 }], knowledgeRate: 0.07,
+      id: 23, chapter: 6, moves: 30, colors: 6, goals: [{ type: 4, count: 24 }],
       layout: ['x......x', 'x......x', '........', '..DDDD..', '..DDDD..', '........', 'x......x', 'x......x'],
     },
     {
-      id: 24, chapter: 6, moves: 36, colors: 6, layout: full(9, 8), knowledgeRate: 0.08,
+      id: 24, chapter: 6, moves: 36, colors: 6, layout: full(9, 8),
       goals: [{ type: 0, count: 20 }, { type: 2, count: 20 }, { type: 4, count: 20 }, { type: 5, count: 20 }],
     },
   ];

@@ -77,11 +77,15 @@
     const nicheFrames = xs
       .map((x) => `<path d="M${x - 18} 214 V173 Q${x - 18} 153 ${x} 145 Q${x + 18} 153 ${x + 18} 173 V214" fill="none" stroke="#2f7fe0" stroke-width="5"/>`)
       .join('');
-    return `<svg class="courtyard" viewBox="0 0 400 300" role="img" aria-label="صحن المقام">
+    // السماء ممتدة إلى الأعلى (y سالب) لتملأ الشاشات الطويلة؛ المشهد مثبّت من الأسفل
+    return `<svg class="courtyard" viewBox="0 -110 400 450" preserveAspectRatio="xMidYMax slice" role="img" aria-label="صحن المقام">
       <defs>
-        <linearGradient id="cySky" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stop-color="#4fc3ff"/><stop offset=".6" stop-color="#a6e6ff"/><stop offset="1" stop-color="#fff2c9"/>
+        <linearGradient id="cySky" x1="0" y1="-110" x2="0" y2="220" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#2f7ff5"/><stop offset=".45" stop-color="#5cbcff"/><stop offset=".8" stop-color="#b2ebff"/><stop offset="1" stop-color="#fff2c9"/>
         </linearGradient>
+        <radialGradient id="cySun" cx="318" cy="-40" r="120" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#fff6c2" stop-opacity=".9"/><stop offset="1" stop-color="#fff6c2" stop-opacity="0"/>
+        </radialGradient>
         <linearGradient id="cyGold" x1="0" y1="0" x2="1" y2="1">
           <stop offset="0" stop-color="#fff3a8"/><stop offset=".5" stop-color="#ffc21a"/><stop offset="1" stop-color="#e09200"/>
         </linearGradient>
@@ -102,18 +106,19 @@
       </defs>
 
       <!-- السماء والشمس والغيوم (دائماً ظاهرة) -->
-      <rect width="400" height="300" fill="url(#cySky)"/>
+      <rect x="-200" y="-110" width="800" height="460" fill="url(#cySky)"/>
+      <circle cx="318" cy="-40" r="120" fill="url(#cySun)"/>
       <g class="sun">
         <g class="rays" stroke="#ffc21a" stroke-width="5" stroke-linecap="round">
-          ${Array.from({ length: 10 }, (_, i) => {
-            const a = (i * Math.PI) / 5;
-            return `<line x1="${352 + 30 * Math.cos(a)}" y1="${48 + 30 * Math.sin(a)}" x2="${352 + 40 * Math.cos(a)}" y2="${48 + 40 * Math.sin(a)}"/>`;
+          ${Array.from({ length: 12 }, (_, i) => {
+            const a = (i * Math.PI) / 6;
+            return `<line x1="${318 + 30 * Math.cos(a)}" y1="${-40 + 30 * Math.sin(a)}" x2="${318 + 40 * Math.cos(a)}" y2="${-40 + 40 * Math.sin(a)}"/>`;
           }).join('')}
         </g>
-        <circle cx="352" cy="48" r="23" fill="#ffd23f" stroke="${INK}" stroke-width="2.5"/>
-        <circle cx="345" cy="41" r="7" fill="#fff6c2" opacity=".8"/>
+        <circle cx="318" cy="-40" r="23" fill="#ffd23f" stroke="${INK}" stroke-width="2.5"/>
+        <circle cx="311" cy="-47" r="7" fill="#fff6c2" opacity=".8"/>
       </g>
-      ${cloud(20, 30, 0.9, 'c1')}${cloud(150, 12, 0.6, 'c2')}${cloud(250, 70, 0.55, 'c3')}
+      ${cloud(40, -60, 0.9, 'c1')}${cloud(150, -10, 0.6, 'c2')}${cloud(250, 50, 0.55, 'c3')}${cloud(60, 40, 0.7, 'c2')}
 
       <g data-item="dome">
         <rect x="158" y="96" width="84" height="46" fill="#fff4dc" stroke="${INK}" stroke-width="2.5"/>
@@ -146,8 +151,8 @@
       <g data-item="lanterns">${xs.map((x) => lantern(x, 180)).join('')}${lantern(200, 168)}</g>
 
       <!-- الأرضية -->
-      <rect x="-4" y="214" width="408" height="90" fill="#f4dcae" stroke="${INK}" stroke-width="2.5"/>
-      <g data-item="floor"><rect x="-4" y="214" width="408" height="90" fill="url(#cyFloor)" stroke="${INK}" stroke-width="2.5"/></g>
+      <rect x="-4" y="214" width="408" height="130" fill="#f4dcae" stroke="${INK}" stroke-width="2.5"/>
+      <g data-item="floor"><rect x="-4" y="214" width="408" height="130" fill="url(#cyFloor)" stroke="${INK}" stroke-width="2.5"/></g>
 
       <g data-item="garden">
         ${palm(26, 1)}${palm(374, -1)}
@@ -170,6 +175,7 @@
       <!-- الحمام (دائماً ظاهر) -->
       ${dove(62, 133, 1, 1, 'd1')}${dove(338, 133, 1, -1, 'd2')}
       ${dove(0, 0, 0.8, 1, 'flying')}
+      <g transform="translate(0 -110)">${dove(0, 0, 0.7, 1, 'flying f2')}</g>
     </svg>`;
   };
 

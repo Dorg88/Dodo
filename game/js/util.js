@@ -24,8 +24,6 @@
     levelStars: {}, // {levelId: stars}
     stars: 0, // رصيد النجوم للترميم
     restored: [], // عناصر الصحن المرمّمة
-    points: 5, // نقاط المعرفة: العملة الوحيدة في اللعبة (بدلاً من الشراء)
-    answerStreak: 0, // إجابات صحيحة متتالية في بنك الأسئلة
     answers: {}, // {qid: {c: صحيح, w: خطأ, last: رقم آخر ظهور, due: للمراجعة}}
     qCounter: 0,
     daily: { last: null, streak: 0 },
@@ -33,10 +31,10 @@
     music: true, // الموسيقى
   });
 
-  // أسعار المساعدات بنقاط المعرفة — تُكسب فقط بالإجابة عن الأسئلة
-  N.COSTS = { moves: 5, hammer: 3, arrow: 4, shuffle: 2 };
+  // «الدفع بالمعرفة»: بدلاً من الشراء بالمال، يُجيب اللاعب عن أسئلة واحداً تلو الآخر.
+  // السعر = عدد الإجابات الصحيحة المطلوبة.
+  N.QPRICE = { moves: 3, hammer: 1, row: 2, col: 2, shuffle: 1 };
   N.EXTRA_MOVES = 5;
-  N.POINTS_BY_DIFFICULTY = { 1: 1, 2: 2, 3: 3 };
   N.save = DEFAULT_SAVE();
   N.loadSave = () => {
     try {
